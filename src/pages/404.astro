@@ -1,0 +1,21 @@
+---
+import Base from '../layouts/Base.astro';
+import { SERVICES } from '../data/services';
+---
+<Base title="Sayfa bulunamadı | Denizli SEO" description="Aradığınız sayfa bulunamadı." noindex>
+  <section class="phero wrap" aria-labelledby="baslik">
+    <h1 class="display phero__title" id="baslik">Bu sayfa<br />burada yok.</h1>
+    <div class="phero__foot">
+      <p class="lead phero__lead">Adres değişmiş ya da yanlış yazılmış olabilir. Aradığınız şey büyük ihtimalle şunlardan biri:</p>
+    </div>
+  </section>
+  <section class="section wrap" aria-labelledby="sayfalar">
+    <h2 class="sr-only" id="sayfalar">Sayfalar</h2>
+    <ul class="items">
+      <li><a class="link lead" href="/">Ana sayfa</a></li>
+      {SERVICES.map((s) => <li><a class="link lead" href={`/${s.slug}/`}>{s.name}</a></li>)}
+      <li><a class="link lead" href="/blog/">Blog</a></li>
+      <li><a class="link lead" href="/iletisim/">İletişim</a></li>
+    </ul>
+  </section>
+</Base>

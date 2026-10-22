@@ -63,3 +63,13 @@ Strong success criteria let you loop independently. Weak criteria ("make it work
 ---
 
 **These guidelines are working if:** fewer unnecessary changes in diffs, fewer rewrites due to overcomplication, and clarifying questions come before implementation rather than after mistakes.
+
+---
+
+# Proje notları: denizliseo.com
+
+- Astro 7 statik site. Node ≥ 22.23 gerekir; bulut oturumunda `npx -y -p node@24 npm run build` kullan.
+- Tasarım yönü taste-skill ile seçildi: "The sentence is the layout" (seed 1926919463). Yön sayfası `.taste-skill/direction.json` dosyasında; `node .claude/skills/design-taste-frontend/scripts/draw.mjs --show` ile okunur. Yeni bölümler için taste-skill kurallarına uy: eyebrow yok, gradient yok, gölge yok, monospace yok, 01/02 numaralandırma yok, başlıklar en fazla iki satır.
+- Renk ve yazı tokenları `src/styles/global.css` içinde. Fontlar: Gambarino (başlık) ve General Sans (metin), `public/fonts/` altında, Türkçe karakterler test edildi.
+- İçerik `src/data/` ve `src/content/blog/` altında. Uydurma kanıt yok: müşteri yorumu, istatistik, sıralama garantisi ya da ödül yazma. Rakam yalnızca kaynağı varsa.
+- Görsel eklerken lisansı doğrula ve `src/data/images.ts` içine yazar ile lisansı ekle; `/gorsel-kaynaklari/` sayfası oradan beslenir.

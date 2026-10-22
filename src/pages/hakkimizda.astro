@@ -1,0 +1,81 @@
+---
+import { Image, Picture } from 'astro:assets';
+import Base from '../layouts/Base.astro';
+import ContactBand from '../components/ContactBand.astro';
+import { IMAGES } from '../data/images';
+import { SITE, ADDRESS_LINE } from '../data/site';
+
+const title = "Hakkımızda: Venti Dijital Ajans’ın SEO Ekibi | Denizli SEO";
+const description =
+  "Denizli SEO, Pamukkale’deki Venti Dijital Ajans’ın SEO markasıdır. Site, arama ve reklamı tek ekipte yürütür, her ay rakamla rapor veririz.";
+const url = `${SITE.url}/hakkimizda/`;
+
+const principles = [
+  { name: 'Tek elden', text: 'Site, SEO ve reklam aynı ekipte. Bir kanalın verisi diğerini besler; işiniz ajanslar arasında bölünmez.' },
+  { name: 'Rakamla rapor', text: 'Her ay sıra, ziyaret ve gelen talep rakamla raporlanır. Sonuç vermeyen çalışma da raporda açıkça yazar.' },
+  { name: 'Doğrudan iletişim', text: 'İşi yapan kişiyle konuşursunuz. Araya hesap yöneticisi girmez, bilgi aktarılırken eksilmez.' },
+  { name: 'Garanti değil, şeffaflık', text: "Google’da sıra garanti edilemez. Biz yapılacak işi, süresini ve sonucunu açıkça yazarız." },
+];
+
+const jsonld = [
+  { '@type': 'AboutPage', '@id': `${url}#sayfa`, url, name: 'Denizli SEO hakkında', about: { '@id': `${SITE.url}/#isletme` } },
+  {
+    '@type': 'BreadcrumbList',
+    itemListElement: [
+      { '@type': 'ListItem', position: 1, name: 'Ana sayfa', item: `${SITE.url}/` },
+      { '@type': 'ListItem', position: 2, name: 'Hakkımızda', item: url },
+    ],
+  },
+];
+---
+<Base title={title} description={description} jsonld={jsonld}>
+  <section class="phero wrap" aria-labelledby="baslik">
+    <nav class="crumbs" aria-label="Sayfa yolu"><a href="/">Ana sayfa</a><span aria-hidden="true">/</span><span aria-current="page">Hakkımızda</span></nav>
+    <h1 class="display phero__title reveal-lines" id="baslik">
+      <span class="line"><span data-line style="--i:0">Venti’nin<span class="pslot"><Image src={IMAGES.palestra.src} alt="" width={240} height={100} widths={[160, 240]} sizes="6rem" loading="eager" /></span></span></span>
+      <span class="line"><span data-line style="--i:1">SEO ekibiyiz.</span></span>
+    </h1>
+    <div class="phero__foot">
+      <p class="lead phero__lead" data-load style="--d:420ms">Denizli SEO, Pamukkale’deki Venti Dijital Ajans’ın arama motoru optimizasyonu markasıdır. Venti; web sitesini, Google’daki sırayı ve reklamı tek ekipte yürütür.</p>
+      <div class="phero__act" data-load style="--d:500ms"><a class="button" href="/iletisim/">İletişime geçin</a></div>
+    </div>
+  </section>
+
+  <figure class="band">
+    <Picture src={IMAGES.laodikya.src} formats={['avif', 'webp']} widths={[640, 960, 1280]} sizes="100vw" alt={IMAGES.laodikya.alt} loading="eager" />
+  </figure>
+
+  <section class="section wrap" aria-labelledby="ilkeler">
+    <div class="grid split">
+      <div class="split__left">
+        <h2 id="ilkeler" data-reveal>Dört ilke, baştan yazılı</h2>
+        <p data-reveal style="--i:1">İşe başlamadan önce bu ilkeleri açıkça söyleriz; iş boyunca da bunlara uyarız.</p>
+        <figure class="split__pic split__pic--cap" data-reveal="open" style="--i:2">
+          <Image src={IMAGES.palestra.src} alt={IMAGES.palestra.alt} widths={[480, 720, 960]} sizes="(max-width: 768px) 100vw, 40vw" loading="lazy" />
+          <figcaption>Hierapolis’te antik palestranın kalıntıları, Léon de Laborde’un 1838 tarihli gravüründe.</figcaption>
+        </figure>
+      </div>
+      <ul class="items split__right">
+        {principles.map((p, i) => (
+          <li data-reveal style={`--i:${i % 3}`}><h3>{p.name}</h3><p>{p.text}</p></li>
+        ))}
+      </ul>
+    </div>
+  </section>
+
+  <section class="section wrap" aria-labelledby="neden">
+    <div class="grid split">
+      <div class="split__left">
+        <h2 id="neden" data-reveal>Neden ayrı bir marka?</h2>
+        <p data-reveal style="--i:1">Denizli SEO, Venti’nin arama motoru optimizasyonu hizmetlerini tek bir adreste anlatır. Google reklamları, sosyal medya ve diğer hizmetler için <a class="link" href={SITE.parent.url} rel="noopener">ventiajans.com</a> adresine bakabilirsiniz.</p>
+        <p data-reveal style="--i:2">Muhatabınız {SITE.person}. Ofisimiz {ADDRESS_LINE} adresinde.</p>
+      </div>
+      <figure class="split__right article__pic" data-reveal="open">
+        <Image src={IMAGES.kaskad.src} alt={IMAGES.kaskad.alt} widths={[640, 960, 1280]} sizes="(max-width: 768px) 100vw, 50vw" loading="lazy" />
+        <figcaption>Pamukkale’nin taşlaşmış çağlayanları, Léon de Laborde’un 1838 tarihli gravüründe.</figcaption>
+      </figure>
+    </div>
+  </section>
+
+  <ContactBand />
+</Base>

@@ -1,0 +1,16 @@
+---
+import type { Qa } from '../data/services';
+interface Props { items: Qa[]; title?: string; id?: string }
+const { items, title = 'Sık sorulanlar', id = 'sss' } = Astro.props;
+---
+<section class="section wrap faq" id={id} aria-labelledby={`${id}-baslik`}>
+  <div class="faq__row">
+    <h2 class="faq__head" id={`${id}-baslik`} data-reveal>{title}</h2>
+  </div>
+  {items.map((item, i) => (
+    <div class="faq__row" data-reveal style={`--i:${Math.min(i, 1)}`}>
+      <h3 class="faq__q">{item.q}</h3>
+      <p class="faq__a">{item.a}</p>
+    </div>
+  ))}
+</section>

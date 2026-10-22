@@ -1,0 +1,71 @@
+---
+import { Image, Picture } from 'astro:assets';
+import Base from '../layouts/Base.astro';
+import { IMAGES } from '../data/images';
+import { SITE, ADDRESS_LINE, WA_GENERAL } from '../data/site';
+
+const title = 'İletişim: Telefon, WhatsApp ve Adres | Denizli SEO';
+const description = `Denizli SEO ile iletişim: ${SITE.phoneDisplay}, WhatsApp ve ${ADDRESS_LINE}. Sitenize birlikte bakalım.`;
+const url = `${SITE.url}/iletisim/`;
+
+const jsonld = [
+  { '@type': 'ContactPage', '@id': `${url}#sayfa`, url, name: 'Denizli SEO iletişim', about: { '@id': `${SITE.url}/#isletme` } },
+  {
+    '@type': 'BreadcrumbList',
+    itemListElement: [
+      { '@type': 'ListItem', position: 1, name: 'Ana sayfa', item: `${SITE.url}/` },
+      { '@type': 'ListItem', position: 2, name: 'İletişim', item: url },
+    ],
+  },
+];
+---
+<Base title={title} description={description} jsonld={jsonld}>
+  <section class="phero wrap" aria-labelledby="baslik">
+    <nav class="crumbs" aria-label="Sayfa yolu"><a href="/">Ana sayfa</a><span aria-hidden="true">/</span><span aria-current="page">İletişim</span></nav>
+    <h1 class="display phero__title reveal-lines" id="baslik">
+      <span class="line"><span data-line style="--i:0">Sitenize<span class="pslot"><Image src={IMAGES.havuzlar.src} alt="" width={240} height={100} widths={[160, 240]} sizes="6rem" loading="eager" /></span></span></span>
+      <span class="line"><span data-line style="--i:1">birlikte bakalım.</span></span>
+    </h1>
+    <div class="phero__foot">
+      <p class="lead phero__lead" data-load style="--d:420ms">Telefon ya da WhatsApp yeterli. İşinizi ve hangi aramalarda çıkmak istediğinizi anlatın; sitenize bakıp ne yapılabileceğini söyleyelim.</p>
+      <div class="phero__act" data-load style="--d:500ms"><a class="button" href={WA_GENERAL} rel="noopener">WhatsApp’tan yazın</a></div>
+    </div>
+  </section>
+
+  <figure class="band">
+    <Picture src={IMAGES.ufuk.src} formats={['avif', 'webp']} widths={[640, 960, 1280, 1920]} sizes="100vw" alt={IMAGES.ufuk.alt} loading="eager" />
+  </figure>
+
+  <section class="section wrap" aria-labelledby="bilgiler">
+    <div class="grid split">
+      <div class="split__left">
+        <h2 id="bilgiler" data-reveal>İletişim bilgileri</h2>
+        <ul class="items" style="margin-top:2rem">
+          <li data-reveal style="--i:1"><h3>Telefon</h3><p><a class="link" href={`tel:${SITE.phone}`}>{SITE.phoneDisplay}</a>. Telefonu {SITE.person} açar.</p></li>
+          <li data-reveal style="--i:2"><h3>WhatsApp</h3><p><a class="link" href={WA_GENERAL} rel="noopener">WhatsApp’tan yazın</a>; ihtiyacınızı kısaca yazmanız yeterli.</p></li>
+          <li data-reveal style="--i:3"><h3>Adres</h3><p>{ADDRESS_LINE}. <a class="link" href={SITE.mapsUrl} rel="noopener">Google Haritalar’da yol tarifi</a>.</p></li>
+        </ul>
+        <figure class="split__pic split__pic--cap" data-reveal="open">
+          <Image src={IMAGES.laodikya.src} alt={IMAGES.laodikya.alt} widths={[480, 720, 960]} sizes="(max-width: 768px) 100vw, 40vw" loading="lazy" />
+          <figcaption>Laodikya’dan Pamukkale’ye bakış.</figcaption>
+        </figure>
+      </div>
+      <div class="split__right">
+        <h2 class="head" data-reveal>Yazarken şunları ekleyin</h2>
+        <ul class="items" style="margin-top:2rem">
+          <li data-reveal style="--i:1"><h3>Sitenizin adresi</h3><p>Varsa. Yoksa sorun değil, sıfırdan da başlayabiliriz.</p></li>
+          <li data-reveal style="--i:2"><h3>Hangi aramada çıkmak istiyorsunuz?</h3><p>Müşterinizin Google’a yazdığını düşündüğünüz iki üç arama.</p></li>
+          <li data-reveal style="--i:3"><h3>Hizmet verdiğiniz yer</h3><p>Tek dükkân mı, birkaç ilçe mi, bütün Denizli mi?</p></li>
+          <li data-reveal style="--i:4"><h3>Google İşletme Profiliniz</h3><p>Varsa bağlantısı. Haritada nerede olduğunuza oradan bakarız.</p></li>
+        </ul>
+        <figure class="split__pic" data-reveal="open">
+          <Image src={IMAGES.havuzlar.src} alt={IMAGES.havuzlar.alt} widths={[480, 720, 960]} sizes="(max-width: 768px) 100vw, 40vw" loading="lazy" />
+        </figure>
+      </div>
+    </div>
+  </section>
+
+  <figure class="band" style="margin-top:0">
+    <Picture src={IMAGES.ova.src} formats={['avif', 'webp']} widths={[640, 960, 1280]} sizes="100vw" alt={IMAGES.ova.alt} loading="lazy" />
+  </figure>
+</Base>

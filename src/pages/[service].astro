@@ -1,0 +1,141 @@
+---
+import { Image, Picture } from 'astro:assets';
+import Base from '../layouts/Base.astro';
+import Stairs from '../components/Stairs.astro';
+import Faq from '../components/Faq.astro';
+import ContactBand from '../components/ContactBand.astro';
+import { SERVICES, type Service, type ImageKey } from '../data/services';
+import { IMAGES } from '../data/images';
+import { SITE, DISTRICTS, waLink } from '../data/site';
+
+export function getStaticPaths() {
+  return SERVICES.map((service) => ({ params: { service: service.slug }, props: { service } }));
+}
+
+interface Props { service: Service }
+const { service } = Astro.props;
+const url = `${SITE.url}/${service.slug}/`;
+const slot = IMAGES[service.slot];
+const band = IMAGES[service.band];
+// a second picture for the statement column, different from the page's other two
+const SIDE: Record<string, ImageKey> = { 'yerel-seo': 'laodikya', 'teknik-seo': 'ufuk', 'icerik-seo': 'palestra', 'web-tasarim': 'havuzlar' };
+const side = IMAGES[SIDE[service.slug] ?? 'ufuk'];
+const others = SERVICES.filter((s) => s.slug !== service.slug);
+const wa = waLink(`Merhaba, ${service.name.toLocaleLowerCase('tr-TR')} hakkında bilgi almak istiyorum.`);
+
+const jsonld = [
+  {
+    '@type': 'Service',
+    '@id': `${url}#hizmet`,
+    name: service.name,
+    serviceType: service.name,
+    description: service.lead,
+    url,
+    provider: { '@id': `${SITE.url}/#isletme` },
+    areaServed: { '@type': 'AdministrativeArea', name: 'Denizli' },
+    hasOfferCatalog: {
+      '@type': 'OfferCatalog',
+      name: service.name,
+      itemListElement: service.items.map((item) => ({
+        '@type': 'Offer',
+        itemOffered: { '@type': 'Service', name: item.name, description: item.text },
+      })),
+    },
+  },
+  {
+    '@type': 'BreadcrumbList',
+    itemListElement: [
+      { '@type': 'ListItem', position: 1, name: 'Ana sayfa', item: `${SITE.url}/` },
+      { '@type': 'ListItem', position: 2, name: service.name, item: url },
+    ],
+  },
+  {
+    '@type': 'FAQPage',
+    '@id': `${url}#sss`,
+    mainEntity: service.faq.map((item) => ({
+      '@type': 'Question',
+      name: item.q,
+      acceptedAnswer: { '@type': 'Answer', text: item.a },
+    })),
+  },
+];
+---
+<Base title={service.title} description={service.description} jsonld={jsonld}>
+  <section class="phero wrap" aria-labelledby="baslik">
+    <nav class="crumbs" aria-label="Sayfa yolu">
+      <a href="/">Ana sayfa</a><span aria-hidden="true">/</span><span aria-current="page">{service.name}</span>
+    </nav>
+    <h1 class="display phero__title reveal-lines" id="baslik">
+      <span class="line"><span data-line style="--i:0">{service.h1[0]}<span class="pslot"><Image src={slot.src} alt="" width={240} height={100} widths={[160, 240]} sizes="6rem" loading="eager" /></span></span></span>
+      <span class="line"><span data-line style="--i:1">{service.h1[1]}</span></span>
+    </h1>
+    <div class="phero__foot">
+      <p class="lead phero__lead" data-load style="--d:420ms">{service.lead}</p>
+      <div class="phero__act" data-load style="--d:500ms">
+        <a class="button" href={wa} rel="noopener">WhatsApp’tan sorun</a>
+      </div>
+    </div>
+  </section>
+
+  <figure class="band">
+    <Picture src={band.src} formats={['avif', 'webp']} widths={[640, 960, 1280, 1920]} sizes="100vw" alt={service.bandAlt} loading="eager" />
+  </figure>
+
+  <section class="section wrap" aria-labelledby="ne-yapiyoruz">
+    <div class="grid split">
+      <div class="split__left">
+        <h2 id="ne-yapiyoruz" data-reveal>{service.statementHead}</h2>
+        <p data-reveal style="--i:1">{service.statement}</p>
+        <figure class="split__pic" data-reveal="open" style="--i:2">
+          <Image src={side.src} alt={side.alt} widths={[480, 720, 960]} sizes="(max-width: 768px) 100vw, 40vw" loading="lazy" />
+        </figure>
+      </div>
+      <div class="split__right">
+        <h2 class="sr-only">Ne yapıyoruz</h2>
+        <ul class="items">
+          {service.items.map((item, i) => (
+            <li data-reveal style={`--i:${i % 3}`}>
+              <h3>{item.name}</h3>
+              <p>{item.text}</p>
+            </li>
+          ))}
+        </ul>
+      </div>
+    </div>
+  </section>
+
+  {service.slug === 'yerel-seo' && (
+    <section class="section wrap" aria-labelledby="ilceler">
+      <div class="grid split">
+        <div class="split__left">
+          <h2 id="ilceler" data-reveal>{DISTRICTS.length} ilçe, {DISTRICTS.length} ayrı harita</h2>
+          <p data-reveal style="--i:1">Arama, arayanın bulunduğu yere göre değişir. Merkezefendi’den yapılan aramayla Çivril’den yapılan arama aynı haritayı göstermez. Çalışmayı müşterinizin bulunduğu ilçeye göre planlarız.</p>
+        </div>
+        <ul class="districts split__right" data-reveal style="--i:2">
+          {DISTRICTS.map((d) => <li>{d}</li>)}
+        </ul>
+      </div>
+    </section>
+  )}
+
+  <Stairs steps={service.steps} />
+
+  <Faq items={service.faq} title={`${service.name}: sorular`} />
+
+  <section class="section wrap" aria-labelledby="diger">
+    <h2 class="head" id="diger" data-reveal>Diğer hizmetler</h2>
+    <div class="rows" style="margin-top:2.5rem">
+      {others.map((o, i) => (
+        <a class="row" href={`/${o.slug}/`} data-reveal style={`--i:${i}`}>
+          <figure class="row__pic"><Image src={IMAGES[o.slot].src} alt="" widths={[320, 480]} sizes="(max-width: 768px) 33vw, 25vw" loading="lazy" /></figure>
+          <div class="row__body">
+            <h3>{o.name}</h3>
+            <p>{o.lead}</p>
+          </div>
+        </a>
+      ))}
+    </div>
+  </section>
+
+  <ContactBand />
+</Base>
