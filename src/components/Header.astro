@@ -1,26 +1,23 @@
 ---
 import { NAV, SITE, WA_GENERAL } from '../data/site';
 import { SERVICES } from '../data/services';
-
-interface Props { overlay?: boolean }
-const { overlay = false } = Astro.props;
 const path = Astro.url.pathname;
 ---
-<header class:list={['top', { 'top--over': overlay }]}>
+<header class="top">
   <a class="top__mark" href="/" aria-label="Denizli SEO ana sayfa">{SITE.name}</a>
   <nav class="top__links" aria-label="Ana menü">
     {NAV.map((item) => (
       <a href={item.href} aria-current={path === item.href ? 'page' : undefined}>{item.label}</a>
     ))}
   </nav>
-  <a class="button button--paper" href={WA_GENERAL} data-wa-query rel="noopener">WhatsApp’tan yazın</a>
+  <a class="top__act" href={WA_GENERAL} data-wa-query rel="noopener">WhatsApp’tan yazın <span class="arrow" aria-hidden="true">→</span></a>
   <button class="top__menu" type="button" aria-expanded="false" aria-controls="menu" data-menu-open>Menü</button>
 </header>
 
-<div class="menu on-dark" id="menu" role="dialog" aria-modal="true" aria-label="Menü">
+<div class="menu" id="menu" role="dialog" aria-modal="true" aria-label="Menü">
   <div class="menu__head">
-    <a class="top__mark" href="/">{SITE.name}</a>
-    <button class="top__menu" type="button" data-menu-close style="display:inline-flex">Kapat</button>
+    <a href="/">{SITE.name}</a>
+    <button type="button" data-menu-close>Kapat</button>
   </div>
   <nav class="menu__list" aria-label="Mobil menü">
     {SERVICES.map((s) => <a href={`/${s.slug}/`}>{s.name}</a>)}
@@ -29,7 +26,7 @@ const path = Astro.url.pathname;
     <a href="/iletisim/">İletişim</a>
   </nav>
   <div class="menu__foot">
-    <a class="button" href={WA_GENERAL} rel="noopener">WhatsApp’tan yazın</a>
+    <a href={WA_GENERAL} rel="noopener">WhatsApp’tan yazın</a>
     <a href={`tel:${SITE.phone}`}>{SITE.phoneDisplay}</a>
   </div>
 </div>

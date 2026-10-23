@@ -31,10 +31,11 @@ Alan adı `https://denizliseo.com` (www’suz) olarak ayarlandı. `www.denizlise
 | Ana sayfa sık sorulanlar | `src/data/faq.ts` |
 | Venti projeleri | `src/data/projects.ts` |
 | Blog yazıları | `src/content/blog/*.md` |
-| Görseller ve lisans bilgileri | `src/assets/img/`, `src/data/images.ts` |
+| Proje ekran görüntüleri | `src/assets/img/projects/` |
+| 3D harita verisi (ilçe sınırları, yükseklik) | `src/data/denizli-map.json`, `public/map/` |
 | Tasarım (renk, yazı, düzen, animasyon) | `src/styles/global.css` |
 
-Yeni blog yazısı için `src/content/blog/` içine başlık, açıklama, tarih ve görsel anahtarı olan bir `.md` dosyası eklemek yeterli. Site haritası otomatik güncellenir.
+Yeni blog yazısı için `src/content/blog/` içine başlık, açıklama, tarih ve `visual: serp` ya da `visual: chart` olan bir `.md` dosyası eklemek yeterli. Site haritası otomatik güncellenir.
 
 ## SEO altyapısı
 
@@ -43,6 +44,16 @@ Yeni blog yazısı için `src/content/blog/` içine başlık, açıklama, tarih 
 - `sitemap-index.xml` ve `robots.txt` derlemede üretilir
 - Görseller AVIF/WebP olarak, ekran boyuna göre üretilir; fontlar sitenin kendisinden yüklenir
 
+## 3D harita
+
+Ana sayfadaki ve hizmet sayfalarındaki harita three.js ile çizilir (`src/scripts/map3d.ts`). Sayfa açıldıktan sonra yüklenir; WebGL yoksa ya da JavaScript kapalıysa yerine `public/map/denizli-3d.webp` görünür.
+
+- İlçe sınırları: geoBoundaries TUR ADM2, kaynağı OpenStreetMap (ODbL). Atıf haritanın altında ve sayfa sonunda yazılı.
+- Yükseklik: AWS Terrain Tiles (Terrarium; SRTM ve diğer açık kaynaklar).
+- Sütunlardaki sıralar örnektir (`src/scripts/rank.ts`); sayfada da “örnek gösterim” olarak yazar. Gerçek ölçüm değildir.
+
+Kaydırma hareketleri GSAP ScrollTrigger ve Lenis ile yapılır (`src/scripts/motion.ts`); “hareketi azalt” ayarı açık olanlarda kapalıdır.
+
 ## Görseller
 
-Fotoğraflar, gravürler ve video Wikimedia Commons’tan, lisanslarına uygun olarak kullanıldı. Liste `/gorsel-kaynaklari/` sayfasında. Proje görüntüleri Venti projelerinin yayındaki sitelerinden alınmış ekran görüntüleridir.
+Proje görüntüleri, Venti projelerinin yayındaki sitelerinden alınmış ekran görüntüleridir. Paylaşım görseli (`public/og/denizli-seo.jpg`) 3D haritanın ekran görüntüsünden yapıldı.

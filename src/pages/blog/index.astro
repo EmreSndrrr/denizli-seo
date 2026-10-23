@@ -1,15 +1,16 @@
 ---
-import { Image, Picture } from 'astro:assets';
 import { getCollection } from 'astro:content';
 import Base from '../../layouts/Base.astro';
-import ContactBand from '../../components/ContactBand.astro';
-import { IMAGES } from '../../data/images';
+import Serp from '../../components/Serp.astro';
+import PageHead from '../../components/PageHead.astro';
+import Contact from '../../components/Contact.astro';
+import WorkPics from '../../components/WorkPics.astro';
 import { SITE } from '../../data/site';
 
 const posts = (await getCollection('blog')).sort((a, b) => b.data.date.valueOf() - a.data.date.valueOf());
 const fmt = new Intl.DateTimeFormat('tr-TR', { day: 'numeric', month: 'long', year: 'numeric' });
 const title = 'Blog: SEO ve Google Haritalar Notları | Denizli SEO';
-const description = "Denizli’deki işletmeler için SEO, Google İşletme Profili ve site hızı üzerine kısa, uygulanabilir yazılar.";
+const description = 'Denizli’deki işletmeler için SEO, Google İşletme Profili ve site hızı üzerine kısa, uygulanabilir yazılar.';
 const url = `${SITE.url}/blog/`;
 const jsonld = [
   {
@@ -30,38 +31,29 @@ const jsonld = [
 ];
 ---
 <Base title={title} description={description} jsonld={jsonld}>
-  <section class="phero wrap" aria-labelledby="baslik">
-    <nav class="crumbs" aria-label="Sayfa yolu"><a href="/">Ana sayfa</a><span aria-hidden="true">/</span><span aria-current="page">Blog</span></nav>
-    <h1 class="display phero__title reveal-lines" id="baslik">
-      <span class="line"><span data-line style="--i:0">Arama<span class="pslot"><Image src={IMAGES.kaskad.src} alt="" width={240} height={100} widths={[160, 240]} sizes="6rem" loading="eager" /></span></span></span>
-      <span class="line"><span data-line style="--i:1">üzerine notlar.</span></span>
-    </h1>
-    <div class="phero__foot">
-      <p class="lead phero__lead" data-load style="--d:420ms">Denizli’deki işletmeler için SEO, Google İşletme Profili ve site hızı üzerine kısa, uygulanabilir yazılar.</p>
-    </div>
-  </section>
+  <PageHead crumbs={[{ href: '/', label: 'Ana sayfa' }, { label: 'Blog' }]} h1={['Arama', 'üzerine notlar.']} lead="Denizli’deki işletmeler için SEO, Google İşletme Profili ve site hızı üzerine kısa, uygulanabilir yazılar.">
+    <Fragment slot="acts">
+      <a class="textlink" href="#yazilar">{posts.length} yazı <span aria-hidden="true">↓</span></a>
+    </Fragment>
+    <div class="pfrag"><Serp queries={['google işletme profili nasıl doldurulur', 'seo ne kadar sürede sonuç verir', 'denizli kuyumcu']} label="Örnek görünüm." /></div>
+  </PageHead>
 
-  <figure class="band">
-    <Picture src={IMAGES.ufuk.src} formats={['avif', 'webp']} widths={[640, 960, 1280, 1920]} sizes="100vw" alt={IMAGES.ufuk.alt} loading="eager" />
-  </figure>
-
-  <section class="section wrap" aria-labelledby="yazilar">
-    <h2 class="sr-only" id="yazilar">Yazılar</h2>
-    <div class="posts">
+  <section class="sec posts" aria-labelledby="yazilar">
+    <h2 id="yazilar" data-reveal>Yazılar</h2>
+    <ul>
       {posts.map((post, i) => (
-        <a class="post" href={`/blog/${post.id}/`} data-reveal style={`--i:${i % 2}`}>
-          <figure class="post__pic" data-reveal="open">
-            <Image src={IMAGES[post.data.image].src} alt={IMAGES[post.data.image].alt} widths={[480, 800]} sizes="(max-width: 768px) 100vw, 33vw" loading={i === 0 ? 'eager' : 'lazy'} />
-          </figure>
-          <div class="post__body">
-            <h2>{post.data.title}</h2>
-            <p>{post.data.description}</p>
-            <p class="post__meta"><time datetime={post.data.date.toISOString()}>{fmt.format(post.data.date)}</time></p>
-          </div>
-        </a>
+        <li data-reveal style={`--i:${i}`}>
+          <a href={`/blog/${post.id}/`}>
+            <span class="posts__title">{post.data.title}</span>
+            <span class="posts__text">{post.data.description}</span>
+            <span class="posts__go"><time class="small muted" datetime={post.data.date.toISOString()}>{fmt.format(post.data.date)}</time><span>Okuyun <span aria-hidden="true">→</span></span></span>
+          </a>
+        </li>
       ))}
-    </div>
+    </ul>
   </section>
 
-  <ContactBand />
+  <WorkPics title="Bu notları yazan ekibin işleri" />
+
+  <Contact />
 </Base>

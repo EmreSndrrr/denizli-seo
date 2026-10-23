@@ -1,0 +1,17 @@
+---
+// Core Web Vitals readout. Sample measurement, labelled; bars show the value against Google's "good" limit.
+const rows = [
+  { k: 'LCP', name: 'En büyük içerik', value: '1,9 sn', w: 76, limit: '≤ 2,5 sn' },
+  { k: 'INP', name: 'Etkileşim', value: '140 ms', w: 70, limit: '≤ 200 ms' },
+  { k: 'CLS', name: 'Kayma', value: '0,04', w: 40, limit: '≤ 0,1' },
+];
+---
+<div class="ui vitals" data-ui>
+  {rows.map((r) => (
+    <div class="vital" title={`${r.name}: ${r.value} (Google’ın “iyi” sınırı ${r.limit})`}>
+      <b>{r.k}</b>
+      <div class="vital__bar" aria-hidden="true"><span style={`--w:${r.w}%`}></span></div>
+      <output>{r.value}</output>
+    </div>
+  ))}
+</div>

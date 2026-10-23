@@ -9,7 +9,7 @@ const blog = defineCollection({
     description: z.string().max(170),
     date: z.coerce.date(),
     updated: z.coerce.date().optional(),
-    image: z.enum(['ufuk', 'havuzlar', 'ova', 'laodikya', 'kaskad', 'palestra']),
+    visual: z.enum(['serp', 'chart']).default('serp'),
     service: z.string().optional(),
   }),
 });

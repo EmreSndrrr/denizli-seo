@@ -1,0 +1,27 @@
+---
+// Average position over six months for a sample business. Lower is better, so the axis runs 1 at the top.
+interface Props { months?: string[]; ranks?: number[] }
+const { months = ['Oca', 'Şub', 'Mar', 'Nis', 'May', 'Haz'], ranks = [18, 14, 11, 8, 6, 4] } = Astro.props;
+const W = 420, H = 220, L = 34, R = 14, T = 14, B = 28;
+const maxR = 20;
+const x = (i: number) => L + (i * (W - L - R)) / (months.length - 1);
+const y = (r: number) => T + ((r - 1) * (H - T - B)) / (maxR - 1);
+const pts = ranks.map((r, i) => `${x(i).toFixed(1)},${y(r).toFixed(1)}`).join(' ');
+let len = 0;
+for (let i = 1; i < ranks.length; i++) len += Math.hypot(x(i) - x(i - 1), y(ranks[i]) - y(ranks[i - 1]));
+const ticks = [1, 5, 10, 15, 20];
+---
+<div class="ui" data-ui>
+  <svg class="chart" viewBox={`0 0 ${W} ${H}`} role="img" aria-label={`Örnek rapor: ortalama sıra ${ranks[0]}’den ${ranks[ranks.length - 1]}’e`} style={`--len:${Math.ceil(len)}`}>
+    {ticks.map((t) => (
+      <g>
+        <line class="grid-line" x1={L} x2={W - R} y1={y(t)} y2={y(t)} />
+        <text class="axis" x={L - 8} y={y(t) + 4} text-anchor="end">{t}</text>
+      </g>
+    ))}
+    {months.map((m, i) => <text class="axis" x={x(i)} y={H - 8} text-anchor="middle">{m}</text>)}
+    <polyline class="line" points={pts} />
+    {ranks.map((r, i) => <circle class="dot" cx={x(i)} cy={y(r)} r={i === ranks.length - 1 ? 6 : 3.5} />)}
+    <text class="axis" x={x(ranks.length - 1) - 10} y={y(ranks[ranks.length - 1]) - 12} text-anchor="end" style="fill-opacity:1;font-weight:700;font-size:13px">{ranks[ranks.length - 1]}. sıra</text>
+  </svg>
+</div>

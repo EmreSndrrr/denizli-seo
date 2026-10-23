@@ -1,16 +1,20 @@
 ---
+// Questions on the left, one answer large on the right; on a phone each answer opens under its question.
 import type { Qa } from '../data/services';
 interface Props { items: Qa[]; title?: string; id?: string }
 const { items, title = 'Sık sorulanlar', id = 'sss' } = Astro.props;
 ---
-<section class="section wrap faq" id={id} aria-labelledby={`${id}-baslik`}>
-  <div class="faq__row">
-    <h2 class="faq__head" id={`${id}-baslik`} data-reveal>{title}</h2>
+<section class="sec faq" id={id} aria-labelledby={`${id}-baslik`} data-faq>
+  <div class="faq__list">
+    <h2 class="faq__title" id={`${id}-baslik`} data-reveal>{title}</h2>
+    {items.map((item, i) => (
+      <div class="faq__row" data-reveal style={`--i:${Math.min(i + 1, 6)}`}>
+        <button class="faq__q" type="button" aria-expanded={i === 0 ? 'true' : 'false'} aria-controls={`${id}-a${i}`} data-faq-q={i}>{item.q}</button>
+        <p class="faq__inline" id={`${id}-a${i}`}>{item.a}</p>
+      </div>
+    ))}
   </div>
-  {items.map((item, i) => (
-    <div class="faq__row" data-reveal style={`--i:${Math.min(i, 1)}`}>
-      <h3 class="faq__q">{item.q}</h3>
-      <p class="faq__a">{item.a}</p>
-    </div>
-  ))}
+  <div class="faq__pane" aria-live="polite">
+    <p data-faq-pane>{items[0].a}</p>
+  </div>
 </section>

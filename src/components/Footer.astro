@@ -1,30 +1,15 @@
 ---
-import { SITE, ADDRESS_LINE, WA_GENERAL } from '../data/site';
+import { SITE } from '../data/site';
 import { SERVICES } from '../data/services';
 const year = new Date().getFullYear();
+const short: Record<string, string> = { 'yerel-seo': 'Yerel SEO', 'teknik-seo': 'Teknik SEO', 'icerik-seo': 'İçerik', 'web-tasarim': 'Web tasarım' };
 ---
-<footer class="foot on-dark">
-  <div class="grid foot__top">
-    <div class="foot__invite">
-      <h2 data-reveal>Sıranızı birlikte<br />yükseltelim.</h2>
-      <a class="button" href={WA_GENERAL} data-wa-query rel="noopener" data-reveal style="--i:1">WhatsApp’tan yazın</a>
-    </div>
-    <div class="foot__links" data-reveal style="--i:2">
-      <a href={`tel:${SITE.phone}`}>{SITE.phoneDisplay}</a>
-      <a href={WA_GENERAL} rel="noopener">WhatsApp</a>
-      <a href={SITE.mapsUrl} rel="noopener">{ADDRESS_LINE}</a>
-      <a href={SITE.parent.url} rel="noopener">ventiajans.com</a>
-    </div>
-    <nav class="foot__nav" aria-label="Alt menü" data-reveal style="--i:3">
-      {SERVICES.map((s) => <a href={`/${s.slug}/`} class="link">{s.name}</a>)}
-      <a href="/hakkimizda/" class="link">Hakkımızda</a>
-      <a href="/blog/" class="link">Blog</a>
-      <a href="/iletisim/" class="link">İletişim</a>
-    </nav>
-  </div>
-  <div class="foot__legal">
-    <span>© {year} Denizli SEO, <a href={SITE.parent.url} rel="noopener">Venti Dijital Ajans</a>’ın markasıdır.</span>
-    <span>Fotoğraflar, gravürler ve video: Wikimedia Commons, <a href="/gorsel-kaynaklari/">kaynaklar ve lisanslar</a>.</span>
-  </div>
-  <p class="foot__name" aria-hidden="true">Denizli SEO</p>
+<footer class="foot">
+  <p class="foot__what">Denizli SEO, <a href={SITE.parent.url} rel="noopener">Venti Dijital Ajans</a>’ın markası.</p>
+  <nav class="foot__links" aria-label="Alt menü">
+    {SERVICES.map((s) => <a href={`/${s.slug}/`}>{short[s.slug] ?? s.name}</a>)}
+    <a href="/hakkimizda/">Hakkımızda</a>
+    <a href="/blog/">Blog</a>
+  </nav>
+  <p class="foot__end">© {year} · Harita verisi <a href="https://www.openstreetmap.org/copyright" rel="noopener">© OpenStreetMap</a></p>
 </footer>

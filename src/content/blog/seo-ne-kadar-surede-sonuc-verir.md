@@ -2,7 +2,7 @@
 title: SEO ne kadar sürede sonuç verir?
 description: "SEO’nun sonuç verme süresini belirleyen etkenler, gerçekçi bir takvim ve her ay neyin ölçülmesi gerektiği. Hızlı sonuç vaadine neden temkinli yaklaşmalı?"
 date: 2026-10-22
-image: kaskad
+visual: chart
 service: teknik-seo
 ---
 

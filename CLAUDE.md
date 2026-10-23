@@ -69,7 +69,8 @@ Strong success criteria let you loop independently. Weak criteria ("make it work
 # Proje notları: denizliseo.com
 
 - Astro 7 statik site. Node ≥ 22.23 gerekir; bulut oturumunda `npx -y -p node@24 npm run build` kullan.
-- Tasarım yönü taste-skill ile seçildi: "The sentence is the layout" (seed 1926919463). Yön sayfası `.taste-skill/direction.json` dosyasında; `node .claude/skills/design-taste-frontend/scripts/draw.mjs --show` ile okunur. Yeni bölümler için taste-skill kurallarına uy: eyebrow yok, gradient yok, gölge yok, monospace yok, 01/02 numaralandırma yok, başlıklar en fazla iki satır.
-- Renk ve yazı tokenları `src/styles/global.css` içinde. Fontlar: Gambarino (başlık) ve General Sans (metin), `public/fonts/` altında, Türkçe karakterler test edildi.
+- Tasarım yönü taste-skill ile seçildi: "The product performs" (seed 2120178008), "Fragment on a shaped stage" açılışı ve "Night and cornflower" paleti (kullanıcı koyu, teknolojik, 3D ve kayan bir site istedi). Yön sayfası `.taste-skill/direction.json`; `node .claude/skills/design-taste-frontend/scripts/draw.mjs --show` ile okunur. Yeni bölümler için taste-skill kurallarına uy: eyebrow yok, gradient yok, gölge yok, monospace yok, 01/02 numaralandırma yok, başlıklar en fazla iki satır.
+- Sitenin fikri: Denizli’nin gerçek 3D haritası (19 ilçe, OSM sınırları + yükseklik). Her ilçede bir sütun = örnek arama sırası; hizmetler açıldıkça sütunlar yükselir. Kod: `src/scripts/map3d.ts` (three.js), `src/scripts/rank.ts` (örnek model), `src/components/MapStage.astro`, `MapStory.astro`.
+- Renk ve yazı tokenları `src/styles/global.css` içinde. Fontlar: Stack Sans Headline (başlık, 300) ve Stack Sans Text (metin), `public/fonts/` altında, Türkçe karakterler test edildi.
 - İçerik `src/data/` ve `src/content/blog/` altında. Uydurma kanıt yok: müşteri yorumu, istatistik, sıralama garantisi ya da ödül yazma. Rakam yalnızca kaynağı varsa.
-- Görsel eklerken lisansı doğrula ve `src/data/images.ts` içine yazar ile lisansı ekle; `/gorsel-kaynaklari/` sayfası oradan beslenir.
+- Görsel eklerken lisansı doğrula ve kaynağını sayfada belirt. Harita verisinin atfı (© OpenStreetMap katkıda bulunanlar) haritada ve sayfa sonunda kalmalı.

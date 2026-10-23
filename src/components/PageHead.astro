@@ -1,0 +1,24 @@
+---
+// The first screen of an inner page: the title column on the left, the page's working picture on a
+// shaped stage on the right (the map, an interface fragment or a site).
+interface Crumb { href?: string; label: string }
+interface Props { crumbs: Crumb[]; h1: [string, string]; lead: string; small?: boolean }
+const { crumbs, h1, lead, small = false } = Astro.props;
+---
+<section class:list={['phero', { 'phero--small': small }]} aria-labelledby="baslik">
+  <div class="phero__text">
+    <nav class="crumbs" aria-label="Sayfa yolu">
+      {crumbs.map((c, i) => (
+        <>
+          {i > 0 && <span aria-hidden="true">/</span>}
+          {c.href ? <a href={c.href}>{c.label}</a> : <span aria-current="page">{c.label}</span>}
+        </>
+      ))}
+    </nav>
+    <h1 id="baslik"><span>{h1[0]}</span> <span>{h1[1]}</span></h1>
+    <p class="phero__lead">{lead}</p>
+    <div class="phero__acts" data-rise style="--i:2"><slot name="acts" /></div>
+    <slot name="after" />
+  </div>
+  <div class="phero__visual"><slot /></div>
+</section>

@@ -1,11 +1,15 @@
 ---
-import { Image, Picture } from 'astro:assets';
+import { Image } from 'astro:assets';
 import Base from '../layouts/Base.astro';
-import Stairs from '../components/Stairs.astro';
+import PageHead from '../components/PageHead.astro';
+import MapStage from '../components/MapStage.astro';
+import Serp from '../components/Serp.astro';
+import Vitals from '../components/Vitals.astro';
 import Faq from '../components/Faq.astro';
-import ContactBand from '../components/ContactBand.astro';
-import { SERVICES, type Service, type ImageKey } from '../data/services';
-import { IMAGES } from '../data/images';
+import Contact from '../components/Contact.astro';
+import WorkPics from '../components/WorkPics.astro';
+import { SERVICES, type Service } from '../data/services';
+import { PROJECTS } from '../data/projects';
 import { SITE, DISTRICTS, waLink } from '../data/site';
 
 export function getStaticPaths() {
@@ -15,13 +19,24 @@ export function getStaticPaths() {
 interface Props { service: Service }
 const { service } = Astro.props;
 const url = `${SITE.url}/${service.slug}/`;
-const slot = IMAGES[service.slot];
-const band = IMAGES[service.band];
-// a second picture for the statement column, different from the page's other two
-const SIDE: Record<string, ImageKey> = { 'yerel-seo': 'laodikya', 'teknik-seo': 'ufuk', 'icerik-seo': 'palestra', 'web-tasarim': 'havuzlar' };
-const side = IMAGES[SIDE[service.slug] ?? 'ufuk'];
 const others = SERVICES.filter((s) => s.slug !== service.slug);
 const wa = waLink(`Merhaba, ${service.name.toLocaleLowerCase('tr-TR')} hakkında bilgi almak istiyorum.`);
+const shot = PROJECTS.find((p) => p.name === 'Balkan Endüstriyel Mutfak')!;
+// Venti projects that include this kind of work
+const workFor: Record<string, string[]> = {
+  'yerel-seo': ['Denizli Kuyumcu', 'Yörükoğulları Nakliyat', 'Eseoğlu Sondaj', 'Jarkotech'],
+  'teknik-seo': ['Jarkotech', 'Bilgi Dem Akademi', 'Denizli Kuyumcu', 'Balkan Endüstriyel Mutfak'],
+  'icerik-seo': ['Elea Premium Stay', 'Fairystone Travel', 'World Trip Advisor', 'Travel Agency Türkiye'],
+  'web-tasarim': ['Tekdağ Elektronik', 'Essence Travel', 'Yörükoğulları Nakliyat', 'Bilgi Dem Akademi'],
+};
+
+// what this service changes on the map, in the sample model the home page uses
+const presets: Record<string, Record<string, unknown>> = {
+  'yerel-seo': { profile: true },
+  'teknik-seo': { speed: true },
+  'icerik-seo': { content: 3 },
+  'web-tasarim': { pages: true },
+};
 
 const jsonld = [
   {
@@ -36,10 +51,7 @@ const jsonld = [
     hasOfferCatalog: {
       '@type': 'OfferCatalog',
       name: service.name,
-      itemListElement: service.items.map((item) => ({
-        '@type': 'Offer',
-        itemOffered: { '@type': 'Service', name: item.name, description: item.text },
-      })),
+      itemListElement: service.items.map((item) => ({ '@type': 'Offer', itemOffered: { '@type': 'Service', name: item.name, description: item.text } })),
     },
   },
   {
@@ -49,93 +61,81 @@ const jsonld = [
       { '@type': 'ListItem', position: 2, name: service.name, item: url },
     ],
   },
-  {
-    '@type': 'FAQPage',
-    '@id': `${url}#sss`,
-    mainEntity: service.faq.map((item) => ({
-      '@type': 'Question',
-      name: item.q,
-      acceptedAnswer: { '@type': 'Answer', text: item.a },
-    })),
-  },
+  { '@type': 'FAQPage', '@id': `${url}#sss`, mainEntity: service.faq.map((item) => ({ '@type': 'Question', name: item.q, acceptedAnswer: { '@type': 'Answer', text: item.a } })) },
 ];
 ---
 <Base title={service.title} description={service.description} jsonld={jsonld}>
-  <section class="phero wrap" aria-labelledby="baslik">
-    <nav class="crumbs" aria-label="Sayfa yolu">
-      <a href="/">Ana sayfa</a><span aria-hidden="true">/</span><span aria-current="page">{service.name}</span>
-    </nav>
-    <h1 class="display phero__title reveal-lines" id="baslik">
-      <span class="line"><span data-line style="--i:0">{service.h1[0]}<span class="pslot"><Image src={slot.src} alt="" width={240} height={100} widths={[160, 240]} sizes="6rem" loading="eager" /></span></span></span>
-      <span class="line"><span data-line style="--i:1">{service.h1[1]}</span></span>
-    </h1>
-    <div class="phero__foot">
-      <p class="lead phero__lead" data-load style="--d:420ms">{service.lead}</p>
-      <div class="phero__act" data-load style="--d:500ms">
-        <a class="button" href={wa} rel="noopener">WhatsApp’tan sorun</a>
+  <PageHead crumbs={[{ href: '/', label: 'Ana sayfa' }, { label: service.name }]} h1={service.h1} lead={service.lead}>
+    <Fragment slot="acts">
+      <a class="button" href={wa} rel="noopener">WhatsApp’tan sorun</a>
+    </Fragment>
+    <div slot="after" class="phero__ctl ctl" data-rise style="--i:3">
+      <button class="switch" type="button" role="switch" aria-checked="true" data-stage-toggle><span class="switch__knob" aria-hidden="true"></span>Haritada bu işin etkisi</button>
+      <p class="small muted">Anahtarı kapatıp açın: örnek haritada, bu iş yapılmadan önceki ve sonraki sıra.</p>
+    </div>
+    <MapStage preset={presets[service.slug]} />
+  </PageHead>
+
+  <section class="sec svc" aria-labelledby="ne-yapiyoruz">
+    <div class="svc__fixed">
+      <h2 id="ne-yapiyoruz" data-reveal>{service.statementHead}</h2>
+      <p class="lead" data-reveal style="--i:1">{service.statement}</p>
+      <div class="svc__frag" data-reveal style="--i:2">
+        {service.slug === 'teknik-seo' ? (
+          <div class="panel"><p class="panel__head">Google’ın sayfa deneyimi ölçüleri</p><Vitals /><p class="small muted">Örnek ölçüm. Çubuklar, değeri Google’ın “iyi” sınırına göre gösterir.</p></div>
+        ) : service.slug === 'web-tasarim' ? (
+          <a class="svc__shot" href={shot.url} rel="noopener" target="_blank">
+            <Image src={shot.shot!} alt={`${shot.name} sitesinin ana sayfası`} widths={[500, 800, 1100]} sizes="(max-width: 1023px) 100vw, 40vw" loading="lazy" />
+            <span class="slide__cap"><b>{shot.name}</b><span>{shot.work}</span></span>
+          </a>
+        ) : (
+          <Serp queries={service.queries} label={service.slug === 'icerik-seo' ? 'Örnek görünüm. Müşterinin sorduğu sorular.' : 'Örnek görünüm. İşletme adları temsilî.'} />
+        )}
       </div>
     </div>
-  </section>
-
-  <figure class="band">
-    <Picture src={band.src} formats={['avif', 'webp']} widths={[640, 960, 1280, 1920]} sizes="100vw" alt={service.bandAlt} loading="eager" />
-  </figure>
-
-  <section class="section wrap" aria-labelledby="ne-yapiyoruz">
-    <div class="grid split">
-      <div class="split__left">
-        <h2 id="ne-yapiyoruz" data-reveal>{service.statementHead}</h2>
-        <p data-reveal style="--i:1">{service.statement}</p>
-        <figure class="split__pic" data-reveal="open" style="--i:2">
-          <Image src={side.src} alt={side.alt} widths={[480, 720, 960]} sizes="(max-width: 768px) 100vw, 40vw" loading="lazy" />
-        </figure>
-      </div>
-      <div class="split__right">
-        <h2 class="sr-only">Ne yapıyoruz</h2>
-        <ul class="items">
-          {service.items.map((item, i) => (
-            <li data-reveal style={`--i:${i % 3}`}>
-              <h3>{item.name}</h3>
-              <p>{item.text}</p>
-            </li>
-          ))}
-        </ul>
-      </div>
+    <div class="svc__items">
+      <h2 class="sr-only">Bu işte ne yapıyoruz</h2>
+      <ul>
+        {service.items.map((item) => (
+          <li data-reveal><h3>{item.name}</h3><p>{item.text}</p></li>
+        ))}
+      </ul>
     </div>
   </section>
 
   {service.slug === 'yerel-seo' && (
-    <section class="section wrap" aria-labelledby="ilceler">
-      <div class="grid split">
-        <div class="split__left">
-          <h2 id="ilceler" data-reveal>{DISTRICTS.length} ilçe, {DISTRICTS.length} ayrı harita</h2>
-          <p data-reveal style="--i:1">Arama, arayanın bulunduğu yere göre değişir. Merkezefendi’den yapılan aramayla Çivril’den yapılan arama aynı haritayı göstermez. Çalışmayı müşterinizin bulunduğu ilçeye göre planlarız.</p>
-        </div>
-        <ul class="districts split__right" data-reveal style="--i:2">
-          {DISTRICTS.map((d) => <li>{d}</li>)}
-        </ul>
+    <section class="sec districts" aria-labelledby="ilceler">
+      <div class="districts__head">
+        <h2 id="ilceler" data-reveal>{DISTRICTS.length} ilçe, {DISTRICTS.length} ayrı harita</h2>
+        <p data-reveal style="--i:1">Arama, arayanın bulunduğu yere göre değişir. Merkezefendi’den yapılan aramayla Çivril’den yapılan arama aynı haritayı göstermez. Hizmet verdiğiniz her ilçe için ayrı bakarız.</p>
       </div>
+      <ul class="districts__list" data-reveal style="--i:2">{DISTRICTS.map((d) => <li>{d}</li>)}</ul>
     </section>
   )}
 
-  <Stairs steps={service.steps} />
+  <WorkPics names={workFor[service.slug]} title="Bu işi yaptığımız siteler" />
 
-  <Faq items={service.faq} title={`${service.name}: sorular`} />
-
-  <section class="section wrap" aria-labelledby="diger">
-    <h2 class="head" id="diger" data-reveal>Diğer hizmetler</h2>
-    <div class="rows" style="margin-top:2.5rem">
-      {others.map((o, i) => (
-        <a class="row" href={`/${o.slug}/`} data-reveal style={`--i:${i}`}>
-          <figure class="row__pic"><Image src={IMAGES[o.slot].src} alt="" widths={[320, 480]} sizes="(max-width: 768px) 33vw, 25vw" loading="lazy" /></figure>
-          <div class="row__body">
-            <h3>{o.name}</h3>
-            <p>{o.lead}</p>
-          </div>
-        </a>
+  <section class="sec steps" aria-labelledby="adimlar">
+    <h2 id="adimlar" data-reveal>Nasıl ilerleriz</h2>
+    <ol>
+      {service.steps.map((s, i) => (
+        <li data-reveal style={`--i:${i}`}><p class="steps__line">{s.line}</p><p>{s.text}</p></li>
       ))}
-    </div>
+    </ol>
   </section>
 
-  <ContactBand />
+  <Faq items={service.faq} title="Sorular" />
+
+  <section class="sec others" aria-labelledby="diger">
+    <h2 id="diger" data-reveal>Diğer hizmetler</h2>
+    <ul>
+      {others.map((o, i) => (
+        <li data-reveal style={`--i:${i}`}>
+          <a href={`/${o.slug}/`}><span class="others__name">{o.name} <span aria-hidden="true">→</span></span><span class="others__text">{o.lead}</span></a>
+        </li>
+      ))}
+    </ul>
+  </section>
+
+  <Contact />
 </Base>

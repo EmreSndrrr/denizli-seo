@@ -46,7 +46,8 @@ export const DISTRICTS = [
 ];
 
 export const NAV = [
-  { href: '/#hizmetler', label: 'Hizmetler' },
+  { href: '/#dort-is', label: 'Hizmetler' },
+  { href: '/#isler', label: 'İşler' },
   { href: '/blog/', label: 'Blog' },
   { href: '/iletisim/', label: 'İletişim' },
 ];

@@ -1,0 +1,32 @@
+---
+// The 3D map of Denizli on its stage: a poster for no-script visitors, the canvas, the district labels,
+// and (for the ranking views) the readout of the search. Behaviour lives in scripts/site.ts.
+interface Props {
+  mode?: 'rank' | 'place';
+  preset?: Record<string, unknown>;   // initial MapState for a ranking view
+  place?: { district: string; badge: string };
+  query?: string;
+}
+const { mode = 'rank', preset = {}, place, query = 'denizli kuyumcu' } = Astro.props;
+---
+<div class="stage" data-stage data-mode={mode} data-preset={JSON.stringify(preset)} data-place={place ? JSON.stringify(place) : undefined}>
+  <div class="stage__map" data-ui>
+    <img class="stage__poster" src="/map/denizli-3d.webp" width="988" height="1180" alt="Denizli’nin 19 ilçesi ve dağları, üç boyutlu harita" />
+    <canvas class="stage__canvas" aria-hidden="true" data-map-canvas></canvas>
+    <div class="stage__labels" aria-hidden="true" data-map-labels></div>
+    {mode === 'rank' && (
+      <div class="readout">
+        <div class="readout__q" role="img" aria-label={`Google araması: ${query}`}>
+          <svg width="16" height="16" viewBox="0 0 24 24" aria-hidden="true"><path fill="currentColor" d="M15.5 14h-.79l-.28-.27A6.47 6.47 0 0 0 16 9.5 6.5 6.5 0 1 0 9.5 16c1.61 0 3.09-.59 4.23-1.57l.27.28v.79l5 4.99L20.49 19l-4.99-5Zm-6 0C7.01 14 5 11.99 5 9.5S7.01 5 9.5 5 14 7.01 14 9.5 11.99 14 9.5 14Z"/></svg>
+          <span data-out-query>{query}</span>
+        </div>
+        <dl class="readout__nums" aria-live="polite">
+          <div><dt>İlk üçte olduğunuz ilçe</dt><dd><span data-out-top3>0</span><small> / 19</small></dd></div>
+          <div><dt>Ortalama sıranız</dt><dd data-out-avg>14,0</dd></div>
+        </dl>
+        <p class="readout__legend"><span><i data-tier="top"></i>İlk 3</span><span><i data-tier="mid"></i>4–10</span><span><i data-tier="low"></i>11 ve sonrası</span></p>
+      </div>
+    )}
+    <p class="stage__note">{mode === 'rank' ? 'Örnek gösterim. ' : ''}Harita © OpenStreetMap katkıda bulunanlar · Yükseklik: AWS Terrain Tiles</p>
+  </div>
+</div>

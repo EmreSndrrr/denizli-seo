@@ -1,9 +1,10 @@
 ---
-import { Image, Picture } from 'astro:assets';
 import { getCollection, render } from 'astro:content';
 import Base from '../../layouts/Base.astro';
-import ContactBand from '../../components/ContactBand.astro';
-import { IMAGES } from '../../data/images';
+import Serp from '../../components/Serp.astro';
+import ReportChart from '../../components/ReportChart.astro';
+import Contact from '../../components/Contact.astro';
+import WorkPics from '../../components/WorkPics.astro';
 import { SITE } from '../../data/site';
 import { serviceBySlug } from '../../data/services';
 
@@ -15,7 +16,6 @@ export async function getStaticPaths() {
 const { post } = Astro.props;
 const others = (await getCollection('blog')).filter((p) => p.id !== post.id).sort((a, b) => b.data.date.valueOf() - a.data.date.valueOf()).slice(0, 2);
 const { Content } = await render(post);
-const pic = IMAGES[post.data.image];
 const url = `${SITE.url}/blog/${post.id}/`;
 const fmt = new Intl.DateTimeFormat('tr-TR', { day: 'numeric', month: 'long', year: 'numeric' });
 const words = (post.body ?? '').split(/\s+/).filter(Boolean).length;
@@ -35,7 +35,7 @@ const jsonld = [
     datePublished: published,
     dateModified: modified,
     inLanguage: 'tr-TR',
-    image: new URL(pic.src.src, SITE.url).href,
+    image: `${SITE.url}/og/denizli-seo.jpg`,
     author: { '@type': 'Organization', '@id': `${SITE.url}/#isletme`, name: SITE.name },
     publisher: { '@id': `${SITE.url}/#isletme` },
     wordCount: words,
@@ -51,39 +51,39 @@ const jsonld = [
 ];
 ---
 <Base title={`${post.data.title} | Denizli SEO`} description={post.data.description} jsonld={jsonld} type="article" published={published} modified={modified}>
-  <article class="section wrap" style="padding-top: clamp(2rem, 6vw, 5rem)">
-    <div class="grid">
-      <div class="article">
-        <nav class="crumbs" aria-label="Sayfa yolu"><a href="/">Ana sayfa</a><span aria-hidden="true">/</span><a href="/blog/">Blog</a></nav>
-        <h1>{post.data.title}</h1>
-        <p class="article__meta"><time datetime={published}>{fmt.format(post.data.date)}</time> · {minutes} dakikalık okuma · Denizli SEO</p>
-        <figure class="article__pic">
-          <Picture src={pic.src} formats={['avif', 'webp']} widths={[640, 960, 1280]} sizes="(max-width: 768px) 100vw, 66vw" alt={pic.alt} loading="eager" />
-          <figcaption>{pic.credit.author}, {pic.credit.license}. <a href="/gorsel-kaynaklari/">Kaynak</a></figcaption>
-        </figure>
-        <div class="prose">
-          <Content />
-        </div>
+  <section class="phero phero--post" aria-labelledby="baslik">
+    <div class="phero__text">
+      <nav class="crumbs" aria-label="Sayfa yolu"><a href="/">Ana sayfa</a><span aria-hidden="true">/</span><a href="/blog/">Blog</a></nav>
+      <h1 id="baslik">{post.data.title}</h1>
+      <p class="phero__lead" data-rise style="--i:1">{post.data.description}</p>
+      <p class="small muted" data-rise style="--i:2"><time datetime={published}>{fmt.format(post.data.date)}</time> · {minutes} dakikalık okuma</p>
+    </div>
+    <div class="phero__visual">
+      <div class="pfrag" data-reveal>
+        {post.data.visual === 'serp' ? <Serp label="Örnek görünüm." /> : <div class="panel"><p class="panel__head">Örnek rapor: altı ayda ortalama sıra</p><ReportChart /></div>}
       </div>
+    </div>
+  </section>
+
+  <article class="sec post" aria-labelledby="baslik">
+    <div class="prose">
+      <Content />
     </div>
   </article>
 
-  <section class="section wrap" aria-labelledby="devami">
-    <h2 class="head" id="devami" data-reveal>Devamını okuyun</h2>
-    <div class="rows" style="margin-top:2.5rem">
+  <section class="sec others" aria-labelledby="devami">
+    <h2 id="devami" data-reveal>Devamını okuyun</h2>
+    <ul>
       {others.map((o, i) => (
-        <a class="row" href={`/blog/${o.id}/`} data-reveal style={`--i:${i}`}>
-          <figure class="row__pic"><Image src={IMAGES[o.data.image].src} alt="" widths={[320, 480]} sizes="(max-width: 768px) 33vw, 25vw" loading="lazy" /></figure>
-          <div class="row__body"><h3>{o.data.title}</h3><p>{o.data.description}</p></div>
-        </a>
+        <li data-reveal style={`--i:${i}`}><a href={`/blog/${o.id}/`}><span class="others__name">{o.data.title} <span aria-hidden="true">→</span></span><span class="others__text">{o.data.description}</span></a></li>
       ))}
       {service && (
-        <a class="row" href={`/${service.slug}/`} data-reveal style="--i:2">
-          <figure class="row__pic"><Image src={IMAGES[service.band].src} alt="" widths={[320, 480]} sizes="(max-width: 768px) 33vw, 25vw" loading="lazy" /></figure>
-          <div class="row__body"><h3>İlgili hizmet: {service.name}</h3><p>{service.lead}</p></div>
-        </a>
+        <li data-reveal style="--i:1"><a href={`/${service.slug}/`}><span class="others__name">İlgili hizmet: {service.name} <span aria-hidden="true">→</span></span><span class="others__text">{service.lead}</span></a></li>
       )}
-    </div>
+    </ul>
   </section>
-  <ContactBand />
+
+  <WorkPics title="Bu notları yazan ekibin işleri" />
+
+  <Contact />
 </Base>

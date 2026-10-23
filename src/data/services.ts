@@ -1,5 +1,4 @@
 // Copy for the four service pages. Plain facts and method only: no invented results or promises.
-export type ImageKey = 'ufuk' | 'havuzlar' | 'ova' | 'laodikya' | 'kaskad' | 'palestra';
 
 export interface Step { line: string; text: string }
 export interface Qa { q: string; a: string }
@@ -8,10 +7,8 @@ export interface Service {
   name: string;           // used in navigation, breadcrumbs and the home paragraph
   title: string;          // <title>
   description: string;    // meta description
-  h1: [string, string];   // two authored lines; the picture slot sits at the end of line one
-  slot: ImageKey;
-  band: ImageKey;         // the wide picture under the first screen
-  bandAlt: string;
+  h1: [string, string];   // two authored lines
+  queries: string[];      // searches this service answers, shown on the page
   lead: string;
   statementHead: string;
   statement: string;
@@ -28,9 +25,7 @@ export const SERVICES: Service[] = [
     description:
       "Google Haritalar’da ve “yakınımdaki” aramalarında Denizli’deki müşterinin sizi bulması için İşletme Profili, yorum ve konum çalışması.",
     h1: ['Haritada', 'öne çıkın.'],
-    slot: 'havuzlar',
-    band: 'ova',
-    bandAlt: "Pamukkale travertenlerinden aşağıdaki kasabaya ve Denizli ovasına bakış",
+    queries: ['denizli kuyumcu', 'yakınımdaki eczane', 'merkezefendi diş hekimi', 'pamukkale pansiyon'],
     lead:
       "Yerel SEO; Google Haritalar’da ve “yakınımdaki” aramalarında, Denizli’de sizi arayan müşterinin karşısına çıkmanız için yapılan çalışmadır.",
     statementHead: 'Haritadaki ilk üç',
@@ -65,9 +60,7 @@ export const SERVICES: Service[] = [
     description:
       'Sitenizin Google tarafından sorunsuz taranması, doğru sayfaların dizine girmesi ve telefonda hızlı açılması için teknik SEO denetimi ve düzeltme.',
     h1: ['Siteniz', 'hızlı açılsın.'],
-    slot: 'kaskad',
-    band: 'havuzlar',
-    bandAlt: 'Pamukkale travertenlerinde basamak basamak dizilmiş su havuzları',
+    queries: ['site neden açılmıyor', 'google sitemi göstermiyor', 'sayfa dizine eklenmedi', 'mobil uyumlu site'],
     lead:
       'Teknik SEO; sitenizin Google tarafından eksiksiz taranması, doğru sayfaların dizine girmesi ve telefonda hızlı açılması için yapılan altyapı çalışmasıdır.',
     statementHead: 'Google önce okur',
@@ -101,9 +94,7 @@ export const SERVICES: Service[] = [
     description:
       "Müşterinizin Google’a sorduğu soruları bulur, bunları yanıtlayan hizmet sayfaları ve blog yazıları hazırlarız. Anahtar kelime araştırması ve içerik planı.",
     h1: ['İçerikle', 'soruyu yanıtlayın.'],
-    slot: 'laodikya',
-    band: 'kaskad',
-    bandAlt: "Léon de Laborde’un 1838 tarihli gravürü: Pamukkale’nin taşlaşmış çağlayanları",
+    queries: ['kuyumcu fiyatları', 'diş beyazlatma ne kadar', 'kombi bakımı ne zaman yapılır', 'düğün salonu fiyatları denizli'],
     lead:
       "İçerik SEO’su; müşterinizin Google’a yazdığı soruları bulup bunları en iyi yanıtlayan sayfaları hazırlamaktır.",
     statementHead: 'Her arama bir soru',
@@ -137,9 +128,7 @@ export const SERVICES: Service[] = [
     description:
       "Telefonda hızlı açılan, Google’ın sorunsuz okuduğu ve aramaya göre kurulan kurumsal web siteleri. Denizli’de SEO uyumlu web tasarım.",
     h1: ['Aramaya göre', 'site kuralım.'],
-    slot: 'ova',
-    band: 'laodikya',
-    bandAlt: "Laodikya antik kentinden uzaktaki Pamukkale travertenlerine bakış",
+    queries: ['denizli web tasarım', 'kurumsal web sitesi', 'e-ticaret sitesi', 'seo uyumlu site'],
     lead:
       'Sitenizi tasarlarken önce müşterinin Google’da ne aradığına bakarız; sayfaları, başlıkları ve adresleri buna göre kurarız.',
     statementHead: 'Önce aramalar, sonra tasarım',

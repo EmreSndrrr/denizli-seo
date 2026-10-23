@@ -1,21 +1,22 @@
 ---
 import Base from '../layouts/Base.astro';
+import PageHead from '../components/PageHead.astro';
+import MapStage from '../components/MapStage.astro';
 import { SERVICES } from '../data/services';
+import WorkPics from '../components/WorkPics.astro';
 ---
 <Base title="Sayfa bulunamadı | Denizli SEO" description="Aradığınız sayfa bulunamadı." noindex>
-  <section class="phero wrap" aria-labelledby="baslik">
-    <h1 class="display phero__title" id="baslik">Bu sayfa<br />burada yok.</h1>
-    <div class="phero__foot">
-      <p class="lead phero__lead">Adres değişmiş ya da yanlış yazılmış olabilir. Aradığınız şey büyük ihtimalle şunlardan biri:</p>
-    </div>
-  </section>
-  <section class="section wrap" aria-labelledby="sayfalar">
-    <h2 class="sr-only" id="sayfalar">Sayfalar</h2>
-    <ul class="items">
-      <li><a class="link lead" href="/">Ana sayfa</a></li>
-      {SERVICES.map((s) => <li><a class="link lead" href={`/${s.slug}/`}>{s.name}</a></li>)}
-      <li><a class="link lead" href="/blog/">Blog</a></li>
-      <li><a class="link lead" href="/iletisim/">İletişim</a></li>
+  <PageHead crumbs={[{ href: '/', label: 'Ana sayfa' }, { label: '404' }]} h1={['Bu sayfa', 'burada yok.']} lead="Adres değişmiş ya da yanlış yazılmış olabilir. Aradığınız büyük ihtimalle şunlardan biri:">
+    <Fragment slot="acts">
+      <a class="button" href="/">Ana sayfa</a>
+      <a class="textlink" href="/iletisim/">İletişim <span aria-hidden="true">→</span></a>
+    </Fragment>
+    <ul slot="after" class="phero__links" data-rise style="--i:3">
+      {SERVICES.map((s) => <li><a href={`/${s.slug}/`}>{s.name}</a></li>)}
+      <li><a href="/blog/">Blog</a></li>
     </ul>
-  </section>
+    <MapStage mode="place" place={{ district: 'Merkezefendi', badge: '404' }} />
+  </PageHead>
+
+  <WorkPics />
 </Base>

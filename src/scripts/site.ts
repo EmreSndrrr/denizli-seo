@@ -1,41 +1,48 @@
-// Small, dependency-free behaviour for the whole site. Every effect has a finished state without it.
+// Behaviour for the whole site. Every part has a finished state without it; the 3D map and the
+// scroll motion are loaded on demand.
+import { ranks, summary, fmt, type MapState } from './rank';
+import type { DenizliMap } from './map3d';
 
 const reduced = window.matchMedia('(prefers-reduced-motion: reduce)').matches;
+const PHONE = '905445965622';
+const waUrl = (text: string) => `https://wa.me/${PHONE}?text=${encodeURIComponent(text)}`;
+const openOut = (url: string) => { const w = window.open(url, '_blank', 'noopener'); if (!w) location.href = url; };
 
-// 0. Long articles: blocks below the first screen arrive as they are reached.
+// Long articles: blocks below the first screen arrive as they are reached.
 if (!reduced) {
   document.querySelectorAll<HTMLElement>('.prose > h2, .prose > h3, .prose > ul, .prose > ol').forEach((el) => {
     if (el.getBoundingClientRect().top > window.innerHeight) el.dataset.reveal = '';
   });
 }
 
-// 1. Reveal once as an element enters the viewport.
+// Reveal once as an element reaches the lower part of the screen, or once it has been scrolled past
+// (a jump down the page must not leave anything hidden above).
 (() => {
-  const targets = document.querySelectorAll<HTMLElement>('[data-reveal]');
-  if (!targets.length) return;
-  if (!('IntersectionObserver' in window)) { targets.forEach((el) => el.classList.add('is-in')); return; }
-  const io = new IntersectionObserver((entries) => {
-    for (const entry of entries) {
-      if (!entry.isIntersecting) continue;
-      entry.target.classList.add('is-in');
-      io.unobserve(entry.target);
-    }
-  }, { rootMargin: '0px 0px -12% 0px', threshold: 0.08 });
-  targets.forEach((el) => io.observe(el));
-  // Safety net: anything on screen a moment after load is shown, even if the observer never fired.
-  window.addEventListener('load', () => setTimeout(() => {
-    targets.forEach((el) => { const r = el.getBoundingClientRect(); if (r.top < innerHeight && r.bottom > 0) el.classList.add('is-in'); });
-  }, 1800));
+  let pending = [...document.querySelectorAll<HTMLElement>('[data-reveal]')];
+  let ticking = false;
+  const sweep = () => {
+    ticking = false;
+    const line = innerHeight * 0.92;
+    pending = pending.filter((el) => {
+      if (el.getBoundingClientRect().top < line) { el.classList.add('is-in'); return false; }
+      return true;
+    });
+    if (!pending.length) removeEventListener('scroll', onScroll);
+  };
+  const onScroll = () => { if (!ticking) { ticking = true; requestAnimationFrame(sweep); } };
+  addEventListener('scroll', onScroll, { passive: true });
+  addEventListener('resize', onScroll, { passive: true });
+  sweep();
 })();
 
-// 2. Phone menu.
+// Phone menu.
 (() => {
   const menu = document.getElementById('menu');
   const open = document.querySelector<HTMLButtonElement>('[data-menu-open]');
   const close = document.querySelector<HTMLButtonElement>('[data-menu-close]');
   if (!menu || !open || !close) return;
   const set = (on: boolean) => {
-    if (on) menu.setAttribute('data-open', ''); else menu.removeAttribute('data-open');
+    menu.classList.toggle('is-open', on);
     open.setAttribute('aria-expanded', String(on));
     document.body.style.overflow = on ? 'hidden' : '';
     (on ? close : open).focus();
@@ -46,75 +53,189 @@ if (!reduced) {
   menu.querySelectorAll('a').forEach((a) => a.addEventListener('click', () => set(false)));
 })();
 
-// 3. The live thing: the search field inside the headline.
-//    It shows a few trades in turn until the visitor touches it; what they type goes into the
-//    WhatsApp messages on the page, so "Teklif" starts from their own search.
-(() => {
-  const input = document.querySelector<HTMLInputElement>('[data-query]');
-  if (!input) return;
-  const echoes = document.querySelectorAll<HTMLElement>('[data-query-echo]');
-  const links = document.querySelectorAll<HTMLAnchorElement>('[data-wa-query]');
-  const phone = input.dataset.phone || '';
-  const trades = (input.dataset.trades || '').split(',').filter(Boolean);
-  let touched = false;
+// A result page with several searches types them one after another.
+document.querySelectorAll<HTMLElement>('[data-serp]').forEach((el) => {
+  const q = el.querySelector<HTMLElement>('[data-serp-q]');
+  const list = (el.dataset.serp || '').split('|').filter(Boolean);
+  if (!q || list.length < 2 || reduced) return;
   let i = 0;
+  const sleep = (ms: number) => new Promise((r) => setTimeout(r, ms));
+  (async () => {
+    await sleep(2600);
+    for (;;) {
+      if (document.hidden) { await sleep(800); continue; }
+      for (let n = list[i].length; n >= 0; n--) { q.textContent = list[i].slice(0, n); await sleep(28); }
+      i = (i + 1) % list.length;
+      for (let n = 1; n <= list[i].length; n++) { q.textContent = list[i].slice(0, n); await sleep(70 + Math.random() * 50); }
+      await sleep(2600);
+    }
+  })();
+});
 
-  const message = (q: string) => `Merhaba, Denizli’de “${q}” aramasında işletmemizin nerede çıktığını öğrenmek istiyorum.`;
-  const apply = (q: string, updateLinks: boolean) => {
-    const clean = q.trim().slice(0, 40) || 'kuyumcu';
-    echoes.forEach((el) => { el.textContent = clean; });
-    if (updateLinks) links.forEach((a) => { a.href = `https://wa.me/${phone}?text=${encodeURIComponent(message(clean))}`; });
+// The 3D map loads once the page has painted, so the first screen is never held up by it.
+// Without WebGL the poster stays and the readout still answers.
+function bootMap(stage: HTMLElement, onPick?: (d: string) => void): Promise<DenizliMap | null> {
+  const canvas = stage.querySelector<HTMLCanvasElement>('[data-map-canvas]');
+  const labels = stage.querySelector<HTMLElement>('[data-map-labels]');
+  if (!canvas || !labels) return Promise.resolve(null);
+  return new Promise((resolve) => {
+    const load = () => import('./map3d')
+      .then(({ createMap }) => createMap({ canvas, labels, reduced, phone: matchMedia('(max-width: 767px)').matches, onPick }))
+      .then((m) => { stage.classList.add('is-3d'); resolve(m); })
+      .catch(() => resolve(null));
+    if (document.readyState === 'complete') setTimeout(load, 150);
+    else addEventListener('load', () => setTimeout(load, 150), { once: true });
+  });
+}
+
+const lower = (s: string) => s.toLocaleLowerCase('tr-TR');
+const BASE: MapState = { trade: 'kuyumcu', district: 'Merkezefendi', profile: false, speed: false, content: 0, pages: false };
+
+// Writes a state into every readout on the page and into the map.
+function show(state: MapState, map: DenizliMap | null) {
+  const r = ranks(state);
+  const s = summary(r);
+  const trade = lower(state.trade.trim()) || 'kuyumcu';
+  const query = `denizli ${trade}`;
+  document.querySelectorAll('[data-out-query]').forEach((el) => { el.textContent = query; });
+  document.querySelectorAll('[data-trade]').forEach((el) => { el.textContent = trade; });
+  document.querySelectorAll('[data-out-top3]').forEach((el) => { el.textContent = String(s.top3); });
+  document.querySelectorAll('[data-out-avg]').forEach((el) => { el.textContent = fmt(s.avg); });
+  document.querySelectorAll('.readout__q').forEach((el) => el.setAttribute('aria-label', `Google araması: ${query}`));
+  const text = `Merhaba, ${state.district}’de ${trade} işletmemiz var. “${query}” aramasında nerede çıktığımızı öğrenmek istiyoruz.`;
+  document.querySelectorAll<HTMLAnchorElement>('[data-wa-story]').forEach((a) => { a.href = waUrl(text); });
+  map?.setRanks(r, state.district);
+}
+
+// The story: the controls in the left column change the map on the right; scrolling switches each
+// service on as its block reaches the middle of the screen, unless the visitor set it by hand.
+(() => {
+  const form = document.querySelector<HTMLFormElement>('[data-story]');
+  const stage = document.querySelector<HTMLElement>('.story [data-stage]');
+  if (!form || !stage) return;
+  const state: MapState = { ...BASE };
+  const touched = new Set<number>();
+  let map: DenizliMap | null = null;
+  const apply = () => show(state, map);
+
+  const tradeInput = form.querySelector<HTMLInputElement>('[name="trade"]')!;
+  const districtSelect = form.querySelector<HTMLSelectElement>('[name="district"]')!;
+  const switches = [...form.querySelectorAll<HTMLButtonElement>('.switch')];
+  const speed = [...form.querySelectorAll<HTMLInputElement>('[name="speed"]')];
+  const chips = [...form.querySelectorAll<HTMLInputElement>('[name="content"]')];
+
+  const setStep = (step: number, on: boolean) => {
+    if (step === 1) { state.profile = on; switches[0]?.setAttribute('aria-checked', String(on)); }
+    if (step === 2) { state.speed = on; speed[on ? 1 : 0].checked = true; }
+    if (step === 3) { chips.forEach((c) => { c.checked = on; }); state.content = on ? chips.length : 0; }
+    if (step === 4) { state.pages = on; switches[1]?.setAttribute('aria-checked', String(on)); }
   };
 
-  const stop = () => { touched = true; window.clearInterval(timer); };
-  input.addEventListener('focus', () => { stop(); input.select(); });
-  input.addEventListener('input', () => apply(input.value, true));
-  input.form?.addEventListener('submit', (e) => { e.preventDefault(); apply(input.value, true); links[0]?.focus(); });
+  tradeInput.addEventListener('input', () => { state.trade = tradeInput.value; apply(); });
+  districtSelect.addEventListener('change', () => { state.district = districtSelect.value; map?.focusOn(state.district); apply(); });
+  switches.forEach((b, k) => b.addEventListener('click', () => {
+    const step = k === 0 ? 1 : 4;
+    touched.add(step);
+    setStep(step, b.getAttribute('aria-checked') !== 'true');
+    apply();
+  }));
+  speed.forEach((r) => r.addEventListener('change', () => { touched.add(2); state.speed = speed[1].checked; apply(); }));
+  chips.forEach((c) => c.addEventListener('change', () => { touched.add(3); state.content = chips.filter((x) => x.checked).length; apply(); }));
 
-  let timer = 0;
-  if (!reduced && trades.length > 1) {
-    timer = window.setInterval(() => {
-      if (touched || document.hidden) return;
-      const box = input.closest<HTMLElement>('.q');
-      if (!box) return;
-      i = (i + 1) % trades.length;
-      box.animate([{ opacity: 1 }, { opacity: 0 }], { duration: 160, easing: 'ease-out' }).finished.then(() => {
-        if (touched) return;
-        input.value = trades[i];
-        apply(trades[i], false);
-        box.animate([{ opacity: 0, transform: 'translateY(0.06em)' }, { opacity: 1, transform: 'none' }], { duration: 260, easing: 'cubic-bezier(0.22, 1, 0.36, 1)' });
-      });
-    }, 2600);
+  // which block is in the middle of the screen
+  const blocks = [...form.querySelectorAll<HTMLElement>('[data-step]')];
+  let active = -1;
+  const activate = (k: number) => {
+    if (k === active) return;
+    active = k;
+    blocks.forEach((b, i) => b.classList.toggle('is-active', i === k));
+    for (let s = 1; s <= 4; s++) if (!touched.has(s)) setStep(s, s <= k);
+    if (k === 0) map?.focusOn(state.district, 0.7); else map?.focusOn(null);
+    apply();
+  };
+  const io = new IntersectionObserver((entries) => {
+    for (const e of entries) if (e.isIntersecting) activate(Number((e.target as HTMLElement).dataset.step));
+  }, { rootMargin: '-45% 0px -45% 0px' });
+  blocks.forEach((b) => io.observe(b));
+
+  // the camera turns slowly with the scroll through the story
+  const story = stage.closest<HTMLElement>('.story')!;
+  let ticking = false;
+  const progress = () => {
+    ticking = false;
+    const r = story.getBoundingClientRect();
+    map?.setProgress(-r.top / Math.max(1, r.height - innerHeight));
+  };
+  addEventListener('scroll', () => { if (!ticking) { ticking = true; requestAnimationFrame(progress); } }, { passive: true });
+
+  apply();
+  bootMap(stage, (d) => { state.district = d; districtSelect.value = d; map?.focusOn(d); apply(); }).then((m) => {
+    if (!m) return;
+    map = m; apply(); progress();
+    if (active === 0) m.focusOn(state.district, 0.7);
+  });
+})();
+
+// The map on other pages: a ranking view with one switch (this service on or off), or a place.
+document.querySelectorAll<HTMLElement>('[data-stage]').forEach((stage) => {
+  if (stage.closest('.story')) return;
+  let map: DenizliMap | null = null;
+  if (stage.dataset.mode === 'place') {
+    const place = JSON.parse(stage.dataset.place || '{}') as { district: string; badge: string };
+    bootMap(stage).then((m) => { if (m) { m.placeMode(place.district, place.badge); m.focusOn(place.district, 0.75); } });
+    return;
   }
-})();
+  const preset = JSON.parse(stage.dataset.preset || '{}') as Partial<MapState>;
+  const state: MapState = { ...BASE, ...preset };
+  const toggle = document.querySelector<HTMLButtonElement>('[data-stage-toggle]');
+  toggle?.addEventListener('click', () => {
+    const on = toggle.getAttribute('aria-checked') !== 'true';
+    toggle.setAttribute('aria-checked', String(on));
+    Object.assign(state, on ? preset : Object.fromEntries(Object.entries(preset).map(([k, v]) => [k, typeof v === 'number' ? 0 : false])));
+    show(state, map);
+  });
+  show(state, map);
+  bootMap(stage).then((m) => { map = m; show(state, map); });
+});
 
-// 4. One frame, three distances: three invisible markers set the stage as they pass the middle.
-(() => {
-  const zoom = document.querySelector<HTMLElement>('[data-zoom]');
-  if (!zoom || !('IntersectionObserver' in window)) return;
-  const count = zoom.querySelector<HTMLElement>('[data-zoom-count]');
-  const marks = zoom.querySelectorAll<HTMLElement>('[data-zoom-mark]');
-  const io = new IntersectionObserver((entries) => {
-    for (const e of entries) {
-      if (!e.isIntersecting) continue;
-      const stage = (e.target as HTMLElement).dataset.zoomMark || '1';
-      zoom.dataset.stage = stage;
-      if (count) count.textContent = `${stage} / 3`;
-    }
-  }, { rootMargin: '-49% 0px -49% 0px', threshold: 0 });
-  marks.forEach((m) => io.observe(m));
-})();
+// Questions: the answer pane on wide screens, answers under their question on phones.
+document.querySelectorAll<HTMLElement>('[data-faq]').forEach((faq) => {
+  const qs = [...faq.querySelectorAll<HTMLButtonElement>('[data-faq-q]')];
+  const inline = qs.map((b) => b.nextElementSibling as HTMLElement);
+  const pane = faq.querySelector<HTMLElement>('[data-faq-pane]');
+  const wide = () => matchMedia('(min-width: 64em)').matches;
+  let current = 0;
+  const select = (i: number) => {
+    if (i === current && pane?.textContent === inline[i].textContent) return;
+    current = i;
+    qs.forEach((b, k) => b.setAttribute('aria-expanded', String(k === i)));
+    if (!pane) return;
+    pane.classList.add('is-swap');
+    window.setTimeout(() => { pane.textContent = inline[i].textContent; pane.classList.remove('is-swap'); }, reduced ? 0 : 150);
+  };
+  qs.forEach((b, i) => {
+    b.addEventListener('click', () => {
+      if (!wide() && b.getAttribute('aria-expanded') === 'true') { b.setAttribute('aria-expanded', 'false'); current = -1; return; }
+      select(i);
+    });
+    b.addEventListener('mouseenter', () => { if (wide()) select(i); });
+    b.addEventListener('focus', () => { if (wide()) select(i); });
+    b.addEventListener('keydown', (e) => {
+      if (e.key !== 'ArrowDown' && e.key !== 'ArrowUp') return;
+      e.preventDefault();
+      qs[(i + (e.key === 'ArrowDown' ? 1 : qs.length - 1)) % qs.length].focus();
+    });
+  });
+});
 
-// 5. The one clip: plays muted while on screen, pauses off screen; under reduced motion it stays on its poster.
-(() => {
-  const videos = document.querySelectorAll<HTMLVideoElement>('video[data-autoplay]');
-  if (!videos.length) return;
-  if (reduced || !('IntersectionObserver' in window)) { videos.forEach((v) => { v.controls = true; }); return; }
-  const io = new IntersectionObserver((entries) => {
-    for (const e of entries) {
-      const v = e.target as HTMLVideoElement;
-      if (e.isIntersecting) { v.play().catch(() => { v.controls = true; }); } else { v.pause(); }
-    }
-  }, { rootMargin: '120px 0px', threshold: 0.15 });
-  videos.forEach((v) => io.observe(v));
-})();
+// One field: what you do and where, sent as a WhatsApp message.
+document.querySelectorAll<HTMLFormElement>('[data-contact]').forEach((form) => {
+  form.addEventListener('submit', (e) => {
+    e.preventDefault();
+    const v = String(new FormData(form).get('text') || '').trim();
+    openOut(waUrl(`Merhaba, ${v ? v.replace(/[.!]+$/, '') + '. ' : ''}Aramamızda nerede çıktığımızı öğrenmek istiyoruz.`));
+  });
+});
+
+// Weighted scrolling and the sideways strip, only where motion is welcome.
+if (!reduced && document.querySelector('.scene, [data-stage]')) import('./motion');

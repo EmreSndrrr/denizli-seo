@@ -1,159 +1,30 @@
 ---
-import { Image, Picture } from 'astro:assets';
 import Base from '../layouts/Base.astro';
-import Stairs from '../components/Stairs.astro';
+import MapStory from '../components/MapStory.astro';
+import Exchange from '../components/Exchange.astro';
+import WorkStrip from '../components/WorkStrip.astro';
 import Faq from '../components/Faq.astro';
-import ContactBand from '../components/ContactBand.astro';
-import { IMAGES } from '../data/images';
-import { PROJECTS } from '../data/projects';
+import Contact from '../components/Contact.astro';
 import { HOME_FAQ } from '../data/faq';
-import { SITE, DEFAULT_QUERY, waLink, waQueryText } from '../data/site';
+import { SITE } from '../data/site';
 
 const title = "Denizli SEO | Google’da ve Haritalar’da Üst Sıra";
 const description =
   "Yerel SEO, Google Haritalar, teknik SEO ve içerikle Denizli’de sizi arayan müşterinin karşısına çıkmanızı sağlarız. Venti Dijital Ajans’ın SEO ekibi.";
 
-const trades = ['kuyumcu', 'diş hekimi', 'oto servis', 'avukat', 'emlakçı', 'düğün salonu', 'pide salonu'];
-const waQuery = waLink(waQueryText(DEFAULT_QUERY));
-
-const steps = [
-  { line: 'Önce sitenize bakarız.', text: 'Hangi aramada kaçıncı olduğunuzu çıkarırız.' },
-  { line: 'Sonra rakibe bakarız.', text: 'İlk sıradaki işletme neyi doğru yapıyor?' },
-  { line: 'Planı birlikte seçeriz.', text: 'Ne yapılacağı, süresi ve ücreti yazılı olur.' },
-  { line: 'Her ay rakamla konuşuruz.', text: 'Sıra, ziyaret ve gelen arama tek raporda.' },
-];
-
 const jsonld = [
-  {
-    '@type': 'WebSite',
-    '@id': `${SITE.url}/#site`,
-    url: `${SITE.url}/`,
-    name: SITE.name,
-    inLanguage: 'tr-TR',
-    publisher: { '@id': `${SITE.url}/#isletme` },
-  },
+  { '@type': 'WebSite', '@id': `${SITE.url}/#site`, url: `${SITE.url}/`, name: SITE.name, inLanguage: 'tr-TR', publisher: { '@id': `${SITE.url}/#isletme` } },
   {
     '@type': 'FAQPage',
     '@id': `${SITE.url}/#sss`,
-    mainEntity: HOME_FAQ.map((item) => ({
-      '@type': 'Question',
-      name: item.q,
-      acceptedAnswer: { '@type': 'Answer', text: item.a },
-    })),
+    mainEntity: HOME_FAQ.map((item) => ({ '@type': 'Question', name: item.q, acceptedAnswer: { '@type': 'Answer', text: item.a } })),
   },
 ];
-const last = PROJECTS.length - 1;
 ---
-<Base title={title} description={description} jsonld={jsonld} overlayHeader>
-  <section class="hero" aria-labelledby="baslik">
-    <figure class="hero__pic">
-      <Picture
-        src={IMAGES.ufuk.src}
-        formats={['avif', 'webp']}
-        widths={[640, 960, 1280, 1920]}
-        sizes="100vw"
-        alt={IMAGES.ufuk.alt}
-        loading="eager"
-        fetchpriority="high"
-      />
-    </figure>
-
-    <h1 class="hero__title display reveal-lines" id="baslik">
-      <span class="line"><span data-line style="--i:0">Denizli’de<label class="q"><input
-        data-query
-        data-phone={SITE.whatsapp}
-        data-trades={trades.join(',')}
-        type="text"
-        value={DEFAULT_QUERY}
-        aria-label="İşiniz ne? Örneğin kuyumcu. Yazdığınız arama WhatsApp mesajına eklenir."
-        autocomplete="off"
-        autocapitalize="off"
-        spellcheck="false"
-        enterkeyhint="done"
-        maxlength="28"
-      /></label></span></span>
-      <span class="line"><span data-line style="--i:1">arayan sizi bulsun.</span></span>
-    </h1>
-
-    <p class="hero__horizon">
-      <span class="a" data-load style="--d:520ms">Denizli SEO, Venti Dijital Ajans’ın SEO ekibi.</span>
-      <span class="b" data-load style="--d:600ms">Google’da ve Haritalar’da üst sıra için çalışırız.</span>
-    </p>
-
-    <p class="hero__result" data-load style="--d:700ms">
-      <span>“<span data-query-echo>{DEFAULT_QUERY}</span>” arayan biri, Google Haritalar’da önce birkaç işletme görür.</span>
-      <a href={waQuery} data-wa-query rel="noopener">Sizinki orada mı? Birlikte bakalım.</a>
-    </p>
-
-    <div class="hero__cta">
-      <a class="button" href={waQuery} data-wa-query rel="noopener">WhatsApp’tan yazın</a>
-    </div>
-  </section>
-
-  <section class="section wrap" id="hizmetler" aria-labelledby="hizmetler-baslik">
-    <h2 class="sr-only" id="hizmetler-baslik">Hizmetler</h2>
-    <div class="grid">
-      <p class="para" data-reveal>
-        <a href="/yerel-seo/">Google Haritalar’da<span class="pic-word"><Image src={IMAGES.havuzlar.src} alt="" width={160} height={84} widths={[96, 160]} sizes="4.3rem" /></span></a>
-        sizi öne çıkarır, <a href="/teknik-seo/">sitenizi hızlandırır</a>,
-        <a href="/icerik-seo/">müşterinin sorularını<span class="pic-word"><Image src={IMAGES.kaskad.src} alt="" width={160} height={84} widths={[96, 160]} sizes="4.3rem" /></span>
-        yazıya döker</a> ve gerekirse <a href="/web-tasarim/">siteyi aramaya göre<span class="pic-word"><Image src={IMAGES.laodikya.src} alt="" width={160} height={84} widths={[96, 160]} sizes="4.3rem" /></span>
-        baştan kurarız</a>.
-      </p>
-      <figure class="features__media" data-reveal="open" style="--i:1">
-        <video data-autoplay muted loop playsinline preload="none" poster="/video/pamukkale-su-poster.jpg" width="1280" height="720" aria-label="Pamukkale travertenlerinin üzerinden akan su">
-          <source src="/video/pamukkale-su.webm" type="video/webm" />
-          <source src="/video/pamukkale-su.mp4" type="video/mp4" />
-        </video>
-      </figure>
-      <div class="features__aside">
-        <p data-reveal style="--i:1">Dört iş, tek ekip: Venti Dijital Ajans’ın Pamukkale’deki ofisi. Her ay hangi aramada kaçıncı sırada olduğunuzu rakamla raporlarız.</p>
-        <a class="button" href="/iletisim/" data-reveal style="--i:2">Sitenize bakalım</a>
-      </div>
-    </div>
-  </section>
-
-  <section class="zoom" data-zoom data-stage="1" aria-labelledby="katman-baslik">
-    <span class="zoom__mark" data-zoom-mark="1" style="top:0"></span>
-    <span class="zoom__mark" data-zoom-mark="2" style="top:100svh"></span>
-    <span class="zoom__mark" data-zoom-mark="3" style="top:200svh"></span>
-    <div class="zoom__stage">
-      <figure class="zoom__frame">
-        <Image src={IMAGES.havuzlar.src} alt={IMAGES.havuzlar.alt} widths={[960, 1400, 1920]} sizes="(max-width: 768px) 160vw, 90vw" loading="lazy" />
-      </figure>
-      <h2 class="zoom__title display" id="katman-baslik">
-        <span class="zoom__a">Katman katman</span>
-        <span class="zoom__b">yükselir.</span>
-      </h2>
-      <p class="zoom__cap">Pamukkale’nin basamakları, sıcak sudaki kirecin binlerce yıl birikmesiyle oluştu. Arama sırası da her ay eklenen sayfa, yorum ve bağlantıyla yükselir.</p>
-      <p class="zoom__count" data-zoom-count aria-hidden="true">1 / 3</p>
-    </div>
-  </section>
-
-  <Stairs steps={steps} />
-
-  <section class="section wrap" id="isler" aria-labelledby="isler-baslik">
-    <h2 class="sr-only" id="isler-baslik">Venti’nin işleri</h2>
-    <p class="names" data-reveal>
-      <strong>Venti’nin işleri:</strong>{' '}
-      {PROJECTS.map((p, i) => (
-        <Fragment>
-          <a href={p.url} rel="noopener" target="_blank" title={p.work}>{p.name}{p.shot && (
-            <span class:list={['frame', { 'frame--late': i > 2 }]}><Image src={p.shot} alt="" width={96} height={64} widths={[64, 96]} sizes="3rem" /></span>
-          )}</a>{i < last ? ', ' : '.'}
-        </Fragment>
-      ))}
-    </p>
-    <p class="names__meta" data-reveal style="--i:1">
-      {PROJECTS.length} proje. Venti Dijital Ajans olarak tasarladığımız, aramada ve reklamda yürüttüğümüz siteler; hepsi yayında. Ayrıntılar <a class="link" href="https://www.ventiajans.com/projeler/" rel="noopener">ventiajans.com/projeler</a> sayfasında.
-    </p>
-  </section>
-
-  <figure class="rest" data-reveal="open">
-    <Picture src={IMAGES.ova.src} formats={['avif', 'webp']} widths={[640, 960, 1280, 1920]} sizes="100vw" alt={IMAGES.ova.alt} loading="lazy" />
-  </figure>
-
+<Base title={title} description={description} jsonld={jsonld}>
+  <MapStory />
+  <Exchange />
+  <WorkStrip />
   <Faq items={HOME_FAQ} />
-
-  <ContactBand />
+  <Contact />
 </Base>

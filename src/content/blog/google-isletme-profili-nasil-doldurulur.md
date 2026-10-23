@@ -2,7 +2,7 @@
 title: Google İşletme Profili nasıl doldurulur?
 description: "Denizli’deki işletmeler için Google İşletme Profili kontrol listesi: sahiplik, kategori, ad-adres-telefon, saatler, fotoğraflar ve yorumlar."
 date: 2026-10-22
-image: havuzlar
+visual: serp
 service: yerel-seo
 ---
 

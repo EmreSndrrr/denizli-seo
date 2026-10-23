@@ -1,0 +1,51 @@
+---
+// How it works as three exchanges: what the client writes, and what comes back.
+import Serp from './Serp.astro';
+import ReportChart from './ReportChart.astro';
+interface Props { id?: string; title?: string }
+const { id = 'nasil', title = 'Nasıl çalışırız' } = Astro.props;
+const plan = [
+  ['İşletme Profili düzeni', '1. hafta'],
+  ['Site hızı ve teknik düzeltmeler', '1–3. hafta'],
+  ['İlçe sayfaları', '2–4. hafta'],
+  ['Yorum düzeni', '2. haftadan itibaren'],
+  ['Soru sayfaları', 'her ay'],
+];
+---
+<section class="sec xch" id={id} aria-labelledby={`${id}-baslik`}>
+  <h2 class="xch__title" id={`${id}-baslik`} data-reveal>{title}</h2>
+  <ol class="xch__list">
+    <li class="xch__item">
+      <p class="xch__say" data-reveal>Önce, bize yazarsınız.</p>
+      <p class="xch__call" data-reveal style="--i:1"><span class="sr-only">Siz: </span>Merkezefendi’de kuyumcuyuz. Haritada neden çıkmıyoruz?</p>
+      <div class="xch__resp" data-reveal style="--i:2">
+        <p class="small muted">Biz, aramanızın bugünkü sonucunu çıkarırız:</p>
+        <Serp queries={['denizli kuyumcu']} />
+      </div>
+    </li>
+    <li class="xch__item">
+      <p class="xch__say" data-reveal>Sonra, yazılı plan gelir.</p>
+      <p class="xch__call" data-reveal style="--i:1"><span class="sr-only">Siz: </span>Ne yapılacak, ne kadar sürer?</p>
+      <div class="xch__resp" data-reveal style="--i:2">
+        <div class="ui plan" data-ui>
+          <p class="plan__head">Örnek plan</p>
+          <ul>{plan.map((p) => <li><span>{p[0]}</span><span>{p[1]}</span></li>)}</ul>
+          <p class="plan__foot">Teklifte olmayan iş sonradan eklenmez.</p>
+        </div>
+      </div>
+    </li>
+    <li class="xch__item xch__item--wide">
+      <p class="xch__say" data-reveal>Her ay sonunda, rapor.</p>
+      <p class="xch__call" data-reveal style="--i:1"><span class="sr-only">Siz: </span>Bu ay ne değişti?</p>
+      <div class="xch__resp" data-reveal style="--i:2">
+        <div class="report" data-ui>
+          <div class="report__text">
+            <p class="report__head">Örnek rapor: “denizli kuyumcu”</p>
+            <p>Ortalama sıra altı ayda 18’den 4’e. Rapor; sırayı, siteye gelen ziyareti ve profilden gelen aramayı birlikte gösterir. Sonuç vermeyen çalışma da raporda yazar.</p>
+          </div>
+          <ReportChart />
+        </div>
+      </div>
+    </li>
+  </ol>
+</section>
