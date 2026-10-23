@@ -28,7 +28,7 @@ document.querySelectorAll<HTMLElement>('.work.scene').forEach((work) => {
       const raw = (r.left + r.width / 2 - mid) / vr.width;
       if (Math.abs(raw) > 1.6) continue;
       const d = Math.sign(raw) * Math.max(0, Math.abs(raw) - 0.12); // the slide in the middle sits flat
-      s.style.transform = `rotateY(${(-d * 26).toFixed(2)}deg) translateZ(${(-Math.abs(d) * 140).toFixed(1)}px)`;
+      s.style.transform = `rotateY(${(-d * 16).toFixed(2)}deg) translateZ(${(-Math.abs(d) * 70).toFixed(1)}px)`;
     }
   };
   const mm = gsap.matchMedia();

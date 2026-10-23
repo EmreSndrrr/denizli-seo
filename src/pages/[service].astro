@@ -82,7 +82,7 @@ const jsonld = [
       <p class="lead" data-reveal style="--i:1">{service.statement}</p>
       <div class="svc__frag" data-reveal style="--i:2">
         {service.slug === 'teknik-seo' ? (
-          <div class="panel"><p class="panel__head">Google’ın sayfa deneyimi ölçüleri</p><Vitals /><p class="small muted">Örnek ölçüm. Çubuklar, değeri Google’ın “iyi” sınırına göre gösterir.</p></div>
+          <div class="panel-ui"><p class="panel__head">Google’ın sayfa deneyimi ölçüleri</p><Vitals /><p class="small muted">Örnek ölçüm. Çubuklar, değeri Google’ın “iyi” sınırına göre gösterir.</p></div>
         ) : service.slug === 'web-tasarim' ? (
           <a class="svc__shot" href={shot.url} rel="noopener" target="_blank">
             <Image src={shot.shot!} alt={`${shot.name} sitesinin ana sayfası`} widths={[500, 800, 1100]} sizes="(max-width: 1023px) 100vw, 40vw" loading="lazy" />

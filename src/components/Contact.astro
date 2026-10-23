@@ -1,20 +1,25 @@
 ---
-// The close: one prompt and one field. Sending opens WhatsApp with the message written out.
+// The close: a lit band with one field. Sending opens WhatsApp with the message written out.
 import { SITE, ADDRESS_LINE } from '../data/site';
 interface Props { first?: string; second?: string; id?: string }
-const { first = 'Ne iş yapıyorsunuz, nerede?', second = 'Sıranıza birlikte bakalım.', id = 'yazin' } = Astro.props;
+const { first = 'Sıranıza', second = 'birlikte bakalım.', id = 'yazin' } = Astro.props;
 ---
-<section class="sec contact" id={id} aria-labelledby={`${id}-baslik`}>
-  <h2 class="contact__prompt" id={`${id}-baslik`} data-reveal><span>{first}</span> <span>{second}</span></h2>
-  <form class="contact__form" data-contact data-reveal style="--i:1" action={`https://wa.me/${SITE.whatsapp}`} method="get" target="_blank">
-    <label class="sr-only" for={`${id}-alan`}>İşiniz ve ilçeniz</label>
-    <input id={`${id}-alan`} name="text" type="text" placeholder="Örneğin: Merkezefendi’de kuyumcuyuz" autocomplete="off" required />
-    <button type="submit" aria-label="WhatsApp’tan gönder"><span aria-hidden="true">→</span></button>
-  </form>
-  <p class="contact__next small muted" data-reveal style="--i:2">WhatsApp açılır, mesajınız yazılı gelir; göndermeden önce görürsünüz.</p>
-  <dl class="contact__rows" data-reveal style="--i:3">
-    <div><dt>Telefon</dt><dd><a href={`tel:${SITE.phone}`}>{SITE.phoneDisplay}</a>, {SITE.person}</dd></div>
-    <div><dt>WhatsApp</dt><dd><a href={`https://wa.me/${SITE.whatsapp}`} rel="noopener">{SITE.phoneDisplay}</a></dd></div>
-    <div><dt>Adres</dt><dd><a href={SITE.mapsUrl} rel="noopener">{ADDRESS_LINE}</a></dd></div>
-  </dl>
+<section class="sec" id={id} aria-labelledby={`${id}-baslik`}>
+  <div class="wrap contact">
+    <div class="contact__main">
+      <h2 id={`${id}-baslik`} data-reveal><span>{first}</span> <span>{second}</span></h2>
+      <p data-reveal style="--i:1">Ne iş yaptığınızı ve hangi ilçede olduğunuzu yazın; aramanızda nerede çıktığınızı birlikte ölçelim.</p>
+      <form class="contact__form" data-contact data-reveal style="--i:2" action={`https://wa.me/${SITE.whatsapp}`} method="get" target="_blank">
+        <label class="sr-only" for={`${id}-alan`}>İşiniz ve ilçeniz</label>
+        <input id={`${id}-alan`} name="text" type="text" placeholder="Örn. Merkezefendi’de kuyumcu" autocomplete="off" required />
+        <button class="button" type="submit">WhatsApp’tan gönder</button>
+      </form>
+      <p class="small muted" data-reveal style="--i:3">WhatsApp açılır, mesajınız yazılı gelir; göndermeden önce görürsünüz.</p>
+    </div>
+    <dl class="contact__rows" data-reveal style="--i:2">
+      <div><dt>Telefon</dt><dd><a href={`tel:${SITE.phone}`}>{SITE.phoneDisplay}</a><span class="muted">{SITE.person}</span></dd></div>
+      <div><dt>WhatsApp</dt><dd><a href={`https://wa.me/${SITE.whatsapp}`} rel="noopener">{SITE.phoneDisplay}</a></dd></div>
+      <div><dt>Ofis</dt><dd><a href={SITE.mapsUrl} rel="noopener">{ADDRESS_LINE}</a></dd></div>
+    </dl>
+  </div>
 </section>

@@ -74,13 +74,13 @@ document.querySelectorAll<HTMLElement>('[data-serp]').forEach((el) => {
 
 // The 3D map loads once the page has painted, so the first screen is never held up by it.
 // Without WebGL the poster stays and the readout still answers.
-function bootMap(stage: HTMLElement, onPick?: (d: string) => void): Promise<DenizliMap | null> {
+function bootMap(stage: HTMLElement, onPick?: (d: string) => void, shift?: () => { x: number; y: number }): Promise<DenizliMap | null> {
   const canvas = stage.querySelector<HTMLCanvasElement>('[data-map-canvas]');
   const labels = stage.querySelector<HTMLElement>('[data-map-labels]');
   if (!canvas || !labels) return Promise.resolve(null);
   return new Promise((resolve) => {
     const load = () => import('./map3d')
-      .then(({ createMap }) => createMap({ canvas, labels, reduced, phone: matchMedia('(max-width: 767px)').matches, onPick }))
+      .then(({ createMap }) => createMap({ canvas, labels, reduced, phone: matchMedia('(max-width: 767px)').matches, onPick, shift }))
       .then((m) => { stage.classList.add('is-3d'); resolve(m); })
       .catch(() => resolve(null));
     if (document.readyState === 'complete') setTimeout(load, 150);
@@ -107,12 +107,16 @@ function show(state: MapState, map: DenizliMap | null) {
   map?.setRanks(r, state.district);
 }
 
-// The story: the controls in the left column change the map on the right; scrolling switches each
-// service on as its block reaches the middle of the screen, unless the visitor set it by hand.
+// The story: the map fills a held stage and one panel beside it changes as the page scrolls:
+// the title first, then each step. Reaching a service switches it on, unless the visitor set it by hand.
 (() => {
-  const form = document.querySelector<HTMLFormElement>('[data-story]');
-  const stage = document.querySelector<HTMLElement>('.story [data-stage]');
-  if (!form || !stage) return;
+  const story = document.querySelector<HTMLElement>('.story');
+  const form = story?.querySelector<HTMLFormElement>('[data-story]');
+  const stage = story?.querySelector<HTMLElement>('[data-stage]');
+  if (!story || !form || !stage) return;
+  // reduced motion keeps the finished composition: the map in its box, every step listed under it
+  const live = !reduced;
+  if (live) story.classList.add('is-live');
   const state: MapState = { ...BASE };
   const touched = new Set<number>();
   let map: DenizliMap | null = null;
@@ -123,6 +127,9 @@ function show(state: MapState, map: DenizliMap | null) {
   const switches = [...form.querySelectorAll<HTMLButtonElement>('.switch')];
   const speed = [...form.querySelectorAll<HTMLInputElement>('[name="speed"]')];
   const chips = [...form.querySelectorAll<HTMLInputElement>('[name="content"]')];
+  const blocks = [...form.querySelectorAll<HTMLElement>('[data-step]')];
+  const tabs = [...form.querySelectorAll<HTMLButtonElement>('.tab')];
+  const BEATS = blocks.length + 1; // the title, then one beat per step
 
   const setStep = (step: number, on: boolean) => {
     if (step === 1) { state.profile = on; switches[0]?.setAttribute('aria-checked', String(on)); }
@@ -132,7 +139,7 @@ function show(state: MapState, map: DenizliMap | null) {
   };
 
   tradeInput.addEventListener('input', () => { state.trade = tradeInput.value; apply(); });
-  districtSelect.addEventListener('change', () => { state.district = districtSelect.value; map?.focusOn(state.district); apply(); });
+  districtSelect.addEventListener('change', () => { state.district = districtSelect.value; map?.focusOn(state.district, 0.7); apply(); });
   switches.forEach((b, k) => b.addEventListener('click', () => {
     const step = k === 0 ? 1 : 4;
     touched.add(step);
@@ -142,37 +149,45 @@ function show(state: MapState, map: DenizliMap | null) {
   speed.forEach((r) => r.addEventListener('change', () => { touched.add(2); state.speed = speed[1].checked; apply(); }));
   chips.forEach((c) => c.addEventListener('change', () => { touched.add(3); state.content = chips.filter((x) => x.checked).length; apply(); }));
 
-  // which block is in the middle of the screen
-  const blocks = [...form.querySelectorAll<HTMLElement>('[data-step]')];
-  let active = -1;
-  const activate = (k: number) => {
-    if (k === active) return;
-    active = k;
+  // where the page is in the story decides the beat
+  let beat = -1;
+  const span = () => Math.max(1, story.offsetHeight - innerHeight);
+  const setBeat = (n: number) => {
+    if (!live || n === beat) return;
+    beat = n;
+    story.dataset.beat = String(n);
+    const k = n - 1; // the active step, -1 on the title
     blocks.forEach((b, i) => b.classList.toggle('is-active', i === k));
+    tabs.forEach((t, i) => t.setAttribute('aria-selected', String(i === Math.min(k, tabs.length - 1) && k >= 0)));
     for (let s = 1; s <= 4; s++) if (!touched.has(s)) setStep(s, s <= k);
     if (k === 0) map?.focusOn(state.district, 0.7); else map?.focusOn(null);
     apply();
   };
-  const io = new IntersectionObserver((entries) => {
-    for (const e of entries) if (e.isIntersecting) activate(Number((e.target as HTMLElement).dataset.step));
-  }, { rootMargin: '-45% 0px -45% 0px' });
-  blocks.forEach((b) => io.observe(b));
-
-  // the camera turns slowly with the scroll through the story
-  const story = stage.closest<HTMLElement>('.story')!;
   let ticking = false;
-  const progress = () => {
+  const onScroll = () => {
     ticking = false;
-    const r = story.getBoundingClientRect();
-    map?.setProgress(-r.top / Math.max(1, r.height - innerHeight));
+    const p = Math.min(1, Math.max(0, -story.getBoundingClientRect().top / span()));
+    setBeat(Math.min(BEATS - 1, Math.floor(p * BEATS * 0.999)));
+    map?.setProgress(p);
   };
-  addEventListener('scroll', () => { if (!ticking) { ticking = true; requestAnimationFrame(progress); } }, { passive: true });
+  addEventListener('scroll', () => { if (!ticking) { ticking = true; requestAnimationFrame(onScroll); } }, { passive: true });
+  addEventListener('resize', onScroll, { passive: true });
 
-  apply();
-  bootMap(stage, (d) => { state.district = d; districtSelect.value = d; map?.focusOn(d); apply(); }).then((m) => {
+  // a tab, or the title's "how it works", jumps to the middle of that beat
+  story.querySelectorAll<HTMLElement>('[data-story-go]').forEach((el) => el.addEventListener('click', (e) => {
+    if (!live) return;
+    e.preventDefault();
+    const n = Number(el.dataset.storyGo);
+    const top = story.getBoundingClientRect().top + scrollY + ((n + 0.5) / BEATS) * span();
+    scrollTo({ top, behavior: reduced ? 'auto' : 'smooth' });
+  }));
+
+  onScroll();
+  const shift = () => (!live ? { x: 0, y: 0 } : innerWidth >= 1024 ? { x: 0.22, y: 0.02 } : { x: 0, y: innerWidth < 768 ? 0.24 : 0.2 });
+  bootMap(stage, (d) => { state.district = d; districtSelect.value = d; map?.focusOn(d, 0.7); apply(); }, shift).then((m) => {
     if (!m) return;
-    map = m; apply(); progress();
-    if (active === 0) m.focusOn(state.district, 0.7);
+    map = m; apply(); onScroll();
+    if (beat === 1) m.focusOn(state.district, 0.7);
   });
 })();
 
@@ -198,28 +213,14 @@ document.querySelectorAll<HTMLElement>('[data-stage]').forEach((stage) => {
   bootMap(stage).then((m) => { map = m; show(state, map); });
 });
 
-// Questions: the answer pane on wide screens, answers under their question on phones.
+// Questions: each answer opens under its question; one open at a time.
 document.querySelectorAll<HTMLElement>('[data-faq]').forEach((faq) => {
   const qs = [...faq.querySelectorAll<HTMLButtonElement>('[data-faq-q]')];
-  const inline = qs.map((b) => b.nextElementSibling as HTMLElement);
-  const pane = faq.querySelector<HTMLElement>('[data-faq-pane]');
-  const wide = () => matchMedia('(min-width: 64em)').matches;
-  let current = 0;
-  const select = (i: number) => {
-    if (i === current && pane?.textContent === inline[i].textContent) return;
-    current = i;
-    qs.forEach((b, k) => b.setAttribute('aria-expanded', String(k === i)));
-    if (!pane) return;
-    pane.classList.add('is-swap');
-    window.setTimeout(() => { pane.textContent = inline[i].textContent; pane.classList.remove('is-swap'); }, reduced ? 0 : 150);
-  };
   qs.forEach((b, i) => {
     b.addEventListener('click', () => {
-      if (!wide() && b.getAttribute('aria-expanded') === 'true') { b.setAttribute('aria-expanded', 'false'); current = -1; return; }
-      select(i);
+      const open = b.getAttribute('aria-expanded') !== 'true';
+      qs.forEach((o) => o.setAttribute('aria-expanded', String(o === b && open)));
     });
-    b.addEventListener('mouseenter', () => { if (wide()) select(i); });
-    b.addEventListener('focus', () => { if (wide()) select(i); });
     b.addEventListener('keydown', (e) => {
       if (e.key !== 'ArrowDown' && e.key !== 'ArrowUp') return;
       e.preventDefault();

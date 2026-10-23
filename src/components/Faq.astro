@@ -1,20 +1,28 @@
 ---
-// Questions on the left, one answer large on the right; on a phone each answer opens under its question.
+// Questions as an open list: the heading on the left, each answer opening under its question.
 import type { Qa } from '../data/services';
+import { WA_GENERAL } from '../data/site';
 interface Props { items: Qa[]; title?: string; id?: string }
 const { items, title = 'Sık sorulanlar', id = 'sss' } = Astro.props;
 ---
-<section class="sec faq" id={id} aria-labelledby={`${id}-baslik`} data-faq>
-  <div class="faq__list">
-    <h2 class="faq__title" id={`${id}-baslik`} data-reveal>{title}</h2>
-    {items.map((item, i) => (
-      <div class="faq__row" data-reveal style={`--i:${Math.min(i + 1, 6)}`}>
-        <button class="faq__q" type="button" aria-expanded={i === 0 ? 'true' : 'false'} aria-controls={`${id}-a${i}`} data-faq-q={i}>{item.q}</button>
-        <p class="faq__inline" id={`${id}-a${i}`}>{item.a}</p>
-      </div>
-    ))}
-  </div>
-  <div class="faq__pane" aria-live="polite">
-    <p data-faq-pane>{items[0].a}</p>
+<section class="sec" id={id} aria-labelledby={`${id}-baslik`}>
+  <div class="wrap faq" data-faq>
+    <div class="faq__head">
+      <h2 id={`${id}-baslik`} data-reveal>{title}</h2>
+      <p data-reveal style="--i:1">Cevabını burada bulamadığınız soruyu WhatsApp’tan sorun.</p>
+      <a class="textlink" href={WA_GENERAL} rel="noopener" data-reveal style="--i:2">Soru sorun <span aria-hidden="true">→</span></a>
+    </div>
+    <div class="faq__list">
+      {items.map((item, i) => (
+        <div class="faq__row" data-reveal style={`--i:${Math.min(i + 1, 6)}`}>
+          <h3>
+            <button class="faq__q" type="button" aria-expanded={i === 0 ? 'true' : 'false'} aria-controls={`${id}-a${i}`} data-faq-q={i}>
+              <span>{item.q}</span><span class="faq__sign" aria-hidden="true"></span>
+            </button>
+          </h3>
+          <div class="faq__a" id={`${id}-a${i}`}><p>{item.a}</p></div>
+        </div>
+      ))}
+    </div>
   </div>
 </section>

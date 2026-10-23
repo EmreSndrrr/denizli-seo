@@ -29,6 +29,7 @@ export interface MapOptions {
   reduced: boolean;
   phone: boolean;
   onPick?: (district: string) => void;
+  shift?: () => { x: number; y: number }; // moves the map within the frame: fractions of its width and height
 }
 
 export async function createMap(o: MapOptions) {
@@ -84,7 +85,7 @@ export async function createMap(o: MapOptions) {
     home: css('--map-home', '#33415c'),
     border: css('--map-border', '#4a5874'),
     wall: css('--map-wall', '#121722'),
-    top: css('--accent', '#5a9bfc'),
+    top: css('--map-top', '#5a93ff'),
     mid: css('--map-mid', '#7d8aa3'),
     low: css('--map-low', '#3a4559'),
   };
@@ -164,8 +165,10 @@ export async function createMap(o: MapOptions) {
   let azim = -0.32, polar = 0.98, drag = 0, dragTo = 0, progress = 0;
   if (location.hash === '#map-top') { azim = 0; polar = 0.001; }
   const fit = () => {
-    const a = camera.aspect, v = THREE.MathUtils.degToRad(camera.fov);
-    const hf = 2 * Math.atan(Math.tan(v / 2) * a);
+    const sh = location.hash === '#map-poster' ? { x: 0, y: 0 } : o.shift?.() ?? { x: 0, y: 0 };
+    const a = camera.aspect * (1 - 2 * Math.abs(sh.x)), v0 = THREE.MathUtils.degToRad(camera.fov);
+    const v = 2 * Math.atan(Math.tan(v0 / 2) * (1 - 2 * Math.abs(sh.y)));
+    const hf = 2 * Math.atan(Math.tan(v0 / 2) * a);
     const r = o.phone ? 92 : 76;
     distTo = r / Math.sin(Math.min(v, hf) / 2);
   };
@@ -175,6 +178,8 @@ export async function createMap(o: MapOptions) {
     if (!w || !h) return;
     renderer.setSize(w, h, false);
     camera.aspect = w / h;
+    const sh = location.hash === '#map-poster' ? { x: 0, y: 0 } : o.shift?.() ?? { x: 0, y: 0 };
+    if (sh.x || sh.y) camera.setViewOffset(w, h, -sh.x * w, sh.y * h, w, h); else camera.clearViewOffset();
     camera.updateProjectionMatrix();
     fit();
   };

@@ -1,15 +1,33 @@
 ---
-import { SITE } from '../data/site';
+import { SITE, ADDRESS_LINE, WA_GENERAL } from '../data/site';
 import { SERVICES } from '../data/services';
 const year = new Date().getFullYear();
-const short: Record<string, string> = { 'yerel-seo': 'Yerel SEO', 'teknik-seo': 'Teknik SEO', 'icerik-seo': 'İçerik', 'web-tasarim': 'Web tasarım' };
 ---
 <footer class="foot">
-  <p class="foot__what">Denizli SEO, <a href={SITE.parent.url} rel="noopener">Venti Dijital Ajans</a>’ın markası.</p>
-  <nav class="foot__links" aria-label="Alt menü">
-    {SERVICES.map((s) => <a href={`/${s.slug}/`}>{short[s.slug] ?? s.name}</a>)}
-    <a href="/hakkimizda/">Hakkımızda</a>
-    <a href="/blog/">Blog</a>
-  </nav>
-  <p class="foot__end">© {year} · Harita verisi <a href="https://www.openstreetmap.org/copyright" rel="noopener">© OpenStreetMap</a></p>
+  <div class="wrap foot__grid">
+    <div class="foot__brand">
+      <a class="foot__mark" href="/">Denizli SEO</a>
+      <p class="muted">Denizli’deki işletmeler için Google ve Haritalar’da SEO. <a href={SITE.parent.url} rel="noopener">Venti Dijital Ajans</a>’ın markası.</p>
+    </div>
+    <nav class="foot__col" aria-label="Hizmetler">
+      <h2>Hizmetler</h2>
+      {SERVICES.map((s) => <a href={`/${s.slug}/`}>{s.name}</a>)}
+    </nav>
+    <nav class="foot__col" aria-label="Site">
+      <h2>Site</h2>
+      <a href="/hakkimizda/">Hakkımızda</a>
+      <a href="/blog/">Blog</a>
+      <a href="/iletisim/">İletişim</a>
+    </nav>
+    <div class="foot__col">
+      <h2>İletişim</h2>
+      <a href={`tel:${SITE.phone}`}>{SITE.phoneDisplay}</a>
+      <a href={WA_GENERAL} rel="noopener">WhatsApp</a>
+      <a href={SITE.mapsUrl} rel="noopener">{ADDRESS_LINE}</a>
+    </div>
+  </div>
+  <div class="wrap foot__last">
+    <span>© {year} Denizli SEO</span>
+    <span>Harita verisi <a href="https://www.openstreetmap.org/copyright" rel="noopener">© OpenStreetMap katkıda bulunanlar</a> · Yükseklik: AWS Terrain Tiles</span>
+  </div>
 </footer>

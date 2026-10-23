@@ -13,13 +13,15 @@ const plan = [
 ];
 ---
 <section class="sec xch" id={id} aria-labelledby={`${id}-baslik`}>
-  <h2 class="xch__title" id={`${id}-baslik`} data-reveal>{title}</h2>
+  <div class="xch__head">
+    <h2 class="xch__title" id={`${id}-baslik`} data-reveal>{title}</h2>
+    <p class="xch__intro" data-reveal style="--i:1">Üç adım: siz yazarsınız, biz aramanızı ölçer, yazılı plan çıkarır ve her ay raporlarız.</p>
+  </div>
   <ol class="xch__list">
     <li class="xch__item">
       <p class="xch__say" data-reveal>Önce, bize yazarsınız.</p>
       <p class="xch__call" data-reveal style="--i:1"><span class="sr-only">Siz: </span>Merkezefendi’de kuyumcuyuz. Haritada neden çıkmıyoruz?</p>
       <div class="xch__resp" data-reveal style="--i:2">
-        <p class="small muted">Biz, aramanızın bugünkü sonucunu çıkarırız:</p>
         <Serp queries={['denizli kuyumcu']} />
       </div>
     </li>
@@ -34,7 +36,7 @@ const plan = [
         </div>
       </div>
     </li>
-    <li class="xch__item xch__item--wide">
+    <li class="xch__item">
       <p class="xch__say" data-reveal>Her ay sonunda, rapor.</p>
       <p class="xch__call" data-reveal style="--i:1"><span class="sr-only">Siz: </span>Bu ay ne değişti?</p>
       <div class="xch__resp" data-reveal style="--i:2">
