@@ -4,7 +4,7 @@ import Base from '../../layouts/Base.astro';
 import Serp from '../../components/Serp.astro';
 import ReportChart from '../../components/ReportChart.astro';
 import Contact from '../../components/Contact.astro';
-import WorkPics from '../../components/WorkPics.astro';
+import Work from '../../components/Work.astro';
 import { SITE } from '../../data/site';
 import { serviceBySlug } from '../../data/services';
 
@@ -52,6 +52,7 @@ const jsonld = [
 ---
 <Base title={`${post.data.title} | Denizli SEO`} description={post.data.description} jsonld={jsonld} type="article" published={published} modified={modified}>
   <section class="phero phero--post" aria-labelledby="baslik">
+    <div class="phero__in wrap">
     <div class="phero__text">
       <nav class="crumbs" aria-label="Sayfa yolu"><a href="/">Ana sayfa</a><span aria-hidden="true">/</span><a href="/blog/">Blog</a></nav>
       <h1 id="baslik">{post.data.title}</h1>
@@ -63,27 +64,28 @@ const jsonld = [
         {post.data.visual === 'serp' ? <Serp label="Örnek görünüm." /> : <div class="panel-ui"><p class="panel__head">Örnek rapor: altı ayda ortalama sıra</p><ReportChart /></div>}
       </div>
     </div>
+    </div>
   </section>
 
-  <article class="sec post" aria-labelledby="baslik">
+  <article class="sec band band--white post" aria-labelledby="baslik">
     <div class="prose">
       <Content />
     </div>
   </article>
 
-  <section class="sec others" aria-labelledby="devami">
+  <section class="sec band" aria-labelledby="devami"><div class="wrap others others--rows">
     <h2 id="devami" data-reveal>Devamını okuyun</h2>
     <ul>
       {others.map((o, i) => (
-        <li data-reveal style={`--i:${i}`}><a href={`/blog/${o.id}/`}><span class="others__name">{o.data.title} <span aria-hidden="true">→</span></span><span class="others__text">{o.data.description}</span></a></li>
+        <li data-reveal style={`--i:${i}`}><a href={`/blog/${o.id}/`}><span class="others__name">{o.data.title}</span><span class="others__text">{o.data.description}</span><span class="others__go">Okuyun</span></a></li>
       ))}
       {service && (
-        <li data-reveal style="--i:1"><a href={`/${service.slug}/`}><span class="others__name">İlgili hizmet: {service.name} <span aria-hidden="true">→</span></span><span class="others__text">{service.lead}</span></a></li>
+        <li data-reveal style="--i:1"><a href={`/${service.slug}/`}><span class="others__name">İlgili hizmet: {service.name}</span><span class="others__text">{service.lead}</span><span class="others__go">İnceleyin</span></a></li>
       )}
     </ul>
-  </section>
+  </div></section>
 
-  <WorkPics title="Bu notları yazan ekibin işleri" />
+  <Work title="Bu notları yazan ekibin işleri" names={['Denizli Kuyumcu', 'Elea Premium Stay', 'Bilgi Dem Akademi', 'Jarkotech']} />
 
   <Contact />
 </Base>

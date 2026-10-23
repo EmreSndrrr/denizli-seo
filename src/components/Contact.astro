@@ -1,25 +1,26 @@
 ---
-// The close: a lit band with one field. Sending opens WhatsApp with the message written out.
-import { SITE, ADDRESS_LINE } from '../data/site';
+// The close: a navy band with one field. Sending opens WhatsApp with the request written out.
+import Icon from './Icon.astro';
+import { SITE, ADDRESS_LINE, CTA_LABEL } from '../data/site';
 interface Props { first?: string; second?: string; id?: string }
 const { first = 'Sıranıza', second = 'birlikte bakalım.', id = 'yazin' } = Astro.props;
 ---
-<section class="sec" id={id} aria-labelledby={`${id}-baslik`}>
+<section class="sec band band--white" id={id} aria-labelledby={`${id}-baslik`}>
   <div class="wrap contact">
     <div class="contact__main">
       <h2 id={`${id}-baslik`} data-reveal><span>{first}</span> <span>{second}</span></h2>
-      <p data-reveal style="--i:1">Ne iş yaptığınızı ve hangi ilçede olduğunuzu yazın; aramanızda nerede çıktığınızı birlikte ölçelim.</p>
+      <p data-reveal style="--i:1">Ne iş yaptığınızı ve hangi ilçede olduğunuzu yazın. İlk analiz ücretsiz: aramanızda nerede çıktığınızı ölçer, ne yapılması gerektiğini yazılı olarak iletiriz.</p>
       <form class="contact__form" data-contact data-reveal style="--i:2" action={`https://wa.me/${SITE.whatsapp}`} method="get" target="_blank">
         <label class="sr-only" for={`${id}-alan`}>İşiniz ve ilçeniz</label>
         <input id={`${id}-alan`} name="text" type="text" placeholder="Örn. Merkezefendi’de kuyumcu" autocomplete="off" required />
-        <button class="button" type="submit">WhatsApp’tan gönder</button>
+        <button class="button" type="submit">{CTA_LABEL}<Icon name="arrow" size={18} /></button>
       </form>
-      <p class="small muted" data-reveal style="--i:3">WhatsApp açılır, mesajınız yazılı gelir; göndermeden önce görürsünüz.</p>
+      <p class="contact__note" data-reveal style="--i:3">WhatsApp açılır, mesajınız yazılı gelir; göndermeden önce görürsünüz.</p>
     </div>
-    <dl class="contact__rows" data-reveal style="--i:2">
-      <div><dt>Telefon</dt><dd><a href={`tel:${SITE.phone}`}>{SITE.phoneDisplay}</a><span class="muted">{SITE.person}</span></dd></div>
-      <div><dt>WhatsApp</dt><dd><a href={`https://wa.me/${SITE.whatsapp}`} rel="noopener">{SITE.phoneDisplay}</a></dd></div>
-      <div><dt>Ofis</dt><dd><a href={SITE.mapsUrl} rel="noopener">{ADDRESS_LINE}</a></dd></div>
-    </dl>
+    <ul class="contact__rows" data-reveal style="--i:2">
+      <li><span class="chip-icon chip-icon--dark"><Icon name="phone" size={20} /></span><span><b>Telefon</b><a href={`tel:${SITE.phone}`}>{SITE.phoneDisplay}</a><span>{SITE.person}</span></span></li>
+      <li><span class="chip-icon chip-icon--dark"><Icon name="chat" size={20} /></span><span><b>WhatsApp</b><a href={`https://wa.me/${SITE.whatsapp}`} rel="noopener">{SITE.phoneDisplay}</a></span></li>
+      <li><span class="chip-icon chip-icon--dark"><Icon name="pin" size={20} /></span><span><b>Ofis</b><a href={SITE.mapsUrl} rel="noopener">{ADDRESS_LINE}</a></span></li>
+    </ul>
   </div>
 </section>

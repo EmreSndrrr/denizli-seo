@@ -1,0 +1,32 @@
+---
+// Six live sites from Venti's work: one large, five around it. Each opens the site itself.
+import { Image } from 'astro:assets';
+import Icon from './Icon.astro';
+import { PROJECTS } from '../data/projects';
+interface Props { names?: string[]; title?: string; intro?: string; id?: string }
+const {
+  names = ['Denizli Kuyumcu', 'Yörükoğulları Nakliyat', 'Balkan Endüstriyel Mutfak', 'Elea Premium Stay', 'Bilgi Dem Akademi', 'Eseoğlu Sondaj'],
+  title = 'Yaptığımız siteler',
+  intro = 'Venti Dijital Ajans’ın kurduğu ya da SEO’sunu yürüttüğü sitelerden bazıları; hepsi yayında, üzerine tıklayıp açabilirsiniz.',
+  id = 'isler',
+} = Astro.props;
+const work = names.map((n) => PROJECTS.find((p) => p.name === n)).filter((p) => p?.shot);
+---
+<section class="sec band band--white" id={id} aria-labelledby={`${id}-baslik`}>
+  <div class="wrap">
+    <div class="shead">
+      <h2 id={`${id}-baslik`} data-reveal>{title}</h2>
+      <p data-reveal style="--i:1">{intro} <a class="textlink" href="https://www.ventiajans.com/projeler/" rel="noopener">Bütün projeler <Icon name="arrow" size={16} /></a></p>
+    </div>
+    <ul class:list={['works', { 'works--4': work.length === 4 }]}>
+      {work.map((p, i) => (
+        <li class="works__item" data-reveal style={`--i:${Math.min(i, 4)}`}>
+          <a href={p!.url} rel="noopener" target="_blank">
+            <span class="works__pic"><Image src={p!.shot!} alt={`${p!.name} sitesinin ana sayfası`} widths={[480, 800, 1200]} sizes={i === 0 && work.length > 4 ? '(max-width: 767px) 92vw, 60vw' : '(max-width: 767px) 92vw, 30vw'} loading="lazy" /></span>
+            <span class="works__cap"><span><b>{p!.name}</b><span>{p!.work}</span></span><Icon name="out" size={18} /></span>
+          </a>
+        </li>
+      ))}
+    </ul>
+  </div>
+</section>

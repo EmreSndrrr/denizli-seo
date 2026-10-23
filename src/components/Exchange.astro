@@ -12,42 +12,42 @@ const plan = [
   ['Soru sayfaları', 'her ay'],
 ];
 ---
-<section class="sec xch" id={id} aria-labelledby={`${id}-baslik`}>
-  <div class="xch__head">
-    <h2 class="xch__title" id={`${id}-baslik`} data-reveal>{title}</h2>
-    <p class="xch__intro" data-reveal style="--i:1">Üç adım: siz yazarsınız, biz aramanızı ölçer, yazılı plan çıkarır ve her ay raporlarız.</p>
-  </div>
-  <ol class="xch__list">
-    <li class="xch__item">
-      <p class="xch__say" data-reveal>Önce, bize yazarsınız.</p>
-      <p class="xch__call" data-reveal style="--i:1"><span class="sr-only">Siz: </span>Merkezefendi’de kuyumcuyuz. Haritada neden çıkmıyoruz?</p>
-      <div class="xch__resp" data-reveal style="--i:2">
-        <Serp queries={['denizli kuyumcu']} />
-      </div>
-    </li>
-    <li class="xch__item">
-      <p class="xch__say" data-reveal>Sonra, yazılı plan gelir.</p>
-      <p class="xch__call" data-reveal style="--i:1"><span class="sr-only">Siz: </span>Ne yapılacak, ne kadar sürer?</p>
-      <div class="xch__resp" data-reveal style="--i:2">
-        <div class="ui plan" data-ui>
-          <p class="plan__head">Örnek plan</p>
-          <ul>{plan.map((p) => <li><span>{p[0]}</span><span>{p[1]}</span></li>)}</ul>
-          <p class="plan__foot">Teklifte olmayan iş sonradan eklenmez.</p>
-        </div>
-      </div>
-    </li>
-    <li class="xch__item">
-      <p class="xch__say" data-reveal>Her ay sonunda, rapor.</p>
-      <p class="xch__call" data-reveal style="--i:1"><span class="sr-only">Siz: </span>Bu ay ne değişti?</p>
-      <div class="xch__resp" data-reveal style="--i:2">
-        <div class="report" data-ui>
-          <div class="report__text">
-            <p class="report__head">Örnek rapor: “denizli kuyumcu”</p>
-            <p>Ortalama sıra altı ayda 18’den 4’e. Rapor; sırayı, siteye gelen ziyareti ve profilden gelen aramayı birlikte gösterir. Sonuç vermeyen çalışma da raporda yazar.</p>
+<section class="sec band" id={id} aria-labelledby={`${id}-baslik`}>
+  <div class="wrap">
+    <div class="shead">
+      <h2 id={`${id}-baslik`} data-reveal>{title}</h2>
+      <p data-reveal style="--i:1">Üç adım: siz yazarsınız, biz aramanızı ölçer, yazılı plan çıkarır ve her ay raporlarız.</p>
+    </div>
+    <ol class="xch">
+      <li class="xch__item" data-reveal>
+        <h3 class="xch__say">Önce, bize yazarsınız.</h3>
+        <p class="xch__call"><span class="sr-only">Siz: </span>Merkezefendi’de kuyumcuyuz. Haritada neden çıkmıyoruz?</p>
+        <div class="xch__resp"><Serp queries={['denizli kuyumcu']} /></div>
+      </li>
+      <li class="xch__item" data-reveal style="--i:1">
+        <h3 class="xch__say">Sonra, yazılı plan gelir.</h3>
+        <p class="xch__call"><span class="sr-only">Siz: </span>Ne yapılacak, ne kadar sürer?</p>
+        <div class="xch__resp">
+          <div class="ui plan" data-ui>
+            <p class="plan__head">Örnek plan</p>
+            <ul>{plan.map((p) => <li><span>{p[0]}</span><span>{p[1]}</span></li>)}</ul>
+            <p class="plan__foot">Teklifte olmayan iş sonradan eklenmez.</p>
           </div>
-          <ReportChart />
         </div>
-      </div>
-    </li>
-  </ol>
+      </li>
+      <li class="xch__item" data-reveal style="--i:2">
+        <h3 class="xch__say">Her ay sonunda, rapor.</h3>
+        <p class="xch__call"><span class="sr-only">Siz: </span>Bu ay ne değişti?</p>
+        <div class="xch__resp">
+          <div class="report" data-ui>
+            <div class="report__text">
+              <p class="report__head">Örnek rapor: “denizli kuyumcu”</p>
+              <p>Ortalama sıra altı ayda 18’den 4’e. Rapor; sırayı, siteye gelen ziyareti ve profilden gelen aramayı birlikte gösterir. Sonuç vermeyen çalışma da raporda yazar.</p>
+            </div>
+            <ReportChart />
+          </div>
+        </div>
+      </li>
+    </ol>
+  </div>
 </section>

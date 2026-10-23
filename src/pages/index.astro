@@ -2,7 +2,9 @@
 import Base from '../layouts/Base.astro';
 import MapStory from '../components/MapStory.astro';
 import Exchange from '../components/Exchange.astro';
-import WorkStrip from '../components/WorkStrip.astro';
+import Services from '../components/Services.astro';
+import Work from '../components/Work.astro';
+import Why from '../components/Why.astro';
 import Faq from '../components/Faq.astro';
 import Contact from '../components/Contact.astro';
 import { HOME_FAQ } from '../data/faq';
@@ -23,8 +25,10 @@ const jsonld = [
 ---
 <Base title={title} description={description} jsonld={jsonld}>
   <MapStory />
+  <Services />
   <Exchange />
-  <WorkStrip />
+  <Work />
+  <Why />
   <Faq items={HOME_FAQ} />
   <Contact />
 </Base>

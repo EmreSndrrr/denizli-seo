@@ -7,10 +7,11 @@ import Serp from '../components/Serp.astro';
 import Vitals from '../components/Vitals.astro';
 import Faq from '../components/Faq.astro';
 import Contact from '../components/Contact.astro';
-import WorkPics from '../components/WorkPics.astro';
+import Work from '../components/Work.astro';
+import Icon from '../components/Icon.astro';
 import { SERVICES, type Service } from '../data/services';
 import { PROJECTS } from '../data/projects';
-import { SITE, DISTRICTS, waLink } from '../data/site';
+import { SITE, DISTRICTS, waLink, CTA_LABEL } from '../data/site';
 
 export function getStaticPaths() {
   return SERVICES.map((service) => ({ params: { service: service.slug }, props: { service } }));
@@ -20,7 +21,8 @@ interface Props { service: Service }
 const { service } = Astro.props;
 const url = `${SITE.url}/${service.slug}/`;
 const others = SERVICES.filter((s) => s.slug !== service.slug);
-const wa = waLink(`Merhaba, ${service.name.toLocaleLowerCase('tr-TR')} hakkında bilgi almak istiyorum.`);
+const wa = waLink(`Merhaba, ücretsiz SEO analizi istiyorum. ${service.name} ile ilgileniyoruz. İşletmemin adı ve ilçesi: `);
+const icons = { 'yerel-seo': 'pin', 'teknik-seo': 'gauge', 'icerik-seo': 'doc', 'web-tasarim': 'layout' } as const;
 const shot = PROJECTS.find((p) => p.name === 'Balkan Endüstriyel Mutfak')!;
 // Venti projects that include this kind of work
 const workFor: Record<string, string[]> = {
@@ -67,7 +69,8 @@ const jsonld = [
 <Base title={service.title} description={service.description} jsonld={jsonld}>
   <PageHead crumbs={[{ href: '/', label: 'Ana sayfa' }, { label: service.name }]} h1={service.h1} lead={service.lead}>
     <Fragment slot="acts">
-      <a class="button" href={wa} rel="noopener">WhatsApp’tan sorun</a>
+      <a class="button" href={wa} rel="noopener">{CTA_LABEL}<Icon name="arrow" size={18} /></a>
+      <a class="button button--outline" href={`tel:${SITE.phone}`}><Icon name="phone" size={18} />{SITE.phoneDisplay}</a>
     </Fragment>
     <div slot="after" class="phero__ctl ctl" data-rise style="--i:3">
       <button class="switch" type="button" role="switch" aria-checked="true" data-stage-toggle><span class="switch__knob" aria-hidden="true"></span>Haritada bu işin etkisi</button>
@@ -76,7 +79,7 @@ const jsonld = [
     <MapStage preset={presets[service.slug]} />
   </PageHead>
 
-  <section class="sec svc" aria-labelledby="ne-yapiyoruz">
+  <section class="sec band band--white" aria-labelledby="ne-yapiyoruz"><div class="wrap svc">
     <div class="svc__fixed">
       <h2 id="ne-yapiyoruz" data-reveal>{service.statementHead}</h2>
       <p class="lead" data-reveal style="--i:1">{service.statement}</p>
@@ -97,45 +100,45 @@ const jsonld = [
       <h2 class="sr-only">Bu işte ne yapıyoruz</h2>
       <ul>
         {service.items.map((item) => (
-          <li data-reveal><h3>{item.name}</h3><p>{item.text}</p></li>
+          <li data-reveal><span class="svc__tick"><Icon name="check" size={16} /></span><div><h3>{item.name}</h3><p>{item.text}</p></div></li>
         ))}
       </ul>
     </div>
-  </section>
+  </div></section>
 
   {service.slug === 'yerel-seo' && (
-    <section class="sec districts" aria-labelledby="ilceler">
+    <section class="sec band" aria-labelledby="ilceler"><div class="wrap districts">
       <div class="districts__head">
         <h2 id="ilceler" data-reveal>{DISTRICTS.length} ilçe, {DISTRICTS.length} ayrı harita</h2>
         <p data-reveal style="--i:1">Arama, arayanın bulunduğu yere göre değişir. Merkezefendi’den yapılan aramayla Çivril’den yapılan arama aynı haritayı göstermez. Hizmet verdiğiniz her ilçe için ayrı bakarız.</p>
       </div>
-      <ul class="districts__list" data-reveal style="--i:2">{DISTRICTS.map((d) => <li>{d}</li>)}</ul>
-    </section>
+      <ul class="districts__list" data-reveal style="--i:2">{DISTRICTS.map((d) => <li><Icon name="pin" size={14} />{d}</li>)}</ul>
+    </div></section>
   )}
 
-  <WorkPics names={workFor[service.slug]} title="Bu işi yaptığımız siteler" />
+  <Work names={workFor[service.slug]} title="Bu işi yaptığımız siteler" intro="Venti Dijital Ajans’ın bu hizmeti verdiği sitelerden; hepsi yayında, üzerine tıklayıp açabilirsiniz." />
 
-  <section class="sec steps" aria-labelledby="adimlar">
+  <section class="sec band" aria-labelledby="adimlar"><div class="wrap steps">
     <h2 id="adimlar" data-reveal>Nasıl ilerleriz</h2>
     <ol>
       {service.steps.map((s, i) => (
-        <li data-reveal style={`--i:${i}`}><p class="steps__line">{s.line}</p><p>{s.text}</p></li>
+        <li data-reveal style={`--i:${i}`}><span class="steps__dot" aria-hidden="true"></span><p class="steps__line">{s.line}</p><p>{s.text}</p></li>
       ))}
     </ol>
-  </section>
+  </div></section>
 
   <Faq items={service.faq} title="Sorular" />
 
-  <section class="sec others" aria-labelledby="diger">
+  <section class="sec band" aria-labelledby="diger"><div class="wrap others">
     <h2 id="diger" data-reveal>Diğer hizmetler</h2>
     <ul>
       {others.map((o, i) => (
         <li data-reveal style={`--i:${i}`}>
-          <a href={`/${o.slug}/`}><span class="others__name">{o.name} <span aria-hidden="true">→</span></span><span class="others__text">{o.lead}</span></a>
+          <a href={`/${o.slug}/`}><span class="chip-icon"><Icon name={icons[o.slug as keyof typeof icons]} size={22} /></span><span class="others__name">{o.name}</span><span class="others__text">{o.lead}</span><span class="others__go">İnceleyin <Icon name="arrow" size={16} /></span></a>
         </li>
       ))}
     </ul>
-  </section>
+  </div></section>
 
   <Contact />
 </Base>

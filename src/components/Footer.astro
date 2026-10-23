@@ -1,13 +1,15 @@
 ---
-import { SITE, ADDRESS_LINE, WA_GENERAL } from '../data/site';
+import Icon from './Icon.astro';
+import { SITE, ADDRESS_LINE, WA_ANALYSIS, CTA_LABEL } from '../data/site';
 import { SERVICES } from '../data/services';
 const year = new Date().getFullYear();
 ---
 <footer class="foot">
   <div class="wrap foot__grid">
     <div class="foot__brand">
-      <a class="foot__mark" href="/">Denizli SEO</a>
-      <p class="muted">Denizli’deki işletmeler için Google ve Haritalar’da SEO. <a href={SITE.parent.url} rel="noopener">Venti Dijital Ajans</a>’ın markası.</p>
+      <a class="foot__mark" href="/"><span class="top__logo" aria-hidden="true"><Icon name="pin" size={18} /></span>Denizli SEO</a>
+      <p>Denizli’deki işletmeler için Google ve Haritalar’da SEO. <a href={SITE.parent.url} rel="noopener">Venti Dijital Ajans</a>’ın markası.</p>
+      <a class="button button--sm" href={WA_ANALYSIS} rel="noopener">{CTA_LABEL}</a>
     </div>
     <nav class="foot__col" aria-label="Hizmetler">
       <h2>Hizmetler</h2>
@@ -22,7 +24,7 @@ const year = new Date().getFullYear();
     <div class="foot__col">
       <h2>İletişim</h2>
       <a href={`tel:${SITE.phone}`}>{SITE.phoneDisplay}</a>
-      <a href={WA_GENERAL} rel="noopener">WhatsApp</a>
+      <a href={`https://wa.me/${SITE.whatsapp}`} rel="noopener">WhatsApp</a>
       <a href={SITE.mapsUrl} rel="noopener">{ADDRESS_LINE}</a>
     </div>
   </div>

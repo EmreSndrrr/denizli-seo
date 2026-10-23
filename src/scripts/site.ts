@@ -89,6 +89,9 @@ function bootMap(stage: HTMLElement, onPick?: (d: string) => void, shift?: () =>
 }
 
 const lower = (s: string) => s.toLocaleLowerCase('tr-TR');
+// The readout sits over the top of a ranking map's card, so the model is drawn a little lower (and, on
+// wide screens, a little to the left of it).
+const readoutShift = () => (innerWidth >= 1024 ? { x: -0.04, y: -0.05 } : { x: 0, y: -0.08 });
 const BASE: MapState = { trade: 'kuyumcu', district: 'Merkezefendi', profile: false, speed: false, content: 0, pages: false };
 
 // Writes a state into every readout on the page and into the map.
@@ -102,12 +105,12 @@ function show(state: MapState, map: DenizliMap | null) {
   document.querySelectorAll('[data-out-top3]').forEach((el) => { el.textContent = String(s.top3); });
   document.querySelectorAll('[data-out-avg]').forEach((el) => { el.textContent = fmt(s.avg); });
   document.querySelectorAll('.readout__q').forEach((el) => el.setAttribute('aria-label', `Google araması: ${query}`));
-  const text = `Merhaba, ${state.district}’de ${trade} işletmemiz var. “${query}” aramasında nerede çıktığımızı öğrenmek istiyoruz.`;
+  const text = `Merhaba, ücretsiz SEO analizi istiyorum. ${state.district}’de ${trade} işletmemiz var; “${query}” aramasında nerede çıktığımızı öğrenmek istiyoruz.`;
   document.querySelectorAll<HTMLAnchorElement>('[data-wa-story]').forEach((a) => { a.href = waUrl(text); });
   map?.setRanks(r, state.district);
 }
 
-// The story: the map fills a held stage and one panel beside it changes as the page scrolls:
+// The story: the map holds still in its card and one panel beside it changes as the page scrolls:
 // the title first, then each step. Reaching a service switches it on, unless the visitor set it by hand.
 (() => {
   const story = document.querySelector<HTMLElement>('.story');
@@ -183,8 +186,7 @@ function show(state: MapState, map: DenizliMap | null) {
   }));
 
   onScroll();
-  const shift = () => (!live ? { x: 0, y: 0 } : innerWidth >= 1024 ? { x: 0.22, y: 0.02 } : { x: 0, y: innerWidth < 768 ? 0.24 : 0.2 });
-  bootMap(stage, (d) => { state.district = d; districtSelect.value = d; map?.focusOn(d, 0.7); apply(); }, shift).then((m) => {
+  bootMap(stage, (d) => { state.district = d; districtSelect.value = d; map?.focusOn(d, 0.7); apply(); }, readoutShift).then((m) => {
     if (!m) return;
     map = m; apply(); onScroll();
     if (beat === 1) m.focusOn(state.district, 0.7);
@@ -210,7 +212,7 @@ document.querySelectorAll<HTMLElement>('[data-stage]').forEach((stage) => {
     show(state, map);
   });
   show(state, map);
-  bootMap(stage).then((m) => { map = m; show(state, map); });
+  bootMap(stage, undefined, readoutShift).then((m) => { map = m; show(state, map); });
 });
 
 // Questions: each answer opens under its question; one open at a time.
@@ -234,9 +236,9 @@ document.querySelectorAll<HTMLFormElement>('[data-contact]').forEach((form) => {
   form.addEventListener('submit', (e) => {
     e.preventDefault();
     const v = String(new FormData(form).get('text') || '').trim();
-    openOut(waUrl(`Merhaba, ${v ? v.replace(/[.!]+$/, '') + '. ' : ''}Aramamızda nerede çıktığımızı öğrenmek istiyoruz.`));
+    openOut(waUrl(`Merhaba, ücretsiz SEO analizi istiyorum. ${v ? v.replace(/[.!]+$/, '') + '. ' : ''}Aramamızda nerede çıktığımızı öğrenmek istiyoruz.`));
   });
 });
 
-// Weighted scrolling and the sideways strip, only where motion is welcome.
-if (!reduced && document.querySelector('.scene, [data-stage]')) import('./motion');
+// Weighted scrolling, only where motion is welcome.
+if (!reduced && document.querySelector('[data-stage]')) import('./motion');

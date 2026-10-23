@@ -1,100 +1,105 @@
 ---
-// The first screen and the story under it share one held stage: the 3D map of Denizli fills the screen,
-// and one panel on its left changes as the page scrolls: first the title, then each service with a
-// control that changes the map. Without script the panel's steps are simply listed under each other.
-import { DISTRICTS, WA_GENERAL } from '../data/site';
-import { PROJECTS } from '../data/projects';
+// The first screen and the story under it share one held stage: the title (then one panel that changes
+// as the page scrolls) on the left, the 3D map of Denizli in its card on the right. Without script, or
+// with reduced motion, the panel's steps are simply listed under the map.
+import Icon from './Icon.astro';
 import MapStage from './MapStage.astro';
+import { DISTRICTS, WA_ANALYSIS, CTA_LABEL } from '../data/site';
+import { PROJECTS } from '../data/projects';
 const trade = 'kuyumcu';
 const district = 'Merkezefendi';
 const tabs = ['Arama', 'Yerel SEO', 'Teknik SEO', 'İçerik', 'Web tasarım'];
 ---
 <section class="story" id="harita" aria-labelledby="baslik">
   <div class="story__stage">
-    <MapStage query={`denizli ${trade}`} />
-
-    <div class="story__ui wrap">
-      <div class="story__hero" data-beat-hero>
-        <h1 id="baslik"><span>Denizli’de aranınca</span> <span>siz çıkın.</span></h1>
-        <p class="story__sentence">
-          Google’da ve Haritalar’da üst sıralara çıkmanız için yerel SEO, teknik SEO, içerik ve web tasarım. Venti Dijital Ajans’ın SEO ekibi.
-        </p>
-        <div class="story__acts">
-          <a class="button" href={WA_GENERAL} data-wa-story rel="noopener">WhatsApp’tan yazın</a>
-          <a class="button button--ghost" href="#dort-is" data-story-go="1">Nasıl çalışır?</a>
+    <div class="story__grid wrap">
+      <div class="story__side">
+        <div class="story__hero">
+          <h1 id="baslik"><span>Denizli’de aranınca</span> <span>siz çıkın.</span></h1>
+          <p class="story__sentence">
+            Google’da ve Haritalar’da üst sıralara çıkmanız için yerel SEO, teknik SEO, içerik ve web tasarım. Venti Dijital Ajans’ın SEO ekibi.
+          </p>
+          <div class="story__acts">
+            <a class="button" href={WA_ANALYSIS} data-wa-story rel="noopener">{CTA_LABEL}<Icon name="arrow" size={18} /></a>
+            <a class="button button--outline" href="#dort-is" data-story-go="1">Nasıl çalışır?</a>
+          </div>
+          <ul class="trust">
+            <li><span class="trust__icon"><Icon name="pin" size={16} /></span>Denizli’nin 19 ilçesinde çalışırız</li>
+            <li><span class="trust__icon"><Icon name="layout" size={16} /></span>Venti Dijital Ajans’ın yayında {PROJECTS.length} sitesi</li>
+            <li><span class="trust__icon"><Icon name="star" size={16} /></span><a href="https://share.google/YVUE42SqN5ipf0y1j" rel="noopener" target="_blank">Google’da 5,0 puan, 28 yorum</a></li>
+          </ul>
         </div>
-        <dl class="facts">
-          <div><dt>Denizli’nin ilçesi; hepsinde çalışırız</dt><dd>19</dd></div>
-          <div><dt>Venti Dijital Ajans’ın yayındaki sitesi</dt><dd>{PROJECTS.length}</dd></div>
-          <div><dt><a href="https://share.google/YVUE42SqN5ipf0y1j" rel="noopener" target="_blank">Ajansın Google puanı, 28 yorum</a></dt><dd>5,0</dd></div>
-        </dl>
+
+        <form class="story__panel" id="dort-is" data-story onsubmit="return false" aria-labelledby="dort-is-baslik">
+          <h2 class="sr-only" id="dort-is-baslik">Dört iş, tek harita</h2>
+          <div class="tabs" role="tablist" aria-label="Adımlar">
+            {tabs.map((t, i) => <button class="tab" type="button" role="tab" aria-selected={i === 0 ? 'true' : 'false'} data-story-go={i + 1}>{t}</button>)}
+          </div>
+
+          <div class="blk" data-step="0">
+            <h3>Önce, müşterinizin aramasını yazın.</h3>
+            <p>Haritadaki her sütun bir ilçe. Sütun ne kadar yüksekse, o ilçede arayan müşteri sizi Google’da o kadar üstte görür.</p>
+            <div class="ctl ctl--pair">
+              <label><span>İşiniz</span><input name="trade" value={trade} autocomplete="off" maxlength="40" /></label>
+              <label><span>İlçeniz</span>
+                <select name="district">{DISTRICTS.map((d) => <option selected={d === district}>{d}</option>)}</select>
+              </label>
+            </div>
+            <p class="small muted ctl-hint">Haritada bir ilçeye dokunarak da seçebilirsiniz.</p>
+          </div>
+
+          <div class="blk" data-step="1">
+            <h3>Yerel SEO: haritada ilk üçe girin.</h3>
+            <p>Google İşletme Profilinizi, kategorinizi, fotoğraflarınızı ve yorum düzeninizi kurarız. Konum içeren aramada harita, sonuçların en üstünde durur.</p>
+            <div class="ctl">
+              <button class="switch" type="button" role="switch" aria-checked="false" data-key="profile"><span class="switch__knob" aria-hidden="true"></span>İşletme Profili düzenli</button>
+            </div>
+            <a class="textlink" href="/yerel-seo/">Yerel SEO ve Google Haritalar <Icon name="arrow" size={16} /></a>
+          </div>
+
+          <div class="blk" data-step="2">
+            <h3>Teknik SEO: siteniz hızlı açılsın.</h3>
+            <p>Google önce sayfanızı açabilmeli ve okuyabilmeli. Telefonda geç açılan, hata veren sayfalar sırada geride kalır.</p>
+            <fieldset class="ctl seg">
+              <legend>Sayfanın telefonda açılışı</legend>
+              <label><input type="radio" name="speed" value="0" checked /><span>4,2 saniye</span></label>
+              <label><input type="radio" name="speed" value="1" /><span>1,9 saniye</span></label>
+            </fieldset>
+            <a class="textlink" href="/teknik-seo/">Teknik SEO ve site hızı <Icon name="arrow" size={16} /></a>
+          </div>
+
+          <div class="blk" data-step="3">
+            <h3>İçerik: müşterinin sorusunu yanıtlayın.</h3>
+            <p>Fiyatı, en iyisini, açık olup olmadığını soran aramalara cevap veren sayfalar, sizi daha çok aramada gösterir.</p>
+            <fieldset class="ctl chips">
+              <legend>Yazılan sayfalar</legend>
+              <label><input type="checkbox" name="content" value="fiyat" /><span><span data-trade>{trade}</span> fiyatları</span></label>
+              <label><input type="checkbox" name="content" value="eniyi" /><span>en iyi <span data-trade>{trade}</span></span></label>
+              <label><input type="checkbox" name="content" value="acik" /><span><span data-trade>{trade}</span> açık mı</span></label>
+            </fieldset>
+            <a class="textlink" href="/icerik-seo/">İçerik ve blog SEO <Icon name="arrow" size={16} /></a>
+          </div>
+
+          <div class="blk" data-step="4">
+            <h3>Web tasarım: her ilçeye bir sayfa.</h3>
+            <p>Hizmet verdiğiniz ilçeler için gerçek bilgi taşıyan sayfalar, uzaktaki ilçelerde de görünmenize yardım eder.</p>
+            <div class="ctl">
+              <button class="switch" type="button" role="switch" aria-checked="false" data-key="pages"><span class="switch__knob" aria-hidden="true"></span>İlçe sayfaları yayında</button>
+            </div>
+            <a class="textlink" href="/web-tasarim/">SEO uyumlu web tasarım <Icon name="arrow" size={16} /></a>
+          </div>
+
+          <div class="blk blk--end" data-step="5">
+            <h3>Kendi aramanızda nerede olduğunuzu ölçelim.</h3>
+            <p class="small muted">Bu harita örnek bir gösterimdir; sütunlar temsilîdir. Gerçek sıra rekabete, konuma ve işletmenize göre değişir. Biz her ay ölçer, raporda gösteririz.</p>
+            <a class="button" href={WA_ANALYSIS} data-wa-story rel="noopener">{CTA_LABEL}<Icon name="arrow" size={18} /></a>
+          </div>
+        </form>
       </div>
 
-      <form class="panel story__panel" id="dort-is" data-story onsubmit="return false" aria-labelledby="dort-is-baslik">
-        <h2 class="sr-only" id="dort-is-baslik">Dört iş, tek harita</h2>
-        <div class="tabs" role="tablist" aria-label="Adımlar">
-          {tabs.map((t, i) => <button class="tab" type="button" role="tab" aria-selected={i === 0 ? 'true' : 'false'} data-story-go={i + 1}>{t}</button>)}
-        </div>
-
-        <div class="blk" data-step="0">
-          <h3>Önce, müşterinizin aramasını yazın.</h3>
-          <p>Haritadaki her sütun bir ilçe. Sütun ne kadar yüksekse, o ilçede arayan müşteri sizi Google’da o kadar üstte görür.</p>
-          <div class="ctl ctl--pair">
-            <label><span>İşiniz</span><input name="trade" value={trade} autocomplete="off" maxlength="40" /></label>
-            <label><span>İlçeniz</span>
-              <select name="district">{DISTRICTS.map((d) => <option selected={d === district}>{d}</option>)}</select>
-            </label>
-          </div>
-          <p class="small muted ctl-hint">Haritada bir ilçeye dokunarak da seçebilirsiniz.</p>
-        </div>
-
-        <div class="blk" data-step="1">
-          <h3>Yerel SEO: haritada ilk üçe girin.</h3>
-          <p>Google İşletme Profilinizi, kategorinizi, fotoğraflarınızı ve yorum düzeninizi kurarız. Konum içeren aramada harita, sonuçların en üstünde durur.</p>
-          <div class="ctl">
-            <button class="switch" type="button" role="switch" aria-checked="false" data-key="profile"><span class="switch__knob" aria-hidden="true"></span>İşletme Profili düzenli</button>
-          </div>
-          <a class="textlink" href="/yerel-seo/">Yerel SEO ve Google Haritalar <span aria-hidden="true">→</span></a>
-        </div>
-
-        <div class="blk" data-step="2">
-          <h3>Teknik SEO: siteniz hızlı açılsın.</h3>
-          <p>Google önce sayfanızı açabilmeli ve okuyabilmeli. Telefonda geç açılan, hata veren sayfalar sırada geride kalır.</p>
-          <fieldset class="ctl seg">
-            <legend>Sayfanın telefonda açılışı</legend>
-            <label><input type="radio" name="speed" value="0" checked /><span>4,2 saniye</span></label>
-            <label><input type="radio" name="speed" value="1" /><span>1,9 saniye</span></label>
-          </fieldset>
-          <a class="textlink" href="/teknik-seo/">Teknik SEO ve site hızı <span aria-hidden="true">→</span></a>
-        </div>
-
-        <div class="blk" data-step="3">
-          <h3>İçerik: müşterinin sorusunu yanıtlayın.</h3>
-          <p>Fiyatı, en iyisini, açık olup olmadığını soran aramalara cevap veren sayfalar, sizi daha çok aramada gösterir.</p>
-          <fieldset class="ctl chips">
-            <legend>Yazılan sayfalar</legend>
-            <label><input type="checkbox" name="content" value="fiyat" /><span><span data-trade>{trade}</span> fiyatları</span></label>
-            <label><input type="checkbox" name="content" value="eniyi" /><span>en iyi <span data-trade>{trade}</span></span></label>
-            <label><input type="checkbox" name="content" value="acik" /><span><span data-trade>{trade}</span> açık mı</span></label>
-          </fieldset>
-          <a class="textlink" href="/icerik-seo/">İçerik ve blog SEO <span aria-hidden="true">→</span></a>
-        </div>
-
-        <div class="blk" data-step="4">
-          <h3>Web tasarım: her ilçeye bir sayfa.</h3>
-          <p>Hizmet verdiğiniz ilçeler için gerçek bilgi taşıyan sayfalar, uzaktaki ilçelerde de görünmenize yardım eder.</p>
-          <div class="ctl">
-            <button class="switch" type="button" role="switch" aria-checked="false" data-key="pages"><span class="switch__knob" aria-hidden="true"></span>İlçe sayfaları yayında</button>
-          </div>
-          <a class="textlink" href="/web-tasarim/">SEO uyumlu web tasarım <span aria-hidden="true">→</span></a>
-        </div>
-
-        <div class="blk blk--end" data-step="5">
-          <h3>Kendi aramanızda nerede olduğunuzu ölçelim.</h3>
-          <p class="small muted">Bu harita örnek bir gösterimdir; sütunlar temsilîdir. Gerçek sıra rekabete, konuma ve işletmenize göre değişir. Biz her ay ölçer, raporda gösteririz.</p>
-          <a class="button" href={WA_GENERAL} data-wa-story rel="noopener">Sıramı sor: <span data-out-query>denizli {trade}</span></a>
-        </div>
-      </form>
+      <div class="story__map">
+        <MapStage query={`denizli ${trade}`} />
+      </div>
     </div>
   </div>
 </section>

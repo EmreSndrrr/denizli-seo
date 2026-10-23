@@ -1,16 +1,21 @@
 ---
-// Questions as an open list: the heading on the left, each answer opening under its question.
+// Questions: the heading and a way to ask on the left, each answer opening under its question.
+import Icon from './Icon.astro';
 import type { Qa } from '../data/services';
-import { WA_GENERAL } from '../data/site';
+import { WA_GENERAL, SITE } from '../data/site';
 interface Props { items: Qa[]; title?: string; id?: string }
 const { items, title = 'Sık sorulanlar', id = 'sss' } = Astro.props;
 ---
-<section class="sec" id={id} aria-labelledby={`${id}-baslik`}>
+<section class="sec band band--white" id={id} aria-labelledby={`${id}-baslik`}>
   <div class="wrap faq" data-faq>
     <div class="faq__head">
       <h2 id={`${id}-baslik`} data-reveal>{title}</h2>
-      <p data-reveal style="--i:1">Cevabını burada bulamadığınız soruyu WhatsApp’tan sorun.</p>
-      <a class="textlink" href={WA_GENERAL} rel="noopener" data-reveal style="--i:2">Soru sorun <span aria-hidden="true">→</span></a>
+      <p data-reveal style="--i:1">Cevabını burada bulamadığınız soruyu WhatsApp’tan sorun; işi yapan kişi yanıtlar.</p>
+      <div class="faq__ask" data-reveal style="--i:2">
+        <span class="chip-icon"><Icon name="chat" size={22} /></span>
+        <p><b>{SITE.person}</b><span>{SITE.phoneDisplay}</span></p>
+        <a class="button button--outline button--sm" href={WA_GENERAL} rel="noopener">Soru sorun</a>
+      </div>
     </div>
     <div class="faq__list">
       {items.map((item, i) => (

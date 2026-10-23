@@ -3,9 +3,11 @@ import { Image } from 'astro:assets';
 import Base from '../layouts/Base.astro';
 import PageHead from '../components/PageHead.astro';
 import Contact from '../components/Contact.astro';
-import WorkPics from '../components/WorkPics.astro';
+import Work from '../components/Work.astro';
+import Why from '../components/Why.astro';
+import Icon from '../components/Icon.astro';
 import { PROJECTS } from '../data/projects';
-import { SITE, ADDRESS_LINE } from '../data/site';
+import { SITE, ADDRESS_LINE, WA_ANALYSIS, CTA_LABEL } from '../data/site';
 
 const title = "Hakkımızda: Venti Dijital Ajans’ın SEO Ekibi | Denizli SEO";
 const description =
@@ -27,8 +29,8 @@ const jsonld = [
 <Base title={title} description={description} jsonld={jsonld}>
   <PageHead crumbs={[{ href: '/', label: 'Ana sayfa' }, { label: 'Hakkımızda' }]} h1={['Venti’nin', 'SEO ekibiyiz.']} lead="Denizli SEO, Pamukkale’deki Venti Dijital Ajans’ın arama motoru optimizasyonu markasıdır. Venti; web sitesini, Google’daki sırayı ve reklamı tek ekipte yürütür.">
     <Fragment slot="acts">
-      <a class="button" href="/iletisim/">İletişime geçin</a>
-      <a class="textlink" href="/#isler">Yaptığımız siteler <span aria-hidden="true">→</span></a>
+      <a class="button" href={WA_ANALYSIS} rel="noopener">{CTA_LABEL}<Icon name="arrow" size={18} /></a>
+      <a class="button button--outline" href="/iletisim/">İletişim</a>
     </Fragment>
     <a class="pshot" href={shot.url} rel="noopener" target="_blank">
       <Image src={shot.shot!} alt={`${shot.name} sitesinin ana sayfası`} widths={[600, 900, 1300]} sizes="(max-width: 1023px) 100vw, 50vw" loading="eager" />
@@ -36,25 +38,14 @@ const jsonld = [
     </a>
   </PageHead>
 
-  <section class="sec principles" aria-labelledby="ilkeler">
-    <div class="principles__head">
-      <h2 id="ilkeler" data-reveal>Dört ilke</h2>
-      <p data-reveal style="--i:1">İşe başlamadan önce bu ilkeleri açıkça söyleriz; iş boyunca da bunlara uyarız.</p>
-    </div>
-    <ul class="principles__list">
-      <li data-reveal><h3>Tek elden</h3><p>Site, SEO ve reklam aynı ekipte. Bir kanalın verisi diğerini besler; işiniz ajanslar arasında bölünmez.</p></li>
-      <li data-reveal style="--i:1"><h3>Rakamla rapor</h3><p>Her ay sıra, ziyaret ve gelen talep rakamla raporlanır. Sonuç vermeyen çalışma da raporda yazar.</p></li>
-      <li data-reveal style="--i:2"><h3>Doğrudan iletişim</h3><p>İşi yapan kişiyle konuşursunuz. Araya hesap yöneticisi girmez.</p></li>
-      <li data-reveal style="--i:3"><h3>Garanti değil, şeffaflık</h3><p>Google’da sıra garanti edilemez. Yapılacak işi, süresini ve sonucunu açıkça yazarız.</p></li>
-    </ul>
-  </section>
+  <Why title="Dört kural" intro="İşe başlamadan önce bu kuralları açıkça söyleriz; iş boyunca da bunlara uyarız." link={false} />
 
-  <section class="sec why" aria-labelledby="neden">
+  <section class="sec band band--white" aria-labelledby="neden"><div class="wrap brand-note">
     <h2 id="neden" data-reveal>Neden ayrı bir marka?</h2>
     <p class="lead" data-reveal style="--i:1">Denizli SEO, Venti’nin SEO hizmetlerini tek bir adreste anlatır. Google reklamları ve sosyal medya için <a href={SITE.parent.url} rel="noopener">ventiajans.com</a>. Muhatabınız {SITE.person}; ofis {ADDRESS_LINE}.</p>
-  </section>
+  </div></section>
 
-  <WorkPics names={['Bilgi Dem Akademi', 'Yörükoğulları Nakliyat', 'Balkan Endüstriyel Mutfak', 'Elea Premium Stay']} />
+  <Work names={['Bilgi Dem Akademi', 'Yörükoğulları Nakliyat', 'Balkan Endüstriyel Mutfak', 'Elea Premium Stay', 'Jarkotech', 'Tekdağ Elektronik']} />
 
   <Contact />
 </Base>

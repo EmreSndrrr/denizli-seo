@@ -3,8 +3,9 @@ import Base from '../layouts/Base.astro';
 import PageHead from '../components/PageHead.astro';
 import MapStage from '../components/MapStage.astro';
 import Contact from '../components/Contact.astro';
-import WorkPics from '../components/WorkPics.astro';
-import { SITE, ADDRESS_LINE, WA_GENERAL } from '../data/site';
+import Work from '../components/Work.astro';
+import Icon from '../components/Icon.astro';
+import { SITE, ADDRESS_LINE, WA_ANALYSIS, CTA_LABEL } from '../data/site';
 
 const title = 'İletişim: Telefon, WhatsApp ve Adres | Denizli SEO';
 const description = `Denizli SEO ile iletişim: ${SITE.phoneDisplay}, WhatsApp ve ${ADDRESS_LINE}. Sitenize birlikte bakalım.`;
@@ -24,27 +25,27 @@ const jsonld = [
 <Base title={title} description={description} jsonld={jsonld}>
   <PageHead crumbs={[{ href: '/', label: 'Ana sayfa' }, { label: 'İletişim' }]} h1={['Sitenize', 'birlikte bakalım.']} lead={`WhatsApp’tan yazın ya da arayın: ${SITE.phoneDisplay}. Telefonu ${SITE.person} açar. Ofisimiz Pamukkale’de; gelmeden önce aramanız yeterli.`}>
     <Fragment slot="acts">
-      <a class="button" href={WA_GENERAL} rel="noopener">WhatsApp’tan yazın</a>
-      <a class="textlink" href={`tel:${SITE.phone}`}>{SITE.phoneDisplay} <span aria-hidden="true">→</span></a>
+      <a class="button" href={WA_ANALYSIS} rel="noopener">{CTA_LABEL}<Icon name="arrow" size={18} /></a>
+      <a class="button button--outline" href={`tel:${SITE.phone}`}><Icon name="phone" size={18} />{SITE.phoneDisplay}</a>
     </Fragment>
     <p slot="after" class="phero__addr" data-rise style="--i:3">Ofisimiz: <a href={SITE.mapsUrl} rel="noopener" target="_blank">{ADDRESS_LINE}</a></p>
     <MapStage mode="place" place={{ district: 'Pamukkale', badge: 'Ofis' }} />
   </PageHead>
 
-  <section class="sec principles" aria-labelledby="ekleyin">
+  <section class="sec band band--white" aria-labelledby="ekleyin"><div class="wrap principles">
     <div class="principles__head">
       <h2 id="ekleyin" data-reveal>Yazarken şunları ekleyin</h2>
       <p data-reveal style="--i:1">Bunlar elimizdeyse ilk görüşmede sitenize ve haritadaki yerinize bakmış oluruz.</p>
     </div>
     <ul class="principles__list">
-      <li data-reveal><h3>Sitenizin adresi</h3><p>Varsa. Yoksa sıfırdan başlarız.</p></li>
-      <li data-reveal style="--i:1"><h3>Hangi aramada çıkmak istiyorsunuz?</h3><p>Müşterinizin Google’a yazdığını düşündüğünüz iki üç arama.</p></li>
-      <li data-reveal style="--i:2"><h3>Hizmet verdiğiniz yer</h3><p>Tek dükkân mı, birkaç ilçe mi, bütün Denizli mi?</p></li>
-      <li data-reveal style="--i:3"><h3>Google İşletme Profiliniz</h3><p>Varsa bağlantısı. Haritada nerede olduğunuza oradan bakarız.</p></li>
+      <li data-reveal><span class="svc__tick"><Icon name="check" size={16} /></span><h3>Sitenizin adresi</h3><p>Varsa. Yoksa sıfırdan başlarız.</p></li>
+      <li data-reveal style="--i:1"><span class="svc__tick"><Icon name="check" size={16} /></span><h3>Hangi aramada çıkmak istiyorsunuz?</h3><p>Müşterinizin Google’a yazdığını düşündüğünüz iki üç arama.</p></li>
+      <li data-reveal style="--i:2"><span class="svc__tick"><Icon name="check" size={16} /></span><h3>Hizmet verdiğiniz yer</h3><p>Tek dükkân mı, birkaç ilçe mi, bütün Denizli mi?</p></li>
+      <li data-reveal style="--i:3"><span class="svc__tick"><Icon name="check" size={16} /></span><h3>Google İşletme Profiliniz</h3><p>Varsa bağlantısı. Haritada nerede olduğunuza oradan bakarız.</p></li>
     </ul>
-  </section>
+  </div></section>
 
-  <WorkPics title="Gelmeden önce işlerimize bakın" />
+  <Work title="Gelmeden önce işlerimize bakın" />
 
   <Contact first="Ya da" second="buradan yazın." />
 </Base>

@@ -11,7 +11,7 @@ const { mode = 'rank', preset = {}, place, query = 'denizli kuyumcu' } = Astro.p
 ---
 <div class="stage" data-stage data-mode={mode} data-preset={JSON.stringify(preset)} data-place={place ? JSON.stringify(place) : undefined}>
   <div class="stage__map" data-ui>
-    <img class="stage__poster" src="/map/denizli-3d.webp" width="1100" height="960" alt="Denizli’nin 19 ilçesi ve dağları, üç boyutlu harita" />
+    <img class="stage__poster" src="/map/denizli-3d.webp" width="972" height="1080" alt="Denizli’nin 19 ilçesi ve dağları, üç boyutlu harita" />
     <canvas class="stage__canvas" aria-hidden="true" data-map-canvas></canvas>
     <div class="stage__labels" aria-hidden="true" data-map-labels></div>
     {mode === 'rank' && (

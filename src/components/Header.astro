@@ -1,17 +1,21 @@
 ---
-import { NAV, SITE, WA_GENERAL } from '../data/site';
+import Icon from './Icon.astro';
+import { NAV, SITE, WA_ANALYSIS, CTA_LABEL } from '../data/site';
 import { SERVICES } from '../data/services';
 const path = Astro.url.pathname;
 ---
 <header class="top">
-  <a class="top__mark" href="/" aria-label="Denizli SEO ana sayfa">{SITE.name}</a>
-  <nav class="top__links" aria-label="Ana menü">
-    {NAV.map((item) => (
-      <a href={item.href} aria-current={path === item.href ? 'page' : undefined}>{item.label}</a>
-    ))}
-  </nav>
-  <a class="top__act" href={WA_GENERAL} data-wa-query rel="noopener">WhatsApp’tan yazın <span class="arrow" aria-hidden="true">→</span></a>
-  <button class="top__menu" type="button" aria-expanded="false" aria-controls="menu" data-menu-open>Menü</button>
+  <div class="top__in">
+    <a class="top__mark" href="/" aria-label="Denizli SEO ana sayfa"><span class="top__logo" aria-hidden="true"><Icon name="pin" size={18} /></span>{SITE.name}</a>
+    <nav class="top__links" aria-label="Ana menü">
+      {NAV.map((item) => (
+        <a href={item.href} aria-current={path === item.href ? 'page' : undefined}>{item.label}</a>
+      ))}
+    </nav>
+    <a class="top__phone" href={`tel:${SITE.phone}`}><Icon name="phone" size={18} />{SITE.phoneDisplay}</a>
+    <a class="button button--sm" href={WA_ANALYSIS} rel="noopener">{CTA_LABEL}</a>
+    <button class="top__menu" type="button" aria-expanded="false" aria-controls="menu" data-menu-open>Menü</button>
+  </div>
 </header>
 
 <div class="menu" id="menu" role="dialog" aria-modal="true" aria-label="Menü">
@@ -21,12 +25,13 @@ const path = Astro.url.pathname;
   </div>
   <nav class="menu__list" aria-label="Mobil menü">
     {SERVICES.map((s) => <a href={`/${s.slug}/`}>{s.name}</a>)}
+    <a href="/#nasil">Nasıl çalışırız</a>
     <a href="/blog/">Blog</a>
     <a href="/hakkimizda/">Hakkımızda</a>
     <a href="/iletisim/">İletişim</a>
   </nav>
   <div class="menu__foot">
-    <a href={WA_GENERAL} rel="noopener">WhatsApp’tan yazın</a>
-    <a href={`tel:${SITE.phone}`}>{SITE.phoneDisplay}</a>
+    <a class="button" href={WA_ANALYSIS} rel="noopener">{CTA_LABEL}</a>
+    <a class="button button--outline" href={`tel:${SITE.phone}`}>{SITE.phoneDisplay}</a>
   </div>
 </div>

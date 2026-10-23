@@ -1,0 +1,47 @@
+---
+// The four services at uneven widths, each with the piece of interface it changes.
+import { Image } from 'astro:assets';
+import Icon from './Icon.astro';
+import Vitals from './Vitals.astro';
+import { SERVICES } from '../data/services';
+import { DISTRICTS } from '../data/site';
+import { PROJECTS } from '../data/projects';
+const icons = { 'yerel-seo': 'pin', 'teknik-seo': 'gauge', 'icerik-seo': 'doc', 'web-tasarim': 'layout' } as const;
+const shot = PROJECTS.find((p) => p.name === 'Yörükoğulları Nakliyat')!;
+const questions = ['denizli kuyumcu fiyatları', 'en iyi kuyumcu denizli', 'kuyumcu pazar günü açık mı'];
+---
+<section class="sec band band--white" id="hizmetler" aria-labelledby="hizmetler-baslik">
+  <div class="wrap">
+    <div class="shead">
+      <h2 id="hizmetler-baslik" data-reveal>Dört hizmet, bir amaç: aranınca bulunmak.</h2>
+      <p data-reveal style="--i:1">Hangisinden başlayacağımızı ücretsiz analizden sonra, sitenize ve rakiplerinize bakarak birlikte seçeriz.</p>
+    </div>
+    <ul class="svcs">
+      {SERVICES.map((s, i) => (
+        <li class={`svcs__card svcs__card--${s.slug}`} data-reveal style={`--i:${i}`}>
+          <div class="svcs__text">
+            <div class="svcs__title">
+              <span class="chip-icon"><Icon name={icons[s.slug as keyof typeof icons]} size={22} /></span>
+              <h3><a href={`/${s.slug}/`}>{s.name}</a></h3>
+            </div>
+            <p>{s.lead}</p>
+            <ul class="checks">{s.items.slice(0, 3).map((it) => <li><Icon name="check" size={16} />{it.name}</li>)}</ul>
+          </div>
+          <div class="svcs__frag" aria-hidden="true">
+            {s.slug === 'yerel-seo' && (
+              <ul class="svcs__districts">{DISTRICTS.map((d) => <li class={d === 'Merkezefendi' ? 'is-home' : undefined}>{d}</li>)}</ul>
+            )}
+            {s.slug === 'teknik-seo' && <><Vitals /><p class="svcs__note">Örnek ölçüm; Google’ın “iyi” sınırına göre.</p></>}
+            {s.slug === 'icerik-seo' && (
+              <ul class="svcs__qs">{questions.map((q) => <li><Icon name="search" size={16} />{q}</li>)}</ul>
+            )}
+            {s.slug === 'web-tasarim' && (
+              <span class="svcs__shot"><Image src={shot.shot!} alt="" widths={[480, 760]} sizes="(max-width: 1023px) 90vw, 34vw" loading="lazy" /></span>
+            )}
+          </div>
+          <span class="svcs__more">Hizmeti inceleyin <Icon name="arrow" size={16} /></span>
+        </li>
+      ))}
+    </ul>
+  </div>
+</section>

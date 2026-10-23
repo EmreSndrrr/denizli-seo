@@ -1,0 +1,318 @@
+{
+  "schemaVersion": 2,
+  "generatedAt": "2026-10-23T13:47:40.870Z",
+  "title": "Design System: Denizli SEO",
+  "extensions": {
+    "colorMeta": {
+      "accent": {
+        "role": "primary",
+        "displayName": "Action Blue",
+        "canonical": "#1d5fe0",
+        "tonalRamp": [
+          "#0a1f4d",
+          "#0f2e70",
+          "#143f96",
+          "#1d5fe0",
+          "#4f82ea",
+          "#8aaef2",
+          "#c2d5f8",
+          "#e7effd"
+        ]
+      },
+      "accent-hi": {
+        "role": "primary",
+        "displayName": "Pressed Blue",
+        "canonical": "#164db8"
+      },
+      "accent-soft": {
+        "role": "primary",
+        "displayName": "Pale Blue",
+        "canonical": "#e7effd"
+      },
+      "link": {
+        "role": "primary",
+        "displayName": "Link Blue",
+        "canonical": "#1a55c9"
+      },
+      "navy": {
+        "role": "secondary",
+        "displayName": "Deep Navy",
+        "canonical": "#0b1d36",
+        "tonalRamp": [
+          "#060f1d",
+          "#0b1d36",
+          "#12294a",
+          "#1f3a63",
+          "#3a5580",
+          "#6d84a8",
+          "#a9b8cf",
+          "#e3e9f2"
+        ]
+      },
+      "navy-2": {
+        "role": "secondary",
+        "displayName": "Navy Raised",
+        "canonical": "#12294a"
+      },
+      "on-navy-2": {
+        "role": "secondary",
+        "displayName": "Mist",
+        "canonical": "#b8c5d9"
+      },
+      "home": {
+        "role": "tertiary",
+        "displayName": "Home Amber",
+        "canonical": "#e8892b",
+        "tonalRamp": [
+          "#4a2604",
+          "#7a3f08",
+          "#a85a12",
+          "#e8892b",
+          "#f0a75e",
+          "#f5c590",
+          "#fadfc2",
+          "#fdf0e1"
+        ]
+      },
+      "star": {
+        "role": "tertiary",
+        "displayName": "Rating Gold",
+        "canonical": "#f5b942"
+      },
+      "band": {
+        "role": "neutral",
+        "displayName": "Cool Band",
+        "canonical": "#f3f6fb"
+      },
+      "line": {
+        "role": "neutral",
+        "displayName": "Hairline",
+        "canonical": "#dde3ec"
+      },
+      "line-2": {
+        "role": "neutral",
+        "displayName": "Hairline Strong",
+        "canonical": "#c7d0dd"
+      },
+      "ink": {
+        "role": "neutral",
+        "displayName": "Ink",
+        "canonical": "#0d1b2e",
+        "tonalRamp": [
+          "#0d1b2e",
+          "#1f2e44",
+          "#35445a",
+          "#56647a",
+          "#7f8a9c",
+          "#c7d0dd",
+          "#e1e7f0",
+          "#f3f6fb"
+        ]
+      },
+      "ink-2": {
+        "role": "neutral",
+        "displayName": "Ink Soft",
+        "canonical": "#35445a"
+      },
+      "muted": {
+        "role": "neutral",
+        "displayName": "Slate",
+        "canonical": "#56647a"
+      }
+    },
+    "typographyMeta": {
+      "display": {
+        "displayName": "Display",
+        "purpose": "Home h1 only; container-sized to stay on two lines."
+      },
+      "headline": {
+        "displayName": "Headline",
+        "purpose": "Section h2."
+      },
+      "title": {
+        "displayName": "Title",
+        "purpose": "Card and step h3."
+      },
+      "lead": {
+        "displayName": "Lead",
+        "purpose": "Sentence under an h1 or section intro."
+      },
+      "body": {
+        "displayName": "Body",
+        "purpose": "Running text."
+      },
+      "label": {
+        "displayName": "Label",
+        "purpose": "Form labels, tabs, small captions."
+      }
+    },
+    "shadows": [
+      {
+        "name": "shadow-sm",
+        "value": "0 1px 2px rgba(13, 27, 46, 0.05), 0 4px 12px -6px rgba(13, 27, 46, 0.08)",
+        "purpose": "Rest: cards, buttons, active tab."
+      },
+      {
+        "name": "shadow",
+        "value": "0 2px 4px rgba(13, 27, 46, 0.04), 0 16px 32px -16px rgba(13, 27, 46, 0.2)",
+        "purpose": "Lift: hovered cards and buttons, live story panel."
+      },
+      {
+        "name": "shadow-lg",
+        "value": "0 4px 8px rgba(13, 27, 46, 0.06), 0 24px 48px -20px rgba(13, 27, 46, 0.32)",
+        "purpose": "Float: map card, readout, page-hero visuals."
+      }
+    ],
+    "motion": [
+      {
+        "name": "ease",
+        "value": "cubic-bezier(0.22, 1, 0.36, 1)",
+        "purpose": "The single easing for every transition."
+      },
+      {
+        "name": "control",
+        "value": "150-200ms",
+        "purpose": "Buttons, links, inputs, tabs."
+      },
+      {
+        "name": "card",
+        "value": "250ms",
+        "purpose": "Card lift and border on hover."
+      },
+      {
+        "name": "reveal",
+        "value": "600ms, translateY(16px), 70ms stagger",
+        "purpose": "Scroll reveals; off under reduced motion."
+      }
+    ],
+    "breakpoints": [
+      {
+        "name": "sm",
+        "value": "48em"
+      },
+      {
+        "name": "md",
+        "value": "64em"
+      },
+      {
+        "name": "lg",
+        "value": "80em"
+      }
+    ]
+  },
+  "components": [
+    {
+      "name": "Primary Button",
+      "kind": "button",
+      "refersTo": "button-primary",
+      "description": "The one action: Ücretsiz SEO analizi iste, opens WhatsApp.",
+      "html": "<a class=\"ds-btn\" href=\"#\">Ücretsiz SEO analizi iste <svg width=\"18\" height=\"18\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"1.8\" stroke-linecap=\"round\" stroke-linejoin=\"round\"><path d=\"M5 12h14 M13 6l6 6-6 6\"/></svg></a>",
+      "css": ".ds-btn { display: inline-flex; align-items: center; gap: 0.55rem; min-height: 3.25rem; padding: 0.75rem 1.5rem; border-radius: 10px; background: var(--accent, #1d5fe0); color: #fff; font-family: var(--text); font-weight: 600; font-size: 1rem; text-decoration: none; border: 1px solid transparent; box-shadow: var(--shadow-sm); transition: background-color 160ms, box-shadow 200ms, transform 160ms cubic-bezier(0.22,1,0.36,1); } .ds-btn svg { transition: transform 200ms cubic-bezier(0.22,1,0.36,1); } .ds-btn:hover { background: var(--accent-hi, #164db8); box-shadow: var(--shadow); transform: translateY(-1px); } .ds-btn:hover svg { transform: translateX(3px); } .ds-btn:active { transform: none; box-shadow: var(--shadow-sm); } .ds-btn:focus-visible { outline: 2px solid var(--accent, #1d5fe0); outline-offset: 3px; }"
+    },
+    {
+      "name": "Outline Button",
+      "kind": "button",
+      "refersTo": "button-outline",
+      "description": "Secondary action beside the primary.",
+      "html": "<a class=\"ds-btn-outline\" href=\"#\">0544 596 56 22</a>",
+      "css": ".ds-btn-outline { display: inline-flex; align-items: center; min-height: 3.25rem; padding: 0.75rem 1.5rem; border-radius: 10px; background: #fff; color: var(--ink, #0d1b2e); border: 1px solid var(--line-2, #c7d0dd); font-family: var(--text); font-weight: 600; font-size: 1rem; text-decoration: none; box-shadow: var(--shadow-sm); transition: border-color 160ms, box-shadow 200ms, transform 160ms; } .ds-btn-outline:hover { border-color: var(--ink, #0d1b2e); box-shadow: var(--shadow); transform: translateY(-1px); } .ds-btn-outline:focus-visible { outline: 2px solid var(--accent, #1d5fe0); outline-offset: 3px; }"
+    },
+    {
+      "name": "Text Input",
+      "kind": "input",
+      "refersTo": "input",
+      "description": "Bordered field with blue focus ring.",
+      "html": "<input class=\"ds-input\" placeholder=\"Örn. Merkezefendi’de kuyumcu\" />",
+      "css": ".ds-input { width: 100%; min-height: 3rem; padding: 0.6rem 0.9rem; border: 1px solid var(--line-2, #c7d0dd); border-radius: 10px; background: #fff; font-family: var(--text); font-size: 1rem; color: var(--ink, #0d1b2e); transition: border-color 150ms, box-shadow 150ms; } .ds-input:hover { border-color: var(--muted, #56647a); } .ds-input:focus-visible { outline: 0; border-color: var(--accent, #1d5fe0); box-shadow: 0 0 0 3px var(--accent-soft, #e7effd); }"
+    },
+    {
+      "name": "Header",
+      "kind": "nav",
+      "description": "Sticky white header with wordmark, links and the small primary button.",
+      "html": "<header class=\"ds-top\"><a class=\"ds-mark\" href=\"#\"><span class=\"ds-logo\"><svg width=\"18\" height=\"18\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"1.8\" stroke-linecap=\"round\" stroke-linejoin=\"round\"><path d=\"M12 21s-6.5-5.6-6.5-11a6.5 6.5 0 0 1 13 0c0 5.4-6.5 11-6.5 11Z M12 12.5a2.5 2.5 0 1 0 0-5 2.5 2.5 0 0 0 0 5Z\"/></svg></span>Denizli SEO</a><nav class=\"ds-links\"><a href=\"#\" aria-current=\"page\">Yerel SEO</a><a href=\"#\">Blog</a><a href=\"#\">İletişim</a></nav><a class=\"ds-btn-sm\" href=\"#\">Ücretsiz SEO analizi iste</a></header>",
+      "css": ".ds-top { display: flex; align-items: center; gap: 1.5rem; height: 76px; padding: 0 1.5rem; background: #fff; border-bottom: 1px solid var(--line, #dde3ec); } .ds-mark { display: inline-flex; align-items: center; gap: 0.6rem; margin-right: auto; font-family: var(--display); font-weight: 700; font-size: 1.25rem; letter-spacing: -0.02em; color: var(--ink, #0d1b2e); text-decoration: none; } .ds-logo { display: grid; place-items: center; width: 2.1rem; height: 2.1rem; border-radius: 9px; background: var(--accent, #1d5fe0); color: #fff; } .ds-links { display: flex; gap: 0.15rem; font-size: 0.9375rem; font-weight: 500; } .ds-links a { color: var(--ink-2, #35445a); text-decoration: none; padding: 0.5rem 0.75rem; border-radius: 8px; transition: background-color 150ms, color 150ms; } .ds-links a:hover, .ds-links a[aria-current] { color: var(--ink, #0d1b2e); background: var(--surface-2, #eef2f8); } .ds-btn-sm { display: inline-flex; align-items: center; min-height: 2.75rem; padding: 0.5rem 1.1rem; border-radius: 10px; background: var(--accent, #1d5fe0); color: #fff; font-weight: 600; font-size: 0.9375rem; text-decoration: none; } .ds-btn-sm:hover { background: var(--accent-hi, #164db8); }"
+    },
+    {
+      "name": "Filter Chip",
+      "kind": "chip",
+      "description": "Toggle chip; plus becomes check when selected.",
+      "html": "<label class=\"ds-chip\"><input type=\"checkbox\" checked /><span>Yerel SEO</span></label>",
+      "css": ".ds-chip { position: relative; display: inline-block; } .ds-chip input { position: absolute; inset: 0; opacity: 0; margin: 0; cursor: pointer; } .ds-chip span { display: inline-flex; align-items: center; min-height: 2.75rem; padding: 0.5rem 1rem; border: 1px solid var(--line-2, #c7d0dd); border-radius: 10px; background: #fff; font-weight: 600; transition: background-color 200ms, border-color 200ms, color 200ms; } .ds-chip:hover span { border-color: var(--muted, #56647a); } .ds-chip input:checked + span { background: var(--accent-soft, #e7effd); border-color: var(--accent, #1d5fe0); color: var(--accent-hi, #164db8); } .ds-chip input:focus-visible + span { outline: 2px solid var(--accent, #1d5fe0); outline-offset: 2px; }"
+    },
+    {
+      "name": "Service Card",
+      "kind": "card",
+      "refersTo": "card",
+      "description": "White card, hairline, low shadow, icon chip, 3px lift on hover.",
+      "html": "<a class=\"ds-card\" href=\"#\"><span class=\"ds-chip-icon\"><svg width=\"22\" height=\"22\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"1.8\" stroke-linecap=\"round\" stroke-linejoin=\"round\"><path d=\"M4.5 16a8 8 0 1 1 15 0 M12 14l4-5 M12 14a1.5 1.5 0 1 0 0 .01\"/></svg></span><b>Teknik SEO</b><span>Site hızı ve taranabilirlik.</span></a>",
+      "css": ".ds-card { display: grid; gap: 1rem; padding: 1.75rem; background: #fff; border: 1px solid var(--line, #dde3ec); border-radius: 16px; box-shadow: var(--shadow-sm); text-decoration: none; color: var(--ink, #0d1b2e); transition: box-shadow 250ms cubic-bezier(0.22,1,0.36,1), transform 250ms cubic-bezier(0.22,1,0.36,1), border-color 250ms; } .ds-card b { font-family: var(--display); font-weight: 600; font-size: 1.25rem; letter-spacing: -0.015em; } .ds-card > span:last-child { color: var(--ink-2, #35445a); font-size: 1rem; } .ds-card:hover { box-shadow: var(--shadow); border-color: var(--line-2, #c7d0dd); transform: translateY(-3px); } .ds-card:focus-visible { outline: 2px solid var(--accent, #1d5fe0); outline-offset: 3px; } .ds-chip-icon { display: grid; place-items: center; width: 2.75rem; height: 2.75rem; border-radius: 12px; background: var(--accent-soft, #e7effd); color: var(--accent, #1d5fe0); }"
+    },
+    {
+      "name": "Map Card",
+      "kind": "custom",
+      "refersTo": "map-card",
+      "description": "Navy 24px card holding the 3D map, readout and attribution note.",
+      "html": "<div class=\"ds-map\"><div class=\"ds-readout\"><b>3</b><small> / 19</small><span>İlk üçte olduğunuz ilçe</span></div><p class=\"ds-note\">Örnek gösterim. Harita © OpenStreetMap katkıda bulunanlar</p></div>",
+      "css": ".ds-map { position: relative; height: 18rem; border-radius: 24px; background: var(--navy, #0b1d36); box-shadow: var(--shadow-lg); overflow: hidden; } .ds-readout { position: absolute; top: 1rem; right: 1rem; padding: 0.9rem 1rem; border-radius: 14px; background: #fff; color: var(--ink, #0d1b2e); box-shadow: var(--shadow-lg); } .ds-readout b { font-family: var(--display); font-weight: 700; font-size: 2rem; letter-spacing: -0.03em; } .ds-readout small { color: var(--muted, #56647a); } .ds-readout span { display: block; color: var(--muted, #56647a); font-size: 0.8125rem; } .ds-note { position: absolute; left: 0.9rem; bottom: 0.8rem; padding: 0.25rem 0.5rem; border-radius: 6px; background: rgba(11,29,54,0.86); color: var(--on-navy-2, #b8c5d9); font-size: 0.75rem; }"
+    }
+  ],
+  "narrative": {
+    "northStar": "The Category Standard, Plus the Map",
+    "overview": "A light, orderly agency site at the craft level of the references the owner pinned (DeltaV, WebFX, SPINX, Thryv): white and cool-grey bands, white cards with a hairline border and a low shadow, bold tight headings, one blue for every action. Nothing about the frame is experimental; it is meant to read as a competent, established agency at a glance.\n\nThe one thing it has that the category does not is the working 3D map of Denizli, always presented inside a navy rounded card. Navy is the system's second ground: it carries the map, the \"why us\" band, the closing contact band and the footer, so the page reads light at the top and settles into navy at the end.\n\nDensity is medium: generous section padding, 12-column grids with an uneven split between heading and content, cards that vary in width rather than a uniform grid.",
+    "keyCharacteristics": [
+      "White (#fff) and cool grey (band) sections alternate; navy closes the page.",
+      "One blue action colour; amber exists only for the visitor's own district.",
+      "Stack Sans Headline 700 headings, never more than two lines.",
+      "10px buttons, 16px cards, 24px map card and contact band.",
+      "Low two-layer navy-tinted shadows; cards lift 3px on hover.",
+      "Drawn 24px stroke icons (1.8 stroke) in 44px chips."
+    ],
+    "rules": [
+      {
+        "name": "The One Action Rule",
+        "body": "Blue means \"you can act here\" or \"top three\". It is never used as decoration or a section ground.",
+        "section": "colors"
+      },
+      {
+        "name": "The Home Is Amber Rule",
+        "body": "Amber marks the visitor's district and nothing else. Do not use it for warnings, highlights or buttons.",
+        "section": "colors"
+      },
+      {
+        "name": "The Two-Line Rule",
+        "body": "No heading runs past two lines. Long headings are split into two block spans; the home h1 is sized by its container to guarantee it.",
+        "section": "typography"
+      },
+      {
+        "name": "The Two Faces Rule",
+        "body": "Only Stack Sans Headline and Stack Sans Text appear in the site's own interface. Arial/Helvetica is allowed solely inside the drawn Google result mock (`.serp`, `data-ui`), where it imitates Google.",
+        "section": "typography"
+      },
+      {
+        "name": "The No-Kicker Rule",
+        "body": "No eyebrow or kicker label above a heading; a heading stands alone, with breadcrumbs as the only line above an inner-page h1.",
+        "section": "typography"
+      },
+      {
+        "name": "The Quiet Lift Rule",
+        "body": "Elevation answers hover: rest → lift, translateY(−1px) for buttons, (−3px) for cards. Nothing floats higher than the map.",
+        "section": "elevation"
+      }
+    ],
+    "dos": [
+      "**Do** use the one primary label \"Ücretsiz SEO analizi iste\" for the main action, linking to WhatsApp with a written message.",
+      "**Do** alternate white and Cool Band sections and close the page on navy (contact band, footer).",
+      "**Do** put any map view in the navy 24px card with the OpenStreetMap attribution on it, and keep the attribution in the footer.",
+      "**Do** label sample map data \"Örnek gösterim\".",
+      "**Do** use the authored stroke icons from `Icon.astro` (24px grid, 1.8 stroke) inside 44px chips.",
+      "**Do** vary card widths (7/5 splits, one large tile) rather than repeating equal cards."
+    ],
+    "donts": [
+      "**Don't** put an eyebrow or kicker label above a heading, or let a heading run past two lines.",
+      "**Don't** use amber for anything except the visitor's district, or blue as a decorative fill.",
+      "**Don't** use Arial or any system display face outside the drawn Google result mock.",
+      "**Don't** add hard-offset or black shadows, gradients, or pill-shaped buttons.",
+      "**Don't** add testimonials, client logos, badges, invented statistics or ranking guarantees; the only rating shown is the real 5.0 from 28 Google reviews with its date."
+    ]
+  }
+}

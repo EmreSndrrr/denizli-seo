@@ -1,0 +1,33 @@
+---
+// Why this team: four working rules on a navy band, with the agency's public rating beside them.
+import Icon from './Icon.astro';
+import { PRINCIPLES } from '../data/principles';
+import { PROJECTS } from '../data/projects';
+interface Props { title?: string; intro?: string; link?: boolean }
+const {
+  title = 'Tek ekip, açık rapor.',
+  intro = 'Denizli SEO, Pamukkale’deki Venti Dijital Ajans’ın SEO markası. İşe başlamadan önce bu dört kuralı açıkça söyleriz; iş boyunca da bunlara uyarız.',
+  link = true,
+} = Astro.props;
+---
+<section class="sec why" aria-labelledby="neden-baslik">
+  <div class="wrap why__in">
+    <div class="why__head">
+      <h2 id="neden-baslik" data-reveal>{title}</h2>
+      <p data-reveal style="--i:1">{intro}</p>
+      <a class="rating" href="https://share.google/YVUE42SqN5ipf0y1j" rel="noopener" target="_blank" data-reveal style="--i:2">
+        <span class="rating__stars" aria-hidden="true">{[0, 1, 2, 3, 4].map(() => <Icon name="star" size={18} />)}</span>
+        <span><b>5,0</b> Google puanı, 28 yorum <span class="rating__when">Ekim 2026 · {PROJECTS.length} yayında site</span></span>
+      </a>
+      {link && <a class="textlink textlink--light" href="/hakkimizda/" data-reveal style="--i:3">Hakkımızda <Icon name="arrow" size={16} /></a>}
+    </div>
+    <ul class="why__list">
+      {PRINCIPLES.map((p, i) => (
+        <li data-reveal style={`--i:${i}`}>
+          <span class="chip-icon chip-icon--dark"><Icon name={p.icon} size={22} /></span>
+          <div><h3>{p.name}</h3><p>{p.text}</p></div>
+        </li>
+      ))}
+    </ul>
+  </div>
+</section>
