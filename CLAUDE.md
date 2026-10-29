@@ -1,5 +1,7 @@
 # CLAUDE.md
 
+This file provides guidance to Claude Code (claude.ai/code) when working with code in this repository.
+
 Behavioral guidelines to reduce common LLM coding mistakes. Merge with project-specific instructions as needed.
 
 **Tradeoff:** These guidelines bias toward caution over speed. For trivial tasks, use judgment.
@@ -74,3 +76,30 @@ Strong success criteria let you loop independently. Weak criteria ("make it work
 - Renk ve yazı tokenları `src/styles/global.css` içinde. Fontlar: Stack Sans Headline (başlık, 300) ve Stack Sans Text (metin), `public/fonts/` altında, Türkçe karakterler test edildi.
 - İçerik `src/data/` ve `src/content/blog/` altında. Uydurma kanıt yok: müşteri yorumu, istatistik, sıralama garantisi ya da ödül yazma. Rakam yalnızca kaynağı varsa.
 - Görsel eklerken lisansı doğrula ve kaynağını sayfada belirt. Harita verisinin atfı (© OpenStreetMap katkıda bulunanlar) haritada ve sayfa sonunda kalmalı.
+
+## Komutlar
+
+Bulut oturumunda Node 22.22 geliyor, proje ≥ 22.23 istiyor; her komutu `npx -y -p node@24` ile çalıştır:
+
+```bash
+npx -y -p node@24 npm ci          # bağımlılıklar
+npx -y -p node@24 npm run dev     # http://localhost:4321
+npx -y -p node@24 npm run build   # dist/ (11 sayfa + sitemap)
+npx -y -p node@24 npm run check   # astro check: tip kontrolü, 0 hata beklenir
+```
+
+Test paketi yok. Doğrulama = `build` + `check` temiz geçmeli; görsel değişikliklerde `.claude/skills/playwright-cli` ile sayfayı açıp ekran görüntüsü al.
+
+## Mimari
+
+- **Veri → sayfa:** Metinler bileşenlerde değil `src/data/*.ts` içinde. `src/pages/[service].astro`, `SERVICES` dizisinden `getStaticPaths` ile dört hizmet sayfasını üretir; yeni hizmet = `services.ts`'e kayıt + `[service].astro` içindeki slug'a bağlı haritalar (`icons`, `workFor`, `presets`). Blog `src/content.config.ts` şemasıyla doğrulanır (başlık ≤ 60, açıklama ≤ 170 karakter, `visual: serp | chart`).
+- **SEO / JSON-LD:** `src/layouts/Base.astro` canonical, OG/Twitter etiketlerini ve işletmeyi (`ProfessionalService`, `@id: SITE.url/#isletme`) tek yerde tanımlar. Sayfalar kendi düğümlerini `jsonld` prop'u ile verir ve işletmeye `@id` ile bağlanır; yeni sayfada bu deseni izle. `trailingSlash: 'always'`: iç linkler `/` ile bitmeli.
+- **İstemci JS:** Tek giriş `src/scripts/site.ts` (Base'den yüklenir). Bileşenler davranışı `data-*` öznitelikleriyle işaretler (ör. `MapStage.astro`: `data-stage`, `data-preset`, `data-map-canvas`); `site.ts` bunları bulup three.js haritasını (`map3d.ts`) ve GSAP/Lenis hareketini (`motion.ts`) gerektiğinde dinamik yükler. Her bileşen JS'siz de bitmiş görünmeli; `prefers-reduced-motion` açıkken hareket kapalı.
+- **Sıra modeli:** `rank.ts` ilçe başına örnek sıra hesaplar (`MapState`: profile/speed/content/pages). Hizmet sayfalarındaki `presets` bu durumu ayarlar. Gerçek ölçüm değil; sayfada "örnek gösterim" yazısı kalmalı.
+- **Tekrarlanan sabit:** WhatsApp numarası hem `src/data/site.ts` (`SITE.whatsapp`) hem `src/scripts/site.ts` (`PHONE`) içinde; değişirse ikisini de güncelle.
+
+## Proje skill'leri ve agent'ları
+
+- `.claude/skills/impeccable` (+ `.claude/agents/impeccable-*`): tasarım işleri; ayarları `.impeccable/`.
+- `.claude/skills/design-taste-frontend` (taste-skill, `skills-lock.json`): ön yüz tasarım kuralları; yön `.taste-skill/direction.json`.
+- `.claude/skills/playwright-cli`: tarayıcıda kontrol ve ekran görüntüsü.
