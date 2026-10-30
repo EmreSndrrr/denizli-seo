@@ -1,0 +1,23 @@
+---
+import { HOME_FAQ } from '../../data/faq';
+---
+<section class="faq" id="sss" aria-labelledby="sss-baslik">
+  <div class="wrap faq-in" data-faq>
+    <div class="faq-head reveal">
+      <h2 class="h2" id="sss-baslik">Sık <em>sorulanlar.</em></h2>
+      <p class="lede">Cevabını burada bulamadığınız soruyu WhatsApp’tan sorun; işi yapan kişi yanıtlar.</p>
+    </div>
+    <div class="faq-list">
+      {HOME_FAQ.map((item, i) => (
+        <div class="faq-row reveal">
+          <h3>
+            <button class="faq-q" type="button" aria-expanded={i === 0 ? 'true' : 'false'} aria-controls={`sss-a${i}`} data-faq-q>
+              <span>{item.q}</span><span class="faq-sign" aria-hidden="true"></span>
+            </button>
+          </h3>
+          <div class="faq-a" id={`sss-a${i}`}><p>{item.a}</p></div>
+        </div>
+      ))}
+    </div>
+  </div>
+</section>

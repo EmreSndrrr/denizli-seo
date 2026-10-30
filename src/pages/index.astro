@@ -1,12 +1,17 @@
 ---
-import Base from '../layouts/Base.astro';
-import MapStory from '../components/MapStory.astro';
-import Exchange from '../components/Exchange.astro';
-import Services from '../components/Services.astro';
-import Work from '../components/Work.astro';
-import Why from '../components/Why.astro';
-import Faq from '../components/Faq.astro';
-import Contact from '../components/Contact.astro';
+import Home from '../layouts/Home.astro';
+import Nav from '../components/home/Nav.astro';
+import Hero from '../components/home/Hero.astro';
+import Lens from '../components/home/Lens.astro';
+import SerpClimb from '../components/home/SerpClimb.astro';
+import Services from '../components/home/Services.astro';
+import Process from '../components/home/Process.astro';
+import Reel from '../components/home/Reel.astro';
+import DenizliMap from '../components/home/DenizliMap.astro';
+import Work from '../components/home/Work.astro';
+import Faq from '../components/home/Faq.astro';
+import Cta from '../components/home/Cta.astro';
+import Footer from '../components/home/Footer.astro';
 import { HOME_FAQ } from '../data/faq';
 import { SITE } from '../data/site';
 
@@ -23,12 +28,19 @@ const jsonld = [
   },
 ];
 ---
-<Base title={title} description={description} jsonld={jsonld}>
-  <MapStory />
-  <Services />
-  <Exchange />
-  <Work />
-  <Why />
-  <Faq items={HOME_FAQ} />
-  <Contact />
-</Base>
+<Home title={title} description={description} jsonld={jsonld}>
+  <Nav />
+  <main id="icerik" lang="tr">
+    <Hero />
+    <Lens />
+    <SerpClimb />
+    <Services />
+    <Process />
+    <Reel />
+    <DenizliMap />
+    <Work />
+    <Faq />
+    <Cta />
+  </main>
+  <Footer />
+</Home>

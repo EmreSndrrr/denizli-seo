@@ -1,0 +1,41 @@
+---
+// A results page on paper: scrolling lifts "your site" from seventh place to first. Sample data.
+import Icon from '../Icon.astro';
+import { SERP_ROWS, SECTORS } from '../../data/home';
+const first = SECTORS[0].queries[0];
+---
+<section class="serp" id="siralama" aria-labelledby="siralama-baslik">
+  <div class="wrap serp-sticky">
+    <div class="serp-copy">
+      <h2 class="h2" id="siralama-baslik">Birinci sayfa bir <em>tesadüf</em> değil.</h2>
+      <p class="rank-big" aria-live="off"><span class="rank-num">#1</span><small>sizin sıranız</small></p>
+      <p class="lede">Teknik altyapı, içerik ve otorite birlikte çalıştığında siteniz rakiplerin önüne geçer. Biz bu üçünü aynı anda yönetiriz.</p>
+      <div class="meters">
+        <div class="meter"><div class="meter-top"><span>Teknik sağlık</span><b class="meter-val">95%</b></div><span class="bar"><i data-m="0"></i></span></div>
+        <div class="meter"><div class="meter-top"><span>İçerik uyumu</span><b class="meter-val">94%</b></div><span class="bar"><i data-m="1"></i></span></div>
+        <div class="meter"><div class="meter-top"><span>Otorite</span><b class="meter-val">90%</b></div><span class="bar"><i data-m="2"></i></span></div>
+      </div>
+    </div>
+    <div class="serp-ui">
+      <div class="serp-bar">
+        <div class="serp-bar-left">
+          <Icon name="search" size={18} />
+          <span class="serp-bar-q" id="serp-query-text">{first.q}</span>
+        </div>
+        <span class="serp-bar-tag">Örnek gösterim</span>
+      </div>
+      <p class="serp-meta">Kaydırın: siteniz yedinci sıradan birinciye çıkar.</p>
+      <ol class="results">
+        <li class="res you" data-you>
+          <span class="res-badge"><b class="you-rank">#1</b> Sizin siteniz</span>
+          <span class="res-title" id="you-title">{first.title}</span>
+          <span class="res-desc">Açık saatler, şeffaf fiyat ve kolay iletişim.</span>
+        </li>
+        {SERP_ROWS.map((r) => (
+          <li class="res" data-rival={r.title}><span class="res-url">{r.url}</span><span class="res-title">{r.title === 'En iyi 10 liste' || r.title.startsWith('Yakınınızdakiler') ? r.title : `${first.q} | ${r.title}`}</span><span class="res-desc">{r.desc}</span></li>
+        ))}
+      </ol>
+      <p class="note">Sıralama ve göstergeler temsilidir; gerçek sıra rekabete, konuma ve işletmenize göre değişir.</p>
+    </div>
+  </div>
+</section>

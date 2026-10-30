@@ -1,0 +1,21 @@
+---
+import { PROCESS } from '../../data/home';
+---
+<section class="process" id="surec" aria-labelledby="surec-baslik">
+  <div class="wrap">
+    <div class="proc-head">
+      <h2 class="h2" id="surec-baslik">Önce tarıyoruz, sonra <em>yükseltiyoruz.</em></h2>
+      <p class="lede">Her proje bir arama motorunun gözünden başlar. Dört adımda neyin sizi geride tuttuğunu bulur ve düzeltiriz.</p>
+    </div>
+    <ol class="proc-steps">
+      <li class="proc-line" aria-hidden="true"><i></i></li>
+      {PROCESS.map((s) => (
+        <li class="step">
+          <h3>{s.title}</h3>
+          <p>{s.text}</p>
+          <p class="step-dur">{s.when}</p>
+        </li>
+      ))}
+    </ol>
+  </div>
+</section>

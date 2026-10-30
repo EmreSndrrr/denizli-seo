@@ -1,0 +1,28 @@
+---
+// The close: one short form. Sending opens WhatsApp with the request written out.
+import Icon from '../Icon.astro';
+import { SITE, CTA_LABEL } from '../../data/site';
+---
+<section class="cta" id="analiz" aria-labelledby="analiz-baslik">
+  <div class="wrap">
+    <div class="cta-copy reveal">
+      <h2 class="h2" id="analiz-baslik">Sitenize <em>ücretsiz</em> bakalım.</h2>
+      <p class="lede">Sitenizin adresini ve işinizi yazın. Aramanızda nerede çıktığınızı ölçer, ne yapılması gerektiğini yazılı olarak iletiriz.</p>
+      <ul class="trust-list">
+        <li><Icon name="check" size={18} />İlk analiz ücretsiz</li>
+        <li><Icon name="check" size={18} />İşi yapan kişiyle konuşursunuz: {SITE.person}</li>
+        <li><Icon name="check" size={18} />Teklifte olmayan iş sonradan eklenmez; sıralama garantisi verilmez, rakamlı rapor verilir</li>
+      </ul>
+    </div>
+    <form class="form reveal" id="audit-form" novalidate>
+      <label for="f-site"><span>Web siteniz <small>(varsa)</small></span><input id="f-site" name="site" type="text" inputmode="url" autocomplete="url" placeholder="siteniz.com"></label>
+      <label for="f-goal"><span>İşiniz ve ilçeniz</span><input id="f-goal" name="goal" type="text" autocomplete="off" placeholder="Örn. Merkezefendi’de kuyumcu" required></label>
+      <div class="form-actions">
+        <button class="btn btn-solid" type="submit">{CTA_LABEL}<Icon name="arrow" size={20} /></button>
+        <a class="btn btn-ghost" href={`tel:${SITE.phone}`}><Icon name="phone" size={18} />{SITE.phoneDisplay}</a>
+      </div>
+      <p class="form-note">WhatsApp açılır ve mesajınız yazılı gelir; göndermeden önce görürsünüz.</p>
+      <p class="form-status" id="form-status" role="status" hidden></p>
+    </form>
+  </div>
+</section>

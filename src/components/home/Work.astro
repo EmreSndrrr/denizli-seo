@@ -1,0 +1,30 @@
+---
+// Real work: live sites from Venti Dijital Ajans, each opening the site itself. No invented results.
+import { Image } from 'astro:assets';
+import Icon from '../Icon.astro';
+import { PROJECTS } from '../../data/projects';
+import { WORK_PICKS } from '../../data/home';
+const work = WORK_PICKS.map((n) => PROJECTS.find((p) => p.name === n)).filter((p) => p?.shot);
+---
+<section class="work" id="isler" aria-labelledby="isler-baslik">
+  <div class="wrap">
+    <div class="sec-head reveal">
+      <h2 class="h2" id="isler-baslik">Yaptığımız <em>siteler.</em></h2>
+      <p class="lede">Venti Dijital Ajans’ın kurduğu ya da SEO’sunu yürüttüğü sitelerden bazıları. Hepsi yayında; dokunup açabilirsiniz.</p>
+    </div>
+    <ul class="work-grid">
+      {work.map((p, i) => (
+        <li class="work-item reveal">
+          <a href={p!.url} rel="noopener" target="_blank">
+            <span class="work-pic"><Image src={p!.shot!} alt={`${p!.name} sitesinin ana sayfası`} widths={[480, 800, 1100]} sizes={i === 0 ? '(max-width: 767px) 92vw, 60vw' : '(max-width: 767px) 92vw, 30vw'} loading="lazy" /></span>
+            <span class="work-cap"><span><b>{p!.name}</b><span>{p!.work}</span></span><Icon name="out" size={20} /></span>
+          </a>
+        </li>
+      ))}
+    </ul>
+    <p class="work-foot reveal">
+      <a class="btn btn-ghost" href="https://www.ventiajans.com/projeler/" rel="noopener">Bütün projeler<Icon name="arrow" size={20} /></a>
+      <a class="rating" href="https://share.google/YVUE42SqN5ipf0y1j" rel="noopener" target="_blank"><span class="stars" aria-hidden="true">{[0, 1, 2, 3, 4].map(() => <Icon name="star" size={16} />)}</span><span><b>5,0</b> Google puanı, 28 yorum <small>Ekim 2026</small></span></a>
+    </p>
+  </div>
+</section>

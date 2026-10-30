@@ -32,14 +32,15 @@ The first contact is a WhatsApp message to 0544 596 56 22 (Emre Şandır); the o
 ## Brand Commitments
 
 - Name "Denizli SEO", described as Venti Dijital Ajans's brand, linking to ventiajans.com.
-- The user pinned the visual references: deltavdigital.com, webfx.com, spinxdigital.com and thryv.com. Buttons, typography, layout and boxes should read as professional as these agency sites. The user chose a light ground.
+- The owner supplied the home page front end themselves (October 2026): a dark graphite page with one fixed 3D stage (a chrome magnifier and a link graph), signal yellow, glass cards, and a results page on paper. It is the site's look now. Keep its structure; develop it. Name: "Denizli SEO". Typography: two families only (Archivo, Instrument Serif italic accent), pronounced buttons.
+- The inner pages (services, blog, about, contact) still use the earlier light system, modelled on deltavdigital.com, webfx.com, spinxdigital.com and thryv.com, until they are rebuilt in the home page's system.
 - OpenStreetMap attribution stays on the map and in the footer.
 
 ## Evidence on Hand
 
 - 14 Venti projects with live sites and home-page screenshots in `src/assets/img/projects/` (`src/data/projects.ts`).
 - Venti Dijital Ajans's Google rating: 5.0 from 28 reviews (October 2026), linked to the Google profile.
-- Nothing else: the user chose not to show client logos, review quotes or partner badges. Do not invent testimonials, client logos, certifications, results or statistics.
+- Nothing else: the user chose not to show client logos, review quotes or partner badges. Do not invent testimonials, client logos, certifications, results, case studies or statistics. (The owner's draft had invented case studies and numeric badges; they were replaced with the real projects above.)
 
 ## Product Principles
 

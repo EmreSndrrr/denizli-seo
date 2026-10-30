@@ -1,0 +1,40 @@
+---
+// Sectors fly past one by one; a tap on a sample search runs it in the results page above. Sample searches.
+import Icon from '../Icon.astro';
+import { SECTORS } from '../../data/home';
+---
+<section class="reel" id="sektorler" aria-labelledby="sektorler-baslik">
+  <div class="reel-sticky">
+    <div class="wrap reel-head">
+      <div class="row">
+        <div class="reel-title">
+          <h2 class="h2" id="sektorler-baslik">Her sektörün arama dili <em>farklı.</em></h2>
+          <p class="lede">Örnek bir aramaya dokunun; sıralama simülasyonunda deneyin.</p>
+        </div>
+        <div class="reel-controls">
+          <div class="reel-tabs" role="group" aria-label="Sektör seçimi">
+            {SECTORS.map((s, i) => <button type="button" class:list={['reel-tab', { active: i === 0 }]} data-reel-idx={i}>{s.name}</button>)}
+          </div>
+          <div class="reel-nav-btns">
+            <button type="button" class="reel-btn" id="reel-prev" aria-label="Önceki sektör"><Icon name="arrow" size={18} class="flip" /></button>
+            <span class="reel-count" aria-hidden="true">1 / {SECTORS.length}</span>
+            <button type="button" class="reel-btn" id="reel-next" aria-label="Sonraki sektör"><Icon name="arrow" size={18} /></button>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="wrap reel-stage">
+      {SECTORS.map((s, i) => (
+        <figure class:list={['panel', { alt: i % 2 === 1 }]}>
+          <figcaption class="panel-k"><span>{s.name}</span><span>{i + 1} / {SECTORS.length}</span></figcaption>
+          <h3>{s.heading}</h3>
+          <ul>
+            {s.queries.map((q) => (
+              <li><button type="button" data-sim-q={q.q} data-sim-t={q.title}><span class="li-left"><Icon name="search" size={16} /><span>{q.q}</span></span><small class="li-try">Dene<Icon name="out" size={14} /></small></button></li>
+            ))}
+          </ul>
+        </figure>
+      ))}
+    </div>
+  </div>
+</section>

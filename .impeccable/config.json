@@ -8,6 +8,12 @@
         "value": "arial",
         "createdAt": "2026-10-23T13:38:46.768Z",
         "reason": "Claude: Arial is used only inside the drawn Google result page (.serp, data-ui), to look like Google's own interface; the site's faces are Stack Sans Headline and Stack Sans Text"
+      },
+      {
+        "rule": "overused-font",
+        "value": "instrument serif",
+        "createdAt": "2026-10-30T20:49:37.914Z",
+        "reason": "User chose it: it is the accent face in the front end draft the owner supplied for the home page, used only for one word per heading"
       }
     ]
   }

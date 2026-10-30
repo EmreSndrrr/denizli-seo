@@ -1,0 +1,24 @@
+---
+import Icon from '../Icon.astro';
+import { HOME_SERVICES } from '../../data/home';
+---
+<section class="services" id="hizmetler" aria-labelledby="hizmetler-baslik">
+  <div class="wrap">
+    <div class="sec-head reveal">
+      <h2 class="h2" id="hizmetler-baslik">Sıralamayı taşıyan <em>altı</em> iş.</h2>
+      <p class="lede">Anahtar kelime eklemekle kalmayız; teknik altyapıdan harita görünürlüğüne kadar bütün sinyalleri birlikte yönetiriz.</p>
+    </div>
+    <ul class="svc-grid">
+      {HOME_SERVICES.map((s) => (
+        <li class="svc"><article class="svc-in">
+          <div class="svc-top">
+            <div class="svc-title"><span class="svc-icon"><Icon name={s.icon} size={22} /></span><h3>{s.name}</h3></div>
+            <p>{s.text}</p>
+          </div>
+          <ul class="tags">{s.tags.map((t) => <li>{t}</li>)}</ul>
+          <a class="svc-more" href={s.href}>{s.cta}<Icon name="arrow" size={18} /></a>
+        </article></li>
+      ))}
+    </ul>
+  </div>
+</section>

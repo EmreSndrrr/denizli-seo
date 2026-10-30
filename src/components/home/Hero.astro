@@ -1,0 +1,41 @@
+---
+import Icon from '../Icon.astro';
+import { CTA_LABEL } from '../../data/site';
+import { HERO_CHIPS, MARQUEE, SECTORS } from '../../data/home';
+import { PROJECTS } from '../../data/projects';
+const first = SECTORS[0].queries[0];
+---
+<section class="hero" id="top">
+  <div class="wrap hero-inner">
+    <h1 class="hero-title">
+      <span class="ln"><span>Aranınca <em>ilk</em></span></span>
+      <span class="ln"><span>sizi bulsunlar.</span></span>
+    </h1>
+    <div class="search-wrap">
+      <div class="search" role="search">
+        <Icon name="search" size={20} />
+        <label class="sr-only" for="hero-search-input">Örnek arama: sektörünüzü yazın</label>
+        <input class="search-input" id="hero-search-input" type="text" value={first.q} autocomplete="off" placeholder="Sektörünüzü yazın, örn. diş kliniği">
+        <button class="search-go" id="hero-search-btn" type="button">Ara</button>
+      </div>
+      <div class="search-chips" role="group" aria-label="Örnek aramalar">
+        <span class="search-chips-label">Deneyin</span>
+        {HERO_CHIPS.map((c, i) => <button type="button" class:list={['chip-btn', { active: i === 0 }]} data-q={c.q} data-title={c.title}>{c.label}</button>)}
+      </div>
+    </div>
+    <p class="hero-sub">Denizli SEO; teknik SEO, yerel arama ve içerikle Denizli’deki işletmenizin Google ve Haritalar’da üst sıralara çıkması için çalışır. Müşteriniz aradığı anda karşısına siz çıkarsınız.</p>
+    <div class="hero-cta">
+      <a class="btn btn-solid" href="#analiz">{CTA_LABEL}<Icon name="arrow" size={20} /></a>
+      <a class="btn btn-ghost" href="#surec">Nasıl çalışıyoruz</a>
+    </div>
+    <a class="hero-proof" href="https://share.google/YVUE42SqN5ipf0y1j" rel="noopener" target="_blank">
+      <span class="stars" aria-hidden="true">{[0, 1, 2, 3, 4].map(() => <Icon name="star" size={16} />)}</span>
+      <span><b>5,0</b> Google puanı, 28 yorum · Venti Dijital Ajans · {PROJECTS.length} yayında site</span>
+    </a>
+  </div>
+  <div class="marquee" aria-hidden="true">
+    <div class="marquee-track">
+      {[0, 1].map(() => <span>{MARQUEE.map((m) => <><b>{m}</b><i>&amp;</i></>)}</span>)}
+    </div>
+  </div>
+</section>

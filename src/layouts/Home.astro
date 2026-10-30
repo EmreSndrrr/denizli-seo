@@ -1,0 +1,44 @@
+---
+// The home page shell: one fixed WebGL stage behind transparent chapters. It has its own look
+// (home.css) and its own bar and footer, so it does not use the site-wide layout.
+import '../styles/home.css';
+import Head from '../components/Head.astro';
+
+interface Props {
+  title: string;
+  description: string;
+  jsonld?: Record<string, unknown>[];
+}
+const props = Astro.props;
+---
+<!doctype html>
+<html lang="tr">
+  <head>
+    <Head {...props} themeColor="#0b0e13" preload={['/fonts/archivo-latin.woff2']} />
+    <script is:inline>
+      (function () {
+        var d = document.documentElement, rm = false;
+        try { rm = matchMedia('(prefers-reduced-motion: reduce)').matches; } catch (e) {}
+        d.classList.add(rm ? 'rm' : 'motion');
+        try { if (sessionStorage.getItem('dseo-intro')) d.classList.add('seen'); } catch (e) {}
+      })();
+    </script>
+  </head>
+  <body>
+    <a class="skip" href="#icerik">İçeriğe geç</a>
+    <div class="backdrop" aria-hidden="true"><i></i></div>
+    <canvas id="stage" aria-hidden="true"></canvas>
+    <div class="grain" aria-hidden="true"></div>
+    <div class="preloader" aria-hidden="true">
+      <div class="pl-ringwrap">
+        <svg viewBox="0 0 100 100"><circle class="pl-track" cx="50" cy="50" r="46"></circle><circle class="pl-arc" cx="50" cy="50" r="46"></circle></svg>
+        <span class="pl-num">#100</span>
+      </div>
+      <p class="pl-cap">Sıralama yükleniyor</p>
+    </div>
+    <slot />
+    <script>
+      import '../scripts/home/main.ts';
+    </script>
+  </body>
+</html>

@@ -1,283 +1,281 @@
 ---
 name: Denizli SEO
-description: Light, professional agency site for Denizli local SEO, built around a working 3D map of the province.
+description: A dark graphite page with one fixed 3D stage (chrome magnifier, link graph, Denizli relief map) behind transparent chapters; signal yellow is the only action color.
 colors:
-  bg: "#ffffff"
-  band: "#f3f6fb"
-  surface: "#ffffff"
-  surface-2: "#eef2f8"
-  surface-3: "#e1e7f0"
-  line: "#dde3ec"
-  line-2: "#c7d0dd"
-  ink: "#0d1b2e"
-  ink-2: "#35445a"
-  muted: "#56647a"
-  navy: "#0b1d36"
-  navy-2: "#12294a"
-  navy-line: "rgba(255, 255, 255, 0.14)"
-  on-navy: "#ffffff"
-  on-navy-2: "#b8c5d9"
-  accent: "#1d5fe0"
-  accent-hi: "#164db8"
-  accent-soft: "#e7effd"
-  accent-ink: "#ffffff"
-  link: "#1a55c9"
-  home: "#e8892b"
-  home-soft: "#fdf0e1"
-  star: "#f5b942"
-  map-top: "#4d8bff"
-  map-land: "#dfe5ee"
-  map-home: "#f7c47a"
-  map-border: "#95a3b9"
-  map-wall: "#5f6e88"
-  map-mid: "#8794aa"
-  map-low: "#2b3c5c"
+  ink: "#0b0e13"
+  ink-raised: "#151a23"
+  paper: "#f3f2ec"
+  paper-bright: "#fbfaf6"
+  signal: "#eedc45"
+  link: "#7e97ff"
+  link-deep: "#2c46c8"
+  soft: "#c3cad6"
+  mist: "#9aa3b0"
+  stone: "#59606c"
+  ok: "#3fae6b"
+  map-land: "#cfd6e4"
+  map-border: "#8d98ad"
+  map-wall: "#4d5870"
+  map-mid: "#7e8aa3"
+  map-low: "#2a3447"
 typography:
-  display:
-    fontFamily: "'Stack Sans Headline', 'Stack Sans Text', system-ui, sans-serif"
-    fontSize: "min(4.25rem, 11.6cqi)"
-    fontWeight: 700
-    lineHeight: 1.06
+  hero:
+    fontFamily: "Archivo, Helvetica Neue, Arial, sans-serif"
+    fontSize: "clamp(2.6rem, 1.2rem + 5.4vw, 6rem)"
+    fontWeight: 780
+    lineHeight: 0.98
+    letterSpacing: "-0.035em"
+    fontVariation: "'wdth' 108"
+  h2:
+    fontFamily: "Archivo, Helvetica Neue, Arial, sans-serif"
+    fontSize: "clamp(2.25rem, 1.4rem + 3.4vw, 4.25rem)"
+    fontWeight: 760
+    lineHeight: 1.04
     letterSpacing: "-0.03em"
-  headline:
-    fontFamily: "'Stack Sans Headline', 'Stack Sans Text', system-ui, sans-serif"
-    fontSize: "clamp(2rem, 1.55rem + 1.6vw, 3rem)"
-    fontWeight: 700
-    lineHeight: 1.06
-    letterSpacing: "-0.03em"
-  title:
-    fontFamily: "'Stack Sans Headline', 'Stack Sans Text', system-ui, sans-serif"
-    fontSize: "clamp(1.1875rem, 1.12rem + 0.3vw, 1.375rem)"
-    fontWeight: 600
-    lineHeight: 1.2
-    letterSpacing: "-0.015em"
+    fontVariation: "'wdth' 108"
+  h3:
+    fontFamily: "Archivo, Helvetica Neue, Arial, sans-serif"
+    fontSize: "clamp(1.375rem, 1.2rem + 0.7vw, 1.75rem)"
+    fontWeight: 740
+    lineHeight: 1.12
+    letterSpacing: "-0.02em"
+    fontVariation: "'wdth' 106"
   lead:
-    fontFamily: "'Stack Sans Text', system-ui, -apple-system, 'Segoe UI', sans-serif"
-    fontSize: "clamp(1.125rem, 1.07rem + 0.25vw, 1.3125rem)"
+    fontFamily: "Archivo, Helvetica Neue, Arial, sans-serif"
+    fontSize: "clamp(1.125rem, 1.05rem + 0.4vw, 1.3125rem)"
     fontWeight: 400
-    lineHeight: 1.45
+    lineHeight: 1.5
   body:
-    fontFamily: "'Stack Sans Text', system-ui, -apple-system, 'Segoe UI', sans-serif"
+    fontFamily: "Archivo, Helvetica Neue, Arial, sans-serif"
     fontSize: "1.0625rem"
     fontWeight: 400
     lineHeight: 1.6
   label:
-    fontFamily: "'Stack Sans Text', system-ui, -apple-system, 'Segoe UI', sans-serif"
+    fontFamily: "Archivo, Helvetica Neue, Arial, sans-serif"
     fontSize: "0.875rem"
-    fontWeight: 600
-    lineHeight: 1.5
+    fontWeight: 650
+    lineHeight: 1.3
+  button:
+    fontFamily: "Archivo, Helvetica Neue, Arial, sans-serif"
+    fontSize: "1.0625rem"
+    fontWeight: 700
+    lineHeight: 1
+    letterSpacing: "-0.01em"
+    fontVariation: "'wdth' 106"
+  accent-word:
+    fontFamily: "Instrument Serif, Times New Roman, Georgia, serif"
+    fontSize: "1.08em"
+    fontWeight: 400
 rounded:
-  sm: "10px"
-  chip: "12px"
-  md: "16px"
-  lg: "24px"
+  field: "12px"
+  row: "14px"
+  step: "18px"
+  card: "20px"
+  panel: "22px"
+  form: "24px"
   pill: "999px"
 spacing:
-  margin: "clamp(16px, 4vw, 40px)"
-  gutter: "clamp(16px, 2vw, 24px)"
-  section: "clamp(4.5rem, 3rem + 5vw, 7.5rem)"
-  bar: "76px"
-  max: "1240px"
+  gutter: "max(16px, 4vw)"
+  grid-gap: "18px"
+  chapter-top: "12vh"
+  chapter-bottom: "14vh"
 components:
-  button-primary:
-    backgroundColor: "{colors.accent}"
-    textColor: "{colors.accent-ink}"
-    rounded: "{rounded.sm}"
-    padding: "0.75rem 1.5rem"
-    height: "3.25rem"
-  button-primary-hover:
-    backgroundColor: "{colors.accent-hi}"
-  button-outline:
-    backgroundColor: "{colors.surface}"
+  button-solid:
+    backgroundColor: "{colors.signal}"
     textColor: "{colors.ink}"
-    rounded: "{rounded.sm}"
-    padding: "0.75rem 1.5rem"
-    height: "3.25rem"
-  button-sm:
-    backgroundColor: "{colors.accent}"
-    textColor: "{colors.accent-ink}"
-    rounded: "{rounded.sm}"
-    padding: "0.5rem 1.1rem"
-    height: "2.75rem"
-  card:
-    backgroundColor: "{colors.surface}"
-    rounded: "{rounded.md}"
-    padding: "1.5rem"
-  chip-icon:
-    backgroundColor: "{colors.accent-soft}"
-    textColor: "{colors.accent}"
-    rounded: "{rounded.chip}"
-    size: "2.75rem"
-  chip-icon-dark:
-    backgroundColor: "{colors.navy-2}"
-    rounded: "{rounded.chip}"
-    size: "2.75rem"
-  input:
-    backgroundColor: "{colors.surface}"
+    typography: "{typography.button}"
+    rounded: "{rounded.pill}"
+    height: "56px"
+    padding: "0 1.75em"
+  button-solid-hover:
+    backgroundColor: "{colors.paper-bright}"
     textColor: "{colors.ink}"
-    rounded: "{rounded.sm}"
-    padding: "0.6rem 0.9rem"
-    height: "3rem"
-  map-card:
-    backgroundColor: "{colors.navy}"
-    rounded: "{rounded.lg}"
-  band-navy:
-    backgroundColor: "{colors.navy}"
-    textColor: "{colors.on-navy}"
+  button-ghost:
+    backgroundColor: "rgba(21, 26, 35, 0.55)"
+    textColor: "{colors.paper}"
+    typography: "{typography.button}"
+    rounded: "{rounded.pill}"
+    height: "56px"
+  button-ghost-hover:
+    backgroundColor: "{colors.paper}"
+    textColor: "{colors.ink}"
+  button-small:
+    backgroundColor: "{colors.signal}"
+    textColor: "{colors.ink}"
+    rounded: "{rounded.pill}"
+    height: "44px"
+    padding: "0 1.3em"
+  card-glass:
+    backgroundColor: "rgba(21, 26, 35, 0.72)"
+    textColor: "{colors.paper}"
+    rounded: "{rounded.card}"
+    padding: "clamp(22px, 2.4vw, 30px)"
+  panel-paper:
+    backgroundColor: "{colors.paper-bright}"
+    textColor: "{colors.ink}"
+    rounded: "{rounded.panel}"
+  input-field:
+    backgroundColor: "rgba(243, 242, 236, 0.07)"
+    textColor: "{colors.paper}"
+    rounded: "{rounded.field}"
+    height: "56px"
+  chip:
+    backgroundColor: "rgba(21, 26, 35, 0.6)"
+    textColor: "{colors.soft}"
+    rounded: "{rounded.pill}"
+    height: "36px"
+  chip-active:
+    textColor: "{colors.signal}"
+  result-you:
+    backgroundColor: "{colors.ink}"
+    textColor: "{colors.paper}"
+    rounded: "{rounded.row}"
 ---
 
 # Design System: Denizli SEO
 
+Scope: this file documents the home page (v6) only, from `src/styles/home.css`, `src/layouts/Home.astro`, `src/components/home/*`, `src/scripts/home/*`. Inner pages (services, blog, about, contact) still use the older light v5 system in `src/styles/global.css` (white and grey bands, navy, blue #1d5fe0, 10px buttons) and are not documented here.
+
 ## Overview
 
-**Creative North Star: "The Category Standard, Plus the Map"**
+**Creative North Star: "The Search Lens"**
 
-A light, orderly agency site at the craft level of the references the owner pinned (DeltaV, WebFX, SPINX, Thryv): white and cool-grey bands, white cards with a hairline border and a low shadow, bold tight headings, one blue for every action. Nothing about the frame is experimental; it is meant to read as a competent, established agency at a glance.
+The page is a dark graphite room with a single fixed three.js stage behind it: a chrome magnifier whose glass shows the live search result, orbiting rank tags, a link graph with light pulses, dust that follows the pointer. Chapters are transparent and scroll over the stage; the backdrop turns to search-results paper (#f3f2ec) for the results chapter and back to graphite. The metaphor is literal: the visitor looks at search results through a lens, and watches the client's site climb from #7 to #1.
 
-The one thing it has that the category does not is the working 3D map of Denizli, always presented inside a navy rounded card. Navy is the system's second ground: it carries the map, the "why us" band, the closing contact band and the footer, so the page reads light at the top and settles into navy at the end.
-
-Density is medium: generous section padding, 12-column grids with an uneven split between heading and content, cards that vary in width rather than a uniform grid.
+Density is generous: chapters take 12-16vh of vertical padding, type is large, and cards are glass so the stage stays visible. Yellow is the one voice of action; blue marks links, the web graph, and the visitor's own district.
 
 **Key Characteristics:**
-- White (#fff) and cool grey (band) sections alternate; navy closes the page.
-- One blue action colour; amber exists only for the visitor's own district.
-- Stack Sans Headline 700 headings, never more than two lines.
-- 10px buttons, 16px cards, 24px map card and contact band.
-- Low two-layer navy-tinted shadows; cards lift 3px on hover.
-- Drawn 24px stroke icons (1.8 stroke) in 44px chips.
+- Dark ink ground, one paper-colored chapter (the results page), then back to dark.
+- Signal yellow for every action and accent; blue only for links, web, home district.
+- Two type families only: Archivo (variable weight and width) and Instrument Serif italic for one accented word per heading.
+- Pill buttons and pill chips; glass cards with a 1px light line and backdrop blur.
+- Fine grain overlay (opacity 0.045) over everything.
+- The stage degrades: reduced motion gives a still layout with a static frame; no WebGL leaves the page unchanged.
 
 ## Colors
 
-A cool, blue-tinted neutral system with a single saturated blue and one warm signal.
+Graphite and paper neutrals with a single yellow accent and a cool blue secondary.
 
 ### Primary
-- **Action Blue** (accent): every filled button, the selected/active state of tabs, switches, chips and FAQ signs, the top-three tier on the map, chart lines and progress bars, focus outlines. Hover deepens to **Pressed Blue** (accent-hi). **Pale Blue** (accent-soft) backs icon chips, selected filter chips, the input focus ring and text selection.
-- **Link Blue** (link): text links and "more" links; slightly darker than Action Blue so it holds on white body text.
+- **Signal Yellow** (#eedc45): the one action and accent color. Solid buttons, focus ring (3px), selected chips/toggles/tabs, accent word in headings, step line, top-3 map markers, caret and selection.
 
 ### Secondary
-- **Deep Navy** (navy): the map card, the "why us" band, the contact band, the footer, and the checked state of segmented controls. **Navy Raised** (navy-2) is the chip and rating panel on navy; **Navy Hairline** (navy-line) divides on navy. Text on navy is white (on-navy) with **Mist** (on-navy-2) for secondary copy.
-
-### Tertiary
-- **Home Amber** (home): only the visitor's own district: the outline on its map label and its pill in the district list (with home-soft fill). **Rating Gold** (star): only the stars of the real Google rating and its trust line.
+- **Link Blue** (#7e97ff): the web and the visitor's own district (3px outline on the home marker), map home tint.
+- **Deep Link Blue** (#2c46c8): result titles and the search icon on paper surfaces, where light blue would fail contrast.
 
 ### Neutral
-- **White** (bg / surface): page ground and every card.
-- **Cool Band** (band): alternate section ground; also inner panels inside cards (plans, reports, vitals, question rows).
-- **Frost** (surface-2) / **Frost Deep** (surface-3): tab tracks, hovered nav links, district pills, bar tracks, chart grid lines.
-- **Hairline** (line) for card borders and dividers; **Hairline Strong** (line-2) for control borders, outline buttons and hovered cards.
-- **Ink** (ink) headings and primary text; **Ink Soft** (ink-2) paragraphs; **Slate** (muted) captions, legends, placeholders.
-- **Map palette** (map-*): reserved for the three.js map: land, borders, walls and the blue/amber column tops.
+- **Ink** (#0b0e13): page ground, text on yellow, the "you" result row on paper.
+- **Ink Raised** (#151a23): glass card base (as rgba 21,26,35 at .72), select options, alt panel.
+- **Paper** (#f3f2ec): primary text on dark; the results-chapter backdrop; ghost-button hover fill.
+- **Paper Bright** (#fbfaf6): cards and panels on paper, solid-button hover, search-pill in the readout.
+- **Soft** (#c3cad6): secondary text on dark. **Mist** (#9aa3b0): placeholders, captions. **Stone** (#59606c): secondary text on paper.
+- **Lines**: dark `rgba(243,242,236,.16)`, light `rgba(11,14,19,.14)`.
+- **Map relief**: land #cfd6e4, border #8d98ad, wall #4d5870, mid #7e8aa3, low #2a3447 (read by the 3D map from CSS variables). Marker tiers: low #22324f, mid #55637d, top signal.
+- **OK** (#3fae6b): positive status; the trust-list check uses green #6ee79e and the invalid field border uses #ff8f8f. Both are one-off status colors.
 
 ### Named Rules
-**The One Action Rule.** Blue means "you can act here" or "top three". It is never used as decoration or a section ground.
-
-**The Home Is Amber Rule.** Amber marks the visitor's district and nothing else. Do not use it for warnings, highlights or buttons.
+**The One Action Rule.** Yellow means "act or selected" and nothing else. Blue never fills a button.
+**The Paper Chapter Rule.** Only the results chapter sits on paper; on paper, the accent word is ink with a yellow highlighter underline (yellow text on paper is unreadable).
+**The Labelled Sample Rule.** Any ranking, number, or result that is illustrative is labelled "Örnek gösterim" where it appears.
 
 ## Typography
 
-**Display Font:** Stack Sans Headline (with Stack Sans Text, system-ui)
-**Body Font:** Stack Sans Text (with system-ui, -apple-system, Segoe UI)
+**Display and Body Font:** Archivo (variable, weight 100-900, width 62-125; fallback Helvetica Neue, Arial, sans-serif)
+**Accent Font:** Instrument Serif italic (fallback Times New Roman, Georgia), one word per heading
+**Monospace:** none
 
-Both self-hosted from `public/fonts/` (latin + latin-ext subsets, Turkish characters covered).
-
-**Character:** A bold, tightly tracked grotesque for headings over a plain, readable text cut; confident and corporate, not editorial.
+**Character:** wide, heavy, tightly tracked Archivo headings with a single italic serif word as the human note. Body stays plain width 100.
 
 ### Hierarchy
-- **Display** (700, min(4.25rem, 11.6cqi), 1.06, -0.03em): home h1 only, sized from its column with container query units so it always sets on exactly two lines (each line a block span). Inner-page h1 uses clamp(2.5rem, 1.7rem + 2.6vw, 4rem); blog posts clamp(2rem, 1.5rem + 1.8vw, 3rem).
-- **Headline** (700, clamp(2rem → 3rem), 1.06, -0.03em): section h2.
-- **Title** (600, clamp(1.1875rem → 1.375rem), 1.2, -0.015em): card and step h3, service names, step lines.
-- **Lead** (400, clamp(1.125rem → 1.3125rem), 1.45–1.5, ink-2): the sentence under an h1, max 40–46ch.
-- **Body** (400, 1.0625rem, 1.6): running text; card copy steps down to 1rem; long-form prose is 1.125rem / 1.7 in a 40rem column.
-- **Label** (600, 0.875rem): form labels, tabs, small captions (0.8125rem for legends and notes).
-
-Numbers in readouts, plans and labels use tabular figures. FAQ questions and footer column heads are set in Stack Sans Text 600 at letter-spacing 0, not the display face.
+- **Hero** (780, `--t-hero` clamp(2.6rem, 1.2rem+5.4vw, 6rem), 0.98, -0.035em, width 108%): h1 only, split into lines.
+- **H2** (760, `--t-h2` clamp(2.25rem, 1.4rem+3.4vw, 4.25rem), 1.04, -0.03em, width 108%, max 18ch). Several chapters override the size down (serp, process, reel, faq use smaller clamps down to 2rem).
+- **H3** (740, `--t-h3` clamp(1.375rem, 1.2rem+0.7vw, 1.75rem), 1.12, width 106%): service titles. Step and panel headings use 760 at 108-110%.
+- **Lead** (400, `--t-lead` clamp(1.125rem, 1.05rem+0.4vw, 1.3125rem), 1.5, max 44ch, color soft).
+- **Body** (400, `--t-body` 1.0625rem, 1.6).
+- **Label** (650, `--t-small` 0.875rem; 0.8125rem / 13px is the floor for tags, notes, map labels).
+- **Button** (700, 1.0625rem, width 106%, -0.01em).
+- **Numbers**: `font-variant-numeric: tabular-nums` on every figure (rank, rating, readout, step number); the big rank uses 800 at width 118%.
+- **Wordmark**: footer wordmark is 900 at width 116%, sized 15.4cqi from its container.
 
 ### Named Rules
-**The Two-Line Rule.** No heading runs past two lines. Long headings are split into two block spans; the home h1 is sized by its container to guarantee it.
-
-**The Two Faces Rule.** Only Stack Sans Headline and Stack Sans Text appear in the site's own interface. Arial/Helvetica is allowed solely inside the drawn Google result mock (`.serp`, `data-ui`), where it imitates Google.
-
-**The No-Kicker Rule.** No eyebrow or kicker label above a heading; a heading stands alone, with breadcrumbs as the only line above an inner-page h1.
+**The Two Families Rule.** Archivo plus Instrument Serif italic; no third family, no monospace.
+**The One Italic Rule.** One `<em>` accent word per heading, 1.08-1.1em, yellow (ink on paper).
+**The 13px Floor Rule.** Nothing renders under 13px.
+**The Two Lines Rule.** Headings run at most two lines (`text-wrap: balance`, max-width in ch).
+**The No Eyebrow Rule.** No small kicker or label above a heading.
 
 ## Layout
 
-- **Container:** one width, min(100% − 2 × margin, 1240px); margin clamp(16px, 4vw, 40px); gutter clamp(16px, 2vw, 24px).
-- **Sections:** full-width bands with padding clamp(4.5rem → 7.5rem). Bands alternate cool grey and white; two white bands in a row drop the second one's top padding.
-- **Grid:** 12 columns. Section heads put the h2 in columns 1–6 and the intro in 8–12, aligned to the bottom. Split sections use 1–5 / 6–12 or 1–5 / 7–12 with the left side sticky below the header (top: bar + 2rem).
-- **Uneven card rows:** services alternate 7 + 5 column cards; work shows one large 2 × 2 tile with smaller tiles around it.
-- **Home first viewport:** sticky 76px white header; hero text left, navy map card right (columns 1fr / 1.15fr). On script, the section becomes a sticky stage (100svh − bar) and the left column swaps between the hero and one white panel whose tabbed steps change as you scroll, while the map holds still.
-- **Breakpoints:** 80em (phone number hides), 64em (nav collapses to a Menü button, all splits stack, map moves under the text), 48em (single column, header button hides).
+One centered `.wrap`: max 1380px, side padding `max(16px, 4vw)`. Chapters stack as transparent bands with 12-16vh vertical padding; grids use 18px gaps (cards) or 5-6vw gaps (two-column chapters). Two-column chapters collapse to one at 860-1100px (serp 860, faq/cta 880, dmap 960, process 1100). Services grid is 3 columns, 2 below 1020px, 1 below 640px. Work grid is 3 columns with the first item spanning 2x2, 2 columns below 1020px, 1 below 640px.
+
+Chapters in order: hero (search box, sector chips, marquee), lens (pinned, 235vh), serp (pinned, 300vh, #7 to #1), services (6 glass cards), process (4 steps, sticky heading card), reel (pinned 380vh; sector panels fly toward the camera in 1100px perspective), Denizli relief map (form, 4 toggles, readout above the map), work (6 real project screenshots plus rating), faq (sticky heading), cta (form to WhatsApp), footer.
+
+The bar is fixed, transparent over a top scrim, and gains blur and a line once scrolled; over the paper chapter it flips to a paper bar (`on-light`). Below 960px the link pill collapses into a 44px toggle and a drawer; below 560px the bar button hides.
+
+Breakpoints in use: 559, 640, 767, 860, 880, 959, 960, 1020, 1100px.
 
 ## Elevation & Depth
 
-Soft and low. Shadows are two-layer and tinted with ink (rgba(13, 27, 46, …)), never black and never hard-offset. Cards rest on `shadow-sm`, rise to `shadow` on hover with a 3px lift; the map card, readout and floating fragments use `shadow-lg`. On navy, depth comes from navy-2 panels and the navy hairline instead of shadows.
+Depth comes from layering over the 3D stage: glass surfaces with backdrop blur (8-16px), a 1px light line, and soft deep shadows. Hover raises cards by a border-color shift to `rgba(238,220,69,.45)` and a lift, not a bigger shadow.
 
 ### Shadow Vocabulary
-- **Rest** (`0 1px 2px rgba(13,27,46,.05), 0 4px 12px -6px rgba(13,27,46,.08)`): cards, buttons, active tab.
-- **Lift** (`0 2px 4px rgba(13,27,46,.04), 0 16px 32px -16px rgba(13,27,46,.2)`): hovered cards and buttons, the live story panel.
-- **Float** (`0 4px 8px rgba(13,27,46,.06), 0 24px 48px -20px rgba(13,27,46,.32)`): the map card and its readout, page-hero visuals.
+- **Button lift** (`0 12px 28px -14px rgba(0,0,0,.7)`, hover `0 16px 32px -14px rgba(0,0,0,.75)`): solid button.
+- **Float** (`0 24px 60px -28px rgba(5,7,10,.5)`): search pill, serp bar, map card (`0 30px 80px -36px`).
+- **Panel** (`0 40px 80px -36px rgba(0,0,0,.65)`): reel panels.
+- **Focus glow** (`0 0 0 4px rgba(238,220,69,.2)`): focused search and fields.
+- **Text shadow** on hero and lens type to keep it legible over the 3D stage.
 
 ### Named Rules
-**The Quiet Lift Rule.** Elevation answers hover: rest → lift, translateY(−1px) for buttons, (−3px) for cards. Nothing floats higher than the map.
+**The Glass Over Stage Rule.** Cards are translucent so the stage shows through; never opaque slabs, except the paper chapter's rows and the reel panels.
+**The Soft Shadow Rule.** Shadows are large, offset-down, negative-spread, black; no hard offset shadows.
 
 ## Shapes
 
-Gently rounded, rectangular forms. Buttons, inputs, segmented options and nav pills 10px (8px for header links); icon chips and inner panels 12px; question rows and the readout 14px; cards 16px; the map card, page-hero shots and the contact band 24px. Full pills (999px) only for small things: map rank badges, district tags, switch tracks, progress bars. Borders are always 1px hairlines; the chat bubble in "how we work" uses a 16/16/16/4px speech shape.
+Pills for everything interactive (buttons, chips, tabs, toggles, search, tags, 999px). Containers are rounded rectangles: fields 12px, result rows 14px, cards and steps 16-20px, reel panels 22px, form and map card 24px. Borders are 1px lines on containers and 1.5px on interactive controls. Icons are line SVGs (`Icon.astro`), 44px yellow-tinted tile for service icons.
 
 ## Components
 
 ### Buttons
-Filled, rectangular and assured.
-- **Shape:** 10px corners, min height 3.25rem (2.75rem small).
-- **Primary:** Action Blue fill, white 600 text at 1rem, rest shadow; a trailing arrow icon nudges 3px right on hover.
-- **Hover / Active:** Pressed Blue, lift shadow, −1px; active returns to rest. Focus: 2px blue outline, 3px offset (light blue #9dc0ff on navy).
-- **Outline:** white fill, ink text, Hairline Strong border turning ink on hover.
-- **Label:** the primary action reads "Ücretsiz SEO analizi iste" everywhere and opens WhatsApp with the message written out.
-- **Text link:** Link Blue 600 with an arrow that moves 3px; underline on hover.
+- **Shape:** pill, 56px tall (3.5rem), padding 0 1.75em, 1.0625rem/700 at width 106%, trailing arrow that nudges 4px on hover.
+- **Solid:** yellow fill, ink text. Hover: paper-bright fill, lift 2px. Active: 1px down, scale .985.
+- **Ghost:** 1.5px border `rgba(243,242,236,.55)`, translucent ink fill, blur. Hover fills paper with ink text.
+- **Small:** 44px, 0.9375rem, used in the bar. In the bar over paper the solid button turns ink with paper text.
+- **Focus:** 3px yellow outline, 3px offset, on every focusable element.
 
-### Chips
-- **Icon chip:** 44px square, 12px radius, Pale Blue fill, Action Blue icon; on navy, Navy Raised fill with hairline and light-blue icon.
-- **Filter chips / segmented options:** 2.75rem high, 10px, Hairline Strong border. Selected filter chip: Pale Blue fill, blue border, plus mark turns to a check. Selected segment: navy fill, white text.
-- **District tags:** pill, Frost fill, 0.8125rem; the visitor's district in amber-soft with an amber outline.
+### Chips and toggles
+- Sector chip: 36px pill, 1.5px line, soft text; hover/active turns the border and text yellow with a faint yellow fill. Reel tab active is solid yellow. Map toggles are 44px pills with a round check box; checked state is a yellow border, faint yellow fill and filled yellow dot (`aria-checked`).
 
 ### Cards / Containers
-- **Corner Style:** 16px.
-- **Background:** white on either band; inner panels in Cool Band with a hairline and 12px corners.
-- **Shadow Strategy:** Rest, Lift on hover (see Elevation).
-- **Border:** 1px Hairline, Hairline Strong on hover.
-- **Internal Padding:** 1.5rem; service cards clamp(1.5rem → 2rem); link cards 1.75rem.
+- **Glass card (services, work, faq):** `rgba(21,26,35,.72)`, blur 12px, 1px line, 20px radius (faq 16px), padding clamp(22px, 2.4vw, 30px). Service cards carry a pointer-following sheen.
+- **Paper panel (reel):** paper-bright with ink text; every `alt` panel is ink-raised. The first list row is solid yellow.
+- **Results rows (serp):** paper-bright rows, blue-deep titles; the visitor's row is ink with yellow title and a yellow rank badge.
 
 ### Inputs / Fields
-- **Style:** white, 1px Hairline Strong border, 10px, 3rem high; custom select chevron.
-- **Focus:** border turns Action Blue with a 3px Pale Blue ring.
-- **Switch:** bordered 10px row with a pill knob; on state is Pale Blue row, blue track.
-- **Contact field:** a white 14px capsule on the navy band holding a borderless input and the primary button; stacks on phones.
+- 56px (map select/input 52px), 12px radius, 1.5px line, `rgba(243,242,236,.07)` fill, 1.0625rem text. Focus: yellow border plus 4px yellow glow. Invalid: `aria-invalid` border #ff8f8f. The hero search is a 60px pill with a yellow submit.
 
 ### Navigation
-Sticky white header with hairline bottom, wordmark (blue 9px pin tile + 700 display name), five links (0.9375rem 500, ink-2; hover/current on Frost), phone, small primary button. Below 64em a bordered "Menü" button opens a full-screen white sheet with large display-face links and both buttons. Footer: navy, four columns, Mist links turning white.
+- Pill link group (blurred), links 0.9375rem/600; hover/active tint plus yellow text; logo mark plus wordmark (800, width 116%). Mobile drawer is a blurred 20px-radius sheet.
 
-### The Map Card (signature)
-The 3D map always sits in a navy 24px card with Float shadow. District labels are numbered pills (low #22324f, mid #55637d, top Action Blue); the visitor's district gets an amber outline and a white name tag. A white readout card floats top right (query bar, two tabular numbers, tier legend). A navy note bottom left carries "Örnek gösterim." on ranking views and the OpenStreetMap and AWS Terrain Tiles attribution always.
-
-### Tabs
-A Frost track (12px, 0.25rem inset) holding 9px tabs; selected tab is white with Rest shadow.
-
-### Motion
-One easing, `cubic-bezier(0.22, 1, 0.36, 1)`. Controls 150–200ms; cards 250ms; reveals 600ms fading up 16px with 70ms stagger; story steps 450ms; bars and chart lines draw in once on view. Cross-page view transitions. Under reduced motion, reveals, story transitions and step animations are off and the story renders as a static grid of cards.
+### Signature: stage and map
+- The fixed canvas (`#stage`, z-index 1) is driven by `choreo.ts` camera keyframes on scroll. The Denizli relief map is real 3D (19 districts, OSM borders and elevation); column height = sample rank, markers tiered top (yellow), mid, low; the visitor's district is blue-outlined. A poster image shows until WebGL starts. Readout sits above the map, legend and credit below.
 
 ## Do's and Don'ts
 
 ### Do:
-- **Do** use the one primary label "Ücretsiz SEO analizi iste" for the main action, linking to WhatsApp with a written message.
-- **Do** alternate white and Cool Band sections and close the page on navy (contact band, footer).
-- **Do** put any map view in the navy 24px card with the OpenStreetMap attribution on it, and keep the attribution in the footer.
-- **Do** label sample map data "Örnek gösterim".
-- **Do** use the authored stroke icons from `Icon.astro` (24px grid, 1.8 stroke) inside 44px chips.
-- **Do** vary card widths (7/5 splits, one large tile) rather than repeating equal cards.
+- **Do** label the primary action "Ücretsiz SEO analizi iste" (arrow button, opens WhatsApp with a written message) everywhere, and use the brand name "Denizli SEO".
+- **Do** label every illustrative figure or result "Örnek gösterim".
+- **Do** keep the © OpenStreetMap credit on the map and in the footer.
+- **Do** use only real content: the six real project screenshots and the Google rating 5,0 from 28 reviews.
+- **Do** keep headings to two lines and use one Instrument Serif italic accent word.
+- **Do** keep a visible 3px yellow focus ring, strong hover and active states, and 44px minimum targets.
+- **Do** degrade the stage: reduced motion gives a still layout with a static frame (`.rm`); no WebGL leaves the page unchanged (poster and finished layout).
 
 ### Don't:
-- **Don't** put an eyebrow or kicker label above a heading, or let a heading run past two lines.
-- **Don't** use amber for anything except the visitor's district, or blue as a decorative fill.
-- **Don't** use Arial or any system display face outside the drawn Google result mock.
-- **Don't** add hard-offset or black shadows, gradients, or pill-shaped buttons.
-- **Don't** add testimonials, client logos, badges, invented statistics or ranking guarantees; the only rating shown is the real 5.0 from 28 Google reviews with its date.
+- **Don't** invent testimonials, client logos, statistics, case studies, awards, or ranking guarantees; the draft's fake case studies were removed on purpose.
+- **Don't** add a third font, monospace, or eyebrow text above headings.
+- **Don't** set text below 13px.
+- **Don't** use blue as a button color or yellow text on the paper chapter.
+- **Don't** put opaque slabs over the stage where a glass card fits.
+
+## Not canonized
+Preloader count "#100", the 01-04 process step numerals, the grain overlay and the heading text-shadows are shipped but not recorded as rules for new surfaces.
