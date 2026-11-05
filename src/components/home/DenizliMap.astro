@@ -1,6 +1,7 @@
 ---
-// Denizli's 19 districts as a real 3D relief. Each column is the sample rank of a business in that
-// district; the switches raise them. Sample model, labelled as a sample on the page.
+// Denizli's 19 districts as a real 3D relief, laid out like the owner's draft: the controls on the left, the
+// map card on the right. Each column is the sample rank of a business in that district; the switches raise
+// them. Sample model, labelled as a sample on the page.
 import Icon from '../Icon.astro';
 import { DISTRICTS, CTA_LABEL } from '../../data/site';
 const trade = 'kuyumcu';
@@ -12,16 +13,8 @@ const toggles = [
 ];
 ---
 <section class="dmap" id="denizli" aria-labelledby="denizli-baslik">
-  <div class="wrap">
-    <div class="sec-head reveal">
-      <h2 class="h2" id="denizli-baslik">Denizli’nin <em>19</em> ilçesi, 19 ayrı arama</h2>
-      <p class="lede">Merkezefendi’den yapılan aramayla Çivril’den yapılan aynı sonucu göstermez. Haritadaki her sütun bir ilçe; sütun yükseldikçe o ilçede daha üst sıradasınız. Hepsinde çalışırız.</p>
-    </div>
-    <ul class="pins reveal" aria-label="Çalıştığımız ilçeler">
-      {DISTRICTS.map((d) => <li><span class="pin" aria-hidden="true"></span>{d}</li>)}
-    </ul>
-  </div>
   <div class="wrap dmap-in">
+    <h2 class="sr-only" id="denizli-baslik">Denizli’nin 19 ilçesinde örnek arama sırası</h2>
     <div class="dmap-copy reveal">
       <form class="dmap-ctl" data-dmap-form onsubmit="return false" aria-label="Harita denemesi">
         <div class="dmap-pair">

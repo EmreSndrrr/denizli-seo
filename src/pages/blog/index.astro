@@ -10,10 +10,9 @@ import { SITE, WA_ANALYSIS, CTA_LABEL } from '../../data/site';
 const posts = (await getCollection('blog')).sort((a, b) => b.data.date.valueOf() - a.data.date.valueOf());
 const fmt = new Intl.DateTimeFormat('tr-TR', { day: 'numeric', month: 'long', year: 'numeric' });
 const minutes = (body: string | undefined) => Math.max(1, Math.round(((body ?? '').split(/\s+/).filter(Boolean).length) / 200));
-const icons = { 'yerel-seo': 'pin', 'teknik-seo': 'gauge', 'icerik-seo': 'doc', 'web-tasarim': 'layout' } as const;
 const used = SERVICES.filter((s) => posts.some((p) => p.data.service === s.slug));
 const title = 'Blog: SEO ve Google Haritalar Notları | Denizli SEO';
-const description = 'Denizli’deki işletmeler için SEO, Google İşletme Profili ve site hızı üzerine kısa, uygulanabilir yazılar.';
+const description = 'Denizli’deki işletmeler için SEO, Google İşletme Profili, site hızı ve backlink üzerine kısa, kaynaklı ve uygulanabilir yazılar.';
 const url = `${SITE.url}/blog/`;
 const jsonld = [
   {
@@ -21,8 +20,15 @@ const jsonld = [
     '@id': `${url}#blog`,
     url,
     name: 'Denizli SEO blog',
+    inLanguage: 'tr-TR',
     publisher: { '@id': `${SITE.url}/#isletme` },
-    blogPost: posts.map((p) => ({ '@type': 'BlogPosting', headline: p.data.title, url: `${SITE.url}/blog/${p.id}/`, datePublished: p.data.date.toISOString() })),
+    blogPost: posts.map((p) => ({
+      '@type': 'BlogPosting',
+      headline: p.data.title,
+      url: `${SITE.url}/blog/${p.id}/`,
+      datePublished: p.data.date.toISOString(),
+      image: `${SITE.url}/og/blog-${p.id}.jpg`,
+    })),
   },
   {
     '@type': 'BreadcrumbList',
@@ -33,9 +39,10 @@ const jsonld = [
   },
 ];
 ---
-<Page title={title} description={description} jsonld={jsonld}>
-  <Banner crumbs={[{ href: '/', label: 'Ana sayfa' }, { label: 'Blog' }]} h1={['Arama', 'üzerine notlar.']} lead="Denizli’deki işletmeler için SEO, Google İşletme Profili ve site hızı üzerine kısa, uygulanabilir yazılar.">
+<Page title={title} description={description} jsonld={jsonld} image="/og/blog.jpg" imageAlt="Denizli SEO blog: arama üzerine notlar">
+  <Banner crumbs={[{ href: '/', label: 'Ana sayfa' }, { label: 'Blog' }]} h1={['Arama', 'üzerine notlar.']} lead="Denizli’deki işletmeler için SEO, Google İşletme Profili, site hızı ve backlink üzerine kısa, kaynaklı ve uygulanabilir yazılar.">
     <a class="btn btn-solid" href={WA_ANALYSIS} rel="noopener">{CTA_LABEL}<Icon name="arrow" size={20} /></a>
+    <a class="btn btn-outline" href="/editoryal-ilkeler/">Yazılar nasıl hazırlanır?</a>
   </Banner>
 
   <section class="blog-sec" aria-label="Yazılar">
@@ -43,24 +50,21 @@ const jsonld = [
       {used.length > 1 && (
         <div class="filters" role="group" aria-label="Konuya göre">
           <button type="button" class="ptab active" data-filter="" aria-pressed="true">Tümü</button>
-          {used.map((s) => <button type="button" class="ptab" data-filter={s.slug} aria-pressed="false">{s.name}</button>)}
+          {used.map((s) => <button type="button" class="ptab" data-filter={s.slug} aria-pressed="false">{s.short}</button>)}
         </div>
       )}
       <ul class="post-grid">
-        {posts.map((post) => {
-          const svc = SERVICES.find((s) => s.slug === post.data.service);
-          return (
-            <li class="post-card reveal" data-service={post.data.service ?? ''}>
-              <a href={`/blog/${post.id}/`}>
-                <span class="post-pic"><Icon name={icons[(post.data.service ?? 'yerel-seo') as keyof typeof icons]} size={56} />{svc && <small>{svc.name}</small>}</span>
-                <span class="post-meta"><span><Icon name="plan" size={14} /><time datetime={post.data.date.toISOString()}>{fmt.format(post.data.date)}</time></span><span>{minutes(post.body)} dakikalık okuma</span></span>
-                <h2>{post.data.title}</h2>
-                <p>{post.data.description}</p>
-                <span class="post-go" aria-hidden="true"><Icon name="arrow" size={18} /></span>
-              </a>
-            </li>
-          );
-        })}
+        {posts.map((post) => (
+          <li class="post-card reveal" data-service={post.data.service ?? ''}>
+            <a href={`/blog/${post.id}/`}>
+              <span class="post-pic"><img src={`/blog/${post.id}-640.webp`} width="640" height="336" alt={post.data.imageAlt} loading="lazy" decoding="async" /></span>
+              <span class="post-meta"><span><Icon name="plan" size={14} /><time datetime={post.data.date.toISOString()}>{fmt.format(post.data.date)}</time></span><span>{minutes(post.body)} dakikalık okuma</span></span>
+              <h2>{post.data.title}</h2>
+              <p>{post.data.description}</p>
+              <span class="post-go" aria-hidden="true"><Icon name="arrow" size={18} /></span>
+            </a>
+          </li>
+        ))}
       </ul>
       <p class="empty" data-empty hidden>Bu konuda henüz yazı yok.</p>
     </div>

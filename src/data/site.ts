@@ -8,8 +8,21 @@ export const SITE = {
     name: 'Venti Dijital Ajans',
     url: 'https://www.ventiajans.com/',
     id: 'https://www.ventiajans.com/#isletme',
+    logo: 'https://www.ventiajans.com/img/venti-logo.png',
+    // Venti's own profiles, as listed in the structured data of ventiajans.com (November 2026).
+    sameAs: [
+      'https://www.google.com/maps?cid=3714531531433752929',
+      'https://www.instagram.com/venti.ajans/',
+      'https://www.linkedin.com/company/ventiajans',
+      'https://www.facebook.com/ventiajans/',
+    ],
+    privacyUrl: 'https://www.ventiajans.com/gizlilik-politikasi/',
+    kvkkUrl: 'https://www.ventiajans.com/kvkk-aydinlatma-metni/',
   },
   person: 'Emre Şandır',
+  personId: 'https://denizliseo.com/#emre-sandir',
+  founderUrl: 'https://www.ventiajans.com/hakkimizda/',
+  geo: { latitude: 37.763902, longitude: 29.103202 },
   phone: '+905445965622',
   phoneDisplay: '0544 596 56 22',
   whatsapp: '905445965622',
@@ -50,7 +63,7 @@ export const DISTRICTS = [
 ];
 
 export const NAV = [
-  { href: '/#hizmetler', label: 'Hizmetler' },
+  { href: '/hizmetler/', label: 'Hizmetler' },
   { href: '/#nasil', label: 'Nasıl çalışırız' },
   { href: '/#isler', label: 'İşler' },
   { href: '/blog/', label: 'Blog' },

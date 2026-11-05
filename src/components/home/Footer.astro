@@ -10,8 +10,8 @@ const year = new Date().getFullYear();
       <svg viewBox="0 0 32 32" aria-hidden="true"><circle cx="13" cy="13" r="9" fill="none" stroke="currentColor" stroke-width="3.4"></circle><path d="M20 20 L28.5 28.5" stroke="currentColor" stroke-width="4" stroke-linecap="round"></path></svg>
     </p>
     <div class="f-cols">
-      <nav aria-label="Hizmetler"><h2>Hizmetler</h2>{SERVICES.map((s) => <a href={`/${s.slug}/`}>{s.name}</a>)}</nav>
-      <nav aria-label="Site"><h2>Site</h2><a href="/hakkimizda/">Hakkımızda</a><a href="/blog/">Blog</a><a href="/iletisim/">İletişim</a></nav>
+      <nav aria-label="Hizmetler"><h2><a href="/hizmetler/">Hizmetler</a></h2>{SERVICES.map((s) => <a href={`/${s.slug}/`}>{s.name}</a>)}</nav>
+      <nav aria-label="Site"><h2>Site</h2><a href="/hakkimizda/">Hakkımızda</a><a href="/blog/">Blog</a><a href="/editoryal-ilkeler/">Editoryal ilkeler</a><a href="/iletisim/">İletişim</a><a href={SITE.parent.kvkkUrl} rel="noopener">KVKK aydınlatma metni</a><a href={SITE.parent.privacyUrl} rel="noopener">Gizlilik ve çerez politikası</a></nav>
       <div><h2>İletişim</h2><a href={`tel:${SITE.phone}`}>{SITE.phoneDisplay}</a><a href={`https://wa.me/${SITE.whatsapp}`} rel="noopener">WhatsApp</a><a href={SITE.mapsUrl} rel="noopener">{ADDRESS_LINE}</a></div>
     </div>
     <div class="f-row">

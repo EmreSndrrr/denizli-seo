@@ -12,7 +12,7 @@ Owners and managers of local businesses in Denizli's 19 districts (jewellers, de
 
 ## Product Purpose
 
-Denizli SEO is Venti Dijital Ajans's SEO brand. It sells four services: local SEO and Google Maps, technical SEO and site speed, content and blog SEO, and SEO-friendly web design. The site's job is to make a business owner understand what each service changes and send a WhatsApp message asking for a free SEO analysis. Success is that message.
+Denizli SEO is Venti Dijital Ajans's SEO brand. It sells five services: local SEO and Google Maps, technical SEO and site speed, content and blog SEO, backlink and authority work (earned links only: no bought links, no private blog networks), and SEO-friendly web design. The site's job is to make a business owner understand what each service changes and send a WhatsApp message asking for a free SEO analysis. Success is that message.
 
 ## Positioning
 
@@ -32,8 +32,8 @@ The first contact is a WhatsApp message to 0544 596 56 22 (Emre Şandır); the o
 ## Brand Commitments
 
 - Name "Denizli SEO", described as Venti Dijital Ajans's brand, linking to ventiajans.com.
-- The owner supplied the home page front end themselves (October 2026): a dark page with one fixed 3D stage (a chrome magnifier and a link graph) and a results page on paper. The magnifier animation and the footer stay as drafted. Every other section follows a second reference the owner supplied (a dark agency site, "Trebuto"): black ground, dark grey cards, hot pink, orange and purple, upper-case titles with one coloured word, service map, five cards, project carousel. Name: "Denizli SEO". Typography: one family (Archivo); no italic serif accent.
-- The inner pages (four service pages, about, blog, contact, 404) follow the same system as the home page, modelled on the owner's reference pages (About Us, Services, Blogs, Blog detail): a dark banner card with the way back, an arc list for a service's work, numbered step cards, blog cards with a filter, an article page. The reference's invented numbers ("+230 clients"), milestones and mission statements were not copied.
+- The owner supplied the home page front end themselves (October 2026): a dark page with one fixed 3D stage (a chrome magnifier and a link graph). The magnifier animation and the footer stay as drafted. In November 2026 the owner removed the results page on paper ("Birinci sayfa bir tesadüf değil") and asked that the page never change colour: it stays dark from top to bottom, and the 3D magnifier travels the whole page on scroll and comes to rest in the ring of the "Biz kimiz ?" section (no project picture inside it). The Denizli map section follows the owner's draft: controls on the left, map card on the right, no heading above. Every other section follows a second reference the owner supplied (a dark agency site, "Trebuto"): black ground, dark grey cards, hot pink, orange and purple, upper-case titles with one coloured word, service map, five cards, project carousel. Name: "Denizli SEO". Typography: one family (Archivo); no italic serif accent.
+- The inner pages (five service pages and the services overview, about, blog, contact, 404) follow the same system as the home page, modelled on the owner's reference pages (About Us, Services, Blogs, Blog detail): a dark banner card with the way back, an arc list for a service's work, numbered step cards, blog cards with a filter, an article page. The reference's invented numbers ("+230 clients"), milestones and mission statements were not copied.
 - OpenStreetMap attribution stays on the map and in the footer.
 
 ## Evidence on Hand

@@ -3,7 +3,6 @@ import Home from '../layouts/Home.astro';
 import Nav from '../components/home/Nav.astro';
 import Hero from '../components/home/Hero.astro';
 import Lens from '../components/home/Lens.astro';
-import SerpClimb from '../components/home/SerpClimb.astro';
 import Services from '../components/home/Services.astro';
 import Why from '../components/home/Why.astro';
 import Process from '../components/home/Process.astro';
@@ -24,7 +23,16 @@ const description =
   "Yerel SEO, Google Haritalar, teknik SEO ve içerikle Denizli’de sizi arayan müşterinin karşısına çıkmanızı sağlarız. Venti Dijital Ajans’ın SEO ekibi.";
 
 const jsonld = [
-  { '@type': 'WebSite', '@id': `${SITE.url}/#site`, url: `${SITE.url}/`, name: SITE.name, inLanguage: 'tr-TR', publisher: { '@id': `${SITE.url}/#isletme` } },
+  {
+    '@type': 'WebPage',
+    '@id': `${SITE.url}/#sayfa`,
+    url: `${SITE.url}/`,
+    name: title,
+    description,
+    inLanguage: 'tr-TR',
+    isPartOf: { '@id': `${SITE.url}/#website` },
+    about: { '@id': `${SITE.url}/#isletme` },
+  },
   {
     '@type': 'FAQPage',
     '@id': `${SITE.url}/#sss`,
@@ -37,7 +45,6 @@ const jsonld = [
   <main id="icerik" lang="tr">
     <Hero />
     <Lens />
-    <SerpClimb />
     <Services />
     <Why />
     <Process />

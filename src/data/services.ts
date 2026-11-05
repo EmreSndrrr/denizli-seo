@@ -1,9 +1,14 @@
-// Copy for the four service pages. Plain facts and method only: no invented results or promises.
+// Copy for the five service pages and the services overview. Plain facts and method only: no invented results or promises.
 
 export interface Step { line: string; text: string }
 export interface Qa { q: string; a: string }
+export type ServiceIcon = 'pin' | 'gauge' | 'doc' | 'link' | 'layout';
 export interface Service {
   slug: string;
+  icon: ServiceIcon;
+  short: string;          // short label for cards and the service map
+  fit: string;            // who the service suits (services overview)
+  measure: string;        // how the result is seen (services overview)
   name: string;           // used in navigation, breadcrumbs and the home paragraph
   title: string;          // <title>
   description: string;    // meta description
@@ -20,6 +25,10 @@ export interface Service {
 export const SERVICES: Service[] = [
   {
     slug: 'yerel-seo',
+    icon: 'pin',
+    short: 'Yerel SEO',
+    fit: 'Müşterisi dükkâna gelen ya da Denizli içinde müşteriye giden, haritada ve “yakınımda” aramalarında görünmek isteyen işletmeler için.',
+    measure: 'Belirlenen aramalarda haritada kaçıncı sırada olduğunuz, profilinizin aldığı arama, yol tarifi ve telefon sayısı.',
     name: 'Yerel SEO ve Google Haritalar',
     title: 'Yerel SEO ve Google Haritalar, Denizli | Denizli SEO',
     description:
@@ -55,6 +64,10 @@ export const SERVICES: Service[] = [
   },
   {
     slug: 'teknik-seo',
+    icon: 'gauge',
+    short: 'Teknik SEO ve hız',
+    fit: 'Sitesi Google’da hiç ya da eksik çıkan, telefonda geç açılan veya yeni bir siteye geçmeden önce altyapısını denetletmek isteyen işletmeler için.',
+    measure: 'Search Console’da dizine giren sayfa sayısı, tarama hataları ve Core Web Vitals raporundaki “iyi” sayfa oranı.',
     name: 'Teknik SEO ve site hızı',
     title: 'Teknik SEO ve Site Hızı Optimizasyonu | Denizli SEO',
     description:
@@ -89,6 +102,10 @@ export const SERVICES: Service[] = [
   },
   {
     slug: 'icerik-seo',
+    icon: 'doc',
+    short: 'İçerik SEO',
+    fit: 'Müşterisi satın almadan önce Google’da soru soran, hizmet sayfası ve blog yazısıyla bu soruları yanıtlamak isteyen işletmeler için.',
+    measure: 'Search Console’da yazıların ve hizmet sayfalarının kaç aramada, hangi sırada göründüğü ve kaç tıklama aldığı.',
     name: 'İçerik ve blog SEO',
     title: 'İçerik ve Blog SEO, Anahtar Kelime Araştırması | Denizli SEO',
     description:
@@ -122,7 +139,51 @@ export const SERVICES: Service[] = [
     ],
   },
   {
+    slug: 'backlink-hizmeti',
+    icon: 'link',
+    short: 'Backlink ve otorite',
+    fit: 'Sitesi teknik olarak sağlam ve içeriği hazır olduğu hâlde Google’da rakiplerinin gerisinde kalan, itibarını Denizli’de ve sektöründe artırmak isteyen işletmeler için.',
+    measure: 'Search Console’un Bağlantılar raporunda yeni ve kaybolan bağlantılar, bağlantı veren kaynak sayısı ve bağlantı alan sayfaların aramadaki sırası.',
+    name: 'Backlink ve otorite çalışması',
+    title: 'Backlink Hizmeti ve Otorite Çalışması, Denizli | Denizli SEO',
+    description:
+      'Satın alınmış değil, hak edilmiş backlink: yerel kurum, iş ortağı ve içerik bağlantıları, mevcut bağlantı denetimi ve aylık rapor. Denizli işletmeleri için.',
+    h1: ['Başka siteler', 'sizi önersin.'],
+    queries: ['backlink hizmeti', 'backlink nasıl alınır', 'denizli seo bağlantı çalışması', 'hacklink zararı'],
+    lead:
+      'Backlink, başka bir sitede yer alan ve sizin sitenize götüren bağlantıdır. Biz bunu satın almayız; yerel kurum, iş ortağı ve içerik yoluyla hak ederek kazanırız.',
+    statementHead: 'Bağlantı bir tavsiyedir',
+    statement:
+      'Google, başka sitelerin size verdiği bağlantıyı bir tavsiye gibi okur. Sayıdan çok kaynağın niteliği önemlidir: sektörünüzdeki bir derneğin ya da yerel bir haber sitesinin bağlantısı çoğu zaman yüzlerce toplu bağlantıdan daha çok iş görür. Satın alınan toplu bağlantılar Google’ın spam politikasına aykırıdır; bu yola girmeyiz.',
+    items: [
+      { name: 'Bağlantı profili denetimi', text: 'Search Console’un Bağlantılar raporunda sitenize kimlerin bağlandığını, hangi sayfalarınızın bağlantı aldığını ve şüpheli kaynakları çıkarırız.' },
+      { name: 'Rakip bağlantı karşılaştırması', text: 'Aynı aramada üst sıradaki rakiplerinizin hangi kaynaklardan bağlantı aldığına bakar, sizinle de ilişkili olabilecek kaynakları listeleriz.' },
+      { name: 'Yerel kurum ve haber bağlantıları', text: 'Üyesi olduğunuz oda, dernek ve meslek kuruluşlarının sitelerinde işletmenizin doğru ve güncel yer almasını; gerçek haberleriniz için yerel haber sitelerine metin hazırlanmasını sağlarız.' },
+      { name: 'İş ortağı ve tedarikçi bağlantıları', text: 'Birlikte çalıştığınız marka ve tedarikçilerin sitelerinde, gerçek ilişkinize dayanan bir referans ya da iş ortağı bağlantısı için ilk görüşmeyi hazırlarız.' },
+      { name: 'Bağlantı kazandıran içerik', text: 'Başka sitelerin kaynak göstermek isteyeceği rehber, karşılaştırma ve yerel bilgi içeriği hazırlarız; bağlantı bu içeriğe kendiliğinden gelir.' },
+      { name: 'Zararlı bağlantı kontrolü', text: 'Ele geçirilmiş ya da spam sitelerden gelen bağlantıları tek tek inceler; yalnızca gerçekten gerekliyse Google’ın reddetme aracını kullanırız.' },
+      { name: 'Aylık bağlantı raporu', text: 'Kazanılan ve kaybolan bağlantıları, bağlantı veren kaynağın adı ve bağlantı alan sayfayla birlikte her ay yazılı olarak sunarız.' },
+    ],
+    steps: [
+      { line: 'Önce profili inceleriz.', text: 'Sitenize bugün kimler bağlanıyor, rakipleriniz hangi kaynaklardan bağlantı alıyor?' },
+      { line: 'Kaynakları seçeriz.', text: 'Sektörünüzle ve Denizli ile gerçekten ilgili siteleri listeleriz.' },
+      { line: 'Bağlantıyı hak ederiz.', text: 'İçerik, haber ve iş birliğiyle; satın alarak değil.' },
+      { line: 'Her ay raporlarız.', text: 'Kazanılan ve kaybolan bağlantı, kaynağın adıyla raporda yazar.' },
+    ],
+    faq: [
+      { q: 'Backlink satın alıyor musunuz?', a: 'Hayır. Toplu satın alınan bağlantılar, özel blog ağları (PBN) ve ele geçirilmiş sitelere gizlenen bağlantılar (hacklink) Google’ın spam politikalarına aykırıdır ve siteye zarar verebilir. Yalnızca kaynağını gösterebildiğimiz, gerçek bir ilişkiye ya da gerçek bir içeriğe dayanan bağlantılar için çalışırız.' },
+      { q: 'Kaç backlink gerekir?', a: 'Sabit bir sayı yoktur. Sayıdan çok kaynağın niteliği ve konuyla ilgisi önemlidir. İlk incelemede aynı aramadaki rakiplerinizin durumuna bakar, hedefi ona göre yazarız.' },
+      { q: 'Bağlantı kazanmak ne kadar sürer, sıralamaya etkisi ne zaman görülür?', a: 'Bağlantıyı hak etmek zaman alır; sıralamaya etkisi de hemen görülmez. Genellikle aylar içinde ölçülür ve sonuç garanti edilemez. Aylık raporda her yeni bağlantıyı ve bağlantı alan sayfanın sırasını görürsünüz.' },
+      { q: 'Bağlantı için ücret ödenir mi?', a: 'Reklam ya da sponsorluk niteliğindeki yerleşimlerde Google, bağlantının rel="sponsored" ile işaretlenmesini ister. Böyle bir yerleşimi sıra kazanma yolu olarak sunmayız; olursa açıkça belirtiriz.' },
+      { q: 'Sitemde zararlı bağlantılar var, ne yapmalıyım?', a: 'Google çoğu zaman bu tür bağlantıları kendisi yok sayar. Reddetme aracı ileri düzey bir araçtır ve yanlış kullanılırsa zarar verebilir. Önce bağlantıları inceleriz; araca ancak gerçekten gerekliyse başvururuz.' },
+    ],
+  },
+  {
     slug: 'web-tasarim',
+    icon: 'layout',
+    short: 'Web tasarım',
+    fit: 'Sitesi olmayan, eski sitesi telefonda zor açılan ya da markasını yansıtmayan ve yeni siteyi baştan aramaya göre kurmak isteyen işletmeler için.',
+    measure: 'Sitenin telefonda açılış hızı, Google’ın siteyi dizine alması ve ziyaretçinin telefon, WhatsApp ya da form gibi eylemleri yapma sayısı.',
     name: 'SEO uyumlu web tasarım',
     title: "SEO Uyumlu Web Tasarım Denizli | Denizli SEO",
     description:

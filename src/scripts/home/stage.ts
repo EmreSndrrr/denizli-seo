@@ -1,17 +1,19 @@
 // The 3D stage behind the home page: a chrome magnifier whose glass shows the search result it
 // magnifies, rank tags that orbit it, and a link graph (the backlink web) with light pulses running
-// along its links and dust that steps away from the pointer.
+// along its links and dust that steps away from the pointer. Once the lens chapter is over the
+// magnifier is drawn on a second, lens-only canvas above the page so it can travel over the content.
 import * as THREE from 'three';
 import { clamp, smooth } from './util';
-import type { StageState } from './choreo';
+import type { StageState, Anchor } from './choreo';
 
 export interface Stage {
-  render(st: StageState, t: number, paper: number, ptr: { x: number; y: number }, calm: boolean): void;
+  render(st: StageState, t: number, ptr: { x: number; y: number }, calm: boolean, anchor: Anchor): void;
   resize(): void;
   setQuery(q: string, title: string): void;
 }
 
-const PINK = 0xff3d85, ORANGE = 0xff6a1f, PURPLE = 0x9b4dff, DEEP = 0x6a17c6;
+const PINK = 0xff3d85, ORANGE = 0xff6a1f, PURPLE = 0x9b4dff;
+const RING = 1.17; // outer radius of the magnifier's ring, in its own units
 
 /* ---------- small helpers ---------- */
 function dotTexture(inner: string, outer: string) {
@@ -155,16 +157,11 @@ function tagTexture(label: string, hot: boolean) {
   return t;
 }
 
-export function createStage(canvas: HTMLCanvasElement, mobile: () => boolean): Stage {
-  const renderer = new THREE.WebGLRenderer({ canvas, antialias: true, alpha: true, powerPreference: 'high-performance' });
-  renderer.setClearColor(0x000000, 0);
-  renderer.toneMapping = THREE.ACESFilmicToneMapping;
-  renderer.toneMappingExposure = 1.05;
-  const scene = new THREE.Scene();
-  const camera = new THREE.PerspectiveCamera(35, 1, 0.05, 140);
-  scene.environment = buildEnv(renderer);
 
-  /* the magnifier */
+/* ---------- the magnifier: built once per scene ---------- */
+let faceQ = 'denizli diş kliniği', faceT = 'Kliniğiniz | İmplant, Ortodonti ve Estetik Diş';
+
+function makeLens(withTags: boolean) {
   const chrome = new THREE.MeshPhysicalMaterial({ color: 0xffffff, metalness: 1, roughness: 0.12, clearcoat: 1, clearcoatRoughness: 0.05, envMapIntensity: 1.35 });
   const lens = new THREE.Group();
   lens.add(new THREE.Mesh(new THREE.TorusGeometry(1, 0.17, 64, 160), chrome));
@@ -200,21 +197,57 @@ export function createStage(canvas: HTMLCanvasElement, mobile: () => boolean): S
   face.position.z = -0.14;
   face.scale.setScalar(1.04);
   lens.add(face);
-  let faceQ = 'denizli diş kliniği', faceT = 'Kliniğiniz | İmplant, Ortodonti ve Estetik Diş';
-  const redrawFace = () => { drawFace(faceCanvas, faceQ, faceT); faceTex.needsUpdate = true; };
-  redrawFace();
-  if (document.fonts && document.fonts.ready) document.fonts.ready.then(redrawFace);
+  const redraw = () => { drawFace(faceCanvas, faceQ, faceT); faceTex.needsUpdate = true; };
+  redraw();
+  if (document.fonts && document.fonts.ready) document.fonts.ready.then(redraw);
   const glow = new THREE.Sprite(new THREE.SpriteMaterial({ map: dotTexture('rgba(216,32,104,0.5)', 'rgba(138,31,224,0.14)'), blending: THREE.AdditiveBlending, depthWrite: false, transparent: true }));
   glow.scale.set(6.5, 6.5, 1); glow.position.z = -1;
   lens.add(glow);
-  // rank tags that orbit the lens
-  const tags = ['#1', '#2', '#3'].map((label, i) => {
+  // rank tags that orbit the lens (only on the background lens)
+  const tags = withTags ? ['#1', '#2', '#3'].map((label, i) => {
     const s = new THREE.Sprite(new THREE.SpriteMaterial({ map: tagTexture(label, i === 0), transparent: true, depthWrite: false }));
     s.scale.set(0.9, 0.45, 1);
     lens.add(s);
     return { s, ph: (i / 3) * Math.PI * 2, rx: 2.15 + i * 0.28, ry: 1.55 + i * 0.22, sp: 0.32 - i * 0.05 };
-  });
-  scene.add(lens);
+  }) : [];
+  return { lens, disc, rim, face, glow, tags, redraw };
+}
+type Kit = ReturnType<typeof makeLens>;
+
+const lerp = (a: number, b: number, t: number) => a + (b - a) * t;
+
+export function createStage(canvas: HTMLCanvasElement, frontCanvas: HTMLCanvasElement | null, mobile: () => boolean): Stage {
+  const renderer = new THREE.WebGLRenderer({ canvas, antialias: true, alpha: true, powerPreference: 'high-performance' });
+  renderer.setClearColor(0x000000, 0);
+  renderer.toneMapping = THREE.ACESFilmicToneMapping;
+  renderer.toneMappingExposure = 1.05;
+  const scene = new THREE.Scene();
+  const camera = new THREE.PerspectiveCamera(35, 1, 0.05, 140);
+  scene.environment = buildEnv(renderer);
+
+  const main = makeLens(true);
+  scene.add(main.lens);
+
+  // the front layer: a second canvas, lens only, above the page content. If it cannot be created the
+  // background lens travels instead (behind the content).
+  let front: { renderer: THREE.WebGLRenderer; scene: THREE.Scene; camera: THREE.PerspectiveCamera; kit: Kit } | null = null;
+  if (frontCanvas) {
+    try {
+      const r2 = new THREE.WebGLRenderer({ canvas: frontCanvas, antialias: true, alpha: true, powerPreference: 'high-performance' });
+      r2.setClearColor(0x000000, 0);
+      r2.toneMapping = THREE.ACESFilmicToneMapping;
+      r2.toneMappingExposure = 1.05;
+      const s2 = new THREE.Scene();
+      s2.environment = buildEnv(r2);
+      const c2 = new THREE.PerspectiveCamera(35, 1, 0.05, 140);
+      c2.position.set(0, 0, 9);
+      c2.lookAt(0, 0, 0);
+      const kit = makeLens(false);
+      s2.add(kit.lens);
+      front = { renderer: r2, scene: s2, camera: c2, kit };
+    } catch { front = null; }
+  }
+  let frontOn = false;
 
   /* dust, link nodes and the web */
   const N = mobile() ? 900 : 2200;
@@ -274,10 +307,11 @@ export function createStage(canvas: HTMLCanvasElement, mobile: () => boolean): S
   pulses.frustumCulled = false;
   dust.add(pulses);
 
-  const colLight = new THREE.Color(0xd2d9ea), colDark = new THREE.Color(0x3a4150);
   const pointMats = [dustMat, nodeMat];
   const smoothPtr = { x: 0, y: 0 };
   const tmp = new THREE.Vector3();
+  const ray = new THREE.Vector3();
+  const spot = new THREE.Vector3();
   let pushAmt = 0;
 
   function resize() {
@@ -291,37 +325,69 @@ export function createStage(canvas: HTMLCanvasElement, mobile: () => boolean): S
     pulseMat.uniforms.uScale.value = scale;
     const halfH = 8.5 * Math.tan(THREE.MathUtils.degToRad(camera.fov / 2));
     for (const m of pointMats) m.uniforms.uHalf.value.set(halfH * camera.aspect, halfH);
+    if (front && frontCanvas) {
+      front.renderer.setPixelRatio(Math.min(window.devicePixelRatio || 1, mobile() ? 1.25 : 1.6));
+      front.renderer.setSize(frontCanvas.clientWidth || w, frontCanvas.clientHeight || h, false);
+      front.camera.aspect = (frontCanvas.clientWidth || w) / (frontCanvas.clientHeight || h);
+      front.camera.updateProjectionMatrix();
+    }
   }
 
-  function render(st: StageState, t: number, paper: number, ptr: { x: number; y: number }, calm: boolean) {
+  // places and turns a magnifier: by the keyframe state, or, while it travels, on the screen point of the anchor
+  function pose(kit: Kit, cam: THREE.PerspectiveCamera, heightPx: number, st: StageState, t: number, sw: number, a: Anchor | null) {
+    let px = st.vx, py = st.vy + Math.sin(t * 0.8) * 0.05 * sw, pz = st.vz, sc = st.s;
+    let rx = st.rx, ry = st.ry, roll = 0, settle = 0;
+    if (a && a.w > 0.001) {
+      cam.updateMatrixWorld();
+      ray.set(a.x, a.y, 0.5).unproject(cam).sub(cam.position).normalize();
+      spot.copy(cam.position).addScaledVector(ray, -cam.position.z / ray.z);
+      const pxPerUnit = heightPx / 2 / (cam.position.distanceTo(spot) * Math.tan(THREE.MathUtils.degToRad(cam.fov / 2)));
+      px = lerp(px, spot.x, a.w); py = lerp(py, spot.y + Math.sin(t * 0.8) * 0.05 * sw, a.w); pz = lerp(pz, 0, a.w);
+      sc = lerp(sc, a.r / (RING * pxPerUnit), a.w);
+      settle = a.settle; roll = a.rz;
+      rx = lerp(st.rx, 0.1, settle); ry = lerp(st.ry, -0.25, settle);
+    }
+    kit.lens.position.set(px, py, pz);
+    kit.lens.rotation.set(
+      rx + Math.sin(t * 0.33) * 0.08 * sw - smoothPtr.y * 0.14 * sw,
+      ry + Math.sin(t * 0.42) * 0.5 * sw * (1 - 0.6 * settle) + smoothPtr.x * 0.32 * sw,
+      roll + Math.sin(t * 0.27) * 0.05 * sw,
+    );
+    kit.lens.scale.setScalar(Math.max(0.0001, sc));
+    kit.lens.visible = sc > 0.01;
+    return sc;
+  }
+
+  function glassOf(kit: Kit, glass: number, t: number, glowAmt: number) {
+    kit.disc.visible = kit.rim.visible = kit.face.visible = glass > 0.02;
+    (kit.disc.material as THREE.MeshPhysicalMaterial).opacity = 0.16 * glass;
+    (kit.rim.material as THREE.MeshBasicMaterial).opacity = 0.5 * glass * (0.8 + 0.2 * Math.sin(t * 1.6));
+    (kit.face.material as THREE.MeshBasicMaterial).opacity = glass;
+    kit.glow.material.opacity = glowAmt;
+  }
+
+  function render(st: StageState, t: number, ptr: { x: number; y: number }, calm: boolean, anchor: Anchor) {
     const sw = calm ? 0 : st.sway;
     smoothPtr.x += (ptr.x - smoothPtr.x) * 0.08;
     smoothPtr.y += (ptr.y - smoothPtr.y) * 0.08;
     camera.position.set(st.cx + smoothPtr.x * 0.18 * sw, st.cy - smoothPtr.y * 0.12 * sw, st.cz);
     camera.lookAt(st.lx, st.ly, st.lz);
-    lens.position.set(st.vx, st.vy + Math.sin(t * 0.8) * 0.05 * sw, st.vz);
-    lens.rotation.set(
-      st.rx + Math.sin(t * 0.33) * 0.08 * sw - smoothPtr.y * 0.14 * sw,
-      st.ry + Math.sin(t * 0.42) * 0.5 * sw + smoothPtr.x * 0.32 * sw,
-      Math.sin(t * 0.27) * 0.05 * sw,
-    );
-    lens.scale.setScalar(Math.max(0.0001, st.s));
-    lens.visible = st.s > 0.01;
+    const hPx = canvas.clientHeight || innerHeight;
+    const veil = clamp(st.veil, 0, 1);
+
+    // the background lens follows the keyframes (and travels itself when there is no front layer)
+    const sMain = pose(main, camera, hPx, st, t, sw, front ? null : anchor);
     const glass = clamp(st.glass, 0, 1);
-    disc.visible = rim.visible = face.visible = glass > 0.02;
-    (disc.material as THREE.MeshPhysicalMaterial).opacity = 0.16 * glass;
-    (rim.material as THREE.MeshBasicMaterial).opacity = 0.5 * glass * (0.8 + 0.2 * Math.sin(t * 1.6));
-    (face.material as THREE.MeshBasicMaterial).opacity = glass;
-    glow.material.opacity = clamp(st.glow, 0, 1.4) * (1 - paper) * 0.85;
+    glassOf(main, glass, t, clamp(st.glow, 0, 1.4) * 0.85);
     // the tags keep off the page text: they fade where they would cross the left column, and once the
     // camera flies into the lens
     const away = smooth(5.5, 7.5, st.cz);
-    tags.forEach((g, i) => {
+    main.tags.forEach((g, i) => {
       const ang = g.ph + t * g.sp;
       g.s.position.set(Math.cos(ang) * g.rx, Math.sin(ang) * g.ry, Math.sin(ang * 1.3 + i) * 0.7 + 0.3);
       g.s.getWorldPosition(tmp).project(camera);
       const side = mobile() ? 1 - smooth(0.62, 0.9, Math.abs(tmp.x)) : smooth(0.18, 0.48, tmp.x);
-      g.s.material.opacity = glass * clamp(st.s * 1.6 - 0.3, 0, 1) * away * side;
+      g.s.material.opacity = glass * clamp(sMain * 1.6 - 0.3, 0, 1) * away * side;
     });
     // dust, nodes and pulses
     pushAmt += ((calm ? 0 : 1) - pushAmt) * 0.05;
@@ -331,22 +397,31 @@ export function createStage(canvas: HTMLCanvasElement, mobile: () => boolean): S
       m.uniforms.uCamZ.value = Math.max(1, st.cz);
       m.uniforms.uPush.value = pushAmt;
     }
-    dustMat.uniforms.uOpacity.value = st.pOp;
-    dustMat.uniforms.uColor.value.copy(colLight).lerp(colDark, clamp(st.pTint, 0, 1));
-    nodeMat.uniforms.uOpacity.value = 0.85 * (1 - paper * 0.2);
-    nodeMat.uniforms.uColor.value.set(paper > 0.5 ? DEEP : PINK);
+    dustMat.uniforms.uOpacity.value = st.pOp * veil;
+    nodeMat.uniforms.uOpacity.value = 0.85 * veil;
     pulseMat.uniforms.uTime.value = t;
-    pulseMat.uniforms.uOpacity.value = 0.9 * (1 - paper);
-    webMat.opacity = 0.16 * (1 - paper * 0.4);
-    webMat.color.set(paper > 0.5 ? DEEP : PURPLE);
+    pulseMat.uniforms.uOpacity.value = 0.9 * veil;
+    webMat.opacity = 0.16 * veil;
     dust.rotation.y = t * 0.012;
     dust.rotation.x = Math.sin(t * 0.05) * 0.03;
     renderer.render(scene, camera);
+
+    // the travelling lens, above the page content
+    if (front && frontCanvas) {
+      const on = anchor.w > 0.002;
+      if (on !== frontOn) { frontOn = on; frontCanvas.style.visibility = on ? 'visible' : 'hidden'; }
+      if (on) {
+        pose(front.kit, front.camera, frontCanvas.clientHeight || innerHeight, st, t, sw, anchor);
+        glassOf(front.kit, 1, t, 0.4 * anchor.w);
+        front.renderer.render(front.scene, front.camera);
+      }
+    }
   }
 
   function setQuery(q: string, title: string) {
     faceQ = q; faceT = title;
-    redrawFace();
+    main.redraw();
+    front?.kit.redraw();
   }
 
   resize();

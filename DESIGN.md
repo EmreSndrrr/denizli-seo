@@ -1,6 +1,6 @@
 ---
 name: Denizli SEO
-description: A black page with dark grey cards, hot pink, orange and purple accents and one family of type; a fixed 3D magnifier stage runs behind the hero, lens and results chapters.
+description: A black page with dark grey cards, hot pink, orange and purple accents and one family of type; a fixed 3D magnifier stage runs behind the page; the magnifier travels the whole page and comes to rest in the "Biz kimiz" ring.
 colors:
   ink: "#0b0e13"
   ink-raised: "#151a23"
@@ -160,15 +160,15 @@ components:
 
 # Design System: Denizli SEO
 
-Scope: the whole site. `src/styles/home.css` (tokens, base, bar, hero, lens, results chapter, footer), `src/styles/home-sections.css` (every section after the results chapter) and `src/styles/inner.css` (the inner pages: banner card, service arc list, numbered step cards, blog cards, article text, contact cards). Inner pages use `src/layouts/Page.astro`: the same bar and footer, no 3D stage.
+Scope: the whole site. `src/styles/home.css` (tokens, base, bar, hero, lens chapter, footer), `src/styles/home-sections.css` (every section after the lens chapter) and `src/styles/inner.css` (the inner pages: banner card, service arc list, numbered step cards, blog cards, article text, contact cards). Inner pages use `src/layouts/Page.astro`: the same bar and footer, no 3D stage.
 
 ## Overview
 
 **Creative North Star: "The Search Lens"**
 
-The owner supplied a dark agency reference (Trebuto) and asked the page to follow it everywhere except the magnifier animation (hero, lens chapter, results chapter) and the footer, which stay as designed. The result is a black page of dark grey cards with 1px light lines, hot pink as the action color, orange and purple as supporting accents, and one typeface. A single fixed three.js stage (chrome magnifier, link graph, recoloured to pink, purple and orange) runs behind the hero, lens and results chapters; the later sections are ordinary opaque-card sections on the black ground. The results chapter alone sits on paper.
+The owner supplied a dark agency reference (Trebuto) and asked the page to follow it everywhere except the magnifier animation (hero, lens chapter, the journey to the "Biz kimiz" ring) and the footer, which stay as designed. The result is a black page of dark grey cards with 1px light lines, hot pink as the action color, orange and purple as supporting accents, and one typeface. A single fixed three.js stage (chrome magnifier, link graph, recoloured to pink, purple and orange) runs behind the page; a second, lens-only canvas above the content (`#lens-front`, never intercepts a click) lets the magnifier travel over the later sections, which are ordinary opaque-card sections on the black ground. The page never changes colour: there is no paper or white section.
 
-Sections run in this order: hero (search box, chips, marquee), lens, results climb, "Ne yapıyoruz ?" service map, "Farkımız ne ?" five cards, "Nasıl çalışıyoruz ?" timeline, projects carousel, free-chat band, "Biz kimiz ?", Google rating orbit, brands grid, Denizli districts with the 3D relief map, FAQ, closing form, footer.
+Sections run in this order: hero (search box, chips, marquee), lens, "Ne yapıyoruz ?" service map (five groups, then a button to the services page), "Farkımız ne ?" five cards, "Nasıl çalışıyoruz ?" timeline, projects carousel, free-chat band, "Biz kimiz ?" (an empty ring where the magnifier lands; a still brand magnifier when WebGL is off or motion is reduced), Google rating orbit, brands grid, the 3D relief map of Denizli (controls left, map card right, no heading), FAQ, closing form, footer.
 
 **Key Characteristics:**
 - Black ground (#0b0e13), grey cards (#17171c, #1f1f26) with a 1px `rgba(243,242,236,.16)` line.
@@ -189,12 +189,12 @@ Black and grey neutrals, one pink voice for action, orange and purple as support
 
 ### Secondary
 - **Orange** (#f05a1e) with **Orange Text** (#ff8a4c): the "Tümünü gör" and "Yorumları gör" buttons (dark text on the fill), star ratings, process duration tags, project card borders, the rating core ring.
-- **Purple** (#8a1fe0) with **Purple Text** (#b57bff): third service-map and why-card tone, the "SEO" mark in the ring, the visitor's own district on the map (3px outline). Deep purple (#6a17c6) is the result-title color on paper.
+- **Purple** (#8a1fe0) with **Purple Text** (#b57bff): third service-map and why-card tone, the "SEO" mark in the ring, the visitor's own district on the map (3px outline).
 
 ### Neutral
 - **Ink** (#0b0e13): page ground, "you" result row. **Ink Raised** (#151a23): nav pill, glass chips.
 - **Card** (#17171c) and **Card 2** (#1f1f26): every card, node plate, FAQ row, form; Card 2 is hover and image-placeholder.
-- **Paper** (#f3f2ec): primary text on dark and the results-chapter backdrop. **Paper Bright** (#fbfaf6): result rows, readout search pill, map district label.
+- **Paper** (#f3f2ec): primary text on dark. **Paper Bright** (#fbfaf6): readout search pill, map district label, sample result rows on inner pages.
 - **Soft** (#c3cad6): secondary text. **Mist** (#9aa3b0): placeholders, captions. **Stone** (#4b525d): secondary text on paper.
 - **Map relief** (read by the 3D map from CSS variables): top #ff4d8d, land #cfd6e4, border #8d98ad, wall #4d5870, mid #7e8aa3, low #2a3447.
 - **Status**: #3fae6b ok; invalid field border #ff8f8f.
@@ -202,7 +202,7 @@ Black and grey neutrals, one pink voice for action, orange and purple as support
 ### Named Rules
 **The Pink Action Rule.** Pink fills mean "act or selected". Orange is a second button color only for the "see more" actions; purple never fills a button.
 **The Text Value Rule.** On dark, accent colors appear as text only in their `-text` value, never the fill value.
-**The Paper Chapter Rule.** Only the results chapter sits on paper; there the accent word is ink with a pale pink (#ffc2d9) underline highlight.
+**The Always Dark Rule.** No section sits on paper or white and the backdrop never changes colour while scrolling. Paper is text and small pills only.
 **The Labelled Sample Rule.** Illustrative rankings, numbers and results are labelled "Örnek gösterim".
 
 ## Typography
@@ -224,7 +224,7 @@ Black and grey neutrals, one pink voice for action, orange and purple as support
 
 ### Named Rules
 **The One Family Rule.** Archivo only; no serif, italic, monospace or third face.
-**The Upper-Case Title Rule.** Section titles are upper case with one pink word; hero and the lens, results and closing headings are sentence case.
+**The Upper-Case Title Rule.** Section titles are upper case with one pink word; hero, lens and closing headings are sentence case.
 **The 13px Floor Rule.** Nothing renders under 13px.
 **The Two Lines Rule.** Headings run at most two lines (`text-wrap: balance`, ch max-width, smaller step on phones).
 
@@ -237,9 +237,9 @@ One centered `.wrap`: max 1380px, side padding `max(16px, 4vw)`. Section padding
 - Process: sticky heading card beside the steps (single column at 1100px).
 - Projects: horizontal scroll-snap carousel, middle card scaled up, category tabs above.
 - Brands: auto-fill grid of 190px minimum. Districts: auto-fit pin list (116px), then map section in 0.8fr/1.2fr columns (single column at 960px).
-- Lens (235vh) and results chapter (300vh) are pinned scroll chapters; the results chapter overlaps the lens by 100vh.
+- The lens chapter (235vh) is a pinned scroll chapter; after it the magnifier swings from edge to edge over the sections and settles into the "Biz kimiz" ring, then lets go as that section scrolls away.
 
-The bar is fixed with a top scrim, gains blur and a line when scrolled, and flips to a paper bar over the results chapter (`on-light`). Below 960px the link pill becomes a 44px toggle and drawer; below 560px the bar button hides.
+The bar is fixed with a top scrim, gains blur and a line when scrolled. Below 960px the link pill becomes a 44px toggle and drawer; below 560px the bar button hides.
 
 Breakpoints in use: 560, 600, 620, 640, 767, 860, 880, 900, 959, 960, 1000, 1100px.
 
@@ -267,12 +267,12 @@ Pills for buttons, chips, search, toggles, tags, nav links. Rectangles are modes
 ### Buttons
 - **Shape:** pill, 56px tall, padding 0 1.75em, 1.0625rem/700 at width 106%, trailing arrow nudges 4px on hover; hover lifts 2px, active presses 1px.
 - **Primary:** solid pink, white text ("Ücretsiz SEO analizi iste", opens WhatsApp with a written message). Hover #bd1558.
-- **Outline:** 1.5px pink border, pink-text label; hover fills pink (bar button). In the bar over paper it turns ink.
+- **Outline:** 1.5px pink border, pink-text label; hover fills pink (bar button).
 - **Orange:** orange fill, dark text (#14070a): "Tümünü gör", "Yorumları gör".
 - **White:** white fill, pink text: the chat band on a pink-tinted strip.
 - **Ghost:** 1.5px paper border, translucent fill and blur; hover fills paper.
 - **Small:** 44px, 0.9375rem, used in the bar.
-- **Focus:** 3px pink-text outline, 3px offset on every focusable element (ink on paper).
+- **Focus:** 3px pink-text outline, 3px offset on every focusable element.
 
 ### Chips, tabs, toggles
 - **Sector chip:** 36px pill, 1.5px line; hover/active turns pink-text with a pink tint.
@@ -285,7 +285,7 @@ Pills for buttons, chips, search, toggles, tags, nav links. Rectangles are modes
 - **Step:** card with pink dot on a vertical line that fills pink as it scrolls; orange duration tag.
 - **Project card:** card with a screenshot (top-aligned), orange 35% border, orange when centered; side cards scale down and fade.
 - **FAQ row:** 12px card, plus/minus sign circle fills pink when open.
-- **Results rows (paper chapter):** paper-bright rows, deep-purple titles; the visitor's row is ink with pink-text title and a pink rank badge.
+- **Sample result rows (inner pages, `SerpMock`):** paper-bright rows with deep-purple titles on a dark card; the visitor's row is ink with pink-text title and a pink rank badge.
 - **Rating orbit:** dashed rotating ring, five orange stars, core with 5,0 and "28 yorum".
 
 ### Inputs / Fields

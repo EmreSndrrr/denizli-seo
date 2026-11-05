@@ -1,0 +1,60 @@
+---
+import Page from '../layouts/Page.astro';
+import Banner from '../components/home/Banner.astro';
+import Chat from '../components/home/Chat.astro';
+import Icon from '../components/Icon.astro';
+import { SITE, WA_ANALYSIS, CTA_LABEL, waLink } from '../data/site';
+
+const title = 'Editoryal İlkeler: Yazılarımız Nasıl Hazırlanır | Denizli SEO';
+const description =
+  'Denizli SEO sayfalarının ve blog yazılarının nasıl hazırlandığı: kaynaklar, yazmadığımız şeyler, yapay zekâ kullanımı, güncelleme ve düzeltme.';
+const url = `${SITE.url}/editoryal-ilkeler/`;
+const fix = waLink('Merhaba, Denizli SEO sitesindeki bir bilgide hata gördüm: ');
+
+const jsonld = [
+  { '@type': 'WebPage', '@id': `${url}#sayfa`, url, name: 'Denizli SEO editoryal ilkeler', description, inLanguage: 'tr-TR', isPartOf: { '@id': `${SITE.url}/#website` }, about: { '@id': `${SITE.url}/#isletme` } },
+  {
+    '@type': 'BreadcrumbList',
+    itemListElement: [
+      { '@type': 'ListItem', position: 1, name: 'Ana sayfa', item: `${SITE.url}/` },
+      { '@type': 'ListItem', position: 2, name: 'Editoryal ilkeler', item: url },
+    ],
+  },
+];
+---
+<Page title={title} description={description} jsonld={jsonld} image="/og/editoryal-ilkeler.jpg" imageAlt="Denizli SEO editoryal ilkeler">
+  <Banner crumbs={[{ href: '/', label: 'Ana sayfa' }, { label: 'Editoryal ilkeler' }]} h1={['Yazılarımız', 'nasıl hazırlanır?']} lead="Sitedeki her sayfa ve blog yazısı aynı ilkelere göre hazırlanır. Ne yazdığımızı, nereden bildiğimizi ve bir hatayı nasıl düzelttiğimizi burada açıkça yazıyoruz.">
+    <a class="btn btn-solid" href={WA_ANALYSIS} rel="noopener">{CTA_LABEL}<Icon name="arrow" size={20} /></a>
+  </Banner>
+
+  <article class="article-body" aria-label="Editoryal ilkeler">
+    <div class="prose">
+      <h2>Kimin için yazıyoruz?</h2>
+      <p>Denizli ve ilçelerindeki işletme sahipleri için. Teknik bilgi varsaymayız; bir terimi kullanmak zorunda kalırsak ilk geçtiği yerde açıklarız.</p>
+
+      <h2>Bilgiyi nereden alıyoruz?</h2>
+      <p>Önce Google’ın kendi yayımladığı belgelerden: <a href="https://developers.google.com/search/docs/fundamentals/seo-starter-guide" rel="noopener">Google Search Central</a> ve <a href="https://support.google.com/business/answer/7091" rel="noopener">İşletme Profili yardım sayfaları</a>. Bir yazıda bu kaynaklara dayanan bir bilgi varsa ilgili sayfaya bağlantı veririz. Rakamı yalnızca kaynağını gösterebildiğimizde yazarız. Sitedeki örnek ekranlar ve raporlar “örnek” diye etiketlidir; gerçek bir müşteriye ait değildir.</p>
+
+      <h2>Neyi yazmayız?</h2>
+      <ul>
+        <li>Sıralama garantisi. Sıralamayı Google belirler; hiçbir ajans bunu garanti edemez.</li>
+        <li>Uydurma müşteri yorumu, ödül, sertifika ya da istatistik.</li>
+        <li>Satın alınmış bağlantı, sahte yorum ya da Google’ın spam politikalarına aykırı başka bir yöntem. Bunları önermeyiz ve uygulamayız.</li>
+      </ul>
+
+      <h2>Kim hazırlar, kim sorumludur?</h2>
+      <p>Denizli SEO, <a href={SITE.parent.url} rel="noopener">{SITE.parent.name}</a>’ın markasıdır. İçeriklerden ajansın kurucusu <a href={SITE.founderUrl} rel="noopener">{SITE.person}</a> sorumludur; kendisine <a href="/iletisim/">iletişim</a> sayfasındaki telefon ve WhatsApp numarasından ulaşabilirsiniz.</p>
+
+      <h2>Yapay zekâ araçlarını kullanıyor muyuz?</h2>
+      <p>Araştırmada ve taslak hazırlamada yapay zekâ araçlarından yararlanabiliriz. Her metin, yayına girmeden önce sektör bilgisiyle kontrol edilir. Google içeriğin nasıl üretildiğine değil, okura faydalı olup olmadığına bakar (<a href="https://developers.google.com/search/docs/fundamentals/creating-helpful-content" rel="noopener">Google: yardımcı, güvenilir içerik</a>); biz de aynı ölçüyü kendimize uygularız.</p>
+
+      <h2>Güncelleme ve düzeltme</h2>
+      <p>Blog yazılarında yayın tarihi ve güncellenme tarihi görünür. Google bir rehberini ya da bir aracını değiştirdiğinde ilgili yazıyı güncelleriz. Bir bilgide hata görürseniz <a href={fix} rel="noopener">WhatsApp’tan yazın</a>; düzeltir ve yazının güncellenme tarihini değiştiririz.</p>
+
+      <h2>Ticari ilişki</h2>
+      <p>Bu site, {SITE.parent.name}’ın SEO hizmetlerini tanıtır; yazılar bu hizmetlere yönlendirebilir. Ücretli yerleşim ya da sponsorlu içerik yayımlamayız.</p>
+    </div>
+  </article>
+
+  <Chat />
+</Page>

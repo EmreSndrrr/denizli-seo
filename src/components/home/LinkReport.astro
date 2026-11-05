@@ -1,0 +1,21 @@
+---
+// Sample rows of the monthly link report. Source names are generic and the card says so; no counts.
+const rows = [
+  { src: 'Yerel meslek odası sitesi', page: 'Ana sayfa', state: 'Yeni', tone: 'new' },
+  { src: 'Yerel haber sitesi', page: 'Hizmet sayfası', state: 'Yeni', tone: 'new' },
+  { src: 'İş ortağı sitesi', page: 'Hakkımızda', state: 'Sürüyor', tone: 'keep' },
+  { src: 'Eski rehber sitesi', page: 'İletişim', state: 'Kayboldu', tone: 'lost' },
+];
+---
+<div class="lrep">
+  <p class="vit-head">Aylık bağlantı raporundan satırlar</p>
+  <ul>
+    {rows.map((r) => (
+      <li>
+        <span><b>{r.src}</b><small>Bağlantı verdiği sayfa: {r.page}</small></span>
+        <em class={`lrep-${r.tone}`}>{r.state}</em>
+      </li>
+    ))}
+  </ul>
+  <p class="vit-note">Örnek rapor satırları. Kaynak adları temsilîdir, gerçek bir işletmeye ait değildir.</p>
+</div>

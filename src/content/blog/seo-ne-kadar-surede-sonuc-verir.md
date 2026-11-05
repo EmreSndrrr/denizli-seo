@@ -2,8 +2,8 @@
 title: SEO ne kadar sürede sonuç verir?
 description: "SEO’nun sonuç verme süresini belirleyen etkenler, gerçekçi bir takvim ve her ay neyin ölçülmesi gerektiği. Hızlı sonuç vaadine neden temkinli yaklaşmalı?"
 date: 2026-10-22
-visual: chart
 service: teknik-seo
+imageAlt: "Zaman içinde yükselen bir sıralama grafiği"
 ---
 
 Bir işletmeyle ilk görüşmede en çok sorulan soru budur. Dürüst cevap şu: aramaya göre değişir. Ama süreyi belirleyen etkenler bellidir ve hangisinin sizin için geçerli olduğunu baştan görmek mümkündür.

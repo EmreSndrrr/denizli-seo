@@ -4,6 +4,7 @@ import Page from '../layouts/Page.astro';
 import Banner from '../components/home/Banner.astro';
 import SerpMock from '../components/home/SerpMock.astro';
 import VitalsCard from '../components/home/VitalsCard.astro';
+import LinkReport from '../components/home/LinkReport.astro';
 import Cycle from '../components/home/Cycle.astro';
 import Projects from '../components/home/Projects.astro';
 import Faq from '../components/home/Faq.astro';
@@ -20,7 +21,6 @@ export function getStaticPaths() {
 interface Props { service: Service }
 const { service } = Astro.props;
 const url = `${SITE.url}/${service.slug}/`;
-const icons = { 'yerel-seo': 'pin', 'teknik-seo': 'gauge', 'icerik-seo': 'doc', 'web-tasarim': 'layout' } as const;
 const others = SERVICES.filter((s) => s.slug !== service.slug);
 const wa = waLink(`Merhaba, ücretsiz SEO analizi istiyorum. ${service.name} ile ilgileniyoruz. İşletmemin adı ve ilçesi: `);
 const shot = PROJECTS.find((p) => p.name === 'Balkan Endüstriyel Mutfak')!;
@@ -29,10 +29,22 @@ const workFor: Record<string, string[]> = {
   'yerel-seo': ['Denizli Kuyumcu', 'Yörükoğulları Nakliyat', 'Eseoğlu Sondaj', 'Jarkotech'],
   'teknik-seo': ['Jarkotech', 'Bilgi Dem Akademi', 'Denizli Kuyumcu', 'Balkan Endüstriyel Mutfak'],
   'icerik-seo': ['Elea Premium Stay', 'Fairystone Travel', 'World Trip Advisor', 'Travel Agency Türkiye'],
+  'backlink-hizmeti': ['Denizli Kuyumcu', 'Eseoğlu Sondaj', 'Bilgi Dem Akademi', 'Travel Agency Türkiye'],
   'web-tasarim': ['Tekdağ Elektronik', 'Essence Travel', 'Yörükoğulları Nakliyat', 'Bilgi Dem Akademi'],
 };
 
 const jsonld = [
+  {
+    '@type': 'WebPage',
+    '@id': `${url}#sayfa`,
+    url,
+    name: service.title,
+    description: service.description,
+    inLanguage: 'tr-TR',
+    isPartOf: { '@id': `${SITE.url}/#website` },
+    breadcrumb: { '@id': `${url}#yol` },
+    mainEntity: { '@id': `${url}#hizmet` },
+  },
   {
     '@type': 'Service',
     '@id': `${url}#hizmet`,
@@ -50,16 +62,18 @@ const jsonld = [
   },
   {
     '@type': 'BreadcrumbList',
+    '@id': `${url}#yol`,
     itemListElement: [
       { '@type': 'ListItem', position: 1, name: 'Ana sayfa', item: `${SITE.url}/` },
-      { '@type': 'ListItem', position: 2, name: service.name, item: url },
+      { '@type': 'ListItem', position: 2, name: 'Hizmetler', item: `${SITE.url}/hizmetler/` },
+      { '@type': 'ListItem', position: 3, name: service.name, item: url },
     ],
   },
   { '@type': 'FAQPage', '@id': `${url}#sss`, mainEntity: service.faq.map((item) => ({ '@type': 'Question', name: item.q, acceptedAnswer: { '@type': 'Answer', text: item.a } })) },
 ];
 ---
-<Page title={service.title} description={service.description} jsonld={jsonld}>
-  <Banner crumbs={[{ href: '/', label: 'Ana sayfa' }, { label: service.name }]} h1={service.h1} lead={service.lead}>
+<Page title={service.title} description={service.description} jsonld={jsonld} image={`/og/${service.slug}.jpg`} imageAlt={service.name}>
+  <Banner crumbs={[{ href: '/', label: 'Ana sayfa' }, { href: '/hizmetler/', label: 'Hizmetler' }, { label: service.name }]} h1={service.h1} lead={service.lead}>
     <a class="btn btn-solid" href={wa} rel="noopener">{CTA_LABEL}<Icon name="arrow" size={20} /></a>
     <a class="btn btn-outline" href={`tel:${SITE.phone}`}><Icon name="phone" size={18} />{SITE.phoneDisplay}</a>
   </Banner>
@@ -73,6 +87,8 @@ const jsonld = [
       <div class="frag reveal">
         {service.slug === 'teknik-seo' ? (
           <VitalsCard />
+        ) : service.slug === 'backlink-hizmeti' ? (
+          <LinkReport />
         ) : service.slug === 'web-tasarim' ? (
           <a class="frag-shot" href={shot.url} rel="noopener" target="_blank">
             <Image src={shot.shot!} alt={`${shot.name} sitesinin ana sayfası`} widths={[500, 800, 1100]} sizes="(max-width: 900px) 92vw, 46vw" loading="lazy" />
@@ -94,7 +110,7 @@ const jsonld = [
         <div class="arc-circle" aria-hidden="true"><b>{service.name}</b></div>
         {service.items.map((item, i) => (
           <div class="arc-item reveal" style={`--o:${(Math.sin((Math.PI * (i + 0.5)) / service.items.length) * 3.2).toFixed(2)}rem`}>
-            <span class="arc-icon"><Icon name={icons[service.slug as keyof typeof icons]} size={24} /></span>
+            <span class="arc-icon"><Icon name={service.icon} size={24} /></span>
             <div><h3>{item.name}</h3><p>{item.text}</p></div>
           </div>
         ))}
@@ -116,7 +132,7 @@ const jsonld = [
 
   <Cycle steps={service.steps.map((st) => ({ title: st.line, text: st.text }))} title="Adım adım <em>nasıl ilerleriz</em>" />
 
-  <Projects names={workFor[service.slug]} tabs={false} title="Bu işi yaptığımız siteler" intro="Venti Dijital Ajans’ın bu hizmeti verdiği sitelerden; hepsi yayında, üzerine tıklayıp açabilirsiniz." />
+  <Projects names={workFor[service.slug]} tabs={false} title="Bu işi yaptığımız siteler" intro={service.slug === 'backlink-hizmeti' ? 'Venti Dijital Ajans’ın SEO çalışması yürüttüğü sitelerden. Bağlantı çalışması, bu SEO planlarının bir kalemidir; hepsi yayında.' : 'Venti Dijital Ajans’ın bu hizmeti verdiği sitelerden; hepsi yayında, üzerine tıklayıp açabilirsiniz.'} />
 
   <Faq items={service.faq} title="Sorular" />
 
@@ -124,6 +140,7 @@ const jsonld = [
     <div class="wrap">
       <div class="sec-head reveal">
         <h2 class="h2" id="diger">Diğer <em>hizmetler</em></h2>
+        <p class="lede"><a class="textlink" href="/hizmetler/">Bütün hizmetleri</a> tek sayfada görebilirsiniz.</p>
       </div>
       <div class="rel-grid">
         {others.map((o, i) => (

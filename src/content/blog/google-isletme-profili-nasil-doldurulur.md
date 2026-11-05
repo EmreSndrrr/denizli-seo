@@ -2,8 +2,8 @@
 title: Google İşletme Profili nasıl doldurulur?
 description: "Denizli’deki işletmeler için Google İşletme Profili kontrol listesi: sahiplik, kategori, ad-adres-telefon, saatler, fotoğraflar ve yorumlar."
 date: 2026-10-22
-visual: serp
 service: yerel-seo
+imageAlt: "Google İşletme Profili kartı: işletme adı, işlem düğmeleri ve çalışma bilgileri"
 ---
 
 Google’da “Denizli kuyumcu” ya da “yakınımdaki eczane” gibi bir arama yapıldığında, sonuçların üstünde bir harita ve yanında birkaç işletme görünür. Bu listedeki adres, telefon, çalışma saatleri ve yorumlar işletmelerin **Google İşletme Profili**nden gelir. Profil ücretsizdir; doğru ve eksiksiz doldurulması, haritada görünmenin ilk şartıdır.

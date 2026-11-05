@@ -48,13 +48,14 @@ export const HERO_CHIPS = [
 
 export const MARQUEE = ['Teknik SEO', 'Yerel SEO', 'Google Haritalar', 'İçerik stratejisi', 'Anahtar kelime araştırması', 'Core Web Vitals', 'Web tasarım', 'Aylık rapor'];
 
-// The service map: four groups around one ring. Items are the real work of each service page.
-export interface ServiceNode { tone: 'pink' | 'orange' | 'purple'; icon: 'pin' | 'gauge' | 'doc' | 'layout'; title: string; href: string; items: string[] }
+// The service map: five groups around one ring. Items are the real work of each service page.
+export interface ServiceNode { tone: 'pink' | 'orange' | 'purple'; icon: 'pin' | 'gauge' | 'doc' | 'link' | 'layout'; title: string; href: string; items: string[] }
 export const SERVICE_NODES: ServiceNode[] = [
   { tone: 'pink', icon: 'pin', title: 'Yerel SEO', href: '/yerel-seo/', items: ['İşletme Profili kurulumu', 'Kategori ve hizmetler', 'Yorum düzeni', 'Harita sırası takibi'] },
   { tone: 'orange', icon: 'gauge', title: 'Teknik SEO ve hız', href: '/teknik-seo/', items: ['Tarama ve dizin denetimi', 'Site hızı', 'Mobil uyum', 'Yapılandırılmış veri'] },
-  { tone: 'purple', icon: 'doc', title: 'İçerik ve otorite', href: '/icerik-seo/', items: ['Anahtar kelime araştırması', 'İçerik planı', 'Blog yazıları', 'Backlink ve otorite'] },
-  { tone: 'pink', icon: 'layout', title: 'Web tasarım', href: '/web-tasarim/', items: ['Arama odaklı site planı', 'Önce telefon', 'Teknik SEO hazır', 'Aylık raporlama'] },
+  { tone: 'purple', icon: 'doc', title: 'İçerik SEO', href: '/icerik-seo/', items: ['Anahtar kelime araştırması', 'İçerik planı', 'Hizmet sayfaları', 'Blog yazıları'] },
+  { tone: 'pink', icon: 'link', title: 'Backlink ve otorite', href: '/backlink-hizmeti/', items: ['Bağlantı profili denetimi', 'Yerel kurum bağlantıları', 'Bağlantı kazandıran içerik', 'Aylık bağlantı raporu'] },
+  { tone: 'orange', icon: 'layout', title: 'Web tasarım', href: '/web-tasarim/', items: ['Arama odaklı site planı', 'Önce telefon', 'Teknik SEO hazır', 'Ölçüm altyapısı'] },
 ];
 
 // What sets the team apart: said before the work starts. Facts only.
@@ -82,14 +83,3 @@ export const PROCESS = [
   { n: '03', when: '1–3. ay', title: 'Uygulama ve optimizasyon', text: 'Teknik düzeltmeleri, yerel harita çalışmasını, içerik üretimini ve otorite çalışmalarını hayata geçiririz.' },
   { n: '04', when: 'Her ay', title: 'Ölçüm ve büyüme', text: 'Sıralamayı, tıklamayı ve gelen talepleri izler, her ay raporlarız. İşe yarayan sayfaları çoğaltır, yaramayanı raporda açıkça yazarız.' },
 ];
-
-// Competitor rows are neutral so they fit any query; their titles take the query (see serp.ts).
-export const SERP_ROWS = [
-  { url: 'rakip1.com.tr', title: 'Rakip 1', desc: 'Hizmetler, fiyatlar ve iletişim bilgileri.' },
-  { url: 'rakip2.com › hizmetler', title: 'Rakip 2', desc: 'Randevu ve sipariş için bizi arayın.' },
-  { url: 'rehber-ornek.com › liste', title: 'En iyi 10 liste', desc: 'Kullanıcı yorumlarına göre derlenen rehber.' },
-  { url: 'rakip3.com.tr', title: 'Rakip 3', desc: 'Ürün ve hizmet bilgileri.' },
-  { url: 'harita-ornek.com › yakinda', title: 'Yakınınızdakiler haritada', desc: 'Adres, telefon ve çalışma saatleri.' },
-  { url: 'rakip4.com › iletisim', title: 'Rakip 4', desc: 'Adresimiz ve yol tarifi.' },
-];
-

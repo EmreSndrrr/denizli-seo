@@ -19,9 +19,11 @@
 .svcmap-lines { display: block; width: 100%; height: clamp(110px, 15vw, 190px); overflow: visible; }
 .svcmap-lines path { fill: none; stroke-width: 2; vector-effect: non-scaling-stroke; }
 .svcmap-lines path:nth-child(1), .svcmap-lines path:nth-child(4) { stroke: var(--pink); }
-.svcmap-lines path:nth-child(2) { stroke: var(--orange); }
+.svcmap-lines path:nth-child(2), .svcmap-lines path:nth-child(5) { stroke: var(--orange); }
 .svcmap-lines path:nth-child(3) { stroke: var(--purple); }
-.nodes { display: grid; grid-template-columns: repeat(4, minmax(0, 1fr)); width: 100%; }
+.nodes { display: grid; grid-template-columns: repeat(5, minmax(0, 1fr)); width: 100%; }
+.svcmap-all { display: flex; justify-content: center; margin-top: 2.5rem; }
+.f-cols h2 a { color: inherit; }
 .node { display: grid; gap: 12px; justify-items: center; align-content: start; padding-inline: 9px; }
 .node-icon { position: relative; display: grid; place-items: center; width: 4.25rem; height: 4.25rem; border-radius: 50%; background: var(--card); border: 1px solid var(--line); color: var(--tone-text); margin-top: -2.1rem; }
 .node-icon::before { content: ''; position: absolute; top: -6px; left: 50%; width: 12px; height: 12px; margin-left: -6px; border-radius: 50%; background: var(--tone); }
@@ -31,13 +33,17 @@
 .node-list li { display: flex; align-items: center; gap: 0.7rem; padding: 0.55rem 0; font-size: 0.9375rem; color: var(--soft); }
 .node-list li + li { border-top: 1px solid var(--line); }
 .node-list svg { flex: none; color: var(--tone-text); }
-@media (max-width: 1000px) {
+.node-title { font-size: 0.875rem; padding-inline: 0.6rem; }
+.node-list li { font-size: 0.875rem; }
+@media (max-width: 1180px) {
   .svcmap-lines { display: none; }
-  .nodes { grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 28px 18px; margin-top: 2.5rem; }
+  .nodes { display: flex; flex-wrap: wrap; justify-content: center; gap: 28px 18px; margin-top: 2.5rem; }
+  .node { flex: 0 0 calc((100% - 36px) / 3); }
   .node-icon { margin-top: 0; }
   .node-icon::before { display: none; }
 }
-@media (max-width: 600px) { .nodes { grid-template-columns: 1fr; } }
+@media (max-width: 800px) { .node { flex-basis: calc((100% - 18px) / 2); } }
+@media (max-width: 600px) { .node { flex-basis: 100%; } }
 
 /* ---------- why we stand out: five cards ---------- */
 .why { position: relative; }
@@ -106,15 +112,17 @@
 
 /* ---------- who are we ---------- */
 .about .wrap { display: grid; grid-template-columns: minmax(0, 0.9fr) minmax(0, 1.1fr); gap: 6vw; align-items: center; padding-block: 12vh 8vh; }
-.about-pic { display: grid; place-items: center; }
-.about-lens { display: block; width: min(100%, 34rem); aspect-ratio: 1; -webkit-mask: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'%3E%3Ccircle cx='41' cy='41' r='31' fill='none' stroke='white' stroke-width='15'/%3E%3Cpath d='M64 64L90 90' stroke='white' stroke-width='17' stroke-linecap='round'/%3E%3C/svg%3E") center / contain no-repeat; mask: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'%3E%3Ccircle cx='41' cy='41' r='31' fill='none' stroke='white' stroke-width='15'/%3E%3Cpath d='M64 64L90 90' stroke='white' stroke-width='17' stroke-linecap='round'/%3E%3C/svg%3E") center / contain no-repeat; }
-.about-lens img { width: 100%; height: 100%; object-fit: cover; object-position: 20% 0; }
+.about-pic { display: grid; justify-items: start; align-items: start; min-height: clamp(21rem, 40vw, 34rem); padding: 1.5rem 0 0 1.5rem; }
+/* the ring is where the 3D magnifier comes to rest: it is measured by choreo.ts, so keep it a plain circle */
+.about-lens { position: relative; display: block; width: clamp(13rem, 25vw, 21rem); aspect-ratio: 1; border-radius: 50%; background: radial-gradient(closest-side, rgba(216, 32, 104, 0.2), rgba(138, 31, 224, 0.08) 70%, transparent); }
+.about-fallback { position: absolute; inset: 0; width: 100%; height: 100%; overflow: visible; color: var(--paper); transition: opacity 0.6s; }
+.fx.stage-on .about-fallback { opacity: 0; }
 .about-copy { display: grid; gap: 22px; justify-items: start; }
 .about-copy .h2 { max-width: none; }
 .about-facts { display: grid; grid-template-columns: 1fr 1fr; gap: 20px; width: 100%; }
 .about-facts li { display: grid; grid-template-columns: auto 1fr; gap: 12px; align-items: start; color: var(--muted); font-size: 0.9375rem; }
 .about-facts b { display: block; color: #fff; font-size: 1.0625rem; margin-bottom: 2px; }
-@media (max-width: 900px) { .about .wrap { grid-template-columns: 1fr; } .about-lens { width: min(100%, 22rem); } .about-facts { grid-template-columns: 1fr; } }
+@media (max-width: 900px) { .about .wrap { grid-template-columns: 1fr; } .about-pic { min-height: 0; padding: 0.5rem 0 7rem 0.5rem; } .about-lens { width: min(58vw, 15rem); } .about-facts { grid-template-columns: 1fr; } }
 
 /* ---------- trust: the Google rating ---------- */
 .rating-in { display: grid; grid-template-columns: minmax(0, 1.1fr) minmax(0, 0.9fr); gap: 6vw; align-items: center; padding-block: 8vh; }
@@ -141,11 +149,10 @@
 
 /* ---------- Denizli: districts and the relief map ---------- */
 .dmap { position: relative; }
-.dmap .sec-head { margin-top: 0; padding-top: 8vh; }
 .pins { display: grid; grid-template-columns: repeat(auto-fit, minmax(116px, 1fr)); gap: 16px 10px; max-width: 64rem; margin: 0 auto 3rem; text-align: center; font-size: var(--t-small); font-weight: 600; color: var(--soft); }
 .pins li { display: grid; justify-items: center; gap: 6px; }
 .pin { display: block; width: 14px; height: 14px; border-radius: 50% 50% 50% 0; background: var(--pink); transform: rotate(-45deg); }
-.dmap-in { display: grid; grid-template-columns: minmax(0, 0.8fr) minmax(0, 1.2fr); gap: 4vw; align-items: center; padding-block: 0 8vh; }
+.dmap-in { display: grid; grid-template-columns: minmax(0, 0.8fr) minmax(0, 1.2fr); gap: 4vw; align-items: center; padding-block: 12vh 10vh; }
 .dmap-copy { display: grid; gap: 22px; justify-items: start; }
 .dmap-ctl { display: grid; gap: 14px; width: 100%; max-width: 34rem; }
 .dmap-pair { display: grid; grid-template-columns: 1fr 1fr; gap: 12px; }

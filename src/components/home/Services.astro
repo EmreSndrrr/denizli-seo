@@ -1,5 +1,5 @@
 ---
-// "What we do": the four services around one ring, drawn as a map. Each group links to its page.
+// "What we do": the five services around one ring, drawn as a map. Each group links to its page; the button opens the overview.
 import Icon from '../Icon.astro';
 import { SERVICE_NODES } from '../../data/home';
 import { SITE } from '../../data/site';
@@ -20,10 +20,11 @@ import { SITE } from '../../data/site';
         </span>
       </div>
       <svg class="svcmap-lines" viewBox="0 0 1000 220" preserveAspectRatio="none" aria-hidden="true">
-        <path d="M500 0 C500 90 125 70 125 220" />
-        <path d="M500 0 C500 100 375 90 375 220" />
-        <path d="M500 0 C500 100 625 90 625 220" />
-        <path d="M500 0 C500 90 875 70 875 220" />
+        <path d="M500 0 C500 90 100 70 100 220" />
+        <path d="M500 0 C500 100 300 90 300 220" />
+        <path d="M500 0 L500 220" />
+        <path d="M500 0 C500 100 700 90 700 220" />
+        <path d="M500 0 C500 90 900 70 900 220" />
       </svg>
       <ul class="nodes">
         {SERVICE_NODES.map((n) => (
@@ -35,5 +36,7 @@ import { SITE } from '../../data/site';
         ))}
       </ul>
     </div>
+
+    <p class="svcmap-all reveal"><a class="btn btn-outline" href="/hizmetler/">Bütün hizmetleri görün<Icon name="arrow" size={18} /></a></p>
   </div>
 </section>

@@ -1,9 +1,6 @@
 ---
 import { getCollection, render } from 'astro:content';
 import Page from '../../layouts/Page.astro';
-import Banner from '../../components/home/Banner.astro';
-import SerpMock from '../../components/home/SerpMock.astro';
-import ReportChart from '../../components/home/ReportChart.astro';
 import Chat from '../../components/home/Chat.astro';
 import Icon from '../../components/Icon.astro';
 import { SITE } from '../../data/site';
@@ -15,7 +12,10 @@ export async function getStaticPaths() {
 }
 
 const { post } = Astro.props;
-const others = (await getCollection('blog')).filter((p) => p.id !== post.id).sort((a, b) => b.data.date.valueOf() - a.data.date.valueOf()).slice(0, 2);
+const byDate = (a: typeof post, b: typeof post) => b.data.date.valueOf() - a.data.date.valueOf();
+const all = (await getCollection('blog')).filter((p) => p.id !== post.id);
+// two more reads: same topic first, then the newest
+const others = [...all.filter((p) => p.data.service === post.data.service).sort(byDate), ...all.filter((p) => p.data.service !== post.data.service).sort(byDate)].slice(0, 2);
 const { Content } = await render(post);
 const url = `${SITE.url}/blog/${post.id}/`;
 const fmt = new Intl.DateTimeFormat('tr-TR', { day: 'numeric', month: 'long', year: 'numeric' });
@@ -23,7 +23,12 @@ const words = (post.body ?? '').split(/\s+/).filter(Boolean).length;
 const minutes = Math.max(1, Math.round(words / 200));
 const service = post.data.service ? serviceBySlug(post.data.service) : undefined;
 const published = post.data.date.toISOString();
-const modified = (post.data.updated ?? post.data.date).toISOString();
+const updated = post.data.updated;
+const modified = (updated ?? post.data.date).toISOString();
+// the brand follows the title only while the whole <title> stays within what a results page shows (about 60 characters)
+const pageTitle = `${post.data.title} | ${SITE.name}`.length <= 60 ? `${post.data.title} | ${SITE.name}` : post.data.title;
+const cover = `/blog/${post.id}.jpg`;
+const share = `/og/blog-${post.id}.jpg`;
 
 const jsonld = [
   {
@@ -36,10 +41,12 @@ const jsonld = [
     datePublished: published,
     dateModified: modified,
     inLanguage: 'tr-TR',
-    image: `${SITE.url}/og/denizli-seo.jpg`,
-    author: { '@type': 'Organization', '@id': `${SITE.url}/#isletme`, name: SITE.name },
+    image: [{ '@type': 'ImageObject', url: `${SITE.url}${share}`, width: 1200, height: 630, caption: post.data.imageAlt }],
+    author: { '@id': `${SITE.url}/#isletme` },
     publisher: { '@id': `${SITE.url}/#isletme` },
+    isPartOf: { '@type': 'Blog', '@id': `${SITE.url}/blog/#blog` },
     wordCount: words,
+    ...(service ? { about: { '@type': 'Service', name: service.name, url: `${SITE.url}/${service.slug}/` } } : {}),
   },
   {
     '@type': 'BreadcrumbList',
@@ -51,28 +58,38 @@ const jsonld = [
   },
 ];
 ---
-<Page title={`${post.data.title} | Denizli SEO`} description={post.data.description} jsonld={jsonld} type="article" published={published} modified={modified}>
+<Page title={pageTitle} description={post.data.description} jsonld={jsonld} type="article" published={published} modified={modified} image={share} imageAlt={post.data.imageAlt}>
   <section class="banner-sec">
     <div class="wrap">
       <div class="banner">
         <nav class="crumbs" aria-label="Sayfa yolu"><a href="/">Ana sayfa</a><span aria-hidden="true">/</span><a href="/blog/">Blog</a><span aria-hidden="true">/</span><span aria-current="page">Yazı</span></nav>
         <h1 class="article-title">{post.data.title}</h1>
         <p class="lede">{post.data.description}</p>
-        <p class="article-meta"><span><Icon name="plan" size={16} /><time datetime={published}>{fmt.format(post.data.date)}</time></span><span>{minutes} dakikalık okuma</span></p>
+        <p class="article-meta">
+          <span><Icon name="plan" size={16} />Yayın: <time datetime={published}>{fmt.format(post.data.date)}</time></span>
+          {updated && <span>Güncellendi: <time datetime={modified}>{fmt.format(updated)}</time></span>}
+          <span>{minutes} dakikalık okuma</span>
+        </p>
       </div>
     </div>
   </section>
 
-  <div class="article-visual wrap">
-    <div class="frag reveal">
-      {post.data.visual === 'serp' ? <SerpMock label="Örnek görünüm." /> : <div class="vit"><p class="vit-head">Örnek rapor: altı ayda ortalama sıra</p><ReportChart /></div>}
-    </div>
-  </div>
+  <figure class="article-visual wrap">
+    <img class="article-cover" src={cover} width="1200" height="630" alt={post.data.imageAlt} fetchpriority="high" decoding="async" />
+    <figcaption>Denizli SEO için çizilmiş özgün görsel.</figcaption>
+  </figure>
 
   <article class="article-body" aria-label={post.data.title}>
     <div class="prose">
       <Content />
     </div>
+    <aside class="byline" aria-label="Yazı hakkında">
+      <span class="byline-mark" aria-hidden="true"><Icon name="user" size={22} /></span>
+      <p>
+        <b>Denizli SEO</b>, <a href={SITE.parent.url} rel="noopener">{SITE.parent.name}</a>’ın SEO markasıdır; içeriklerden kurucu <a href="/hakkimizda/">{SITE.person}</a> sorumludur.
+        Yazıların kaynakları sayfanın sonunda verilir; ayrıntı için <a href="/editoryal-ilkeler/">editoryal ilkelerimize</a> bakın.
+      </p>
+    </aside>
   </article>
 
   <section class="rel-sec" aria-labelledby="devami">

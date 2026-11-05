@@ -1,0 +1,21 @@
+---
+// The person behind the work. Every fact below is taken from ventiajans.com/hakkimizda/ and credited there.
+import Icon from '../Icon.astro';
+import { SITE } from '../../data/site';
+---
+<section class="founder-sec" aria-labelledby="kurucu-baslik">
+  <div class="wrap">
+    <div class="founder reveal">
+      <span class="founder-mark" aria-hidden="true">ES</span>
+      <div class="founder-copy">
+        <h2 class="h2" id="kurucu-baslik">Muhatabınız <em>{SITE.person}</em></h2>
+        <p class="lede">Kurucu. Yönetim Bilişim Sistemleri mezunu; 2018’den beri web tasarım, SEO ve Google reklamları alanında çalışıyor. Telefonu açan, sitenizi tasarlayan ve raporunuzu hazırlayan kişi aynıdır.</p>
+        <ul class="founder-facts">
+          <li><Icon name="layout" size={18} />30’dan fazla web sitesini yayına aldı</li>
+          <li><Icon name="search" size={18} />20’den fazla web sitesinde SEO çalışması uyguladı</li>
+        </ul>
+        <p class="founder-src">Kaynak: <a href={SITE.founderUrl} rel="noopener">ventiajans.com/hakkimizda</a></p>
+      </div>
+    </div>
+  </div>
+</section>

@@ -6,10 +6,9 @@ interface Props { home?: boolean }
 const { home = false } = Astro.props;
 const path = Astro.url.pathname;
 const pre = home ? '' : '/';
-const onService = SERVICES.some((s) => path.startsWith(`/${s.slug}/`));
+const onService = path.startsWith('/hizmetler') || SERVICES.some((s) => path.startsWith(`/${s.slug}/`));
 const links = [
-  { href: `${pre}#siralama`, label: 'Sıralama', section: 'siralama' },
-  { href: `${pre}#hizmetler`, label: 'Hizmetler', section: 'hizmetler', current: onService },
+  { href: '/hizmetler/', label: 'Hizmetler', section: 'hizmetler', current: onService },
   { href: '/hakkimizda/', label: 'Hakkımızda', current: path.startsWith('/hakkimizda') },
   { href: `${pre}#isler`, label: 'İşler', section: 'isler' },
   { href: '/blog/', label: 'Blog', current: path.startsWith('/blog') },

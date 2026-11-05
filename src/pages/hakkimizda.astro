@@ -2,6 +2,7 @@
 import Page from '../layouts/Page.astro';
 import Banner from '../components/home/Banner.astro';
 import About from '../components/home/About.astro';
+import Founder from '../components/home/Founder.astro';
 import Why from '../components/home/Why.astro';
 import Cycle from '../components/home/Cycle.astro';
 import Rating from '../components/home/Rating.astro';
@@ -17,7 +18,7 @@ const description =
 const url = `${SITE.url}/hakkimizda/`;
 
 const jsonld = [
-  { '@type': 'AboutPage', '@id': `${url}#sayfa`, url, name: 'Denizli SEO hakkında', about: { '@id': `${SITE.url}/#isletme` } },
+  { '@type': 'AboutPage', '@id': `${url}#sayfa`, url, name: 'Denizli SEO hakkında', inLanguage: 'tr-TR', isPartOf: { '@id': `${SITE.url}/#website` }, about: { '@id': `${SITE.url}/#isletme` }, mainEntity: { '@id': SITE.personId } },
   {
     '@type': 'BreadcrumbList',
     itemListElement: [
@@ -27,12 +28,13 @@ const jsonld = [
   },
 ];
 ---
-<Page title={title} description={description} jsonld={jsonld}>
+<Page title={title} description={description} jsonld={jsonld} image="/og/hakkimizda.jpg" imageAlt="Denizli SEO hakkında: Venti’nin SEO ekibi">
   <Banner crumbs={[{ href: '/', label: 'Ana sayfa' }, { label: 'Hakkımızda' }]} h1={['Venti’nin', 'SEO ekibiyiz.']} lead="Denizli SEO, Pamukkale’deki Venti Dijital Ajans’ın arama motoru optimizasyonu markasıdır. Venti; web sitesini, Google’daki sırayı ve reklamı tek ekipte yürütür.">
     <a class="btn btn-solid" href={WA_ANALYSIS} rel="noopener">{CTA_LABEL}<Icon name="arrow" size={20} /></a>
     <a class="btn btn-outline" href="/iletisim/">İletişim</a>
   </Banner>
   <About />
+  <Founder />
   <Why />
   <Cycle steps={PROCESS.map((p) => ({ title: p.title, text: p.text, tag: p.when }))} title="Adım adım <em>proje süreci</em>" intro="Her iş aynı sırayla ilerler; ne yapılacağı ve ne zaman yapılacağı yazılı olarak baştan söylenir." id="surec" />
   <Rating />

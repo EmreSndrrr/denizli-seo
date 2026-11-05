@@ -21,7 +21,7 @@ const jsonld = [
   },
 ];
 ---
-<Page title={title} description={description} jsonld={jsonld}>
+<Page title={title} description={description} jsonld={jsonld} image="/og/iletisim.jpg" imageAlt="Denizli SEO iletişim: sitenize birlikte bakalım">
   <Banner crumbs={[{ href: '/', label: 'Ana sayfa' }, { label: 'İletişim' }]} h1={['Sitenize', 'birlikte bakalım.']} lead={`WhatsApp’tan yazın ya da arayın. Telefonu ${SITE.person} açar. Ofisimiz Pamukkale’de; gelmeden önce aramanız yeterli.`}>
     <a class="btn btn-solid" href={WA_ANALYSIS} rel="noopener">{CTA_LABEL}<Icon name="arrow" size={20} /></a>
     <a class="btn btn-outline" href={`tel:${SITE.phone}`}><Icon name="phone" size={18} />{SITE.phoneDisplay}</a>
