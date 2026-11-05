@@ -32,7 +32,7 @@ The first contact is a WhatsApp message to 0544 596 56 22 (Emre Şandır); the o
 ## Brand Commitments
 
 - Name "Denizli SEO", described as Venti Dijital Ajans's brand, linking to ventiajans.com.
-- The owner supplied the home page front end themselves (October 2026): a dark graphite page with one fixed 3D stage (a chrome magnifier and a link graph), signal yellow, glass cards, and a results page on paper. It is the site's look now. Keep its structure; develop it. Name: "Denizli SEO". Typography: two families only (Archivo, Instrument Serif italic accent), pronounced buttons.
+- The owner supplied the home page front end themselves (October 2026): a dark page with one fixed 3D stage (a chrome magnifier and a link graph) and a results page on paper. The magnifier animation and the footer stay as drafted. Every other section follows a second reference the owner supplied (a dark agency site, "Trebuto"): black ground, dark grey cards, hot pink, orange and purple, upper-case titles with one coloured word, service map, five cards, project carousel. Name: "Denizli SEO". Typography: one family (Archivo); no italic serif accent.
 - The inner pages (services, blog, about, contact) still use the earlier light system, modelled on deltavdigital.com, webfx.com, spinxdigital.com and thryv.com, until they are rebuilt in the home page's system.
 - OpenStreetMap attribution stays on the map and in the footer.
 

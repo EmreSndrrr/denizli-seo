@@ -33,22 +33,6 @@ export function initFaq() {
   });
 }
 
-// the service cards tilt toward the pointer and catch a sheen
-export function initTilt() {
-  if (!matchMedia('(hover: hover) and (pointer: fine)').matches) return;
-  $$('.svc').forEach((card) => {
-    const inner = $('.svc-in', card)!;
-    card.addEventListener('pointermove', (e) => {
-      const r = card.getBoundingClientRect();
-      const x = (e.clientX - r.left) / r.width, y = (e.clientY - r.top) / r.height;
-      inner.style.setProperty('--mx', (x * 100).toFixed(1) + '%');
-      inner.style.setProperty('--my', (y * 100).toFixed(1) + '%');
-      inner.style.transform = `perspective(900px) rotateX(${((0.5 - y) * 6).toFixed(2)}deg) rotateY(${((x - 0.5) * 8).toFixed(2)}deg)`;
-    });
-    card.addEventListener('pointerleave', () => { inner.style.transform = ''; });
-  });
-}
-
 // one short form: the request is written out and sent as a WhatsApp message
 export function initForm() {
   const form = $<HTMLFormElement>('#audit-form');

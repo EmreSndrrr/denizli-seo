@@ -6,8 +6,8 @@ import Lenis from 'lenis';
 import { $, $$, clamp } from './util';
 import { M, measure, buildKeys, sample, firstKey, paperAmount, serpArrival, FIELDS, type StageState } from './choreo';
 import { updateSerp, initSearch, onQuery, setRowStep } from './serp';
-import { layoutReel, updateReel, initReel, hasPanels } from './reel';
-import { initDrawer, initFaq, initTilt, initForm } from './ui';
+import { initProjects } from './projects';
+import { initDrawer, initFaq, initForm } from './ui';
 import { initDenizli } from './denizli';
 import type { Stage } from './stage';
 
@@ -43,9 +43,8 @@ $$('a[href^="#"]').forEach((a) => a.addEventListener('click', (e) => {
 
 /* ---------- parts that need no 3D ---------- */
 initFaq();
-initTilt();
 initForm();
-initReel(scrollToY);
+initProjects();
 initDenizli(reduce);
 initSearch(scrollToY, measure, reduce);
 
@@ -83,7 +82,6 @@ function startStage() {
 
 /* ---------- layout: measure, keyframes ---------- */
 function resize() {
-  layoutReel();
   const you = $('[data-you]');
   if (fx && you) setRowStep(you.offsetHeight + 8);
   buildKeys();
@@ -118,7 +116,6 @@ function tick(now: number) {
   if (arrival !== lastArrival) { serpEl.style.setProperty('--serp-in', String(arrival)); lastArrival = arrival; }
   nav.classList.toggle('on-light', paper > 0.5);
   updateNav(y);
-  if (hasPanels()) updateReel(y);
   updateSerp(y);
   if (mqAnim) { mqBoost *= 0.92; mqAnim.playbackRate = 1 + mqBoost; }
   if (!stage) return;
@@ -141,7 +138,6 @@ function setupScroll() {
     .to({}, { duration: 0.01 }, 0.99);
 
   $$('.reveal').forEach((el) => gsap.fromTo(el, { y: 50, autoAlpha: 0 }, { y: 0, autoAlpha: 1, ease: 'none', scrollTrigger: { trigger: el, start: 'top 95%', end: 'top 72%', scrub: 0.4 } }));
-  $$('.svc').forEach((el, i) => gsap.fromTo(el, { y: 65, autoAlpha: 0 }, { y: 0, autoAlpha: 1, ease: 'none', scrollTrigger: { trigger: el, start: 'top ' + (98 - (i % 3) * 2) + '%', end: 'top 74%', scrub: 0.4 } }));
   gsap.fromTo('.proc-line i', { scaleY: 0 }, { scaleY: 1, ease: 'none', scrollTrigger: { trigger: '.proc-steps', start: 'top 66%', end: 'bottom 66%', scrub: 0.4 } });
   $$('.step').forEach((s) => ScrollTrigger.create({ trigger: s, start: 'top 72%', onEnter: () => s.classList.add('on'), onLeaveBack: () => s.classList.remove('on') }));
   ScrollTrigger.addEventListener('refresh', buildKeys);

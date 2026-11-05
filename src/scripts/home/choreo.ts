@@ -9,7 +9,7 @@ type Key = StageState & { y: number };
 interface Box { t: number; h: number }
 
 const SECTIONS = {
-  hero: '.hero', lens: '.lens', serp: '.serp', services: '.services', process: '.process', reel: '.reel', work: '.work', cta: '.cta',
+  hero: '.hero', lens: '.lens', serp: '.serp', services: '.svcmap', process: '.process', work: '.projects', cta: '.cta',
 } as const;
 type SectionName = keyof typeof SECTIONS;
 const els = {} as Record<SectionName, HTMLElement | null>;
@@ -34,8 +34,7 @@ export function buildKeys() {
   measure();
   const m = isMobile(), H = M.H;
   const L = Math.max(1, M.lens.h - H);
-  const sv = M.services, pr = M.process, rl = M.reel, sp = M.serp;
-  const RL = Math.max(1, rl.h - H);
+  const sv = M.services, sp = M.serp;
   const keys: Key[] = [];
   let last: Key | null = null;
   const k = (y: number, o: Partial<StageState>) => {
@@ -55,16 +54,8 @@ export function buildKeys() {
   // a cut, hidden by the paper flash: from inside the lens to the results page
   k(M.lens.t + L * 0.9, { cx: 0, cy: 0, cz: 9, lx: 0, ly: 0, lz: 0, vx: m ? 0 : 2.6, vy: m ? 2.2 : 1.4, vz: -2, rx: 0.3, ry: -0.8, s: 0, sway: 1, pOp: 0.45, pTint: 1, glow: 0, glass: 1 });
   k(sp.t + sp.h - H, {});
-  k(sv.t - H * 0.2, { vx: m ? 0 : 2.5, vy: m ? 2.4 : 1.15, vz: -1.5, s: 0, pOp: 0.85, pTint: 0, glow: 0, ry: -0.5 });
-  // the lens returns once the services heading is on screen, not over the results page
-  k(sv.t + H * 0.3, { s: m ? 0 : 0.58, glow: 0.75 });
-  k(sv.t + sv.h - H, { vy: m ? 2.4 : 0.6, ry: 0.5 });
-  // Process: the lens waits low and left so it never crosses the heading
-  k(pr.t, { vx: m ? 0 : -2.3, vy: m ? 2.4 : -1.75, vz: -2.6, s: m ? 0 : 0.44, glow: 0.4, ry: -0.35 });
-  k(pr.t + Math.max(1, pr.h - H), { vy: m ? 2.4 : -1.4, ry: 0.35 });
-  // Reel: the lens leaves so it does not clutter the flying cards
-  k(rl.t, { vx: 0, vy: 0, vz: -4.5, s: 0, glow: 0 });
-  k(rl.t + RL * 0.15, { s: 0, glow: 0 });
+  // after the results page the lens leaves; the web of links stays on as a quiet background
+  k(sv.t - H * 0.2, { vx: m ? 0 : 2.5, vy: m ? 2.4 : 1.15, vz: -1.5, s: 0, pOp: 0.55, pTint: 0, glow: 0, ry: -0.5 });
   // it comes back beside the footer wordmark on wide screens
   k(M.end - H * 0.42, { s: 0, vx: 2.85, vy: -1.05, vz: -1.5, ry: -0.9, glow: 0, sway: 1 });
   k(M.end, { s: m ? 0 : 0.62, glow: 0.85, ry: 0.2 });

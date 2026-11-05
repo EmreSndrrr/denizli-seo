@@ -1,18 +1,25 @@
 ---
 name: Denizli SEO
-description: A dark graphite page with one fixed 3D stage (chrome magnifier, link graph, Denizli relief map) behind transparent chapters; signal yellow is the only action color.
+description: A black page with dark grey cards, hot pink, orange and purple accents and one family of type; a fixed 3D magnifier stage runs behind the hero, lens and results chapters.
 colors:
   ink: "#0b0e13"
   ink-raised: "#151a23"
+  card: "#17171c"
+  card-2: "#1f1f26"
   paper: "#f3f2ec"
   paper-bright: "#fbfaf6"
-  signal: "#eedc45"
-  link: "#7e97ff"
-  link-deep: "#2c46c8"
+  pink: "#d82068"
+  pink-text: "#ff5b97"
+  orange: "#f05a1e"
+  orange-text: "#ff8a4c"
+  purple: "#8a1fe0"
+  purple-text: "#b57bff"
+  link-deep: "#6a17c6"
   soft: "#c3cad6"
   mist: "#9aa3b0"
-  stone: "#59606c"
+  stone: "#4b525d"
   ok: "#3fae6b"
+  map-top: "#ff4d8d"
   map-land: "#cfd6e4"
   map-border: "#8d98ad"
   map-wall: "#4d5870"
@@ -26,19 +33,26 @@ typography:
     lineHeight: 0.98
     letterSpacing: "-0.035em"
     fontVariation: "'wdth' 108"
-  h2:
+  display:
     fontFamily: "Archivo, Helvetica Neue, Arial, sans-serif"
-    fontSize: "clamp(2.25rem, 1.4rem + 3.4vw, 4.25rem)"
+    fontSize: "clamp(2.25rem, 1.2rem + 4vw, 5rem)"
     fontWeight: 760
     lineHeight: 1.04
     letterSpacing: "-0.03em"
     fontVariation: "'wdth' 108"
+  section-title:
+    fontFamily: "Archivo, Helvetica Neue, Arial, sans-serif"
+    fontSize: "clamp(1.5rem, 1rem + 2.2vw, 2.625rem)"
+    fontWeight: 700
+    lineHeight: 1.15
+    letterSpacing: "0.01em"
+    fontVariation: "'wdth' 106"
   h3:
     fontFamily: "Archivo, Helvetica Neue, Arial, sans-serif"
     fontSize: "clamp(1.375rem, 1.2rem + 0.7vw, 1.75rem)"
     fontWeight: 740
-    lineHeight: 1.12
-    letterSpacing: "-0.02em"
+    lineHeight: 1.15
+    letterSpacing: "-0.01em"
     fontVariation: "'wdth' 106"
   lead:
     fontFamily: "Archivo, Helvetica Neue, Arial, sans-serif"
@@ -62,58 +76,65 @@ typography:
     lineHeight: 1
     letterSpacing: "-0.01em"
     fontVariation: "'wdth' 106"
-  accent-word:
-    fontFamily: "Instrument Serif, Times New Roman, Georgia, serif"
-    fontSize: "1.08em"
-    fontWeight: 400
 rounded:
+  tab: "8px"
+  node: "8px"
   field: "12px"
-  row: "14px"
-  step: "18px"
-  card: "20px"
-  panel: "22px"
-  form: "24px"
+  brand: "12px"
+  card: "14px"
+  form: "18px"
+  map-card: "20px"
   pill: "999px"
 spacing:
   gutter: "max(16px, 4vw)"
-  grid-gap: "18px"
-  chapter-top: "12vh"
-  chapter-bottom: "14vh"
+  grid-gap: "20px"
+  section-y: "8vh"
+  section-y-lead: "12vh"
 components:
-  button-solid:
-    backgroundColor: "{colors.signal}"
-    textColor: "{colors.ink}"
+  button-primary:
+    backgroundColor: "{colors.pink}"
+    textColor: "#ffffff"
     typography: "{typography.button}"
     rounded: "{rounded.pill}"
     height: "56px"
     padding: "0 1.75em"
-  button-solid-hover:
-    backgroundColor: "{colors.paper-bright}"
-    textColor: "{colors.ink}"
+  button-primary-hover:
+    backgroundColor: "#bd1558"
+  button-outline:
+    backgroundColor: "transparent"
+    textColor: "{colors.pink-text}"
+    typography: "{typography.button}"
+    rounded: "{rounded.pill}"
+    height: "56px"
+  button-orange:
+    backgroundColor: "{colors.orange}"
+    textColor: "#14070a"
+    typography: "{typography.button}"
+    rounded: "{rounded.pill}"
+    height: "56px"
+  button-white:
+    backgroundColor: "#ffffff"
+    textColor: "{colors.pink}"
+    typography: "{typography.button}"
+    rounded: "{rounded.pill}"
+    height: "56px"
   button-ghost:
     backgroundColor: "rgba(21, 26, 35, 0.55)"
     textColor: "{colors.paper}"
     typography: "{typography.button}"
     rounded: "{rounded.pill}"
     height: "56px"
-  button-ghost-hover:
-    backgroundColor: "{colors.paper}"
-    textColor: "{colors.ink}"
   button-small:
-    backgroundColor: "{colors.signal}"
-    textColor: "{colors.ink}"
+    backgroundColor: "{colors.pink}"
+    textColor: "#ffffff"
     rounded: "{rounded.pill}"
     height: "44px"
     padding: "0 1.3em"
-  card-glass:
-    backgroundColor: "rgba(21, 26, 35, 0.72)"
+  card:
+    backgroundColor: "{colors.card}"
     textColor: "{colors.paper}"
     rounded: "{rounded.card}"
-    padding: "clamp(22px, 2.4vw, 30px)"
-  panel-paper:
-    backgroundColor: "{colors.paper-bright}"
-    textColor: "{colors.ink}"
-    rounded: "{rounded.panel}"
+    padding: "2.4rem 1.6rem 2rem"
   input-field:
     backgroundColor: "rgba(243, 242, 236, 0.07)"
     textColor: "{colors.paper}"
@@ -125,157 +146,174 @@ components:
     rounded: "{rounded.pill}"
     height: "36px"
   chip-active:
-    textColor: "{colors.signal}"
+    textColor: "{colors.pink-text}"
+  tab-active:
+    backgroundColor: "rgba(216, 32, 104, 0.1)"
+    textColor: "{colors.pink-text}"
+    rounded: "{rounded.tab}"
+    height: "44px"
   result-you:
     backgroundColor: "{colors.ink}"
     textColor: "{colors.paper}"
-    rounded: "{rounded.row}"
+    rounded: "{rounded.card}"
 ---
 
 # Design System: Denizli SEO
 
-Scope: this file documents the home page (v6) only, from `src/styles/home.css`, `src/layouts/Home.astro`, `src/components/home/*`, `src/scripts/home/*`. Inner pages (services, blog, about, contact) still use the older light v5 system in `src/styles/global.css` (white and grey bands, navy, blue #1d5fe0, 10px buttons) and are not documented here.
+Scope: the home page, from `src/styles/home.css` (tokens, base, bar, hero, lens, results chapter, footer) and `src/styles/home-sections.css` (every section after the results chapter). Inner pages still use the older light system in `src/styles/global.css` and are not covered here.
 
 ## Overview
 
 **Creative North Star: "The Search Lens"**
 
-The page is a dark graphite room with a single fixed three.js stage behind it: a chrome magnifier whose glass shows the live search result, orbiting rank tags, a link graph with light pulses, dust that follows the pointer. Chapters are transparent and scroll over the stage; the backdrop turns to search-results paper (#f3f2ec) for the results chapter and back to graphite. The metaphor is literal: the visitor looks at search results through a lens, and watches the client's site climb from #7 to #1.
+The owner supplied a dark agency reference (Trebuto) and asked the page to follow it everywhere except the magnifier animation (hero, lens chapter, results chapter) and the footer, which stay as designed. The result is a black page of dark grey cards with 1px light lines, hot pink as the action color, orange and purple as supporting accents, and one typeface. A single fixed three.js stage (chrome magnifier, link graph, recoloured to pink, purple and orange) runs behind the hero, lens and results chapters; the later sections are ordinary opaque-card sections on the black ground. The results chapter alone sits on paper.
 
-Density is generous: chapters take 12-16vh of vertical padding, type is large, and cards are glass so the stage stays visible. Yellow is the one voice of action; blue marks links, the web graph, and the visitor's own district.
+Sections run in this order: hero (search box, chips, marquee), lens, results climb, "Ne yapıyoruz ?" service map, "Farkımız ne ?" five cards, "Nasıl çalışıyoruz ?" timeline, projects carousel, free-chat band, "Biz kimiz ?", Google rating orbit, brands grid, Denizli districts with the 3D relief map, FAQ, closing form, footer.
 
 **Key Characteristics:**
-- Dark ink ground, one paper-colored chapter (the results page), then back to dark.
-- Signal yellow for every action and accent; blue only for links, web, home district.
-- Two type families only: Archivo (variable weight and width) and Instrument Serif italic for one accented word per heading.
-- Pill buttons and pill chips; glass cards with a 1px light line and backdrop blur.
-- Fine grain overlay (opacity 0.045) over everything.
-- The stage degrades: reduced motion gives a still layout with a static frame; no WebGL leaves the page unchanged.
+- Black ground (#0b0e13), grey cards (#17171c, #1f1f26) with a 1px `rgba(243,242,236,.16)` line.
+- Pink fills for action; each accent has a fill value and a lighter text value for use on dark.
+- One family: Archivo, variable weight and width. No serif, no italic, no monospace.
+- Section titles upper case, centered, with a short pink bar beneath.
+- Pill buttons; cards 8-20px radius; coloured top or side bars as the card signature.
+- Hero carries a pink/purple radial glow at the upper right.
+- The stage degrades: reduced motion gives a still layout (`.rm`); no WebGL leaves the page unchanged.
 
 ## Colors
 
-Graphite and paper neutrals with a single yellow accent and a cool blue secondary.
+Black and grey neutrals, one pink voice for action, orange and purple as supporting tones.
 
 ### Primary
-- **Signal Yellow** (#eedc45): the one action and accent color. Solid buttons, focus ring (3px), selected chips/toggles/tabs, accent word in headings, step line, top-3 map markers, caret and selection.
+- **Hot Pink** (#d82068): fills for the primary button, active nav link, selected toggles, FAQ open sign, rank badge, section-title bar, timeline progress, pins, top-tier map markers. Hover fill #bd1558.
+- **Pink Text** (#ff5b97): pink as text, outline, focus ring (3px) and caret on dark; the accent word in a title; step titles; outline button.
 
 ### Secondary
-- **Link Blue** (#7e97ff): the web and the visitor's own district (3px outline on the home marker), map home tint.
-- **Deep Link Blue** (#2c46c8): result titles and the search icon on paper surfaces, where light blue would fail contrast.
+- **Orange** (#f05a1e) with **Orange Text** (#ff8a4c): the "Tümünü gör" and "Yorumları gör" buttons (dark text on the fill), star ratings, process duration tags, project card borders, the rating core ring.
+- **Purple** (#8a1fe0) with **Purple Text** (#b57bff): third service-map and why-card tone, the "SEO" mark in the ring, the visitor's own district on the map (3px outline). Deep purple (#6a17c6) is the result-title color on paper.
 
 ### Neutral
-- **Ink** (#0b0e13): page ground, text on yellow, the "you" result row on paper.
-- **Ink Raised** (#151a23): glass card base (as rgba 21,26,35 at .72), select options, alt panel.
-- **Paper** (#f3f2ec): primary text on dark; the results-chapter backdrop; ghost-button hover fill.
-- **Paper Bright** (#fbfaf6): cards and panels on paper, solid-button hover, search-pill in the readout.
-- **Soft** (#c3cad6): secondary text on dark. **Mist** (#9aa3b0): placeholders, captions. **Stone** (#59606c): secondary text on paper.
-- **Lines**: dark `rgba(243,242,236,.16)`, light `rgba(11,14,19,.14)`.
-- **Map relief**: land #cfd6e4, border #8d98ad, wall #4d5870, mid #7e8aa3, low #2a3447 (read by the 3D map from CSS variables). Marker tiers: low #22324f, mid #55637d, top signal.
-- **OK** (#3fae6b): positive status; the trust-list check uses green #6ee79e and the invalid field border uses #ff8f8f. Both are one-off status colors.
+- **Ink** (#0b0e13): page ground, "you" result row. **Ink Raised** (#151a23): nav pill, glass chips.
+- **Card** (#17171c) and **Card 2** (#1f1f26): every card, node plate, FAQ row, form; Card 2 is hover and image-placeholder.
+- **Paper** (#f3f2ec): primary text on dark and the results-chapter backdrop. **Paper Bright** (#fbfaf6): result rows, readout search pill, map district label.
+- **Soft** (#c3cad6): secondary text. **Mist** (#9aa3b0): placeholders, captions. **Stone** (#4b525d): secondary text on paper.
+- **Map relief** (read by the 3D map from CSS variables): top #ff4d8d, land #cfd6e4, border #8d98ad, wall #4d5870, mid #7e8aa3, low #2a3447.
+- **Status**: #3fae6b ok; invalid field border #ff8f8f.
 
 ### Named Rules
-**The One Action Rule.** Yellow means "act or selected" and nothing else. Blue never fills a button.
-**The Paper Chapter Rule.** Only the results chapter sits on paper; on paper, the accent word is ink with a yellow highlighter underline (yellow text on paper is unreadable).
-**The Labelled Sample Rule.** Any ranking, number, or result that is illustrative is labelled "Örnek gösterim" where it appears.
+**The Pink Action Rule.** Pink fills mean "act or selected". Orange is a second button color only for the "see more" actions; purple never fills a button.
+**The Text Value Rule.** On dark, accent colors appear as text only in their `-text` value, never the fill value.
+**The Paper Chapter Rule.** Only the results chapter sits on paper; there the accent word is ink with a pale pink (#ffc2d9) underline highlight.
+**The Labelled Sample Rule.** Illustrative rankings, numbers and results are labelled "Örnek gösterim".
 
 ## Typography
 
-**Display and Body Font:** Archivo (variable, weight 100-900, width 62-125; fallback Helvetica Neue, Arial, sans-serif)
-**Accent Font:** Instrument Serif italic (fallback Times New Roman, Georgia), one word per heading
-**Monospace:** none
+**Family:** Archivo (variable, weight 100-900, width 62-125; fallback Helvetica Neue, Arial, sans-serif). Nothing else.
 
-**Character:** wide, heavy, tightly tracked Archivo headings with a single italic serif word as the human note. Body stays plain width 100.
+**Character:** wide, heavy Archivo for titles and buttons, plain width 100 for body. The accent word in a title is the same face, never italic, in pink.
 
 ### Hierarchy
-- **Hero** (780, `--t-hero` clamp(2.6rem, 1.2rem+5.4vw, 6rem), 0.98, -0.035em, width 108%): h1 only, split into lines.
-- **H2** (760, `--t-h2` clamp(2.25rem, 1.4rem+3.4vw, 4.25rem), 1.04, -0.03em, width 108%, max 18ch). Several chapters override the size down (serp, process, reel, faq use smaller clamps down to 2rem).
-- **H3** (740, `--t-h3` clamp(1.375rem, 1.2rem+0.7vw, 1.75rem), 1.12, width 106%): service titles. Step and panel headings use 760 at 108-110%.
-- **Lead** (400, `--t-lead` clamp(1.125rem, 1.05rem+0.4vw, 1.3125rem), 1.5, max 44ch, color soft).
-- **Body** (400, `--t-body` 1.0625rem, 1.6).
-- **Label** (650, `--t-small` 0.875rem; 0.8125rem / 13px is the floor for tags, notes, map labels).
+- **Hero** (780, `--t-hero` clamp(2.6rem, 1.2rem+5.4vw, 6rem), 0.98, -0.035em, width 108%): h1 only, sentence case, split into lines.
+- **Display** (760, `--t-display` clamp(2.25rem, 1.2rem+4vw, 5rem), 1.04, width 108%): lens lines, sentence case.
+- **Section title** (700, `--t-h2` clamp(1.5rem, 1rem+2.2vw, 2.625rem), 1.15, 0.01em, width 106%, upper case with Turkish casing, max 28ch): centered above a 3.5rem x 3px pink bar. On phones (<=560px) it steps down to 1.25rem with 0 tracking so it stays on two lines. The results chapter, closing form and chat band headings stay sentence case (760, tighter tracking).
+- **H3** (740, clamp(1.375rem, 1.2rem+0.7vw, 1.75rem), 1.15, width 106%): why-card and step titles, in the card's tone color.
+- **Lead** (400, clamp(1.125rem, 1.05rem+0.4vw, 1.3125rem), 1.5, max 44ch, soft).
+- **Body** (400, 1.0625rem, 1.6). **Label** (650, 0.875rem). 0.8125rem (13px) is the floor.
 - **Button** (700, 1.0625rem, width 106%, -0.01em).
-- **Numbers**: `font-variant-numeric: tabular-nums` on every figure (rank, rating, readout, step number); the big rank uses 800 at width 118%.
-- **Wordmark**: footer wordmark is 900 at width 116%, sized 15.4cqi from its container.
+- **Numbers**: tabular figures on every figure; the big rank is 800 at width 118%; rating and readout numbers 800 at width 112%.
+- **Wordmark**: bar 800 at width 116%; footer 900 at 116%, 15.4cqi.
 
 ### Named Rules
-**The Two Families Rule.** Archivo plus Instrument Serif italic; no third family, no monospace.
-**The One Italic Rule.** One `<em>` accent word per heading, 1.08-1.1em, yellow (ink on paper).
+**The One Family Rule.** Archivo only; no serif, italic, monospace or third face.
+**The Upper-Case Title Rule.** Section titles are upper case with one pink word; hero and the lens, results and closing headings are sentence case.
 **The 13px Floor Rule.** Nothing renders under 13px.
-**The Two Lines Rule.** Headings run at most two lines (`text-wrap: balance`, max-width in ch).
-**The No Eyebrow Rule.** No small kicker or label above a heading.
+**The Two Lines Rule.** Headings run at most two lines (`text-wrap: balance`, ch max-width, smaller step on phones).
 
 ## Layout
 
-One centered `.wrap`: max 1380px, side padding `max(16px, 4vw)`. Chapters stack as transparent bands with 12-16vh vertical padding; grids use 18px gaps (cards) or 5-6vw gaps (two-column chapters). Two-column chapters collapse to one at 860-1100px (serp 860, faq/cta 880, dmap 960, process 1100). Services grid is 3 columns, 2 below 1020px, 1 below 640px. Work grid is 3 columns with the first item spanning 2x2, 2 columns below 1020px, 1 below 640px.
+One centered `.wrap`: max 1380px, side padding `max(16px, 4vw)`. Section padding is mostly 8vh, with 12vh at the head of the service map and "Biz kimiz ?". Grids use 16-20px gaps; two-column sections use 5-6vw gaps.
 
-Chapters in order: hero (search box, sector chips, marquee), lens (pinned, 235vh), serp (pinned, 300vh, #7 to #1), services (6 glass cards), process (4 steps, sticky heading card), reel (pinned 380vh; sector panels fly toward the camera in 1100px perspective), Denizli relief map (form, 4 toggles, readout above the map), work (6 real project screenshots plus rating), faq (sticky heading), cta (form to WhatsApp), footer.
+- Service map: ring (11-14rem), curved lines (hidden below 1000px), four nodes in four columns; two columns below 1000px, one below 600px.
+- Why cards: flex-wrap, centered, three per row; two below 1000px, one below 620px.
+- Process: sticky heading card beside the steps (single column at 1100px).
+- Projects: horizontal scroll-snap carousel, middle card scaled up, category tabs above.
+- Brands: auto-fill grid of 190px minimum. Districts: auto-fit pin list (116px), then map section in 0.8fr/1.2fr columns (single column at 960px).
+- Lens (235vh) and results chapter (300vh) are pinned scroll chapters; the results chapter overlaps the lens by 100vh.
 
-The bar is fixed, transparent over a top scrim, and gains blur and a line once scrolled; over the paper chapter it flips to a paper bar (`on-light`). Below 960px the link pill collapses into a 44px toggle and a drawer; below 560px the bar button hides.
+The bar is fixed with a top scrim, gains blur and a line when scrolled, and flips to a paper bar over the results chapter (`on-light`). Below 960px the link pill becomes a 44px toggle and drawer; below 560px the bar button hides.
 
-Breakpoints in use: 559, 640, 767, 860, 880, 959, 960, 1020, 1100px.
+Breakpoints in use: 560, 600, 620, 640, 767, 860, 880, 900, 959, 960, 1000, 1100px.
 
 ## Elevation & Depth
 
-Depth comes from layering over the 3D stage: glass surfaces with backdrop blur (8-16px), a 1px light line, and soft deep shadows. Hover raises cards by a border-color shift to `rgba(238,220,69,.45)` and a lift, not a bigger shadow.
+Depth is mostly tonal: grey cards on black, 1px lines, and colored top or side bars. Blur and soft shadows appear only on the bar, hero search, chips and map card.
 
 ### Shadow Vocabulary
-- **Button lift** (`0 12px 28px -14px rgba(0,0,0,.7)`, hover `0 16px 32px -14px rgba(0,0,0,.75)`): solid button.
-- **Float** (`0 24px 60px -28px rgba(5,7,10,.5)`): search pill, serp bar, map card (`0 30px 80px -36px`).
-- **Panel** (`0 40px 80px -36px rgba(0,0,0,.65)`): reel panels.
-- **Focus glow** (`0 0 0 4px rgba(238,220,69,.2)`): focused search and fields.
-- **Text shadow** on hero and lens type to keep it legible over the 3D stage.
+- **Button lift** (`0 12px 28px -14px rgba(0,0,0,.7)`, hover `0 16px 32px -14px rgba(0,0,0,.75)`): primary button.
+- **Float** (`0 24px 60px -28px rgba(5,7,10,.5)`): hero search, "you" result row; map card uses `0 30px 80px -36px`.
+- **Focus glow** (`0 0 0 4px rgba(216,32,104,.25)`): focused search and fields.
+- **Side bars**: `inset 5px 0 0` (title plate) and `inset -5px 0 0` (list) in the node tone; these are flat color bars, not shadows.
+- **Hero glow**: radial pink (.34) at upper right plus purple (.2) lower right.
 
 ### Named Rules
-**The Glass Over Stage Rule.** Cards are translucent so the stage shows through; never opaque slabs, except the paper chapter's rows and the reel panels.
+**The Tonal Card Rule.** Cards are solid grey on black and separated by a 1px line, not by shadow.
 **The Soft Shadow Rule.** Shadows are large, offset-down, negative-spread, black; no hard offset shadows.
 
 ## Shapes
 
-Pills for everything interactive (buttons, chips, tabs, toggles, search, tags, 999px). Containers are rounded rectangles: fields 12px, result rows 14px, cards and steps 16-20px, reel panels 22px, form and map card 24px. Borders are 1px lines on containers and 1.5px on interactive controls. Icons are line SVGs (`Icon.astro`), 44px yellow-tinted tile for service icons.
+Pills for buttons, chips, search, toggles, tags, nav links. Rectangles are modest: tabs and node plates 8px, brand tiles and FAQ rows and fields 12px, cards and steps 14px, form 18px, map card 20px. Circles for the service ring (2px pink border plus an orange outer ring), node icons, orbit and FAQ signs. Cards signature: a 5.5rem x 6px tone bar hanging from the top edge (why cards). The "Biz kimiz ?" photo is clipped by a magnifier-shaped mask (ring plus handle). District pins are a rotated drop shape in pink. Icons are line SVGs.
 
 ## Components
 
 ### Buttons
-- **Shape:** pill, 56px tall (3.5rem), padding 0 1.75em, 1.0625rem/700 at width 106%, trailing arrow that nudges 4px on hover.
-- **Solid:** yellow fill, ink text. Hover: paper-bright fill, lift 2px. Active: 1px down, scale .985.
-- **Ghost:** 1.5px border `rgba(243,242,236,.55)`, translucent ink fill, blur. Hover fills paper with ink text.
-- **Small:** 44px, 0.9375rem, used in the bar. In the bar over paper the solid button turns ink with paper text.
-- **Focus:** 3px yellow outline, 3px offset, on every focusable element.
+- **Shape:** pill, 56px tall, padding 0 1.75em, 1.0625rem/700 at width 106%, trailing arrow nudges 4px on hover; hover lifts 2px, active presses 1px.
+- **Primary:** solid pink, white text ("Ücretsiz SEO analizi iste", opens WhatsApp with a written message). Hover #bd1558.
+- **Outline:** 1.5px pink border, pink-text label; hover fills pink (bar button). In the bar over paper it turns ink.
+- **Orange:** orange fill, dark text (#14070a): "Tümünü gör", "Yorumları gör".
+- **White:** white fill, pink text: the chat band on a pink-tinted strip.
+- **Ghost:** 1.5px paper border, translucent fill and blur; hover fills paper.
+- **Small:** 44px, 0.9375rem, used in the bar.
+- **Focus:** 3px pink-text outline, 3px offset on every focusable element (ink on paper).
 
-### Chips and toggles
-- Sector chip: 36px pill, 1.5px line, soft text; hover/active turns the border and text yellow with a faint yellow fill. Reel tab active is solid yellow. Map toggles are 44px pills with a round check box; checked state is a yellow border, faint yellow fill and filled yellow dot (`aria-checked`).
+### Chips, tabs, toggles
+- **Sector chip:** 36px pill, 1.5px line; hover/active turns pink-text with a pink tint.
+- **Project tab:** 44px, 8px radius; active has pink border, pink text, pink tint.
+- **Map toggle:** 44px pill with a round check; checked is pink border, pink tint, filled pink dot (`aria-checked`).
 
 ### Cards / Containers
-- **Glass card (services, work, faq):** `rgba(21,26,35,.72)`, blur 12px, 1px line, 20px radius (faq 16px), padding clamp(22px, 2.4vw, 30px). Service cards carry a pointer-following sheen.
-- **Paper panel (reel):** paper-bright with ink text; every `alt` panel is ink-raised. The first list row is solid yellow.
-- **Results rows (serp):** paper-bright rows, blue-deep titles; the visitor's row is ink with yellow title and a yellow rank badge.
+- **Why card:** #17171c, 1px line, 14px radius, centered, top bar in pink, orange or purple, title in the tone's text color.
+- **Service node:** round icon with a tone dot, title plate (upper case, 800, side bar), list card with row dividers.
+- **Step:** card with pink dot on a vertical line that fills pink as it scrolls; orange duration tag.
+- **Project card:** card with a screenshot (top-aligned), orange 35% border, orange when centered; side cards scale down and fade.
+- **FAQ row:** 12px card, plus/minus sign circle fills pink when open.
+- **Results rows (paper chapter):** paper-bright rows, deep-purple titles; the visitor's row is ink with pink-text title and a pink rank badge.
+- **Rating orbit:** dashed rotating ring, five orange stars, core with 5,0 and "28 yorum".
 
 ### Inputs / Fields
-- 56px (map select/input 52px), 12px radius, 1.5px line, `rgba(243,242,236,.07)` fill, 1.0625rem text. Focus: yellow border plus 4px yellow glow. Invalid: `aria-invalid` border #ff8f8f. The hero search is a 60px pill with a yellow submit.
+- 56px (map fields 52px), 12px radius, 1.5px line, `rgba(243,242,236,.07)` fill. Focus: pink-text border plus 4px pink glow. Invalid: `aria-invalid` border #ff8f8f. Hero search is a 60px pill with a pink submit.
 
 ### Navigation
-- Pill link group (blurred), links 0.9375rem/600; hover/active tint plus yellow text; logo mark plus wordmark (800, width 116%). Mobile drawer is a blurred 20px-radius sheet.
+- Pill link group (blurred), 0.9375rem/600; active link is a pink pill with white text; logo mark plus wordmark. Mobile drawer is a blurred 20px-radius sheet.
 
 ### Signature: stage and map
-- The fixed canvas (`#stage`, z-index 1) is driven by `choreo.ts` camera keyframes on scroll. The Denizli relief map is real 3D (19 districts, OSM borders and elevation); column height = sample rank, markers tiered top (yellow), mid, low; the visitor's district is blue-outlined. A poster image shows until WebGL starts. Readout sits above the map, legend and credit below.
+- The fixed canvas (`#stage`) is driven by `choreo.ts` camera keyframes; magnifier, link graph and tags use pink (#ff3d85), orange (#ff6a1f) and purple (#9b4dff) in `stage.ts`. The Denizli relief map is real 3D (19 districts, OSM borders and elevation); column height is the sample rank, markers tier low, mid, top (pink); the visitor's district has a purple outline. A poster shows until WebGL starts.
 
 ## Do's and Don'ts
 
 ### Do:
-- **Do** label the primary action "Ücretsiz SEO analizi iste" (arrow button, opens WhatsApp with a written message) everywhere, and use the brand name "Denizli SEO".
-- **Do** label every illustrative figure or result "Örnek gösterim".
+- **Do** use the brand name "Denizli SEO" and the primary label "Ücretsiz SEO analizi iste" everywhere.
+- **Do** label every illustrative figure, ranking or result "Örnek gösterim".
 - **Do** keep the © OpenStreetMap credit on the map and in the footer.
-- **Do** use only real content: the six real project screenshots and the Google rating 5,0 from 28 reviews.
-- **Do** keep headings to two lines and use one Instrument Serif italic accent word.
-- **Do** keep a visible 3px yellow focus ring, strong hover and active states, and 44px minimum targets.
-- **Do** degrade the stage: reduced motion gives a still layout with a static frame (`.rm`); no WebGL leaves the page unchanged (poster and finished layout).
+- **Do** use only real content: project screenshots and names, and the Google rating 5,0 from 28 reviews.
+- **Do** keep headings to two lines, with the smaller title step on phones.
+- **Do** keep the visible 3px pink focus ring and 44px minimum targets.
+- **Do** degrade the stage: reduced motion gives a still layout; no WebGL leaves the page unchanged.
 
 ### Don't:
-- **Don't** invent testimonials, client logos, statistics, case studies, awards, or ranking guarantees; the draft's fake case studies were removed on purpose.
-- **Don't** add a third font, monospace, or eyebrow text above headings.
+- **Don't** invent testimonials, client or partner logos, statistics ("+400 müşteri" style), case studies, awards or ranking guarantees; the reference's versions were deliberately not copied.
+- **Don't** add a second typeface, italic, monospace or an eyebrow above a heading.
 - **Don't** set text below 13px.
-- **Don't** use blue as a button color or yellow text on the paper chapter.
-- **Don't** put opaque slabs over the stage where a glass card fits.
+- **Don't** fill a button with purple, or use a fill-value accent as small text on dark.
+- **Don't** use hard offset shadows.
 
 ## Not canonized
-Preloader count "#100", the 01-04 process step numerals, the grain overlay and the heading text-shadows are shipped but not recorded as rules for new surfaces.
+Pre-existing drift carried by the build, not rules for new surfaces: the preloader count "#100", the grain overlay (opacity .045), heading text-shadows over the stage, the 01-04 step numerals, `--t-h2-sm` duplicating `--t-h2`, and the small upper-case, letter-spaced "SEO" label in the service ring (an eyebrow-style device). Inner pages use the older light system in `src/styles/global.css` and will move to this one.

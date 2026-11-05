@@ -1,0 +1,23 @@
+---
+// Trust: the agency's public Google rating, nothing else. Real figure, linked to the profile.
+import Icon from '../Icon.astro';
+import { PROJECTS } from '../../data/projects';
+---
+<section class="rating-sec" aria-labelledby="puan-baslik">
+  <div class="wrap rating-in">
+    <div class="rating-copy reveal">
+      <h2 class="h2" id="puan-baslik">Müşteri güveni: <em>Google puanımız</em></h2>
+      <p class="lede">Venti Dijital Ajans’ın Google işletme profilinde 28 yoruma göre 5,0 puan (Ekim 2026). Yorumların hepsini Google’da kendiniz okuyabilirsiniz.</p>
+      <a class="btn btn-orange" href="https://share.google/YVUE42SqN5ipf0y1j" rel="noopener" target="_blank">Yorumları gör<Icon name="out" size={18} /></a>
+    </div>
+    <div class="orbit reveal" aria-hidden="true">
+      <span class="orbit-ring"></span>
+      <span class="orbit-core"><b>5,0</b><small>Google puanı</small></span>
+      <span class="orbit-star s1"><Icon name="star" size={18} /></span>
+      <span class="orbit-star s2"><Icon name="star" size={18} /></span>
+      <span class="orbit-star s3"><Icon name="star" size={18} /></span>
+      <span class="orbit-star s4"><Icon name="star" size={18} /></span>
+      <span class="orbit-star s5"><Icon name="star" size={18} /></span>
+    </div>
+  </div>
+</section>

@@ -1,0 +1,22 @@
+---
+// "Why we stand out": five cards, each with a coloured top bar. Facts about how the team works.
+import Icon from '../Icon.astro';
+import { WHY_CARDS } from '../../data/home';
+---
+<section class="why" id="fark" aria-labelledby="fark-baslik">
+  <div class="wrap">
+    <div class="sec-head reveal">
+      <h2 class="h2" id="fark-baslik">Farkımız <em>ne</em> ? Farkı keşfedin</h2>
+      <p class="lede">Denizli SEO, Pamukkale’deki Venti Dijital Ajans’ın SEO markası. İşe başlamadan önce bu beş kuralı açıkça söyler, iş boyunca da bunlara uyarız.</p>
+    </div>
+    <ul class="why-grid">
+      {WHY_CARDS.map((c) => (
+        <li class={`why-card why-card--${c.tone} reveal`}>
+          <span class="why-icon"><Icon name={c.icon} size={30} /></span>
+          <h3>{c.name}</h3>
+          <p>{c.text}</p>
+        </li>
+      ))}
+    </ul>
+  </div>
+</section>

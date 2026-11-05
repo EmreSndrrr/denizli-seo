@@ -1,0 +1,39 @@
+---
+// "From design to reality": live sites from Venti Dijital Ajans in a carousel with category tabs.
+// The middle card is raised; each card opens the site itself. No invented results.
+import { Image } from 'astro:assets';
+import Icon from '../Icon.astro';
+import { PROJECTS } from '../../data/projects';
+import { PROJECT_TABS } from '../../data/home';
+const shown = PROJECTS.filter((p) => p.shot);
+const tagsOf = (work: string) => work.split(' · ');
+const cats = (work: string) => PROJECT_TABS.filter((t) => t.key !== 'hepsi' && tagsOf(work).some((x) => t.tags.includes(x))).map((t) => t.key).join(' ');
+---
+<section class="projects" id="isler" aria-labelledby="isler-baslik">
+  <div class="wrap">
+    <div class="sec-head reveal">
+      <h2 class="h2" id="isler-baslik">Tasarımdan gerçeğe: <em>projelerimiz</em></h2>
+      <p class="lede">Venti Dijital Ajans’ın kurduğu ya da SEO’sunu yürüttüğü sitelerden bazıları. Hepsi yayında; dokunup açabilirsiniz.</p>
+    </div>
+    <div class="ptabs" role="group" aria-label="Proje kategorisi">
+      {PROJECT_TABS.map((t, i) => <button type="button" class:list={['ptab', { active: i === 0 }]} data-cat={t.key} aria-pressed={i === 0 ? 'true' : 'false'}>{t.label}</button>)}
+    </div>
+  </div>
+  <div class="pview" data-pview>
+    <ul class="ptrack" data-ptrack>
+      {shown.map((p, i) => (
+        <li class="pcard" data-cats={cats(p.work)}>
+          <a href={p.url} rel="noopener" target="_blank">
+            <span class="pcard-pic"><Image src={p.shot!} alt={`${p.name} sitesinin ana sayfası`} widths={[360, 560, 800]} sizes="(max-width: 767px) 70vw, 24vw" loading={i < 3 ? 'eager' : 'lazy'} /></span>
+            <span class="pcard-cap"><b>{p.name}</b><span>{p.work}</span></span>
+          </a>
+        </li>
+      ))}
+    </ul>
+  </div>
+  <div class="wrap pcontrols">
+    <button type="button" class="reel-btn" data-pprev aria-label="Önceki proje"><Icon name="arrow" size={18} class="flip" /></button>
+    <a class="btn btn-orange" href="https://www.ventiajans.com/projeler/" rel="noopener">Tümünü gör<Icon name="arrow" size={18} /></a>
+    <button type="button" class="reel-btn" data-pnext aria-label="Sonraki proje"><Icon name="arrow" size={18} /></button>
+  </div>
+</section>

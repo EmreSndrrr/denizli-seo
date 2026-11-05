@@ -1,0 +1,17 @@
+---
+// "Our brands": the live sites Venti Dijital Ajans runs, by name. Names only, no logos, no quotes.
+import { PROJECTS } from '../../data/projects';
+---
+<section class="brands" id="markalar" aria-labelledby="marka-baslik">
+  <div class="wrap">
+    <div class="sec-head reveal">
+      <h2 class="h2" id="marka-baslik">Birlikte çalıştığımız <em>markalar</em></h2>
+      <p class="lede">Venti Dijital Ajans’ın kurduğu ya da SEO’sunu yürüttüğü {PROJECTS.length} yayında site. Adına dokunun, açılsın.</p>
+    </div>
+    <ul class="brand-grid">
+      {PROJECTS.map((p) => (
+        <li class="reveal"><a href={p.url} rel="noopener" target="_blank"><b>{p.name}</b><span>{p.work}</span></a></li>
+      ))}
+    </ul>
+  </div>
+</section>

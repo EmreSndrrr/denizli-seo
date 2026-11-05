@@ -1,24 +1,39 @@
 ---
+// "What we do": the four services around one ring, drawn as a map. Each group links to its page.
 import Icon from '../Icon.astro';
-import { HOME_SERVICES } from '../../data/home';
+import { SERVICE_NODES } from '../../data/home';
+import { SITE } from '../../data/site';
 ---
-<section class="services" id="hizmetler" aria-labelledby="hizmetler-baslik">
+<section class="svcmap" id="hizmetler" aria-labelledby="hizmetler-baslik">
   <div class="wrap">
     <div class="sec-head reveal">
-      <h2 class="h2" id="hizmetler-baslik">Sıralamayı taşıyan <em>altı</em> iş.</h2>
-      <p class="lede">Anahtar kelime eklemekle kalmayız; teknik altyapıdan harita görünürlüğüne kadar bütün sinyalleri birlikte yönetiriz.</p>
+      <h2 class="h2" id="hizmetler-baslik">Ne <em>yapıyoruz</em> ?</h2>
+      <p class="lede">Aramada bulunmanız için gereken işlerin hepsi tek ekipte; hangisinden başlayacağımıza ücretsiz analizden sonra birlikte karar veririz.</p>
     </div>
-    <ul class="svc-grid">
-      {HOME_SERVICES.map((s) => (
-        <li class="svc"><article class="svc-in">
-          <div class="svc-top">
-            <div class="svc-title"><span class="svc-icon"><Icon name={s.icon} size={22} /></span><h3>{s.name}</h3></div>
-            <p>{s.text}</p>
-          </div>
-          <ul class="tags">{s.tags.map((t) => <li>{t}</li>)}</ul>
-          <a class="svc-more" href={s.href}>{s.cta}<Icon name="arrow" size={18} /></a>
-        </article></li>
-      ))}
-    </ul>
+
+    <div class="svcmap-board reveal">
+      <div class="ring" aria-hidden="true">
+        <span class="ring-in">
+          <svg class="ring-mark" viewBox="0 0 32 32"><circle cx="13" cy="13" r="9" fill="none" stroke="currentColor" stroke-width="3.4"></circle><path d="M20 20 L28.5 28.5" stroke="currentColor" stroke-width="4" stroke-linecap="round"></path></svg>
+          <b>{SITE.name}</b>
+          <span>Hizmetler</span>
+        </span>
+      </div>
+      <svg class="svcmap-lines" viewBox="0 0 1000 220" preserveAspectRatio="none" aria-hidden="true">
+        <path d="M500 0 C500 90 125 70 125 220" />
+        <path d="M500 0 C500 100 375 90 375 220" />
+        <path d="M500 0 C500 100 625 90 625 220" />
+        <path d="M500 0 C500 90 875 70 875 220" />
+      </svg>
+      <ul class="nodes">
+        {SERVICE_NODES.map((n) => (
+          <li class={`node node--${n.tone}`}>
+            <span class="node-icon"><Icon name={n.icon} size={26} /></span>
+            <a class="node-title" href={n.href}>{n.title}</a>
+            <ul class="node-list">{n.items.map((it) => <li><Icon name="check" size={14} />{it}</li>)}</ul>
+          </li>
+        ))}
+      </ul>
+    </div>
   </div>
 </section>

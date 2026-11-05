@@ -48,14 +48,32 @@ export const HERO_CHIPS = [
 
 export const MARQUEE = ['Teknik SEO', 'Yerel SEO', 'Google Haritalar', 'İçerik stratejisi', 'Anahtar kelime araştırması', 'Core Web Vitals', 'Web tasarım', 'Aylık rapor'];
 
-export interface HomeService { icon: 'gauge' | 'pin' | 'doc' | 'layout' | 'link' | 'chart'; name: string; text: string; tags: string[]; href: string; cta: string }
-export const HOME_SERVICES: HomeService[] = [
-  { icon: 'pin', name: 'Yerel SEO', text: 'Google İşletme Profilinizi düzenler, haritada ve “yakınımdaki” aramalarında ilk üçe girmeniz için çalışırız.', tags: ['İşletme profili', 'Yorum düzeni', 'Ad-adres-telefon tutarlılığı'], href: '/yerel-seo/', cta: 'Yerel SEO’yu inceleyin' },
-  { icon: 'gauge', name: 'Teknik SEO', text: 'Tarama, site haritası, yapılandırılmış veri ve dizinleme sorunlarını çözer; sayfalarınızın telefonda hızlı açılmasını sağlarız.', tags: ['Search Console', 'Schema.org', 'Core Web Vitals'], href: '/teknik-seo/', cta: 'Teknik SEO’yu inceleyin' },
-  { icon: 'doc', name: 'İçerik ve anahtar kelime', text: 'Müşterinizin satın almadan önce aradığı kelimeleri bulur, arama niyetine tam yanıt veren sayfalar yazarız.', tags: ['Arama niyeti', 'Hizmet sayfaları', 'Blog'], href: '/icerik-seo/', cta: 'İçerik SEO’yu inceleyin' },
-  { icon: 'layout', name: 'SEO uyumlu web tasarım', text: 'Önce telefon için tasarlar; başlıklar, site haritası ve ölçüm yayından önce kurulu gelir.', tags: ['Telefon önce', 'Hızlı kod', 'Ölçüm kurulumu'], href: '/web-tasarim/', cta: 'Web tasarımı inceleyin' },
-  { icon: 'link', name: 'Backlink ve otorite', text: 'Sektörünüzle ilgili, gerçek okuru olan yayıncılardan doğal bağlantılar kazanarak alan adı otoritenizi yükseltiriz.', tags: ['Dijital PR', 'Kazanılmış bağlantı', 'Otorite'], href: '#analiz', cta: 'Bu işi konuşalım' },
-  { icon: 'chart', name: 'Aylık raporlama', text: 'Hangi aramada kaçıncı olduğunuzu ve organik aramadan gelen telefon ve form taleplerini sade bir raporla paylaşırız.', tags: ['Sıralama takibi', 'GA4 ve Search Console', 'Talep takibi'], href: '#analiz', cta: 'Raporu konuşalım' },
+// The service map: four groups around one ring. Items are the real work of each service page.
+export interface ServiceNode { tone: 'pink' | 'orange' | 'purple'; icon: 'pin' | 'gauge' | 'doc' | 'layout'; title: string; href: string; items: string[] }
+export const SERVICE_NODES: ServiceNode[] = [
+  { tone: 'pink', icon: 'pin', title: 'Yerel SEO', href: '/yerel-seo/', items: ['İşletme Profili kurulumu', 'Kategori ve hizmetler', 'Yorum düzeni', 'Harita sırası takibi'] },
+  { tone: 'orange', icon: 'gauge', title: 'Teknik SEO ve hız', href: '/teknik-seo/', items: ['Tarama ve dizin denetimi', 'Site hızı', 'Mobil uyum', 'Yapılandırılmış veri'] },
+  { tone: 'purple', icon: 'doc', title: 'İçerik ve otorite', href: '/icerik-seo/', items: ['Anahtar kelime araştırması', 'İçerik planı', 'Blog yazıları', 'Backlink ve otorite'] },
+  { tone: 'pink', icon: 'layout', title: 'Web tasarım', href: '/web-tasarim/', items: ['Arama odaklı site planı', 'Önce telefon', 'Teknik SEO hazır', 'Aylık raporlama'] },
+];
+
+// What sets the team apart: said before the work starts. Facts only.
+export const WHY_CARDS = [
+  { tone: 'pink', icon: 'pin', name: 'Denizli’ye odaklı', text: 'Denizli’nin 19 ilçesinde çalışırız; aramalar ilçeye göre değiştiği için her ilçeye ayrı bakarız.' },
+  { tone: 'purple', icon: 'team', name: 'Tek elden', text: 'Site, SEO ve reklam aynı ekipte. Bir kanalın verisi diğerini besler; işiniz ajanslar arasında bölünmez.' },
+  { tone: 'orange', icon: 'chart', name: 'Rakamla rapor', text: 'Her ay sıra, ziyaret ve gelen talep rakamla raporlanır. Sonuç vermeyen çalışma da raporda yazar.' },
+  { tone: 'orange', icon: 'user', name: 'Doğrudan iletişim', text: 'İşi yapan kişiyle konuşursunuz. Araya hesap yöneticisi girmez.' },
+  { tone: 'pink', icon: 'eye', name: 'Garanti değil, şeffaflık', text: 'Google’da sıra garanti edilemez. Yapılacak işi, süresini ve sonucunu açıkça yazarız.' },
+] as const;
+
+// Tabs of the project carousel: a project shows under a tab when one of its work tags matches.
+export const PROJECT_TABS = [
+  { key: 'hepsi', label: 'Tümü', tags: [] as string[] },
+  { key: 'web', label: 'Web tasarım', tags: ['Web tasarım'] },
+  { key: 'seo', label: 'SEO', tags: ['SEO'] },
+  { key: 'turizm', label: 'Turizm ve konaklama', tags: ['Turizm', 'Konaklama', 'Rezidans konaklama', 'Seyahat rehberi'] },
+  { key: 'ticaret', label: 'Ticaret', tags: ['Kuyumculuk', 'Elektronik', 'E-ticaret sitesi', 'Mobilya', 'Endüstriyel mutfak'] },
+  { key: 'hizmet', label: 'Hizmet ve eğitim', tags: ['Nakliyat', 'Su sondajı', 'Isıtma ve soğutma', 'Eğitim'] },
 ];
 
 export const PROCESS = [
@@ -75,4 +93,3 @@ export const SERP_ROWS = [
   { url: 'rakip4.com › iletisim', title: 'Rakip 4', desc: 'Adresimiz ve yol tarifi.' },
 ];
 
-export const WORK_PICKS = ['Denizli Kuyumcu', 'Yörükoğulları Nakliyat', 'Balkan Endüstriyel Mutfak', 'Elea Premium Stay', 'Bilgi Dem Akademi', 'Eseoğlu Sondaj'];

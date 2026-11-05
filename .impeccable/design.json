@@ -1,294 +1,190 @@
 {
   "schemaVersion": 2,
-  "generatedAt": "2026-10-30T20:52:19.038061Z",
+  "generatedAt": "2026-11-05T00:00:00Z",
   "title": "Design System: Denizli SEO",
   "extensions": {
     "colorMeta": {
-      "ink": {
-        "role": "neutral",
-        "displayName": "Graphite Ink",
-        "canonical": "#0b0e13"
+      "ink": { "role": "neutral", "displayName": "Black Ground", "canonical": "#0b0e13" },
+      "ink-raised": { "role": "neutral", "displayName": "Raised Graphite", "canonical": "#151a23" },
+      "card": { "role": "neutral", "displayName": "Dark Grey Card", "canonical": "#17171c" },
+      "card-2": { "role": "neutral", "displayName": "Lifted Grey Card", "canonical": "#1f1f26" },
+      "paper": { "role": "neutral", "displayName": "Results Paper", "canonical": "#f3f2ec" },
+      "paper-bright": { "role": "neutral", "displayName": "Bright Paper", "canonical": "#fbfaf6" },
+      "pink": {
+        "role": "primary", "displayName": "Hot Pink", "canonical": "#d82068",
+        "tonalRamp": ["#3a0a1c", "#6b1236", "#9c1a50", "#d82068", "#ff5b97", "#ff8cb5", "#ffc2d9", "#ffe6ef"]
       },
-      "ink-raised": {
-        "role": "neutral",
-        "displayName": "Raised Graphite",
-        "canonical": "#151a23"
+      "pink-text": { "role": "primary", "displayName": "Pink Text", "canonical": "#ff5b97" },
+      "orange": {
+        "role": "secondary", "displayName": "Orange", "canonical": "#f05a1e",
+        "tonalRamp": ["#3d1707", "#6e2a0e", "#a83f14", "#f05a1e", "#ff8a4c", "#ffab7d", "#ffd0b5", "#ffeadd"]
       },
-      "paper": {
-        "role": "neutral",
-        "displayName": "Results Paper",
-        "canonical": "#f3f2ec"
+      "orange-text": { "role": "secondary", "displayName": "Orange Text", "canonical": "#ff8a4c" },
+      "purple": {
+        "role": "tertiary", "displayName": "Purple", "canonical": "#8a1fe0",
+        "tonalRamp": ["#240742", "#44108a", "#6a17c6", "#8a1fe0", "#b57bff", "#cfa5ff", "#e5ccff", "#f4e9ff"]
       },
-      "paper-bright": {
-        "role": "neutral",
-        "displayName": "Bright Paper",
-        "canonical": "#fbfaf6"
-      },
-      "signal": {
-        "role": "primary",
-        "displayName": "Signal Yellow",
-        "canonical": "#eedc45",
-        "tonalRamp": [
-          "#3d3708",
-          "#6b6010",
-          "#9a8c18",
-          "#c9b722",
-          "#eedc45",
-          "#f3e570",
-          "#f8efa0",
-          "#fcf8d2"
-        ]
-      },
-      "link": {
-        "role": "secondary",
-        "displayName": "Link Blue",
-        "canonical": "#7e97ff",
-        "tonalRamp": [
-          "#10183f",
-          "#1d2b7a",
-          "#2c46c8",
-          "#5a73ee",
-          "#7e97ff",
-          "#a3b5ff",
-          "#c8d3ff",
-          "#e9edff"
-        ]
-      },
-      "link-deep": {
-        "role": "secondary",
-        "displayName": "Deep Link Blue",
-        "canonical": "#2c46c8"
-      },
-      "soft": {
-        "role": "neutral",
-        "displayName": "Soft Grey",
-        "canonical": "#c3cad6"
-      },
-      "mist": {
-        "role": "neutral",
-        "displayName": "Mist",
-        "canonical": "#9aa3b0"
-      },
-      "stone": {
-        "role": "neutral",
-        "displayName": "Stone",
-        "canonical": "#59606c"
-      },
-      "ok": {
-        "role": "tertiary",
-        "displayName": "Status Green",
-        "canonical": "#3fae6b"
-      }
+      "purple-text": { "role": "tertiary", "displayName": "Purple Text", "canonical": "#b57bff" },
+      "link-deep": { "role": "tertiary", "displayName": "Deep Purple", "canonical": "#6a17c6" },
+      "soft": { "role": "neutral", "displayName": "Soft Grey", "canonical": "#c3cad6" },
+      "mist": { "role": "neutral", "displayName": "Mist", "canonical": "#9aa3b0" },
+      "stone": { "role": "neutral", "displayName": "Stone", "canonical": "#4b525d" },
+      "ok": { "role": "tertiary", "displayName": "Status Green", "canonical": "#3fae6b" },
+      "map-top": { "role": "tertiary", "displayName": "Map Top Marker", "canonical": "#ff4d8d" },
+      "map-land": { "role": "neutral", "displayName": "Map Land", "canonical": "#cfd6e4" },
+      "map-border": { "role": "neutral", "displayName": "Map Border", "canonical": "#8d98ad" },
+      "map-wall": { "role": "neutral", "displayName": "Map Wall", "canonical": "#4d5870" },
+      "map-mid": { "role": "neutral", "displayName": "Map Mid", "canonical": "#7e8aa3" },
+      "map-low": { "role": "neutral", "displayName": "Map Low", "canonical": "#2a3447" }
     },
     "typographyMeta": {
-      "hero": {
-        "displayName": "Hero",
-        "purpose": "h1 only."
-      },
-      "h2": {
-        "displayName": "Chapter heading",
-        "purpose": "Chapter titles, one serif accent word."
-      },
-      "accent-word": {
-        "displayName": "Serif accent",
-        "purpose": "One italic word per heading."
-      }
+      "hero": { "displayName": "Hero", "purpose": "h1 only, sentence case, split into lines." },
+      "display": { "displayName": "Display", "purpose": "Lens chapter lines, sentence case." },
+      "section-title": { "displayName": "Section Title", "purpose": "Upper-case centered titles with one pink word and a short pink bar; 1.25rem on phones." },
+      "h3": { "displayName": "Card Title", "purpose": "Why-card and step titles in the tone's text color." },
+      "lead": { "displayName": "Lead", "purpose": "Intro lines, soft color, max 44ch." },
+      "body": { "displayName": "Body", "purpose": "Running text at width 100." },
+      "label": { "displayName": "Label", "purpose": "Chips, tags, captions; 13px floor." },
+      "button": { "displayName": "Button", "purpose": "All pill buttons." }
     },
     "shadows": [
-      {
-        "name": "button-lift",
-        "value": "0 12px 28px -14px rgba(0,0,0,.7)",
-        "purpose": "Solid button."
-      },
-      {
-        "name": "float",
-        "value": "0 24px 60px -28px rgba(5,7,10,.5)",
-        "purpose": "Search pill, serp bar, map card."
-      },
-      {
-        "name": "panel",
-        "value": "0 40px 80px -36px rgba(0,0,0,.65)",
-        "purpose": "Reel panels."
-      },
-      {
-        "name": "focus-glow",
-        "value": "0 0 0 4px rgba(238,220,69,.2)",
-        "purpose": "Focused search and fields."
-      }
+      { "name": "button-lift", "value": "0 12px 28px -14px rgba(0,0,0,.7)", "purpose": "Primary button; deeper on hover." },
+      { "name": "float", "value": "0 24px 60px -28px rgba(5,7,10,.5)", "purpose": "Hero search and the visitor's result row." },
+      { "name": "map-card", "value": "0 30px 80px -36px rgba(5,7,10,.5)", "purpose": "Denizli map card." },
+      { "name": "focus-glow", "value": "0 0 0 4px rgba(216,32,104,.25)", "purpose": "Focused search and fields." },
+      { "name": "side-bar", "value": "inset 5px 0 0 var(--tone)", "purpose": "Flat tone bar on service-node plates (inset -5px on the list)." }
     ],
     "motion": [
-      {
-        "name": "ease",
-        "value": "cubic-bezier(0.2, 0.7, 0.2, 1)",
-        "purpose": "Hover lifts, arrow nudges, card transforms."
-      }
+      { "name": "ease", "value": "cubic-bezier(0.2, 0.7, 0.2, 1)", "purpose": "Button arrows, card scale, FAQ sign." },
+      { "name": "marquee", "value": "40s linear infinite", "purpose": "Hero marquee; off under reduced motion." },
+      { "name": "orbit-spin", "value": "60s linear infinite", "purpose": "Rating orbit ring; off under reduced motion." }
     ],
     "breakpoints": [
-      {
-        "name": "xs",
-        "value": "559px"
-      },
-      {
-        "name": "sm",
-        "value": "640px"
-      },
-      {
-        "name": "phone",
-        "value": "767px"
-      },
-      {
-        "name": "serp",
-        "value": "860px"
-      },
-      {
-        "name": "faq-cta",
-        "value": "880px"
-      },
-      {
-        "name": "nav",
-        "value": "959px"
-      },
-      {
-        "name": "dmap",
-        "value": "960px"
-      },
-      {
-        "name": "grid",
-        "value": "1020px"
-      },
-      {
-        "name": "process",
-        "value": "1100px"
-      }
+      { "name": "phone", "value": "560px" },
+      { "name": "nodes-one", "value": "600px" },
+      { "name": "why-one", "value": "620px" },
+      { "name": "hero-stack", "value": "767px" },
+      { "name": "serp-stack", "value": "860px" },
+      { "name": "faq-cta-stack", "value": "880px" },
+      { "name": "about-rating-stack", "value": "900px" },
+      { "name": "nav-collapse", "value": "960px" },
+      { "name": "service-map-compact", "value": "1000px" },
+      { "name": "process-stack", "value": "1100px" }
     ]
   },
   "components": [
     {
-      "name": "Solid Button",
+      "name": "Primary Button",
       "kind": "button",
-      "refersTo": "button-solid",
-      "description": "The one action: yellow pill with arrow.",
-      "html": "<button class=\"ds-btn-solid\">Ücretsiz SEO analizi iste <svg width=\"18\" height=\"18\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\"><path d=\"M5 12h14M13 6l6 6-6 6\"/></svg></button>",
-      "css": ".ds-btn-solid{font-family:Archivo,Arial,sans-serif;display:inline-flex;align-items:center;gap:.7em;min-height:56px;padding:0 1.75em;border-radius:999px;border:1.5px solid transparent;font-size:1.0625rem;font-weight:700;font-stretch:106%;letter-spacing:-.01em;cursor:pointer;transition:background-color .25s,color .25s,transform .25s;background:#eedc45;color:#0b0e13;box-shadow:0 12px 28px -14px rgba(0,0,0,.7)}.ds-btn-solid:hover{background:#fbfaf6;transform:translateY(-2px)}.ds-btn-solid:active{transform:translateY(1px) scale(.985)}.ds-btn-solid:focus-visible{outline:3px solid #eedc45;outline-offset:3px}"
+      "refersTo": "button-primary",
+      "description": "Solid pink pill; the one main action, 'Ücretsiz SEO analizi iste'.",
+      "html": "<a class=\"ds-btn ds-btn-solid\" href=\"#\">Ücretsiz SEO analizi iste</a>",
+      "css": ".ds-btn{display:inline-flex;align-items:center;justify-content:center;min-height:56px;padding:0 1.75em;border-radius:999px;border:1.5px solid transparent;font:700 1.0625rem/1 Archivo,Arial,sans-serif;font-stretch:106%;letter-spacing:-.01em;text-decoration:none;transition:background-color .25s,color .25s,transform .25s}.ds-btn-solid{background:#d82068;color:#fff;box-shadow:0 12px 28px -14px rgba(0,0,0,.7)}.ds-btn-solid:hover{background:#bd1558;transform:translateY(-2px)}.ds-btn:focus-visible{outline:3px solid #ff5b97;outline-offset:3px}.ds-btn:active{transform:translateY(1px) scale(.985)}"
     },
     {
-      "name": "Ghost Button",
+      "name": "Outline Button",
       "kind": "button",
-      "refersTo": "button-ghost",
-      "description": "Secondary action; fills paper on hover.",
-      "html": "<button class=\"ds-btn-ghost\">Hizmetleri gör</button>",
-      "css": ".ds-btn-ghost{font-family:Archivo,Arial,sans-serif;display:inline-flex;align-items:center;gap:.7em;min-height:56px;padding:0 1.75em;border-radius:999px;border:1.5px solid transparent;font-size:1.0625rem;font-weight:700;font-stretch:106%;letter-spacing:-.01em;cursor:pointer;transition:background-color .25s,color .25s,transform .25s;border-color:rgba(243,242,236,.55);color:#f3f2ec;background:rgba(21,26,35,.55)}.ds-btn-ghost:hover{background:#f3f2ec;border-color:#f3f2ec;color:#0b0e13;transform:translateY(-2px)}.ds-btn-ghost:focus-visible{outline:3px solid #eedc45;outline-offset:3px}"
+      "refersTo": "button-outline",
+      "description": "Pink outline pill used in the bar.",
+      "html": "<a class=\"ds-btn ds-btn-outline\" href=\"#\">Ücretsiz SEO analizi iste</a>",
+      "css": ".ds-btn{display:inline-flex;align-items:center;justify-content:center;min-height:56px;padding:0 1.75em;border-radius:999px;border:1.5px solid transparent;font:700 1.0625rem/1 Archivo,Arial,sans-serif;font-stretch:106%;text-decoration:none;transition:background-color .25s,color .25s,transform .25s}.ds-btn-outline{border-color:#d82068;color:#ff5b97;background:transparent}.ds-btn-outline:hover{background:#d82068;color:#fff;transform:translateY(-2px)}.ds-btn:focus-visible{outline:3px solid #ff5b97;outline-offset:3px}"
+    },
+    {
+      "name": "Orange Button",
+      "kind": "button",
+      "refersTo": "button-orange",
+      "description": "Orange fill with dark text for 'Tümünü gör' and 'Yorumları gör'.",
+      "html": "<a class=\"ds-btn ds-btn-orange\" href=\"#\">Tümünü gör</a>",
+      "css": ".ds-btn{display:inline-flex;align-items:center;justify-content:center;min-height:56px;padding:0 1.75em;border-radius:999px;border:1.5px solid transparent;font:700 1.0625rem/1 Archivo,Arial,sans-serif;font-stretch:106%;text-decoration:none;transition:background-color .25s,transform .25s}.ds-btn-orange{background:#f05a1e;color:#14070a}.ds-btn-orange:hover{background:#ff7a3d;transform:translateY(-2px)}.ds-btn:focus-visible{outline:3px solid #ff5b97;outline-offset:3px}"
+    },
+    {
+      "name": "Section Title",
+      "kind": "custom",
+      "refersTo": "section-title",
+      "description": "Upper-case centered title, one pink word, short pink bar.",
+      "html": "<h2 class=\"ds-h2\">Ne <em>yapıyoruz</em> ?</h2>",
+      "css": ".ds-h2{margin:0;text-align:center;font:700 clamp(1.5rem,1rem + 2.2vw,2.625rem)/1.15 Archivo,Arial,sans-serif;font-stretch:106%;letter-spacing:.01em;text-transform:uppercase;color:#f3f2ec}.ds-h2 em{font-style:normal;color:#ff5b97}.ds-h2::after{content:'';display:block;width:3.5rem;height:3px;background:#d82068;margin:.9rem auto 0}"
+    },
+    {
+      "name": "Why Card",
+      "kind": "card",
+      "refersTo": "card",
+      "description": "Dark grey card with a tone bar hanging from the top edge; title in the tone's text color.",
+      "html": "<div class=\"ds-card\"><h3>Yerel odak</h3><p>Denizli aramalarını bilen ekip.</p></div>",
+      "css": ".ds-card{position:relative;display:grid;gap:14px;justify-items:center;padding:2.4rem 1.6rem 2rem;text-align:center;background:#17171c;border:1px solid rgba(243,242,236,.16);border-radius:14px;color:#f3f2ec;font-family:Archivo,Arial,sans-serif}.ds-card::before{content:'';position:absolute;top:0;left:50%;width:5.5rem;height:6px;margin-left:-2.75rem;border-radius:0 0 6px 6px;background:#d82068}.ds-card h3{margin:0;font:740 1.5rem/1.15 Archivo,Arial,sans-serif;font-stretch:106%;color:#ff5b97}.ds-card p{margin:0;color:#c3cad6;max-width:34ch}"
+    },
+    {
+      "name": "Service Node Plate",
+      "kind": "custom",
+      "refersTo": "card",
+      "description": "Upper-case title plate with a flat tone bar on the left, as in the service map.",
+      "html": "<a class=\"ds-node\" href=\"#\">SEO</a>",
+      "css": ".ds-node{display:block;padding:.95rem 1rem;text-align:center;text-transform:uppercase;font:800 .9375rem Archivo,Arial,sans-serif;letter-spacing:.03em;color:#fff;text-decoration:none;background:#17171c;border:1px solid rgba(243,242,236,.16);border-radius:8px;box-shadow:inset 5px 0 0 #d82068}.ds-node:hover{background:#1f1f26}"
     },
     {
       "name": "Search Pill",
       "kind": "input",
       "refersTo": "input-field",
-      "description": "Hero search box with yellow submit.",
+      "description": "Hero search with a pink submit.",
       "html": "<div class=\"ds-search\"><input placeholder=\"denizli diş kliniği\"><button>Ara</button></div>",
-      "css": ".ds-search{display:flex;align-items:center;gap:10px;min-height:60px;padding:6px 8px 6px 20px;border-radius:999px;background:rgba(21,26,35,.86);border:1.5px solid rgba(243,242,236,.3);font-family:Archivo,Arial,sans-serif}.ds-search:focus-within{border-color:#eedc45;box-shadow:0 0 0 4px rgba(238,220,69,.2)}.ds-search input{flex:1;background:transparent;border:0;outline:0;color:#f3f2ec;font-size:1.125rem;font-weight:500}.ds-search button{min-height:44px;padding:0 1.5em;border:0;border-radius:999px;background:#eedc45;color:#0b0e13;font-weight:700;font-stretch:106%}"
+      "css": ".ds-search{display:flex;align-items:center;gap:10px;min-height:60px;padding:6px 8px 6px 20px;border-radius:999px;background:rgba(21,26,35,.86);border:1.5px solid rgba(243,242,236,.3);font-family:Archivo,Arial,sans-serif}.ds-search:focus-within{border-color:#ff5b97;box-shadow:0 0 0 4px rgba(216,32,104,.25)}.ds-search input{flex:1;min-width:0;border:0;background:transparent;color:#f3f2ec;font-size:1.125rem;font-weight:500;outline:0}.ds-search button{min-height:44px;padding:0 1.5em;border:0;border-radius:999px;background:#d82068;color:#fff;font:700 1rem Archivo,Arial,sans-serif;font-stretch:106%}"
     },
     {
-      "name": "Sector Chip",
+      "name": "Chip",
       "kind": "chip",
       "refersTo": "chip",
-      "description": "Quick search chip; yellow on hover/active.",
-      "html": "<button class=\"ds-chip\">Diş kliniği</button>",
-      "css": ".ds-chip{min-height:36px;padding:0 1em;border-radius:999px;border:1.5px solid rgba(243,242,236,.16);background:rgba(21,26,35,.6);color:#c3cad6;font:650 .875rem Archivo,Arial,sans-serif}.ds-chip:hover{border-color:#eedc45;color:#eedc45;background:rgba(238,220,69,.1)}"
+      "description": "Sector chip; hover or active turns pink.",
+      "html": "<button class=\"ds-chip\">Sağlık</button>",
+      "css": ".ds-chip{min-height:36px;padding:0 1em;font:650 .875rem Archivo,Arial,sans-serif;border-radius:999px;border:1.5px solid rgba(243,242,236,.16);background:rgba(21,26,35,.6);color:#c3cad6}.ds-chip:hover{border-color:#ff5b97;color:#ff5b97;background:rgba(216,32,104,.14)}.ds-chip:focus-visible{outline:3px solid #ff5b97;outline-offset:3px}"
     },
     {
-      "name": "Glass Card",
-      "kind": "card",
-      "refersTo": "card-glass",
-      "description": "Service card over the stage.",
-      "html": "<article class=\"ds-card\"><h3>Yerel SEO</h3><p>Haritada ve yakınımdaki aramalarında ilk üçe girmeniz için çalışırız.</p></article>",
-      "css": ".ds-card{padding:28px;border-radius:20px;background:rgba(21,26,35,.72);border:1px solid rgba(243,242,236,.16);backdrop-filter:blur(12px);color:#f3f2ec;font-family:Archivo,Arial,sans-serif}.ds-card:hover{border-color:rgba(238,220,69,.45)}.ds-card h3{margin:0 0 10px;font-size:1.5rem;font-weight:740;font-stretch:106%;letter-spacing:-.02em}.ds-card p{margin:0;color:#c3cad6}"
-    },
-    {
-      "name": "Result Row (you)",
-      "kind": "custom",
-      "refersTo": "result-you",
-      "description": "The visitor's row on the paper results chapter.",
-      "html": "<div class=\"ds-res\"><span class=\"ds-url\">siteniz.com.tr</span><b>Siteniz | Başlık</b></div>",
-      "css": ".ds-res{display:grid;gap:2px;padding:8px 18px;border-radius:14px;background:#0b0e13;color:#f3f2ec;font-family:Archivo,Arial,sans-serif}.ds-url{font-size:.8125rem;color:#c3cad6}.ds-res b{font-size:1.125rem;font-weight:650;color:#eedc45}"
+      "name": "Navigation Pill",
+      "kind": "nav",
+      "refersTo": "button-small",
+      "description": "Blurred link pill; the active link is a pink pill.",
+      "html": "<nav class=\"ds-nav\"><a class=\"active\" href=\"#\">Hizmetler</a><a href=\"#\">Projeler</a><a href=\"#\">İletişim</a></nav>",
+      "css": ".ds-nav{display:inline-flex;gap:2px;padding:5px;border-radius:999px;background:rgba(21,26,35,.78);border:1px solid rgba(243,242,236,.16);font-family:Archivo,Arial,sans-serif}.ds-nav a{padding:.55em 1.05em;border-radius:999px;text-decoration:none;font-size:.9375rem;font-weight:600;color:#f3f2ec}.ds-nav a:hover{background:rgba(255,255,255,.1)}.ds-nav a.active{background:#d82068;color:#fff}"
     }
   ],
   "narrative": {
     "northStar": "The Search Lens",
-    "overview": "A dark graphite room with one fixed three.js stage (chrome magnifier, link graph, dust) behind transparent chapters; the backdrop turns to search-results paper for the results chapter and back. Yellow is the one voice of action; blue is the web and the visitor's own district.",
+    "overview": "The owner supplied a dark agency reference (Trebuto) and asked the page to follow it everywhere except the magnifier animation (hero, lens chapter, results chapter) and the footer, which stay as designed. The result is a black page of dark grey cards with 1px light lines, hot pink as the action color, orange and purple as supporting accents, and one typeface. A single fixed three.js stage (chrome magnifier, link graph, recoloured to pink, purple and orange) runs behind the hero, lens and results chapters; the later sections are ordinary opaque-card sections on the black ground. The results chapter alone sits on paper.",
     "keyCharacteristics": [
-      "Dark ink ground, one paper chapter",
-      "Signal yellow for every action; blue only for links, web, home district",
-      "Archivo plus one Instrument Serif italic word per heading",
-      "Pill controls, glass cards with 1px light line",
-      "Stage degrades: reduced motion = still layout, no WebGL = page unchanged"
+      "Black ground (#0b0e13), grey cards (#17171c, #1f1f26) with a 1px light line.",
+      "Pink fills for action; each accent has a fill value and a lighter text value for use on dark.",
+      "One family: Archivo, variable weight and width. No serif, no italic, no monospace.",
+      "Section titles upper case, centered, with a short pink bar beneath.",
+      "Pill buttons; cards 8-20px radius; coloured top or side bars as the card signature.",
+      "Hero carries a pink/purple radial glow at the upper right.",
+      "The stage degrades: reduced motion gives a still layout; no WebGL leaves the page unchanged."
     ],
     "rules": [
-      {
-        "name": "The One Action Rule",
-        "body": "Yellow means act or selected and nothing else. Blue never fills a button.",
-        "section": "colors"
-      },
-      {
-        "name": "The Paper Chapter Rule",
-        "body": "Only the results chapter sits on paper; there the accent word is ink with a yellow highlighter underline.",
-        "section": "colors"
-      },
-      {
-        "name": "The Labelled Sample Rule",
-        "body": "Any illustrative ranking, number or result is labelled Örnek gösterim.",
-        "section": "colors"
-      },
-      {
-        "name": "The Two Families Rule",
-        "body": "Archivo plus Instrument Serif italic; no third family, no monospace.",
-        "section": "typography"
-      },
-      {
-        "name": "The One Italic Rule",
-        "body": "One em accent word per heading.",
-        "section": "typography"
-      },
-      {
-        "name": "The 13px Floor Rule",
-        "body": "Nothing renders under 13px.",
-        "section": "typography"
-      },
-      {
-        "name": "The Two Lines Rule",
-        "body": "Headings run at most two lines.",
-        "section": "typography"
-      },
-      {
-        "name": "The No Eyebrow Rule",
-        "body": "No kicker above a heading.",
-        "section": "typography"
-      },
-      {
-        "name": "The Glass Over Stage Rule",
-        "body": "Cards are translucent so the stage shows through.",
-        "section": "elevation"
-      },
-      {
-        "name": "The Soft Shadow Rule",
-        "body": "Large, offset-down, negative-spread black shadows; no hard offset shadows.",
-        "section": "elevation"
-      }
+      { "name": "The Pink Action Rule", "body": "Pink fills mean \"act or selected\". Orange is a second button color only for the \"see more\" actions; purple never fills a button.", "section": "colors" },
+      { "name": "The Text Value Rule", "body": "On dark, accent colors appear as text only in their -text value, never the fill value.", "section": "colors" },
+      { "name": "The Paper Chapter Rule", "body": "Only the results chapter sits on paper; there the accent word is ink with a pale pink (#ffc2d9) underline highlight.", "section": "colors" },
+      { "name": "The Labelled Sample Rule", "body": "Illustrative rankings, numbers and results are labelled \"Örnek gösterim\".", "section": "colors" },
+      { "name": "The One Family Rule", "body": "Archivo only; no serif, italic, monospace or third face.", "section": "typography" },
+      { "name": "The Upper-Case Title Rule", "body": "Section titles are upper case with one pink word; hero and the lens, results and closing headings are sentence case.", "section": "typography" },
+      { "name": "The 13px Floor Rule", "body": "Nothing renders under 13px.", "section": "typography" },
+      { "name": "The Two Lines Rule", "body": "Headings run at most two lines (text-wrap: balance, ch max-width, smaller step on phones).", "section": "typography" },
+      { "name": "The Tonal Card Rule", "body": "Cards are solid grey on black and separated by a 1px line, not by shadow.", "section": "elevation" },
+      { "name": "The Soft Shadow Rule", "body": "Shadows are large, offset-down, negative-spread, black; no hard offset shadows.", "section": "elevation" }
     ],
     "dos": [
-      "Do label the primary action Ücretsiz SEO analizi iste (opens WhatsApp with a written message) and use the brand name Denizli SEO.",
-      "Do label every illustrative figure or result Örnek gösterim.",
+      "Do use the brand name \"Denizli SEO\" and the primary label \"Ücretsiz SEO analizi iste\" everywhere.",
+      "Do label every illustrative figure, ranking or result \"Örnek gösterim\".",
       "Do keep the © OpenStreetMap credit on the map and in the footer.",
-      "Do use only real content: six real project screenshots and Google rating 5,0 from 28 reviews.",
-      "Do keep headings to two lines with one serif accent word.",
-      "Do keep a 3px yellow focus ring and 44px minimum targets.",
-      "Do degrade the stage: reduced motion gives a still layout with a static frame; no WebGL leaves the page unchanged."
+      "Do use only real content: project screenshots and names, and the Google rating 5,0 from 28 reviews.",
+      "Do keep headings to two lines, with the smaller title step on phones.",
+      "Do keep the visible 3px pink focus ring and 44px minimum targets.",
+      "Do degrade the stage: reduced motion gives a still layout; no WebGL leaves the page unchanged."
     ],
     "donts": [
-      "Don't invent testimonials, logos, statistics, case studies, awards or guarantees.",
-      "Don't add a third font, monospace, or eyebrow text.",
+      "Don't invent testimonials, client or partner logos, statistics, case studies, awards or ranking guarantees; the reference's versions were deliberately not copied.",
+      "Don't add a second typeface, italic, monospace or an eyebrow above a heading.",
       "Don't set text below 13px.",
-      "Don't use blue as a button color or yellow text on the paper chapter.",
-      "Don't put opaque slabs over the stage where a glass card fits."
+      "Don't fill a button with purple, or use a fill-value accent as small text on dark.",
+      "Don't use hard offset shadows."
     ]
   }
 }

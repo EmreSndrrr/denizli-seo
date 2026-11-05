@@ -1,0 +1,24 @@
+---
+// "Who are we": a real project shown through a magnifier-shaped window, and a few plain facts.
+import { Image } from 'astro:assets';
+import Icon from '../Icon.astro';
+import { PROJECTS } from '../../data/projects';
+import { SITE } from '../../data/site';
+const shot = PROJECTS.find((p) => p.name === 'Balkan Endüstriyel Mutfak')!;
+---
+<section class="about" id="biz" aria-labelledby="biz-baslik">
+  <div class="wrap about-in">
+    <div class="about-pic reveal">
+      <span class="about-lens" aria-hidden="true"><Image src={shot.shot!} alt="" widths={[600, 900]} sizes="(max-width: 900px) 80vw, 40vw" loading="lazy" /></span>
+    </div>
+    <div class="about-copy reveal">
+      <h2 class="h2" id="biz-baslik">Biz <em>kimiz</em> ?</h2>
+      <p class="lede">Denizli SEO, Pamukkale’deki {SITE.parent.name}’ın arama motoru optimizasyonu markasıdır. Site, arama sırası ve reklamı tek ekipte yürütür; her ay rakamla rapor veririz. Muhatabınız {SITE.person}.</p>
+      <ul class="about-facts">
+        <li><span class="why-icon"><Icon name="team" size={22} /></span><span><b>Tek ekip</b>Site, SEO ve reklam bir arada; kanallar birbirini besler.</span></li>
+        <li><span class="why-icon"><Icon name="pin" size={22} /></span><span><b>Yerel odak</b>Denizli’nin 19 ilçesi ve Google Haritalar.</span></li>
+      </ul>
+      <a class="btn btn-ghost" href="/hakkimizda/">Hakkımızda<Icon name="arrow" size={18} /></a>
+    </div>
+  </div>
+</section>

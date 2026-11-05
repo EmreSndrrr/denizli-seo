@@ -12,10 +12,17 @@ const toggles = [
 ];
 ---
 <section class="dmap" id="denizli" aria-labelledby="denizli-baslik">
+  <div class="wrap">
+    <div class="sec-head reveal">
+      <h2 class="h2" id="denizli-baslik">Denizli’nin <em>19</em> ilçesi, 19 ayrı arama</h2>
+      <p class="lede">Merkezefendi’den yapılan aramayla Çivril’den yapılan aynı sonucu göstermez. Haritadaki her sütun bir ilçe; sütun yükseldikçe o ilçede daha üst sıradasınız. Hepsinde çalışırız.</p>
+    </div>
+    <ul class="pins reveal" aria-label="Çalıştığımız ilçeler">
+      {DISTRICTS.map((d) => <li><span class="pin" aria-hidden="true"></span>{d}</li>)}
+    </ul>
+  </div>
   <div class="wrap dmap-in">
     <div class="dmap-copy reveal">
-      <h2 class="h2" id="denizli-baslik">Denizli’nin <em>19</em> ilçesi, 19 ayrı arama.</h2>
-      <p class="lede">Merkezefendi’den yapılan aramayla Çivril’den yapılan aynı sonucu göstermez. Haritadaki her sütun bir ilçe; sütun yükseldikçe o ilçede daha üst sıradasınız.</p>
       <form class="dmap-ctl" data-dmap-form onsubmit="return false" aria-label="Harita denemesi">
         <div class="dmap-pair">
           <label for="dmap-trade"><span>İşiniz</span><input id="dmap-trade" name="trade" value={trade} autocomplete="off" maxlength="40"></label>

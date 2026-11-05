@@ -11,7 +11,7 @@ export interface Stage {
   setQuery(q: string, title: string): void;
 }
 
-const YELLOW = 0xeedc45, BLUE = 0x7e97ff, DEEP = 0x2c46c8;
+const PINK = 0xff3d85, ORANGE = 0xff6a1f, PURPLE = 0x9b4dff, DEEP = 0x6a17c6;
 
 /* ---------- small helpers ---------- */
 function dotTexture(inner: string, outer: string) {
@@ -39,10 +39,10 @@ function buildEnv(r: THREE.WebGLRenderer) {
     env.add(mesh);
   };
   panel(12, 2.4, 0xfbfaf6, 3.2, [0, 6.5, 2]);
-  panel(2.6, 10, BLUE, 2.4, [-6.5, 0, 1.5]);
-  panel(2.2, 8, YELLOW, 1.7, [6.5, 1, -1]);
+  panel(2.6, 10, PINK, 2.4, [-6.5, 0, 1.5]);
+  panel(2.2, 8, ORANGE, 1.7, [6.5, 1, -1]);
   panel(9, 1.1, 0xfbfaf6, 2.2, [0, -1.8, 6.5]);
-  panel(14, 3, DEEP, 0.7, [0, -6.5, -1]);
+  panel(14, 3, PURPLE, 0.8, [0, -6.5, -1]);
   const pm = new THREE.PMREMGenerator(r);
   const tex = pm.fromScene(env, 0.02).texture;
   pm.dispose();
@@ -122,7 +122,7 @@ function drawFace(canvas: HTMLCanvasElement, q: string, title: string) {
   g.fillStyle = 'rgba(11,14,19,0.62)';
   g.beginPath(); g.arc(W / 2, W / 2, W / 2, 0, Math.PI * 2); g.fill();
   g.textAlign = 'center';
-  g.fillStyle = '#eedc45';
+  g.fillStyle = '#ff5b97';
   g.font = '800 200px Archivo, Arial, sans-serif';
   g.fillText('#1', W / 2, W * 0.5);
   g.fillStyle = '#f3f2ec';
@@ -141,12 +141,12 @@ function tagTexture(label: string, hot: boolean) {
   const c = document.createElement('canvas');
   c.width = 256; c.height = 128;
   const g = c.getContext('2d')!;
-  g.fillStyle = hot ? '#eedc45' : 'rgba(243,242,236,0.92)';
+  g.fillStyle = hot ? '#d82068' : 'rgba(243,242,236,0.92)';
   const r = 52, x = 28, y = 24, w = 200, h = 80;
   g.beginPath();
   g.moveTo(x + r, y); g.arcTo(x + w, y, x + w, y + h, r); g.arcTo(x + w, y + h, x, y + h, r); g.arcTo(x, y + h, x, y, r); g.arcTo(x, y, x + w, y, r);
   g.fill();
-  g.fillStyle = '#0b0e13';
+  g.fillStyle = hot ? '#ffffff' : '#0b0e13';
   g.font = '800 54px Archivo, Arial, sans-serif';
   g.textAlign = 'center'; g.textBaseline = 'middle';
   g.fillText(label, 128, 66);
@@ -188,7 +188,7 @@ export function createStage(canvas: HTMLCanvasElement, mobile: () => boolean): S
   // glass, a glowing inner rim, and the face it magnifies
   const disc = new THREE.Mesh(new THREE.CircleGeometry(0.86, 96), new THREE.MeshPhysicalMaterial({ color: 0xbfd0ff, metalness: 0, roughness: 0.03, clearcoat: 1, transparent: true, opacity: 0.16, envMapIntensity: 1.6, side: THREE.DoubleSide, depthWrite: false }));
   lens.add(disc);
-  const rim = new THREE.Mesh(new THREE.RingGeometry(0.8, 0.86, 96), new THREE.MeshBasicMaterial({ color: BLUE, transparent: true, opacity: 0.5, blending: THREE.AdditiveBlending, depthWrite: false, toneMapped: false }));
+  const rim = new THREE.Mesh(new THREE.RingGeometry(0.8, 0.86, 96), new THREE.MeshBasicMaterial({ color: PURPLE, transparent: true, opacity: 0.55, blending: THREE.AdditiveBlending, depthWrite: false, toneMapped: false }));
   rim.position.z = 0.01;
   lens.add(rim);
   const faceCanvas = document.createElement('canvas');
@@ -204,7 +204,7 @@ export function createStage(canvas: HTMLCanvasElement, mobile: () => boolean): S
   const redrawFace = () => { drawFace(faceCanvas, faceQ, faceT); faceTex.needsUpdate = true; };
   redrawFace();
   if (document.fonts && document.fonts.ready) document.fonts.ready.then(redrawFace);
-  const glow = new THREE.Sprite(new THREE.SpriteMaterial({ map: dotTexture('rgba(126,151,255,0.55)', 'rgba(126,151,255,0.14)'), blending: THREE.AdditiveBlending, depthWrite: false, transparent: true }));
+  const glow = new THREE.Sprite(new THREE.SpriteMaterial({ map: dotTexture('rgba(216,32,104,0.5)', 'rgba(138,31,224,0.14)'), blending: THREE.AdditiveBlending, depthWrite: false, transparent: true }));
   glow.scale.set(6.5, 6.5, 1); glow.position.z = -1;
   lens.add(glow);
   // rank tags that orbit the lens
@@ -247,11 +247,11 @@ export function createStage(canvas: HTMLCanvasElement, mobile: () => boolean): S
   });
   const wg = new THREE.BufferGeometry();
   wg.setAttribute('position', new THREE.Float32BufferAttribute(seg, 3));
-  const webMat = new THREE.LineBasicMaterial({ color: BLUE, transparent: true, opacity: 0.16, depthWrite: false });
+  const webMat = new THREE.LineBasicMaterial({ color: PURPLE, transparent: true, opacity: 0.16, depthWrite: false });
   dust.add(new THREE.LineSegments(wg, webMat));
   const ng = new THREE.BufferGeometry().setFromPoints(nodes);
   ng.setAttribute('aSeed', new THREE.BufferAttribute(Float32Array.from(nodes, () => Math.random()), 1));
-  const nodeMat = pointMaterial(YELLOW, 0.13, 0.85);
+  const nodeMat = pointMaterial(PINK, 0.13, 0.85);
   dust.add(new THREE.Points(ng, nodeMat));
   // light that travels along the links
   const P = edges.length;
@@ -268,7 +268,7 @@ export function createStage(canvas: HTMLCanvasElement, mobile: () => boolean): S
   pg.setAttribute('aSpeed', new THREE.BufferAttribute(psp, 1));
   const pulseMat = new THREE.ShaderMaterial({
     vertexShader: PULSE_VERT, fragmentShader: PULSE_FRAG, transparent: true, depthWrite: false, blending: THREE.AdditiveBlending,
-    uniforms: { uTime: { value: 0 }, uSize: { value: 0.16 }, uScale: { value: 400 }, uColor: { value: new THREE.Color(YELLOW) }, uOpacity: { value: 0.9 } },
+    uniforms: { uTime: { value: 0 }, uSize: { value: 0.16 }, uScale: { value: 400 }, uColor: { value: new THREE.Color(ORANGE) }, uOpacity: { value: 0.9 } },
   });
   const pulses = new THREE.Points(pg, pulseMat);
   pulses.frustumCulled = false;
@@ -320,7 +320,7 @@ export function createStage(canvas: HTMLCanvasElement, mobile: () => boolean): S
       const ang = g.ph + t * g.sp;
       g.s.position.set(Math.cos(ang) * g.rx, Math.sin(ang) * g.ry, Math.sin(ang * 1.3 + i) * 0.7 + 0.3);
       g.s.getWorldPosition(tmp).project(camera);
-      const side = mobile() ? 1 : smooth(0.0, 0.3, tmp.x);
+      const side = mobile() ? 1 - smooth(0.62, 0.9, Math.abs(tmp.x)) : smooth(0.18, 0.48, tmp.x);
       g.s.material.opacity = glass * clamp(st.s * 1.6 - 0.3, 0, 1) * away * side;
     });
     // dust, nodes and pulses
@@ -334,11 +334,11 @@ export function createStage(canvas: HTMLCanvasElement, mobile: () => boolean): S
     dustMat.uniforms.uOpacity.value = st.pOp;
     dustMat.uniforms.uColor.value.copy(colLight).lerp(colDark, clamp(st.pTint, 0, 1));
     nodeMat.uniforms.uOpacity.value = 0.85 * (1 - paper * 0.2);
-    nodeMat.uniforms.uColor.value.set(paper > 0.5 ? DEEP : YELLOW);
+    nodeMat.uniforms.uColor.value.set(paper > 0.5 ? DEEP : PINK);
     pulseMat.uniforms.uTime.value = t;
     pulseMat.uniforms.uOpacity.value = 0.9 * (1 - paper);
     webMat.opacity = 0.16 * (1 - paper * 0.4);
-    webMat.color.set(paper > 0.5 ? DEEP : BLUE);
+    webMat.color.set(paper > 0.5 ? DEEP : PURPLE);
     dust.rotation.y = t * 0.012;
     dust.rotation.x = Math.sin(t * 0.05) * 0.03;
     renderer.render(scene, camera);

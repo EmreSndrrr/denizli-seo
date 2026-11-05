@@ -1,0 +1,13 @@
+---
+// A band between the projects and the story: one line and one button. The button opens WhatsApp.
+import { WA_ANALYSIS, CTA_LABEL } from '../../data/site';
+---
+<section class="chat" aria-labelledby="sohbet-baslik">
+  <div class="wrap chat-in">
+    <div class="chat-copy reveal">
+      <h2 id="sohbet-baslik">Ücretsiz görüşmeye <em>başlayın</em></h2>
+      <p>Ne iş yaptığınızı yazın; aramanızda nerede çıktığınızı birlikte ölçelim ve ihtiyacınız olanı yazılı plana dökelim.</p>
+    </div>
+    <a class="btn btn-white" href={WA_ANALYSIS} rel="noopener">{CTA_LABEL}</a>
+  </div>
+</section>
