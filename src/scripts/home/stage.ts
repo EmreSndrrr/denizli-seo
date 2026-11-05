@@ -164,12 +164,12 @@ let faceQ = 'denizli diş kliniği', faceT = 'Kliniğiniz | İmplant, Ortodonti 
 function makeLens(withTags: boolean) {
   const chrome = new THREE.MeshPhysicalMaterial({ color: 0xffffff, metalness: 1, roughness: 0.12, clearcoat: 1, clearcoatRoughness: 0.05, envMapIntensity: 1.35 });
   const lens = new THREE.Group();
-  lens.add(new THREE.Mesh(new THREE.TorusGeometry(1, 0.17, 64, 160), chrome));
+  lens.add(new THREE.Mesh(new THREE.TorusGeometry(1, 0.17, 48, 128), chrome));
   const a = -Math.PI / 4;
   const dir = new THREE.Vector3(Math.cos(a), Math.sin(a), 0);
-  const collar = new THREE.Mesh(new THREE.CylinderGeometry(0.21, 0.21, 0.26, 48), chrome);
+  const collar = new THREE.Mesh(new THREE.CylinderGeometry(0.21, 0.21, 0.26, 32), chrome);
   collar.position.copy(dir).multiplyScalar(1.25); collar.rotation.z = a + Math.PI / 2;
-  const handle = new THREE.Mesh(new THREE.CylinderGeometry(0.15, 0.17, 1.35, 48), chrome);
+  const handle = new THREE.Mesh(new THREE.CylinderGeometry(0.15, 0.17, 1.35, 32), chrome);
   handle.position.copy(dir).multiplyScalar(2.02); handle.rotation.z = a + Math.PI / 2;
   const cap = new THREE.Mesh(new THREE.SphereGeometry(0.17, 32, 16), chrome);
   cap.position.copy(dir).multiplyScalar(2.7);
@@ -183,9 +183,9 @@ function makeLens(withTags: boolean) {
     lens.add(ring);
   }
   // glass, a glowing inner rim, and the face it magnifies
-  const disc = new THREE.Mesh(new THREE.CircleGeometry(0.86, 96), new THREE.MeshPhysicalMaterial({ color: 0xbfd0ff, metalness: 0, roughness: 0.03, clearcoat: 1, transparent: true, opacity: 0.16, envMapIntensity: 1.6, side: THREE.DoubleSide, depthWrite: false }));
+  const disc = new THREE.Mesh(new THREE.CircleGeometry(0.86, 64), new THREE.MeshPhysicalMaterial({ color: 0xbfd0ff, metalness: 0, roughness: 0.03, clearcoat: 1, transparent: true, opacity: 0.16, envMapIntensity: 1.6, side: THREE.DoubleSide, depthWrite: false }));
   lens.add(disc);
-  const rim = new THREE.Mesh(new THREE.RingGeometry(0.8, 0.86, 96), new THREE.MeshBasicMaterial({ color: PURPLE, transparent: true, opacity: 0.55, blending: THREE.AdditiveBlending, depthWrite: false, toneMapped: false }));
+  const rim = new THREE.Mesh(new THREE.RingGeometry(0.8, 0.86, 64), new THREE.MeshBasicMaterial({ color: PURPLE, transparent: true, opacity: 0.55, blending: THREE.AdditiveBlending, depthWrite: false, toneMapped: false }));
   rim.position.z = 0.01;
   lens.add(rim);
   const faceCanvas = document.createElement('canvas');
@@ -193,7 +193,7 @@ function makeLens(withTags: boolean) {
   const faceTex = new THREE.CanvasTexture(faceCanvas);
   faceTex.colorSpace = THREE.SRGBColorSpace;
   faceTex.anisotropy = 4;
-  const face = new THREE.Mesh(new THREE.CircleGeometry(0.84, 96), new THREE.MeshBasicMaterial({ map: faceTex, transparent: true, depthWrite: false, toneMapped: false }));
+  const face = new THREE.Mesh(new THREE.CircleGeometry(0.84, 64), new THREE.MeshBasicMaterial({ map: faceTex, transparent: true, depthWrite: false, toneMapped: false }));
   face.position.z = -0.14;
   face.scale.setScalar(1.04);
   lens.add(face);
@@ -235,6 +235,7 @@ export function createStage(canvas: HTMLCanvasElement, frontCanvas: HTMLCanvasEl
     try {
       const r2 = new THREE.WebGLRenderer({ canvas: frontCanvas, antialias: true, alpha: true, powerPreference: 'high-performance' });
       r2.setClearColor(0x000000, 0);
+      r2.setScissorTest(true);
       r2.toneMapping = THREE.ACESFilmicToneMapping;
       r2.toneMappingExposure = 1.05;
       const s2 = new THREE.Scene();
@@ -316,7 +317,7 @@ export function createStage(canvas: HTMLCanvasElement, frontCanvas: HTMLCanvasEl
 
   function resize() {
     const w = canvas.clientWidth || innerWidth, h = canvas.clientHeight || innerHeight;
-    renderer.setPixelRatio(Math.min(window.devicePixelRatio || 1, mobile() ? 1.25 : 1.6));
+    renderer.setPixelRatio(Math.min(window.devicePixelRatio || 1, mobile() ? 1.1 : 1.3));
     renderer.setSize(w, h, false);
     camera.aspect = w / h;
     camera.updateProjectionMatrix();
@@ -326,7 +327,7 @@ export function createStage(canvas: HTMLCanvasElement, frontCanvas: HTMLCanvasEl
     const halfH = 8.5 * Math.tan(THREE.MathUtils.degToRad(camera.fov / 2));
     for (const m of pointMats) m.uniforms.uHalf.value.set(halfH * camera.aspect, halfH);
     if (front && frontCanvas) {
-      front.renderer.setPixelRatio(Math.min(window.devicePixelRatio || 1, mobile() ? 1.25 : 1.6));
+      front.renderer.setPixelRatio(Math.min(window.devicePixelRatio || 1, mobile() ? 1.5 : 1.75));
       front.renderer.setSize(frontCanvas.clientWidth || w, frontCanvas.clientHeight || h, false);
       front.camera.aspect = (frontCanvas.clientWidth || w) / (frontCanvas.clientHeight || h);
       front.camera.updateProjectionMatrix();
@@ -373,10 +374,11 @@ export function createStage(canvas: HTMLCanvasElement, frontCanvas: HTMLCanvasEl
     camera.position.set(st.cx + smoothPtr.x * 0.18 * sw, st.cy - smoothPtr.y * 0.12 * sw, st.cz);
     camera.lookAt(st.lx, st.ly, st.lz);
     const hPx = canvas.clientHeight || innerHeight;
-    const veil = clamp(st.veil, 0, 1);
 
     // the background lens follows the keyframes (and travels itself when there is no front layer)
     const sMain = pose(main, camera, hPx, st, t, sw, front ? null : anchor);
+    // once the front lens has taken over, the background lens is gone for good (its eased state must not show)
+    if (front && anchor.w > 0.5) main.lens.visible = false;
     const glass = clamp(st.glass, 0, 1);
     glassOf(main, glass, t, clamp(st.glow, 0, 1.4) * 0.85);
     // the tags keep off the page text: they fade where they would cross the left column, and once the
@@ -397,11 +399,11 @@ export function createStage(canvas: HTMLCanvasElement, frontCanvas: HTMLCanvasEl
       m.uniforms.uCamZ.value = Math.max(1, st.cz);
       m.uniforms.uPush.value = pushAmt;
     }
-    dustMat.uniforms.uOpacity.value = st.pOp * veil;
-    nodeMat.uniforms.uOpacity.value = 0.85 * veil;
+    dustMat.uniforms.uOpacity.value = st.pOp;
+    nodeMat.uniforms.uOpacity.value = 0.85;
     pulseMat.uniforms.uTime.value = t;
-    pulseMat.uniforms.uOpacity.value = 0.9 * veil;
-    webMat.opacity = 0.16 * veil;
+    pulseMat.uniforms.uOpacity.value = 0.9;
+    webMat.opacity = 0.16;
     dust.rotation.y = t * 0.012;
     dust.rotation.x = Math.sin(t * 0.05) * 0.03;
     renderer.render(scene, camera);
@@ -412,7 +414,12 @@ export function createStage(canvas: HTMLCanvasElement, frontCanvas: HTMLCanvasEl
       if (on !== frontOn) { frontOn = on; frontCanvas.style.visibility = on ? 'visible' : 'hidden'; }
       if (on) {
         pose(front.kit, front.camera, frontCanvas.clientHeight || innerHeight, st, t, sw, anchor);
-        glassOf(front.kit, 1, t, 0.4 * anchor.w);
+        glassOf(front.kit, anchor.glass, t, 0.4 * anchor.glass);
+        // only the box around the lens (ring and handle) is cleared and drawn; the rest of the canvas stays clear
+        const cw = frontCanvas.clientWidth || innerWidth, ch = frontCanvas.clientHeight || innerHeight;
+        const px = (anchor.x * 0.5 + 0.5) * cw, py = (0.5 - anchor.y * 0.5) * ch, half = anchor.r * 3.3;
+        const x0 = Math.max(0, Math.floor(px - half)), y0 = Math.max(0, Math.floor(ch - py - half));
+        front.renderer.setScissor(x0, y0, Math.min(cw, Math.ceil(px + half)) - x0, Math.min(ch, Math.ceil(ch - py + half)) - y0);
         front.renderer.render(front.scene, front.camera);
       }
     }

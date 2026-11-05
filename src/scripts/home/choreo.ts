@@ -4,7 +4,7 @@
 // the ring of the "Biz kimiz" section.
 import { $, clamp, smooth, isMobile } from './util';
 
-export const FIELDS = ['cx', 'cy', 'cz', 'lx', 'ly', 'lz', 'vx', 'vy', 'vz', 'rx', 'ry', 's', 'sway', 'pOp', 'glow', 'glass', 'veil'] as const;
+export const FIELDS = ['cx', 'cy', 'cz', 'lx', 'ly', 'lz', 'vx', 'vy', 'vz', 'rx', 'ry', 's', 'sway', 'pOp', 'glow', 'glass'] as const;
 export type Field = (typeof FIELDS)[number];
 export type StageState = Record<Field, number>;
 type Key = StageState & { y: number };
@@ -47,19 +47,15 @@ export function buildKeys() {
   };
 
   // Hero: on phones the lens stays high so it never covers the buttons or the search box
-  k(0, { cx: 0, cy: 0, cz: 8.5, lx: 0, ly: 0, lz: 0, vx: m ? 0 : 2.1, vy: m ? 1.85 : 0.12, vz: m ? -1.6 : 0, rx: 0.28, ry: -0.7, s: m ? 0.56 : 1, sway: 1, pOp: 0.9, glow: 1, glass: 1, veil: 1 });
+  k(0, { cx: 0, cy: 0, cz: 8.5, lx: 0, ly: 0, lz: 0, vx: m ? 0 : 2.1, vy: m ? 1.85 : 0.12, vz: m ? -1.6 : 0, rx: 0.28, ry: -0.7, s: m ? 0.56 : 1, sway: 1, pOp: 0.9, glow: 1, glass: 1 });
   k(M.lens.t * 0.6, { vx: m ? 0 : 1.1, vy: m ? 1.25 : 0.05, s: m ? 0.65 : 1.02 });
   k(M.lens.t, { cy: 0, cz: 8, vx: 0, vy: 0, vz: 0, rx: 0.06, ry: 0, s: m ? 0.86 : 1.05, sway: 0.45 });
   k(M.lens.t + L * 0.5, { cz: 3.4, lz: -5, rx: 0, sway: 0.1, glow: 1.25 });
   k(M.lens.t + L * 0.76, { cz: 1.8, lz: -9, sway: 0, glass: 0, glow: 0 });
-  // the dive ends in the dark: the scene fades out while the camera passes through the lens
-  k(M.lens.t + L * 0.89, { cz: -1.8, lz: -12, veil: 0 });
-  // a cut, hidden by that fade: back outside, the lens gone (it returns through lensAnchor)
-  k(M.lens.t + L * 0.89, { cx: 0, cy: 0, cz: 9, lx: 0, ly: 0, lz: 0, vx: 0, vy: 0, vz: 0, rx: 0.3, ry: -0.7, s: 0, sway: 1, pOp: 0.55, glow: 0.5, glass: 1, veil: 0 });
-  k(M.lens.t + L + H * 0.5, { veil: 1 });
-  // the lens comes back beside the footer wordmark on wide screens
-  k(M.end - H * 0.42, { s: 0, vx: 2.85, vy: -1.05, vz: -1.5, ry: -0.9, glow: 0, sway: 1 });
-  k(M.end, { s: m ? 0 : 0.62, glow: 0.85, ry: 0.2 });
+  // hand-over: here the background lens is gone and the front lens (lensAnchor) takes its place at the same
+  // size and spot, so the lens never blinks out; meanwhile the camera pulls back out of the dive
+  k(M.lens.t + L * 0.76, { s: 0 });
+  k(M.lens.t + L * 0.95, { cx: 0, cy: 0, cz: 9, lx: 0, ly: 0, lz: 0, rx: 0.3, ry: -0.7, sway: 1, pOp: 0.55, glow: 0.5, glass: 1 });
   KEYS = keys;
 }
 
@@ -92,33 +88,37 @@ export const firstKey = () => KEYS[0];
 /* ---------- the travelling magnifier ---------- */
 
 // Screen-space target of the magnifier: x and y in normalised device coordinates, r the radius of its ring
-// in CSS pixels, w how much it is on stage (0 hidden, 1 fully), settle how far it has come to rest in the
-// "Biz kimiz" ring, rz a roll that turns it while it travels.
-export interface Anchor { x: number; y: number; r: number; w: number; settle: number; rz: number }
-export const NO_ANCHOR: Anchor = { x: 0, y: 0, r: 0, w: 0, settle: 0, rz: 0 };
+// in CSS pixels, w whether it is on stage, settle how far it has come to rest in the "Biz kimiz" ring, rz a roll
+// that turns it while it travels, glass how much of its glass and face shows.
+export interface Anchor { x: number; y: number; r: number; w: number; settle: number; rz: number; glass: number }
+export const NO_ANCHOR: Anchor = { x: 0, y: 0, r: 0, w: 0, settle: 0, rz: 0, glass: 0 };
 
+// One unbroken path. It starts where the dive through the lens ends (a ring bigger than the screen, in the middle),
+// shrinks and flies out to the edge of the page, swings from one edge to the other and back while the sections go
+// by, comes to rest in the ring of "Biz kimiz", lets go again and keeps travelling to the end of the page.
 export function lensAnchor(y: number): Anchor {
   const m = isMobile(), H = M.H, a = M.about;
-  const t0 = M.lens.t + Math.max(1, M.lens.h - H);               // the lens chapter is over
-  const u = Math.max(0, (y - t0) / H);                            // screens travelled since
-  const appear = smooth(t0 - H * 0.05, t0 + H * 0.45, y);
-  const settle = smooth(a.t - H * 1.3, a.t - H * 0.1, y);
-  const leave = smooth(a.t + a.h - H * 0.6, a.t + a.h - H * 0.1, y);
-  // on the way it swings from one edge of the page to the other and back; on phones it stays out of the text
-  const gx = (m ? 0.82 : 0.9) * Math.cos(u * 1.6);
+  const L = Math.max(1, M.lens.h - H);
+  const hand = M.lens.t + L * 0.76;                               // the hand-over from the background lens
+  const land = M.lens.t + L + H * 0.45;                           // out on the page
+  const f = smooth(hand, land, y);
+  const u = Math.max(0, (y - land) / H);                          // screens travelled since
+  const gx = (m ? 0.8 : 0.9) * Math.cos(u * 1.6);
   const gy = -0.1 + 0.2 * Math.sin(u * 2.1 + 1);
-  const gr = m ? 30 : 50;
-  let x = gx, yy = gy, r = gr;
-  if (ring) {
+  const gr = m ? 28 : 50;
+  // the ring of the dive as the background lens shows it at the hand-over (camera 1.8 in front of a lens of scale s)
+  const r0 = (m ? 0.86 : 1.05) * 1.17 * (H / 2) / (1.8 * Math.tan((35 / 2) * Math.PI / 180));
+  let x = gx * f, yy = gy * f, r = Math.exp(Math.log(r0) + (Math.log(gr) - Math.log(r0)) * f);
+  const rest = smooth(a.t - H * 1.3, a.t - H * 0.1, y) * (1 - smooth(a.t + a.h - H * 0.9, a.t + a.h - H * 0.2, y));
+  if (ring && rest > 0) {
     const b = ring.getBoundingClientRect();
     const ax = ((b.left + b.width / 2) / innerWidth) * 2 - 1;
     const ay = -(((b.top + b.height / 2) / innerHeight) * 2 - 1);
-    x = gx + (ax - gx) * settle;
-    yy = gy + (ay - gy) * settle;
-    r = gr + (b.width / 2 - gr) * settle;
+    x += (ax - x) * rest;
+    yy += (ay - yy) * rest;
+    r += (b.width / 2 - r) * rest;
   }
-  const show = m ? smooth(0.25, 0.85, settle) : 1;
-  return { x, y: yy, r, w: appear * (1 - leave) * show, settle, rz: Math.sin(u * 1.3) * 0.5 * (1 - settle) };
+  return { x, y: yy, r, w: smooth(hand - 2, hand, y), settle: rest, rz: Math.sin(u * 1.3) * 0.5 * (1 - rest) * f, glass: smooth(0.25, 0.85, f) };
 }
 
 export { clamp };

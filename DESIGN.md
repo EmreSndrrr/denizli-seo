@@ -168,7 +168,7 @@ Scope: the whole site. `src/styles/home.css` (tokens, base, bar, hero, lens chap
 
 The owner supplied a dark agency reference (Trebuto) and asked the page to follow it everywhere except the magnifier animation (hero, lens chapter, the journey to the "Biz kimiz" ring) and the footer, which stay as designed. The result is a black page of dark grey cards with 1px light lines, hot pink as the action color, orange and purple as supporting accents, and one typeface. A single fixed three.js stage (chrome magnifier, link graph, recoloured to pink, purple and orange) runs behind the page; a second, lens-only canvas above the content (`#lens-front`, never intercepts a click) lets the magnifier travel over the later sections, which are ordinary opaque-card sections on the black ground. The page never changes colour: there is no paper or white section.
 
-Sections run in this order: hero (search box, chips, marquee), lens, "Ne yapıyoruz ?" service map (five groups, then a button to the services page), "Farkımız ne ?" five cards, "Nasıl çalışıyoruz ?" timeline, projects carousel, free-chat band, "Biz kimiz ?" (an empty ring where the magnifier lands; a still brand magnifier when WebGL is off or motion is reduced), Google rating orbit, brands grid, the 3D relief map of Denizli (controls left, map card right, no heading), FAQ, closing form, footer.
+Sections run in this order: hero (search box, chips, marquee), lens, "Ne yapıyoruz ?" service map (five groups, then a button to the services page), "Farkımız ne ?" five cards, "Nasıl çalışıyoruz ?" timeline, projects carousel, free-chat band, "Biz kimiz ?" (an empty ring where the magnifier lands; a still brand magnifier when WebGL is off or motion is reduced), Google rating orbit, brands grid, the map chapter (Türkiye zooming into Denizli, then the 3D relief with the 19 district names; no heading, no controls), FAQ, closing form, footer.
 
 **Key Characteristics:**
 - Black ground (#0b0e13), grey cards (#17171c, #1f1f26) with a 1px `rgba(243,242,236,.16)` line.
@@ -194,7 +194,7 @@ Black and grey neutrals, one pink voice for action, orange and purple as support
 ### Neutral
 - **Ink** (#0b0e13): page ground, "you" result row. **Ink Raised** (#151a23): nav pill, glass chips.
 - **Card** (#17171c) and **Card 2** (#1f1f26): every card, node plate, FAQ row, form; Card 2 is hover and image-placeholder.
-- **Paper** (#f3f2ec): primary text on dark. **Paper Bright** (#fbfaf6): readout search pill, map district label, sample result rows on inner pages.
+- **Paper** (#f3f2ec): primary text on dark. **Paper Bright** (#fbfaf6): sample result rows on inner pages.
 - **Soft** (#c3cad6): secondary text. **Mist** (#9aa3b0): placeholders, captions. **Stone** (#4b525d): secondary text on paper.
 - **Map relief** (read by the 3D map from CSS variables): top #ff4d8d, land #cfd6e4, border #8d98ad, wall #4d5870, mid #7e8aa3, low #2a3447.
 - **Status**: #3fae6b ok; invalid field border #ff8f8f.
@@ -219,7 +219,7 @@ Black and grey neutrals, one pink voice for action, orange and purple as support
 - **Lead** (400, clamp(1.125rem, 1.05rem+0.4vw, 1.3125rem), 1.5, max 44ch, soft).
 - **Body** (400, 1.0625rem, 1.6). **Label** (650, 0.875rem). 0.8125rem (13px) is the floor.
 - **Button** (700, 1.0625rem, width 106%, -0.01em).
-- **Numbers**: tabular figures on every figure; the big rank is 800 at width 118%; rating and readout numbers 800 at width 112%.
+- **Numbers**: tabular figures on every figure; rating numbers 800 at width 112%.
 - **Wordmark**: bar 800 at width 116%; footer 900 at 116%, 15.4cqi.
 
 ### Named Rules
@@ -236,7 +236,7 @@ One centered `.wrap`: max 1380px, side padding `max(16px, 4vw)`. Section padding
 - Why cards: flex-wrap, centered, three per row; two below 1000px, one below 620px.
 - Process: sticky heading card beside the steps (single column at 1100px).
 - Projects: horizontal scroll-snap carousel, middle card scaled up, category tabs above.
-- Brands: auto-fill grid of 190px minimum. Districts: auto-fit pin list (116px), then map section in 0.8fr/1.2fr columns (single column at 960px).
+- Brands: auto-fill grid of 190px minimum. The map chapter is pinned for 270vh with one view (min 70svh); without motion the flat map and the relief sit in two cards (stacked below 800px). The yerel-seo page keeps its auto-fit district pin list (116px).
 - The lens chapter (235vh) is a pinned scroll chapter; after it the magnifier swings from edge to edge over the sections and settles into the "Biz kimiz" ring, then lets go as that section scrolls away.
 
 The bar is fixed with a top scrim, gains blur and a line when scrolled. Below 960px the link pill becomes a 44px toggle and drawer; below 560px the bar button hides.
@@ -295,7 +295,7 @@ Pills for buttons, chips, search, toggles, tags, nav links. Rectangles are modes
 - Pill link group (blurred), 0.9375rem/600; active link is a pink pill with white text; logo mark plus wordmark. Mobile drawer is a blurred 20px-radius sheet.
 
 ### Signature: stage and map
-- The fixed canvas (`#stage`) is driven by `choreo.ts` camera keyframes; magnifier, link graph and tags use pink (#ff3d85), orange (#ff6a1f) and purple (#9b4dff) in `stage.ts`. The Denizli relief map is real 3D (19 districts, OSM borders and elevation); column height is the sample rank, markers tier low, mid, top (pink); the visitor's district has a purple outline. A poster shows until WebGL starts.
+- The fixed canvas (`#stage`) is driven by `choreo.ts` camera keyframes; magnifier, link graph and tags use pink (#ff3d85), orange (#ff6a1f) and purple (#9b4dff) in `stage.ts`. The map chapter starts on a flat Türkiye (dark cards, Denizli in hot pink with a pulsing ring), narrows its viewBox onto Denizli, then cross-fades into the real 3D relief (19 districts, OSM borders and elevation) seen from above and tilting to rest; district names appear as dark labels. A poster shows until WebGL starts. The contact page keeps the one-district marker (`placeMode`).
 
 ## Do's and Don'ts
 

@@ -152,31 +152,7 @@
 .pins { display: grid; grid-template-columns: repeat(auto-fit, minmax(116px, 1fr)); gap: 16px 10px; max-width: 64rem; margin: 0 auto 3rem; text-align: center; font-size: var(--t-small); font-weight: 600; color: var(--soft); }
 .pins li { display: grid; justify-items: center; gap: 6px; }
 .pin { display: block; width: 14px; height: 14px; border-radius: 50% 50% 50% 0; background: var(--pink); transform: rotate(-45deg); }
-.dmap-in { display: grid; grid-template-columns: minmax(0, 0.8fr) minmax(0, 1.2fr); gap: 4vw; align-items: center; padding-block: 12vh 10vh; }
-.dmap-copy { display: grid; gap: 22px; justify-items: start; }
-.dmap-ctl { display: grid; gap: 14px; width: 100%; max-width: 34rem; }
-.dmap-pair { display: grid; grid-template-columns: 1fr 1fr; gap: 12px; }
-.dmap-ctl label { display: grid; gap: 7px; font-size: 0.9375rem; font-weight: 650; color: var(--paper); }
-.dmap-ctl input, .dmap-ctl select { width: 100%; min-height: 3.25rem; padding: 0 14px; font-size: 1.0625rem; font-weight: 500; color: var(--paper); background-color: var(--field); border: 1.5px solid var(--line); border-radius: 12px; transition: border-color 0.2s, background-color 0.2s; }
-.dmap-ctl select { appearance: none; background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='12' height='8' viewBox='0 0 12 8'%3E%3Cpath d='M1 1.5 6 6.5l5-5' fill='none' stroke='%23c3cad6' stroke-width='2'/%3E%3C/svg%3E"); background-repeat: no-repeat; background-position: right 14px center; padding-right: 2.25rem; }
-.dmap-ctl select option { background: var(--card-2); color: var(--paper); }
-.dmap-ctl input:hover, .dmap-ctl select:hover { border-color: rgba(243, 242, 236, 0.4); }
-.dmap-ctl input:focus, .dmap-ctl select:focus { outline: none; border-color: var(--pink-text); box-shadow: 0 0 0 4px rgba(216, 32, 104, 0.25); }
-.dmap-toggles { display: flex; flex-wrap: wrap; gap: 8px; }
-.toggle { display: inline-flex; align-items: center; gap: 0.6em; min-height: 2.75rem; padding: 0 1.1em 0 0.7em; border-radius: 999px; border: 1.5px solid var(--line); background: var(--card); color: var(--paper); font-size: 0.9375rem; font-weight: 650; transition: border-color 0.2s, background-color 0.2s, color 0.2s; }
-.toggle:hover { border-color: rgba(243, 242, 236, 0.5); }
-.toggle-box { display: grid; place-items: center; width: 1.4rem; height: 1.4rem; border-radius: 50%; border: 1.5px solid var(--mist); color: transparent; transition: background-color 0.2s, border-color 0.2s, color 0.2s; }
-.toggle[aria-checked='true'] { border-color: var(--pink); background: rgba(216, 32, 104, 0.14); color: #fff; }
-.toggle[aria-checked='true'] .toggle-box { background: var(--pink); border-color: var(--pink); color: #fff; }
 .dmap-card { display: grid; overflow: hidden; border-radius: 20px; background: var(--card-dark); border: 1px solid var(--line); box-shadow: 0 30px 80px -36px var(--shadow); }
-.dmap-readout { display: grid; grid-template-columns: auto 1fr; gap: 16px 24px; align-items: center; padding: 16px 20px; border-bottom: 1px solid var(--line); }
-.dmap-q { display: inline-flex; align-items: center; gap: 10px; padding: 0.6em 1em; border-radius: 999px; background: var(--paper-bright); color: var(--ink); font-weight: 700; font-size: 1rem; white-space: nowrap; }
-.dmap-q svg { color: var(--pink); }
-.dmap-nums { display: grid; grid-template-columns: 1fr 1fr; gap: 16px; }
-.dmap-nums > div + div { padding-left: 16px; border-left: 1px solid var(--line); }
-.dmap-nums dt { font-size: 0.8125rem; font-weight: 600; color: var(--soft); line-height: 1.3; }
-.dmap-nums dd { font-size: 2rem; font-weight: 800; font-stretch: 112%; letter-spacing: -0.03em; line-height: 1.1; font-variant-numeric: tabular-nums; margin: 0.15rem 0 0; }
-.dmap-nums small { font-size: 1rem; font-weight: 600; color: var(--soft); letter-spacing: 0; }
 .dmap-view { position: relative; height: clamp(24rem, 38vw, 34rem); background: radial-gradient(120% 90% at 50% 40%, #1a1522, #0b0b10); }
 .dmap-poster, .dmap-canvas { position: absolute; inset: 0; width: 100%; height: 100%; }
 .dmap-poster { object-fit: cover; transition: opacity 0.5s; }
@@ -187,19 +163,40 @@
 .mapl { position: absolute; left: 0; top: 0; display: flex; align-items: center; gap: 0.35rem; font-size: 0.8125rem; font-weight: 700; line-height: 1; white-space: nowrap; will-change: transform; }
 .mapl[hidden] { display: none; }
 .mapl b { display: grid; place-items: center; min-width: 1.7rem; height: 1.7rem; padding: 0 0.35rem; border-radius: 999px; font-weight: 800; font-variant-numeric: tabular-nums; background: #2a2433; color: #fff; transition: background-color 0.3s, color 0.3s; }
-.mapl[data-tier='mid'] b { background: #5c5568; }
-.mapl[data-tier='top'] b { background: var(--pink); color: #fff; }
 .mapl > span { display: none; background: var(--paper-bright); color: var(--ink); padding: 0.35rem 0.6rem; border-radius: 6px; }
 .mapl.is-home > span { display: block; }
 .mapl.is-home b { outline: 3px solid var(--purple-text); }
 .dmap-note { display: flex; flex-wrap: wrap; align-items: center; gap: 6px 16px; padding: 12px 20px; border-top: 1px solid var(--line); font-size: 0.8125rem; color: var(--soft); }
-.dmap-note span { display: inline-flex; align-items: center; gap: 6px; font-weight: 600; }
-.dmap-note i { width: 0.7rem; height: 0.7rem; border-radius: 50%; background: #2a2433; }
-.dmap-note i[data-tier='mid'] { background: #5c5568; }
-.dmap-note i[data-tier='top'] { background: var(--pink); }
 .dmap-note em { flex: 1 1 14rem; font-style: normal; font-size: inherit; color: var(--soft); text-align: right; }
-@media (max-width: 960px) { .dmap-in { grid-template-columns: 1fr; } .dmap-note em { text-align: left; } }
-@media (max-width: 560px) { .dmap-pair { grid-template-columns: 1fr; } .dmap-readout { grid-template-columns: 1fr; } .dmap-q { display: none; } }
+
+/* ---------- Denizli: from Türkiye to the 19 districts ---------- */
+.dmap .dmap-view { display: grid; grid-template-columns: 1fr 1fr; gap: 20px; height: auto; background: none; }
+.dmap-pin .wrap { padding-block: 12vh 10vh; }
+.tr-map, .dmap-3d { position: relative; height: clamp(20rem, 36vw, 30rem); overflow: hidden; border-radius: 20px; border: 1px solid var(--line); background: radial-gradient(120% 90% at 50% 40%, #1a1522, #0b0b10); }
+.tr-map svg { position: absolute; inset: 0; width: 100%; height: 100%; }
+.tr-others { opacity: var(--others, 1); }
+.tr-others path { fill: var(--card-2); stroke: rgba(243, 242, 236, 0.22); stroke-width: 0.7; stroke-linejoin: round; vector-effect: non-scaling-stroke; }
+.tr-denizli { fill: var(--pink); stroke: #ff8fb8; stroke-width: 1.2; stroke-linejoin: round; vector-effect: non-scaling-stroke; }
+.tr-ring { fill: none; stroke: var(--pink-text); stroke-width: 2; vector-effect: non-scaling-stroke; opacity: var(--ring, 1); transform-box: fill-box; transform-origin: center; animation: trPulse 2.4s ease-out infinite; }
+@keyframes trPulse { from { transform: scale(0.6); opacity: 0.9; } to { transform: scale(1.5); opacity: 0; } }
+.rm .tr-ring { animation: none; }
+.dmap-3d .mapl b { display: none; }
+.dmap-3d .mapl > span { display: block; padding: 0.3rem 0.55rem; border-radius: 6px; border: 1px solid rgba(243, 242, 236, 0.2); background: rgba(11, 14, 19, 0.82); color: #fff; font-size: 0.8125rem; }
+.dmap-cap { display: none; }
+.dmap .dmap-note { justify-content: center; border: 0; padding: 14px 0 0; color: var(--soft); }
+@media (max-width: 800px) { .dmap .dmap-view { grid-template-columns: 1fr; } }
+
+/* with motion: one view, pinned while the page zooms from Türkiye into Denizli */
+.fx .dmap { height: 270vh; }
+.fx .dmap-pin { position: sticky; top: 0; height: 100vh; height: 100svh; display: grid; align-items: center; }
+.fx .dmap-pin .wrap { padding-block: 78px 3vh; }
+.fx .dmap .dmap-view { display: block; position: relative; height: min(70svh, 46rem); overflow: hidden; border-radius: 20px; border: 1px solid var(--line); background: radial-gradient(120% 90% at 50% 40%, #1a1522, #0b0b10); }
+.fx .tr-map, .fx .dmap-3d { position: absolute; inset: 0; height: auto; border: 0; border-radius: 0; background: none; }
+.fx .dmap-3d { opacity: 0; pointer-events: none; }
+.fx .dmap-cap { position: absolute; left: 1rem; top: 1rem; z-index: 3; display: flex; align-items: baseline; gap: 0.6rem; padding: 0.55rem 1.05rem; border-radius: 999px; border: 1px solid var(--line); background: rgba(11, 14, 19, 0.72); -webkit-backdrop-filter: blur(10px); backdrop-filter: blur(10px); }
+.dmap-cap b { font-size: 1.0625rem; font-weight: 800; font-stretch: 108%; }
+.dmap-cap span { font-size: 0.9375rem; color: var(--soft); }
+@media (max-width: 800px) { .fx .dmap .dmap-view { height: min(64svh, 34rem); } }
 
 /* ---------- questions ---------- */
 .faq { position: relative; }

@@ -4,7 +4,7 @@ import { gsap } from 'gsap';
 import { ScrollTrigger } from 'gsap/ScrollTrigger';
 import Lenis from 'lenis';
 import { $, $$, clamp } from './util';
-import { M, measure, buildKeys, sample, firstKey, lensAnchor, NO_ANCHOR, FIELDS, type StageState } from './choreo';
+import { M, measure, buildKeys, sample, firstKey, lensAnchor, NO_ANCHOR, FIELDS, type Anchor, type StageState } from './choreo';
 import { initSearch, onQuery } from './search';
 import { initProjects } from './projects';
 import { initDrawer, initFaq, initForm } from './ui';
@@ -45,7 +45,7 @@ $$('a[href^="#"]').forEach((a) => a.addEventListener('click', (e) => {
 initFaq();
 initForm();
 initProjects();
-initDenizli(reduce);
+initDenizli(reduce, fx);
 initSearch(scrollToY, measure, reduce);
 
 /* ---------- the 3D stage ---------- */
@@ -54,6 +54,7 @@ const frontCanvas = $<HTMLCanvasElement>('#lens-front');
 let stage: Stage | null = null;
 const cur = {} as StageState;
 let hasCur = false;
+const ac: Anchor = { ...NO_ANCHOR };                      // the travelling lens, eased a little so it glides even when the scroll is rough
 const ptr = { x: 0, y: 0 };
 addEventListener('pointermove', (e) => { ptr.x = (e.clientX / innerWidth) * 2 - 1; ptr.y = (e.clientY / innerHeight) * 2 - 1; }, { passive: true });
 const nav = $('.nav')!;
@@ -116,7 +117,15 @@ function tick(now: number) {
   const jump = Math.abs(tgt.cz - cur.cz) > 3;
   const f = jump ? 1 : 1 - Math.pow(0.00002, dt);
   for (const k of FIELDS) cur[k] += (tgt[k] - cur[k]) * f;
-  stage.render(cur, t, ptr, false, lensAnchor(y));
+  const ta = lensAnchor(y);
+  if (ta.w > 0.5 && ac.w <= 0.5) Object.assign(ac, ta);     // at the hand-over the lens must be exactly where the background lens was
+  else {
+    const ka = 1 - Math.exp(-dt * 12);
+    ac.x += (ta.x - ac.x) * ka; ac.y += (ta.y - ac.y) * ka; ac.r += (ta.r - ac.r) * ka;
+    ac.settle += (ta.settle - ac.settle) * ka; ac.rz += (ta.rz - ac.rz) * ka; ac.glass += (ta.glass - ac.glass) * ka;
+  }
+  ac.w = ta.w;
+  stage.render(cur, t, ptr, false, ac);
 }
 
 /* ---------- scroll choreography ---------- */

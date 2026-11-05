@@ -1,54 +1,86 @@
-// The Denizli relief map: loads when it nears the screen, reads the form, and writes the sample ranks.
-import { $, $$ } from './util';
-import { ranks, summary, fmt, type MapState } from '../rank';
+// The map chapter: one view that starts on Türkiye (81 provinces), zooms into Denizli as the page scrolls, and
+// hands over to the 3D relief of the province with its 19 district names. Without motion (or before the script
+// runs) the two maps simply sit side by side. The relief loads when the section nears the screen.
+import { ScrollTrigger } from 'gsap/ScrollTrigger';
+import { $ } from './util';
 import type { DenizliMap } from '../map3d';
 
-export function initDenizli(reduced: boolean) {
+const smooth = (a: number, b: number, x: number) => { const t = Math.min(1, Math.max(0, (x - a) / (b - a))); return t * t * (3 - 2 * t); };
+
+const STEPS = [
+  { upTo: 0.28, title: 'Türkiye', note: '81 il' },
+  { upTo: 0.66, title: 'Denizli', note: 'Ege Bölgesi' },
+  { upTo: 1.01, title: 'Denizli', note: '19 ilçe' },
+];
+
+export function initDenizli(reduced: boolean, fx: boolean) {
   const root = $('#denizli');
-  const card = $('[data-dmap]', root ?? document);
+  const view = $('[data-dmap]', root ?? document);
+  const flat = $('[data-tr]', root ?? document);
+  const relief = $('[data-3d]', root ?? document);
   const canvas = $<HTMLCanvasElement>('[data-map-canvas]', root ?? document);
   const labels = $('[data-map-labels]', root ?? document);
-  if (!root || !card || !canvas || !labels) return;
-  const state: MapState = { trade: 'kuyumcu', district: 'Merkezefendi', profile: false, speed: false, content: 0, pages: false };
+  const svg = flat && flat.querySelector('svg');
+  const dz = $<SVGGraphicsElement & SVGPathElement>('#tr-denizli', root ?? document);
+  const cap = $('[data-cap]', root ?? document);
+  if (!root || !view || !flat || !relief || !canvas || !labels || !svg || !dz || !cap) return;
+
   let map: DenizliMap | null = null;
-  const trade = $<HTMLInputElement>('[name="trade"]', root)!;
-  const district = $<HTMLSelectElement>('[name="district"]', root)!;
-  const toggles = $$<HTMLButtonElement>('.toggle', root);
+  let last = -1;
 
-  const show = () => {
-    const r = ranks(state), s = summary(r);
-    const t = state.trade.trim().toLocaleLowerCase('tr-TR') || 'kuyumcu';
-    $('[data-out-query]', root)!.textContent = `denizli ${t}`;
-    $('[data-out-top3]', root)!.textContent = String(s.top3);
-    $('[data-out-avg]', root)!.textContent = fmt(s.avg);
-    map?.setRanks(r, state.district);
-  };
-
-  trade.addEventListener('input', () => { state.trade = trade.value; show(); });
-  district.addEventListener('change', () => { state.district = district.value; map?.focusOn(state.district, 0.7); show(); });
-  toggles.forEach((b) => b.addEventListener('click', () => {
-    const on = b.getAttribute('aria-checked') !== 'true';
-    b.setAttribute('aria-checked', String(on));
-    const key = b.dataset.key;
-    if (key === 'profile') state.profile = on;
-    if (key === 'speed') state.speed = on;
-    if (key === 'pages') state.pages = on;
-    if (key === 'content') state.content = on ? 3 : 0;
-    show();
-  }));
-  show();
-
+  /* ---------- the relief ---------- */
   let started = false;
   const boot = () => {
     if (started) return;
     started = true;
     import('../map3d')
-      .then(({ createMap }) => createMap({ canvas, labels, reduced, phone: matchMedia('(max-width: 767px)').matches, onPick: (d) => { state.district = d; district.value = d; map?.focusOn(d, 0.7); show(); } }))
-      .then((m) => { map = m; card.classList.add('is-3d'); show(); })
-      .catch(() => { /* the poster stays and the numbers still answer */ });
+      .then(({ createMap }) => createMap({ canvas, labels, reduced, phone: matchMedia('(max-width: 767px)').matches }))
+      .then((m) => { map = m; m.namesMode(); view.classList.add('is-3d'); if (fx) apply(last < 0 ? 0 : last); })
+      .catch(() => { /* the poster stays */ });
   };
   if ('IntersectionObserver' in window) {
-    const io = new IntersectionObserver((es) => { if (es.some((e) => e.isIntersecting)) { io.disconnect(); boot(); } }, { rootMargin: '700px 0px' });
+    const io = new IntersectionObserver((es) => { if (es.some((e) => e.isIntersecting)) { io.disconnect(); boot(); } }, { rootMargin: '900px 0px' });
     io.observe(root);
   } else boot();
+  if (!fx) return;
+
+  /* ---------- the zoom: the viewBox of the flat map narrows onto Denizli ---------- */
+  const [, , W, H] = svg.getAttribute('viewBox')!.split(' ').map(Number);
+  const bb = dz.getBBox();
+  const cx = bb.x + bb.width / 2, cy = bb.y + bb.height / 2;
+  let asp = 1.6;
+  const measure = () => { const r = view.getBoundingClientRect(); if (r.width && r.height) asp = r.width / r.height; };
+
+  function apply(p: number) {
+    last = p;
+    const e = smooth(0.04, 0.6, p);                              // the zoom
+    const pan = smooth(0.02, 0.4, p);                            // the centre gets there first, so Denizli never slides off the edge
+    // widths shrink exponentially (an even zoom)
+    const w0 = Math.max(W, H * asp);
+    const wT = Math.max(bb.height / 0.55 * asp, bb.width / 0.6);
+    const w = w0 * Math.pow(wT / w0, e), h = w / asp;
+    const x0 = W / 2 + (cx - W / 2) * pan, y0 = H / 2 + (cy - H / 2) * pan;
+    svg!.setAttribute('viewBox', `${(x0 - w / 2).toFixed(2)} ${(y0 - h / 2).toFixed(2)} ${w.toFixed(2)} ${h.toFixed(2)}`);
+    // the pulsing ring around Denizli fades once the zoom has made the province big enough to see
+    flat!.style.setProperty('--ring', (1 - smooth(0.1, 0.34, p)).toFixed(3));
+    flat!.style.setProperty('--others', String(1 - 0.9 * smooth(0.12, 0.5, p)));
+    const flatOn = 1 - smooth(0.55, 0.69, p);
+    flat!.style.opacity = flatOn.toFixed(3);
+    flat!.style.visibility = flatOn > 0.002 ? 'visible' : 'hidden';
+    const reliefOn = smooth(0.53, 0.67, p);
+    relief!.style.opacity = reliefOn.toFixed(3);
+    relief!.style.pointerEvents = p > 0.85 ? 'auto' : 'none';
+    map?.setView(smooth(0.58, 0.97, p));
+    labels!.style.opacity = smooth(0.8, 0.96, p).toFixed(3);
+    const step = STEPS.find((s) => p < s.upTo)!;
+    if (cap!.dataset.step !== step.note) {
+      cap!.dataset.step = step.note;
+      cap!.innerHTML = `<b>${step.title}</b><span>${step.note}</span>`;
+    }
+  }
+
+  measure();
+  apply(0);
+  ScrollTrigger.create({ trigger: root, start: 'top top', end: 'bottom bottom', onUpdate: (self) => apply(self.progress), onRefresh: (self) => { measure(); apply(self.progress); } });
+  addEventListener('resize', () => { measure(); apply(Math.max(0, last)); });
 }
