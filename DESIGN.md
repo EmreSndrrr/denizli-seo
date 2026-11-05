@@ -160,7 +160,7 @@ components:
 
 # Design System: Denizli SEO
 
-Scope: the home page, from `src/styles/home.css` (tokens, base, bar, hero, lens, results chapter, footer) and `src/styles/home-sections.css` (every section after the results chapter). Inner pages still use the older light system in `src/styles/global.css` and are not covered here.
+Scope: the whole site. `src/styles/home.css` (tokens, base, bar, hero, lens, results chapter, footer), `src/styles/home-sections.css` (every section after the results chapter) and `src/styles/inner.css` (the inner pages: banner card, service arc list, numbered step cards, blog cards, article text, contact cards). Inner pages use `src/layouts/Page.astro`: the same bar and footer, no 3D stage.
 
 ## Overview
 
@@ -316,4 +316,4 @@ Pills for buttons, chips, search, toggles, tags, nav links. Rectangles are modes
 - **Don't** use hard offset shadows.
 
 ## Not canonized
-Pre-existing drift carried by the build, not rules for new surfaces: the preloader count "#100", the grain overlay (opacity .045), heading text-shadows over the stage, the 01-04 step numerals, `--t-h2-sm` duplicating `--t-h2`, and the small upper-case, letter-spaced "SEO" label in the service ring (an eyebrow-style device). Inner pages use the older light system in `src/styles/global.css` and will move to this one.
+Pre-existing drift carried by the build, not rules for new surfaces: the preloader count "#100", the grain overlay (opacity .045), heading text-shadows over the stage, the 01-04 step numerals, `--t-h2-sm` duplicating `--t-h2`, and the small upper-case, letter-spaced "SEO" label in the service ring (an eyebrow-style device).

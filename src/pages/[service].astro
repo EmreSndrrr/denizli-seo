@@ -1,13 +1,13 @@
 ---
 import { Image } from 'astro:assets';
-import Base from '../layouts/Base.astro';
-import PageHead from '../components/PageHead.astro';
-import MapStage from '../components/MapStage.astro';
-import Serp from '../components/Serp.astro';
-import Vitals from '../components/Vitals.astro';
-import Faq from '../components/Faq.astro';
-import Contact from '../components/Contact.astro';
-import Work from '../components/Work.astro';
+import Page from '../layouts/Page.astro';
+import Banner from '../components/home/Banner.astro';
+import SerpMock from '../components/home/SerpMock.astro';
+import VitalsCard from '../components/home/VitalsCard.astro';
+import Cycle from '../components/home/Cycle.astro';
+import Projects from '../components/home/Projects.astro';
+import Faq from '../components/home/Faq.astro';
+import Chat from '../components/home/Chat.astro';
 import Icon from '../components/Icon.astro';
 import { SERVICES, type Service } from '../data/services';
 import { PROJECTS } from '../data/projects';
@@ -20,9 +20,9 @@ export function getStaticPaths() {
 interface Props { service: Service }
 const { service } = Astro.props;
 const url = `${SITE.url}/${service.slug}/`;
+const icons = { 'yerel-seo': 'pin', 'teknik-seo': 'gauge', 'icerik-seo': 'doc', 'web-tasarim': 'layout' } as const;
 const others = SERVICES.filter((s) => s.slug !== service.slug);
 const wa = waLink(`Merhaba, ücretsiz SEO analizi istiyorum. ${service.name} ile ilgileniyoruz. İşletmemin adı ve ilçesi: `);
-const icons = { 'yerel-seo': 'pin', 'teknik-seo': 'gauge', 'icerik-seo': 'doc', 'web-tasarim': 'layout' } as const;
 const shot = PROJECTS.find((p) => p.name === 'Balkan Endüstriyel Mutfak')!;
 // Venti projects that include this kind of work
 const workFor: Record<string, string[]> = {
@@ -30,14 +30,6 @@ const workFor: Record<string, string[]> = {
   'teknik-seo': ['Jarkotech', 'Bilgi Dem Akademi', 'Denizli Kuyumcu', 'Balkan Endüstriyel Mutfak'],
   'icerik-seo': ['Elea Premium Stay', 'Fairystone Travel', 'World Trip Advisor', 'Travel Agency Türkiye'],
   'web-tasarim': ['Tekdağ Elektronik', 'Essence Travel', 'Yörükoğulları Nakliyat', 'Bilgi Dem Akademi'],
-};
-
-// what this service changes on the map, in the sample model the home page uses
-const presets: Record<string, Record<string, unknown>> = {
-  'yerel-seo': { profile: true },
-  'teknik-seo': { speed: true },
-  'icerik-seo': { content: 3 },
-  'web-tasarim': { pages: true },
 };
 
 const jsonld = [
@@ -66,79 +58,84 @@ const jsonld = [
   { '@type': 'FAQPage', '@id': `${url}#sss`, mainEntity: service.faq.map((item) => ({ '@type': 'Question', name: item.q, acceptedAnswer: { '@type': 'Answer', text: item.a } })) },
 ];
 ---
-<Base title={service.title} description={service.description} jsonld={jsonld}>
-  <PageHead crumbs={[{ href: '/', label: 'Ana sayfa' }, { label: service.name }]} h1={service.h1} lead={service.lead}>
-    <Fragment slot="acts">
-      <a class="button" href={wa} rel="noopener">{CTA_LABEL}<Icon name="arrow" size={18} /></a>
-      <a class="button button--outline" href={`tel:${SITE.phone}`}><Icon name="phone" size={18} />{SITE.phoneDisplay}</a>
-    </Fragment>
-    <div slot="after" class="phero__ctl ctl" data-rise style="--i:3">
-      <button class="switch" type="button" role="switch" aria-checked="true" data-stage-toggle><span class="switch__knob" aria-hidden="true"></span>Haritada bu işin etkisi</button>
-      <p class="small muted">Anahtarı kapatıp açın: örnek haritada, bu iş yapılmadan önceki ve sonraki sıra.</p>
-    </div>
-    <MapStage preset={presets[service.slug]} />
-  </PageHead>
+<Page title={service.title} description={service.description} jsonld={jsonld}>
+  <Banner crumbs={[{ href: '/', label: 'Ana sayfa' }, { label: service.name }]} h1={service.h1} lead={service.lead}>
+    <a class="btn btn-solid" href={wa} rel="noopener">{CTA_LABEL}<Icon name="arrow" size={20} /></a>
+    <a class="btn btn-outline" href={`tel:${SITE.phone}`}><Icon name="phone" size={18} />{SITE.phoneDisplay}</a>
+  </Banner>
 
-  <section class="sec band band--white" aria-labelledby="ne-yapiyoruz"><div class="wrap svc">
-    <div class="svc__fixed">
-      <h2 id="ne-yapiyoruz" data-reveal>{service.statementHead}</h2>
-      <p class="lead" data-reveal style="--i:1">{service.statement}</p>
-      <div class="svc__frag" data-reveal style="--i:2">
+  <section class="svc-intro" aria-labelledby="ne-yapiyoruz">
+    <div class="wrap">
+      <div class="svc-intro-copy reveal">
+        <h2 class="h2" id="ne-yapiyoruz">{service.statementHead}</h2>
+        <p class="lede">{service.statement}</p>
+      </div>
+      <div class="frag reveal">
         {service.slug === 'teknik-seo' ? (
-          <div class="panel-ui"><p class="panel__head">Google’ın sayfa deneyimi ölçüleri</p><Vitals /><p class="small muted">Örnek ölçüm. Çubuklar, değeri Google’ın “iyi” sınırına göre gösterir.</p></div>
+          <VitalsCard />
         ) : service.slug === 'web-tasarim' ? (
-          <a class="svc__shot" href={shot.url} rel="noopener" target="_blank">
-            <Image src={shot.shot!} alt={`${shot.name} sitesinin ana sayfası`} widths={[500, 800, 1100]} sizes="(max-width: 1023px) 100vw, 40vw" loading="lazy" />
-            <span class="slide__cap"><b>{shot.name}</b><span>{shot.work}</span></span>
+          <a class="frag-shot" href={shot.url} rel="noopener" target="_blank">
+            <Image src={shot.shot!} alt={`${shot.name} sitesinin ana sayfası`} widths={[500, 800, 1100]} sizes="(max-width: 900px) 92vw, 46vw" loading="lazy" />
+            <span><b>{shot.name}</b><span>{shot.work}</span></span>
           </a>
         ) : (
-          <Serp queries={service.queries} label={service.slug === 'icerik-seo' ? 'Örnek görünüm. Müşterinin sorduğu sorular.' : 'Örnek görünüm. İşletme adları temsilî.'} />
+          <SerpMock queries={service.queries} label={service.slug === 'icerik-seo' ? 'Örnek görünüm. Müşterinin sorduğu sorular.' : 'Örnek görünüm. İşletme adları temsilî.'} />
         )}
       </div>
     </div>
-    <div class="svc__items">
-      <h2 class="sr-only">Bu işte ne yapıyoruz</h2>
-      <ul>
-        {service.items.map((item) => (
-          <li data-reveal><span class="svc__tick"><Icon name="check" size={16} /></span><div><h3>{item.name}</h3><p>{item.text}</p></div></li>
+  </section>
+
+  <section class="arc-sec" aria-labelledby="isler-ne">
+    <div class="wrap">
+      <div class="sec-head reveal">
+        <h2 class="h2" id="isler-ne">Bu işte <em>neler</em> yapıyoruz</h2>
+      </div>
+      <div class="arc">
+        <div class="arc-circle" aria-hidden="true"><b>{service.name}</b></div>
+        {service.items.map((item, i) => (
+          <div class="arc-item reveal" style={`--o:${(Math.sin((Math.PI * (i + 0.5)) / service.items.length) * 3.2).toFixed(2)}rem`}>
+            <span class="arc-icon"><Icon name={icons[service.slug as keyof typeof icons]} size={24} /></span>
+            <div><h3>{item.name}</h3><p>{item.text}</p></div>
+          </div>
         ))}
-      </ul>
+      </div>
     </div>
-  </div></section>
+  </section>
 
   {service.slug === 'yerel-seo' && (
-    <section class="sec band" aria-labelledby="ilceler"><div class="wrap districts">
-      <div class="districts__head">
-        <h2 id="ilceler" data-reveal>{DISTRICTS.length} ilçe, {DISTRICTS.length} ayrı harita</h2>
-        <p data-reveal style="--i:1">Arama, arayanın bulunduğu yere göre değişir. Merkezefendi’den yapılan aramayla Çivril’den yapılan arama aynı haritayı göstermez. Hizmet verdiğiniz her ilçe için ayrı bakarız.</p>
+    <section class="pins-sec" aria-labelledby="ilceler">
+      <div class="wrap">
+        <div class="sec-head reveal">
+          <h2 class="h2" id="ilceler">{DISTRICTS.length} ilçe, {DISTRICTS.length} ayrı <em>harita</em></h2>
+          <p class="lede">Arama, arayanın bulunduğu yere göre değişir. Merkezefendi’den yapılan aramayla Çivril’den yapılan aynı haritayı göstermez. Hizmet verdiğiniz her ilçe için ayrı bakarız.</p>
+        </div>
+        <ul class="pins reveal">{DISTRICTS.map((d) => <li><span class="pin" aria-hidden="true"></span>{d}</li>)}</ul>
       </div>
-      <ul class="districts__list" data-reveal style="--i:2">{DISTRICTS.map((d) => <li><Icon name="pin" size={14} />{d}</li>)}</ul>
-    </div></section>
+    </section>
   )}
 
-  <Work names={workFor[service.slug]} title="Bu işi yaptığımız siteler" intro="Venti Dijital Ajans’ın bu hizmeti verdiği sitelerden; hepsi yayında, üzerine tıklayıp açabilirsiniz." />
+  <Cycle steps={service.steps.map((st) => ({ title: st.line, text: st.text }))} title="Adım adım <em>nasıl ilerleriz</em>" />
 
-  <section class="sec band" aria-labelledby="adimlar"><div class="wrap steps">
-    <h2 id="adimlar" data-reveal>Nasıl ilerleriz</h2>
-    <ol>
-      {service.steps.map((s, i) => (
-        <li data-reveal style={`--i:${i}`}><span class="steps__dot" aria-hidden="true"></span><p class="steps__line">{s.line}</p><p>{s.text}</p></li>
-      ))}
-    </ol>
-  </div></section>
+  <Projects names={workFor[service.slug]} tabs={false} title="Bu işi yaptığımız siteler" intro="Venti Dijital Ajans’ın bu hizmeti verdiği sitelerden; hepsi yayında, üzerine tıklayıp açabilirsiniz." />
 
   <Faq items={service.faq} title="Sorular" />
 
-  <section class="sec band" aria-labelledby="diger"><div class="wrap others">
-    <h2 id="diger" data-reveal>Diğer hizmetler</h2>
-    <ul>
-      {others.map((o, i) => (
-        <li data-reveal style={`--i:${i}`}>
-          <a href={`/${o.slug}/`}><span class="chip-icon"><Icon name={icons[o.slug as keyof typeof icons]} size={22} /></span><span class="others__name">{o.name}</span><span class="others__text">{o.lead}</span><span class="others__go">İnceleyin <Icon name="arrow" size={16} /></span></a>
-        </li>
-      ))}
-    </ul>
-  </div></section>
+  <section class="rel-sec" aria-labelledby="diger">
+    <div class="wrap">
+      <div class="sec-head reveal">
+        <h2 class="h2" id="diger">Diğer <em>hizmetler</em></h2>
+      </div>
+      <div class="rel-grid">
+        {others.map((o, i) => (
+          <a class="rel-card reveal" href={`/${o.slug}/`} style={`--tone:var(--${['pink', 'orange', 'purple'][i % 3]});--tone-text:var(--${['pink', 'orange', 'purple'][i % 3]}-text)`}>
+            <h3>{o.name}</h3>
+            <p>{o.lead}</p>
+            <span class="go">İnceleyin<Icon name="arrow" size={16} /></span>
+          </a>
+        ))}
+      </div>
+    </div>
+  </section>
 
-  <Contact />
-</Base>
+  <Chat />
+</Page>

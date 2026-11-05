@@ -1,0 +1,13 @@
+---
+// The 3D relief with one marked district: the office. Used on the contact page.
+interface Props { district?: string; badge?: string }
+const { district = 'Pamukkale', badge = 'Ofis' } = Astro.props;
+---
+<div class="dmap-card place" data-dmap data-place={JSON.stringify({ district, badge })}>
+  <div class="dmap-view">
+    <img class="dmap-poster" src="/map/denizli-3d.webp" width="1157" height="872" alt="Denizli’nin ilçeleri ve dağları, üç boyutlu harita" loading="lazy">
+    <canvas class="dmap-canvas" aria-hidden="true" data-map-canvas></canvas>
+    <div class="dmap-labels" aria-hidden="true" data-map-labels></div>
+  </div>
+  <p class="dmap-note"><em>Harita © OpenStreetMap katkıda bulunanlar · Yükseklik: AWS Terrain Tiles</em></p>
+</div>

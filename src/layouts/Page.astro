@@ -1,0 +1,38 @@
+---
+// Inner pages (services, about, blog, contact): the home page's look without the 3D stage.
+import '../styles/home.css';
+import '../styles/home-sections.css';
+import '../styles/inner.css';
+import Head from '../components/Head.astro';
+import Nav from '../components/home/Nav.astro';
+import Footer from '../components/home/Footer.astro';
+
+interface Props {
+  title: string;
+  description: string;
+  type?: 'website' | 'article';
+  jsonld?: Record<string, unknown>[];
+  noindex?: boolean;
+  published?: string;
+  modified?: string;
+}
+const props = Astro.props;
+---
+<!doctype html>
+<html lang="tr">
+  <head>
+    <Head {...props} themeColor="#0b0e13" preload={['/fonts/archivo-latin.woff2']} />
+    <script is:inline>document.documentElement.classList.add(matchMedia('(prefers-reduced-motion: reduce)').matches ? 'rm' : 'motion');</script>
+  </head>
+  <body class="inner">
+    <a class="skip" href="#icerik">İçeriğe geç</a>
+    <Nav />
+    <main id="icerik" lang="tr">
+      <slot />
+    </main>
+    <Footer />
+    <script>
+      import '../scripts/inner/main.ts';
+    </script>
+  </body>
+</html>

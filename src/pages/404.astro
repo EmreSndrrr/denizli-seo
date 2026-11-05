@@ -1,22 +1,22 @@
 ---
-import Base from '../layouts/Base.astro';
-import PageHead from '../components/PageHead.astro';
-import MapStage from '../components/MapStage.astro';
+import Page from '../layouts/Page.astro';
+import Banner from '../components/home/Banner.astro';
+import Chat from '../components/home/Chat.astro';
 import { SERVICES } from '../data/services';
-import Work from '../components/Work.astro';
 ---
-<Base title="Sayfa bulunamadı | Denizli SEO" description="Aradığınız sayfa bulunamadı." noindex>
-  <PageHead crumbs={[{ href: '/', label: 'Ana sayfa' }, { label: '404' }]} h1={['Bu sayfa', 'burada yok.']} lead="Adres değişmiş ya da yanlış yazılmış olabilir. Aradığınız büyük ihtimalle şunlardan biri:">
-    <Fragment slot="acts">
-      <a class="button" href="/">Ana sayfa</a>
-      <a class="button button--outline" href="/iletisim/">İletişim</a>
-    </Fragment>
-    <ul slot="after" class="phero__links" data-rise style="--i:3">
-      {SERVICES.map((s) => <li><a href={`/${s.slug}/`}>{s.name}</a></li>)}
-      <li><a href="/blog/">Blog</a></li>
-    </ul>
-    <MapStage mode="place" place={{ district: 'Merkezefendi', badge: '404' }} />
-  </PageHead>
-
-  <Work names={['Denizli Kuyumcu', 'Yörükoğulları Nakliyat', 'Balkan Endüstriyel Mutfak', 'Elea Premium Stay']} />
-</Base>
+<Page title="Sayfa bulunamadı | Denizli SEO" description="Aradığınız sayfa bulunamadı." noindex>
+  <Banner crumbs={[{ href: '/', label: 'Ana sayfa' }, { label: '404' }]} h1={['Bu sayfa', 'burada yok.']} lead="Adres değişmiş ya da yanlış yazılmış olabilir. Aradığınız büyük ihtimalle şunlardan biri:">
+    <a class="btn btn-solid" href="/">Ana sayfa</a>
+    <a class="btn btn-outline" href="/iletisim/">İletişim</a>
+  </Banner>
+  <section class="rel-sec">
+    <div class="wrap">
+      <ul class="lost-links">
+        {SERVICES.map((s) => <li><a class="btn btn-ghost btn-sm" href={`/${s.slug}/`}>{s.name}</a></li>)}
+        <li><a class="btn btn-ghost btn-sm" href="/blog/">Blog</a></li>
+        <li><a class="btn btn-ghost btn-sm" href="/hakkimizda/">Hakkımızda</a></li>
+      </ul>
+    </div>
+  </section>
+  <Chat />
+</Page>

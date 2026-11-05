@@ -1,15 +1,17 @@
 ---
 import { getCollection } from 'astro:content';
-import Base from '../../layouts/Base.astro';
-import Serp from '../../components/Serp.astro';
-import PageHead from '../../components/PageHead.astro';
-import Contact from '../../components/Contact.astro';
-import Work from '../../components/Work.astro';
+import Page from '../../layouts/Page.astro';
+import Banner from '../../components/home/Banner.astro';
+import Chat from '../../components/home/Chat.astro';
 import Icon from '../../components/Icon.astro';
+import { SERVICES } from '../../data/services';
 import { SITE, WA_ANALYSIS, CTA_LABEL } from '../../data/site';
 
 const posts = (await getCollection('blog')).sort((a, b) => b.data.date.valueOf() - a.data.date.valueOf());
 const fmt = new Intl.DateTimeFormat('tr-TR', { day: 'numeric', month: 'long', year: 'numeric' });
+const minutes = (body: string | undefined) => Math.max(1, Math.round(((body ?? '').split(/\s+/).filter(Boolean).length) / 200));
+const icons = { 'yerel-seo': 'pin', 'teknik-seo': 'gauge', 'icerik-seo': 'doc', 'web-tasarim': 'layout' } as const;
+const used = SERVICES.filter((s) => posts.some((p) => p.data.service === s.slug));
 const title = 'Blog: SEO ve Google Haritalar Notları | Denizli SEO';
 const description = 'Denizli’deki işletmeler için SEO, Google İşletme Profili ve site hızı üzerine kısa, uygulanabilir yazılar.';
 const url = `${SITE.url}/blog/`;
@@ -31,31 +33,38 @@ const jsonld = [
   },
 ];
 ---
-<Base title={title} description={description} jsonld={jsonld}>
-  <PageHead crumbs={[{ href: '/', label: 'Ana sayfa' }, { label: 'Blog' }]} h1={['Arama', 'üzerine notlar.']} lead="Denizli’deki işletmeler için SEO, Google İşletme Profili ve site hızı üzerine kısa, uygulanabilir yazılar.">
-    <Fragment slot="acts">
-      <a class="button" href={WA_ANALYSIS} rel="noopener">{CTA_LABEL}<Icon name="arrow" size={18} /></a>
-      <a class="button button--outline" href="#yazilar">{posts.length} yazıyı okuyun</a>
-    </Fragment>
-    <div class="pfrag"><Serp queries={['google işletme profili nasıl doldurulur', 'seo ne kadar sürede sonuç verir', 'denizli kuyumcu']} label="Örnek görünüm." /></div>
-  </PageHead>
+<Page title={title} description={description} jsonld={jsonld}>
+  <Banner crumbs={[{ href: '/', label: 'Ana sayfa' }, { label: 'Blog' }]} h1={['Arama', 'üzerine notlar.']} lead="Denizli’deki işletmeler için SEO, Google İşletme Profili ve site hızı üzerine kısa, uygulanabilir yazılar.">
+    <a class="btn btn-solid" href={WA_ANALYSIS} rel="noopener">{CTA_LABEL}<Icon name="arrow" size={20} /></a>
+  </Banner>
 
-  <section class="sec band band--white" aria-labelledby="yazilar"><div class="wrap posts">
-    <h2 id="yazilar" data-reveal>Yazılar</h2>
-    <ul>
-      {posts.map((post, i) => (
-        <li data-reveal style={`--i:${i}`}>
-          <a href={`/blog/${post.id}/`}>
-            <span class="posts__title">{post.data.title}</span>
-            <span class="posts__text">{post.data.description}</span>
-            <span class="posts__go"><time class="small muted" datetime={post.data.date.toISOString()}>{fmt.format(post.data.date)}</time><span>Okuyun <Icon name="arrow" size={16} /></span></span>
-          </a>
-        </li>
-      ))}
-    </ul>
-  </div></section>
+  <section class="blog-sec" aria-label="Yazılar">
+    <div class="wrap">
+      {used.length > 1 && (
+        <div class="filters" role="group" aria-label="Konuya göre">
+          <button type="button" class="ptab active" data-filter="" aria-pressed="true">Tümü</button>
+          {used.map((s) => <button type="button" class="ptab" data-filter={s.slug} aria-pressed="false">{s.name}</button>)}
+        </div>
+      )}
+      <ul class="post-grid">
+        {posts.map((post) => {
+          const svc = SERVICES.find((s) => s.slug === post.data.service);
+          return (
+            <li class="post-card reveal" data-service={post.data.service ?? ''}>
+              <a href={`/blog/${post.id}/`}>
+                <span class="post-pic"><Icon name={icons[(post.data.service ?? 'yerel-seo') as keyof typeof icons]} size={56} />{svc && <small>{svc.name}</small>}</span>
+                <span class="post-meta"><span><Icon name="plan" size={14} /><time datetime={post.data.date.toISOString()}>{fmt.format(post.data.date)}</time></span><span>{minutes(post.body)} dakikalık okuma</span></span>
+                <h2>{post.data.title}</h2>
+                <p>{post.data.description}</p>
+                <span class="post-go" aria-hidden="true"><Icon name="arrow" size={18} /></span>
+              </a>
+            </li>
+          );
+        })}
+      </ul>
+      <p class="empty" data-empty hidden>Bu konuda henüz yazı yok.</p>
+    </div>
+  </section>
 
-  <Work title="Bu notları yazan ekibin işleri" names={['Denizli Kuyumcu', 'Elea Premium Stay', 'Bilgi Dem Akademi', 'Jarkotech']} />
-
-  <Contact />
-</Base>
+  <Chat />
+</Page>

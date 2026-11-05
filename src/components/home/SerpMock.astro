@@ -1,0 +1,19 @@
+---
+// A small results page, drawn in HTML, for the inner pages: sample businesses and one blank "you".
+import Icon from '../Icon.astro';
+interface Props { queries?: string[]; label?: string }
+const { queries = ['denizli kuyumcu'], label = 'Örnek görünüm. İşletme adları temsilî.' } = Astro.props;
+const rows = [
+  { n: 1, name: 'İşletme A', meta: '4,8 puan (126 yorum) · Merkezefendi' },
+  { n: 2, name: 'İşletme B', meta: '4,6 puan (88 yorum) · Pamukkale' },
+  { n: 3, name: 'İşletme C', meta: '4,9 puan (41 yorum) · Merkezefendi' },
+];
+---
+<div class="mock" role="img" aria-label={`Örnek Google sonuçları: ${queries[0]}`}>
+  <div class="mock-bar"><Icon name="search" size={18} /><span>{queries[0]}</span></div>
+  <ol class="mock-list">
+    {rows.map((r) => <li><i>{r.n}</i><span><b>{r.name}</b><small>{r.meta}</small></span></li>)}
+    <li class="mock-you"><i>?</i><span><b>Sizin işletmeniz</b><small>Haritada ilk üçe girmek için çalışırız</small></span></li>
+  </ol>
+  <p class="mock-note">{label}</p>
+</div>

@@ -1,0 +1,25 @@
+---
+// The top of an inner page: a dark card with the way back, a title that carries one coloured line,
+// a short lead and the actions. The page's h1.
+interface Crumb { href?: string; label: string }
+interface Props { crumbs: Crumb[]; h1: [string, string] | string; lead?: string }
+const { crumbs, h1, lead } = Astro.props;
+const lines = Array.isArray(h1) ? h1 : [h1];
+---
+<section class="banner-sec">
+  <div class="wrap">
+    <div class="banner">
+      <nav class="crumbs" aria-label="Sayfa yolu">
+        {crumbs.map((c, i) => (
+          <>
+            {i > 0 && <span aria-hidden="true">/</span>}
+            {c.href ? <a href={c.href}>{c.label}</a> : <span aria-current="page">{c.label}</span>}
+          </>
+        ))}
+      </nav>
+      <h1 id="baslik">{lines.map((l, i) => <span class:list={['bl', { hot: i === 1 }]}>{l}{i === 0 && lines.length > 1 ? ' ' : ''}</span>)}</h1>
+      {lead && <p class="lede">{lead}</p>}
+      <div class="banner-acts"><slot /></div>
+    </div>
+  </div>
+</section>

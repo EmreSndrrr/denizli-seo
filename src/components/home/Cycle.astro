@@ -1,0 +1,25 @@
+---
+// "Step by step": cards with a numbered coloured outline, joined by a line. The number carries the order.
+interface Step { title: string; text: string; tag?: string }
+interface Props { steps: Step[]; title: string; intro?: string; id?: string }
+const { steps, title, intro, id = 'adimlar' } = Astro.props;
+const tones = ['pink', 'orange', 'purple', 'pink', 'orange', 'purple'];
+---
+<section class="cycle-sec" aria-labelledby={`${id}-baslik`}>
+  <div class="wrap">
+    <div class="sec-head reveal">
+      <h2 class="h2" id={`${id}-baslik`} set:html={title} />
+      {intro && <p class="lede">{intro}</p>}
+    </div>
+    <ol class:list={['cycle', `cycle--${steps.length}`]}>
+      {steps.map((s, i) => (
+        <li class={`cycle-card cycle-card--${tones[i]} reveal`}>
+          <span class="cycle-n">{i + 1}</span>
+          <h3>{s.title}</h3>
+          <p>{s.text}</p>
+          {s.tag && <span class="step-dur">{s.tag}</span>}
+        </li>
+      ))}
+    </ol>
+  </div>
+</section>

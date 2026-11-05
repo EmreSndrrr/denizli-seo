@@ -1,10 +1,11 @@
 ---
 import { getCollection, render } from 'astro:content';
-import Base from '../../layouts/Base.astro';
-import Serp from '../../components/Serp.astro';
-import ReportChart from '../../components/ReportChart.astro';
-import Contact from '../../components/Contact.astro';
-import Work from '../../components/Work.astro';
+import Page from '../../layouts/Page.astro';
+import Banner from '../../components/home/Banner.astro';
+import SerpMock from '../../components/home/SerpMock.astro';
+import ReportChart from '../../components/home/ReportChart.astro';
+import Chat from '../../components/home/Chat.astro';
+import Icon from '../../components/Icon.astro';
 import { SITE } from '../../data/site';
 import { serviceBySlug } from '../../data/services';
 
@@ -50,42 +51,45 @@ const jsonld = [
   },
 ];
 ---
-<Base title={`${post.data.title} | Denizli SEO`} description={post.data.description} jsonld={jsonld} type="article" published={published} modified={modified}>
-  <section class="phero phero--post" aria-labelledby="baslik">
-    <div class="phero__in wrap">
-    <div class="phero__text">
-      <nav class="crumbs" aria-label="Sayfa yolu"><a href="/">Ana sayfa</a><span aria-hidden="true">/</span><a href="/blog/">Blog</a></nav>
-      <h1 id="baslik">{post.data.title}</h1>
-      <p class="phero__lead" data-rise style="--i:1">{post.data.description}</p>
-      <p class="small muted" data-rise style="--i:2"><time datetime={published}>{fmt.format(post.data.date)}</time> · {minutes} dakikalık okuma</p>
-    </div>
-    <div class="phero__visual">
-      <div class="pfrag" data-reveal>
-        {post.data.visual === 'serp' ? <Serp label="Örnek görünüm." /> : <div class="panel-ui"><p class="panel__head">Örnek rapor: altı ayda ortalama sıra</p><ReportChart /></div>}
+<Page title={`${post.data.title} | Denizli SEO`} description={post.data.description} jsonld={jsonld} type="article" published={published} modified={modified}>
+  <section class="banner-sec">
+    <div class="wrap">
+      <div class="banner">
+        <nav class="crumbs" aria-label="Sayfa yolu"><a href="/">Ana sayfa</a><span aria-hidden="true">/</span><a href="/blog/">Blog</a><span aria-hidden="true">/</span><span aria-current="page">Yazı</span></nav>
+        <h1 class="article-title">{post.data.title}</h1>
+        <p class="lede">{post.data.description}</p>
+        <p class="article-meta"><span><Icon name="plan" size={16} /><time datetime={published}>{fmt.format(post.data.date)}</time></span><span>{minutes} dakikalık okuma</span></p>
       </div>
-    </div>
     </div>
   </section>
 
-  <article class="sec band band--white post" aria-labelledby="baslik">
+  <div class="article-visual wrap">
+    <div class="frag reveal">
+      {post.data.visual === 'serp' ? <SerpMock label="Örnek görünüm." /> : <div class="vit"><p class="vit-head">Örnek rapor: altı ayda ortalama sıra</p><ReportChart /></div>}
+    </div>
+  </div>
+
+  <article class="article-body" aria-label={post.data.title}>
     <div class="prose">
       <Content />
     </div>
   </article>
 
-  <section class="sec band" aria-labelledby="devami"><div class="wrap others others--rows">
-    <h2 id="devami" data-reveal>Devamını okuyun</h2>
-    <ul>
-      {others.map((o, i) => (
-        <li data-reveal style={`--i:${i}`}><a href={`/blog/${o.id}/`}><span class="others__name">{o.data.title}</span><span class="others__text">{o.data.description}</span><span class="others__go">Okuyun</span></a></li>
-      ))}
-      {service && (
-        <li data-reveal style="--i:1"><a href={`/${service.slug}/`}><span class="others__name">İlgili hizmet: {service.name}</span><span class="others__text">{service.lead}</span><span class="others__go">İnceleyin</span></a></li>
-      )}
-    </ul>
-  </div></section>
+  <section class="rel-sec" aria-labelledby="devami">
+    <div class="wrap">
+      <div class="sec-head reveal">
+        <h2 class="h2" id="devami">Devamını <em>okuyun</em></h2>
+      </div>
+      <div class="rel-grid">
+        {others.map((o) => (
+          <a class="rel-card reveal" href={`/blog/${o.id}/`}><h3>{o.data.title}</h3><p>{o.data.description}</p><span class="go">Okuyun<Icon name="arrow" size={16} /></span></a>
+        ))}
+        {service && (
+          <a class="rel-card reveal" href={`/${service.slug}/`} style="--tone:var(--orange);--tone-text:var(--orange-text)"><h3>İlgili hizmet: {service.name}</h3><p>{service.lead}</p><span class="go">İnceleyin<Icon name="arrow" size={16} /></span></a>
+        )}
+      </div>
+    </div>
+  </section>
 
-  <Work title="Bu notları yazan ekibin işleri" names={['Denizli Kuyumcu', 'Elea Premium Stay', 'Bilgi Dem Akademi', 'Jarkotech']} />
-
-  <Contact />
-</Base>
+  <Chat />
+</Page>

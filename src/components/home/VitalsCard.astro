@@ -6,12 +6,14 @@ const rows = [
   { k: 'CLS', name: 'Kayma', value: '0,04', w: 40, limit: '≤ 0,1' },
 ];
 ---
-<div class="ui vitals" data-ui>
+<div class="vit">
+  <p class="vit-head">Google’ın sayfa deneyimi ölçüleri</p>
   {rows.map((r) => (
-    <div class="vital" title={`${r.name}: ${r.value} (Google’ın “iyi” sınırı ${r.limit})`}>
+    <div class="vit-row" title={`${r.name}: ${r.value} (Google’ın “iyi” sınırı ${r.limit})`}>
       <b>{r.k}</b>
-      <div class="vital__bar" aria-hidden="true"><span style={`--w:${r.w}%`}></span></div>
+      <span class="vit-bar" aria-hidden="true"><i style={`width:${r.w}%`}></i></span>
       <output>{r.value}</output>
     </div>
   ))}
+  <p class="vit-note">Örnek ölçüm. Çubuklar, değeri Google’ın “iyi” sınırına göre gösterir.</p>
 </div>

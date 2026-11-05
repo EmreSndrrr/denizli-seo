@@ -5,19 +5,21 @@ import { Image } from 'astro:assets';
 import Icon from '../Icon.astro';
 import { PROJECTS } from '../../data/projects';
 import { PROJECT_TABS } from '../../data/home';
-const shown = PROJECTS.filter((p) => p.shot);
+interface Props { names?: string[]; title?: string; intro?: string; tabs?: boolean }
+const { names, title, intro, tabs = true } = Astro.props;
+const shown = (names ? names.map((n) => PROJECTS.find((p) => p.name === n)!) : PROJECTS).filter((p) => p?.shot);
 const tagsOf = (work: string) => work.split(' · ');
 const cats = (work: string) => PROJECT_TABS.filter((t) => t.key !== 'hepsi' && tagsOf(work).some((x) => t.tags.includes(x))).map((t) => t.key).join(' ');
 ---
 <section class="projects" id="isler" aria-labelledby="isler-baslik">
   <div class="wrap">
     <div class="sec-head reveal">
-      <h2 class="h2" id="isler-baslik">Tasarımdan gerçeğe: <em>projelerimiz</em></h2>
-      <p class="lede">Venti Dijital Ajans’ın kurduğu ya da SEO’sunu yürüttüğü sitelerden bazıları. Hepsi yayında; dokunup açabilirsiniz.</p>
+      <h2 class="h2" id="isler-baslik">{title ?? 'Tasarımdan gerçeğe: '}{title ? '' : <em>projelerimiz</em>}</h2>
+      <p class="lede">{intro ?? 'Venti Dijital Ajans’ın kurduğu ya da SEO’sunu yürüttüğü sitelerden bazıları. Hepsi yayında; dokunup açabilirsiniz.'}</p>
     </div>
-    <div class="ptabs" role="group" aria-label="Proje kategorisi">
+    {tabs && <div class="ptabs" role="group" aria-label="Proje kategorisi">
       {PROJECT_TABS.map((t, i) => <button type="button" class:list={['ptab', { active: i === 0 }]} data-cat={t.key} aria-pressed={i === 0 ? 'true' : 'false'}>{t.label}</button>)}
-    </div>
+    </div>}
   </div>
   <div class="pview" data-pview>
     <ul class="ptrack" data-ptrack>
