@@ -198,6 +198,14 @@ const POST_MOTIF = {
   'backlink-sorgulama': 'console',
   'ucretsiz-backlink-siteleri': 'broken',
   'black-hat-seo': 'broken',
+  'google-ust-siralara-cikmak': 'chart',
+  'anahtar-kelime-analizi': 'doc',
+  'site-ici-site-disi-seo': 'gauge',
+  'seo-uyumlu-web-sitesi': 'layout',
+  'e-ticaret-seo': 'layout',
+  'wordpress-seo': 'console',
+  'gorsel-seo': 'gauge',
+  'kurumsal-seo': 'districts',
 };
 
 function posts() {
