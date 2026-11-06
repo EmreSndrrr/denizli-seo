@@ -194,6 +194,10 @@ const POST_MOTIF = {
   'seo-fiyatlari': 'chart',
   'seo-ajansi-mi-uzmani-mi': 'profile',
   'ucretsiz-seo-analizi-nasil-yapilir': 'console',
+  'backlink-nedir': 'linkgraph',
+  'backlink-sorgulama': 'console',
+  'ucretsiz-backlink-siteleri': 'broken',
+  'black-hat-seo': 'broken',
 };
 
 function posts() {
