@@ -194,6 +194,10 @@
 .prose blockquote { padding: 0.2rem 0 0.2rem 1.2rem; border-left: 1px solid var(--pink); color: var(--soft); }
 .prose table { width: 100%; border-collapse: collapse; font-size: 1rem; }
 .prose th, .prose td { text-align: left; padding: 0.6rem 0.8rem; border-bottom: 1px solid var(--line); }
+@media (max-width: 40em) {
+  .prose table { display: block; overflow-x: auto; }
+  .prose th, .prose td { min-width: 8.5rem; }
+}
 .article-body { padding-bottom: 6vh; }
 
 /* ---------- the founder ---------- */
