@@ -1,5 +1,7 @@
 # CLAUDE.md
 
+This file provides guidance to Claude Code (claude.ai/code) when working with code in this repository.
+
 Behavioral guidelines to reduce common LLM coding mistakes. Merge with project-specific instructions as needed.
 
 **Tradeoff:** These guidelines bias toward caution over speed. For trivial tasks, use judgment.
@@ -77,3 +79,32 @@ Strong success criteria let you loop independently. Weak criteria ("make it work
 - Büyüteç yolculuğu: `stage.ts` iki canvas çizer: `#stage` (arka plan: toz, bağlantı ağı, hero ve lens bölümündeki büyüteç) ve `#lens-front` (yalnızca büyüteç; içeriğin üstünde, `pointer-events: none`, yalnızca büyüteç kutusunda çizilir: scissor). Yol kesintisizdir (`lensAnchor(y)` in `choreo.ts`): lens bölümündeki dalış sırasında (%76) arka plan büyüteci gizlenir, ön büyüteç aynı boyutta devralır (ekrandan büyük halka), küçülüp kenara uçar, bölümler boyunca kenardan kenara gezer, “Biz kimiz” halkasına (`.about-lens`, canlı konum) yerleşir, bırakır ve sayfa sonuna kadar sürer; telefonda da görünür (daha küçük). Anchor `main.ts`'te yumuşatılır (devir anında yumuşatma atlanır). WebGL yoksa ya da hareket azaltılmışsa halkada statik marka büyüteci görünür. Piksel oranı: arka plan ≤1,3, ön katman ≤1,75.
 - Hizmetler (Kasım 2026): 5 hizmet `src/data/services.ts` (yerel-seo, teknik-seo, icerik-seo, backlink-hizmeti, web-tasarim) + `/hizmetler/` özet sayfası; çubuktaki “Hizmetler” bağlantısı `/hizmetler/`. Backlink metni satın alınmış bağlantıyı, özel blog ağını ve hacklink'i açıkça reddeder.
 - SEO/GEO katmanı: `Head.astro` (ProfessionalService + Venti Organization + Person + WebSite grafiği; sayfa başına OG görseli), `robots.txt.ts` (arama ve yapay zekâ botlarına açık), `llms.txt.ts`, `rss.xml.ts`, `astro.config.mjs` (sitemap: blog için gerçek lastmod). E-E-A-T: `/editoryal-ilkeler/`, hakkımızda kurucu bölümü (kaynak: ventiajans.com/hakkimizda), yazı altında yazar/kaynak kutusu, yazıların sonunda doğrulanmış Google kaynakları. Blog ve OG görselleri `scripts/make-images.cjs` ile tasarım sisteminden çizilir (`NODE_PATH=$(npm root -g) node scripts/make-images.cjs`); her yazının `public/blog/<id>.jpg` ve `public/og/blog-<id>.jpg` görseli ve `imageAlt` alanı olmalıdır. Yazı başlığı ≤60 karakter.
+
+## Komutlar
+
+Bulut oturumunda Node 22.22 geliyor, proje ≥ 22.23 istiyor; komutları `npx -y -p node@24` ile çalıştır:
+
+```bash
+npx -y -p node@24 npm ci          # bağımlılıklar
+npx -y -p node@24 npm run dev     # http://localhost:4321
+npx -y -p node@24 npm run build   # dist/ (24 sayfa + sitemap, rss, llms.txt)
+npx -y -p node@24 npm run check   # astro check: 0 hata beklenir
+```
+
+Test paketi yok. Doğrulama = `build` + `check` temiz; görsel değişikliklerde Playwright ile telefonda (390px) ve masaüstünde ekran görüntüsü al.
+
+## Yayın
+
+Güzel Hosting (cPanel). `dist/` içeriği yüklenir; `public/.htaccess` https + www'suz tek 301, sonu `/` ile biten adresler, 404 sayfası, güvenlik ve önbellek başlıklarını ayarlar. Yayından sonra `curl -sI http://www.denizliseo.com/yerel-seo` tek 301 ile `https://denizliseo.com/yerel-seo/` adresine gitmeli.
+
+## İşletme kimliği
+
+Google İşletme Profili **Venti Dijital Ajans** adına (7/24 açık). Şemada yerel işletme (adres, telefon, harita, saatler) Venti düğümündedir; Denizli SEO, Venti'nin markası olan bir Organization'dır (`src/components/Head.astro`). Aynı adreste "Denizli SEO" adına ikinci bir profil açılmaz.
+
+## Blog yazımı
+
+Yeni SEO/GEO yazıları için talimat: `docs/seo-yazi-talimati.md`. Doğrulanmış kaynaklar `docs/kaynaklar.md` dosyasında tutulur (varsa önce ona bak).
+
+## Proje eklentileri ve skill'ler
+
+`.claude/settings.json` iki eklentiyi açar: `claude-seo` (`/seo` komutları ve SEO ajanları) ve `andrej-karpathy-skills`. `.claude/settings.local.json` impeccable tasarım denetimi hook'larını çalıştırır. Proje skill'leri `.claude/skills/` altında: impeccable, design-taste-frontend, playwright-cli ve caveman ailesi.
