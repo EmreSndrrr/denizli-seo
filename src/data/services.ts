@@ -42,7 +42,7 @@ export const SERVICES: Service[] = [
       'Google, konum içeren bir aramada haritayı sonuçların en üstüne koyar ve yanına birkaç işletme dizer. Bu listeye girmek için profiliniz, yorumlarınız ve adres bilgileriniz birbirini doğrulamalı.',
     items: [
       { name: 'İşletme Profili kurulumu', text: 'Profil yoksa açar, varsa sahipliğini sizde toplar ve doğrulamayı tamamlarız.' },
-      { name: 'Kategori ve hizmetler', text: 'Ana kategori, haritadaki sırayı en çok etkileyen alanlardan biridir. Doğru ana kategoriyi ve ek kategorileri seçeriz.' },
+      { name: 'Kategori ve hizmetler', text: 'Ana kategori, haritadaki sırayı etkileyen önemli alanlardan biridir. Doğru ana kategoriyi ve ek kategorileri seçeriz.' },
       { name: 'Fotoğraf ve gönderiler', text: 'İşletmenin içi, dışı ve işi. Düzenli eklenen fotoğraf ve gönderilerle profil güncel kalır.' },
       { name: 'Yorum düzeni', text: 'Memnun müşterinin yorum bırakmasını kolaylaştıran kısa bağlantı ve QR kod hazırlar, her yoruma yanıt verilmesini sağlarız.' },
       { name: 'Ad, adres, telefon tutarlılığı', text: 'Sitenizde, profilde ve rehber sitelerinde işletme bilgilerinin harfi harfine aynı olmasını sağlarız.' },

@@ -1,5 +1,6 @@
 ---
 import { Image } from 'astro:assets';
+import { getCollection } from 'astro:content';
 import Page from '../layouts/Page.astro';
 import Banner from '../components/home/Banner.astro';
 import SerpMock from '../components/home/SerpMock.astro';
@@ -22,6 +23,16 @@ interface Props { service: Service }
 const { service } = Astro.props;
 const url = `${SITE.url}/${service.slug}/`;
 const others = SERVICES.filter((s) => s.slug !== service.slug);
+// Blog posts that go deeper into this service.
+const readFor: Record<string, string[]> = {
+  'yerel-seo': ['denizli-yerel-seo-rehberi', 'google-isletme-profili-nasil-doldurulur', 'denizli-ilce-bazli-arama'],
+  'teknik-seo': ['search-console-ilk-kontrol', 'telefonda-hizli-acilan-site', 'site-tasima-301-yonlendirme'],
+  'icerik-seo': ['hizmet-sayfasi-nasil-yazilir', 'yapay-zeka-aramalarinda-gorunmek', 'seo-ne-kadar-surede-sonuc-verir'],
+  'backlink-hizmeti': ['backlink-satin-almak-riskleri', 'denizli-yerel-backlink-kaynaklari'],
+  'web-tasarim': ['site-tasima-301-yonlendirme', 'telefonda-hizli-acilan-site'],
+};
+const allPosts = await getCollection('blog');
+const reads = (readFor[service.slug] ?? []).map((id) => allPosts.find((p) => p.id === id)!).filter(Boolean);
 const wa = waLink(`Merhaba, ücretsiz SEO analizi istiyorum. ${service.name} ile ilgileniyoruz. İşletmemin adı ve ilçesi: `);
 const shot = PROJECTS.find((p) => p.name === 'Balkan Endüstriyel Mutfak')!;
 // Venti projects that include this kind of work
@@ -135,6 +146,21 @@ const jsonld = [
   <Projects names={workFor[service.slug]} tabs={false} title="Bu işi yaptığımız siteler" intro={service.slug === 'backlink-hizmeti' ? 'Venti Dijital Ajans’ın SEO çalışması yürüttüğü sitelerden. Bağlantı çalışması, bu SEO planlarının bir kalemidir; hepsi yayında.' : 'Venti Dijital Ajans’ın bu hizmeti verdiği sitelerden; hepsi yayında, üzerine tıklayıp açabilirsiniz.'} />
 
   <Faq items={service.faq} title="Sorular" />
+
+  {reads.length > 0 && (
+    <section class="rel-sec" aria-labelledby="yazilar">
+      <div class="wrap">
+        <div class="sec-head reveal">
+          <h2 class="h2" id="yazilar">İlgili <em>yazılar</em></h2>
+        </div>
+        <div class="rel-grid">
+          {reads.map((r) => (
+            <a class="rel-card reveal" href={`/blog/${r.id}/`}><h3>{r.data.title}</h3><p>{r.data.description}</p><span class="go">Okuyun<Icon name="arrow" size={16} /></span></a>
+          ))}
+        </div>
+      </div>
+    </section>
+  )}
 
   <section class="rel-sec" aria-labelledby="diger">
     <div class="wrap">

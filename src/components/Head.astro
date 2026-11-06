@@ -33,8 +33,10 @@ const canonical = new URL(Astro.url.pathname, SITE.url).href;
 const ogImage = new URL(image, SITE.url).href;
 
 // Entities described once and referenced by @id from every page.
+// Venti Dijital Ajans holds the Google Business Profile, so the place (address, phone, map, hours) is described on it;
+// Denizli SEO is Venti's SEO brand, an organization without a second address.
 const business = {
-  '@type': 'ProfessionalService',
+  '@type': 'Organization',
   '@id': `${SITE.url}/#isletme`,
   name: SITE.name,
   url: `${SITE.url}/`,
@@ -42,6 +44,23 @@ const business = {
     'Denizli SEO, Venti Dijital Ajans’ın arama motoru optimizasyonu markasıdır: yerel SEO, Google Haritalar, teknik SEO, içerik SEO, backlink ve SEO uyumlu web tasarım.',
   image: `${SITE.url}/og/denizli-seo.jpg`,
   logo: `${SITE.url}/favicon-512.png`,
+  telephone: SITE.phone,
+  areaServed: [
+    { '@type': 'City', name: 'Denizli' },
+    ...DISTRICTS.map((d) => ({ '@type': 'AdministrativeArea', name: `${d}, Denizli` })),
+  ],
+  availableLanguage: 'tr',
+  founder: { '@id': SITE.personId },
+  parentOrganization: { '@id': SITE.parent.id },
+  knowsAbout: ['Arama motoru optimizasyonu', 'Yerel SEO', 'Google İşletme Profili', 'Teknik SEO', 'İçerik SEO', 'Backlink', 'Web tasarım'],
+};
+const parent = {
+  '@type': 'ProfessionalService',
+  '@id': SITE.parent.id,
+  name: SITE.parent.name,
+  url: SITE.parent.url,
+  logo: SITE.parent.logo,
+  image: SITE.parent.logo,
   telephone: SITE.phone,
   address: {
     '@type': 'PostalAddress',
@@ -53,22 +72,14 @@ const business = {
   },
   geo: { '@type': 'GeoCoordinates', latitude: SITE.geo.latitude, longitude: SITE.geo.longitude },
   hasMap: SITE.parent.sameAs[0],
-  areaServed: [
-    { '@type': 'City', name: 'Denizli' },
-    ...DISTRICTS.map((d) => ({ '@type': 'AdministrativeArea', name: `${d}, Denizli` })),
-  ],
-  availableLanguage: 'tr',
-  founder: { '@id': SITE.personId },
-  parentOrganization: { '@id': SITE.parent.id },
-  knowsAbout: ['Arama motoru optimizasyonu', 'Yerel SEO', 'Google İşletme Profili', 'Teknik SEO', 'İçerik SEO', 'Backlink', 'Web tasarım'],
-};
-const parent = {
-  '@type': 'Organization',
-  '@id': SITE.parent.id,
-  name: SITE.parent.name,
-  url: SITE.parent.url,
-  logo: SITE.parent.logo,
+  openingHoursSpecification: {
+    '@type': 'OpeningHoursSpecification',
+    dayOfWeek: ['Monday', 'Tuesday', 'Wednesday', 'Thursday', 'Friday', 'Saturday', 'Sunday'],
+    opens: '00:00',
+    closes: '23:59',
+  },
   sameAs: SITE.parent.sameAs,
+  subOrganization: { '@id': `${SITE.url}/#isletme` },
 };
 const person = {
   '@type': 'Person',
@@ -94,14 +105,14 @@ const graph = { '@context': 'https://schema.org', '@graph': [business, parent, p
 <meta name="viewport" content="width=device-width, initial-scale=1" />
 <title>{title}</title>
 <meta name="description" content={description} />
-<link rel="canonical" href={canonical} />
+{!noindex && <link rel="canonical" href={canonical} />}
 <meta name="robots" content={noindex ? 'noindex, follow' : 'index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1'} />
 <meta property="og:type" content={type} />
 <meta property="og:locale" content={SITE.locale} />
 <meta property="og:site_name" content={SITE.name} />
 <meta property="og:title" content={title} />
 <meta property="og:description" content={description} />
-<meta property="og:url" content={canonical} />
+{!noindex && <meta property="og:url" content={canonical} />}
 <meta property="og:image" content={ogImage} />
 <meta property="og:image:width" content="1200" />
 <meta property="og:image:height" content="630" />

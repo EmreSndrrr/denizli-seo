@@ -33,8 +33,10 @@ export const SITE = {
     region: 'Denizli',
     country: 'TR',
   },
-  mapsUrl:
-    'https://www.google.com/maps/search/?api=1&query=Venti%20Dijital%20Ajans%2C%20Fatih%2C%201894.%20Sk.%20No%3A12%20D%3A1%2C%2020170%20Pamukkale%2FDenizli',
+  // Venti Dijital Ajans' Google Business Profile (the profile is under Venti's name, confirmed by the owner).
+  mapsUrl: 'https://www.google.com/maps?cid=3714531531433752929',
+  // Open 24/7 (confirmed by the owner, November 2026).
+  hours: '7/24 açık',
 } as const;
 
 export const ADDRESS_LINE = `${SITE.address.street}, ${SITE.address.postalCode} ${SITE.address.locality}/${SITE.address.region}`;

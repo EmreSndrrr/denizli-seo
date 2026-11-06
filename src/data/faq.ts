@@ -3,7 +3,7 @@ import type { Qa } from './services';
 export const HOME_FAQ: Qa[] = [
   {
     q: 'SEO ne kadar sürede sonuç verir?',
-    a: 'Rakibi az aramalarda birkaç hafta içinde hareket görülebilir; rekabetli aramalarda üç ila altı ay, bazen daha uzun sürer. Kesin tarih veren ajansa temkinli yaklaşın: sırayı Google belirler. Biz her ay nerede olduğunuzu raporlarız.',
+    a: 'Süre aramaya göre değişir; Google da kesin bir süre vermez. Rakibi az aramalarda birkaç hafta içinde hareket görülebilir; rekabetli aramalarda aylar, bazen bir yıl sürer. Kesin tarih veren ajansa temkinli yaklaşın: sırayı Google belirler. Biz her ay nerede olduğunuzu raporlarız.',
   },
   {
     q: 'İlk sırayı garanti ediyor musunuz?',
@@ -23,6 +23,6 @@ export const HOME_FAQ: Qa[] = [
   },
   {
     q: 'Google reklamı vermek yetmez mi?',
-    a: 'Reklam, bütçe bittiğinde durur; organik sıra kalıcıdır. İkisi birlikte iyi çalışır. Reklam yönetimini Venti Dijital Ajans yürütür.',
+    a: 'Reklam, bütçe bittiğinde durur; organik görünürlük çalışma sürdükçe birikir ve tıklama başına ücret istemez. İkisi birlikte iyi çalışır. Reklam yönetimini Venti Dijital Ajans yürütür.',
   },
 ];

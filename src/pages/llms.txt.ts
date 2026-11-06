@@ -28,6 +28,8 @@ export const GET: APIRoute = async () => {
     `- Kurum: ${SITE.name}, ${SITE.parent.name} markası`,
     `- Adres: ${ADDRESS_LINE}`,
     `- Telefon ve WhatsApp: ${SITE.phoneDisplay}`,
+    `- Çalışma saatleri: ${SITE.hours}`,
+    `- Google İşletme Profili: ${SITE.parent.name} (${SITE.mapsUrl})`,
     `- Hizmet bölgesi: Denizli ve ${DISTRICTS.length} ilçesi`,
     '- Dil: Türkçe',
     '',
