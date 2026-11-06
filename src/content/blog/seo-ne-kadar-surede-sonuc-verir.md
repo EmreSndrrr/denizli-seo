@@ -88,7 +88,7 @@ Sitenizi yeniden yapıyorsanız eski adreslerin yeni adreslere yönlendirildiği
 
 ## Google Haritalar’da süre farklı mı işler?
 
-Evet. Haritadaki sıra Google İşletme Profili’nin bilgilerine dayanır ve Google’a göre üç etkene bağlıdır: alaka düzeyi, mesafe ve popülerlik ([yerel sıralama ipuçları](https://support.google.com/business/answer/7091?hl=tr)). Google, popülerlikte işletmenize bağlantı veren siteleri ve yorumları da hesaba katar; yani sitenize yaptığınız çalışma haritaya da yansır.
+Evet. Haritadaki sıra Google İşletme Profili’nin bilgilerine dayanır ve Google’a göre üç etkene bağlıdır: alaka düzeyi, mesafe ve belirginlik (popülerlik) ([yerel sıralama ipuçları](https://support.google.com/business/answer/7091?hl=tr)). Google, belirginlik etkeninde işletmenize bağlantı veren siteleri ve yorumları da hesaba katar; yani sitenize yaptığınız çalışma haritaya da yansır.
 
 | | Sitenin sırası | Haritadaki sıra |
 | --- | --- | --- |

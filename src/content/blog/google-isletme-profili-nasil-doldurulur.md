@@ -25,7 +25,7 @@ Google’a göre yerel sonuçlar çoğunlukla üç etkene göre belirlenir ([Goo
 
 - **Alaka düzeyi:** Profilinizin aramayla ne kadar iyi eşleştiği. Eksiksiz ve doğru bilgi bu etkeni doğrudan etkiler.
 - **Mesafe:** İşletmenizin arama yapan kişiye uzaklığı. Bunu değiştiremezsiniz; Merkezefendi’deki bir kuyumcu, Çivril’de yapılan bir aramada doğal olarak geride kalır.
-- **Popülerlik (öne çıkma):** İşletmenin ne kadar bilindiği. Google bu etkende işletmenize bağlantı veren siteleri ve yorumların sayısını ve puanını da hesaba kattığını belirtir.
+- **Belirginlik (popülerlik):** İşletmenin ne kadar bilindiği. Google bu etkende işletmenize bağlantı veren siteleri ve yorumların sayısını ve puanını da hesaba kattığını belirtir.
 
 Bu rehberdeki adımların çoğu birinci etkeni, yani alaka düzeyini güçlendirir. Yorumlar ve sitenize verilen bağlantılar ise üçüncüsünü.
 
@@ -213,7 +213,7 @@ Profili düzelttikten sonra haritada sıranın ne zaman değişeceğini merak ed
 
 ### Profil açtıktan sonra haritada ne zaman görünürüm?
 
-Doğrulama tamamlandıktan ve Google bilgileri inceledikten sonra profil görünür hâle gelir. Ancak görünmek ile üst sıralarda çıkmak farklı şeylerdir; sıra, yukarıda anlatılan alaka, mesafe ve popülerlik etkenlerine bağlıdır.
+Doğrulama tamamlandıktan ve Google bilgileri inceledikten sonra profil görünür hâle gelir. Ancak görünmek ile üst sıralarda çıkmak farklı şeylerdir; sıra, yukarıda anlatılan alaka, mesafe ve belirginlik etkenlerine bağlıdır.
 
 ### Ev adresimle profil açabilir miyim?
 
