@@ -190,6 +190,10 @@ const POST_MOTIF = {
   'backlink-satin-almak-riskleri': 'broken',
   'hizmet-sayfasi-nasil-yazilir': 'doc',
   'yapay-zeka-aramalarinda-gorunmek': 'ai',
+  'seo-nedir': 'lens',
+  'seo-fiyatlari': 'chart',
+  'seo-ajansi-mi-uzmani-mi': 'profile',
+  'ucretsiz-seo-analizi-nasil-yapilir': 'console',
 };
 
 function posts() {
