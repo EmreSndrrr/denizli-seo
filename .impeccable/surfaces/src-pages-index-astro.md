@@ -15,7 +15,7 @@ THESIS: A search-engine story told in 3D: the visitor types a query, a chrome ma
 
 OWN-WORLD: Graphite (#0b0e13) from top to bottom; it never turns to paper or white. Dark grey cards (#17171c), hot pink (#d82068) as the action color, orange and purple as supporting accents. One family: Archivo. A fixed three.js stage behind the page and a lens-only canvas above the content.
 
-STORY: Hero with a live search box, the lens chapter, the five-service map, five reasons, four steps, the project carousel, the free-chat band, "Biz kimiz ?", the Google rating, the brands, the 3D relief map of Denizli, questions, the free-analysis form, a wordmark footer.
+STORY: Hero with a live search box, the lens chapter, the five-service map, five reasons, four steps, the project carousel, the free-chat band, "Biz kimiz ?", the Google rating, the brands, the three newest blog posts, questions, the free-analysis form, a wordmark footer.
 
 FIRST VIEWPORT: Fixed bar (wordmark, five links, outlined primary button). Left: a two-line headline, a search box with sector chips, one sentence, two buttons, the Google rating line. Right: the 3D magnifier whose glass shows the searched result.
 

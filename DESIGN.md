@@ -168,7 +168,7 @@ Scope: the whole site. `src/styles/home.css` (tokens, base, bar, hero, lens chap
 
 The owner supplied a dark agency reference (Trebuto) and asked the page to follow it everywhere except the magnifier animation (hero, lens chapter, the journey to the "Biz kimiz" ring) and the footer, which stay as designed. The result is a black page of dark grey cards with 1px light lines, hot pink as the action color, orange and purple as supporting accents, and one typeface. A single fixed three.js stage (chrome magnifier, link graph, recoloured to pink, purple and orange) runs behind the page; a second, lens-only canvas above the content (`#lens-front`, never intercepts a click) lets the magnifier travel over the later sections, which are ordinary opaque-card sections on the black ground. The page never changes colour: there is no paper or white section.
 
-Sections run in this order: hero (search box, chips, marquee), lens, "Ne yapıyoruz ?" service map (five groups, then a button to the services page), "Farkımız ne ?" five cards, "Nasıl çalışıyoruz ?" timeline, projects carousel, free-chat band, "Biz kimiz ?" (an empty ring where the magnifier lands; a still brand magnifier when WebGL is off or motion is reduced), Google rating orbit, brands grid, the map chapter (Türkiye zooming into Denizli, then the 3D relief with the 19 district names; no heading, no controls), FAQ, closing form, footer.
+Sections run in this order: hero (search box, chips, marquee), lens, "Ne yapıyoruz ?" service map (five groups, then a button to the services page), "Farkımız ne ?" five cards, "Nasıl çalışıyoruz ?" timeline, projects carousel, free-chat band, "Biz kimiz ?" (an empty ring where the magnifier lands; a still brand magnifier when WebGL is off or motion is reduced), Google rating orbit, brands grid, the blog (the three newest posts as cards with their covers, a button to all posts), FAQ, closing form, footer.
 
 **Key Characteristics:**
 - Black ground (#0b0e13), grey cards (#17171c, #1f1f26) with a 1px `rgba(243,242,236,.16)` line.
@@ -236,7 +236,7 @@ One centered `.wrap`: max 1380px, side padding `max(16px, 4vw)`. Section padding
 - Why cards: flex-wrap, centered, three per row; two below 1000px, one below 620px.
 - Process: sticky heading card beside the steps (single column at 1100px).
 - Projects: horizontal scroll-snap carousel, middle card scaled up, category tabs above.
-- Brands: auto-fill grid of 190px minimum. The map chapter is pinned for 270vh with one view (min 70svh); without motion the flat map and the relief sit in two cards (stacked below 800px). The yerel-seo page keeps its auto-fit district pin list (116px).
+- Brands: auto-fill grid of 190px minimum. The yerel-seo page keeps its auto-fit district pin list (116px).
 - The lens chapter (235vh) is a pinned scroll chapter; after it the magnifier swings from edge to edge over the sections and settles into the "Biz kimiz" ring, then lets go as that section scrolls away.
 
 The bar is fixed with a top scrim, gains blur and a line when scrolled. Below 960px the link pill becomes a 44px toggle and drawer; below 560px the bar button hides.
@@ -295,7 +295,7 @@ Pills for buttons, chips, search, toggles, tags, nav links. Rectangles are modes
 - Pill link group (blurred), 0.9375rem/600; active link is a pink pill with white text; logo mark plus wordmark. Mobile drawer is a blurred 20px-radius sheet.
 
 ### Signature: stage and map
-- The fixed canvas (`#stage`) is driven by `choreo.ts` camera keyframes; magnifier, link graph and tags use pink (#ff3d85), orange (#ff6a1f) and purple (#9b4dff) in `stage.ts`. The map chapter starts on a flat Türkiye (dark cards, Denizli in hot pink with a pulsing ring), narrows its viewBox onto Denizli, then cross-fades into the real 3D relief (19 districts, OSM borders and elevation) seen from above and tilting to rest; district names appear as dark labels. A poster shows until WebGL starts. The contact page keeps the one-district marker (`placeMode`).
+- The fixed canvas (`#stage`) is driven by `choreo.ts` camera keyframes; magnifier, link graph and tags use pink (#ff3d85), orange (#ff6a1f) and purple (#9b4dff) in `stage.ts`. The 3D relief of Denizli (19 districts, OSM borders and elevation) appears only on the contact page, with one column on the office's district; a poster shows until WebGL starts.
 
 ## Do's and Don'ts
 

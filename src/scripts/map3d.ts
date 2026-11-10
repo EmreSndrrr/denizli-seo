@@ -1,6 +1,5 @@
 // The 3D map of Denizli: real district borders (OpenStreetMap via geoBoundaries) laid on the real relief
-// (AWS Terrain Tiles). Two ways to show it: the district names on the bare relief (home page), or one column
-// on one district (the contact page). Loaded on demand.
+// (AWS Terrain Tiles), with one column on the office's district (the contact page). Loaded on demand.
 import * as THREE from 'three';
 import MAP from '../data/denizli-map.json';
 
@@ -13,12 +12,6 @@ const BASE = 2.5;                                   // thickness of the block un
 
 const DEBUG = location.hash.startsWith('#map-');
 const css = (name: string, fallback: string) => getComputedStyle(document.documentElement).getPropertyValue(name).trim() || fallback;
-
-function ringArea(ring: Pt[]) {
-  let a = 0;
-  for (let i = 0, j = ring.length - 1; i < ring.length; j = i++) a += ring[j][0] * ring[i][1] - ring[i][0] * ring[j][1];
-  return Math.abs(a) / 2;
-}
 
 function pip(x: number, z: number, ring: Pt[]) {
   let c = false;
@@ -158,7 +151,7 @@ export async function createMap(o: MapOptions) {
     el.className = 'mapl';
     el.innerHTML = `<b></b><span>${d.name}</span>`;
     o.labels.appendChild(el);
-    return { name: d.name, m, mat, el, rank: 20, h: 0.01, target: heightOf(20), colour: cLow.clone(), x: x - CX, y, z: z - CZ, sx: 0, sy: 0, on: true, w: 26, area: ringArea(d.ring as Pt[]) };
+    return { name: d.name, m, mat, el, rank: 20, h: 0.01, target: heightOf(20), colour: cLow.clone(), x: x - CX, y, z: z - CZ, sx: 0, sy: 0, on: true, w: 26 };
   });
   const byName = Object.fromEntries(cols.map((c) => [c.name, c]));
   let order = [...cols];
@@ -168,7 +161,6 @@ export async function createMap(o: MapOptions) {
   const focus = REST.clone(), focusTo = REST.clone();
   let dist = 400, distTo = 400, zoom = 1, zoomTo = 1;
   let azim = -0.32, polar = 0.98, drag = 0, dragTo = 0, progress = 0;
-  let mix = 1;                                          // 0: seen from straight above with north up, 1: resting tilt
   if (location.hash === '#map-top') { azim = 0; polar = 0.001; }
   const fit = () => {
     const sh = location.hash === '#map-poster' ? { x: 0, y: 0 } : o.shift?.() ?? { x: 0, y: 0 };
@@ -227,9 +219,9 @@ export async function createMap(o: MapOptions) {
     zoom += (zoomTo - zoom) * k;
     drag += (dragTo - drag) * k;
     const idle = o.reduced ? 0 : Math.sin(t * 0.18) * 0.06;
-    const az = azim * mix + progress * 0.55 + drag + idle;
-    const po = 0.1 + (polar - 0.1) * mix - progress * 0.12;
-    const R = dist * zoom * (1 + progress * 0.1) * (1 + (o.phone ? 0.1 : 0.75) * (1 - mix)); // seen from above it starts as small as the flat map it replaces
+    const az = azim + progress * 0.55 + drag + idle;
+    const po = polar - progress * 0.12;
+    const R = dist * zoom * (1 + progress * 0.1);
     const fz = focus.z - progress * 14; // tall columns at the end of the story need headroom
     camera.position.set(focus.x + R * Math.sin(po) * Math.sin(az), focus.y + R * Math.cos(po), fz + R * Math.sin(po) * Math.cos(az));
     camera.lookAt(focus.x, focus.y, fz);
@@ -263,23 +255,6 @@ export async function createMap(o: MapOptions) {
   kick();
 
   return {
-    // the bare relief with the district names; the bigger districts get their label first
-    namesMode() {
-      home = '';
-      paint();
-      for (const c of cols) {
-        c.target = 0.01;
-        c.m.visible = false;
-        c.rank = 99;
-        c.el.querySelector('b')!.textContent = '';
-        c.el.hidden = false;
-        c.el.classList.remove('is-home');
-      }
-      for (const c of cols) c.w = c.el.offsetWidth || 60;
-      order = [...cols].sort((a, b) => b.area - a.area);
-      kick();
-    },
-    setView(m: number) { mix = Math.max(0, Math.min(1, m)); kick(); },
     focusOn(district: string | null, closeness = 0.62) {
       const c = district ? byName[district] : null;
       if (c) { focusTo.set(c.x * 0.6, 0, c.z * 0.6 + REST.z * 0.4); zoomTo = closeness; } else { focusTo.copy(REST); zoomTo = 1; }

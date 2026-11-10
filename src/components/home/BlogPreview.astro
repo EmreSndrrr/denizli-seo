@@ -1,0 +1,29 @@
+---
+// The three newest posts. Each cover is the one drawn for that post (scripts/make-images.cjs).
+import { getCollection } from 'astro:content';
+import Icon from '../Icon.astro';
+const posts = (await getCollection('blog')).sort((a, b) => b.data.date.valueOf() - a.data.date.valueOf()).slice(0, 3);
+const fmt = new Intl.DateTimeFormat('tr-TR', { day: 'numeric', month: 'long', year: 'numeric' });
+---
+<section class="blogs" id="blog" aria-labelledby="blog-baslik">
+  <div class="wrap">
+    <div class="sec-head reveal">
+      <h2 class="h2" id="blog-baslik">Blogdan <em>son yazılar</em></h2>
+      <p class="lede">Denizli’deki işletmeler için SEO, Google Haritalar ve site hızı üzerine kısa, kaynaklı yazılar.</p>
+    </div>
+    <ul class="bl-grid">
+      {posts.map((p) => (
+        <li class="bl-card reveal">
+          <a href={`/blog/${p.id}/`}>
+            <span class="bl-pic"><img src={`/blog/${p.id}-640.webp`} width="640" height="336" alt={p.data.imageAlt} loading="lazy" decoding="async" /></span>
+            <span class="bl-meta"><time datetime={p.data.date.toISOString()}>{fmt.format(p.data.date)}</time></span>
+            <h3>{p.data.title}</h3>
+            <p>{p.data.description}</p>
+            <span class="bl-go">Okuyun<Icon name="arrow" size={16} /></span>
+          </a>
+        </li>
+      ))}
+    </ul>
+    <p class="bl-all reveal"><a class="btn btn-outline" href="/blog/">Bütün yazıları görün<Icon name="arrow" size={18} /></a></p>
+  </div>
+</section>

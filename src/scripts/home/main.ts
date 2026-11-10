@@ -8,7 +8,6 @@ import { M, measure, buildKeys, sample, firstKey, lensAnchor, NO_ANCHOR, FIELDS,
 import { initSearch, onQuery } from './search';
 import { initProjects } from './projects';
 import { initDrawer, initFaq, initForm } from './ui';
-import { initDenizli } from './denizli';
 import type { Stage } from './stage';
 
 const root = document.documentElement;
@@ -45,7 +44,6 @@ $$('a[href^="#"]').forEach((a) => a.addEventListener('click', (e) => {
 initFaq();
 initForm();
 initProjects();
-initDenizli(reduce, fx);
 initSearch(scrollToY, measure, reduce);
 
 /* ---------- the 3D stage ---------- */

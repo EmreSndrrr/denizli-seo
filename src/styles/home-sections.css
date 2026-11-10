@@ -148,7 +148,6 @@
 .brand-grid span { font-size: var(--t-small); color: var(--soft); }
 
 /* ---------- Denizli: districts and the relief map ---------- */
-.dmap { position: relative; }
 .pins { display: grid; grid-template-columns: repeat(auto-fit, minmax(116px, 1fr)); gap: 16px 10px; max-width: 64rem; margin: 0 auto 3rem; text-align: center; font-size: var(--t-small); font-weight: 600; color: var(--soft); }
 .pins li { display: grid; justify-items: center; gap: 6px; }
 .pin { display: block; width: 14px; height: 14px; border-radius: 50% 50% 50% 0; background: var(--pink); transform: rotate(-45deg); }
@@ -169,34 +168,21 @@
 .dmap-note { display: flex; flex-wrap: wrap; align-items: center; gap: 6px 16px; padding: 12px 20px; border-top: 1px solid var(--line); font-size: 0.8125rem; color: var(--soft); }
 .dmap-note em { flex: 1 1 14rem; font-style: normal; font-size: inherit; color: var(--soft); text-align: right; }
 
-/* ---------- Denizli: from Türkiye to the 19 districts ---------- */
-.dmap .dmap-view { display: grid; grid-template-columns: 1fr 1fr; gap: 20px; height: auto; background: none; }
-.dmap-pin .wrap { padding-block: 12vh 10vh; }
-.tr-map, .dmap-3d { position: relative; height: clamp(20rem, 36vw, 30rem); overflow: hidden; border-radius: 20px; border: 1px solid var(--line); background: radial-gradient(120% 90% at 50% 40%, #1a1522, #0b0b10); }
-.tr-map svg { position: absolute; inset: 0; width: 100%; height: 100%; }
-.tr-others { opacity: var(--others, 1); }
-.tr-others path { fill: var(--card-2); stroke: rgba(243, 242, 236, 0.22); stroke-width: 0.7; stroke-linejoin: round; vector-effect: non-scaling-stroke; }
-.tr-denizli { fill: var(--pink); stroke: #ff8fb8; stroke-width: 1.2; stroke-linejoin: round; vector-effect: non-scaling-stroke; }
-.tr-ring { fill: none; stroke: var(--pink-text); stroke-width: 2; vector-effect: non-scaling-stroke; opacity: var(--ring, 1); transform-box: fill-box; transform-origin: center; animation: trPulse 2.4s ease-out infinite; }
-@keyframes trPulse { from { transform: scale(0.6); opacity: 0.9; } to { transform: scale(1.5); opacity: 0; } }
-.rm .tr-ring { animation: none; }
-.dmap-3d .mapl b { display: none; }
-.dmap-3d .mapl > span { display: block; padding: 0.3rem 0.55rem; border-radius: 6px; border: 1px solid rgba(243, 242, 236, 0.2); background: rgba(11, 14, 19, 0.82); color: #fff; font-size: 0.8125rem; }
-.dmap-cap { display: none; }
-.dmap .dmap-note { justify-content: center; border: 0; padding: 14px 0 0; color: var(--soft); }
-@media (max-width: 800px) { .dmap .dmap-view { grid-template-columns: 1fr; } }
-
-/* with motion: one view, pinned while the page zooms from Türkiye into Denizli */
-.fx .dmap { height: 270vh; }
-.fx .dmap-pin { position: sticky; top: 0; height: 100vh; height: 100svh; display: grid; align-items: center; }
-.fx .dmap-pin .wrap { padding-block: 78px 3vh; }
-.fx .dmap .dmap-view { display: block; position: relative; height: min(70svh, 46rem); overflow: hidden; border-radius: 20px; border: 1px solid var(--line); background: radial-gradient(120% 90% at 50% 40%, #1a1522, #0b0b10); }
-.fx .tr-map, .fx .dmap-3d { position: absolute; inset: 0; height: auto; border: 0; border-radius: 0; background: none; }
-.fx .dmap-3d { opacity: 0; pointer-events: none; }
-.fx .dmap-cap { position: absolute; left: 1rem; top: 1rem; z-index: 3; display: flex; align-items: baseline; gap: 0.6rem; padding: 0.55rem 1.05rem; border-radius: 999px; border: 1px solid var(--line); background: rgba(11, 14, 19, 0.72); -webkit-backdrop-filter: blur(10px); backdrop-filter: blur(10px); }
-.dmap-cap b { font-size: 1.0625rem; font-weight: 800; font-stretch: 108%; }
-.dmap-cap span { font-size: 0.9375rem; color: var(--soft); }
-@media (max-width: 800px) { .fx .dmap .dmap-view { height: min(64svh, 34rem); } }
+/* ---------- the blog: the newest posts ---------- */
+.blogs .wrap { padding-block: 8vh; }
+.bl-grid { display: grid; grid-template-columns: repeat(3, minmax(0, 1fr)); gap: 22px; }
+.bl-card a { position: relative; display: grid; gap: 0.8rem; align-content: start; height: 100%; padding: 0.8rem 0.8rem 1.5rem; text-decoration: none; border-radius: 14px; background: var(--card); border: 1px solid var(--line); transition: border-color 0.25s, transform 0.25s var(--ease); }
+.bl-card a:hover { border-color: var(--pink); transform: translateY(-3px); }
+.bl-pic { display: block; aspect-ratio: 1200 / 630; overflow: hidden; border-radius: 10px; border: 1px solid var(--line); background: var(--card-2); }
+.bl-pic img { display: block; width: 100%; height: 100%; object-fit: cover; }
+.bl-meta { padding-inline: 0.5rem; font-size: 0.8125rem; font-weight: 600; color: var(--soft); }
+.bl-card h3 { padding-inline: 0.5rem; font-size: 1.25rem; font-weight: 700; line-height: 1.25; letter-spacing: -0.01em; color: var(--pink-text); }
+.bl-card p { padding-inline: 0.5rem; color: var(--muted); font-size: 1rem; }
+.bl-go { margin-top: auto; padding-inline: 0.5rem; display: inline-flex; align-items: center; gap: 0.45em; font-weight: 700; color: #fff; }
+.bl-go svg { transition: transform 0.25s var(--ease); }
+.bl-card a:hover .bl-go svg { transform: translateX(4px); }
+.bl-all { display: flex; justify-content: center; margin-top: 2.5rem; }
+@media (max-width: 900px) { .bl-grid { grid-template-columns: 1fr; } }
 
 /* ---------- questions ---------- */
 .faq { position: relative; }
