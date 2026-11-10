@@ -48,10 +48,10 @@ Biçim: kutu, sıra no, H1 başlığı, hizmet, ana kelime.
 - [x] 002. Haritada Görünmüyorum: 10 Olası Neden ve Çözüm — `yerel-seo` — google haritalarda çıkmamak — `haritada-gorunmuyorum`
 - [x] 003. Google İşletme Profili Doğrulanmıyor: Nedenleri ve Çözümü — `yerel-seo` — işletme profili doğrulama — `isletme-profili-dogrulanmiyor`
 - [x] 004. Google İşletme Profili Askıya Alındı: Ne Yapmalı? — `yerel-seo` — profil askıya alma — `isletme-profili-askiya-alindi`
-- [ ] 005. Google Yorumları Nasıl Artırılır? Kurallara Uygun Yollar — `yerel-seo` — google yorum artırma — `google-yorumlari-nasil-artirilir-kurallara-uygun-yollar`
-- [ ] 006. Olumsuz Google Yorumuna Nasıl Cevap Verilir? — `yerel-seo` — olumsuz yoruma yanıt — `olumsuz-google-yorumuna-nasil-cevap-verilir`
-- [ ] 007. Hizmet Bölgesi Nasıl Belirlenir? İşletme Profili Rehberi — `yerel-seo` — hizmet bölgesi — `hizmet-bolgesi-nasil-belirlenir-isletme-profili-rehberi`
-- [ ] 008. “Yakınımda” Aramalarında Görünmek İçin Ne Yapılır? — `yerel-seo` — yakınımda aramaları — `yakinimda-aramalarinda-gorunmek-icin-ne-yapilir`
+- [x] 005. Google Yorumları Nasıl Artırılır? Kurallara Uygun Yollar — `yerel-seo` — google yorum artırma — `google-yorumlari-nasil-artirilir`
+- [x] 006. Olumsuz Google Yorumuna Nasıl Cevap Verilir? — `yerel-seo` — olumsuz yoruma yanıt — `olumsuz-google-yorumuna-nasil-cevap-verilir`
+- [x] 007. Hizmet Bölgesi Nasıl Belirlenir? İşletme Profili Rehberi — `yerel-seo` — hizmet bölgesi — `hizmet-bolgesi-nasil-belirlenir`
+- [x] 008. “Yakınımda” Aramalarında Görünmek İçin Ne Yapılır? — `yerel-seo` — yakınımda aramaları — `yakinimda-aramalarinda-gorunmek`
 - [ ] 009. Ad, Adres, Telefon Tutarlılığı: NAP Kontrol Listesi — `yerel-seo` — nap tutarlılığı — `ad-adres-telefon-tutarliligi-nap-kontrol-listesi`
 - [ ] 010. Yerel Rehber Kayıtları İşe Yarar mı? — `yerel-seo` — yerel rehber kaydı — `yerel-rehber-kayitlari-ise-yarar-mi`
 - [ ] 011. Birden Fazla Şubeli İşletmeler İçin Yerel SEO — `yerel-seo` — çok şubeli yerel seo — `birden-fazla-subeli-isletmeler-icin-yerel-seo`

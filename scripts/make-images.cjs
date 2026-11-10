@@ -210,6 +210,10 @@ const POST_MOTIF = {
   'haritada-gorunmuyorum': 'pins',
   'isletme-profili-dogrulanmiyor': 'profile',
   'isletme-profili-askiya-alindi': 'broken',
+  'google-yorumlari-nasil-artirilir': 'pins',
+  'olumsuz-google-yorumuna-nasil-cevap-verilir': 'pins',
+  'hizmet-bolgesi-nasil-belirlenir': 'pins',
+  'yakinimda-aramalarinda-gorunmek': 'pins',
 };
 
 function posts() {
