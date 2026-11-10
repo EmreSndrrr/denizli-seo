@@ -67,10 +67,10 @@ Biçim: kutu, sıra no, H1 başlığı, hizmet, ana kelime.
 
 ### Teknik SEO
 
-- [ ] 021. robots.txt Nedir? Nasıl Hazırlanır? — `teknik-seo` — robots.txt — `robots-txt-nedir-nasil-hazirlanir`
-- [ ] 022. Site Haritası (sitemap.xml) Nasıl Oluşturulur ve Gönderilir? — `teknik-seo` — site haritası — `site-haritasi-sitemap-xml-nasil-olusturulur-ve-gonderilir`
-- [ ] 023. noindex Nedir? Ne Zaman Kullanılır? — `teknik-seo` — noindex — `noindex-nedir-ne-zaman-kullanilir`
-- [ ] 024. Canonical Etiketi Nedir? Kopya Sayfa Sorunu — `teknik-seo` — canonical — `canonical-etiketi-nedir-kopya-sayfa-sorunu`
+- [x] 021. robots.txt Nedir? Nasıl Hazırlanır? — `teknik-seo` — robots.txt — `robots-txt-nedir-nasil-hazirlanir`
+- [x] 022. Site Haritası (sitemap.xml) Nasıl Oluşturulur ve Gönderilir? — `teknik-seo` — site haritası — `site-haritasi-sitemap-xml-nasil-olusturulur`
+- [x] 023. noindex Nedir? Ne Zaman Kullanılır? — `teknik-seo` — noindex — `noindex-nedir-ne-zaman-kullanilir`
+- [x] 024. Canonical Etiketi Nedir? Kopya Sayfa Sorunu — `teknik-seo` — canonical — `canonical-etiketi-nedir-kopya-sayfa-sorunu`
 - [ ] 025. 404 Hatası: Düzeltmeli mi, Yönlendirmeli mi? — `teknik-seo` — 404 seo — `404-hatasi-duzeltmeli-mi-yonlendirmeli-mi`
 - [ ] 026. 301 ve 302 Yönlendirme Farkı Nedir? — `teknik-seo` — 301 302 — `301-ve-302-yonlendirme-farki-nedir`
 - [ ] 027. Core Web Vitals Nedir? LCP, INP ve CLS Açıklaması — `teknik-seo` — core web vitals — `core-web-vitals-nedir-lcp-inp-ve-cls-aciklamasi`
