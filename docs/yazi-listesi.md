@@ -100,19 +100,19 @@ Biçim: kutu, sıra no, H1 başlığı, hizmet, ana kelime.
 - [x] 048. Sık Sorulan Sorular Bölümü Nasıl Yazılır? — `icerik-seo` — sss yazımı — `sik-sorulan-sorular-bolumu-nasil-yazilir`
 - [x] 049. Öne Çıkan Snippet’e Nasıl Girilir? — `icerik-seo` — öne çıkan snippet — `one-cikan-snippet-e-nasil-girilir`
 - [x] 050. Yapay Zekâ ile İçerik Yazmak: Google Ne Diyor? — `icerik-seo` — yapay zeka içerik — `yapay-zeka-ile-icerik-yazmak-google-ne-diyor`
-- [ ] 051. İç Bağlantı Stratejisi: Küçük Siteler İçin Rehber — `icerik-seo` — iç bağlantı — `ic-baglanti-stratejisi-kucuk-siteler-icin-rehber`
-- [ ] 052. Ürün Açıklaması Nasıl Yazılır? Kopya Metinden Kaçınma — `icerik-seo` — ürün açıklaması — `urun-aciklamasi-nasil-yazilir-kopya-metinden-kacinma`
-- [ ] 053. Kategori Sayfası Metni Nasıl Yazılır? — `icerik-seo` — kategori sayfası metni — `kategori-sayfasi-metni-nasil-yazilir`
-- [ ] 054. Hakkımızda Sayfası Nasıl Yazılır? Güven İçin Rehber — `icerik-seo` — hakkımızda sayfası — `hakkimizda-sayfasi-nasil-yazilir-guven-icin-rehber`
-- [ ] 055. İletişim Sayfası SEO’su: Adres, Telefon ve Harita — `icerik-seo` — iletişim sayfası — `iletisim-sayfasi-seo-su-adres-telefon-ve-harita`
-- [ ] 056. Açılış Sayfası (Landing Page) Nasıl Hazırlanır? — `icerik-seo` — landing page — `acilis-sayfasi-landing-page-nasil-hazirlanir`
-- [ ] 057. Müşteri Yorumları Siteye Nasıl Eklenir? — `icerik-seo` — site yorumları — `musteri-yorumlari-siteye-nasil-eklenir`
-- [ ] 058. Vaka Çalışması Nasıl Yazılır? Dürüst Bir Şablon — `icerik-seo` — vaka çalışması — `vaka-calismasi-nasil-yazilir-durust-bir-sablon`
-- [ ] 059. Yazar Kutusu ve Kaynak Gösterme: Güven İçin Rehber — `icerik-seo` — yazar kutusu — `yazar-kutusu-ve-kaynak-gosterme-guven-icin-rehber`
-- [ ] 060. Konu Kümesi (Topic Cluster) Nedir? Basit Anlatım — `icerik-seo` — konu kümesi — `konu-kumesi-topic-cluster-nedir-basit-anlatim`
-- [ ] 061. Rakip İçerik Analizi Nasıl Yapılır? — `icerik-seo` — rakip analizi — `rakip-icerik-analizi-nasil-yapilir`
-- [ ] 062. Arama Sonuçlarında Tıklama Oranı Nasıl Artırılır? — `icerik-seo` — tıklama oranı — `arama-sonuclarinda-tiklama-orani-nasil-artirilir`
-- [ ] 063. Sıfırdan Bir İşletme Sitesi İçin Hangi Sayfalar Yazılmalı? — `icerik-seo` — site sayfa planı — `sifirdan-bir-isletme-sitesi-icin-hangi-sayfalar-yazilmali`
+- [x] 051. İç Bağlantı Stratejisi: Küçük Siteler İçin Rehber — `icerik-seo` — iç bağlantı — `ic-baglanti-stratejisi-kucuk-siteler-icin-rehber`
+- [x] 052. Ürün Açıklaması Nasıl Yazılır? Kopya Metinden Kaçınma — `icerik-seo` — ürün açıklaması — `urun-aciklamasi-nasil-yazilir-kopya-metinden-kacinma`
+- [x] 053. Kategori Sayfası Metni Nasıl Yazılır? — `icerik-seo` — kategori sayfası metni — `kategori-sayfasi-metni-nasil-yazilir`
+- [x] 054. Hakkımızda Sayfası Nasıl Yazılır? Güven İçin Rehber — `icerik-seo` — hakkımızda sayfası — `hakkimizda-sayfasi-nasil-yazilir-guven-icin-rehber`
+- [x] 055. İletişim Sayfası SEO’su: Adres, Telefon ve Harita — `icerik-seo` — iletişim sayfası — `iletisim-sayfasi-seo-su-adres-telefon-ve-harita`
+- [x] 056. Açılış Sayfası (Landing Page) Nasıl Hazırlanır? — `icerik-seo` — landing page — `acilis-sayfasi-landing-page-nasil-hazirlanir`
+- [x] 057. Müşteri Yorumları Siteye Nasıl Eklenir? — `icerik-seo` — site yorumları — `musteri-yorumlari-siteye-nasil-eklenir`
+- [x] 058. Vaka Çalışması Nasıl Yazılır? Dürüst Bir Şablon — `icerik-seo` — vaka çalışması — `vaka-calismasi-nasil-yazilir-durust-bir-sablon`
+- [x] 059. Yazar Kutusu ve Kaynak Gösterme: Güven İçin Rehber — `icerik-seo` — yazar kutusu — `yazar-kutusu-ve-kaynak-gosterme-guven-icin-rehber`
+- [x] 060. Konu Kümesi (Topic Cluster) Nedir? Basit Anlatım — `icerik-seo` — konu kümesi — `konu-kumesi-topic-cluster-nedir-basit-anlatim`
+- [x] 061. Rakip İçerik Analizi Nasıl Yapılır? — `icerik-seo` — rakip analizi — `rakip-icerik-analizi-nasil-yapilir`
+- [x] 062. Arama Sonuçlarında Tıklama Oranı Nasıl Artırılır? — `icerik-seo` — tıklama oranı — `arama-sonuclarinda-tiklama-orani-nasil-artirilir`
+- [x] 063. Sıfırdan Bir İşletme Sitesi İçin Hangi Sayfalar Yazılmalı? — `icerik-seo` — site sayfa planı — `sifirdan-bir-isletme-sitesi-icin-hangi-sayfalar-yazilmali`
 
 ### Backlink
 
