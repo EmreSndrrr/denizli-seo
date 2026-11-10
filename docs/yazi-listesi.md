@@ -71,14 +71,14 @@ Biçim: kutu, sıra no, H1 başlığı, hizmet, ana kelime.
 - [x] 022. Site Haritası (sitemap.xml) Nasıl Oluşturulur ve Gönderilir? — `teknik-seo` — site haritası — `site-haritasi-sitemap-xml-nasil-olusturulur`
 - [x] 023. noindex Nedir? Ne Zaman Kullanılır? — `teknik-seo` — noindex — `noindex-nedir-ne-zaman-kullanilir`
 - [x] 024. Canonical Etiketi Nedir? Kopya Sayfa Sorunu — `teknik-seo` — canonical — `canonical-etiketi-nedir-kopya-sayfa-sorunu`
-- [ ] 025. 404 Hatası: Düzeltmeli mi, Yönlendirmeli mi? — `teknik-seo` — 404 seo — `404-hatasi-duzeltmeli-mi-yonlendirmeli-mi`
-- [ ] 026. 301 ve 302 Yönlendirme Farkı Nedir? — `teknik-seo` — 301 302 — `301-ve-302-yonlendirme-farki-nedir`
-- [ ] 027. Core Web Vitals Nedir? LCP, INP ve CLS Açıklaması — `teknik-seo` — core web vitals — `core-web-vitals-nedir-lcp-inp-ve-cls-aciklamasi`
-- [ ] 028. LCP Nasıl Düzeltilir? Büyük Görseller ve Sunucu Süresi — `teknik-seo` — lcp düzeltme — `lcp-nasil-duzeltilir-buyuk-gorseller-ve-sunucu-suresi`
-- [ ] 029. HTTPS’e Geçiş: SEO İçin Kontrol Listesi — `teknik-seo` — https seo — `https-e-gecis-seo-icin-kontrol-listesi`
-- [ ] 030. Mobil Uyumluluk Nasıl Test Edilir? — `teknik-seo` — mobil uyumluluk — `mobil-uyumluluk-nasil-test-edilir`
-- [ ] 031. “Taranan, Dizine Eklenmeyen” Sayfalar: Nedenleri — `teknik-seo` — taranan dizine eklenmeyen — `taranan-dizine-eklenmeyen-sayfalar-nedenleri`
-- [ ] 032. “Keşfedildi, Dizine Eklenmedi” Ne Anlama Gelir? — `teknik-seo` — keşfedildi dizine eklenmedi — `kesfedildi-dizine-eklenmedi-ne-anlama-gelir`
+- [x] 025. 404 Hatası: Düzeltmeli mi, Yönlendirmeli mi? — `teknik-seo` — 404 seo — `404-hatasi-duzeltmeli-mi-yonlendirmeli-mi`
+- [x] 026. 301 ve 302 Yönlendirme Farkı Nedir? — `teknik-seo` — 301 302 — `301-ve-302-yonlendirme-farki-nedir`
+- [x] 027. Core Web Vitals Nedir? LCP, INP ve CLS Açıklaması — `teknik-seo` — core web vitals — `core-web-vitals-nedir-lcp-inp-cls`
+- [x] 028. LCP Nasıl Düzeltilir? Büyük Görseller ve Sunucu Süresi — `teknik-seo` — lcp düzeltme — `lcp-nasil-duzeltilir-buyuk-gorseller-sunucu-suresi`
+- [x] 029. HTTPS’e Geçiş: SEO İçin Kontrol Listesi — `teknik-seo` — https seo — `https-e-gecis-seo-kontrol-listesi`
+- [x] 030. Mobil Uyumluluk Nasıl Test Edilir? — `teknik-seo` — mobil uyumluluk — `mobil-uyumluluk-nasil-test-edilir`
+- [x] 031. “Taranan, Dizine Eklenmeyen” Sayfalar: Nedenleri — `teknik-seo` — taranan dizine eklenmeyen — `taranan-dizine-eklenmeyen-sayfalar-nedenleri`
+- [x] 032. “Keşfedildi, Dizine Eklenmedi” Ne Anlama Gelir? — `teknik-seo` — keşfedildi dizine eklenmedi — `kesfedildi-dizine-eklenmedi-ne-anlama-gelir`
 - [ ] 033. Google’a Dizine Ekleme Nasıl İstenir? URL Denetleme — `teknik-seo` — dizine ekleme isteği — `google-a-dizine-ekleme-nasil-istenir-url-denetleme`
 - [ ] 034. Soft 404 Nedir? Nasıl Düzeltilir? — `teknik-seo` — soft 404 — `soft-404-nedir-nasil-duzeltilir`
 - [ ] 035. JavaScript Siteleri ve SEO: Google Sayfayı Görüyor mu? — `teknik-seo` — javascript seo — `javascript-siteleri-ve-seo-google-sayfayi-goruyor-mu`
