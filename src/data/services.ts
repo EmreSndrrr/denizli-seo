@@ -59,7 +59,7 @@ export const SERVICES: Service[] = [
       { q: 'Haritadaki sırayı ne belirler?', a: 'Google üç şeye baktığını açıklıyor: aramayla ilgililik, arayan kişiye uzaklık ve işletmenin bilinirliği. Uzaklığı değiştiremeyiz; diğer ikisi üzerinde çalışırız.' },
       { q: 'İşletme Profili ücretli mi?', a: 'Hayır, profil ücretsizdir. Ücret; profili kurmak, güncel tutmak ve sırayı takip etmek için harcanan emeğe karşılıktır.' },
       { q: 'Yorum satın alıyor musunuz?', a: 'Hayır. Sahte yorum Google kurallarına aykırıdır ve profilin kısıtlanmasına yol açabilir. Gerçek müşterinin yorum bırakmasını kolaylaştırırız.' },
-      { q: 'Dükkânım yoksa haritada çıkabilir miyim?', a: 'Müşterinin yanına giden işletmeler (tesisatçı, nakliyat gibi) adresini gizleyip hizmet bölgesi tanımlayabilir. Bu ayarı kurulumda birlikte yaparız.' },
+      { q: 'Dükkânım yoksa haritada çıkabilir miyim?', a: 'Müşterinin yanına giden işletmeler (tesisatçı, çilingir gibi) adresini gizleyip hizmet bölgesi tanımlayabilir. Bu ayarı kurulumda birlikte yaparız.' },
     ],
   },
   {

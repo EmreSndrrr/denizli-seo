@@ -2,7 +2,7 @@
 title: "İlçe Bazlı Arama: Pamukkale, Merkezefendi ve Diğerleri"
 description: "Denizli’nin 19 ilçesinde arama sonuçları değişir. İlçe adını sitede ve İşletme Profili’nde nerede kullanmalı, ne zaman ilçe sayfası açmalı? Dürüst bir rehber."
 date: 2026-10-30
-updated: 2026-11-06
+updated: 2026-11-10
 service: yerel-seo
 imageAlt: "Denizli’nin 19 ilçesini temsil eden altıgen petek; üç ilçe renkli işaretli"
 ---
@@ -45,9 +45,9 @@ Arayan kişi “Tavas oto tamircisi” gibi bir sorguya ilçe adını yazdığı
 | İşletme Profili | Adres ya da hizmet bölgesi | İşletme adına ilçe eklemeyin |
 | Ayrı ilçe sayfası | O ilçeye özgü şube, iş ya da bilgi | Yalnızca aşağıdaki koşullar varsa |
 
-**Örnek** (hayalî bir nakliyat firması için hizmet bölgesi cümlesi):
+**Örnek** (hayalî bir klima servisi için hizmet bölgesi cümlesi):
 
-> Evden eve nakliyatı Merkezefendi, Pamukkale, Honaz ve Sarayköy’de yapıyoruz. Bu ilçelerin dışındaki taşımalar için önceden keşif randevusu alıyoruz.
+> Klima bakım ve montajını Merkezefendi, Pamukkale, Honaz ve Sarayköy’de yapıyoruz. Bu ilçelerin dışındaki işler için önceden keşif randevusu alıyoruz.
 
 Bu cümle müşteriye neyi nerede yaptığınızı söyler. İl genelinde 19 ilçeyi tek tek sıralayan, ama hepsine gitmeyen bir liste ise söylemez.
 

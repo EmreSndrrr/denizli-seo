@@ -95,7 +95,7 @@ Test paketi yok. Doğrulama = `build` + `check` temiz; görsel değişikliklerde
 
 ## Yayın
 
-Güzel Hosting (cPanel). `dist/` içeriği yüklenir; `public/.htaccess` https + www'suz tek 301, sonu `/` ile biten adresler, 404 sayfası, güvenlik ve önbellek başlıklarını ayarlar. Yayından sonra `curl -sI http://www.denizliseo.com/yerel-seo` tek 301 ile `https://denizliseo.com/yerel-seo/` adresine gitmeli.
+Güzel Hosting (cPanel). `dist/` içeriği yüklenir; `public/.htaccess` https + www'suz tek 301, sonu `/` ile biten adresler, 404 sayfası, güvenlik ve önbellek başlıklarını ayarlar. Yayından sonra `curl -sI http://www.denizliseo.com/yerel-seo` tek 301 ile `https://denizliseo.com/yerel-seo/` adresine gitmeli. Adım adım liste: `docs/yayin-kontrol-listesi.md`.
 
 ## İşletme kimliği
 

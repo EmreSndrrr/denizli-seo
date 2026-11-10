@@ -16,7 +16,6 @@ export const PROJECTS: Project[] = [
   { name: 'Essence Travel', url: 'https://www.essencetravel.com.tr/', work: 'Konaklama · Web tasarım', shot: shot('essence-travel') },
   { name: 'Jarkotech', url: 'https://www.jarkotech.com/', work: 'Isıtma ve soğutma · Web tasarım · SEO', shot: shot('jarkotech') },
   { name: 'Tekdağ Elektronik', url: 'https://www.tekdagelektronik.com/', work: 'Elektronik · E-ticaret sitesi', shot: shot('tekdag-elektronik') },
-  { name: 'Yörükoğulları Nakliyat', url: 'https://www.evdenevenakliyatdenizli.net/', work: 'Nakliyat · Web tasarım · SEO', shot: shot('yorukogullari-nakliyat') },
   { name: 'Eseoğlu Sondaj', url: 'https://www.eseoglusondaj.com/', work: 'Su sondajı · Web tasarım · SEO', shot: shot('eseoglu-sondaj') },
   { name: 'Fairystone Travel', url: 'https://fairystonetravel.com/', work: 'Turizm · SEO', shot: shot('fairystone-travel') },
   { name: 'Travel Agency Türkiye', url: 'https://www.travelagencyturkiye.com/', work: 'Turizm · Web tasarım · SEO', shot: shot('travel-agency-turkiye') },

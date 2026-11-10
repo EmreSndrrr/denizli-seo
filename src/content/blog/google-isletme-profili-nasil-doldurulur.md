@@ -2,7 +2,7 @@
 title: Google İşletme Profili nasıl doldurulur?
 description: "Google İşletme Profili adım adım: oluşturma, doğrulama, kategori, adres gizleme, açıklama, fotoğraf ve yorumlar. Denizli’deki işletmeler için kontrol listesi."
 date: 2026-10-22
-updated: 2026-11-06
+updated: 2026-11-10
 service: yerel-seo
 imageAlt: "Google İşletme Profili kartı: işletme adı, işlem düğmeleri ve çalışma bilgileri"
 ---
@@ -100,9 +100,9 @@ Hangi biçimi seçerseniz seçin, her yerde onu kullanın. Tutarlı bilgi, hem G
 
 ### Hizmet bölgesi işletmeleri: adres gizlenebilir mi?
 
-Evet. Müşteriye kendi adresinde hizmet veren işletmeler (tesisatçı, çilingir, halı yıkama, nakliyat gibi) Google’ın tanımıyla **hizmet bölgesi işletmesi**dir. Müşteri sizin adresinize gelmiyorsa adresi gizleyip yalnızca hizmet verdiğiniz bölgeleri gösterebilirsiniz. Evden çalışıyorsanız ev adresinizi gizlemeniz gerekir.
+Evet. Müşteriye kendi adresinde hizmet veren işletmeler (tesisatçı, çilingir, halı yıkama, klima servisi gibi) Google’ın tanımıyla **hizmet bölgesi işletmesi**dir. Müşteri sizin adresinize gelmiyorsa adresi gizleyip yalnızca hizmet verdiğiniz bölgeleri gösterebilirsiniz. Evden çalışıyorsanız ev adresinizi gizlemeniz gerekir.
 
-Hizmet bölgesi olarak gerçekten gittiğiniz yerleri girin. Denizli’nin 19 ilçesinin hepsine hizmet vermiyorsanız hepsini eklemeyin; örneğin Merkezefendi, Pamukkale, Honaz ve Sarayköy’e giden bir nakliyat firması yalnızca bunları seçmelidir. Hem dükkânı olan hem de müşteriye giden işletmeler (yol yardımı da veren bir oto tamircisi gibi) adreslerini ve hizmet bölgelerini birlikte gösterebilir.
+Hizmet bölgesi olarak gerçekten gittiğiniz yerleri girin. Denizli’nin 19 ilçesinin hepsine hizmet vermiyorsanız hepsini eklemeyin; örneğin Merkezefendi, Pamukkale, Honaz ve Sarayköy’e giden bir klima servisi yalnızca bunları seçmelidir. Hem dükkânı olan hem de müşteriye giden işletmeler (yol yardımı da veren bir oto tamircisi gibi) adreslerini ve hizmet bölgelerini birlikte gösterebilir.
 
 ### Birden fazla şube
 

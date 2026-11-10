@@ -2,7 +2,7 @@
 title: "Hizmet Sayfası Nasıl Yazılır? Denizli Örnekleriyle"
 description: "Hizmet sayfası nasıl yazılır? Bölümler, başlık ve açıklama, ilçe sayfası kuralı, hayalî bir işletme için örnek taslak ve yayın öncesi kontrol listesi."
 date: 2026-11-04
-updated: 2026-11-06
+updated: 2026-11-10
 service: icerik-seo
 imageAlt: "Bir hizmet sayfasını temsil eden, başlık ve bölümleri olan belge"
 ---
@@ -19,14 +19,14 @@ Hizmet sayfası, tek bir hizmeti arayan kişinin karar vermesi için gereken her
 
 ## Neden her hizmete ayrı sayfa açmalı?
 
-Çünkü müşteri tek bir hizmeti arar ve karşısında o hizmeti anlatan bir sayfa görmek ister. “Denizli evden eve nakliyat” diye arayan biri, nakliyatı uzun uzun anlatan bir sayfa bekler; ana sayfanın bir köşesindeki üç satır ona yetmez. Google da bir aramaya en uygun sayfayı göstermeye çalışır. Her hizmete kendi sayfasını vermek, hangi sayfanın hangi aramayı karşıladığını netleştirir.
+Çünkü müşteri tek bir hizmeti arar ve karşısında o hizmeti anlatan bir sayfa görmek ister. “Denizli klima servisi” diye arayan biri, klima servisini uzun uzun anlatan bir sayfa bekler; ana sayfanın bir köşesindeki üç satır ona yetmez. Google da bir aramaya en uygun sayfayı göstermeye çalışır. Her hizmete kendi sayfasını vermek, hangi sayfanın hangi aramayı karşıladığını netleştirir.
 
 Her küçük ayrıntıya sayfa açmak da gerekmez. Aşağıdaki tablo, kararı vermenize yardım eder.
 
 | Durum | Ne yapmalı? |
 | --- | --- |
 | Hizmeti müşteriler ayrı bir adla arıyor, fiyatı ve süreci farklı | Ayrı bir hizmet sayfası açın |
-| Hizmet, başka bir hizmetin parçası (örneğin taşımadaki paketleme) | Ana hizmet sayfasında ayrı bir bölüm olarak anlatın |
+| Hizmet, başka bir hizmetin parçası (örneğin klima montajındaki tesisat işi) | Ana hizmet sayfasında ayrı bir bölüm olarak anlatın |
 | İki hizmetin müşterisi, süreci ve fiyatı aynı, yalnızca adı farklı | Tek sayfada toplayın, iki adı da metinde kullanın |
 | Hizmeti yalnızca birkaç ilçede veriyorsunuz | Tek sayfa yazın, ilçeleri sayfada açıkça listeleyin |
 
@@ -45,7 +45,7 @@ Yazmadan önce müşterinin gerçekten ne sorduğunu toplayın. İyi bir hizmet 
 
 Bir hizmet sayfası, müşterinin karar verirken sırayla sorduğu soruları yanıtlamalıdır. Aşağıdaki sıra çoğu işletme için işe yarar. Örnekler kurgusaldır; kendi işinize göre uyarlayın.
 
-1. **Başlık ve ilk paragraf.** Hizmetin adı, kime ve nerede verildiği. Örnek: “Merkezefendi’de evden eve nakliyat: sigortalı taşıma, eşya paketleme ve montaj.”
+1. **Başlık ve ilk paragraf.** Hizmetin adı, kime ve nerede verildiği. Örnek: “Merkezefendi’de klima bakım ve montajı: periyodik bakım, montaj ve arıza giderme.”
 2. **Kime uygun?** Hizmetin kimler için olduğu (ve kimler için olmadığı). Bu, yanlış müşteriyi baştan eler.
 3. **Neleri kapsar?** Dahil olan ve olmayan işlerin açık listesi. Belirsizlik, telefonda soru sorma yükünü size bırakır.
 4. **Nasıl ilerler?** Müşteri aradıktan sonra ne olur? Keşif, teklif, uygulama, teslim gibi 3–5 adım.
@@ -71,7 +71,7 @@ Her bölümün hangi soruyu yanıtladığını aklınızda tutmak, gereksiz metn
 
 ### Başlıklar soru gibi olabilir mi?
 
-Olabilir; müşteri gerçekten öyle soruyorsa iyi bir seçimdir. “Taşıma kaç saat sürer?” gibi bir ara başlık, okura aradığı yeri hemen gösterir. Google da uzun metni paragraflara ve bölümlere ayırmanızı, okurun sayfada yolunu bulması için başlık kullanmanızı önerir ([SEO başlangıç rehberi](https://developers.google.com/search/docs/fundamentals/seo-starter-guide?hl=tr)).
+Olabilir; müşteri gerçekten öyle soruyorsa iyi bir seçimdir. “Montaj kaç saat sürer?” gibi bir ara başlık, okura aradığı yeri hemen gösterir. Google da uzun metni paragraflara ve bölümlere ayırmanızı, okurun sayfada yolunu bulması için başlık kullanmanızı önerir ([SEO başlangıç rehberi](https://developers.google.com/search/docs/fundamentals/seo-starter-guide?hl=tr)).
 
 ## Başlık ve açıklama nasıl yazılır?
 

@@ -31,7 +31,6 @@ export const SECTORS: Sector[] = [
     { q: 'site içinde satılık villa', title: 'Portföyünüz | Havuzlu ve Güvenlikli Satılık Villalar' },
   ] },
   { key: 'hizmet', name: 'Hizmet', heading: 'Esnaf ve hizmet', queries: [
-    { q: 'denizli evden eve nakliyat', title: 'Firmanız | Sigortalı Evden Eve Nakliyat' },
     { q: 'su sondajı fiyatları', title: 'Firmanız | Su Sondajı ve Pompa Hizmetleri' },
     { q: 'pamukkale oto servis', title: 'Servisiniz | Bakım, Onarım ve Randevu' },
   ] },
@@ -43,7 +42,7 @@ export const HERO_CHIPS = [
   { label: 'Avukat', ...SECTORS[1].queries[0] },
   { label: 'Butik otel', ...SECTORS[2].queries[0] },
   { label: 'Kuyumcu', ...SECTORS[3].queries[0] },
-  { label: 'Nakliyat', ...SECTORS[5].queries[0] },
+  { label: 'Oto servis', ...SECTORS[5].queries[1] },
 ];
 
 export const MARQUEE = ['Teknik SEO', 'Yerel SEO', 'Google Haritalar', 'İçerik stratejisi', 'Anahtar kelime araştırması', 'Core Web Vitals', 'Web tasarım', 'Aylık rapor'];
@@ -74,7 +73,7 @@ export const PROJECT_TABS = [
   { key: 'seo', label: 'SEO', tags: ['SEO'] },
   { key: 'turizm', label: 'Turizm ve konaklama', tags: ['Turizm', 'Konaklama', 'Rezidans konaklama', 'Seyahat rehberi'] },
   { key: 'ticaret', label: 'Ticaret', tags: ['Kuyumculuk', 'Elektronik', 'E-ticaret sitesi', 'Mobilya', 'Endüstriyel mutfak'] },
-  { key: 'hizmet', label: 'Hizmet ve eğitim', tags: ['Nakliyat', 'Su sondajı', 'Isıtma ve soğutma', 'Eğitim'] },
+  { key: 'hizmet', label: 'Hizmet ve eğitim', tags: ['Su sondajı', 'Isıtma ve soğutma', 'Eğitim'] },
 ];
 
 export const PROCESS = [
