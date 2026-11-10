@@ -56,10 +56,10 @@ Biçim: kutu, sıra no, H1 başlığı, hizmet, ana kelime.
 - [x] 010. Yerel Rehber Kayıtları İşe Yarar mı? — `yerel-seo` — yerel rehber kaydı — `yerel-rehber-kayitlari-ise-yarar-mi`
 - [x] 011. Birden Fazla Şubeli İşletmeler İçin Yerel SEO — `yerel-seo` — çok şubeli yerel seo — `birden-fazla-subeli-isletmeler-icin-yerel-seo`
 - [x] 012. İlçe Sayfası Nasıl Yazılır? Merkezefendi Örneği — `yerel-seo` — ilçe sayfası — `ilce-sayfasi-nasil-yazilir`
-- [ ] 013. Google İşletme Profili Fotoğrafları: Neler Eklenmeli? — `yerel-seo` — profil fotoğrafı — `google-isletme-profili-fotograflari-neler-eklenmeli`
-- [ ] 014. Google İşletme Profili Gönderileri Nasıl Paylaşılır? — `yerel-seo` — profil gönderisi — `google-isletme-profili-gonderileri-nasil-paylasilir`
-- [ ] 015. İşletme Profili Performans Raporu Nasıl Okunur? — `yerel-seo` — profil performans — `isletme-profili-performans-raporu-nasil-okunur`
-- [ ] 016. Yerel SEO Sonuçları Nasıl Ölçülür? Aylık Kontrol — `yerel-seo` — yerel seo ölçüm — `yerel-seo-sonuclari-nasil-olculur-aylik-kontrol`
+- [x] 013. Google İşletme Profili Fotoğrafları: Neler Eklenmeli? — `yerel-seo` — profil fotoğrafı — `google-isletme-profili-fotograflari-neler-eklenmeli`
+- [x] 014. Google İşletme Profili Gönderileri Nasıl Paylaşılır? — `yerel-seo` — profil gönderisi — `google-isletme-profili-gonderileri-nasil-paylasilir`
+- [x] 015. İşletme Profili Performans Raporu Nasıl Okunur? — `yerel-seo` — profil performans — `isletme-profili-performans-raporu-nasil-okunur`
+- [x] 016. Yerel SEO Sonuçları Nasıl Ölçülür? Aylık Kontrol — `yerel-seo` — yerel seo ölçüm — `yerel-seo-sonuclari-nasil-olculur`
 - [ ] 017. Restoran ve Kafeler İçin Google Haritalar SEO’su — `yerel-seo` — restoran seo — `restoran-ve-kafeler-icin-google-haritalar-seo-su`
 - [ ] 018. Kuyumcular İçin Yerel SEO: Denizli Örneği — `yerel-seo` — kuyumcu seo — `kuyumcular-icin-yerel-seo-denizli-ornegi`
 - [ ] 019. Emlakçılar İçin SEO: İlçe ve Mahalle Aramaları — `yerel-seo` — emlak seo — `emlakcilar-icin-seo-ilce-ve-mahalle-aramalari`
