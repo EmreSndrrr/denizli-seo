@@ -79,15 +79,15 @@ Biçim: kutu, sıra no, H1 başlığı, hizmet, ana kelime.
 - [x] 030. Mobil Uyumluluk Nasıl Test Edilir? — `teknik-seo` — mobil uyumluluk — `mobil-uyumluluk-nasil-test-edilir`
 - [x] 031. “Taranan, Dizine Eklenmeyen” Sayfalar: Nedenleri — `teknik-seo` — taranan dizine eklenmeyen — `taranan-dizine-eklenmeyen-sayfalar-nedenleri`
 - [x] 032. “Keşfedildi, Dizine Eklenmedi” Ne Anlama Gelir? — `teknik-seo` — keşfedildi dizine eklenmedi — `kesfedildi-dizine-eklenmedi-ne-anlama-gelir`
-- [ ] 033. Google’a Dizine Ekleme Nasıl İstenir? URL Denetleme — `teknik-seo` — dizine ekleme isteği — `google-a-dizine-ekleme-nasil-istenir-url-denetleme`
-- [ ] 034. Soft 404 Nedir? Nasıl Düzeltilir? — `teknik-seo` — soft 404 — `soft-404-nedir-nasil-duzeltilir`
-- [ ] 035. JavaScript Siteleri ve SEO: Google Sayfayı Görüyor mu? — `teknik-seo` — javascript seo — `javascript-siteleri-ve-seo-google-sayfayi-goruyor-mu`
-- [ ] 036. Yapılandırılmış Veri Nedir? İşletmeler İçin Rehber — `teknik-seo` — yapılandırılmış veri — `yapilandirilmis-veri-nedir-isletmeler-icin-rehber`
-- [ ] 037. Alan Adı Değiştirirken SEO Kaybı Nasıl Önlenir? — `teknik-seo` — alan adı değişikliği — `alan-adi-degistirirken-seo-kaybi-nasil-onlenir`
-- [ ] 038. www ve www’suz Adres: Tek Adrese Yönlendirme — `teknik-seo` — www yönlendirme — `www-ve-www-suz-adres-tek-adrese-yonlendirme`
-- [ ] 039. Search Console’da En Sık Görülen 10 Uyarı — `teknik-seo` — search console hataları — `search-console-da-en-sik-gorulen-10-uyari`
-- [ ] 040. Trafik Düşüşü Nasıl Teşhis Edilir? Adım Adım — `teknik-seo` — trafik düşüşü — `trafik-dususu-nasil-teshis-edilir-adim-adim`
-- [ ] 041. Google Güncellemesinden Sonra Trafik Düştüyse Ne Yapılır? — `teknik-seo` — google güncellemesi — `google-guncellemesinden-sonra-trafik-dustuyse-ne-yapilir`
+- [x] 033. Google’a Dizine Ekleme Nasıl İstenir? URL Denetleme — `teknik-seo` — dizine ekleme isteği — `google-a-dizine-ekleme-nasil-istenir-url-denetleme`
+- [x] 034. Soft 404 Nedir? Nasıl Düzeltilir? — `teknik-seo` — soft 404 — `soft-404-nedir-nasil-duzeltilir`
+- [x] 035. JavaScript Siteleri ve SEO: Google Sayfayı Görüyor mu? — `teknik-seo` — javascript seo — `javascript-siteleri-ve-seo-google-sayfayi-goruyor-mu`
+- [x] 036. Yapılandırılmış Veri Nedir? İşletmeler İçin Rehber — `teknik-seo` — yapılandırılmış veri — `yapilandirilmis-veri-nedir-isletmeler-icin-rehber`
+- [x] 037. Alan Adı Değiştirirken SEO Kaybı Nasıl Önlenir? — `teknik-seo` — alan adı değişikliği — `alan-adi-degistirirken-seo-kaybi-nasil-onlenir`
+- [x] 038. www ve www’suz Adres: Tek Adrese Yönlendirme — `teknik-seo` — www yönlendirme — `www-ve-wwwsuz-adres-tek-adrese-yonlendirme`
+- [x] 039. Search Console’da En Sık Görülen 10 Uyarı — `teknik-seo` — search console hataları — `search-consolede-en-sik-gorulen-10-uyari`
+- [x] 040. Trafik Düşüşü Nasıl Teşhis Edilir? Adım Adım — `teknik-seo` — trafik düşüşü — `trafik-dususu-nasil-teshis-edilir`
+- [x] 041. Google Güncellemesinden Sonra Trafik Düştüyse Ne Yapılır? — `teknik-seo` — google güncellemesi — `google-guncellemesinden-sonra-trafik-dustuyse-ne-yapilir`
 
 ### İçerik SEO
 
