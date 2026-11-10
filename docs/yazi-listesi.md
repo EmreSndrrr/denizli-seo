@@ -52,10 +52,10 @@ Biçim: kutu, sıra no, H1 başlığı, hizmet, ana kelime.
 - [x] 006. Olumsuz Google Yorumuna Nasıl Cevap Verilir? — `yerel-seo` — olumsuz yoruma yanıt — `olumsuz-google-yorumuna-nasil-cevap-verilir`
 - [x] 007. Hizmet Bölgesi Nasıl Belirlenir? İşletme Profili Rehberi — `yerel-seo` — hizmet bölgesi — `hizmet-bolgesi-nasil-belirlenir`
 - [x] 008. “Yakınımda” Aramalarında Görünmek İçin Ne Yapılır? — `yerel-seo` — yakınımda aramaları — `yakinimda-aramalarinda-gorunmek`
-- [ ] 009. Ad, Adres, Telefon Tutarlılığı: NAP Kontrol Listesi — `yerel-seo` — nap tutarlılığı — `ad-adres-telefon-tutarliligi-nap-kontrol-listesi`
-- [ ] 010. Yerel Rehber Kayıtları İşe Yarar mı? — `yerel-seo` — yerel rehber kaydı — `yerel-rehber-kayitlari-ise-yarar-mi`
-- [ ] 011. Birden Fazla Şubeli İşletmeler İçin Yerel SEO — `yerel-seo` — çok şubeli yerel seo — `birden-fazla-subeli-isletmeler-icin-yerel-seo`
-- [ ] 012. İlçe Sayfası Nasıl Yazılır? Merkezefendi Örneği — `yerel-seo` — ilçe sayfası — `ilce-sayfasi-nasil-yazilir-merkezefendi-ornegi`
+- [x] 009. Ad, Adres, Telefon Tutarlılığı: NAP Kontrol Listesi — `yerel-seo` — nap tutarlılığı — `ad-adres-telefon-tutarliligi`
+- [x] 010. Yerel Rehber Kayıtları İşe Yarar mı? — `yerel-seo` — yerel rehber kaydı — `yerel-rehber-kayitlari-ise-yarar-mi`
+- [x] 011. Birden Fazla Şubeli İşletmeler İçin Yerel SEO — `yerel-seo` — çok şubeli yerel seo — `birden-fazla-subeli-isletmeler-icin-yerel-seo`
+- [x] 012. İlçe Sayfası Nasıl Yazılır? Merkezefendi Örneği — `yerel-seo` — ilçe sayfası — `ilce-sayfasi-nasil-yazilir`
 - [ ] 013. Google İşletme Profili Fotoğrafları: Neler Eklenmeli? — `yerel-seo` — profil fotoğrafı — `google-isletme-profili-fotograflari-neler-eklenmeli`
 - [ ] 014. Google İşletme Profili Gönderileri Nasıl Paylaşılır? — `yerel-seo` — profil gönderisi — `google-isletme-profili-gonderileri-nasil-paylasilir`
 - [ ] 015. İşletme Profili Performans Raporu Nasıl Okunur? — `yerel-seo` — profil performans — `isletme-profili-performans-raporu-nasil-okunur`
