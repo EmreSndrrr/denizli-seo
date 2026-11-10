@@ -232,5 +232,7 @@
 
 /* the article's own title sits in the banner */
 .banner .article-title { font-size: clamp(1.5rem, 0.95rem + 2.3vw, 2.75rem); font-weight: 780; font-stretch: 104%; line-height: 1.1; letter-spacing: -0.03em; max-width: 30ch; text-transform: none; }
+.prose pre { overflow-x: auto; padding: 1rem 1.2rem; border-radius: 12px; background: var(--card); border: 1px solid var(--line); font-family: inherit; font-size: 0.9375rem; line-height: 1.6; color: #fff; }
+.prose pre code { padding: 0; border: 0; background: none; font-weight: 500; }
 .prose code { font-family: inherit; font-size: 0.95em; font-weight: 600; padding: 0.1em 0.4em; border-radius: 6px; background: var(--card-2); border: 1px solid var(--line); color: #fff; }
 .banner .article-meta { margin-top: 0.25rem; }
