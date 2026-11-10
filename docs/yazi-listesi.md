@@ -91,15 +91,15 @@ Biçim: kutu, sıra no, H1 başlığı, hizmet, ana kelime.
 
 ### İçerik SEO
 
-- [ ] 042. Blog Yazısı Nasıl Yazılır? SEO Uyumlu 8 Adım — `icerik-seo` — blog yazısı — `blog-yazisi-nasil-yazilir-seo-uyumlu-8-adim`
-- [ ] 043. Başlık Etiketi ve Meta Açıklama Nasıl Yazılır? — `icerik-seo` — title ve meta açıklama — `baslik-etiketi-ve-meta-aciklama-nasil-yazilir`
-- [ ] 044. H1, H2, H3: Başlık Yapısı Nasıl Kurulur? — `icerik-seo` — h1 h2 h3 — `h1-h2-h3-baslik-yapisi-nasil-kurulur`
-- [ ] 045. İçerik Planı Nasıl Yapılır? Aylık Takvim Örneği — `icerik-seo` — içerik planı — `icerik-plani-nasil-yapilir-aylik-takvim-ornegi`
-- [ ] 046. Kopya İçerik Nedir? Nasıl Önlenir? — `icerik-seo` — kopya içerik — `kopya-icerik-nedir-nasil-onlenir`
-- [ ] 047. Eski Blog Yazıları Ne Zaman ve Nasıl Güncellenir? — `icerik-seo` — içerik güncelleme — `eski-blog-yazilari-ne-zaman-ve-nasil-guncellenir`
-- [ ] 048. Sık Sorulan Sorular Bölümü Nasıl Yazılır? — `icerik-seo` — sss yazımı — `sik-sorulan-sorular-bolumu-nasil-yazilir`
-- [ ] 049. Öne Çıkan Snippet’e Nasıl Girilir? — `icerik-seo` — öne çıkan snippet — `one-cikan-snippet-e-nasil-girilir`
-- [ ] 050. Yapay Zekâ ile İçerik Yazmak: Google Ne Diyor? — `icerik-seo` — yapay zeka içerik — `yapay-zeka-ile-icerik-yazmak-google-ne-diyor`
+- [x] 042. Blog Yazısı Nasıl Yazılır? SEO Uyumlu 8 Adım — `icerik-seo` — blog yazısı — `blog-yazisi-nasil-yazilir-seo-uyumlu-8-adim`
+- [x] 043. Başlık Etiketi ve Meta Açıklama Nasıl Yazılır? — `icerik-seo` — title ve meta açıklama — `baslik-etiketi-ve-meta-aciklama-nasil-yazilir`
+- [x] 044. H1, H2, H3: Başlık Yapısı Nasıl Kurulur? — `icerik-seo` — h1 h2 h3 — `h1-h2-h3-baslik-yapisi-nasil-kurulur`
+- [x] 045. İçerik Planı Nasıl Yapılır? Aylık Takvim Örneği — `icerik-seo` — içerik planı — `icerik-plani-nasil-yapilir-aylik-takvim-ornegi`
+- [x] 046. Kopya İçerik Nedir? Nasıl Önlenir? — `icerik-seo` — kopya içerik — `kopya-icerik-nedir-nasil-onlenir`
+- [x] 047. Eski Blog Yazıları Ne Zaman ve Nasıl Güncellenir? — `icerik-seo` — içerik güncelleme — `eski-blog-yazilari-ne-zaman-ve-nasil-guncellenir`
+- [x] 048. Sık Sorulan Sorular Bölümü Nasıl Yazılır? — `icerik-seo` — sss yazımı — `sik-sorulan-sorular-bolumu-nasil-yazilir`
+- [x] 049. Öne Çıkan Snippet’e Nasıl Girilir? — `icerik-seo` — öne çıkan snippet — `one-cikan-snippet-e-nasil-girilir`
+- [x] 050. Yapay Zekâ ile İçerik Yazmak: Google Ne Diyor? — `icerik-seo` — yapay zeka içerik — `yapay-zeka-ile-icerik-yazmak-google-ne-diyor`
 - [ ] 051. İç Bağlantı Stratejisi: Küçük Siteler İçin Rehber — `icerik-seo` — iç bağlantı — `ic-baglanti-stratejisi-kucuk-siteler-icin-rehber`
 - [ ] 052. Ürün Açıklaması Nasıl Yazılır? Kopya Metinden Kaçınma — `icerik-seo` — ürün açıklaması — `urun-aciklamasi-nasil-yazilir-kopya-metinden-kacinma`
 - [ ] 053. Kategori Sayfası Metni Nasıl Yazılır? — `icerik-seo` — kategori sayfası metni — `kategori-sayfasi-metni-nasil-yazilir`
