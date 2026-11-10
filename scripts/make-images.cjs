@@ -206,6 +206,10 @@ const POST_MOTIF = {
   'wordpress-seo': 'console',
   'gorsel-seo': 'gauge',
   'kurumsal-seo': 'districts',
+  'google-haritalarda-ust-siralara-cikmak': 'pins',
+  'haritada-gorunmuyorum': 'pins',
+  'isletme-profili-dogrulanmiyor': 'profile',
+  'isletme-profili-askiya-alindi': 'broken',
 };
 
 function posts() {

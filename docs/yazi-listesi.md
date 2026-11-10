@@ -44,10 +44,10 @@ Biçim: kutu, sıra no, H1 başlığı, hizmet, ana kelime.
 
 ### Yerel SEO
 
-- [ ] 001. Google Haritalar’da Üst Sıralara Nasıl Çıkılır? — `yerel-seo` — google harita seo — `google-haritalar-da-ust-siralara-nasil-cikilir`
-- [ ] 002. Haritada Görünmüyorum: 10 Olası Neden ve Çözüm — `yerel-seo` — google haritalarda çıkmamak — `haritada-gorunmuyorum-10-olasi-neden-ve-cozum`
-- [ ] 003. Google İşletme Profili Doğrulanmıyor: Nedenleri ve Çözümü — `yerel-seo` — işletme profili doğrulama — `google-isletme-profili-dogrulanmiyor-nedenleri-ve-cozumu`
-- [ ] 004. Google İşletme Profili Askıya Alındı: Ne Yapmalı? — `yerel-seo` — profil askıya alma — `google-isletme-profili-askiya-alindi-ne-yapmali`
+- [x] 001. Google Haritalar’da Üst Sıralara Nasıl Çıkılır? — `yerel-seo` — google harita seo — `google-haritalarda-ust-siralara-cikmak`
+- [x] 002. Haritada Görünmüyorum: 10 Olası Neden ve Çözüm — `yerel-seo` — google haritalarda çıkmamak — `haritada-gorunmuyorum`
+- [x] 003. Google İşletme Profili Doğrulanmıyor: Nedenleri ve Çözümü — `yerel-seo` — işletme profili doğrulama — `isletme-profili-dogrulanmiyor`
+- [x] 004. Google İşletme Profili Askıya Alındı: Ne Yapmalı? — `yerel-seo` — profil askıya alma — `isletme-profili-askiya-alindi`
 - [ ] 005. Google Yorumları Nasıl Artırılır? Kurallara Uygun Yollar — `yerel-seo` — google yorum artırma — `google-yorumlari-nasil-artirilir-kurallara-uygun-yollar`
 - [ ] 006. Olumsuz Google Yorumuna Nasıl Cevap Verilir? — `yerel-seo` — olumsuz yoruma yanıt — `olumsuz-google-yorumuna-nasil-cevap-verilir`
 - [ ] 007. Hizmet Bölgesi Nasıl Belirlenir? İşletme Profili Rehberi — `yerel-seo` — hizmet bölgesi — `hizmet-bolgesi-nasil-belirlenir-isletme-profili-rehberi`
