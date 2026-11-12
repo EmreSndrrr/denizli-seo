@@ -116,29 +116,29 @@ Biçim: kutu, sıra no, H1 başlığı, hizmet, ana kelime.
 
 ### Backlink
 
-- [ ] 064. Misafir Yazı (Guest Post) Riskli mi? — `backlink-hizmeti` — guest post — `misafir-yazi-guest-post-riskli-mi`
-- [ ] 065. Dijital PR ile Doğal Backlink Kazanmak — `backlink-hizmeti` — dijital pr — `dijital-pr-ile-dogal-backlink-kazanmak`
-- [ ] 066. Kırık Bağlantı Yöntemiyle Backlink Kazanmak — `backlink-hizmeti` — kırık bağlantı — `kirik-baglanti-yontemiyle-backlink-kazanmak`
-- [ ] 067. Yerel Haber Sitelerinden Bağlantı Nasıl Alınır? — `backlink-hizmeti` — yerel haber backlink — `yerel-haber-sitelerinden-baglanti-nasil-alinir`
-- [ ] 068. Sponsorluk Bağlantıları: sponsored Nasıl İşaretlenir? — `backlink-hizmeti` — sponsored link — `sponsorluk-baglantilari-sponsored-nasil-isaretlenir`
-- [ ] 069. Kaybolan Backlinkler Nasıl Geri Kazanılır? — `backlink-hizmeti` — backlink kaybı — `kaybolan-backlinkler-nasil-geri-kazanilir`
-- [ ] 070. Bağlantı Metni (Anchor) Dağılımı Nasıl Olmalı? — `backlink-hizmeti` — anchor text — `baglanti-metni-anchor-dagilimi-nasil-olmali`
-- [ ] 071. Rakip Backlink Analizi Nasıl Yapılır? — `backlink-hizmeti` — rakip backlink — `rakip-backlink-analizi-nasil-yapilir`
-- [ ] 072. Backlink Satın Almadan Otorite Nasıl Artar? — `backlink-hizmeti` — otorite artırma — `backlink-satin-almadan-otorite-nasil-artar`
-- [ ] 073. Dizin ve Katalog Kayıtları: Hangileri İşe Yarar? — `backlink-hizmeti` — dizin siteleri — `dizin-ve-katalog-kayitlari-hangileri-ise-yarar`
-- [ ] 074. İş Ortaklığı Sayfalarından Bağlantı Almak — `backlink-hizmeti` — iş ortağı bağlantısı — `is-ortakligi-sayfalarindan-baglanti-almak`
-- [ ] 075. Backlink Çalışmasında Ajanstan Hangi Rapor İstenmeli? — `backlink-hizmeti` — backlink raporu — `backlink-calismasinda-ajanstan-hangi-rapor-istenmeli`
+- [x] 064. Misafir Yazı (Guest Post) Riskli mi? — `backlink-hizmeti` — guest post — `misafir-yazi-guest-post-riskli-mi`
+- [x] 065. Dijital PR ile Doğal Backlink Kazanmak — `backlink-hizmeti` — dijital pr — `dijital-pr-ile-dogal-backlink-kazanmak`
+- [x] 066. Kırık Bağlantı Yöntemiyle Backlink Kazanmak — `backlink-hizmeti` — kırık bağlantı — `kirik-baglanti-yontemiyle-backlink-kazanmak`
+- [x] 067. Yerel Haber Sitelerinden Bağlantı Nasıl Alınır? — `backlink-hizmeti` — yerel haber backlink — `yerel-haber-sitelerinden-baglanti-nasil-alinir`
+- [x] 068. Sponsorluk Bağlantıları: sponsored Nasıl İşaretlenir? — `backlink-hizmeti` — sponsored link — `sponsorluk-baglantilari-sponsored-nasil-isaretlenir`
+- [x] 069. Kaybolan Backlinkler Nasıl Geri Kazanılır? — `backlink-hizmeti` — backlink kaybı — `kaybolan-backlinkler-nasil-geri-kazanilir`
+- [x] 070. Bağlantı Metni (Anchor) Dağılımı Nasıl Olmalı? — `backlink-hizmeti` — anchor text — `baglanti-metni-anchor-dagilimi-nasil-olmali`
+- [x] 071. Rakip Backlink Analizi Nasıl Yapılır? — `backlink-hizmeti` — rakip backlink — `rakip-backlink-analizi-nasil-yapilir`
+- [x] 072. Backlink Satın Almadan Otorite Nasıl Artar? — `backlink-hizmeti` — otorite artırma — `backlink-satin-almadan-otorite-nasil-artar`
+- [x] 073. Dizin ve Katalog Kayıtları: Hangileri İşe Yarar? — `backlink-hizmeti` — dizin siteleri — `dizin-ve-katalog-kayitlari-hangileri-ise-yarar`
+- [x] 074. İş Ortaklığı Sayfalarından Bağlantı Almak — `backlink-hizmeti` — iş ortağı bağlantısı — `is-ortakligi-sayfalarindan-baglanti-almak`
+- [x] 075. Backlink Çalışmasında Ajanstan Hangi Rapor İstenmeli? — `backlink-hizmeti` — backlink raporu — `backlink-calismasinda-ajanstan-hangi-rapor-istenmeli`
 
 ### Web tasarım
 
-- [ ] 076. Kurumsal Web Sitesi Kaç Sayfa Olmalı? — `web-tasarim` — kurumsal web sitesi — `kurumsal-web-sitesi-kac-sayfa-olmali`
-- [ ] 077. Web Sitesi Yaptırırken Dikkat Edilecek 15 Madde — `web-tasarim` — web sitesi yaptırma — `web-sitesi-yaptirirken-dikkat-edilecek-15-madde`
-- [ ] 078. Web Sitesi Yenileme: SEO Kaybetmeden Nasıl Yapılır? — `web-tasarim` — site yenileme — `web-sitesi-yenileme-seo-kaybetmeden-nasil-yapilir`
-- [ ] 079. Tek Sayfalık Site mi, Çok Sayfalı Site mi? — `web-tasarim` — tek sayfa site — `tek-sayfalik-site-mi-cok-sayfali-site-mi`
-- [ ] 080. Menü ve Site Yapısı Nasıl Planlanır? — `web-tasarim` — site yapısı — `menu-ve-site-yapisi-nasil-planlanir`
-- [ ] 081. Hazır Tema mı, Özel Tasarım mı? SEO Açısından — `web-tasarim` — hazır tema — `hazir-tema-mi-ozel-tasarim-mi-seo-acisindan`
-- [ ] 082. Alan Adı Seçimi: SEO İçin Nelere Bakılır? — `web-tasarim` — alan adı seçimi — `alan-adi-secimi-seo-icin-nelere-bakilir`
-- [ ] 083. Web Sitesi Güvenliği: SSL, Yedek ve Güncelleme — `web-tasarim` — site güvenliği — `web-sitesi-guvenligi-ssl-yedek-ve-guncelleme`
+- [x] 076. Kurumsal Web Sitesi Kaç Sayfa Olmalı? — `web-tasarim` — kurumsal web sitesi — `kurumsal-web-sitesi-kac-sayfa-olmali`
+- [x] 077. Web Sitesi Yaptırırken Dikkat Edilecek 15 Madde — `web-tasarim` — web sitesi yaptırma — `web-sitesi-yaptirirken-dikkat-edilecek-15-madde`
+- [x] 078. Web Sitesi Yenileme: SEO Kaybetmeden Nasıl Yapılır? — `web-tasarim` — site yenileme — `web-sitesi-yenileme-seo-kaybetmeden-nasil-yapilir`
+- [x] 079. Tek Sayfalık Site mi, Çok Sayfalı Site mi? — `web-tasarim` — tek sayfa site — `tek-sayfalik-site-mi-cok-sayfali-site-mi`
+- [x] 080. Menü ve Site Yapısı Nasıl Planlanır? — `web-tasarim` — site yapısı — `menu-ve-site-yapisi-nasil-planlanir`
+- [x] 081. Hazır Tema mı, Özel Tasarım mı? SEO Açısından — `web-tasarim` — hazır tema — `hazir-tema-mi-ozel-tasarim-mi-seo-acisindan`
+- [x] 082. Alan Adı Seçimi: SEO İçin Nelere Bakılır? — `web-tasarim` — alan adı seçimi — `alan-adi-secimi-seo-icin-nelere-bakilir`
+- [x] 083. Web Sitesi Güvenliği: SSL, Yedek ve Güncelleme — `web-tasarim` — site güvenliği — `web-sitesi-guvenligi-ssl-yedek-ve-guncelleme`
 - [ ] 084. İletişim Formu ve WhatsApp Butonu Nasıl Kurulur? — `web-tasarim` — whatsapp butonu — `iletisim-formu-ve-whatsapp-butonu-nasil-kurulur`
 - [ ] 085. Mobil Öncelikli Tasarım Nedir? İşletmeler İçin Rehber — `web-tasarim` — mobil öncelikli tasarım — `mobil-oncelikli-tasarim-nedir-isletmeler-icin-rehber`
 
