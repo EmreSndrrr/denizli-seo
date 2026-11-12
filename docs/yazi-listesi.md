@@ -139,26 +139,26 @@ Biçim: kutu, sıra no, H1 başlığı, hizmet, ana kelime.
 - [x] 081. Hazır Tema mı, Özel Tasarım mı? SEO Açısından — `web-tasarim` — hazır tema — `hazir-tema-mi-ozel-tasarim-mi-seo-acisindan`
 - [x] 082. Alan Adı Seçimi: SEO İçin Nelere Bakılır? — `web-tasarim` — alan adı seçimi — `alan-adi-secimi-seo-icin-nelere-bakilir`
 - [x] 083. Web Sitesi Güvenliği: SSL, Yedek ve Güncelleme — `web-tasarim` — site güvenliği — `web-sitesi-guvenligi-ssl-yedek-ve-guncelleme`
-- [ ] 084. İletişim Formu ve WhatsApp Butonu Nasıl Kurulur? — `web-tasarim` — whatsapp butonu — `iletisim-formu-ve-whatsapp-butonu-nasil-kurulur`
-- [ ] 085. Mobil Öncelikli Tasarım Nedir? İşletmeler İçin Rehber — `web-tasarim` — mobil öncelikli tasarım — `mobil-oncelikli-tasarim-nedir-isletmeler-icin-rehber`
+- [x] 084. İletişim Formu ve WhatsApp Butonu Nasıl Kurulur? — `web-tasarim` — whatsapp butonu — `iletisim-formu-ve-whatsapp-butonu-nasil-kurulur`
+- [x] 085. Mobil Öncelikli Tasarım Nedir? İşletmeler İçin Rehber — `web-tasarim` — mobil öncelikli tasarım — `mobil-oncelikli-tasarim-nedir-isletmeler-icin-rehber`
 
 ### Genel ve sektör
 
-- [ ] 086. SEO mu, Google Ads mi? Hangisi Size Uygun? — `teknik-seo` — seo mu ads mi — `seo-mu-google-ads-mi-hangisi-size-uygun`
-- [ ] 087. SEO Raporu Nasıl Okunur? Aylık Rapor Şablonu — `teknik-seo` — seo raporu — `seo-raporu-nasil-okunur-aylik-rapor-sablonu`
-- [ ] 088. SEO Sözleşmesinde Bulunması Gereken 8 Madde — `teknik-seo` — seo sözleşmesi — `seo-sozlesmesinde-bulunmasi-gereken-8-madde`
-- [ ] 089. SEO Neden Sonuç Vermez? 12 Olası Neden — `teknik-seo` — seo sonuç vermiyor — `seo-neden-sonuc-vermez-12-olasi-neden`
-- [ ] 090. SEO’da Sık Yapılan 15 Hata — `teknik-seo` — seo hataları — `seo-da-sik-yapilan-15-hata`
-- [ ] 091. SEO Terimleri Sözlüğü: A’dan Z’ye — `teknik-seo` — seo sözlük — `seo-terimleri-sozlugu-a-dan-z-ye`
-- [ ] 092. Yeni Açılan İşletme İçin 30 Günlük SEO Planı — `teknik-seo` — yeni işletme seo — `yeni-acilan-isletme-icin-30-gunluk-seo-plani`
-- [ ] 093. Esnaf İçin SEO Kontrol Listesi: Bugün Yapılacak 10 İş — `teknik-seo` — esnaf seo — `esnaf-icin-seo-kontrol-listesi-bugun-yapilacak-10-is`
-- [ ] 094. SEO Yatırımının Geri Dönüşü Nasıl Hesaplanır? — `teknik-seo` — seo roi — `seo-yatiriminin-geri-donusu-nasil-hesaplanir`
-- [ ] 095. Tekstil ve Ev Tekstili Üreticileri İçin SEO — `teknik-seo` — tekstil seo — `tekstil-ve-ev-tekstili-ureticileri-icin-seo`
-- [ ] 096. Mermer ve Traverten Firmaları İçin SEO — `teknik-seo` — mermer seo — `mermer-ve-traverten-firmalari-icin-seo`
-- [ ] 097. Sanayi Firmaları İçin B2B SEO: Alıcı Nasıl Arar? — `teknik-seo` — b2b seo — `sanayi-firmalari-icin-b2b-seo-alici-nasil-arar`
-- [ ] 098. Zeytinyağı ve Tarım Ürünleri İçin Online Satış SEO’su — `teknik-seo` — tarım ürünleri seo — `zeytinyagi-ve-tarim-urunleri-icin-online-satis-seo-su`
-- [ ] 099. Eğitim Kurumları ve Kurslar İçin SEO — `teknik-seo` — kurs seo — `egitim-kurumlari-ve-kurslar-icin-seo`
-- [ ] 100. Halı Yıkama ve Temizlik Firmaları İçin SEO — `teknik-seo` — halı yıkama seo — `hali-yikama-ve-temizlik-firmalari-icin-seo`
+- [x] 086. SEO mu, Google Ads mi? Hangisi Size Uygun? — `teknik-seo` — seo mu ads mi — `seo-mu-google-ads-mi-hangisi-size-uygun`
+- [x] 087. SEO Raporu Nasıl Okunur? Aylık Rapor Şablonu — `teknik-seo` — seo raporu — `seo-raporu-nasil-okunur-aylik-rapor-sablonu`
+- [x] 088. SEO Sözleşmesinde Bulunması Gereken 8 Madde — `teknik-seo` — seo sözleşmesi — `seo-sozlesmesinde-bulunmasi-gereken-8-madde`
+- [x] 089. SEO Neden Sonuç Vermez? 12 Olası Neden — `teknik-seo` — seo sonuç vermiyor — `seo-neden-sonuc-vermez-12-olasi-neden`
+- [x] 090. SEO’da Sık Yapılan 15 Hata — `teknik-seo` — seo hataları — `seo-da-sik-yapilan-15-hata`
+- [x] 091. SEO Terimleri Sözlüğü: A’dan Z’ye — `teknik-seo` — seo sözlük — `seo-terimleri-sozlugu-a-dan-z-ye`
+- [x] 092. Yeni Açılan İşletme İçin 30 Günlük SEO Planı — `teknik-seo` — yeni işletme seo — `yeni-acilan-isletme-icin-30-gunluk-seo-plani`
+- [x] 093. Esnaf İçin SEO Kontrol Listesi: Bugün Yapılacak 10 İş — `teknik-seo` — esnaf seo — `esnaf-icin-seo-kontrol-listesi-bugun-yapilacak-10-is`
+- [x] 094. SEO Yatırımının Geri Dönüşü Nasıl Hesaplanır? — `teknik-seo` — seo roi — `seo-yatiriminin-geri-donusu-nasil-hesaplanir`
+- [x] 095. Tekstil ve Ev Tekstili Üreticileri İçin SEO — `teknik-seo` — tekstil seo — `tekstil-ve-ev-tekstili-ureticileri-icin-seo`
+- [x] 096. Mermer ve Traverten Firmaları İçin SEO — `teknik-seo` — mermer seo — `mermer-ve-traverten-firmalari-icin-seo`
+- [x] 097. Sanayi Firmaları İçin B2B SEO: Alıcı Nasıl Arar? — `teknik-seo` — b2b seo — `sanayi-firmalari-icin-b2b-seo-alici-nasil-arar`
+- [x] 098. Zeytinyağı ve Tarım Ürünleri İçin Online Satış SEO’su — `teknik-seo` — tarım ürünleri seo — `zeytinyagi-ve-tarim-urunleri-icin-online-satis-seo-su`
+- [x] 099. Eğitim Kurumları ve Kurslar İçin SEO — `teknik-seo` — kurs seo — `egitim-kurumlari-ve-kurslar-icin-seo`
+- [x] 100. Halı Yıkama ve Temizlik Firmaları İçin SEO — `teknik-seo` — halı yıkama seo — `hali-yikama-ve-temizlik-firmalari-icin-seo`
 
 ## Notlar
 
