@@ -171,8 +171,8 @@ Biçim: Venti blog düzeni (`docs/seo-yazi-talimati.md`): cevap-önce giriş, 7�
 - [x] 103. Profilde Hizmetler ve Ürünler Bölümü Nasıl Doldurulur? — `yerel-seo` — işletme profili hizmetler — `google-isletme-profili-hizmetler-bolumu-nasil-doldurulur` — not: Google yardım sayfası doğrulanacak
 - [x] 104. Kuaför ve Güzellik Salonları İçin Yerel SEO — `yerel-seo` — kuaför seo — `kuaforler-ve-guzellik-salonlari-icin-yerel-seo` — not: Önce-sonra fotoğraf izni, randevu yolu, yorum
 - [ ] 105. Oto Servis ve Lastikçiler İçin Yerel SEO — `yerel-seo` — oto servis seo — `oto-servis-ve-lastikcilar-icin-yerel-seo` — not: Acil arama, hizmet bölgesi, fiyat şeffaflığı
-- [ ] 106. Avukat ve Hukuk Büroları İçin SEO — `yerel-seo` — avukat seo — `avukat-ve-hukuk-burolari-icin-seo` — not: Baro reklam kurallarına atıf yok; “hukuki danışmanlık değildir” notu, sonuç vaadi yok
-- [ ] 107. İnşaat ve Gayrimenkul Firmaları İçin SEO — `yerel-seo` — inşaat firması seo — `insaat-ve-gayrimenkul-firmalari-icin-seo` — not: Proje sayfaları, galeri, ilçe aramaları; emlakçılar yazısıyla çakışmasın
+- [x] 106. Avukat ve Hukuk Büroları İçin SEO — `yerel-seo` — avukat seo — `avukat-ve-hukuk-burolari-icin-seo` — not: Baro reklam kurallarına atıf yok; “hukuki danışmanlık değildir” notu, sonuç vaadi yok
+- [x] 107. İnşaat ve Gayrimenkul Firmaları İçin SEO — `yerel-seo` — inşaat firması seo — `insaat-ve-gayrimenkul-firmalari-icin-seo` — not: Proje sayfaları, galeri, ilçe aramaları; emlakçılar yazısıyla çakışmasın
 
 ### Teknik SEO
 

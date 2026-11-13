@@ -322,6 +322,9 @@ const POST_MOTIF = {
   'google-haritalarda-rakip-isletmeleri-nasil-incelersiniz': 'pins',
   'google-isletme-profili-hizmetler-bolumu-nasil-doldurulur': 'profile',
   'kuaforler-ve-guzellik-salonlari-icin-yerel-seo': 'pins',
+  'oto-servis-ve-lastikciler-icin-yerel-seo': 'pins',
+  'avukat-ve-hukuk-burolari-icin-seo': 'profile',
+  'insaat-ve-gayrimenkul-firmalari-icin-seo': 'districts',
 };
 
 function posts() {
