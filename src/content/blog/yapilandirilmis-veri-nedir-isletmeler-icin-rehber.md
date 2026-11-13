@@ -43,6 +43,8 @@ Google’ın örneklerinde yerel işletme için şu alanlar öne çıkar:
 
 Son satıra dikkat edin: Google, `aggregateRating` özelliğinin yalnızca diğer yerel işletmeler hakkında yorum alan siteler için önerildiğini belirtir. Kendi işletmenizin yorumlarını işaretlemeden önce Google’ın yorum snippet’i yönergelerini okuyun; uydurma ya da doğrulanamayan puan yazmayın.
 
+> **Hizmet almak için iletişime geçin.** Sitenizin dizine eklenme, hız ve mobil durumunu birlikte tarayalım; bulguları öncelik sırasıyla yazılı verelim. [Teknik SEO hizmetimizi](/teknik-seo/) inceleyin ya da [bize yazın](/iletisim/).
+
 ## Basit bir JSON-LD örneği
 
 Aşağıdaki örnek hayalî bir işletme içindir; kendi bilgilerinizle değiştirin:
@@ -104,6 +106,8 @@ Google, Zengin Sonuçlar Testi’nin yapılandırılmış verinizi doğrulamak v
 - **Sık sorulan sorular:** Yalnızca Google’ın güncel yönergelerine uygunsa; yönergeleri kontrol edin
 
 Her işaretleme türünün Google’da kendi yönergeleri vardır ve zaman içinde değişebilir. Kullanmadan önce güncel yönergeye bakın.
+
+> **Sizin için de yapalım mı?** Sitenizde teknik bir sorun şüpheniz varsa nedenini sırayla teşhis edelim. [Hizmet almak için iletişime geçin](/iletisim/); çalışmanın kapsamı [teknik SEO sayfamızda](/teknik-seo/) anlatılıyor.
 
 ## Denizli’den bir örnek
 

@@ -44,6 +44,8 @@ Google bu durumun nedenini sayfa bazında söylemez; bu yüzden aşağıdaki lis
 
 Nedeni görmek için URL Denetleme aracını kullanın ([URL Denetleme](https://support.google.com/webmasters/answer/9012289?hl=tr)).
 
+> **Hizmet almak için iletişime geçin.** Sitenizin dizine eklenme, hız ve mobil durumunu birlikte tarayalım; bulguları öncelik sırasıyla yazılı verelim. [Teknik SEO hizmetimizi](/teknik-seo/) inceleyin ya da [bize yazın](/iletisim/).
+
 ## Adım adım ne yapmalısınız?
 
 1. **Sayfayı seçin.** Raporda dizine girmesini istediğiniz örnek sayfaları listeleyin.
@@ -75,6 +77,8 @@ Siteniz yüzlerce sayfa içeriyor ve çoğu “tarandı, dizine eklenmedi” gö
 ## Dizine ekleme isteği işe yarar mı?
 
 Google’ın yeniden tarama rehberi, tarama isteğinde bulunmanın URL’nin dizine ekleneceğini garanti etmediğini, aynı URL için birden fazla istek göndermenin daha hızlı taranmasını sağlamadığını ve tek tek URL’ler için kota bulunduğunu söyler ([yeniden tarama isteme](https://developers.google.com/search/docs/crawling-indexing/ask-google-to-recrawl?hl=tr)). Yani sayfa sorunluysa istek tek başına çözmez; önce sayfayı iyileştirin, sonra istek gönderin.
+
+> **Sizin için de yapalım mı?** Sitenizde teknik bir sorun şüpheniz varsa nedenini sırayla teşhis edelim. [Hizmet almak için iletişime geçin](/iletisim/); çalışmanın kapsamı [teknik SEO sayfamızda](/teknik-seo/) anlatılıyor.
 
 ## Denizli’den bir örnek
 

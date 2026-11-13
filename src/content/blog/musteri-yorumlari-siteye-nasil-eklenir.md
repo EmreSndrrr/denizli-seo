@@ -43,6 +43,8 @@ Yorum ve puan verisini işaretlemek istiyorsanız Google’ın ilgili dokümanı
 - **İletişim sayfası:** Güven için kısa bir alıntı.
 - **Ayrı “Yorumlar” sayfası:** Çok yorum varsa.
 
+> **Hizmet almak için iletişime geçin.** Müşterilerinizin sorduğu sorulardan bir içerik planı çıkaralım ve sayfalarınızı birlikte yazalım. [İçerik SEO hizmetimizi](/icerik-seo/) inceleyin ya da [bize yazın](/iletisim/).
+
 ## Sık yapılan hatalar
 
 - **Uydurma ya da şablon yorum:** Kaldırın; yalnızca gerçek yorum
@@ -68,6 +70,8 @@ Yorumu olduğu gibi yayımlayın; anlamını değiştirmeyin, cümleleri kendi l
 ## Google puanınızı sitede göstermek doğru mudur?
 
 Google İşletme Profili’ndeki puanınızı ve yorum sayınızı sitede göstermek mümkündür; ama sayıları güncel ve doğru yazın. Eski bir puanı gösterip artık değişmiş olması müşteriyi yanıltır. Puanın tarihini ya da “Google’da” kaynağını belirtin. Sayıları uydurmayın; yalnızca gerçekten yayında olan puanı ve yorum sayısını yazın. Google yorum karşılığında ücretsiz ürün ya da indirim sunmayı sahte etkileşim sayar ve yasaklar ([yorum ipuçları](https://support.google.com/business/answer/3474122?hl=tr)); yorumları karşılıksız isteyin.
+
+> **Sizin için de yapalım mı?** Sayfalarınızın ve yazılarınızın neden yeterince işe yaramadığına birlikte bakalım. [Hizmet almak için iletişime geçin](/iletisim/); yöntemimiz [içerik SEO sayfamızda](/icerik-seo/) yazılı.
 
 ## Olumsuz yorumlar sitede nasıl ele alınır?
 

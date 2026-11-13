@@ -25,6 +25,8 @@ Spam politikalarına göre bağlantı spam’i, temel olarak arama sıralamalar�
 | Konu | Sitenin konusuyla ilgisiz | Yayının okuyucusuna uygun |
 | İçerik | Başka yerde de yayımlanan yazı | Özgün yazı |
 
+> **Hizmet almak için iletişime geçin.** Satın alınmış bağlantı olmadan, gerçek kaynaklarla bağlantı ve otorite çalışması planlayalım. [Backlink hizmetimizi](/backlink-hizmeti/) inceleyin ya da [bize yazın](/iletisim/).
+
 ## Adım adım değerlendirme
 
 1. **Yayının gerçek okuyucusu var mı?** Okuyucusu olmayan, yalnızca yazı satan siteler risklidir.
@@ -39,6 +41,8 @@ Spam politikalarına göre bağlantı spam’i, temel olarak arama sıralamalar�
 - Sektörel dernek ya da oda bültenlerinde bilgi yazısı,
 - yerel basında uzman görüşü (bkz. [yerel haber sitelerinden bağlantı](/blog/yerel-haber-sitelerinden-baglanti-nasil-alinir/)),
 - kendi sitenizde bağlantı verilmeye değer kaynak niteliğinde yazılar.
+
+> **Sizin için de yapalım mı?** Mevcut bağlantı durumunuza birlikte bakıp güvenli bir yol çizelim. [Hizmet almak için iletişime geçin](/iletisim/); hangi yöntemleri kullanmadığımız [backlink sayfamızda](/backlink-hizmeti/) açıkça yazıyor.
 
 ## Sık yapılan hatalar
 

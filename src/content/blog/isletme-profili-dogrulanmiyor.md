@@ -63,6 +63,8 @@ Yüklediğiniz video incelenir. Google, bu işlemin 5 iş gününü bulabildiği
 
 Canlı görüntülü görüşmeler yalnızca bulunduğunuz konumun çalışma saatlerinde yapılabilir ve tüm işletmeler için sunulmayabilir. Görüşme sırasında işletmenizde bulunmalı, konumunuzu ve işletmenin sahibi olduğunuzu gösterebilmelisiniz: dışarıdaki tabelalar, markalı ekipman ve yalnızca çalışanların girebildiği alanlar.
 
+> **Hizmet almak için iletişime geçin.** Google İşletme Profili’nizi ve harita görünürlüğünüzü birlikte inceleyelim; ne eksik, neyin düzeltileceğini yazılı söyleyelim. [Yerel SEO hizmetimizi](/yerel-seo/) inceleyin ya da [bize yazın](/iletisim/).
+
 ## Doğrulama neden başarısız olur? Altı sık sebep
 
 1. **Kimlik uyuşmazlığı:** Tabelada başka ad, profilde başka ad var.
@@ -107,6 +109,8 @@ Sıralama için bu adımların sırası ve etkisi [Google Haritalar’da üst s�
 - **Sonuç:** Video incelemeye gönderiliyor; yanıtı beklerken profil bilgileri hazırlanıyor.
 
 Bu örnek bir sonuç vaadi değil, hazırlığın nasıl yapılacağını gösterir.
+
+> **Sizin için de yapalım mı?** Haritada daha görünür olmak istiyorsanız profilinize ve yerel kayıtlarınıza bakıp yapılacakları kalem kalem çıkaralım. [Hizmet almak için iletişime geçin](/iletisim/); ayrıntı için [yerel SEO sayfamıza](/yerel-seo/) göz atabilirsiniz.
 
 ## Doğrulamadan önce hazırlık listesi
 

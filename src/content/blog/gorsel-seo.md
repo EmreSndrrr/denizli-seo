@@ -49,6 +49,8 @@ Anahtar kelimeleri alt metne doldurmak (“mutfak dolabı, ucuz mutfak dolabı, 
 
 Google, görselin konusuyla ilgili bilgiyi altyazılar ve görsel başlıkları dahil olmak üzere sayfanın içeriğinden çıkarır. Bu yüzden görseli, onu anlatan metnin yakınına yerleştirin. Pansiyon odasının fotoğrafı, oda anlatımının yanında olmalıdır; sayfanın en altındaki rastgele bir galeride değil. Mümkün olduğunda görseli konusuyla ilgili sayfaya koyun: Honaz’daki bir atölyenin fotoğrafı iletişim sayfasında değil, atölyeyi anlatan sayfada anlamlıdır.
 
+> **Hizmet almak için iletişime geçin.** Sitenizin dizine eklenme, hız ve mobil durumunu birlikte tarayalım; bulguları öncelik sırasıyla yazılı verelim. [Teknik SEO hizmetimizi](/teknik-seo/) inceleyin ya da [bize yazın](/iletisim/).
+
 ## 5. Boyutu küçültün
 
 Telefon kamerasından çıkan bir fotoğraf onlarca megabayt olabilir; bir sayfada görünen boyutu ise çok daha küçüktür. Yüklemeden önce görseli sitede gösterileceği en büyük boyuta indirin ve sıkıştırın. Bu, çoğu sitede hıza en çok katkı yapan düzeltmelerden biridir. Hızı ölçmek için PageSpeed Insights gibi araçlardan yararlanabilirsiniz; Google görsel rehberinde de site hızını bu araçla analiz etmeyi önerir.
@@ -82,6 +84,8 @@ Stok fotoğraf, hizmetinizi ya da ürününüzü göstermez. Google’ın içeri
 ## 10. Görselin ne söylediğini kontrol edin
 
 Her görsele şu soruyu sorun: bu fotoğraf sayfanın konusunu destekliyor mu? İlgisiz bir fotoğraf ne ziyaretçiye ne Google’a yardım eder; yalnızca sayfayı ağırlaştırır.
+
+> **Sizin için de yapalım mı?** Sitenizde teknik bir sorun şüpheniz varsa nedenini sırayla teşhis edelim. [Hizmet almak için iletişime geçin](/iletisim/); çalışmanın kapsamı [teknik SEO sayfamızda](/teknik-seo/) anlatılıyor.
 
 ## Denizli’den bir örnek
 

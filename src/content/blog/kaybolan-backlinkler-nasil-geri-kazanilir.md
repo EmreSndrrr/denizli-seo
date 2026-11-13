@@ -42,6 +42,8 @@ Google’ın yönlendirme rehberi, kalıcı yönlendirmeleri (301/308) hedefin s
 - **Bağlantıyı satın alıp geri getirmek:** Yapmayın
 - **Rapora hiç bakmamak:** Düzenli kontrol
 
+> **Hizmet almak için iletişime geçin.** Satın alınmış bağlantı olmadan, gerçek kaynaklarla bağlantı ve otorite çalışması planlayalım. [Backlink hizmetimizi](/backlink-hizmeti/) inceleyin ya da [bize yazın](/iletisim/).
+
 ## Denizli’den bir örnek
 
 Örnek (hayalî bir işletme için): Merkezefendi’de bir mobilya mağazası sitesini yeniledi; eski “/urunler/koltuk-takimi” adresi artık yok. Search Console’da bu adres bir haber sitesinden bağlantı alıyor ve 404 veriyor. Mağaza adresi yeni “Koltuk takımları” kategorisine 301 ile yönlendiriyor ve haber sitesine adresin güncellendiğini bildiriyor.
@@ -63,6 +65,8 @@ Bir site sayfasını silmiş, bağlantıyı kaldırmış ya da yeni bir tasarım
 “Merhaba, [sayfa başlığı] yazınızda daha önce sitemize verdiğiniz bağlantının kaldırıldığını fark ettim. Bir hata ya da site değişikliği olabilir diye bilgi vermek istedim. Bağlantıyı yeniden eklemek isterseniz çok sevinirim; uygun görmezseniz de sorun değil. İyi çalışmalar.”
 
 Cevap gelmezse bir kez hatırlatın, sonra bırakın. Karşı tarafın bağlantıyı kaldırma hakkı vardır ve ısrar ilişkiyi bozar. Bağlantı ücretli bir yerleşimdi ve süresi dolduysa, kaybı doğal kabul edin.
+
+> **Sizin için de yapalım mı?** Mevcut bağlantı durumunuza birlikte bakıp güvenli bir yol çizelim. [Hizmet almak için iletişime geçin](/iletisim/); hangi yöntemleri kullanmadığımız [backlink sayfamızda](/backlink-hizmeti/) açıkça yazıyor.
 
 ## Hangi kayıplar öncelikli olmalı?
 

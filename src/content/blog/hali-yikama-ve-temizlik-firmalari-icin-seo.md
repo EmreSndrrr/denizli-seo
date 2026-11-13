@@ -59,6 +59,8 @@ Profil, bu sektörde sitenizden bile önemli olabilir. Kontrol listesi:
 
 Hizmet sayfası yazımı için hizmet sayfası nasıl yazılır? yazısına bakın.
 
+> **Hizmet almak için iletişime geçin.** Sitenizin dizine eklenme, hız ve mobil durumunu birlikte tarayalım; bulguları öncelik sırasıyla yazılı verelim. [Teknik SEO hizmetimizi](/teknik-seo/) inceleyin ya da [bize yazın](/iletisim/).
+
 ## İlçe sayfaları: dikkatli kullanın
 
 Denizli’de farklı ilçelere hizmet veriyorsanız ilçe sayfaları faydalı olabilir; ama yalnızca ilçe adını değiştirilmiş kopya sayfalar sorun yaratır. Google’ın spam politikaları, belirli şehir ve bölge adlarını sıralamak için metne doldurmayı anahtar kelime doldurma örnekleri arasında sayar ([spam politikaları](https://developers.google.com/search/docs/essentials/spam-policies?hl=tr)). İlçe sayfası yazacaksanız o ilçeye özgü gerçek bilgi ekleyin: nereden hizmet verildiği, teslim ve alım düzeni, o bölgede sık sorulan sorular. Bkz. [ilçe sayfası nasıl yazılır?](/blog/ilce-sayfasi-nasil-yazilir/)
@@ -83,6 +85,8 @@ Dönemlik içerikleri aynı adreste güncelleyin. Randevu kapasitesi dolduğunda
 ## Fiyat şeffaflığı
 
 Müşteri “fiyat nedir?” diye sorar. Rakam yazmak istemiyorsanız fiyatı neyin belirlediğini anlatın: ölçü (metrekare), halı türü, leke ve yıpranma durumu, taşıma. Mümkünse örnek hesap gösterin (gerçek fiyatlarınıza göre). “Ucuz” gibi iddialardan kaçının; “net teklif, gizli ücret yok” gibi sözleri yalnızca tutabiliyorsanız yazın.
+
+> **Sizin için de yapalım mı?** Sitenizde teknik bir sorun şüpheniz varsa nedenini sırayla teşhis edelim. [Hizmet almak için iletişime geçin](/iletisim/); çalışmanın kapsamı [teknik SEO sayfamızda](/teknik-seo/) anlatılıyor.
 
 ## Sık yapılan hatalar
 

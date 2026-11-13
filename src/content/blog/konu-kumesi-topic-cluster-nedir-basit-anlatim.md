@@ -32,6 +32,8 @@ Ana sayfa (hizmet): Klima bakımı
 - **Arama için:** Sitenin hangi konuda kapsamlı olduğu anlaşılır; Google’ın SEO başlangıç kılavuzu, kullanıcıya yararlı ve düzenli içerik ile anlaşılır site yapısını önerir ([SEO başlangıç kılavuzu](https://developers.google.com/search/docs/fundamentals/seo-starter-guide?hl=tr)).
 - **Sizin için:** Ne yazacağınızı bilir, aynı konuyu tekrar yazmazsınız.
 
+> **Hizmet almak için iletişime geçin.** Müşterilerinizin sorduğu sorulardan bir içerik planı çıkaralım ve sayfalarınızı birlikte yazalım. [İçerik SEO hizmetimizi](/icerik-seo/) inceleyin ya da [bize yazın](/iletisim/).
+
 ## Adım adım kurulum
 
 1. **Ana konuyu seçin.** İşinizin gelir getiren hizmeti.
@@ -51,6 +53,8 @@ Aynı aramayı hedefleyen iki yazı birbirinin önüne geçebilir. Her yazının
 - **Klima bakımı:** Yılda kaç kez? Ne kadar sürer? Filtre temizliği? Su damlatması?
 - **Diş beyazlatma:** Nasıl yapılır? Ne kadar sürer? Kimlere uygun?
 - **Muhasebe:** Defter türleri, vergi takvimi soruları (uzman onayıyla)
+
+> **Sizin için de yapalım mı?** Sayfalarınızın ve yazılarınızın neden yeterince işe yaramadığına birlikte bakalım. [Hizmet almak için iletişime geçin](/iletisim/); yöntemimiz [içerik SEO sayfamızda](/icerik-seo/) yazılı.
 
 ## Sık yapılan hatalar
 

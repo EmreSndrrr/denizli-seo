@@ -70,7 +70,7 @@ const jsonld = [
           <span><Icon name="plan" size={16} />Yayın: <time datetime={published}>{fmt.format(post.data.date)}</time></span>
           {updated && <span>Güncellendi: <time datetime={modified}>{fmt.format(updated)}</time></span>}
         </p>
-        <div class="banner-cta"><a class="btn btn-solid" href="/iletisim/">{category} için bize ulaşın<Icon name="arrow" size={20} /></a></div>
+        <div class="banner-cta"><a class="btn btn-solid" href="/iletisim/">Hizmet almak için iletişime geçin<Icon name="arrow" size={20} /></a></div>
       </div>
     </div>
   </section>
@@ -91,11 +91,12 @@ const jsonld = [
       </p>
     </aside>
     <section class="post-cta" aria-labelledby="yazi-cta">
-      <h2 id="yazi-cta">{category} için bize ulaşın</h2>
-      <p>Sorunuzu ya da ihtiyacınızı yazın; ne yapılması gerektiğini ve ne kadar süreceğini kalem kalem söyleyelim.{service && <> Ayrıntıyı <a href={`/${service.slug}/`}>{service.name}</a> sayfasında bulabilirsiniz.</>}</p>
+      <h2 id="yazi-cta">Hizmet almak için iletişime geçin</h2>
+      <p>Bu yazıdaki konu işletmeniz için de geçerliyse sorunuzu ya da ihtiyacınızı yazın; ne yapılması gerektiğini ve ne kadar süreceğini kalem kalem söyleyelim. Sonuç ya da sıralama garantisi vermeyiz; yaptığımız işi yazılı raporlarız.{service && <> Ayrıntıyı <a href={`/${service.slug}/`}>{service.name}</a> sayfasında bulabilirsiniz.</>}</p>
       <div class="post-cta-btns">
         <a class="btn btn-solid" href={WA_ANALYSIS} rel="noopener">{CTA_LABEL}<Icon name="arrow" size={20} /></a>
-        <a class="btn btn-outline" href="/iletisim/">İletişim</a>
+        <a class="btn btn-outline" href="/iletisim/">İletişim formu</a>
+        <a class="btn btn-outline" href={`tel:${SITE.phone}`}>{SITE.phoneDisplay}</a>
       </div>
     </section>
   </article>

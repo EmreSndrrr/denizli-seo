@@ -69,6 +69,8 @@ Birçok sektörün kendi meslek derneği ya da birliği vardır. Bu kuruluşlar�
 
 [Pamukkale Üniversitesi](https://www.pau.edu.tr/) gibi kurumlarla staj, ortak proje, seminer ya da öğrenci topluluklarıyla gerçek bir iş birliği yaptıysanız, bölümün ya da topluluğun haber sayfasında anılabilirsiniz. Bunu bağlantı için değil, iş birliğinin kendisi için yapın. Bağlantı karşılığında burs ya da ödül teklif etmek, bağlantıyı satın almaktan farksızdır.
 
+> **Hizmet almak için iletişime geçin.** Satın alınmış bağlantı olmadan, gerçek kaynaklarla bağlantı ve otorite çalışması planlayalım. [Backlink hizmetimizi](/backlink-hizmeti/) inceleyin ya da [bize yazın](/iletisim/).
+
 ## İş ortağı ve tedarikçi bağlantıları nasıl alınır?
 
 Birlikte çalıştığınız markanın “yetkili satıcılar”, “bayilerimiz” ya da “referanslarımız” sayfası gerçek bir ilişkiyi gösterir ve en doğal bağlantı kaynaklarından biridir. Bir tedarikçiden ürün alıyorsanız, bir markanın Denizli bayisiyseniz ya da bir firmaya düzenli hizmet veriyorsanız, o sitede adınızın geçip geçmediğine bakın.
@@ -113,6 +115,8 @@ Denizli’deki bir işletme için içerik fikirleri:
 - **Kendi verinize dayanan inceleme.** Yalnızca gerçekten elinizde olan ve paylaşma izniniz olan veriyle.
 
 Bu içerikler bağlantıyı garanti etmez; fakat bağlantıyı **hak edecek** bir sayfanız olmadan kimsenin bağlantı vermesini bekleyemezsiniz. İçeriği nasıl planladığımızı [içerik SEO](/icerik-seo/) sayfamızda anlatıyoruz.
+
+> **Sizin için de yapalım mı?** Mevcut bağlantı durumunuza birlikte bakıp güvenli bir yol çizelim. [Hizmet almak için iletişime geçin](/iletisim/); hangi yöntemleri kullanmadığımız [backlink sayfamızda](/backlink-hizmeti/) açıkça yazıyor.
 
 ## Bağlantı isteği nasıl yazılır?
 

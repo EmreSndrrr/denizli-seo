@@ -28,6 +28,8 @@ Search Console’un Performans raporu, sorgu ve sayfa bazında gösterim, tıkla
 
 Google’ın başlık bağlantısı rehberi, başlığın Google tarafından sayfa içeriğinden, bağlantı metinlerinden ve başka kaynaklardan oluşturulabileceğini; açıklayıcı ve özgün bir `<title>` yazılmasını önerir ([başlık bağlantıları](https://developers.google.com/search/docs/appearance/title-link?hl=tr)). Snippet için de rehbere bakın ([snippet’ler](https://developers.google.com/search/docs/appearance/snippet?hl=tr)).
 
+> **Hizmet almak için iletişime geçin.** Müşterilerinizin sorduğu sorulardan bir içerik planı çıkaralım ve sayfalarınızı birlikte yazalım. [İçerik SEO hizmetimizi](/icerik-seo/) inceleyin ya da [bize yazın](/iletisim/).
+
 ## Adım adım iyileştirme
 
 1. **Search Console’da Performans’ı açın.** Son üç ayı seçin.
@@ -46,6 +48,8 @@ Google’ın başlık bağlantısı rehberi, başlığın Google tarafından say
 - **EN İYİ KLİMA SERVİSİ!!!:** Klima servisi: bakım, tamir ve montaj
 
 Başlıkta doğrulayamadığınız “en iyi” gibi iddialardan kaçının.
+
+> **Sizin için de yapalım mı?** Sayfalarınızın ve yazılarınızın neden yeterince işe yaramadığına birlikte bakalım. [Hizmet almak için iletişime geçin](/iletisim/); yöntemimiz [içerik SEO sayfamızda](/icerik-seo/) yazılı.
 
 ## Sık yapılan hatalar
 

@@ -97,6 +97,8 @@ Bu madde yazılı olmazsa, ayrılmak istediğinizde elinizde ne olduğunu bileme
 - Çalışmada üçüncü taraf araç kullanılıyorsa hangi verinin paylaşılacağı.
 - Referans ve vaka çalışması olarak adınızın kullanılıp kullanılmayacağı (izin ve koşullar).
 
+> **Hizmet almak için iletişime geçin.** Sitenizin dizine eklenme, hız ve mobil durumunu birlikte tarayalım; bulguları öncelik sırasıyla yazılı verelim. [Teknik SEO hizmetimizi](/teknik-seo/) inceleyin ya da [bize yazın](/iletisim/).
+
 ## Adım adım: sözleşmeyi imzalamadan önce
 
 1. **Teklifi kapsam kalemleriyle isteyin.** Tek satırlık “SEO hizmeti” teklifini kabul etmeyin.
@@ -118,6 +120,8 @@ Bu madde yazılı olmazsa, ayrılmak istediğinizde elinizde ne olduğunu bileme
 - **Çok uzun, çıkışsız sözleşme:** Fesih koşulları ağır olabilir
 - **Google ile “özel ilişki” iddiası:** Google bu tür iddialara karşı uyarır
 - **Kapsamın sürekli genişlemesi:** Ek ücret riski
+
+> **Sizin için de yapalım mı?** Sitenizde teknik bir sorun şüpheniz varsa nedenini sırayla teşhis edelim. [Hizmet almak için iletişime geçin](/iletisim/); çalışmanın kapsamı [teknik SEO sayfamızda](/teknik-seo/) anlatılıyor.
 
 ## Denizli’den bir örnek
 

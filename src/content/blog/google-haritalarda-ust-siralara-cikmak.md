@@ -40,6 +40,8 @@ Google, işletme adına gereksiz bilgi eklenmesine izin vermez; bu, profilin ask
 
 Telefon numarasının işletmenin doğrudan kontrolü altında olması gerekir. Normal çalışma saatlerinin yanında bayram ve özel gün saatlerini de girin; kapalıyken açık görünen bir işletme kötü yorum alır. Adres ve telefonu sitenizde, profilde ve rehberlerde aynı yazın. Adres gizleyip hizmet bölgesi göstermeniz gerekiyorsa [hizmet bölgesi](/blog/google-isletme-profili-nasil-doldurulur/) bölümüne bakın.
 
+> **Hizmet almak için iletişime geçin.** Google İşletme Profili’nizi ve harita görünürlüğünüzü birlikte inceleyelim; ne eksik, neyin düzeltileceğini yazılı söyleyelim. [Yerel SEO hizmetimizi](/yerel-seo/) inceleyin ya da [bize yazın](/iletisim/).
+
 ## 5. Hizmetleri, açıklamayı ve fotoğrafları tamamlayın
 
 Alaka düzeyi etkeni, eksiksiz ve doğru bilgiyle güçlenir. Şunları kontrol edin:
@@ -86,6 +88,8 @@ Sitenizdeki iletişim sayfasında profildekiyle aynı ad, adres ve telefon bulun
 - **Site:** Her hizmet için ayrı sayfa yazılıyor; iletişim sayfasında profildeki adres ve telefon aynen kullanılıyor.
 
 Bu örnek bir sonuç vaadi değil, işlerin sırasıdır.
+
+> **Sizin için de yapalım mı?** Haritada daha görünür olmak istiyorsanız profilinize ve yerel kayıtlarınıza bakıp yapılacakları kalem kalem çıkaralım. [Hizmet almak için iletişime geçin](/iletisim/); ayrıntı için [yerel SEO sayfamıza](/yerel-seo/) göz atabilirsiniz.
 
 ## Haritada üst sıraya çıkmak için yapılmaması gerekenler
 

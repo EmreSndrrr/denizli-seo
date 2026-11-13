@@ -34,6 +34,8 @@ Müşteriler çoğu zaman tek bir ürün değil, bir grup arar: “koltuk takım
 6. **İlgili rehber yazılara bağlayın.** Bilgi arayan müşteriyi doğru yere yönlendirin.
 7. **Boş kategori bırakmayın.** Ürünü olmayan kategoriyi birleştirin ya da kaldırın.
 
+> **Hizmet almak için iletişime geçin.** Müşterilerinizin sorduğu sorulardan bir içerik planı çıkaralım ve sayfalarınızı birlikte yazalım. [İçerik SEO hizmetimizi](/icerik-seo/) inceleyin ya da [bize yazın](/iletisim/).
+
 ## Örnek şablon (hayalî bir işletme için)
 
 **Başlık:** Koltuk takımları
@@ -60,6 +62,8 @@ Filtre ve sıralama kombinasyonları çok sayıda benzer URL üretebilir. Google
 - **Alt kategori bağlantısı yok:** Bağlantı ekleyin
 - **Boş ya da tek ürünlü kategori:** Birleştirin
 - **Yanıltıcı üstünlük iddiaları:** Doğrulanabilir bilgi yazın
+
+> **Sizin için de yapalım mı?** Sayfalarınızın ve yazılarınızın neden yeterince işe yaramadığına birlikte bakalım. [Hizmet almak için iletişime geçin](/iletisim/); yöntemimiz [içerik SEO sayfamızda](/icerik-seo/) yazılı.
 
 ## Denizli’den bir örnek
 

@@ -48,6 +48,8 @@ Bu yüzden siteyi bilgisayardan değil telefondan açın ve şunlara bakın:
 - Telefonda gizlenen bir bölüm var mı? Mobilde olmayan içerik, Google’ın gördüğü içerikte de eksik olabilir.
 - Telefon numarası ve WhatsApp bağlantısı tek dokunuşla açılıyor mu?
 
+> **Hizmet almak için iletişime geçin.** Sitenizin dizine eklenme, hız ve mobil durumunu birlikte tarayalım; bulguları öncelik sırasıyla yazılı verelim. [Teknik SEO hizmetimizi](/teknik-seo/) inceleyin ya da [bize yazın](/iletisim/).
+
 ## 4. Sayfalarınız ne kadar hızlı açılıyor?
 
 Hız, ziyaretçinin sabrını ve Core Web Vitals ölçümlerini etkiler. web.dev’e göre iyi bir kullanıcı deneyimi için en büyük içeriğin yüklenmesi (LCP) sayfa yüklenmeye başladıktan sonra 2,5 saniye içinde olmalı, sayfanın etkileşime yanıt süresi (INP) 200 milisaniye veya daha az olmalıdır ([Web Vitals](https://web.dev/articles/vitals?hl=tr)).
@@ -87,6 +89,8 @@ Hiçbir yerden bağlantı almayan bir sayfa, Google’ın da bulmakta zorlanaca�
 Yerel bir işletmeyseniz profil, analizin en önemli parçalarından biridir. Şunlara bakın: ana kategori doğru mu, adres ve telefon sitenizdekiyle aynı mı, çalışma saatleri güncel mi, fotoğraflar gerçek mi, yorumlara yanıt veriliyor mu? Adım adım rehber için [Google İşletme Profili nasıl doldurulur?](/blog/google-isletme-profili-nasil-doldurulur/) yazımıza bakabilirsiniz.
 
 Sitenizdeki adres ve telefon ile profildekinin birebir aynı olup olmadığını özellikle kontrol edin. Küçük farklar (“1894. Sk.” ile “1894 Sokak”) tutarsızlık yaratır.
+
+> **Sizin için de yapalım mı?** Sitenizde teknik bir sorun şüpheniz varsa nedenini sırayla teşhis edelim. [Hizmet almak için iletişime geçin](/iletisim/); çalışmanın kapsamı [teknik SEO sayfamızda](/teknik-seo/) anlatılıyor.
 
 ## 10. Hangi aramalarda görünüyorsunuz?
 

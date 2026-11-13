@@ -36,6 +36,8 @@ Google’ın spam politikaları, başka sitelerden içeriği özgün bir değer 
 6. **Doğruluğu kontrol edin.** Üretici bilgisini, kendi ölçtüğünüzle karşılaştırın.
 7. **Aynı ürün varyantlarını tek sayfada toplayın.** Renk ve beden için ayrı ayrı kopya sayfa üretmeyin.
 
+> **Hizmet almak için iletişime geçin.** Müşterilerinizin sorduğu sorulardan bir içerik planı çıkaralım ve sayfalarınızı birlikte yazalım. [İçerik SEO hizmetimizi](/icerik-seo/) inceleyin ya da [bize yazın](/iletisim/).
+
 ## Şablon
 
 - **Başlık:** Ürün adı + ayırt edici özellik.
@@ -58,6 +60,8 @@ Binlerce ürün varsa hepsini aynı özenle yazamazsınız. Öncelik verin:
 ## Yapılandırılmış veri
 
 Ürün sayfalarında fiyat, stok ve puan gibi bilgiler için Product yapılandırılmış verisi kullanılabilir; Google’ın dokümanı bunun için gereksinimleri açıklar ([ürün snippet’i](https://developers.google.com/search/docs/appearance/structured-data/product-snippet?hl=tr)). Veri, sayfada görünen bilgiyle uyuşmalıdır. Yapı için [yapılandırılmış veri rehberimize](/blog/yapilandirilmis-veri-nedir-isletmeler-icin-rehber/) bakın.
+
+> **Sizin için de yapalım mı?** Sayfalarınızın ve yazılarınızın neden yeterince işe yaramadığına birlikte bakalım. [Hizmet almak için iletişime geçin](/iletisim/); yöntemimiz [içerik SEO sayfamızda](/icerik-seo/) yazılı.
 
 ## Sık yapılan hatalar
 

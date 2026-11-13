@@ -40,6 +40,8 @@ Spam politikaları bağlantı spam’i örnekleri arasında “düşük kaliteli
 
 Bir rehberden gelen bağlantıyı “sıralama aracı” gibi görmeyin. Müşteri bulmak için kayıt yaptırın; bağlantı bir yan faydadır. Bağlantı satan kayıt hizmetleri, para karşılığı bağlantı olarak değerlendirilebilir ve bu nitelenmelidir; bkz. [sponsorluk bağlantıları](/blog/sponsorluk-baglantilari-sponsored-nasil-isaretlenir/).
 
+> **Hizmet almak için iletişime geçin.** Satın alınmış bağlantı olmadan, gerçek kaynaklarla bağlantı ve otorite çalışması planlayalım. [Backlink hizmetimizi](/backlink-hizmeti/) inceleyin ya da [bize yazın](/iletisim/).
+
 ## Sık yapılan hatalar
 
 - **Toplu dizin kayıt paketi:** Seçici olun
@@ -75,6 +77,8 @@ Telefon ya da e-postayla gelen “kaydınızı ücretsiz açalım, premium üyel
 - Kaydı sonradan silebilir ya da düzeltebilir miyim?
 
 Bu sorulardan biri cevapsız kalıyorsa teklifi reddedin. Kayıt sayısı hedef değildir; doğru yerde doğru bilgiyle yer almak hedeftir. Google’ın spam politikası, düşük kaliteli dizin ve yer işareti sitelerinden gelen bağlantıları bağlantı spam’i örnekleri arasında sayar ([spam politikaları](https://developers.google.com/search/docs/essentials/spam-policies?hl=tr)).
+
+> **Sizin için de yapalım mı?** Mevcut bağlantı durumunuza birlikte bakıp güvenli bir yol çizelim. [Hizmet almak için iletişime geçin](/iletisim/); hangi yöntemleri kullanmadığımız [backlink sayfamızda](/backlink-hizmeti/) açıkça yazıyor.
 
 ## Hatalı ya da istemediğiniz bir kayıt bulursanız ne yapmalısınız?
 

@@ -43,6 +43,8 @@ Google, bu konuda kendi rehberini yayımlıyor ([SEO’ya mı ihtiyacınız var?
 
 Rehber ayrıca uzmana sorulabilecek sorular listeler. Aşağıda onları bir kontrol listesine çevirdik.
 
+> **Hizmet almak için iletişime geçin.** Sitenizin dizine eklenme, hız ve mobil durumunu birlikte tarayalım; bulguları öncelik sırasıyla yazılı verelim. [Teknik SEO hizmetimizi](/teknik-seo/) inceleyin ya da [bize yazın](/iletisim/).
+
 ## SEO uzmanıyla ilk görüşmede neler sorulmalı?
 
 Aşağıdaki sorular, Google’ın önerdiği soruların uyarlamasıdır. Her cevabı yazılı isteyin:
@@ -94,6 +96,8 @@ Sözleşme kısa ama net olsun. Şu altı madde çoğu işletme için yeterli bi
 6. **Gizlilik ve veri:** Sitenize ve müşteri verilerinize erişimin nasıl yönetileceği.
 
 Sözleşmede “ilk sayfa” ya da “birinci sıra” gibi bir taahhüt görürseniz imzalamadan önce açıklama isteyin.
+
+> **Sizin için de yapalım mı?** Sitenizde teknik bir sorun şüpheniz varsa nedenini sırayla teşhis edelim. [Hizmet almak için iletişime geçin](/iletisim/); çalışmanın kapsamı [teknik SEO sayfamızda](/teknik-seo/) anlatılıyor.
 
 ## Yerel ajans mı, başka şehirden ajans mı?
 

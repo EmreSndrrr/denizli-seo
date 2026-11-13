@@ -51,6 +51,8 @@ Gıda ürünleri için etiket, beyan ve iddia kuralları mevzuata bağlıdır; �
 
 Aynı ürünün 1 litre, 2 litre, 5 litre gibi seçenekleri çoğu zaman tek ürün sayfasında seçenek olarak sunulmalıdır. Google’ın e-ticaret URL rehberi, her varyantı için benzersiz URL olan ürünlerde standart ürün URL’sinin `rel="canonical"` ile belirtilmesini önerir; ayrıca oturum kimliği ve izleme kodu gibi parametrelerden ve aynı parametrenin iki kez kullanımından kaçınmayı söyler ([e-ticaret URL yapısı](https://developers.google.com/search/docs/specialty/ecommerce/designing-a-url-structure-for-ecommerce-sites?hl=tr)). Kopya sayfa sorunu için [canonical etiketi](/blog/canonical-etiketi-nedir-kopya-sayfa-sorunu/) yazısına bakın.
 
+> **Hizmet almak için iletişime geçin.** Sitenizin dizine eklenme, hız ve mobil durumunu birlikte tarayalım; bulguları öncelik sırasıyla yazılı verelim. [Teknik SEO hizmetimizi](/teknik-seo/) inceleyin ya da [bize yazın](/iletisim/).
+
 ## Görseller
 
 Gıda satışında görsel güven kurar:
@@ -84,6 +86,8 @@ Mevsimsel sayfaları her yıl silip yeniden açmayın; aynı adreste güncelleyi
 - **Yorumlar:** Gerçek ve izinli; uydurma yorum yok; bkz. [müşteri yorumları siteye nasıl eklenir?](/blog/musteri-yorumlari-siteye-nasil-eklenir/)
 - **Kargo ve iade bilgisi:** Açık koşullar
 - **İletişim:** Telefon, WhatsApp, e-posta
+
+> **Sizin için de yapalım mı?** Sitenizde teknik bir sorun şüpheniz varsa nedenini sırayla teşhis edelim. [Hizmet almak için iletişime geçin](/iletisim/); çalışmanın kapsamı [teknik SEO sayfamızda](/teknik-seo/) anlatılıyor.
 
 ## Yerel ve toptan görünürlük
 

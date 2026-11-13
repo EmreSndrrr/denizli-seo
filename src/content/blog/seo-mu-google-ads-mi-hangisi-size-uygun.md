@@ -39,6 +39,8 @@ SEO’nun etkisi bir anahtarla açılan bir şey değildir. Search Console’dak
 - **Zayıf site para yakar.** Hızlı açılmayan, güven vermeyen ya da telefonda bozuk bir sayfaya reklamla gelen ziyaretçi müşteriye dönüşmez.
 - **Takip ister.** Anahtar kelime, olumsuz kelime, bütçe ve metin sürekli yönetilmelidir.
 
+> **Hizmet almak için iletişime geçin.** Sitenizin dizine eklenme, hız ve mobil durumunu birlikte tarayalım; bulguları öncelik sırasıyla yazılı verelim. [Teknik SEO hizmetimizi](/teknik-seo/) inceleyin ya da [bize yazın](/iletisim/).
+
 ## Hangi durumda hangisi?
 
 - **Yeni açıldınız, bugün müşteri lazım:** öneri: Ads ile başlayıp aynı anda SEO temelini kurun; gerekçe: Reklam hızlı görünürlük, SEO uzun vadeli temel
@@ -78,6 +80,8 @@ Yerel aramalarda müşteri çoğu zaman harita sonuçlarına bakar. Burası ne k
 - **Müşteri başına maliyet:** reklam: Harcama ÷ müşteri; seo: Harcama ÷ müşteri
 
 SEO’nun maliyeti çoğu zaman tek bir aylık sayı gibi görünmez; kuruluma ve düzenli çalışmaya dağılır. Dürüst karşılaştırma için en az birkaç ay veri tutun. Fiyat tarafı için [SEO fiyatları](/blog/seo-fiyatlari/) ve geri dönüş hesabı için [SEO yatırımının geri dönüşü](/blog/seo-yatiriminin-geri-donusu-nasil-hesaplanir/) yazılarına bakın.
+
+> **Sizin için de yapalım mı?** Sitenizde teknik bir sorun şüpheniz varsa nedenini sırayla teşhis edelim. [Hizmet almak için iletişime geçin](/iletisim/); çalışmanın kapsamı [teknik SEO sayfamızda](/teknik-seo/) anlatılıyor.
 
 ## Sık yapılan hatalar
 

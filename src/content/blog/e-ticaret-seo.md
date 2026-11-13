@@ -57,6 +57,8 @@ Google’ın içerik rehberi, içeriğin kullanıcı odaklı olmasını ve birin
 
 Binlerce ürününüz varsa hepsini aynı anda yazmayın. En çok satan ve en çok aranan ürünlerden başlayın; kalanlar için en azından benzersiz bir başlık ve kısa bir açıklama ekleyin.
 
+> **Hizmet almak için iletişime geçin.** Müşterilerinizin sorduğu sorulardan bir içerik planı çıkaralım ve sayfalarınızı birlikte yazalım. [İçerik SEO hizmetimizi](/icerik-seo/) inceleyin ya da [bize yazın](/iletisim/).
+
 ## Adres (URL) yapısı nasıl olmalı?
 
 Google’ın e-ticaret URL rehberi, mağazalarda adres yapısı için şu ilkeleri verir ([e-ticaret URL yapısı](https://developers.google.com/search/docs/specialty/ecommerce/designing-a-url-structure-for-ecommerce-sites?hl=tr)):
@@ -100,6 +102,8 @@ Bu işi çoğu mağaza yazılımı otomatik yapar. Siz yalnızca yazılımın do
 - **Rehber:** “Peştemal nasıl yıkanır?”, “Hamam peştemalı mı plaj peştemalı mı?” gibi sorulara cevap veren iki üç yazı
 
 Bu yapı sonuç vaat etmez; müşterinin sorduğu sorulara cevap veren sayfaların varlığını sağlar.
+
+> **Sizin için de yapalım mı?** Sayfalarınızın ve yazılarınızın neden yeterince işe yaramadığına birlikte bakalım. [Hizmet almak için iletişime geçin](/iletisim/); yöntemimiz [içerik SEO sayfamızda](/icerik-seo/) yazılı.
 
 ## Yeni başlayanlar için kontrol listesi
 

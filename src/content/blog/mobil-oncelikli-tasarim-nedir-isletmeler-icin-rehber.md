@@ -57,6 +57,8 @@ Mobilde hızı artıran başlıca işler:
 - **Düzen kaymasını önleyin.** Görsellerin ve reklamların yer ayırması gerekir.
 - **Yazı tipini sınırlayın.** Çok sayıda yazı tipi dosyası yükü artırır.
 
+> **Hizmet almak için iletişime geçin.** SEO’yu baştan düşünerek tasarlanmış, hızlı ve telefonda rahat bir site kuralım. [Web tasarım hizmetimizi](/web-tasarim/) inceleyin ya da [bize yazın](/iletisim/).
+
 ## Dokunma alanları ve okunabilirlik
 
 Telefonda tasarım hatalarının çoğu “yanlış yere basma” ve “okunamama”dır:
@@ -103,6 +105,8 @@ Yerel görünürlük için [Google haritalarda üst sıralara çıkmak](/blog/go
 - **Hız ölçüm aracı:** LCP, INP, CLS ve iyileştirme önerileri
 
 Eski “mobil uyumluluk testi” araçları ve raporları zamanla değişebilir; bu yüzden güncel araçları Google’ın dokümanlarından kontrol edin.
+
+> **Sizin için de yapalım mı?** Mevcut sitenizi yenilemek ya da sıfırdan kurmak istiyorsanız ihtiyacınızı birlikte netleştirelim. [Hizmet almak için iletişime geçin](/iletisim/); ayrıntı [web tasarım sayfamızda](/web-tasarim/).
 
 ## Sık yapılan hatalar
 

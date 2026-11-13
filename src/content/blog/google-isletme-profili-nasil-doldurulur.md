@@ -79,6 +79,8 @@ Pratik bir yöntem: Google Haritalar’da ana hizmetinizi Denizli ile birlikte a
 
 Ek kategorileri yalnızca gerçekten yaptığınız işler için ekleyin. Örneğin hem satış hem tamir yapan bir telefoncu, satışı ana kategori, tamiri ek kategori olarak seçebilir. Yapmadığınız bir iş için kategori eklemek, sizi ilgisiz aramalarda gösterir ve aradığını bulamayan müşteriyi hayal kırıklığına uğratır.
 
+> **Hizmet almak için iletişime geçin.** Google İşletme Profili’nizi ve harita görünürlüğünüzü birlikte inceleyelim; ne eksik, neyin düzeltileceğini yazılı söyleyelim. [Yerel SEO hizmetimizi](/yerel-seo/) inceleyin ya da [bize yazın](/iletisim/).
+
 ## İşletme adı, adres ve telefon nasıl yazılmalı?
 
 İngilizce kaynaklarda **NAP** (name, address, phone) diye geçen üçlü, yani işletme adı, adres ve telefon, Google’ın sizi tanımasının temelidir.
@@ -190,6 +192,8 @@ Olumsuz bir yoruma yanıt verirken:
 Örnek: “Yorumunuz için teşekkür ederiz. Teslimatın gecikmesi için özür dileriz. Sizi arayıp konuyu çözmek isteriz; bize profilimizdeki numaradan da ulaşabilirsiniz.”
 
 Hakaret, reklam ya da müşteriniz olmayan birinin yazdığı bir yorum görürseniz yorumu Google’a bildirin. Yanıtınızda tartışmaya girmeyin.
+
+> **Sizin için de yapalım mı?** Haritada daha görünür olmak istiyorsanız profilinize ve yerel kayıtlarınıza bakıp yapılacakları kalem kalem çıkaralım. [Hizmet almak için iletişime geçin](/iletisim/); ayrıntı için [yerel SEO sayfamıza](/yerel-seo/) göz atabilirsiniz.
 
 ## Gönderiler
 

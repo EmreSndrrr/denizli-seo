@@ -81,6 +81,8 @@ Her ek alan, formu doldurma oranını düşürür. Başlangıç için şu alanla
 
 Form SEO’yu doğrudan yükseltmez; ama Google’ın yardımcı içerik rehberi, kullanıcının ihtiyacını karşılayan, güvenilir bir deneyimi önerir ([yardımcı içerik rehberi](https://developers.google.com/search/docs/fundamentals/creating-helpful-content?hl=tr)). Sayfada açık adres, telefon ve ulaşılabilir bir form, işletmenin gerçek ve ulaşılabilir olduğunu gösterir. Teknik olarak formun bulunduğu sayfanın hızlı açılması ve mobil uyumlu olması önemlidir; bkz. [mobil uyumluluk nasıl test edilir?](/blog/mobil-uyumluluk-nasil-test-edilir/)
 
+> **Hizmet almak için iletişime geçin.** SEO’yu baştan düşünerek tasarlanmış, hızlı ve telefonda rahat bir site kuralım. [Web tasarım hizmetimizi](/web-tasarim/) inceleyin ya da [bize yazın](/iletisim/).
+
 ## Mobilde yerleşim
 
 Google, dizine ekleme ve sıralama için sitenizin mobil sürümünü esas alır ([mobil öncelikli dizine ekleme](https://developers.google.com/search/docs/crawling-indexing/mobile/mobile-sites-mobile-first-indexing?hl=tr)). Ziyaretçilerin önemli bir kısmı da telefondan gelir; bu yüzden:
@@ -112,6 +114,8 @@ Teknik kurulum yarım iştir. Müşteri bir mesaj bıraktığında ilk cevap hı
 3. **Mesai dışı otomatik mesaj kullanın.** “Mesajınızı aldık, yarın 09:00’dan sonra döneceğiz.”
 4. **Bir kayıt listesi tutun.** Kim yazdı, ne istedi, ne oldu.
 5. **Spam ve alakasız mesajları temizleyin.** Önemli talepler kaybolmasın.
+
+> **Sizin için de yapalım mı?** Mevcut sitenizi yenilemek ya da sıfırdan kurmak istiyorsanız ihtiyacınızı birlikte netleştirelim. [Hizmet almak için iletişime geçin](/iletisim/); ayrıntı [web tasarım sayfamızda](/web-tasarim/).
 
 ## Sık yapılan hatalar
 

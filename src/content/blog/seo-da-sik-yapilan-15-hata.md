@@ -90,6 +90,8 @@ Search Console kurulu değilse, telefon ve WhatsApp talepleri kaydedilmiyorsa ne
 
 SEO zaman alır; yeni bir sayfanın dizine eklenmesi bile bir haftayı bulabilir ([dizine ekleme raporu](https://support.google.com/webmasters/answer/7440203?hl=tr)). Üç hafta içinde sonuç beklemek, doğru çalışmayı yarıda kestirir. Sıralama garantisi verenlere de dikkat edin; Google bunun mümkün olmadığını söyler.
 
+> **Hizmet almak için iletişime geçin.** Sitenizin dizine eklenme, hız ve mobil durumunu birlikte tarayalım; bulguları öncelik sırasıyla yazılı verelim. [Teknik SEO hizmetimizi](/teknik-seo/) inceleyin ya da [bize yazın](/iletisim/).
+
 ## Önceliklendirme: hangi hatadan başlamalı?
 
 Her hata aynı maliyette değildir. Basit bir öncelik sırası:
@@ -113,6 +115,8 @@ Her hata aynı maliyette değildir. Basit bir öncelik sırası:
 8. **Yorumlara bakın.** Cevapsız yorum kaldı mı?
 9. **Ölçümü kontrol edin.** Talepleri kaydediyor musunuz?
 10. **Bulguları öncelik sırasıyla yazın ve düzeltin.**
+
+> **Sizin için de yapalım mı?** Sitenizde teknik bir sorun şüpheniz varsa nedenini sırayla teşhis edelim. [Hizmet almak için iletişime geçin](/iletisim/); çalışmanın kapsamı [teknik SEO sayfamızda](/teknik-seo/) anlatılıyor.
 
 ## Denizli’den bir örnek
 

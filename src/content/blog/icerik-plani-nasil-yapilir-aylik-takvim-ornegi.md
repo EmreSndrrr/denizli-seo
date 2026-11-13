@@ -53,6 +53,8 @@ Her konuya üç soru sorun ve puanlayın:
 
 Üçüne de “evet” diyenler önceliklidir. Hizmet sayfanız zayıfsa önce onu güçlendirin; blog yazıları hizmet sayfasını desteklemek içindir.
 
+> **Hizmet almak için iletişime geçin.** Müşterilerinizin sorduğu sorulardan bir içerik planı çıkaralım ve sayfalarınızı birlikte yazalım. [İçerik SEO hizmetimizi](/icerik-seo/) inceleyin ya da [bize yazın](/iletisim/).
+
 ## Adım 4: Ritmi belirleyin
 
 Ritim, sürdürebileceğiniz kadar olmalı:
@@ -104,6 +106,8 @@ Her ay şunlara bakın:
 4. Düşük performanslı yazılar: güncelleyin, birleştirin ya da kaldırın.
 
 Yeni yazı için üç ay bekleyin; Google’ın dizine ekleme ve tarama süreci hemen sonuç vermez. Süre için [SEO ne kadar sürede sonuç verir?](/blog/seo-ne-kadar-surede-sonuc-verir/) yazımıza bakın.
+
+> **Sizin için de yapalım mı?** Sayfalarınızın ve yazılarınızın neden yeterince işe yaramadığına birlikte bakalım. [Hizmet almak için iletişime geçin](/iletisim/); yöntemimiz [içerik SEO sayfamızda](/icerik-seo/) yazılı.
 
 ## İçerik planında sık yapılan hatalar
 

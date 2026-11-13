@@ -51,6 +51,8 @@ Google, sayfa başlığının açıklayıcı ve kısa olmasını, belirsiz ya da
 
 Meta açıklamayı da her ilçe sayfası için ayrı yazın; aynı cümlenin yalnızca ilçe adını değiştirmeyin.
 
+> **Hizmet almak için iletişime geçin.** Google İşletme Profili’nizi ve harita görünürlüğünüzü birlikte inceleyelim; ne eksik, neyin düzeltileceğini yazılı söyleyelim. [Yerel SEO hizmetimizi](/yerel-seo/) inceleyin ya da [bize yazın](/iletisim/).
+
 ## Merkezefendi örneği: sayfa iskeleti
 
 Örnek (hayalî bir işletme için): Merkezefendi’de ofisi olan ve Denizli’nin merkez ilçelerine giden bir klima servisi. Aşağıdaki iskelet, bir ilçe sayfasının nasıl kurulacağını gösterir. Köşeli parantezli kısımları kendi gerçek bilginizle doldurun:
@@ -98,6 +100,8 @@ On dokuz ilçenin hepsine sayfa açmak zorunda değilsiniz. İş getiren üç be
 ## İlçe sayfalarını profille nasıl bağlarsınız?
 
 İşletme Profili’nde hizmet bölgesi olarak seçtiğiniz ilçeler, sitenizdeki sayfalarla uyumlu olmalı. Profildeki hizmet bölgesi sayısı en fazla 20’dir ve gerçekte gittiğiniz yerleri içermelidir ([hizmet bölgelerini yönetme](https://support.google.com/business/answer/9157481?hl=tr)). Hizmet bölgesi kurulumunu [hizmet bölgesi nasıl belirlenir?](/blog/hizmet-bolgesi-nasil-belirlenir/) yazımızda anlattık.
+
+> **Sizin için de yapalım mı?** Haritada daha görünür olmak istiyorsanız profilinize ve yerel kayıtlarınıza bakıp yapılacakları kalem kalem çıkaralım. [Hizmet almak için iletişime geçin](/iletisim/); ayrıntı için [yerel SEO sayfamıza](/yerel-seo/) göz atabilirsiniz.
 
 ## İlçe sayfası yazarken sık yapılan hatalar
 

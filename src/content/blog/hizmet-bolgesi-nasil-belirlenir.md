@@ -61,6 +61,8 @@ Denizli için pratik bir yöntem:
 - **Tüm il (ilçeye göre fiyat farkı var):** Hizmet verdiğiniz ilçeler, en fazla 20 bölge sınırında
 - **Sadece belirli bir mahalle:** O mahalle ya da posta kodu
 
+> **Hizmet almak için iletişime geçin.** Google İşletme Profili’nizi ve harita görünürlüğünüzü birlikte inceleyelim; ne eksik, neyin düzeltileceğini yazılı söyleyelim. [Yerel SEO hizmetimizi](/yerel-seo/) inceleyin ya da [bize yazın](/iletisim/).
+
 ## Adres gizleme ve adres gösterme
 
 Müşteri sizin adresinize gelmiyorsa adresi gizleyip yalnızca hizmet bölgesini gösterin. Müşteri adresinize geliyorsa adres görünür olmalı. Hem dükkânınız hem müşteriye gittiğiniz hizmetler varsa karma işletmesiniz; adres ve hizmet bölgesini birlikte girebilirsiniz. Google’ın kuralına göre, kendi adresinizde müşteri kabul ediyor ve hizmet bölgesi belirtmek istiyorsanız o konumda çalışan bulundurmanız ve belirttiğiniz saatlerde müşteri kabul edebilmeniz gerekir.
@@ -100,6 +102,8 @@ Hizmet bölgesi kurulumu küçük bir ayardır ama yanlışı pahalıya mal olur
 - bölge ve profil bilgilerinizin sitenizle tutarlı olmasını sağlarız.
 
 Profilinize bakıp hizmet bölgenizi yazılı olarak değerlendirmemizi isterseniz [bize yazın](/iletisim/).
+
+> **Sizin için de yapalım mı?** Haritada daha görünür olmak istiyorsanız profilinize ve yerel kayıtlarınıza bakıp yapılacakları kalem kalem çıkaralım. [Hizmet almak için iletişime geçin](/iletisim/); ayrıntı için [yerel SEO sayfamıza](/yerel-seo/) göz atabilirsiniz.
 
 ## Hizmet bölgesini değiştirdikten sonra kontrol listesi
 

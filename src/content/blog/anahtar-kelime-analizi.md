@@ -71,6 +71,8 @@ Elinizde otuz kelime olabilir; hepsini hedeflemeniz gerekmez. Her kelimeye şu d
 
 Dört sorudan geçen kelimeler, sayfa planınızın temelidir.
 
+> **Hizmet almak için iletişime geçin.** Müşterilerinizin sorduğu sorulardan bir içerik planı çıkaralım ve sayfalarınızı birlikte yazalım. [İçerik SEO hizmetimizi](/icerik-seo/) inceleyin ya da [bize yazın](/iletisim/).
+
 ## Kelimeleri sayfalara nasıl dağıtırsınız?
 
 Basit bir tablo yeterlidir:
@@ -105,6 +107,8 @@ Tablo, tek bir ana sayfa yerine dört dolu sayfaya giden bir plan çıkarır.
 - **Kelimeyi metinde zorla tekrarlamak.** Aynı kelimeyi doğal olmayan sıklıkta tekrarlamak Google’ın anahtar kelime doldurma örneklerindendir.
 
 Sitenizin mevcut durumunu görmek için [ücretsiz SEO analizi](/blog/ucretsiz-seo-analizi-nasil-yapilir/) yazımızdaki on kontrolü de kullanabilirsiniz.
+
+> **Sizin için de yapalım mı?** Sayfalarınızın ve yazılarınızın neden yeterince işe yaramadığına birlikte bakalım. [Hizmet almak için iletişime geçin](/iletisim/); yöntemimiz [içerik SEO sayfamızda](/icerik-seo/) yazılı.
 
 ## Soru biçimindeki aramalar neden değerli?
 

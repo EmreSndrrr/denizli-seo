@@ -49,6 +49,8 @@ Google, bir sitenin hangi araçla yapıldığına göre değil, kullanıcı dene
 - **Çok eklentiyle siteyi yavaşlatmak:** Gerekli olanla sınırlayın
 - **Temayı sonradan değiştirirken yönlendirme yapmamak:** URL’leri koruyun
 
+> **Hizmet almak için iletişime geçin.** SEO’yu baştan düşünerek tasarlanmış, hızlı ve telefonda rahat bir site kuralım. [Web tasarım hizmetimizi](/web-tasarim/) inceleyin ya da [bize yazın](/iletisim/).
+
 ## Denizli’den bir örnek
 
 Örnek (hayalî bir işletme için): Pamukkale’de küçük bir butik otel, sınırlı bütçeyle hazır bir tema seçiyor; ama önce demo sayfasının mobil görünümünü ve hızını test ediyor, gereksiz animasyon ve eklentileri kapatıyor, başlık yapısını düzeltiyor. Büyüyen bir üretici firma ise ürün kataloğu ve çoklu dil gerektiği için özel tasarım tercih ediyor.
@@ -75,6 +77,8 @@ Bu soruların çoğuna “hayır” cevabı alıyorsanız, tema güzel görünse
 ## Hız ve kullanıcı deneyimi açısından fark nedir?
 
 Hazır tema da özel tasarım da hızlı olabilir; fark, kontrolün kimde olduğudur. Hazır temada tema sağlayıcısının koyduğu betikleri ve stil dosyalarını çoğu zaman kaldıramazsınız. Özel tasarımda ise yalnızca gerekeni yüklersiniz. Google, Core Web Vitals’ı sayfa deneyiminin ölçülebilir parçası olarak tarif eder: LCP ilk 2,5 saniye, INP 200 milisaniyenin altı ve CLS 0,1’in altı iyi kabul edilir ([Core Web Vitals](https://developers.google.com/search/docs/appearance/core-web-vitals?hl=tr)). Google ayrıca tek bir “sayfa deneyimi sinyali” olmadığını, sıralama sistemlerinin genel olarak iyi sayfa deneyimi sunan içeriği ödüllendirmeyi amaçladığını söyler ([sayfa deneyimi](https://developers.google.com/search/docs/appearance/page-experience?hl=tr)). Yani hız bir sıralama kozu olarak değil, müşterinin sayfada kalma kararını etkileyen bir unsur olarak ele alınmalıdır.
+
+> **Sizin için de yapalım mı?** Mevcut sitenizi yenilemek ya da sıfırdan kurmak istiyorsanız ihtiyacınızı birlikte netleştirelim. [Hizmet almak için iletişime geçin](/iletisim/); ayrıntı [web tasarım sayfamızda](/web-tasarim/).
 
 ## Hazır temayı SEO için nasıl iyileştirirsiniz?
 

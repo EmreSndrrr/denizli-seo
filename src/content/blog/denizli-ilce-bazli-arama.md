@@ -53,6 +53,8 @@ Bu cümle müşteriye neyi nerede yaptığınızı söyler. İl genelinde 19 il�
 
 İşletme adına ilçe eklemeyin. Google’ın kuralları, işletme adına konum bilgisi eklemeye izin vermez; ada gereksiz bilgi eklemenin profilin askıya alınmasına yol açabileceğini belirtir ([işletmenizin Google’da gösterilmesiyle ilgili kurallar](https://support.google.com/business/answer/3038177?hl=tr)).
 
+> **Hizmet almak için iletişime geçin.** Google İşletme Profili’nizi ve harita görünürlüğünüzü birlikte inceleyelim; ne eksik, neyin düzeltileceğini yazılı söyleyelim. [Yerel SEO hizmetimizi](/yerel-seo/) inceleyin ya da [bize yazın](/iletisim/).
+
 ## İşletme Profili’nde hizmet bölgesi nasıl belirlenir?
 
 Müşteriye kendi adresinde hizmet veriyorsanız, profilde gittiğiniz şehirleri ya da bölgeleri hizmet bölgesi olarak seçersiniz. Google’ın koyduğu sınırlar şunlardır ([hizmet bölgelerinizi yönetme](https://support.google.com/business/answer/9157481?hl=tr)):
@@ -115,6 +117,8 @@ Google’ın faydalı içerik rehberindeki uyarı sorularından biri de şudur: 
 - **Gidilmeyen ilçeler de listede:** Yalnızca hizmet verilen ilçeler
 - **Müşterinin sorusunu yanıtlamıyor:** “Gelir misiniz, ne zaman?” sorusunu yanıtlıyor
 - **Amaç arama motoru:** Amaç o ilçedeki müşteri
+
+> **Sizin için de yapalım mı?** Haritada daha görünür olmak istiyorsanız profilinize ve yerel kayıtlarınıza bakıp yapılacakları kalem kalem çıkaralım. [Hizmet almak için iletişime geçin](/iletisim/); ayrıntı için [yerel SEO sayfamıza](/yerel-seo/) göz atabilirsiniz.
 
 ## Birden fazla şubeniz varsa ne yapmalısınız?
 

@@ -62,6 +62,8 @@ Google, fotoğrafların odaklı, aydınlık ve gerçeği temsil eden nitelikte o
 
 Stok yemek fotoğrafı kullanmayın; müşteri tabağında gördüğünü beklemeli. Ayrıntılar için [profil fotoğrafları](/blog/google-isletme-profili-fotograflari-neler-eklenmeli/) yazımıza bakın.
 
+> **Hizmet almak için iletişime geçin.** Google İşletme Profili’nizi ve harita görünürlüğünüzü birlikte inceleyelim; ne eksik, neyin düzeltileceğini yazılı söyleyelim. [Yerel SEO hizmetimizi](/yerel-seo/) inceleyin ya da [bize yazın](/iletisim/).
+
 ## 4. Menü, hizmetler ve bağlantılar
 
 Profilde hizmetler, ürünler ya da menü bölümü varsa doldurun. Rezervasyon ya da sipariş sayfanız varsa ilgili bağlantı alanına ekleyin. Menüyü sitenizde de gerçek metin olarak yayımlayın; yalnızca fotoğraf olarak yüklenen menü hem Google’ın hem müşterinin işini zorlaştırır. Fiyat yazıyorsanız güncel tutun; eski fiyat, şikâyet kaynağıdır.
@@ -88,6 +90,8 @@ Duyuru özelliğini günün yemeği, yeni menü, bayram saatleri ve etkinlik iç
 6. Paket servis bölgesi doğru mu?
 7. Profildeki telefon ve adres sitedekiyle aynı mı?
 8. Performans bölümünde yol tarifi ve arama sayısı nasıl?
+
+> **Sizin için de yapalım mı?** Haritada daha görünür olmak istiyorsanız profilinize ve yerel kayıtlarınıza bakıp yapılacakları kalem kalem çıkaralım. [Hizmet almak için iletişime geçin](/iletisim/); ayrıntı için [yerel SEO sayfamıza](/yerel-seo/) göz atabilirsiniz.
 
 ## Sık yapılan hatalar
 

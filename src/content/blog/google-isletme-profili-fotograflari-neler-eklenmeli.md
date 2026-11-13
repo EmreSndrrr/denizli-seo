@@ -53,6 +53,8 @@ Telefonunuzla bir günde çekebileceğiniz temel set:
 
 Sayıları kesin hedef değil, öneri olarak düşünün. Önemli olan, her fotoğrafın bir şey anlatması.
 
+> **Hizmet almak için iletişime geçin.** Google İşletme Profili’nizi ve harita görünürlüğünüzü birlikte inceleyelim; ne eksik, neyin düzeltileceğini yazılı söyleyelim. [Yerel SEO hizmetimizi](/yerel-seo/) inceleyin ya da [bize yazın](/iletisim/).
+
 ## Sektöre göre fotoğraf önerileri
 
 - **Kuyumcu:** Vitrin, tabela, tezgâh, gerçek ürünler, atölye
@@ -93,6 +95,8 @@ Yüklenen fotoğraf incelenir; durum “beklemede” olabilir. Yinelenen fotoğr
 ## Fotoğrafları ne sıklıkla yenilemelisiniz?
 
 Her ay birkaç yeni fotoğraf eklemek profilin canlı olduğunu gösterir. Büyük bir set yüklemek yerine düzenli, küçük eklemeler yapın: yeni bir ürün, yeni bir iş, mevsim değişikliği, yenilenen bir alan. Mekânınız değiştiyse eski fotoğrafları kaldırın; yıllar önceki dükkân fotoğrafı yanıltıcıdır.
+
+> **Sizin için de yapalım mı?** Haritada daha görünür olmak istiyorsanız profilinize ve yerel kayıtlarınıza bakıp yapılacakları kalem kalem çıkaralım. [Hizmet almak için iletişime geçin](/iletisim/); ayrıntı için [yerel SEO sayfamıza](/yerel-seo/) göz atabilirsiniz.
 
 ## Fotoğrafları sitenizle tutarlı kullanın
 

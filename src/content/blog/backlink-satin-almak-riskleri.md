@@ -58,6 +58,8 @@ Ana sitemizde [hacklink nedir ve neden zarar verir](https://www.ventiajans.com/b
 - **Esas amacı bağlantı ve sıralama sinyallerini etkilemek olan düşük değerli içerik oluşturmak** (bağlantı spam’i).
 - **Süresi dolmuş alan adının kötüye kullanılması:** süresi dolmuş bir alan adını satın alıp, kullanıcıya çok az değer sunan içerikle sıralamayı etkilemek için yeniden kullanmak.
 
+> **Hizmet almak için iletişime geçin.** Satın alınmış bağlantı olmadan, gerçek kaynaklarla bağlantı ve otorite çalışması planlayalım. [Backlink hizmetimizi](/backlink-hizmeti/) inceleyin ya da [bize yazın](/iletisim/).
+
 ## Satın alınan backlink siteye ne zarar verir?
 
 Satın alınan bağlantı üç yoldan zarar verebilir: sıralama kaybı, manuel işlem ve boşa giden bütçe.
@@ -133,6 +135,8 @@ Raporu okurken iki sınırı bilin: Google’a göre rapor bütün bağlantılar
 **Bizim gözlemimiz:** Satın alınmış bağlantılar çoğu zaman şu ortak özellikleri taşır. Sitenin konusu sizin işinizle ilgisizdir, yazılarda yazar adı yoktur, her yazıda başka bir işletmeye anahtar kelimeyle bağlantı verilmiştir ve bağlantı metni sizin hedeflediğiniz aramanın birebir aynısıdır. Bu işaretler tek başına kanıt değildir; yalnızca incelemeye nereden başlayacağınızı gösterir.
 
 Search Console’u henüz kurmadıysanız [Search Console ilk kontrol](/blog/search-console-ilk-kontrol/) yazımız adım adım anlatıyor.
+
+> **Sizin için de yapalım mı?** Mevcut bağlantı durumunuza birlikte bakıp güvenli bir yol çizelim. [Hizmet almak için iletişime geçin](/iletisim/); hangi yöntemleri kullanmadığımız [backlink sayfamızda](/backlink-hizmeti/) açıkça yazıyor.
 
 ## Manuel işlem aldıysanız ne yapmalısınız?
 

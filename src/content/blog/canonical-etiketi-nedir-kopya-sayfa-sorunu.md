@@ -61,6 +61,8 @@ Google’ın en iyi uygulamalarından öne çıkanlar:
 5. **URL kaldırma aracını standartlaştırma için kullanmayın.** Bu işlem, URL’nin tüm sürümlerini Arama’dan gizler.
 6. **Standart sayfanın kendisi erişilebilir olmalı.** 404 ya da yönlendirilen bir adrese canonical göstermeyin.
 
+> **Hizmet almak için iletişime geçin.** Sitenizin dizine eklenme, hız ve mobil durumunu birlikte tarayalım; bulguları öncelik sırasıyla yazılı verelim. [Teknik SEO hizmetimizi](/teknik-seo/) inceleyin ya da [bize yazın](/iletisim/).
+
 ## Her sayfa kendini mi göstermeli?
 
 Pek çok site, her sayfada kendi adresini canonical olarak gösterir (kendine referans). Bu, parametre eklenmiş sürümlerin asıl adrese işaret etmesini sağlayarak karışıklığı önleyebilir. Önemli olan, etiketin doğru ve tutarlı olmasıdır; çoğu SEO eklentisi bunu otomatik yapar. Hizmet sayfası, ana sayfa ve yazılar için canonical’ın kendi tam adresiniz olduğunu kontrol edin.
@@ -80,6 +82,8 @@ Yalnızca ilçe adı değişen benzer sayfaları canonical ile “tek sayfaya”
 3. **Sayfa dizine ekleme raporunu okuyun.** “Kopya” ya da “standart sayfa” durumlarındaki sayfalar kopya sorununa işaret edebilir.
 4. **Adres varyantlarını deneyin.** `http`, `www`, eğik çizgi, parametre eklenmiş sürümlerini açın; hepsi tek adrese yönleniyor ya da canonical gösteriyor mu?
 5. **Site haritasına bakın.** Yalnızca standart ve erişilebilir adresler olmalı.
+
+> **Sizin için de yapalım mı?** Sitenizde teknik bir sorun şüpheniz varsa nedenini sırayla teşhis edelim. [Hizmet almak için iletişime geçin](/iletisim/); çalışmanın kapsamı [teknik SEO sayfamızda](/teknik-seo/) anlatılıyor.
 
 ## Denizli’den bir örnek
 

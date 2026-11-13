@@ -45,6 +45,8 @@ Bunların hiçbiri öne çıkan snippet’i garanti etmez; ama hepsi okuyucu iç
 
 Öne çıkan snippet’ler genellikle kısa bir cevapla karşılanabilecek aramalarda görülür: “nedir”, “nasıl yapılır”, “ne kadar sürer”, “hangisi daha iyi” gibi. Yerel hizmet aramalarında (“Merkezefendi klima servisi”) çoğunlukla harita ve işletme sonuçları öne çıkar. Bu yüzden öne çıkan snippet hedefi, bilgi niyetli blog ve rehber yazıları için anlamlıdır; hizmet sayfası için değil.
 
+> **Hizmet almak için iletişime geçin.** Müşterilerinizin sorduğu sorulardan bir içerik planı çıkaralım ve sayfalarınızı birlikte yazalım. [İçerik SEO hizmetimizi](/icerik-seo/) inceleyin ya da [bize yazın](/iletisim/).
+
 ## Yazı örneği
 
 Örnek (hayalî bir işletme için): “Klima bakımı yılda kaç kez yapılmalı?” sorusu.
@@ -78,6 +80,8 @@ Search Console’da sayfanın hangi sorgularda gösterildiğini Performans rapor
 5. **Tabloyu ve listeyi şişirmek.** Sadece gerektiği yerde.
 6. **Hizmet sayfasından snippet beklemek.**
 7. **Sonuç garantisi vermek.**
+
+> **Sizin için de yapalım mı?** Sayfalarınızın ve yazılarınızın neden yeterince işe yaramadığına birlikte bakalım. [Hizmet almak için iletişime geçin](/iletisim/); yöntemimiz [içerik SEO sayfamızda](/icerik-seo/) yazılı.
 
 ## Denizli’den bir örnek
 

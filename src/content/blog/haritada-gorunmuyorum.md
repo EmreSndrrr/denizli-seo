@@ -40,6 +40,8 @@ Google, işletmenin gerçekten faaliyet göstermediği sanal ofis konumlarını 
 
 Ana kategori, hangi aramalarda göründüğünüzü büyük ölçüde belirler. “Mağaza” gibi genel bir kategori sizi “kuyumcu” ya da “klima servisi” aramalarında göstermez. Google, temel iş sahanızı tanımlamak için mümkün olduğunca az ve spesifik kategori seçmenizi söyler ([kurallar](https://support.google.com/business/answer/3038177?hl=tr)). **Çözüm:** Ana kategoriyi işinizi en iyi anlatan seçenekle değiştirin.
 
+> **Hizmet almak için iletişime geçin.** Google İşletme Profili’nizi ve harita görünürlüğünüzü birlikte inceleyelim; ne eksik, neyin düzeltileceğini yazılı söyleyelim. [Yerel SEO hizmetimizi](/yerel-seo/) inceleyin ya da [bize yazın](/iletisim/).
+
 ## 6. Arama konumu işletmeden uzak
 
 Google’ın yerel sıralama etkenlerinden biri mesafedir. Çivril’de yapılan bir aramada Merkezefendi’deki bir işletme geride kalır. **Çözüm:** Aramayı müşterinizin gerçekte bulunacağı konumdan deneyin. Hizmet verdiğiniz ilçeleri hizmet bölgesi olarak girin; ama gitmediğiniz yerleri eklemeyin.
@@ -79,6 +81,8 @@ Doğrulama tamamlandıktan sonra bile bilgilerin Google’da yansıması zaman a
 - **Test 3:** Pansiyonun yakınında arayınca ilk sayfalarda, uzak yerden aranınca yok.
 - **Teşhis:** Kategori “Misafirhane” seçilmiş, fotoğraf ve hizmet bilgisi az, yorum yok.
 - **Çözüm:** Kategori güncelleniyor, odalar ve olanaklar giriliyor, gerçek fotoğraflar ekleniyor, misafirlere yorum bağlantısı gönderilmeye başlanıyor.
+
+> **Sizin için de yapalım mı?** Haritada daha görünür olmak istiyorsanız profilinize ve yerel kayıtlarınıza bakıp yapılacakları kalem kalem çıkaralım. [Hizmet almak için iletişime geçin](/iletisim/); ayrıntı için [yerel SEO sayfamıza](/yerel-seo/) göz atabilirsiniz.
 
 ## Sıralama yerine görünürlüğe bakın
 

@@ -50,6 +50,8 @@ Bunlar örnek planlardır, kural değildir.
 - **Çok sayıda ilçe sayfası:** Her biri için özgün bilgi varsa
 - **Menüde her şeyi göstermek:** Ana sayfaları seçin
 
+> **Hizmet almak için iletişime geçin.** SEO’yu baştan düşünerek tasarlanmış, hızlı ve telefonda rahat bir site kuralım. [Web tasarım hizmetimizi](/web-tasarim/) inceleyin ya da [bize yazın](/iletisim/).
+
 ## Denizli’den bir örnek
 
 Örnek (hayalî bir işletme için): Merkezefendi’de üç hizmet veren bir klima servisi, sitesini şu şekilde planlıyor: ana sayfa, bakım, montaj, tamir, hakkımızda, iletişim, gizlilik bilgisi (7 sayfa). İlk üç ayda müşteri sorularına dayalı beş blog yazısı ekleniyor; ilçe sayfaları, her ilçe için gerçek bilgi hazır olunca açılacak.
@@ -65,6 +67,8 @@ Küçük bir esnaf için ana sayfa, hizmet sayfası, hakkımızda ve iletişim y
 ## Blog ve ek sayfalar ne zaman eklenir?
 
 Blog, müşteri sorularını cevaplamak için güçlü bir araçtır; ama ilk gün gerekmez. Temel sayfalar yayına çıktıktan sonra ilk beş soruyu beş yazıya dönüştürün. İlçe sayfaları, her biri için gerçek ve özgün bilgi yazabildiğinizde anlamlıdır. Referans ve vaka sayfaları, izinli gerçek işleriniz oluştuğunda eklenir. Boş ya da “yakında” sayfaları yayımlamayın. Google’ın SEO başlangıç kılavuzu, kullanıcıya yararlı ve düzenli içeriği önerir; sayfa sayısını hedef olarak vermez ([SEO başlangıç kılavuzu](https://developers.google.com/search/docs/fundamentals/seo-starter-guide?hl=tr)).
+
+> **Sizin için de yapalım mı?** Mevcut sitenizi yenilemek ya da sıfırdan kurmak istiyorsanız ihtiyacınızı birlikte netleştirelim. [Hizmet almak için iletişime geçin](/iletisim/); ayrıntı [web tasarım sayfamızda](/web-tasarim/).
 
 ## Sayfa sayısını artırmak için çoğaltmak neden zararlıdır?
 

@@ -57,6 +57,8 @@ B2B alıcılar, karar vermeden önce firmayı araştırır. Şu bilgilerin sited
 
 Uydurma yorum, sahte ödül ya da doğrulanamayan rakamlar güveni artırmaz, zedeler. Yazılı olmayan bir iddiayı siteye koymayın.
 
+> **Hizmet almak için iletişime geçin.** Müşterilerinizin sorduğu sorulardan bir içerik planı çıkaralım ve sayfalarınızı birlikte yazalım. [İçerik SEO hizmetimizi](/icerik-seo/) inceleyin ya da [bize yazın](/iletisim/).
+
 ## İhracat yapıyorsanız çok dilli site nasıl kurulur?
 
 Yurt dışı alıcıya ulaşmak istiyorsanız her dil için ayrı sayfa ve bu sayfaların birbirini tanıyacağı bir yapı gerekir. Google, bir sayfanın tüm dil ve bölge varyantlarını bildirmek için sayfa üst bilgisine `<link rel="alternate" hreflang="...">` öğeleri eklemeyi önerir; bunun için `x-default` değeri de tanımlanabilir ([sayfalarınızın yerelleştirilmiş sürümleri](https://developers.google.com/search/docs/specialty/international/localized-versions?hl=tr)).
@@ -104,6 +106,8 @@ Satış ekibi, müşterilerin gerçek sorularını en iyi bilen taraftır. Aylı
 - Teklif sürecinde hangi bilgi eksik kalıyor?
 
 Cevaplar, bir sonraki sayfa ve rehber yazısı planının temelidir. SEO’dan gelen talepleri satış ekibinin hangi kanaldan (telefon, form, WhatsApp) aldığını da kaydedin; yoksa SEO’nun değeri ölçülemez.
+
+> **Sizin için de yapalım mı?** Sayfalarınızın ve yazılarınızın neden yeterince işe yaramadığına birlikte bakalım. [Hizmet almak için iletişime geçin](/iletisim/); yöntemimiz [içerik SEO sayfamızda](/icerik-seo/) yazılı.
 
 ## Yönetime ne raporlanır?
 

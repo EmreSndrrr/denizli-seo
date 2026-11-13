@@ -75,6 +75,8 @@ Satın alınmış bağlantılar, anahtar kelime doldurma ya da kopya içerik ger
 
 Trafik gelip müşteri gelmiyorsa sorun SEO’da değil sayfada olabilir: güven eksikliği, belirsiz fiyat politikası, zor ulaşılan iletişim, yavaş geri dönüş. Bu durumda yeni trafik değil, mevcut trafiği iyileştirmek gerekir.
 
+> **Hizmet almak için iletişime geçin.** Sitenizin dizine eklenme, hız ve mobil durumunu birlikte tarayalım; bulguları öncelik sırasıyla yazılı verelim. [Teknik SEO hizmetimizi](/teknik-seo/) inceleyin ya da [bize yazın](/iletisim/).
+
 ## Adım adım teşhis
 
 1. **Dizinde mi?** Search Console URL Denetleme ile önemli sayfaları tek tek kontrol edin ([URL Denetleme](https://support.google.com/webmasters/answer/9012289?hl=tr)).
@@ -99,6 +101,8 @@ Trafik gelip müşteri gelmiyorsa sorun SEO’da değil sayfada olabilir: güven
 - **Ani düşüş:** Teknik değişiklik, güncelleme, güvenlik
 - **Çok yavaş büyüme:** Rekabet, içerik derinliği, süre
 - **Rakip sürekli önde:** İçerik, yorum, bağlantı ve profil farkı
+
+> **Sizin için de yapalım mı?** Sitenizde teknik bir sorun şüpheniz varsa nedenini sırayla teşhis edelim. [Hizmet almak için iletişime geçin](/iletisim/); çalışmanın kapsamı [teknik SEO sayfamızda](/teknik-seo/) anlatılıyor.
 
 ## Denizli’den bir örnek
 

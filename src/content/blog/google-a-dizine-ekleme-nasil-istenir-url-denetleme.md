@@ -36,6 +36,8 @@ Google, URL Denetleme’nin yalnızca birkaç URL için uygun olduğunu, çok sa
 
 Google, tek tek gönderilen URL’ler için bir kota olduğunu ve aynı URL için birden fazla yeniden tarama isteğinde bulunmanın URL’nin daha hızlı taranmasını sağlamayacağını belirtir. Bu yüzden kotayı önemli sayfalara saklayın: yeni hizmet sayfası, güncellenen iletişim sayfası, yeni ürün gibi.
 
+> **Hizmet almak için iletişime geçin.** Sitenizin dizine eklenme, hız ve mobil durumunu birlikte tarayalım; bulguları öncelik sırasıyla yazılı verelim. [Teknik SEO hizmetimizi](/teknik-seo/) inceleyin ya da [bize yazın](/iletisim/).
+
 ## İstek göndermeden önce kontrol listesi
 
 İstek, sorunlu bir sayfayı düzeltmez. Göndermeden önce şunları doğrulayın:
@@ -66,6 +68,8 @@ Google, taramanın birkaç gün ile birkaç hafta sürebileceğini söyler. Sab�
 4. **HTTP ve HTTPS ya da www karışıklığı.** Doğru adresi denetleyin.
 5. **Yeni siteyi yalnızca isteklerle tanıtmaya çalışmak.** Site haritası ve iç bağlantı daha kalıcıdır.
 6. **İsteği gönderip bir daha bakmamak.**
+
+> **Sizin için de yapalım mı?** Sitenizde teknik bir sorun şüpheniz varsa nedenini sırayla teşhis edelim. [Hizmet almak için iletişime geçin](/iletisim/); çalışmanın kapsamı [teknik SEO sayfamızda](/teknik-seo/) anlatılıyor.
 
 ## Denizli’den bir örnek
 

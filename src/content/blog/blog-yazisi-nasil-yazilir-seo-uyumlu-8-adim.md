@@ -56,6 +56,8 @@ Yazmadan önce on dakikalık bir taslak yapın:
 - Örnek: gerçek ya da “hayalî bir işletme için” işaretli örnek.
 - Kaynak: Google ya da resmî kurum gibi doğrulanabilir kaynak.
 
+> **Hizmet almak için iletişime geçin.** Müşterilerinizin sorduğu sorulardan bir içerik planı çıkaralım ve sayfalarınızı birlikte yazalım. [İçerik SEO hizmetimizi](/icerik-seo/) inceleyin ya da [bize yazın](/iletisim/).
+
 ## Adım 4: Başlık ve ilk paragraf
 
 Başlık, soruyu ve konuyu net söylemeli; Google, sayfa başlığının açıklayıcı ve kısa olmasını önerir. Ayrıntı için [başlık etiketi ve meta açıklama](/blog/baslik-etiketi-ve-meta-aciklama-nasil-yazilir/) yazımıza bakın. İlk paragrafta soruya doğrudan cevap verin; okuyucu aradığını ilk bakışta bulsun.
@@ -86,6 +88,8 @@ Kritik bir iddia (süre, limit, politika) yazıyorsanız kaynağını açıkça 
 3. İç bağlantıları ekleyin.
 4. Üç ay sonra Performans raporunda gösterim ve tıklamaya bakın.
 5. Düşük performanslı yazıyı güncelleyin ya da birleştirin.
+
+> **Sizin için de yapalım mı?** Sayfalarınızın ve yazılarınızın neden yeterince işe yaramadığına birlikte bakalım. [Hizmet almak için iletişime geçin](/iletisim/); yöntemimiz [içerik SEO sayfamızda](/icerik-seo/) yazılı.
 
 ## 8 adımlık kontrol listesi
 

@@ -71,6 +71,8 @@ Her bölümün hangi soruyu yanıtladığını aklınızda tutmak, gereksiz metn
 
 Olabilir; müşteri gerçekten öyle soruyorsa iyi bir seçimdir. “Montaj kaç saat sürer?” gibi bir ara başlık, okura aradığı yeri hemen gösterir. Google da uzun metni paragraflara ve bölümlere ayırmanızı, okurun sayfada yolunu bulması için başlık kullanmanızı önerir ([SEO başlangıç rehberi](https://developers.google.com/search/docs/fundamentals/seo-starter-guide?hl=tr)).
 
+> **Hizmet almak için iletişime geçin.** Müşterilerinizin sorduğu sorulardan bir içerik planı çıkaralım ve sayfalarınızı birlikte yazalım. [İçerik SEO hizmetimizi](/icerik-seo/) inceleyin ya da [bize yazın](/iletisim/).
+
 ## Başlık ve açıklama nasıl yazılır?
 
 Sayfanın `<title>` etiketi kısa ve açıklayıcı olmalı, her sayfada farklı yazılmalıdır. Google, arama sonucundaki başlık bağlantısını oluştururken bu etiketi, sayfadaki ana başlığı ve diğer belirgin metinleri kullanır ([Google: başlık bağlantıları](https://developers.google.com/search/docs/appearance/title-link?hl=tr)). Google’ın bu rehberdeki önerileri şunlar:
@@ -127,6 +129,8 @@ Bu soruların çoğuna “hayır” diyorsanız tek bir hizmet sayfası yazın v
 - **Yapmayın:** Anahtar kelimeyi her cümleye sıkıştırmayın. Okuru önce düşünün; Google’ın kendi rehberi de insanlar için yazılan, yararlı içeriği öne çıkarıyor ve aynı kelimeyi aşırı tekrarlamayı spam politikalarında “anahtar kelime doldurma” olarak tanımlıyor.
 - **Yapmayın:** Belirli bir kelime sayısına ulaşmak için metni şişirmeyin. Google, tercih ettiği bir kelime sayısı olmadığını açıkça yazar.
 - **Yapmayın:** Kanıtı olmayan iddia yazmayın: “1 numara”, “garantili”, uydurma yorum ya da kaynaksız rakam. Bu tür ifadeler müşterinin güvenini sarsar.
+
+> **Sizin için de yapalım mı?** Sayfalarınızın ve yazılarınızın neden yeterince işe yaramadığına birlikte bakalım. [Hizmet almak için iletişime geçin](/iletisim/); yöntemimiz [içerik SEO sayfamızda](/icerik-seo/) yazılı.
 
 ## Yapılandırılmış veri eklemeli miyim?
 

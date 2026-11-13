@@ -35,6 +35,8 @@ Bir akıllı telefonda, mümkünse hem iPhone hem Android’de, mobil veriyle ş
 11. **Önemli içerik telefonda da var mı?** Masaüstünde gördüğünüz bölümler telefonda gizlenmiş mi?
 12. **Hizmet ve iletişim sayfaları açılıyor mu?** Yalnızca ana sayfaya bakmayın.
 
+> **Hizmet almak için iletişime geçin.** Sitenizin dizine eklenme, hız ve mobil durumunu birlikte tarayalım; bulguları öncelik sırasıyla yazılı verelim. [Teknik SEO hizmetimizi](/teknik-seo/) inceleyin ya da [bize yazın](/iletisim/).
+
 ## Google’ın mobil içerik kuralları
 
 Google’ın en iyi uygulamalarından öne çıkanlar:
@@ -68,6 +70,8 @@ Search Console’daki URL Denetleme aracı, Google’ın sayfanızı nasıl gör
 - **Küçük yazı ve dokunma alanı:** Orta
 - **Ekranı kaplayan açılır pencere:** Orta
 - **Küçük hizalama kusurları:** Düşük
+
+> **Sizin için de yapalım mı?** Sitenizde teknik bir sorun şüpheniz varsa nedenini sırayla teşhis edelim. [Hizmet almak için iletişime geçin](/iletisim/); çalışmanın kapsamı [teknik SEO sayfamızda](/teknik-seo/) anlatılıyor.
 
 ## Denizli’den bir örnek
 

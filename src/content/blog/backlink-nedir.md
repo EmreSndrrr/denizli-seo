@@ -53,6 +53,8 @@ Doğal bağlantı, birinin sizi anmak istediği için verdiği bağlantıdır. K
 
 Bunların hepsinde ortak nokta, bağlantının bir **sebebi** olmasıdır. Sebebi olmayan bir bağlantı doğal görünmez. Yerel kaynakları somut olarak [Denizli işletmeleri için yerel backlink kaynakları](/blog/denizli-yerel-backlink-kaynaklari/) yazımızda sıraladık.
 
+> **Hizmet almak için iletişime geçin.** Satın alınmış bağlantı olmadan, gerçek kaynaklarla bağlantı ve otorite çalışması planlayalım. [Backlink hizmetimizi](/backlink-hizmeti/) inceleyin ya da [bize yazın](/iletisim/).
+
 ## Kaliteli backlink nasıl anlaşılır?
 
 “Kaliteli backlink” için tek bir ölçü yok. Üçüncü taraf araçların verdiği puanlar Google’dan gelmez; Google üçüncü taraf araçları değerlendirmediğini belirtir ([SEO’ya mı ihtiyacınız var?](https://developers.google.com/search/docs/fundamentals/do-i-need-seo?hl=tr)). Onun yerine şu beş soruyu sorun:
@@ -88,6 +90,8 @@ Sayı tuzağının bir yan etkisi de “binlerce backlink” satan paketlerdir. 
 - **Müşteri yorum ve forum siteleri:** neden bağlantı verir?: Kullanıcılar kendi eklediği bağlantı; bağlantı türü: `ugc` ya da `nofollow`
 
 Bu profil küçük ve yavaş büyür. Ama her satırın bir sebebi vardır ve üçüncü kişilerce doğrulanabilir. İşletmenin gerçek hayattaki ilişkileri, bağlantı profilini oluşturur.
+
+> **Sizin için de yapalım mı?** Mevcut bağlantı durumunuza birlikte bakıp güvenli bir yol çizelim. [Hizmet almak için iletişime geçin](/iletisim/); hangi yöntemleri kullanmadığımız [backlink sayfamızda](/backlink-hizmeti/) açıkça yazıyor.
 
 ## Sıfırdan nasıl başlanır? Beş adımlık plan
 

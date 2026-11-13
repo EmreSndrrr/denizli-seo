@@ -61,6 +61,8 @@ Spam politikalarına göre aşırı miktarda bağlantı takası ya da karşılı
 
 Google’ın spam politikası, aşırı miktarda bağlantı takasını ve karşılıklı bağlantı vermeyi amaçlayan özel iş ortağı sayfalarını bağlantı spam’i örnekleri arasında sayar ([spam politikaları](https://developers.google.com/search/docs/essentials/spam-policies?hl=tr)). Yani bir sayfanın tek amacı bağlantı değişimiyse sorun vardır.
 
+> **Hizmet almak için iletişime geçin.** Satın alınmış bağlantı olmadan, gerçek kaynaklarla bağlantı ve otorite çalışması planlayalım. [Backlink hizmetimizi](/backlink-hizmeti/) inceleyin ya da [bize yazın](/iletisim/).
+
 ## “Ortaklarımız” sayfası nasıl yazılır?
 
 İyi bir ortak sayfası, müşteriye bir şey anlatır. Her ortak için aşağıdaki alanları doldurun:
@@ -134,6 +136,8 @@ Ortaklık bağlantısının değerini sıralamayla değil, işe katkısıyla öl
 - Sayfada yüzlerce bağlantı yok mu?
 - Ortaklık sözleşmesi niteleme hakkını kısıtlıyor mu? (Kısıtlamamalı)
 - Eski ortaklar güncelleniyor mu?
+
+> **Sizin için de yapalım mı?** Mevcut bağlantı durumunuza birlikte bakıp güvenli bir yol çizelim. [Hizmet almak için iletişime geçin](/iletisim/); hangi yöntemleri kullanmadığımız [backlink sayfamızda](/backlink-hizmeti/) açıkça yazıyor.
 
 ## Ortaklık fikirlerini hayata geçirme: adım adım
 

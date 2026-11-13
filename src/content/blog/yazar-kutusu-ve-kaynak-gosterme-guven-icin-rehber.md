@@ -26,6 +26,8 @@ Google’ın yardımcı içerik rehberi “Kim, Nasıl ve Neden” sorularını 
 
 Tarih konusunda: Google’ın tarih rehberi, görünür tarihlerin doğru ve yapılandırılmış verilerle tutarlı olmasını önerir; bu yüzden güncelleme tarihini yalnızca içeriği gerçekten değiştirdiğinizde yenileyin. Ayrıntı için [eski blog yazıları ne zaman güncellenir?](/blog/eski-blog-yazilari-ne-zaman-ve-nasil-guncellenir/) yazımıza bakın.
 
+> **Hizmet almak için iletişime geçin.** Müşterilerinizin sorduğu sorulardan bir içerik planı çıkaralım ve sayfalarınızı birlikte yazalım. [İçerik SEO hizmetimizi](/icerik-seo/) inceleyin ya da [bize yazın](/iletisim/).
+
 ## Adım adım uygulama
 
 1. **Her yazının bir yazarı olsun.** Genel “Admin” yerine gerçek ad.
@@ -48,6 +50,8 @@ Tarih konusunda: Google’ın tarih rehberi, görünür tarihlerin doğru ve yap
 ## Yapay zekâ ve kaynak
 
 Yapay zekâ ile taslak yazdıysanız, kaynakları ve bilgileri insan olarak doğrulamak şarttır; bkz. [yapay zekâ ile içerik yazmak](/blog/yapay-zeka-ile-icerik-yazmak-google-ne-diyor/).
+
+> **Sizin için de yapalım mı?** Sayfalarınızın ve yazılarınızın neden yeterince işe yaramadığına birlikte bakalım. [Hizmet almak için iletişime geçin](/iletisim/); yöntemimiz [içerik SEO sayfamızda](/icerik-seo/) yazılı.
 
 ## Sık yapılan hatalar
 

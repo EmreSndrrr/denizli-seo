@@ -38,6 +38,8 @@ Birçok sitede iletişim sayfası yalnızca bir form ya da tek satır telefondur
 
 Google, yerel işletme bilgisini LocalBusiness yapılandırılmış verisiyle makine okunur hâle getirmeyi anlatır ([LocalBusiness](https://developers.google.com/search/docs/appearance/structured-data/local-business?hl=tr)). Kural: veri, sayfada görünen bilgiyle uyuşmalı. Çok şubeli işletmelerde her şube için ayrı sayfa ve ayrı bilgi kullanın; bkz. [birden fazla şubeli işletmeler](/blog/birden-fazla-subeli-isletmeler-icin-yerel-seo/).
 
+> **Hizmet almak için iletişime geçin.** Müşterilerinizin sorduğu sorulardan bir içerik planı çıkaralım ve sayfalarınızı birlikte yazalım. [İçerik SEO hizmetimizi](/icerik-seo/) inceleyin ya da [bize yazın](/iletisim/).
+
 ## Harita ve profil bağlantısı
 
 Gömülü harita müşteriye yol tarifi verir; ama sayfanın tek içeriği harita olmamalı. Google İşletme Profili’ndeki bilgilerle sayfa aynı olmalı; farklıysa müşteri kafası karışır. Profil için [Google haritalarda üst sıralara çıkmak](/blog/google-haritalarda-ust-siralara-cikmak/) yazımıza bakın.
@@ -55,6 +57,8 @@ Form toplayacağınız kişisel veriyi (ad, telefon) gerekli olanla sınırlayı
 - **Çok uzun form:** Üç dört alana indirin
 - **Eski çalışma saatleri:** Düzenli güncelleyin
 - **Sayfa menüde yok:** Menü ve alt bilgiden bağlayın
+
+> **Sizin için de yapalım mı?** Sayfalarınızın ve yazılarınızın neden yeterince işe yaramadığına birlikte bakalım. [Hizmet almak için iletişime geçin](/iletisim/); yöntemimiz [içerik SEO sayfamızda](/icerik-seo/) yazılı.
 
 ## Denizli’den bir örnek
 

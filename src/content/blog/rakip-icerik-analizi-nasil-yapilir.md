@@ -49,6 +49,8 @@ Google’ın yardımcı içerik rehberi, okuyucuya özgün bilgi, analiz ve değ
 
 Başka sitenin metnini yeniden yazarak kopyalamak, özgün bir değer katmıyorsa Google’ın spam politikalarındaki kopyalanmış içerik tarifine girebilir ([spam politikaları](https://developers.google.com/search/docs/essentials/spam-policies?hl=tr)). Rakibin görsellerini, fiyatlarını ya da yorumlarını izinsiz kullanmayın.
 
+> **Hizmet almak için iletişime geçin.** Müşterilerinizin sorduğu sorulardan bir içerik planı çıkaralım ve sayfalarınızı birlikte yazalım. [İçerik SEO hizmetimizi](/icerik-seo/) inceleyin ya da [bize yazın](/iletisim/).
+
 ## Sık yapılan hatalar
 
 - **Rakibin metnini yeniden yazmak:** Kendi bilginizle yazın
@@ -109,6 +111,8 @@ Analizi her şeyi aynı anda yapmak yerine bir arama üzerinde derinlemesine yap
 - Kendi farkınız
 
 Tabloyu doldurduktan sonra “benim ekleyebileceğim gerçek bilgi nedir?” sorusuna odaklanın.
+
+> **Sizin için de yapalım mı?** Sayfalarınızın ve yazılarınızın neden yeterince işe yaramadığına birlikte bakalım. [Hizmet almak için iletişime geçin](/iletisim/); yöntemimiz [içerik SEO sayfamızda](/icerik-seo/) yazılı.
 
 ## Arama niyeti: sayfa hangi biçimde olmalı?
 

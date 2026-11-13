@@ -36,6 +36,8 @@ Google nedenin tamamını sayfa bazında söylemez; aşağıdaki liste genel de�
 4. **Site yeni.** Yeni sitelerin taranması zaman alabilir; Google, yeni bir sayfanın ya da sitenin taranıp dizine eklenmesinin bir haftayı bulabileceğini belirtir.
 5. **Değersiz ya da kopya adres kalabalığı.** Parametreli, filtreli, etiketli yüzlerce adres taranma kapasitesini harcıyor olabilir.
 
+> **Hizmet almak için iletişime geçin.** Sitenizin dizine eklenme, hız ve mobil durumunu birlikte tarayalım; bulguları öncelik sırasıyla yazılı verelim. [Teknik SEO hizmetimizi](/teknik-seo/) inceleyin ya da [bize yazın](/iletisim/).
+
 ## Adım adım ne yapmalısınız?
 
 1. **Sayfanın önemini tartın.** Dizine girmesi gerekiyor mu? Önemsiz ya da kopya ise sorun olmayabilir.
@@ -62,6 +64,8 @@ Binlerce sayfası olan sitelerde “Bulundu” durumu yaygın olabilir; çünkü
 3. Site haritasının yeni sayfayı içerdiğini kontrol edin.
 4. URL Denetleme ile sayfayı denetleyin ve dizine ekleme isteyin.
 5. Bir hafta sonra durumu kontrol edin.
+
+> **Sizin için de yapalım mı?** Sitenizde teknik bir sorun şüpheniz varsa nedenini sırayla teşhis edelim. [Hizmet almak için iletişime geçin](/iletisim/); çalışmanın kapsamı [teknik SEO sayfamızda](/teknik-seo/) anlatılıyor.
 
 ## Denizli’den bir örnek
 

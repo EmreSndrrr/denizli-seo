@@ -66,6 +66,8 @@ Google’ın örnek verdiği kanıtlar:
 
 **İpucu:** Gönderdiğiniz belgelerde işletme adı ve adresinin itiraz ettiğiniz profille eşleştiğinden emin olun. Profildeki ad “Ahmet Kuyumculuk”, faturadaki ad başka bir ünvanla “Ahmet Ticaret Ltd.” ise aradaki farkı kısa bir açıklamayla belirtin.
 
+> **Hizmet almak için iletişime geçin.** Google İşletme Profili’nizi ve harita görünürlüğünüzü birlikte inceleyelim; ne eksik, neyin düzeltileceğini yazılı söyleyelim. [Yerel SEO hizmetimizi](/yerel-seo/) inceleyin ya da [bize yazın](/iletisim/).
+
 ## İtiraz metni nasıl yazılır?
 
 Kısa, saygılı ve olgusal yazın. Şablon:
@@ -100,6 +102,8 @@ Google, 10’dan fazla profil için itirazda bulunmanın ayrı bir akışı oldu
 3. Tabelasız ya da gerçek faaliyeti olmayan adres kullanmayın.
 4. Ajansla çalışıyorsanız onu şifreyle değil yönetici olarak ekleyin; yaptığı değişikliklerden haberdar olun.
 5. Profili periyodik gözden geçirin; her değişiklikten sonra durumu kontrol edin.
+
+> **Sizin için de yapalım mı?** Haritada daha görünür olmak istiyorsanız profilinize ve yerel kayıtlarınıza bakıp yapılacakları kalem kalem çıkaralım. [Hizmet almak için iletişime geçin](/iletisim/); ayrıntı için [yerel SEO sayfamıza](/yerel-seo/) göz atabilirsiniz.
 
 ## Denizli’den bir örnek
 

@@ -56,6 +56,8 @@ Her şube için sitede kendi sayfası olmalı. İyi bir şube sayfası şunları
 
 Sayfa metni şubeye özgü olmalı. Yalnızca şube adı değişen kopya sayfalar değer katmaz; Google’ın spam politikasındaki “şehirlerin ve bölgelerin listelendiği metin blokları” örneği buna yakındır ([spam politikaları](https://developers.google.com/search/docs/essentials/spam-policies?hl=tr)). Şube sayfası, şubenin gerçek bilgisini taşısın.
 
+> **Hizmet almak için iletişime geçin.** Google İşletme Profili’nizi ve harita görünürlüğünüzü birlikte inceleyelim; ne eksik, neyin düzeltileceğini yazılı söyleyelim. [Yerel SEO hizmetimizi](/yerel-seo/) inceleyin ya da [bize yazın](/iletisim/).
+
 ## Şubeler birbirinin sırasını bozar mı?
 
 Aynı işletmenin iki şubesi aynı aramada görünebilir; Google, arayan kişiye mesafe, alaka ve belirginlik bakımından en iyi eşleşeni gösterir. Şubeler birbiriyle yarışıyormuş gibi görünse de aslında farklı müşteri bölgelerine hitap eder. Karışıklığı önlemek için:
@@ -87,6 +89,8 @@ Google, 10 ya da daha fazla konumunuz varsa fotoğrafları e-tablo üzerinden to
 
 - (Şube 1)
 - (Şube 2)
+
+> **Sizin için de yapalım mı?** Haritada daha görünür olmak istiyorsanız profilinize ve yerel kayıtlarınıza bakıp yapılacakları kalem kalem çıkaralım. [Hizmet almak için iletişime geçin](/iletisim/); ayrıntı için [yerel SEO sayfamıza](/yerel-seo/) göz atabilirsiniz.
 
 ## Denizli’den bir örnek
 

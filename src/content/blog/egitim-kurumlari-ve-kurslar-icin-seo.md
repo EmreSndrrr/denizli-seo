@@ -46,6 +46,8 @@ Eğitim, güvenin en önemli olduğu sektörlerden biridir: veli çocuğunu, ö�
 8. **Sık sorulan soruları ekleyin.** İade, devamsızlık, telafi gibi.
 9. **İletişim yollarını sunun.** Telefon, WhatsApp, form.
 
+> **Hizmet almak için iletişime geçin.** Sitenizin dizine eklenme, hız ve mobil durumunu birlikte tarayalım; bulguları öncelik sırasıyla yazılı verelim. [Teknik SEO hizmetimizi](/teknik-seo/) inceleyin ya da [bize yazın](/iletisim/).
+
 ## Güven ve doğruluk: en kritik bölüm
 
 - **Başarı iddiaları:** “Yüzde yüz başarı”, “kesin kabul” gibi vaatler yazmayın; doğrulanabilir değilse hiç yazmayın
@@ -78,6 +80,8 @@ Dönemlik sayfaları her dönem silip yeniden açmak yerine aynı adreste günce
 ## Kayıt formu ve iletişim
 
 Form kısa olmalı: ad, telefon, ilgilenilen kurs, yaş grubu ve kısa not. Kişisel veri (özellikle çocuklara ait) için bilgilendirme metni ve gizlilik sayfası hazırlayın; hukuki konuda uzman desteği alın. Kurulum için [iletişim formu ve WhatsApp butonu](/blog/iletisim-formu-ve-whatsapp-butonu-nasil-kurulur/) yazısına bakın. Gelen mesajlara hızlı dönün: veli genellikle birkaç kurumu aynı anda arar.
+
+> **Sizin için de yapalım mı?** Sitenizde teknik bir sorun şüpheniz varsa nedenini sırayla teşhis edelim. [Hizmet almak için iletişime geçin](/iletisim/); çalışmanın kapsamı [teknik SEO sayfamızda](/teknik-seo/) anlatılıyor.
 
 ## Sık yapılan hatalar
 

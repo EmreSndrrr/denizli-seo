@@ -38,6 +38,8 @@ Google’ın rehberi iki durumu ayırır: konumda küçük bir düşüş (örne�
 
 Konumların statik olmadığını, Google sonuçlarının doğası gereği dinamik olduğunu unutmayın; her küçük hareketi bir soruna dönüştürmeyin.
 
+> **Hizmet almak için iletişime geçin.** Sitenizin dizine eklenme, hız ve mobil durumunu birlikte tarayalım; bulguları öncelik sırasıyla yazılı verelim. [Teknik SEO hizmetimizi](/teknik-seo/) inceleyin ya da [bize yazın](/iletisim/).
+
 ## Sayfanızı değerlendirme soruları
 
 Google’ın içerik rehberi, içeriğinizi kullanıcı odaklı değerlendirmeniz için sorular sunar: birinci elden uzmanlık ve kapsamlı bilgi açıkça gösteriliyor mu gibi ([faydalı ve güvenilir içerik](https://developers.google.com/search/docs/fundamentals/creating-helpful-content?hl=tr)). Düşen sayfalarınıza şu sorularla bakın:
@@ -68,6 +70,8 @@ Google’ın rehberi, iyileştirmelerinizin etkisini görmek için büyük bir t
 - **2:** Güncelleme tamamlandıktan en az bir hafta sonra Search Console’da öncesi–sonrası karşılaştırın
 - **3:** En çok trafik kaybeden beş sayfayı seçin; yukarıdaki sorularla değerlendirin
 - **4:** İyileştirmeleri tek tek yapın; tarihleri not edin; sonuçları izleyin
+
+> **Sizin için de yapalım mı?** Sitenizde teknik bir sorun şüpheniz varsa nedenini sırayla teşhis edelim. [Hizmet almak için iletişime geçin](/iletisim/); çalışmanın kapsamı [teknik SEO sayfamızda](/teknik-seo/) anlatılıyor.
 
 ## Denizli’den bir örnek
 

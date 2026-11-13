@@ -27,6 +27,8 @@ Alan adı bir kez seçilir ve değiştirilmesi zordur. Bu yüzden baştan düş�
 
 “denizli-klima-servisi.com” gibi anahtar kelimeli bir alan adının sıralamayı yükselteceğini kanıtlayan, doğruladığımız bir Google kaynağı yok; bunu vaat etmiyoruz. Pratik açıdan uzun, tireli, anahtar kelimeyle dolu adlar akılda kalmaz ve güven vermeyebilir. Anahtar kelimeyi sayfa başlıklarında, hizmet sayfalarında ve içerikte kullanın. Google’ın URL rehberi, adreslerde kelimeleri ayırmak için kısa çizgi önerir; bu, sayfa adresleri (yol kısmı) için bir tavsiyedir ([URL yapısı](https://developers.google.com/search/docs/crawling-indexing/url-structure?hl=tr)).
 
+> **Hizmet almak için iletişime geçin.** SEO’yu baştan düşünerek tasarlanmış, hızlı ve telefonda rahat bir site kuralım. [Web tasarım hizmetimizi](/web-tasarim/) inceleyin ya da [bize yazın](/iletisim/).
+
 ## Adım adım seçim
 
 1. **Birkaç aday yazın.** Marka adı odaklı.
@@ -47,6 +49,8 @@ Alan adı bir kez seçilir ve değiştirilmesi zordur. Bu yüzden baştan düş�
 - **Süresi dolması:** Otomatik yenileme ve hatırlatma
 - **Tarihçesini kontrol etmemek:** Önce araştırın
 - **Birden fazla alan adını aynı içerikle yayımlamak:** Birini asıl yapın, diğerini yönlendirin
+
+> **Sizin için de yapalım mı?** Mevcut sitenizi yenilemek ya da sıfırdan kurmak istiyorsanız ihtiyacınızı birlikte netleştirelim. [Hizmet almak için iletişime geçin](/iletisim/); ayrıntı [web tasarım sayfamızda](/web-tasarim/).
 
 ## Denizli’den bir örnek
 

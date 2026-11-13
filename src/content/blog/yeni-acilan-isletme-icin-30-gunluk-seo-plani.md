@@ -38,6 +38,8 @@ Yeni işletme sahibi her şeyi aynı anda yapmak ister; ama sıra önemlidir. Ö
 
 Google’ın profil kurallarına göre işletme adına pazarlama etiketi, telefon ya da web adresi eklemek yasaktır ve askıya alma sebebi olabilir ([işletme kuralları](https://support.google.com/business/answer/3038177?hl=tr)). Yeni işletmelerde en sık hata budur: “Denizli en ucuz klima servisi” gibi adlar.
 
+> **Hizmet almak için iletişime geçin.** Sitenizin dizine eklenme, hız ve mobil durumunu birlikte tarayalım; bulguları öncelik sırasıyla yazılı verelim. [Teknik SEO hizmetimizi](/teknik-seo/) inceleyin ya da [bize yazın](/iletisim/).
+
 ## Hafta 2: Site temeli (gün 8–14)
 
 - **8:** i̇ş: Alan adı ve HTTPS; not: Bkz. alan adı seçimi
@@ -84,6 +86,8 @@ Yorum konusunda Google, yorum karşılığı ücretsiz ya da indirimli ürün ve
 - **Her ilçe için boş sayfa açmak:** Değeri yok
 - **Sonuç beklentisiyle çalışmayı bırakmak:** SEO zaman ister
 - **Hiç ölçmemek:** Karar için veri gerekir
+
+> **Sizin için de yapalım mı?** Sitenizde teknik bir sorun şüpheniz varsa nedenini sırayla teşhis edelim. [Hizmet almak için iletişime geçin](/iletisim/); çalışmanın kapsamı [teknik SEO sayfamızda](/teknik-seo/) anlatılıyor.
 
 ## İlk ayın sonunda ne bekleyebilirsiniz?
 

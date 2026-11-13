@@ -54,6 +54,8 @@ Zayıf ve iyi örnek (hayalî bir işletme için):
 - **Zayıf:** “Fiyatlarımız çok uygun ve kalitelidir. Bizi arayın!”
 - **İyi:** “Fiyat; cihaz sayısına, markaya ve montaj koşullarına göre değişir. Randevuda yazılı olarak bildiririz; işe başlamadan önce onayınızı alırız.”
 
+> **Hizmet almak için iletişime geçin.** Müşterilerinizin sorduğu sorulardan bir içerik planı çıkaralım ve sayfalarınızı birlikte yazalım. [İçerik SEO hizmetimizi](/icerik-seo/) inceleyin ya da [bize yazın](/iletisim/).
+
 ## Kaç soru olmalı?
 
 Google bir sayı belirtmiyor. Pratik öneri: hizmet sayfasında üç ile sekiz, bir rehber yazısında üç ile beş soru. Çok uzun listeler okunmaz; en sık sorulanları seçin ve diğerlerini ayrı yazılara ayırın.
@@ -78,6 +80,8 @@ SSS’yi yapılandırılmış veriyle işaretlemek mümkündür; ancak Google’
 5. **Her sayfada aynı SSS.** Sayfaya özgü olmalı.
 6. **Cevap yok, “bizi arayın” var.** Müşteri aradığı bilgiyi bulamaz.
 7. **Kesin söz ve garanti.**
+
+> **Sizin için de yapalım mı?** Sayfalarınızın ve yazılarınızın neden yeterince işe yaramadığına birlikte bakalım. [Hizmet almak için iletişime geçin](/iletisim/); yöntemimiz [içerik SEO sayfamızda](/icerik-seo/) yazılı.
 
 ## Güncelleme rutini
 

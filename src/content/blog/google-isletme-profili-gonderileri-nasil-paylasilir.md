@@ -53,6 +53,8 @@ Birden fazla profiliniz varsa duyuruyu birkaç profilde birden yayımlayabilir y
 
 Google, tarih aralığı belirlenmediği takdirde 6 aydan eski duyuruların arşivlendiğini belirtir. Etkinliğin başlangıç ya da bitiş zamanı yazılmazsa etkinlik, ilgili tarihlerde 24 saat sürecek şekilde gösterilir. Bu yüzden teklif ve etkinlik için tarih aralığını açıkça girin; süresi geçen duyurunun görünür kalması müşteriyi yanıltır.
 
+> **Hizmet almak için iletişime geçin.** Google İşletme Profili’nizi ve harita görünürlüğünüzü birlikte inceleyelim; ne eksik, neyin düzeltileceğini yazılı söyleyelim. [Yerel SEO hizmetimizi](/yerel-seo/) inceleyin ya da [bize yazın](/iletisim/).
+
 ## Ne paylaşılır? Gönderi fikirleri
 
 - **Güncelleme:** fikir: Yeni ürün ya da hizmet; örnek (hayalî): “Yeni sezon altın bilezik koleksiyonumuz vitrinde.”
@@ -92,6 +94,8 @@ Mevsime ve işe göre uyarlayın. Turizm işletmeleri için sezon başı, bayram
 ## Gönderi performansı nasıl izlenir?
 
 Gönderinin etkisini profilin Performans bölümündeki genel rakamlarla (görüntüleme, arama, yol tarifi, site tıklaması) birlikte izleyin. Tek bir gönderinin etkisini ayırmak zor olabilir; ama düzenli paylaşım yaptığınız dönemde etkileşimin değişip değişmediğine bakabilirsiniz. İşlem düğmesinin bağlantısına `utm` benzeri bir izleme parametresi ekleyip sitenizde bu tıklamaları ayırabilirsiniz; teknik bilgi gerektirir.
+
+> **Sizin için de yapalım mı?** Haritada daha görünür olmak istiyorsanız profilinize ve yerel kayıtlarınıza bakıp yapılacakları kalem kalem çıkaralım. [Hizmet almak için iletişime geçin](/iletisim/); ayrıntı için [yerel SEO sayfamıza](/yerel-seo/) göz atabilirsiniz.
 
 ## Gönderiler sıralamayı yükseltir mi?
 

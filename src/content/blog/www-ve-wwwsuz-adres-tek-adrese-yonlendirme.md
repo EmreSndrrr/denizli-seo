@@ -45,6 +45,8 @@ Seçtikten sonra değiştirmeyin. Değiştirirseniz bu, URL değişikliği olur 
 7. **Profil ve sosyal hesaplardaki adresi güncelleyin.**
 8. **Search Console’da mülkü kontrol edin.** Alan adı mülkü kullanıyorsanız tüm sürümler tek mülkte toplanır.
 
+> **Hizmet almak için iletişime geçin.** Sitenizin dizine eklenme, hız ve mobil durumunu birlikte tarayalım; bulguları öncelik sırasıyla yazılı verelim. [Teknik SEO hizmetimizi](/teknik-seo/) inceleyin ya da [bize yazın](/iletisim/).
+
 ## Google’ın rehberi ne diyor?
 
 Google’ın standart URL rehberi bu en iyi uygulamaları sıralar:
@@ -81,6 +83,8 @@ Google ayrıca site taşıma rehberinde HTTPS geçişi, aynı alan adında www v
 Örnek (hayalî bir işletme için): Honaz’da bir kuyumcunun sitesi dört adresten de açılıyor. Search Console’da aynı sayfanın birkaç sürümü görünüyor ve Google, işletmenin istemediği sürümü standart seçmiş.
 
 Düzeltme: asıl sürüm olarak `https://alanadi.com/` seçiliyor; diğer üç sürüm 301 ile ona yönlendiriliyor; sertifika iki sürümü de kapsıyor; canonical, site haritası ve iç bağlantılar güncelleniyor; Search Console’da standart sayfa seçimi haftalarca izleniyor. Bu örnek sonuç vaadi değildir; kontrol sırasını gösterir.
+
+> **Sizin için de yapalım mı?** Sitenizde teknik bir sorun şüpheniz varsa nedenini sırayla teşhis edelim. [Hizmet almak için iletişime geçin](/iletisim/); çalışmanın kapsamı [teknik SEO sayfamızda](/teknik-seo/) anlatılıyor.
 
 ## Hangi yönlendirme senaryosu hangi kuralı gerektirir?
 

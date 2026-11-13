@@ -42,6 +42,8 @@ Müşteri “yakınımda” aradığında çoğu zaman şimdi hizmet almak ister
 
 Telefon numarası, işletmenin doğrudan kontrolünde olmalıdır; ücretli numaralar kabul edilmez. Telefon, “yakınımda” araması yapan kişinin ilk tıkladığı yerdir. Numaranın doğru ve açık olması kritik.
 
+> **Hizmet almak için iletişime geçin.** Google İşletme Profili’nizi ve harita görünürlüğünüzü birlikte inceleyelim; ne eksik, neyin düzeltileceğini yazılı söyleyelim. [Yerel SEO hizmetimizi](/yerel-seo/) inceleyin ya da [bize yazın](/iletisim/).
+
 ## 6. Hizmetleri ve açıklamayı ayrıntılı yazın
 
 Her hizmeti ayrı satır olarak girin ve açıklamada ne yaptığınızı, hangi mahalle ve ilçelere hizmet verdiğinizi söyleyin. “Kuyumcu” yerine “yüzük ölçü değişimi”, “altın alım satımı”, “zincir tamiri” gibi satırlar, profilin ilgili aramalarla eşleşmesine yardımcı olabilir.
@@ -69,6 +71,8 @@ Sitenizin iletişim sayfasında profildekiyle aynı ad, adres ve telefon bulunsu
 - **Restoran, kafe:** Menü, fotoğraf, saatler, yorum
 - **Servis (oto, beyaz eşya):** Hizmet listesi, telefon, hızlı yanıt
 - **Pansiyon, otel:** Fotoğraf, konum, rezervasyon bağlantısı
+
+> **Sizin için de yapalım mı?** Haritada daha görünür olmak istiyorsanız profilinize ve yerel kayıtlarınıza bakıp yapılacakları kalem kalem çıkaralım. [Hizmet almak için iletişime geçin](/iletisim/); ayrıntı için [yerel SEO sayfamıza](/yerel-seo/) göz atabilirsiniz.
 
 ## Denizli’den bir örnek
 

@@ -60,6 +60,8 @@ Raporun arama sorguları bölümü, profilin hangi aramalarda bulunduğunu göst
 
 Sorgulara bakarak profilinizin hizmet listesini ve açıklamasını iyileştirebilirsiniz.
 
+> **Hizmet almak için iletişime geçin.** Google İşletme Profili’nizi ve harita görünürlüğünüzü birlikte inceleyelim; ne eksik, neyin düzeltileceğini yazılı söyleyelim. [Yerel SEO hizmetimizi](/yerel-seo/) inceleyin ya da [bize yazın](/iletisim/).
+
 ## Görüntüleme yüksek, arama düşükse ne yapılır?
 
 Bu durum “görünüyorum ama çevrilmiyorum” anlamına gelir. Kontrol listesi:
@@ -88,6 +90,8 @@ Her yol tarifi ya da arama satışa dönüşmez; ama güçlü bir niyet işareti
 ## Sezon etkisini nasıl ayıklarsınız?
 
 Eğer en az bir yıllık veriniz varsa, geçen yılın aynı ayıyla karşılaştırın. Yeni bir profilseniz, önce kendi “taban çizginizi” oluşturun: üç ay boyunca rakamları not edin ve değişiklik yaptığınız tarihleri işaretleyin. Bayram, okul tatili ve yaz sezonu gibi bilinen dönemleri takvime yazın.
+
+> **Sizin için de yapalım mı?** Haritada daha görünür olmak istiyorsanız profilinize ve yerel kayıtlarınıza bakıp yapılacakları kalem kalem çıkaralım. [Hizmet almak için iletişime geçin](/iletisim/); ayrıntı için [yerel SEO sayfamıza](/yerel-seo/) göz atabilirsiniz.
 
 ## Raporu kimlerle paylaşmalısınız?
 

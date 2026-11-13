@@ -34,6 +34,8 @@ Google, 4xx dönen URL’lerin dizine eklenmediğini ve dizindekilerin kaldırı
 5. **Tek sayfalık uygulamalar (SPA).** İstemci tarafı yönlendirmede anlamlı durum kodu dönmek zor olabilir.
 6. **Stokta olmayan ürün sayfaları.** İçerik kalmamış, sayfa boşalmış.
 
+> **Hizmet almak için iletişime geçin.** Sitenizin dizine eklenme, hız ve mobil durumunu birlikte tarayalım; bulguları öncelik sırasıyla yazılı verelim. [Teknik SEO hizmetimizi](/teknik-seo/) inceleyin ya da [bize yazın](/iletisim/).
+
 ## Soft 404 nasıl bulunur?
 
 1. **Search Console, Sayfa dizine ekleme raporu.** “Soft 404” durumundaki sayfaları listeleyin.
@@ -63,6 +65,8 @@ Google’ın JavaScript rehberi, istemci taraflı oluşturulan tek sayfalık uyg
 2. Search Console’da raporun güncellenmesini izleyin; güncelleme zaman alabilir.
 3. 404 yaptığınız sayfalar site haritasından çıkarılsın.
 4. Dizine girmesi gereken sayfaları iyileştirdiyseniz yeniden tarama isteyin; bkz. [dizine ekleme isteği](/blog/google-a-dizine-ekleme-nasil-istenir-url-denetleme/).
+
+> **Sizin için de yapalım mı?** Sitenizde teknik bir sorun şüpheniz varsa nedenini sırayla teşhis edelim. [Hizmet almak için iletişime geçin](/iletisim/); çalışmanın kapsamı [teknik SEO sayfamızda](/teknik-seo/) anlatılıyor.
 
 ## Denizli’den bir örnek
 

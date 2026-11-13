@@ -49,6 +49,8 @@ Terimler Türkçe harf sırasına göredir. İngilizce karşılığı yaygınsa 
 - ****Doğal (organik) sonuç**:** Ücretli reklam olmayan arama sonucu. Google organik sonuçlarda görünmenin ücretsiz olduğunu söyler.
 - ****Duyarlı tasarım (responsive)**:** Sayfanın ekran boyutuna uyum sağlayan tasarımı.
 
+> **Hizmet almak için iletişime geçin.** Sitenizin dizine eklenme, hız ve mobil durumunu birlikte tarayalım; bulguları öncelik sırasıyla yazılı verelim. [Teknik SEO hizmetimizi](/teknik-seo/) inceleyin ya da [bize yazın](/iletisim/).
+
 ## E – F – G
 
 - ****E-E-A-T**:** Deneyim, uzmanlık, otorite, güvenilirlik kavramlarının kısaltması; Google’ın içerik kalitesi konusundaki kavramlarından biri.
@@ -88,6 +90,8 @@ Terimler Türkçe harf sırasına göredir. İngilizce karşılığı yaygınsa 
 - ****Organik trafik**:** Ücretli olmayan arama sonuçlarından gelen ziyaretçi.
 - ****Otorite**:** Bir sitenin konusunda güvenilir bir kaynak olarak tanınması; tek bir ölçüsü yoktur.
 - ****Ortalama konum**:** Search Console’da sitenizin sorgularda ortalama sırası; tek başına yanıltıcı olabilir.
+
+> **Sizin için de yapalım mı?** Sitenizde teknik bir sorun şüpheniz varsa nedenini sırayla teşhis edelim. [Hizmet almak için iletişime geçin](/iletisim/); çalışmanın kapsamı [teknik SEO sayfamızda](/teknik-seo/) anlatılıyor.
 
 ## P – R – S – Ş
 

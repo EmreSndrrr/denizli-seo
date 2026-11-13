@@ -55,6 +55,8 @@ Search Console ile bakamazsınız, çünkü yalnızca sahip olduğunuz siteyi g�
 
 Rakibin backlink listesi size ilham verebilir: hangi yerel kaynaklar onları anıyor? Ama bir listeyi kopyalayıp aynı sitelere kayıt olmak doğal bir bağlantı kazandırmaz. Her sitenin sizi anması için bir sebep gerekir.
 
+> **Hizmet almak için iletişime geçin.** Satın alınmış bağlantı olmadan, gerçek kaynaklarla bağlantı ve otorite çalışması planlayalım. [Backlink hizmetimizi](/backlink-hizmeti/) inceleyin ya da [bize yazın](/iletisim/).
+
 ## Backlink raporu nasıl yorumlanır?
 
 Aşağıdaki tablo, rapordaki en sık karşılaşılan durumlar için bir karar kuralıdır:
@@ -96,6 +98,8 @@ Rapor yalnızca sizi kimin andığını değil, kendi sayfalarınızın birbirin
 2. **Bağlantıyı veren siteden düzeltmesini isteyin.** Özellikle yerel bir dernek ya da haber sitesi sizi doğru adresle anmak isteyecektir; kibar bir e-posta yeterlidir.
 
 Siteyi yeni baştan yaptıysanız, eski adreslerinizin bir kısmına dışarıdan bağlantı geliyor olabilir. Bağlantılar raporu, hangi eski adreslerin korunması gerektiğini gösteren iyi bir kaynaktır.
+
+> **Sizin için de yapalım mı?** Mevcut bağlantı durumunuza birlikte bakıp güvenli bir yol çizelim. [Hizmet almak için iletişime geçin](/iletisim/); hangi yöntemleri kullanmadığımız [backlink sayfamızda](/backlink-hizmeti/) açıkça yazıyor.
 
 ## Ayda bir yapılacak 15 dakikalık kontrol
 

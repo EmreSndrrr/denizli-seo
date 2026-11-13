@@ -60,6 +60,8 @@ Mermer ve traverten bir görsel sektördür. Google, resimlerin `<img>` öğesin
 5. **Renk doğruluğuna dikkat edin.** Yanlış renk beklentisi iade ve güven kaybı yaratır; gerekirse “ekran renkleri değişebilir, numune isteyin” notu ekleyin.
 6. **Galeriyi sayfa olarak yayımlayın.** Görselleri yalnızca kaydırıcıya gömmeyin; taranabilir bir sayfada bağlam metniyle verin.
 
+> **Hizmet almak için iletişime geçin.** Sitenizin dizine eklenme, hız ve mobil durumunu birlikte tarayalım; bulguları öncelik sırasıyla yazılı verelim. [Teknik SEO hizmetimizi](/teknik-seo/) inceleyin ya da [bize yazın](/iletisim/).
+
 ## Proje galerisi: güven ve içerik
 
 Tamamlanmış uygulamalar güvenin en güçlü kanıtıdır. Her proje için: nerede, hangi taşla, hangi yüzey işlemiyle ve kısaca nasıl bir iş yapıldığı yazılmalı. Müşteri adı ya da yeri yalnızca izinle belirtilmeli; izin yoksa “Denizli’de bir konut projesi” gibi genel tanım kullanılmalı. Vaka yazımı için [vaka çalışması nasıl yazılır?](/blog/vaka-calismasi-nasil-yazilir-durust-bir-sablon/) yazısına bakın.
@@ -82,6 +84,8 @@ Yurtdışına satış yapıyorsanız hedef dilde ayrı sayfalar hazırlayın. Go
 ## Yerel görünürlük
 
 Satış ofisi, showroom ya da fabrika satış noktası varsa Google İşletme Profili açın ve bilgileri doğru tutun. Profilde işletme adına pazarlama ifadesi, telefon ya da web adresi eklemek yasaktır ([işletme kuralları](https://support.google.com/business/answer/3038177?hl=tr)). Yerel görünürlük için Google haritalarda üst sıralara çıkmak yazısına bakın.
+
+> **Sizin için de yapalım mı?** Sitenizde teknik bir sorun şüpheniz varsa nedenini sırayla teşhis edelim. [Hizmet almak için iletişime geçin](/iletisim/); çalışmanın kapsamı [teknik SEO sayfamızda](/teknik-seo/) anlatılıyor.
 
 ## Sık yapılan hatalar
 

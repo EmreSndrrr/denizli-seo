@@ -73,6 +73,8 @@ Her ay sonu doldurun. İlk satırlar talep; sıra en sonda:
 
 “Not” sütununa o ayda yaptığınız işleri yazın (profil düzeltmesi, yeni sayfa, fotoğraf, kampanya, bayram).
 
+> **Hizmet almak için iletişime geçin.** Google İşletme Profili’nizi ve harita görünürlüğünüzü birlikte inceleyelim; ne eksik, neyin düzeltileceğini yazılı söyleyelim. [Yerel SEO hizmetimizi](/yerel-seo/) inceleyin ya da [bize yazın](/iletisim/).
+
 ## Karşılaştırmayı doğru yapın
 
 Üç kural:
@@ -95,6 +97,8 @@ Aşağıdaki sırayla bakın:
 4. **Mevsim mi?** Geçen yılın aynı dönemiyle kıyaslayın.
 5. **Rakipler mi güçlendi?** Haritada ilk üç işletmenin profilini inceleyin.
 6. **Talep düşük ama görünürlük iyi mi?** Fotoğraf, yorum, telefon ve açıklamayı gözden geçirin.
+
+> **Sizin için de yapalım mı?** Haritada daha görünür olmak istiyorsanız profilinize ve yerel kayıtlarınıza bakıp yapılacakları kalem kalem çıkaralım. [Hizmet almak için iletişime geçin](/iletisim/); ayrıntı için [yerel SEO sayfamıza](/yerel-seo/) göz atabilirsiniz.
 
 ## Denizli’den bir örnek
 

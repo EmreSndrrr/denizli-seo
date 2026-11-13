@@ -56,6 +56,8 @@ Pratik kurallar:
 - **Yayın tarihini koruyun**, güncelleme tarihini ayrıca yazın.
 - **Metinde “bu yıl” gibi göreceli ifade kullanmayın**; tarih yazın.
 
+> **Hizmet almak için iletişime geçin.** Müşterilerinizin sorduğu sorulardan bir içerik planı çıkaralım ve sayfalarınızı birlikte yazalım. [İçerik SEO hizmetimizi](/icerik-seo/) inceleyin ya da [bize yazın](/iletisim/).
+
 ## Birleştirme: iki yazıyı tek yazı yapmak
 
 1. İki yazıdan daha güçlü olanı (daha çok gösterim ve bağlantı alan) asıl yazı seçin.
@@ -84,6 +86,8 @@ Yılda bir tüm yazıları tabloya dökün:
 4. **Kaynakları kontrol etmemek.** Google sayfaları değişir.
 5. **Eski yazıyı yönlendirmeden silmek.** Bağlantı alan adres boşa gider.
 6. **Güncelledikten sonra izlememek.**
+
+> **Sizin için de yapalım mı?** Sayfalarınızın ve yazılarınızın neden yeterince işe yaramadığına birlikte bakalım. [Hizmet almak için iletişime geçin](/iletisim/); yöntemimiz [içerik SEO sayfamızda](/icerik-seo/) yazılı.
 
 ## Denizli’den bir örnek
 

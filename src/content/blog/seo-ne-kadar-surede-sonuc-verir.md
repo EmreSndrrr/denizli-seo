@@ -78,6 +78,8 @@ Aşağıdaki tablo bizim çalışma düzenimize göre hazırlanmış bir örnekt
 | 4. ile 6. ay | Düzenli içerik, yerel rehberlerde tutarlı kayıt, bağlantı çalışması | Rekabeti orta düzeydeki aramalarda sıra hareketi, tıklamaların artması | Performans raporu, sıra takibi |
 | 6. ay ve sonrası | İçeriği güncel tutma, yeni sorulara sayfa, ölçüme göre öncelik değiştirme | Rekabetli aramalarda ilerleme, telefon ve form taleplerinin artması | Search Console, analiz aracı, gelen talepler |
 
+> **Hizmet almak için iletişime geçin.** Sitenizin dizine eklenme, hız ve mobil durumunu birlikte tarayalım; bulguları öncelik sırasıyla yazılı verelim. [Teknik SEO hizmetimizi](/teknik-seo/) inceleyin ya da [bize yazın](/iletisim/).
+
 ## Yeni site ile mevcut site arasında fark var mı?
 
 Var. Yeni bir sitede önce Google’ın siteyi keşfetmesi, taraması ve dizine eklemesi gerekir. Site haritasını Search Console’dan göndermek ve sayfaları birbirine bağlamak bu süreci kolaylaştırır, ama aşamaları atlatmaz.
@@ -129,6 +131,8 @@ Aylar geçtiği hâlde gösterimler bile artmıyorsa önce şu soruları sorun:
 - İşletme Profili eksiksiz mi, yorum alıyor mu?
 
 Bu sorulardan birinin cevabı “hayır” ise sorun süre değil, yöntemdir.
+
+> **Sizin için de yapalım mı?** Sitenizde teknik bir sorun şüpheniz varsa nedenini sırayla teşhis edelim. [Hizmet almak için iletişime geçin](/iletisim/); çalışmanın kapsamı [teknik SEO sayfamızda](/teknik-seo/) anlatılıyor.
 
 ## SEO’yu bırakırsam sıram düşer mi?
 

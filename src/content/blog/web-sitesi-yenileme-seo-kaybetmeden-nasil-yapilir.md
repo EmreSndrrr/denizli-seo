@@ -27,6 +27,8 @@ Google’ın site taşıma rehberi, HTTP’den HTTPS’e geçiş ve alan adı ya
 9. **İzleyin.** Search Console’da 404’ler, tarama hataları, performans.
 10. **Düzeltin.** Unutulan adresler için yönlendirme ekleyin.
 
+> **Hizmet almak için iletişime geçin.** SEO’yu baştan düşünerek tasarlanmış, hızlı ve telefonda rahat bir site kuralım. [Web tasarım hizmetimizi](/web-tasarim/) inceleyin ya da [bize yazın](/iletisim/).
+
 ## Eşleme tablosu örneği
 
 | Eski adres | Yeni adres | İşlem |
@@ -41,6 +43,8 @@ Karşılığı olmayan sayfalar için bkz. [404 hatası: düzeltmeli mi, yönlen
 ## Yayın sonrası izleme
 
 Search Console’da yayından sonraki günlerde dizin kapsamı ve tarama hatalarını izleyin; ani düşüşlerde nedenleri sırayla kontrol edin ([arama trafiğindeki düşüşlerde hata ayıklama](https://developers.google.com/search/docs/monitor-debug/debugging-search-traffic-drops?hl=tr)). Trafik dalgalanması için [trafik düşüşü nasıl teşhis edilir?](/blog/trafik-dususu-nasil-teshis-edilir/) yazısına bakın.
+
+> **Sizin için de yapalım mı?** Mevcut sitenizi yenilemek ya da sıfırdan kurmak istiyorsanız ihtiyacınızı birlikte netleştirelim. [Hizmet almak için iletişime geçin](/iletisim/); ayrıntı [web tasarım sayfamızda](/web-tasarim/).
 
 ## Sık yapılan hatalar
 

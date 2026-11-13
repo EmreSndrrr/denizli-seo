@@ -54,6 +54,8 @@ Google’ın bağlantı rehberi, bağlantının kullanıcıya yararlı ve bağla
 
 Örnek (hayalî bir işletme için): Merkezefendi’de bir inşaat firması, yerel bir meslek odası kaynak sayfasında artık açılmayan bir yönetmelik bağlantısı buluyor. Sayfa yöneticisine hatayı bildirip, kendi sitesinde doğru kaynaklara bağlanan güncel bir rehberi alternatif olarak öneriyor. Cevap gelmezse konu kapanır; bu bir sonuç değil, nazik bir denemedir.
 
+> **Hizmet almak için iletişime geçin.** Satın alınmış bağlantı olmadan, gerçek kaynaklarla bağlantı ve otorite çalışması planlayalım. [Backlink hizmetimizi](/backlink-hizmeti/) inceleyin ya da [bize yazın](/iletisim/).
+
 ## Kırık bağlantı nedir, nasıl oluşur?
 
 Kırık bağlantı, tıkladığınızda hata sayfasına (çoğunlukla 404) giden bağlantıdır. Bir sayfa silindiğinde, adresi değiştiğinde ya da site kapandığında, o sayfaya bağlantı veren tüm sayfalarda kırık bağlantı oluşur. Web sitelerinin büyük bölümünde bir miktar kırık bağlantı vardır; çünkü içerik eskir ama bağlantılar güncellenmez. Bu yöntem, bu doğal erimeyi bir iyilik fırsatına çevirir: sitenin sahibine sorunu bildirirsiniz, çözümün parçası olursunuz.
@@ -128,6 +130,8 @@ Yöntemin diğer yüzü, kendi sitenizde kırık bağlantı bırakmamaktır:
 - **Hata sayfanızı iyi tasarlayın:** Kullanıcıyı ana sayfaya ya da aramaya yönlendirin
 
 Google’ın bağlantı rehberi, bağlantıların gerçek `<a href>` öğeleri olmasını ve bağlantı metninin açıklayıcı olmasını önerir ([bağlantı en iyi uygulamaları](https://developers.google.com/search/docs/crawling-indexing/links-crawlable?hl=tr)); kırık bağlantılar bu bağlamda hem okuyucuya hem tarayıcılara zarar verir.
+
+> **Sizin için de yapalım mı?** Mevcut bağlantı durumunuza birlikte bakıp güvenli bir yol çizelim. [Hizmet almak için iletişime geçin](/iletisim/); hangi yöntemleri kullanmadığımız [backlink sayfamızda](/backlink-hizmeti/) açıkça yazıyor.
 
 ## Üç örnek senaryo
 

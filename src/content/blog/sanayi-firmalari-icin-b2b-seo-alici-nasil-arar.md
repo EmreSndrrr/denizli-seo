@@ -59,6 +59,8 @@ PDF katalog ve teknik föy B2B’de yaygındır. İyi uygulama:
 - Tek sayfalık özet (ürün föyü) ve ayrıntılı katalog sunun.
 - İndirme için form zorunlu mu? Zorunlu yaparsanız alıcı caydığı için faydayı açıkça anlatın; çoğu durumda bilgiyi serbest bırakıp teklif formunu ayrıca sunmak yeterlidir.
 
+> **Hizmet almak için iletişime geçin.** Sitenizin dizine eklenme, hız ve mobil durumunu birlikte tarayalım; bulguları öncelik sırasıyla yazılı verelim. [Teknik SEO hizmetimizi](/teknik-seo/) inceleyin ya da [bize yazın](/iletisim/).
+
 ## Teklif talebi: dönüşüm noktası
 
 Alıcı sizi bulduktan sonra teklif istemek zor olmamalı:
@@ -97,6 +99,8 @@ B2B’de bir ziyaretçi haftalar sonra teklif isteyebilir. Ölçüm şöyle yap�
 ## B2B’de yerel ve uluslararası yönler
 
 Fabrika ve ofis adresinizi Google İşletme Profili’nde doğru tutun; yerel tedarikçi aramalarında harita sonuçları da önemli olabilir. İhracat yapıyorsanız hedef dilde sayfa ve `hreflang` kullanın ([yerelleştirilmiş sürümler](https://developers.google.com/search/docs/specialty/international/localized-versions?hl=tr)).
+
+> **Sizin için de yapalım mı?** Sitenizde teknik bir sorun şüpheniz varsa nedenini sırayla teşhis edelim. [Hizmet almak için iletişime geçin](/iletisim/); çalışmanın kapsamı [teknik SEO sayfamızda](/teknik-seo/) anlatılıyor.
 
 ## Sık yapılan hatalar
 

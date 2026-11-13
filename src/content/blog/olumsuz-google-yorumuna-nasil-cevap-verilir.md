@@ -63,6 +63,8 @@ Aşağıdaki metinler hayalî işletmeler için örneklerdir; kendi durumunuza g
 
 Her örnekte ortak yapı aynı: özür ya da empati, kısa açıklama, çözüm yolu. Hiçbirinde müşterinin adı ya da özel bilgisi yok.
 
+> **Hizmet almak için iletişime geçin.** Google İşletme Profili’nizi ve harita görünürlüğünüzü birlikte inceleyelim; ne eksik, neyin düzeltileceğini yazılı söyleyelim. [Yerel SEO hizmetimizi](/yerel-seo/) inceleyin ya da [bize yazın](/iletisim/).
+
 ## Yanıt verirken yapılmaması gerekenler
 
 - **Savunmaya geçmek.** “Siz yanlış anlamışsınız” ifadesi müşteriyi karşıt hâle getirir.
@@ -93,6 +95,8 @@ Kurallara aykırı olmayan, yalnızca sert bir yorumu bildirmek işe yaramaz; b�
 - **Üslup belirleyin.** Üç dört cümlelik bir üslup kılavuzu yazın.
 - **Kayıt tutun.** Hangi yoruma ne yanıt verdiniz, sorun çözüldü mü?
 - **Aylık değerlendirin.** Tekrarlayan şikâyet varsa işi düzeltin.
+
+> **Sizin için de yapalım mı?** Haritada daha görünür olmak istiyorsanız profilinize ve yerel kayıtlarınıza bakıp yapılacakları kalem kalem çıkaralım. [Hizmet almak için iletişime geçin](/iletisim/); ayrıntı için [yerel SEO sayfamıza](/yerel-seo/) göz atabilirsiniz.
 
 ## Denizli’den bir örnek
 

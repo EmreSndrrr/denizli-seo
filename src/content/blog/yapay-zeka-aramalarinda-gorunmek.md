@@ -52,6 +52,8 @@ Bu belgelerdeki önemli ayrıntılar şunlar:
 - **Anthropic**, Claude-SearchBot’u ya da Claude-User’ı engellemenin sitenin kullanıcı aramalarındaki görünürlüğünü azaltabileceğini, ClaudeBot’u engellemenin ise sitenin gelecekteki içeriğinin eğitim verisinden çıkarılması isteği olduğunu yazıyor ([Anthropic: tarayıcılar](https://support.claude.com/en/articles/8896518-does-anthropic-crawl-data-from-the-web-and-how-can-site-owners-block-the-crawler)).
 - **Google**, Google-Extended ayarının sitenin Google Arama’ya dahil edilmesini etkilemediğini ve Arama’da sıralama sinyali olarak kullanılmadığını yazıyor ([Google: yaygın tarayıcılar](https://developers.google.com/crawling/docs/crawlers-fetchers/google-common-crawlers?hl=tr)).
 
+> **Hizmet almak için iletişime geçin.** Müşterilerinizin sorduğu sorulardan bir içerik planı çıkaralım ve sayfalarınızı birlikte yazalım. [İçerik SEO hizmetimizi](/icerik-seo/) inceleyin ya da [bize yazın](/iletisim/).
+
 ## robots.txt’te hangi botlara izin vermeliyim?
 
 Arama için çalışan botlara izin verin; eğitim botları için kararı kendiniz verin. robots.txt, sitenizin `/robots.txt` adresinde duran ve botlara hangi bölümleri tarayabileceklerini söyleyen dosyadır. Bir karar kuralı:
@@ -91,6 +93,8 @@ Google’ın optimizasyon rehberi, internette dolaşan bazı “yapay zekâ takt
 - **Her soru biçimine ayrı sayfa açmak.** Google, aramaların her olası biçimi için ayrı içerik üretmenin, bunu sıralamayı ya da yapay zekâ yanıtlarını etkilemek için yaptığınızda “ölçekli içerik kötüye kullanımı” spam politikasını ihlal ettiğini yazıyor.
 - **Yapay “anılma” kampanyaları.** Google, sahte yollarla web’de adınızın geçmesini sağlamanın sanıldığı kadar faydalı olmadığını belirtiyor. Gerçek itibar, gerçek iş ve gerçek müşteriyle gelir.
 - **İç verilere eriştiğini söyleyen araçlar.** Google, hiçbir üçüncü taraf aracın kendi iç sıralama ya da yapay zekâ sistemlerine erişimi olmadığını yazıyor.
+
+> **Sizin için de yapalım mı?** Sayfalarınızın ve yazılarınızın neden yeterince işe yaramadığına birlikte bakalım. [Hizmet almak için iletişime geçin](/iletisim/); yöntemimiz [içerik SEO sayfamızda](/icerik-seo/) yazılı.
 
 ## Yapay zekâ özetlerinde görünüp görünmediğimi nasıl ölçerim?
 

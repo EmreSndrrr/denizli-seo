@@ -38,6 +38,8 @@ Kritik kural: **alakasız bir sayfaya toplu yönlendirmeyin.** Silinen yüzlerce
 
 Google, bir sayfa 200 (başarılı) dönerken içeriği “sayfa bulunamadı”, boş sayfa ya da hata mesajı gibi görünüyorsa Search Console’da soft 404 uyarısı gösterdiğini belirtir. Google’ın önerisi: gerçekten bulunamayan sayfalar için 404 yanıt kodu döndürmek. Ayrıntılar için [soft 404 nedir?](/blog/soft-404-nedir-nasil-duzeltilir/) yazımıza bakın.
 
+> **Hizmet almak için iletişime geçin.** Sitenizin dizine eklenme, hız ve mobil durumunu birlikte tarayalım; bulguları öncelik sırasıyla yazılı verelim. [Teknik SEO hizmetimizi](/teknik-seo/) inceleyin ya da [bize yazın](/iletisim/).
+
 ## Özel 404 sayfası nasıl olmalı?
 
 Kullanıcı bulunamayan bir sayfaya düştüğünde bırakılmamalı. İyi bir 404 sayfası:
@@ -70,6 +72,8 @@ Her 404’ü yönlendirmeye çalışmak zaman kaybıdır.
 ## Site yenilerken 404 riski
 
 Siteyi yenilediğinizde adresler değişirse eski adresler 404 verir ve eski sitenin görünürlüğü kaybolur. Çözüm yayın öncesi yazılı bir adres eşleme tablosu hazırlamaktır: eski adres, yeni adres. Google’ın site taşıma rehberi de eski URL’lerden yenilerine bir URL eşlemesi hazırlanmasını ve sunucunun eski URL’lerden yenilerine yönlendirecek şekilde yapılandırılmasını önerir ([site taşıma işlemleri](https://developers.google.com/search/docs/crawling-indexing/site-move-with-url-changes?hl=tr)). Ayrıntı için [yeni siteye geçerken 301 listesi](/blog/site-tasima-301-yonlendirme/) yazımıza bakın.
+
+> **Sizin için de yapalım mı?** Sitenizde teknik bir sorun şüpheniz varsa nedenini sırayla teşhis edelim. [Hizmet almak için iletişime geçin](/iletisim/); çalışmanın kapsamı [teknik SEO sayfamızda](/teknik-seo/) anlatılıyor.
 
 ## Denizli’den bir örnek
 

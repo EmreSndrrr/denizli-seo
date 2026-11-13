@@ -31,6 +31,8 @@ Yeni bir site açan işletmeler genellikle iki hataya düşer: ya tek sayfalık 
 - **İletişim:** Adres, telefon, harita, form; bkz. [iletişim sayfası SEO’su](/blog/iletisim-sayfasi-seo-su-adres-telefon-ve-harita/).
 - **Blog:** Müşterinin gerçek sorularına cevap; bkz. içerik planı.
 
+> **Hizmet almak için iletişime geçin.** Müşterilerinizin sorduğu sorulardan bir içerik planı çıkaralım ve sayfalarınızı birlikte yazalım. [İçerik SEO hizmetimizi](/icerik-seo/) inceleyin ya da [bize yazın](/iletisim/).
+
 ## Adım adım plan
 
 1. **Hizmetlerinizi listeleyin.** Gelir getiren ana hizmetleri belirleyin.
@@ -49,6 +51,8 @@ Yeni bir site açan işletmeler genellikle iki hataya düşer: ya tek sayfalık 
 - **Vaka çalışmaları:** Gerçek ve izinli iş yoksa uydurmayın
 - **Yorumlar sayfası:** Gerçek yorum yoksa boş sayfa açmayın
 - **“Hakkımızda”nın uzun hikâyesi:** Önce kısa ve net yazın
+
+> **Sizin için de yapalım mı?** Sayfalarınızın ve yazılarınızın neden yeterince işe yaramadığına birlikte bakalım. [Hizmet almak için iletişime geçin](/iletisim/); yöntemimiz [içerik SEO sayfamızda](/icerik-seo/) yazılı.
 
 ## Sık yapılan hatalar
 

@@ -64,6 +64,8 @@ Bizim gözlemimiz, yerel aramalarda en sık karşılaşılan hilenin **ilçe ad�
 
 Bu, Google’ın anahtar kelime doldurma örneğiyle birebir örtüşür: sıralama almaya çalışılan bölgelerin listelendiği metin bloğu. Doğrusu, gerçekten hizmet verdiğiniz ilçeler için, o ilçeye özgü bilgi içeren sayfalar açmaktır. Hangi durumda ilçe sayfası açılması gerektiğini ve şablon sayfaların neden zararlı olduğunu [ilçe bazlı arama](/blog/denizli-ilce-bazli-arama/) yazımızda anlattık.
 
+> **Hizmet almak için iletişime geçin.** Satın alınmış bağlantı olmadan, gerçek kaynaklarla bağlantı ve otorite çalışması planlayalım. [Backlink hizmetimizi](/backlink-hizmeti/) inceleyin ya da [bize yazın](/iletisim/).
+
 ## Negatif SEO gerçek mi?
 
 Negatif SEO, birinin rakibinin sitesine zarar vermek için çok sayıda kötü bağlantı göstermesi gibi girişimleri anlatan bir sektör terimidir. Google, üçüncü taraf sitelerindeki işlemlerin bir web sitesini olumsuz yönde etkilememesi için çok yoğun çaba harcadığını ve çoğu sitede bağlantı reddetme aracının kullanılmasına gerek olmadığını belirtir ([bağlantıları reddetme](https://support.google.com/webmasters/answer/2648487?hl=tr)).
@@ -88,6 +90,8 @@ Bilerek hile yapmasanız bile eski bir web tasarımcısının, ajansın ya da ş
 6. **Sitenizi Google’da arayın.** Alan adınızla birlikte tuhaf, ilgisiz sonuçlar (örneğin ilaç ya da bahis içerikli başlıklar) çıkıyorsa site ele geçirilmiş olabilir; bu durumda barındırma firmanızla hemen görüşün.
 
 Bulduğunuz şeyi silmeden önce yedek alın ve ne olduğundan emin değilseniz sitenizi yapan kişiye danışın.
+
+> **Sizin için de yapalım mı?** Mevcut bağlantı durumunuza birlikte bakıp güvenli bir yol çizelim. [Hizmet almak için iletişime geçin](/iletisim/); hangi yöntemleri kullanmadığımız [backlink sayfamızda](/backlink-hizmeti/) açıkça yazıyor.
 
 ## Beyaz şapka ile gri alan arasındaki çizgi nerede?
 

@@ -53,6 +53,8 @@ Bir “NAP kartı” oluşturun. Bu kart, tüm yerlerde kullanılacak resmî yaz
 
 Kartı tek bir dosyada tutun ve rehber, sosyal medya ya da site güncellemesi yaparken oradan kopyalayın. Kopyala-yapıştır tutarlılığın en kolay yoludur.
 
+> **Hizmet almak için iletişime geçin.** Google İşletme Profili’nizi ve harita görünürlüğünüzü birlikte inceleyelim; ne eksik, neyin düzeltileceğini yazılı söyleyelim. [Yerel SEO hizmetimizi](/yerel-seo/) inceleyin ya da [bize yazın](/iletisim/).
+
 ## Bilgilerin bulunduğu yerleri listeleyin
 
 Tutarlılık denetimi önce envanterle başlar. Şu yerlere bakın:
@@ -85,6 +87,8 @@ Adres ya da telefon değiştirdiğinizde bu bilgileri aynı hafta içinde her ye
 ## Birden fazla şube ve numara
 
 Her şubenin kendi adı ve adresi olmalı; aynı telefon numarasını birden fazla şubede kullanmak karışıklık yaratır. Her şube için ayrı profil, ayrı sitede sayfa ve ayrı telefon kullanın; Google, işletmenin birden fazla konumu varsa ve her konumda farklı personelle farklı hizmet bölgelerine hizmet veriyorsa her konum için ayrı profil açılabileceğini söyler. Çok şubeli işletmeler için ayrıntı [birden fazla şubeli işletmeler için yerel SEO](/blog/birden-fazla-subeli-isletmeler-icin-yerel-seo/) yazımızda.
+
+> **Sizin için de yapalım mı?** Haritada daha görünür olmak istiyorsanız profilinize ve yerel kayıtlarınıza bakıp yapılacakları kalem kalem çıkaralım. [Hizmet almak için iletişime geçin](/iletisim/); ayrıntı için [yerel SEO sayfamıza](/yerel-seo/) göz atabilirsiniz.
 
 ## Denizli’den bir örnek
 

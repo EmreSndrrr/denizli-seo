@@ -39,6 +39,8 @@ Kurallar:
 4. **Çok uzun olmasın.**
 5. **Görsel bağlantılarda alt metin kullanın.**
 
+> **Hizmet almak için iletişime geçin.** Müşterilerinizin sorduğu sorulardan bir içerik planı çıkaralım ve sayfalarınızı birlikte yazalım. [İçerik SEO hizmetimizi](/icerik-seo/) inceleyin ya da [bize yazın](/iletisim/).
+
 ## Küçük siteler için bağlantı mimarisi
 
 Küçük bir sitede basit bir hiyerarşi yeterlidir:
@@ -80,6 +82,8 @@ Yetim sayfa, sitenizdeki hiçbir sayfanın bağlantı vermediği sayfadır. Bulm
 4. Gerçekten gereksiz sayfaları kaldırın ya da birleştirin.
 
 Search Console’daki Bağlantılar raporunun dahili bağlantılar bölümü, en çok iç bağlantı alan sayfaları gösterir; en az bağlantı alan önemli sayfaları bu rapordan ya da elle kontrol edebilirsiniz. Rapor için [backlink sorgulama](/blog/backlink-sorgulama/) yazımızdaki dahili bağlantılar bölümüne bakın.
+
+> **Sizin için de yapalım mı?** Sayfalarınızın ve yazılarınızın neden yeterince işe yaramadığına birlikte bakalım. [Hizmet almak için iletişime geçin](/iletisim/); yöntemimiz [içerik SEO sayfamızda](/icerik-seo/) yazılı.
 
 ## Navigasyon: menü, alt bilgi, breadcrumb
 

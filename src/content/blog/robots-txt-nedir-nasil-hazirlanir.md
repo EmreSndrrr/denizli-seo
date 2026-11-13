@@ -54,6 +54,8 @@ Bu örnekte Googlebot, `/nogooglebot/` ile başlayan URL’leri taramaz; diğer 
 
 Birden fazla `Sitemap:` satırı yazabilirsiniz; Google, robots.txt’ye eklenebilecek site haritası sayısında sınır olmadığını belirtir.
 
+> **Hizmet almak için iletişime geçin.** Sitenizin dizine eklenme, hız ve mobil durumunu birlikte tarayalım; bulguları öncelik sırasıyla yazılı verelim. [Teknik SEO hizmetimizi](/teknik-seo/) inceleyin ya da [bize yazın](/iletisim/).
+
 ## Küçük bir işletme sitesi için ne yazılmalı?
 
 Çoğu işletme sitesi için en güvenli dosya, her şeye izin veren ve site haritasını bildiren basit bir dosyadır:
@@ -92,6 +94,8 @@ Google, noindex kuralının etkili olması için sayfanın hem robots.txt taraf�
 3. Site haritası adresi doğru mu?
 4. Önemli sayfalarınızı Search Console’daki URL Denetleme ile kontrol edin: “robots.txt tarafından engellendi” gibi bir uyarı var mı? Adımlar [Search Console’da ilk kontrol](/blog/search-console-ilk-kontrol/) yazımızda.
 5. Dosyayı değiştirdiyseniz Google’ın güncellenmiş dosyayı nasıl alacağı için Google’ın [robots.txt güncelleme](https://developers.google.com/search/docs/crawling-indexing/robots/submit-updated-robots-txt?hl=tr) rehberine bakın.
+
+> **Sizin için de yapalım mı?** Sitenizde teknik bir sorun şüpheniz varsa nedenini sırayla teşhis edelim. [Hizmet almak için iletişime geçin](/iletisim/); çalışmanın kapsamı [teknik SEO sayfamızda](/teknik-seo/) anlatılıyor.
 
 ## Hangi bölümler engellenebilir?
 

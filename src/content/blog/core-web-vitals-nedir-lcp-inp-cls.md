@@ -34,6 +34,8 @@ INP, ziyaretçinin sayfada yaptığı etkileşimlerin (tıklama, dokunma, tuşa 
 
 CLS, sayfa yüklenirken öğelerin beklenmedik biçimde yer değiştirmesini ölçer. Tipik örnek: yazıyı okurken üstte geç yüklenen bir reklam ya da görsel metni aşağı iter ve yanlış yere tıklarsınız. İyi bir CLS 0,1 veya daha azdır. Yaygın nedenler: boyutu tanımlanmamış görseller, geç yüklenen yazı tipleri, sonradan eklenen banner ve çerez bildirimleri.
 
+> **Hizmet almak için iletişime geçin.** Sitenizin dizine eklenme, hız ve mobil durumunu birlikte tarayalım; bulguları öncelik sırasıyla yazılı verelim. [Teknik SEO hizmetimizi](/teknik-seo/) inceleyin ya da [bize yazın](/iletisim/).
+
 ## Core Web Vitals’ı nasıl ölçersiniz?
 
 1. **Search Console, Core Web Vitals raporu.** Google, bu raporda sayfalarınızın performansının gösterildiğini söyler. Raporun ayrıntıları Search Console’da değişebilir; trafiği düşük sitelerde yeterli veri olmayabilir.
@@ -60,6 +62,8 @@ Google’ın sayfa deneyimi sayfası, temel sıralama sistemlerinin iyi bir sayf
 ## Mobilde özellikle önemli
 
 Google, dizine ekleme ve sıralama için sitenin mobil sürümünü kullanır; bu yüzden ölçümleri masaüstünden değil, telefonla ve mobil veriyle değerlendirin. Telefonda ağ daha yavaş, işlemci daha zayıf olabilir; masaüstünde “iyi” görünen bir site telefonda sorun yaşayabilir.
+
+> **Sizin için de yapalım mı?** Sitenizde teknik bir sorun şüpheniz varsa nedenini sırayla teşhis edelim. [Hizmet almak için iletişime geçin](/iletisim/); çalışmanın kapsamı [teknik SEO sayfamızda](/teknik-seo/) anlatılıyor.
 
 ## Denizli’den bir örnek
 

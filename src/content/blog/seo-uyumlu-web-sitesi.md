@@ -57,6 +57,8 @@ Her sayfanın açıklayıcı ve kısa bir `<title>` başlığı olmalı; “Ana 
 
 Tasarımcıya sorun: “Başlık ve açıklamaları sayfa sayfa girebilir miyim, yoksa şablondan otomatik mi geliyor?” Otomatik gelen başlıklar çoğu zaman tüm sayfalarda aynıdır.
 
+> **Hizmet almak için iletişime geçin.** SEO’yu baştan düşünerek tasarlanmış, hızlı ve telefonda rahat bir site kuralım. [Web tasarım hizmetimizi](/web-tasarim/) inceleyin ya da [bize yazın](/iletisim/).
+
 ## Site haritası ve robots ayarları var mı?
 
 Site haritası, sitenizdeki önemli adresleri Google’a bildiren bir dosyadır ([site haritası nedir?](https://developers.google.com/search/docs/crawling-indexing/sitemaps/overview?hl=tr)). Bazı içerik yönetim sistemleri bunu otomatik üretir. Teslimde şu iki şeyi sorun:
@@ -103,6 +105,8 @@ Kontrol edin:
 8. Hesaplar ve erişimler size ait.
 
 Bunlar, [ücretsiz SEO analizi](/blog/ucretsiz-seo-analizi-nasil-yapilir/) yazımızdaki kontrollerin teslim anına uyarlanmış hâlidir.
+
+> **Sizin için de yapalım mı?** Mevcut sitenizi yenilemek ya da sıfırdan kurmak istiyorsanız ihtiyacınızı birlikte netleştirelim. [Hizmet almak için iletişime geçin](/iletisim/); ayrıntı [web tasarım sayfamızda](/web-tasarim/).
 
 ## Hazır sistem mi, özel kodlama mı?
 

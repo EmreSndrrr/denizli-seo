@@ -53,6 +53,8 @@ En sade bir XML örneği:
 - **`priority` ve `changefreq`:** Google ikisini de yok sayar; bu alanlara emek harcamayın.
 - **`lastmod`:** Doğruysa işe yarar. Google, tutarlı ve doğrulanabilir biçimde (örneğin sayfanın gerçek son değişikliğiyle karşılaştırarak) doğru olduğundan emin olduğunda bu değeri kullanır; her güncellemede rastgele tarih değiştirmeyin.
 
+> **Hizmet almak için iletişime geçin.** Sitenizin dizine eklenme, hız ve mobil durumunu birlikte tarayalım; bulguları öncelik sırasıyla yazılı verelim. [Teknik SEO hizmetimizi](/teknik-seo/) inceleyin ya da [bize yazın](/iletisim/).
+
 ## Site haritası nasıl oluşturulur?
 
 Üç yol var:
@@ -87,6 +89,8 @@ Google’a iki yolla bildirebilirsiniz:
 4. **Çok sayfa yüklemek.** Önemsiz sayfaları (etiket arşivleri, iç arama) haritaya doldurmak.
 5. **Haritanın robots.txt tarafından engellenmesi.**
 6. **Gönderip bir daha bakmamak.**
+
+> **Sizin için de yapalım mı?** Sitenizde teknik bir sorun şüpheniz varsa nedenini sırayla teşhis edelim. [Hizmet almak için iletişime geçin](/iletisim/); çalışmanın kapsamı [teknik SEO sayfamızda](/teknik-seo/) anlatılıyor.
 
 ## Denizli’den bir örnek
 

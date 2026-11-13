@@ -60,6 +60,8 @@ Bir gazeteci ya da editör, her gün onlarca öneri alır. Sizi seçmesinin nede
 - **Bunu bir kişi anlatabilir mi?:** Konuşabilecek, adı ve unvanı belli bir uzman
 - **Başka yerde yayımlandı mı?:** Özgün, yalnızca kendisine sunulmuş içerik
 
+> **Hizmet almak için iletişime geçin.** Satın alınmış bağlantı olmadan, gerçek kaynaklarla bağlantı ve otorite çalışması planlayalım. [Backlink hizmetimizi](/backlink-hizmeti/) inceleyin ya da [bize yazın](/iletisim/).
+
 ## Haber değeri taşıyan 8 konu fikri
 
 Her işletmenin haber değeri yoktur; ama çoğunun bir yerde ilginç bir hikâyesi vardır. Aşağıdaki fikirleri kendi işletmenize uyarlayın:
@@ -148,6 +150,8 @@ Mesajın kısa, kişisel ve sizden çok okuyucuya dönük olmasına dikkat edin.
 ### Senaryo 3: Üretici firma
 
 Örnek (hayalî bir işletme için): Bir ev tekstili üreticisi, bölgedeki üretimin mevsimsel yoğunluğuna dair kendi gözlemini ve müşteri sorularını derleyip “Havlu alırken sorulması gereken 7 soru” rehberini hazırlıyor. Rehber, hem tüketiciye hem toptan alıcıya hitap ediyor. Ekonomi ve yerel sanayi köşelerine uzman görüşü olarak sunuluyor.
+
+> **Sizin için de yapalım mı?** Mevcut bağlantı durumunuza birlikte bakıp güvenli bir yol çizelim. [Hizmet almak için iletişime geçin](/iletisim/); hangi yöntemleri kullanmadığımız [backlink sayfamızda](/backlink-hizmeti/) açıkça yazıyor.
 
 ## Dijital PR içeriği nasıl hazırlanır?
 

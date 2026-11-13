@@ -42,6 +42,8 @@ Spam politikası da ölçeklendirilmiş içeriği, kullanıcıya yardımcı olma
 4. **Güncel olmayan bilgi.** Araç, Google sayfalarının ya da mevzuatın son hâlini bilmeyebilir.
 5. **Tekrar eden kalıplar.** Aynı yapıdaki yüzlerce sayfa.
 
+> **Hizmet almak için iletişime geçin.** Müşterilerinizin sorduğu sorulardan bir içerik planı çıkaralım ve sayfalarınızı birlikte yazalım. [İçerik SEO hizmetimizi](/icerik-seo/) inceleyin ya da [bize yazın](/iletisim/).
+
 ## Güvenli bir iş akışı: 7 adım
 
 1. **Konuyu siz seçin.** Müşteri sorularından; bkz. [içerik planı](/blog/icerik-plani-nasil-yapilir-aylik-takvim-ornegi/).
@@ -70,6 +72,8 @@ Google’ın bu yazıda kullandığımız kılavuzu, ayrı bir etiketleme zorunl
 6. Metin başka bir sayfanın kopyası ya da benzeri mi?
 7. Yazar ve gözden geçiren belli mi?
 8. Yayın sonrası güncelleme planı var mı?
+
+> **Sizin için de yapalım mı?** Sayfalarınızın ve yazılarınızın neden yeterince işe yaramadığına birlikte bakalım. [Hizmet almak için iletişime geçin](/iletisim/); yöntemimiz [içerik SEO sayfamızda](/icerik-seo/) yazılı.
 
 ## Denizli’den bir örnek
 

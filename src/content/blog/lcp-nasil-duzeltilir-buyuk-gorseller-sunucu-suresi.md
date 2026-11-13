@@ -46,6 +46,8 @@ web.dev’e göre yüksek TTFB, 2,5 saniyelik LCP’ye ulaşmayı zorlaştırabi
 - **Gereksiz eklentileri kaldırın.** Her eklenti sayfanın üretim süresini uzatabilir.
 - **Gereksiz yönlendirmeleri azaltın.** Zincirleme yönlendirme TTFB’yi artırır; bkz. [301 ve 302 farkı](/blog/301-ve-302-yonlendirme-farki-nedir/).
 
+> **Hizmet almak için iletişime geçin.** Sitenizin dizine eklenme, hız ve mobil durumunu birlikte tarayalım; bulguları öncelik sırasıyla yazılı verelim. [Teknik SEO hizmetimizi](/teknik-seo/) inceleyin ya da [bize yazın](/iletisim/).
+
 ## 2. Kaynak yükleme gecikmesi: görsel geç mi başlıyor?
 
 LCP görselinin tarayıcı tarafından erken keşfedilmesi ve hemen yüklenmeye başlaması gerekir. web.dev’in iki önemli önerisi:
@@ -83,6 +85,8 @@ Görsel hızlı yüklendiği hâlde ekranda geç görünüyorsa çoğunlukla Jav
 - **7:** i̇ş: Mobilde yeniden ölç; beklenen etki: Doğrulama
 
 Her değişiklikten sonra ölçüm yapın; aynı anda beş şeyi değiştirirseniz hangisinin işe yaradığını bilemezsiniz.
+
+> **Sizin için de yapalım mı?** Sitenizde teknik bir sorun şüpheniz varsa nedenini sırayla teşhis edelim. [Hizmet almak için iletişime geçin](/iletisim/); çalışmanın kapsamı [teknik SEO sayfamızda](/teknik-seo/) anlatılıyor.
 
 ## Düzelttikten sonra ne zaman sonuç görürsünüz?
 

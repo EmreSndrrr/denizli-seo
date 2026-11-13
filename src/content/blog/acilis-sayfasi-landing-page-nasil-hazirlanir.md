@@ -31,6 +31,8 @@ Reklam ya da kampanya için hazırlanan sayfalar ile sitenin kalıcı hizmet say
 7. **Mobilde test edin.** Düğme ve form tek elle kullanılabilmeli.
 8. **Ölçün.** Form gönderimi ve arama sayısını izleyin.
 
+> **Hizmet almak için iletişime geçin.** Müşterilerinizin sorduğu sorulardan bir içerik planı çıkaralım ve sayfalarınızı birlikte yazalım. [İçerik SEO hizmetimizi](/icerik-seo/) inceleyin ya da [bize yazın](/iletisim/).
+
 ## Arama için açılış sayfası: dikkat
 
 Google’ın spam politikaları, belirli arama sorgularında sıralanmak için üretilmiş, kullanıcıya gerçek değer sunmayan sayfaları sorunlu sayar ([spam politikaları](https://developers.google.com/search/docs/essentials/spam-policies?hl=tr)). Bu nedenle her ilçe ve her hizmet için yalnızca şehir adı değişen onlarca sayfa üretmeyin. İlçe sayfası yazacaksanız [ilçe sayfası nasıl yazılır?](/blog/ilce-sayfasi-nasil-yazilir/) yazımıza bakın.
@@ -48,6 +50,8 @@ Google’ın spam politikaları, belirli arama sorgularında sıralanmak için �
 ## Ölçüm ve iyileştirme
 
 Sayfa yayına çıktıktan sonra şunlara bakın: ziyaret sayısı, form gönderimi, arama düğmesi tıklaması, sayfadan ayrılma. Bir değişikliği her seferinde tek tek deneyin; aynı anda çok şey değiştirirseniz neyin işe yaradığını bilemezsiniz. Ölçüm için [yerel SEO sonuçları nasıl ölçülür?](/blog/yerel-seo-sonuclari-nasil-olculur/) yazımıza bakın.
+
+> **Sizin için de yapalım mı?** Sayfalarınızın ve yazılarınızın neden yeterince işe yaramadığına birlikte bakalım. [Hizmet almak için iletişime geçin](/iletisim/); yöntemimiz [içerik SEO sayfamızda](/icerik-seo/) yazılı.
 
 ## Sık yapılan hatalar
 

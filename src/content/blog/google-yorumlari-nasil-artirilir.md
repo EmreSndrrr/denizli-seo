@@ -47,6 +47,8 @@ Kısa, kibar ve yönlendirmesiz bir metin yeterlidir:
 
 Mesajda “5 yıldız verirseniz” ya da “olumlu yorum yazarsanız” gibi ifadeler olmasın. Müşteriye ne yazacağını söylemeyin; yalnızca yorum bırakma imkânını hatırlatın.
 
+> **Hizmet almak için iletişime geçin.** Google İşletme Profili’nizi ve harita görünürlüğünüzü birlikte inceleyelim; ne eksik, neyin düzeltileceğini yazılı söyleyelim. [Yerel SEO hizmetimizi](/yerel-seo/) inceleyin ya da [bize yazın](/iletisim/).
+
 ## Hangi yollar yasaktır?
 
 Google’ın yardım sayfası, yorum paylaşmaları, yorumlarını değiştirmeleri ya da olumsuz yorumlarını kaldırmaları karşılığında müşterilere ücretsiz ya da indirimli ürün veya hizmet gibi teşvikler sunmanın sahte etkileşim sayıldığını ve kesinlikle yasak olduğunu söyler. Haritalar içerik politikası da şunları sayar ([yasaklanmış ve kısıtlanmış içerik](https://support.google.com/contributionpolicy/answer/7400114?hl=tr)):
@@ -95,6 +97,8 @@ Yorum düzenini kurmak küçük bir iştir ama çoğu işletme zaman bulamadığ
 - yorum sayısını ve profil etkileşimini her ay raporlarız.
 
 Yorum satın almayız, yorum karşılığı teşvik önermeyiz; bu, işletmenizi riske atar. Profilinize ve yorum durumunuza bakmamızı isterseniz [bize yazın](/iletisim/); ücretsiz SEO analizi yapıp yazılı olarak sunalım.
+
+> **Sizin için de yapalım mı?** Haritada daha görünür olmak istiyorsanız profilinize ve yerel kayıtlarınıza bakıp yapılacakları kalem kalem çıkaralım. [Hizmet almak için iletişime geçin](/iletisim/); ayrıntı için [yerel SEO sayfamıza](/yerel-seo/) göz atabilirsiniz.
 
 ## Sektöre göre yorum isteme mesajı örnekleri
 

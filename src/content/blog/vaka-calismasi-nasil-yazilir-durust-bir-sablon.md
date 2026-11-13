@@ -32,6 +32,8 @@ Vaka çalışması güven kurmanın en güçlü yollarından biridir; ama uydurm
 | Sınırlar | Başka etkenler, kısa süre, dar örneklem |
 | Sonraki adımlar | Devam eden çalışmalar |
 
+> **Hizmet almak için iletişime geçin.** Müşterilerinizin sorduğu sorulardan bir içerik planı çıkaralım ve sayfalarınızı birlikte yazalım. [İçerik SEO hizmetimizi](/icerik-seo/) inceleyin ya da [bize yazın](/iletisim/).
+
 ## Adım adım yazım
 
 1. **İzin alın.** İzin yoksa sektör ve şehir gibi genel tanımla anonim yazın.
@@ -55,6 +57,8 @@ Yeni başlıyorsanız ya da izniniz yoksa vaka uydurmak yerine:
 - **“Trafik 3 kat arttı” (kaynaksız):** “Search Console’a göre X–Y tarihleri arasında tıklamalar A’dan B’ye çıktı”
 - **“Garantili sıralama”:** “Hedeflenen aramalarda görünürlük arttı; başka etkenler de olmuş olabilir”
 - **“Rakipleri geçtik”:** Hangi aramada, hangi tarihte, neye göre
+
+> **Sizin için de yapalım mı?** Sayfalarınızın ve yazılarınızın neden yeterince işe yaramadığına birlikte bakalım. [Hizmet almak için iletişime geçin](/iletisim/); yöntemimiz [içerik SEO sayfamızda](/icerik-seo/) yazılı.
 
 ## Sık yapılan hatalar
 

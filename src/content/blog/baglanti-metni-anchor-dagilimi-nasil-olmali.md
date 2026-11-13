@@ -38,6 +38,8 @@ Dışarıdan gelen bağlantıların metnini çoğunlukla bağlantıyı veren ki�
 5. **Kendi tarafınızı düzeltin.** Kendi sitenizdeki iç bağlantı metinlerini açıklayıcı ve çeşitli yazın.
 6. **Bağlantı istiyorsanız metin dayatmayın.** Marka adı ya da doğal ifade yeterlidir.
 
+> **Hizmet almak için iletişime geçin.** Satın alınmış bağlantı olmadan, gerçek kaynaklarla bağlantı ve otorite çalışması planlayalım. [Backlink hizmetimizi](/backlink-hizmeti/) inceleyin ya da [bize yazın](/iletisim/).
+
 ## İç bağlantılarda anchor
 
 İç bağlantılarda anchor’ı açıklayıcı yazın; her bağlantıda aynı anahtar kelimeyi tekrarlamak yerine sayfanın konusunu doğal ifadelerle anlatın.
@@ -63,6 +65,8 @@ Bir işletmeyi başka bir site anarken en sık kullanılan bağlantı metni, iş
 Search Console’un Bağlantılar raporunda “en çok bağlantı veren metin” listesi vardır ([bağlantılar raporu](https://support.google.com/webmasters/answer/9049606?hl=tr)). Listeyi okurken tek tek kelimelere değil, genel desene bakın. Çoğunlukla marka adı, site adresi ve konuyu anlatan doğal ifadeler varsa tablo sağlıklıdır. Aynı ticari ifadenin yüzlerce kez tekrar ettiğini görürseniz iki şeyi araştırın: bu bağlantıları sizin adınıza biri mi oluşturdu (eski bir ajans, bir freelancer) ve bağlantılar nerelerden geliyor?
 
 Sağlam bir desen genellikle şuna benzer: marka adı belirgin biçimde çoğunlukta, adres ve “buraya bakın” gibi genel ifadeler ardından geliyor, birkaç da konuyla ilgili doğal ifade var. Bu bir hedef oran değil, doğal bir görünümün tarifidir; Google bir yüzde vermez.
+
+> **Sizin için de yapalım mı?** Mevcut bağlantı durumunuza birlikte bakıp güvenli bir yol çizelim. [Hizmet almak için iletişime geçin](/iletisim/); hangi yöntemleri kullanmadığımız [backlink sayfamızda](/backlink-hizmeti/) açıkça yazıyor.
 
 ## Kendi sitenizde anchor metnini nasıl yazarsınız?
 

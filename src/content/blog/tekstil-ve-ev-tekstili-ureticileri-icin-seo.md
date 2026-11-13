@@ -61,6 +61,8 @@ Tekstilde görsel, kararın büyük kısmıdır: doku, renk, kalite. Google, gö
 - Renk doğruluğuna dikkat edin; yanlış renk iadeye yol açar.
 - Katalog PDF’ini de metin olarak taranabilir tutun.
 
+> **Hizmet almak için iletişime geçin.** Sitenizin dizine eklenme, hız ve mobil durumunu birlikte tarayalım; bulguları öncelik sırasıyla yazılı verelim. [Teknik SEO hizmetimizi](/teknik-seo/) inceleyin ya da [bize yazın](/iletisim/).
+
 ## Yapılandırılmış veri
 
 Ürün sayfalarında Product yapılandırılmış verisi fiyat, stok ve para birimi gibi bilgileri anlatır; Google bunu ürün snippet’i belgesinde tarif eder. Veri, sayfadaki görünür bilgiyle uyuşmalıdır ([ürün snippet’i](https://developers.google.com/search/docs/appearance/structured-data/product-snippet?hl=tr)). Toptan satışta fiyat gösterilmiyorsa uydurma fiyat yazmayın. Genel çerçeve için yapılandırılmış veri rehberi yazısına bakın.
@@ -93,6 +95,8 @@ Uydurma ödül, istatistik ya da müşteri adı yazmayın; bir tek yalan tüm si
 ## Yerel görünürlük
 
 Fabrika ve mağaza işleten üreticiler için Google İşletme Profili de gerekir: tesis ya da mağaza adresi, çalışma saatleri, fotoğraflar. Fabrika satış mağazası varsa tüketici aramalarında harita sonuçları önemli olabilir. Profilde işletme adına pazarlama ifadesi eklemek yasaktır ([işletme kuralları](https://support.google.com/business/answer/3038177?hl=tr)).
+
+> **Sizin için de yapalım mı?** Sitenizde teknik bir sorun şüpheniz varsa nedenini sırayla teşhis edelim. [Hizmet almak için iletişime geçin](/iletisim/); çalışmanın kapsamı [teknik SEO sayfamızda](/teknik-seo/) anlatılıyor.
 
 ## Sık yapılan hatalar
 

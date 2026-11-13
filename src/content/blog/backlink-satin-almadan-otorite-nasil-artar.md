@@ -46,6 +46,8 @@ Spam politikalarına göre para karşılığı sağlanan bağlantılar, aşırı
 - **Müşteri yorumu uydurmak:** Gerçek yorum isteyin
 - **Ölçmemek:** Search Console ve profil raporu
 
+> **Hizmet almak için iletişime geçin.** Satın alınmış bağlantı olmadan, gerçek kaynaklarla bağlantı ve otorite çalışması planlayalım. [Backlink hizmetimizi](/backlink-hizmeti/) inceleyin ya da [bize yazın](/iletisim/).
+
 ## Denizli’den bir örnek
 
 Örnek (hayalî bir işletme için): Merkezefendi’de bir diş kliniği altı ayda şunları yapıyor: hizmet sayfalarını güncelliyor, hastaların sorularına dayalı beş rehber yazıyor, profilini ve çalışma saatlerini güncelliyor, memnun hastalardan karşılıksız yorum rica ediyor, yerel bir meslek derneğinin bülteninde bilgi yazısı yayımlıyor. Bağlantı satın almıyor; sonucu izliyor ve garanti beklemiyor.
@@ -61,6 +63,8 @@ Otoritenin temeli, konunuzda net ve doğru bilgi veren sayfalardır. Hizmet sayf
 ## Müşteri sorularını rehberlere nasıl çevirirsiniz?
 
 Telefonda ve mesajlarda sık gelen sorular, rehber yazılarının ham maddesidir. Her ay en sık gelen üç soruyu seçin ve her birini ayrı bir yazıda cevaplayın. Yazılarda genel bilgiyi kendi gözleminizle birleştirin ve doğrulanamayan iddiaları dışarıda bırakın. Bu yazıları hizmet sayfalarınıza bağlayın; böylece hem okuyucu hem arama sistemi konunuzun derinliğini görür. Yazı planı için [içerik planı nasıl yapılır?](/blog/icerik-plani-nasil-yapilir-aylik-takvim-ornegi/) yazısına bakın.
+
+> **Sizin için de yapalım mı?** Mevcut bağlantı durumunuza birlikte bakıp güvenli bir yol çizelim. [Hizmet almak için iletişime geçin](/iletisim/); hangi yöntemleri kullanmadığımız [backlink sayfamızda](/backlink-hizmeti/) açıkça yazıyor.
 
 ## Yerel ilişkiler otoriteyi nasıl besler?
 

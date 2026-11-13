@@ -50,6 +50,8 @@ Risk pratikte iki katmanlıdır:
 
 Risk gerçekleşmese bile kaybettiğiniz zaman bir bedeldir.
 
+> **Hizmet almak için iletişime geçin.** Satın alınmış bağlantı olmadan, gerçek kaynaklarla bağlantı ve otorite çalışması planlayalım. [Backlink hizmetimizi](/backlink-hizmeti/) inceleyin ya da [bize yazın](/iletisim/).
+
 ## Her yöntem için kısa değerlendirme
 
 Listelerde en sık geçen yöntemleri tek tek ele alalım. Değerlendirme ölçütümüz, bağlantının bir sebebi ve gerçek bir ziyaretçisi olup olmadığıdır.
@@ -96,6 +98,8 @@ Var, ama bunlar bir listeden değil, ilişkilerden gelir. Para ödemezsiniz; zam
 6. **Müşteriler ve sektör dostlarınız.** Birlikte yaptığınız bir projeyi sitesinde anlatmak isteyen müşteriler.
 
 Bu kaynakların listesi ve her biri için pratik adımlar [Denizli işletmeleri için yerel backlink kaynakları](/blog/denizli-yerel-backlink-kaynaklari/) yazımızda.
+
+> **Sizin için de yapalım mı?** Mevcut bağlantı durumunuza birlikte bakıp güvenli bir yol çizelim. [Hizmet almak için iletişime geçin](/iletisim/); hangi yöntemleri kullanmadığımız [backlink sayfamızda](/backlink-hizmeti/) açıkça yazıyor.
 
 ## “Bu bağlantıyı yine de ister miydim?” testi
 

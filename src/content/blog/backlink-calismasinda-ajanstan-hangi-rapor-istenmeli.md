@@ -44,6 +44,8 @@ Rapor yalnızca bağlantıyı değil, etkiyi de ele almalıdır: ilgili sayfalar
 - **Yalnızca “DA/DR arttı” raporu:** Bunlar Google’ın ölçüsü değil
 - **Ücretli yerleşimleri gizlemek:** Niteleme gerekir
 
+> **Hizmet almak için iletişime geçin.** Satın alınmış bağlantı olmadan, gerçek kaynaklarla bağlantı ve otorite çalışması planlayalım. [Backlink hizmetimizi](/backlink-hizmeti/) inceleyin ya da [bize yazın](/iletisim/).
+
 ## Sık yapılan hatalar
 
 - **Raporu okumadan geçmek:** Her ay kaynakları kontrol edin
@@ -72,6 +74,8 @@ Raporu aldıktan sonra yapabileceğiniz en değerli iş, birkaç bağlantıyı r
 5. Search Console’un Bağlantılar raporunda bu siteden bağlantı görünüp görünmediğini kontrol edin ([bağlantılar raporu](https://support.google.com/webmasters/answer/9049606?hl=tr)). Yeni bağlantıların raporda görünmesi biraz zaman alabilir.
 
 Bu beş adım, bir raporun doğru olup olmadığını anlamanın en hızlı yoludur.
+
+> **Sizin için de yapalım mı?** Mevcut bağlantı durumunuza birlikte bakıp güvenli bir yol çizelim. [Hizmet almak için iletişime geçin](/iletisim/); hangi yöntemleri kullanmadığımız [backlink sayfamızda](/backlink-hizmeti/) açıkça yazıyor.
 
 ## Ajans bağlantı yöntemlerini nasıl anlatmalı?
 

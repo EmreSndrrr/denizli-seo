@@ -42,6 +42,8 @@ Bu üç aşama SEO’nun neden “önce teknik, sonra içerik” sırasıyla ile
 
 Sıralama konusunda Google’ın en net cümlesi şudur: sıralama otomatik yapılır ve Google, sayfaları daha üst sırada göstermek için ödeme kabul etmez. Yani organik sonuçlarda yer satın alınmaz. Size “Google ile özel anlaşmamız var, ilk sayfaya biz çıkarırız” diyen biri yanıltıyordur.
 
+> **Hizmet almak için iletişime geçin.** Sitenizin dizine eklenme, hız ve mobil durumunu birlikte tarayalım; bulguları öncelik sırasıyla yazılı verelim. [Teknik SEO hizmetimizi](/teknik-seo/) inceleyin ya da [bize yazın](/iletisim/).
+
 ## SEO’nun parçaları nelerdir?
 
 SEO tek bir iş değil, birbirini tamamlayan dört işin toplamıdır:
@@ -94,6 +96,8 @@ Bu işletme için yedi adım şöyle somutlaşır:
 - **Bilinirlik:** Bölgedeki yerel rehberlerde ve turizm derneklerinde tutarlı adres kaydı.
 
 Aynı mantığı otel ve pansiyonlara uygulayan ayrıntılı bir yazımız da var: Pamukkale’de otel ve pansiyon için SEO.
+
+> **Sizin için de yapalım mı?** Sitenizde teknik bir sorun şüpheniz varsa nedenini sırayla teşhis edelim. [Hizmet almak için iletişime geçin](/iletisim/); çalışmanın kapsamı [teknik SEO sayfamızda](/teknik-seo/) anlatılıyor.
 
 ## SEO ile Google Ads arasındaki fark nedir?
 

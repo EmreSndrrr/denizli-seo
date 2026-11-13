@@ -45,6 +45,8 @@ Eklentiyi kurduğunuzda ilk olarak ana sayfanın, hizmet sayfalarının ve ileti
 
 Site haritası, sitenizdeki önemli adresleri içeren bir dosyadır; bazı içerik yönetim sistemleri bunu sizin yerinize otomatik yapabilir ([site haritası nedir?](https://developers.google.com/search/docs/crawling-indexing/sitemaps/overview?hl=tr)). SEO eklentileri çoğunlukla site haritasını üretir. Siz yalnızca adresini bulun (genellikle sitenizin ana adresinin sonuna bir dosya adı eklenir) ve Search Console’dan gönderin.
 
+> **Hizmet almak için iletişime geçin.** Sitenizin dizine eklenme, hız ve mobil durumunu birlikte tarayalım; bulguları öncelik sırasıyla yazılı verelim. [Teknik SEO hizmetimizi](/teknik-seo/) inceleyin ya da [bize yazın](/iletisim/).
+
 ## 5. Tema ve eklentiler siteyi yavaşlatıyor mu?
 
 Hız, ziyaretçiyi ve Google’ın ölçümlerini etkiler. web.dev, en büyük içeriğin yüklenmesi (LCP) için 2,5 saniye, etkileşime yanıt (INP) için 200 milisaniye ve altını iyi sayar ([Web Vitals](https://web.dev/articles/vitals?hl=tr)).
@@ -77,6 +79,8 @@ SEO ile doğrudan ilgili görünmez, ama güncellenmeyen bir WordPress sitesi g�
 ## 10. Yayın sonrası kontrol
 
 Siteyi yayına aldıktan sonra Search Console’da siteyi doğrulayın, site haritasını gönderin ve ilk günlerde Sayfa dizine ekleme raporuna bakın. Aylık kontrol için “Ücretsiz SEO analizi nasıl yapılır?” yazımızdaki on kontrolü kullanabilirsiniz.
+
+> **Sizin için de yapalım mı?** Sitenizde teknik bir sorun şüpheniz varsa nedenini sırayla teşhis edelim. [Hizmet almak için iletişime geçin](/iletisim/); çalışmanın kapsamı [teknik SEO sayfamızda](/teknik-seo/) anlatılıyor.
 
 ## Sayfa oluşturucu (page builder) kullanıyorsanız
 

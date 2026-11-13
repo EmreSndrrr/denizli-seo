@@ -76,6 +76,8 @@ Müşteri sizin adresinize geliyorsa adresinizi girin. Siz müşteriye gidiyorsa
 
 Google, mümkün olduğunda çağrı merkezi numarası yerine yerel bir telefon numarası kullanmanızı ve numaranın doğrudan işletmenin kontrolünde olmasını ister. Web sitesi alanına işletmenizin konumunu gösteren kendi sitenizi yazın. Google, kullanıcıyı işletmeye ait olmayan açılış sayfalarına, örneğin sosyal medyada açılmış sayfalara yönlendiren adresler belirtmemenizi ister.
 
+> **Hizmet almak için iletişime geçin.** Google İşletme Profili’nizi ve harita görünürlüğünüzü birlikte inceleyelim; ne eksik, neyin düzeltileceğini yazılı söyleyelim. [Yerel SEO hizmetimizi](/yerel-seo/) inceleyin ya da [bize yazın](/iletisim/).
+
 ## Web sitesinde yerel SEO için neler olmalı?
 
 Sitede, profildeki bilgilerle aynı ad, adres ve telefon, hizmet verdiğiniz yerler ve her önemli hizmet için ayrı bir sayfa olmalıdır. Google profil bilgilerini resmî web sitenizden de derlediği için sitenin profille çelişmemesi gerekir.
@@ -117,6 +119,8 @@ Bundan iki pratik sonuç çıkar:
 Evet, gerçek ve ilgili kaynaklardan geldiklerinde işe yarar. Google, belirginlik etkeninde işletmenize bağlantı veren web sitelerinin sayısını hesaba kattığını belirtir. Sıralama için para ya da ürün karşılığında bağlantı almak ise Google’ın [spam politikalarında](https://developers.google.com/search/docs/essentials/spam-policies?hl=tr) bağlantı spam’i olarak sayılır.
 
 Doğal bağlantı kaynakları şunlardır: üyesi olduğunuz meslek odası ya da dernek, birlikte çalıştığınız tedarikçi ve iş ortakları, sponsor olduğunuz yerel etkinlikler, haber değeri taşıyan bir işiniz olduğunda yerel basın. Rehber sitelerine kayıt açarken ad, adres ve telefonu profildekiyle aynı yazın. Denizli’ye özgü kaynak türlerini [yerel backlink kaynakları yazımızda](/blog/denizli-yerel-backlink-kaynaklari/) sıraladık.
+
+> **Sizin için de yapalım mı?** Haritada daha görünür olmak istiyorsanız profilinize ve yerel kayıtlarınıza bakıp yapılacakları kalem kalem çıkaralım. [Hizmet almak için iletişime geçin](/iletisim/); ayrıntı için [yerel SEO sayfamıza](/yerel-seo/) göz atabilirsiniz.
 
 ## Yerel SEO’da en sık yapılan hatalar nelerdir?
 

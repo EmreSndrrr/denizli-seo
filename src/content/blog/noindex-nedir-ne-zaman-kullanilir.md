@@ -61,6 +61,8 @@ Arama sonuçlarında görünmesini istemediğiniz ve müşteriye yararı olmayan
 
 Kural: **Müşterinin bulmasını istediğiniz hiçbir sayfada noindex olmamalı.**
 
+> **Hizmet almak için iletişime geçin.** Sitenizin dizine eklenme, hız ve mobil durumunu birlikte tarayalım; bulguları öncelik sırasıyla yazılı verelim. [Teknik SEO hizmetimizi](/teknik-seo/) inceleyin ya da [bize yazın](/iletisim/).
+
 ## Ne zaman noindex kullanılmaz?
 
 - **Hizmet, ürün ve iletişim sayfalarında.** Bunlar sizi müşteriye getiren sayfalardır.
@@ -89,6 +91,8 @@ Google’ın yardım sayfasına göre URL Denetleme aracı, bir URL’nin Google
 ## noindex kaldırıldı, sayfa ne zaman geri gelir?
 
 Google’ın yeniden taramasına ve dizine eklemesine bağlı; kesin süre veremeyiz. Sayfayı yeniden taramak için Search Console’dan istek gönderebilirsiniz; ama istek garanti vermez. Düzeltmeden sonra birkaç gün ile birkaç hafta arasında takip edin. Süre konusunda genel çerçeve için [SEO ne kadar sürede sonuç verir?](/blog/seo-ne-kadar-surede-sonuc-verir/) yazımıza bakın.
+
+> **Sizin için de yapalım mı?** Sitenizde teknik bir sorun şüpheniz varsa nedenini sırayla teşhis edelim. [Hizmet almak için iletişime geçin](/iletisim/); çalışmanın kapsamı [teknik SEO sayfamızda](/teknik-seo/) anlatılıyor.
 
 ## Denizli’den bir örnek
 

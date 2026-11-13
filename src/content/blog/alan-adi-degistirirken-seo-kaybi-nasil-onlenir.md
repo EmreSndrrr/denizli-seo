@@ -67,6 +67,8 @@ Google, alan adı ya da alt alan adı değiştiriyorsanız eski site için Searc
 
 Yeni siteye ait site haritasını yükleyin. Sayfa dizine ekleme raporu ve Site Haritaları raporuyla dizine eklenen URL sayısını izleyin; hem eski hem yeni adreslerdeki trafiği takip edin. Site haritası konusunda [site haritası nasıl oluşturulur?](/blog/site-haritasi-sitemap-xml-nasil-olusturulur/) yazımıza bakın.
 
+> **Hizmet almak için iletişime geçin.** Sitenizin dizine eklenme, hız ve mobil durumunu birlikte tarayalım; bulguları öncelik sırasıyla yazılı verelim. [Teknik SEO hizmetimizi](/teknik-seo/) inceleyin ya da [bize yazın](/iletisim/).
+
 ## Taşıma sırasında dikkat edilecekler
 
 - **Eski alan adını bırakmayın.** Alan adının süresini yenileyin ve yönlendirmeleri uzun süre koruyun; yönlendirme çalışmazsa eski adresler boşa gider.
@@ -94,6 +96,8 @@ Google, taşıma işleminden sonra bir düşüş yaşanırsa ve düzelmezse URL 
 Örnek (hayalî bir işletme için): Merkezefendi’de bir mobilya atölyesi, eski kısa alan adını marka adına uygun yeni bir alan adıyla değiştirmek istiyor. Plan: yılın düşük satış dönemi seçiliyor; adres yapısı korunuyor; eski her adres yeni karşılığına 301 ile yönlendiriliyor; yeni site Search Console’da doğrulanıyor, Adres değişikliği isteği gönderiliyor ve site haritası yükleniyor; profil ve sosyal hesaplar güncelleniyor. Sonraki haftalarda Performans ve Sayfa dizine ekleme raporları izleniyor.
 
 Bu örnek sonuç vaadi değildir; taşıma sırasını gösterir.
+
+> **Sizin için de yapalım mı?** Sitenizde teknik bir sorun şüpheniz varsa nedenini sırayla teşhis edelim. [Hizmet almak için iletişime geçin](/iletisim/); çalışmanın kapsamı [teknik SEO sayfamızda](/teknik-seo/) anlatılıyor.
 
 ## Taşıma sırasında izlenecek göstergeler
 

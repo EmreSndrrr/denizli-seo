@@ -37,6 +37,8 @@ Google’ın yardımcı içerik rehberi, içeriğin kim tarafından yazıldığ�
 7. **Kanıtı gerçek tutun.** Olmayan ödül ya da sayı yazmayın.
 8. **Güncel tutun.** Eski ekip ve adres bilgisi güveni zedeler.
 
+> **Hizmet almak için iletişime geçin.** Müşterilerinizin sorduğu sorulardan bir içerik planı çıkaralım ve sayfalarınızı birlikte yazalım. [İçerik SEO hizmetimizi](/icerik-seo/) inceleyin ya da [bize yazın](/iletisim/).
+
 ## Yazarken kaçınılacak ifadeler
 
 - **“Sektörün lideriyiz”:** Yaptığınız işi somut anlatın
@@ -57,6 +59,8 @@ Google’ın yardımcı içerik rehberi, içeriğin kim tarafından yazıldığ�
 - **Eski adres ve telefon:** Güncelleyin
 - **Hizmetlere bağlantı yok:** Hizmet sayfalarına bağlayın
 - **İletişim bilgisi yok:** Net iletişim bölümü ekleyin
+
+> **Sizin için de yapalım mı?** Sayfalarınızın ve yazılarınızın neden yeterince işe yaramadığına birlikte bakalım. [Hizmet almak için iletişime geçin](/iletisim/); yöntemimiz [içerik SEO sayfamızda](/icerik-seo/) yazılı.
 
 ## Denizli’den bir örnek
 

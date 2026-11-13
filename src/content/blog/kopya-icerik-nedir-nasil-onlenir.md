@@ -50,6 +50,8 @@ Yerel işletmelerde sık görülen kopya türü, yalnızca ilçe adı ya da hizm
 
 Ayrıntı için [ilçe sayfası nasıl yazılır?](/blog/ilce-sayfasi-nasil-yazilir/) yazımıza bakın.
 
+> **Hizmet almak için iletişime geçin.** Müşterilerinizin sorduğu sorulardan bir içerik planı çıkaralım ve sayfalarınızı birlikte yazalım. [İçerik SEO hizmetimizi](/icerik-seo/) inceleyin ya da [bize yazın](/iletisim/).
+
 ## Ürün açıklamaları: üretici metni
 
 Üreticiden gelen açıklamayı aynen kullanmak, aynı metni yüzlerce mağazanın paylaşması demektir. Sayfanız öne çıkmaz. Çözüm, en azından en çok satan ürünler için kendi cümlelerinizle yazmak: ölçü, malzeme, bakım, teslimat, kullanım. Ayrıntı için [ürün açıklaması nasıl yazılır?](/blog/urun-aciklamasi-nasil-yazilir-kopya-metinden-kacinma/) yazımıza bakın.
@@ -74,6 +76,8 @@ Aynı işletmenin birden fazla sitesi varsa (marka siteleri, şube siteleri) ayn
 2. **URL Denetleme.** Google’ın seçtiği standart sayfa ile sizin istediğiniz aynı mı?
 3. **Kendi metninizden bir cümleyi tırnak içinde aratın.** Başka sitede aynı cümle çıkıyor mu?
 4. **Site içi benzerlik.** Hizmet sayfalarınızı yan yana koyun: yalnızca isim mi değişiyor?
+
+> **Sizin için de yapalım mı?** Sayfalarınızın ve yazılarınızın neden yeterince işe yaramadığına birlikte bakalım. [Hizmet almak için iletişime geçin](/iletisim/); yöntemimiz [içerik SEO sayfamızda](/icerik-seo/) yazılı.
 
 ## Kontrol listesi
 

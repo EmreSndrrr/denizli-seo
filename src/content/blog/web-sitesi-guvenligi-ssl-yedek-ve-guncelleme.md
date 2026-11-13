@@ -24,6 +24,8 @@ Küçük işletmelerin siteleri de saldırı ya da ele geçirilme riskine sahipt
 - **HTTPS:** Sitenin HTTP’den HTTPS’e taşınması, Google’ın site taşıma rehberinde bir taşıma örneği olarak ele alınır; yönlendirmelerin doğru kurulması gerekir ([site taşıma](https://developers.google.com/search/docs/crawling-indexing/site-move-with-url-changes?hl=tr)).
 - **Güvenlik sorunu:** Ele geçirilmiş site, spam içerik barındırabilir ve arama sonuçlarında sorun yaşayabilir. Trafik düşüşlerinde güvenlik sorunları da kontrol edilecek nedenler arasındadır ([trafik düşüşü hata ayıklama](https://developers.google.com/search/docs/monitor-debug/debugging-search-traffic-drops?hl=tr)). Teşhis için [trafik düşüşü nasıl teşhis edilir?](/blog/trafik-dususu-nasil-teshis-edilir/) yazısına bakın.
 
+> **Hizmet almak için iletişime geçin.** SEO’yu baştan düşünerek tasarlanmış, hızlı ve telefonda rahat bir site kuralım. [Web tasarım hizmetimizi](/web-tasarim/) inceleyin ya da [bize yazın](/iletisim/).
+
 ## Adım adım güvenlik listesi
 
 1. **HTTPS’i doğrulayın.** Tüm sayfalar açılıyor mu, karışık içerik uyarısı var mı?
@@ -45,6 +47,8 @@ Küçük işletmelerin siteleri de saldırı ya da ele geçirilme riskine sahipt
 - **Herkese yönetici yetkisi:** En az yetki
 - **Aynı parola her yerde:** Parola yöneticisi
 - **HTTP ve HTTPS’i iki ayrı site gibi bırakmak:** Tek adrese yönlendirin
+
+> **Sizin için de yapalım mı?** Mevcut sitenizi yenilemek ya da sıfırdan kurmak istiyorsanız ihtiyacınızı birlikte netleştirelim. [Hizmet almak için iletişime geçin](/iletisim/); ayrıntı [web tasarım sayfamızda](/web-tasarim/).
 
 ## Denizli’den bir örnek
 

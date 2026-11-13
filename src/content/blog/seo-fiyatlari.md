@@ -57,6 +57,8 @@ Teklif aldığınızda aradaki farkın çoğu şu etkenlerden gelir:
 
 Bu tablo bir fiyat listesi değil, hangi işin neden pahalıya çıkabileceğini gösteren bir haritadır.
 
+> **Hizmet almak için iletişime geçin.** Sitenizin dizine eklenme, hız ve mobil durumunu birlikte tarayalım; bulguları öncelik sırasıyla yazılı verelim. [Teknik SEO hizmetimizi](/teknik-seo/) inceleyin ya da [bize yazın](/iletisim/).
+
 ## SEO teklifinde neler yazmalı?
 
 İyi bir teklif “SEO paketi” gibi belirsiz bir kalem içermez; yapılacak işleri sayar. Teklifte şunları arayın:
@@ -100,6 +102,8 @@ Ucuz bir teklif her zaman kötü değildir; küçük bir işin kapsamı gerçekt
 - **Sıralama garantisi.** Google bunu vermenin mümkün olmadığını söylüyor.
 
 Rehber ayrıca, SEO uzmanınızın kullandığı üçüncü taraf araçları Google’ın değerlendirmediğini ya da desteklemediğini belirtir. Bir ajansın raporundaki “SEO puanı” Google’dan gelen bir sıralama verisi değildir; yorumlanması gereken bir göstergedir.
+
+> **Sizin için de yapalım mı?** Sitenizde teknik bir sorun şüpheniz varsa nedenini sırayla teşhis edelim. [Hizmet almak için iletişime geçin](/iletisim/); çalışmanın kapsamı [teknik SEO sayfamızda](/teknik-seo/) anlatılıyor.
 
 ## SEO bütçesi nasıl belirlenir?
 

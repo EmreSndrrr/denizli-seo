@@ -32,6 +32,8 @@ Güzel görünen bir site, teknik temeli zayıfsa iş getirmez. Bu yazıda 15 ma
 
 Google, dizine ekleme ve sıralama için sitenin mobil sürümünü kullanır ([mobil öncelikli dizine ekleme](https://developers.google.com/search/docs/crawling-indexing/mobile/mobile-sites-mobile-first-indexing?hl=tr)). Sıralama garantisi veren ya da Google ile “özel ilişkisi” olduğunu söyleyen kişilere karşı da Google’ın SEO uzmanı rehberi uyarır ([SEO’ya mı ihtiyacınız var?](https://developers.google.com/search/docs/fundamentals/do-i-need-seo?hl=tr)). Teknik maddeler için HTTPS’e geçiş ve mobil uyumluluk testi yazılarına bakın.
 
+> **Hizmet almak için iletişime geçin.** SEO’yu baştan düşünerek tasarlanmış, hızlı ve telefonda rahat bir site kuralım. [Web tasarım hizmetimizi](/web-tasarim/) inceleyin ya da [bize yazın](/iletisim/).
+
 ## Adım adım süreç
 
 1. **İhtiyacı yazın.** Amaç, hizmetler, bölge, sayfalar.
@@ -51,6 +53,8 @@ Google, dizine ekleme ve sıralama için sitenin mobil sürümünü kullanır ([
 - **Hazır tema ve kopya metinle sınırsız “özel tasarım”:** Beklenti uyuşmazlığı
 - **Sözleşmesiz iş:** Belirsizlik
 - **Eski sitenin yönlendirme planı olmaması:** Trafik kaybı riski
+
+> **Sizin için de yapalım mı?** Mevcut sitenizi yenilemek ya da sıfırdan kurmak istiyorsanız ihtiyacınızı birlikte netleştirelim. [Hizmet almak için iletişime geçin](/iletisim/); ayrıntı [web tasarım sayfamızda](/web-tasarim/).
 
 ## Denizli’den bir örnek
 

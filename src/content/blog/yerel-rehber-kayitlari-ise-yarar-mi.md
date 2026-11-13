@@ -49,6 +49,8 @@ Aşağıdaki tür kaynaklar, gerçek bir ilişkiye ya da gerçek bir kullanıma 
 
 Bu liste bir “şu sitelere kayıt olun” listesi değildir; kaynak türlerini gösterir. Gerçek kurumları kendi araştırmanızla belirleyin.
 
+> **Hizmet almak için iletişime geçin.** Google İşletme Profili’nizi ve harita görünürlüğünüzü birlikte inceleyelim; ne eksik, neyin düzeltileceğini yazılı söyleyelim. [Yerel SEO hizmetimizi](/yerel-seo/) inceleyin ya da [bize yazın](/iletisim/).
+
 ## Toplu dizin kayıtlarından neden kaçınılır?
 
 Toplu dizinlere kayıt, “bir günde yüz rehbere kayıt” vaadiyle satılır. Bu yaklaşımın sorunları:
@@ -83,6 +85,8 @@ Basit bir tablo, yıllar sonra bile hangi bilginin nerede olduğunu hatırlaman�
 ## Sponsorlu ya da ücretli kayıtlar
 
 Bazı rehberler ücretli “öne çıkan kayıt” sunar. Reklam niteliğindeki bağlantıların `sponsored` ya da `nofollow` ile işaretlenmesi beklenir; Google’ın spam politikasına göre işaretlenmiş reklam bağlantıları politikaya aykırı sayılmaz. Ücretli kaydı ancak gerçek müşteri getirecekse düşünün; bağlantı değeri için ödeme yapmayın.
+
+> **Sizin için de yapalım mı?** Haritada daha görünür olmak istiyorsanız profilinize ve yerel kayıtlarınıza bakıp yapılacakları kalem kalem çıkaralım. [Hizmet almak için iletişime geçin](/iletisim/); ayrıntı için [yerel SEO sayfamıza](/yerel-seo/) göz atabilirsiniz.
 
 ## Denizli’den bir örnek
 

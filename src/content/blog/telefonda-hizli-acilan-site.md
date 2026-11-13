@@ -69,6 +69,8 @@ Core Web Vitals raporu, sitenizin bütününü gerçek kullanıcı verisiyle gö
 
 Search Console’un diğer raporlarını [Search Console ilk kontrol yazımızda](/blog/search-console-ilk-kontrol/) anlattık.
 
+> **Hizmet almak için iletişime geçin.** Sitenizin dizine eklenme, hız ve mobil durumunu birlikte tarayalım; bulguları öncelik sırasıyla yazılı verelim. [Teknik SEO hizmetimizi](/teknik-seo/) inceleyin ya da [bize yazın](/iletisim/).
+
 ## Hangi değer kötüyse nereye bakmalı?
 
 Her değer farklı bir soruna işaret eder. Düzeltmeye başlamadan önce hangi değerin sınırı aştığını bulun; yanlış yere emek harcamayı önler.
@@ -116,6 +118,8 @@ Aşağıdaki sıra, en çok sonuç veren ve en kolay uygulanan kalemlerden başl
 - Laboratuvar puanı her çalıştırmada değiştiği için tek ölçüme güvenmeyin; birkaç kez ölçüp genel eğilime bakın.
 - Gerçek kullanıcı verisi son 28 günü kapsadığı için düzeltmenin etkisi bu veriye bir anda değil, haftalar içinde yansır.
 - Siteyi yeniden yapıyorsanız hızı tasarım aşamasında düşünmek, sonradan onarmaktan kolaydır. [Web tasarım](/web-tasarim/) sayfamızda bu yaklaşımı anlatıyoruz.
+
+> **Sizin için de yapalım mı?** Sitenizde teknik bir sorun şüpheniz varsa nedenini sırayla teşhis edelim. [Hizmet almak için iletişime geçin](/iletisim/); çalışmanın kapsamı [teknik SEO sayfamızda](/teknik-seo/) anlatılıyor.
 
 ## Site hızı Google sıralamasını etkiler mi?
 

@@ -37,6 +37,8 @@ Yerel haber sitesi, bölgenizi arayan okuyucuya ulaşır; yayınlanan haber hem 
 
 Bazı yayınlar reklam/sponsorlu içerik satar. Google, reklam ve sponsorluk bağlantılarının `rel="nofollow"` ya da `rel="sponsored"` ile nitelendiği sürece politikaya aykırı olmadığını söyler; `sponsored`, reklam veya ücretli yerleşim bağlantıları içindir ([giden bağlantılar](https://developers.google.com/search/docs/crawling-indexing/qualify-outbound-links?hl=tr)). Ücretli yayını tanıtım olarak kabul edin; sıralama için bağlantı almak amacıyla satın almayın. Ayrıntı: [sponsorluk bağlantıları](/blog/sponsorluk-baglantilari-sponsored-nasil-isaretlenir/).
 
+> **Hizmet almak için iletişime geçin.** Satın alınmış bağlantı olmadan, gerçek kaynaklarla bağlantı ve otorite çalışması planlayalım. [Backlink hizmetimizi](/backlink-hizmeti/) inceleyin ya da [bize yazın](/iletisim/).
+
 ## Sık yapılan hatalar
 
 - **Haber değeri olmayan reklam metni:** Önce haber değeri bulun
@@ -65,6 +67,8 @@ Bu notta reklam dili yok, rakam uydurulmamış ve bağlantı istenmemiş. Bağla
 ## Fotoğraf ve alıntı neden önemlidir?
 
 Haber siteleri görselle çalışır. Gerçek ve izinli bir fotoğraf, haberin yayımlanma şansını artırır. Fotoğrafta kişiler varsa onların iznini alın; çocukların görüntüsü için ayrıca dikkat edin. Haberde ismi geçecek kişiden de kısa bir alıntı isteyin; editör konuşabilecek bir uzman görmek ister. Uydurma alıntı ya da kendi kendinize yazdığınız “müşteri yorumu” kullanmayın.
+
+> **Sizin için de yapalım mı?** Mevcut bağlantı durumunuza birlikte bakıp güvenli bir yol çizelim. [Hizmet almak için iletişime geçin](/iletisim/); hangi yöntemleri kullanmadığımız [backlink sayfamızda](/backlink-hizmeti/) açıkça yazıyor.
 
 ## Haber yayımlandıktan sonra ne yapmalı?
 

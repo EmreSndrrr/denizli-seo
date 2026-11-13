@@ -49,6 +49,8 @@ Aynı işletmede talep 20’ye düşseydi, 5 müşteri ve 7.500 ₺ kâr olurdu;
 
 Search Console’un performans raporu gösterim, tıklama, tıklama oranı ve ortalama konumu verir; bu değerler görünürlüğü ölçer, kazancı değil ([Performans raporu](https://support.google.com/webmasters/answer/7576553?hl=tr)). Kazanç için kendi kaydınız şarttır. Ölçüm düzeni için [yerel SEO sonuçları nasıl ölçülür?](/blog/yerel-seo-sonuclari-nasil-olculur/) yazısına bakın.
 
+> **Hizmet almak için iletişime geçin.** Sitenizin dizine eklenme, hız ve mobil durumunu birlikte tarayalım; bulguları öncelik sırasıyla yazılı verelim. [Teknik SEO hizmetimizi](/teknik-seo/) inceleyin ya da [bize yazın](/iletisim/).
+
 ## Adım adım hesaplama
 
 1. **Maliyeti toplayın.** Ajans ücreti, içerik, araç, site değişikliği; kendi zamanınızı da yazın.
@@ -82,6 +84,8 @@ Bazı faydalar para olarak hemen görünmez ama değerlidir:
 - **Yorum sayısı ve puan:** Güvenin göstergesi.
 - **Dizindeki önemli sayfa sayısı:** Teknik sağlığın göstergesi.
 - **Müşteri edinme maliyeti:** SEO ile reklamı karşılaştırmak için; bkz. [SEO mu, Google Ads mi?](/blog/seo-mu-google-ads-mi-hangisi-size-uygun/)
+
+> **Sizin için de yapalım mı?** Sitenizde teknik bir sorun şüpheniz varsa nedenini sırayla teşhis edelim. [Hizmet almak için iletişime geçin](/iletisim/); çalışmanın kapsamı [teknik SEO sayfamızda](/teknik-seo/) anlatılıyor.
 
 ## Denizli’den bir örnek
 

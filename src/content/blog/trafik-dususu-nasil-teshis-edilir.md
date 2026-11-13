@@ -49,6 +49,8 @@ Google’ın tanımına göre teknik sorunlar, Google’ın sayfalarınızı tar
 
 Google, siteniz kötü amaçlı yazılım ya da kimlik avı gibi bir güvenlik tehdidinden etkilenmişse kullanıcıları sitenize ulaşmadan önce uyarılar ya da ara sayfalarla uyarabileceğini ve bunun arama trafiğini azaltabileceğini belirtir. Search Console’daki Güvenlik Sorunları raporunu kontrol edin. Sitenizde tanımadığınız sayfalar, garip yönlendirmeler ya da arama sonuçlarında ilgisiz başlıklar görüyorsanız barındırma firmanızla hemen görüşün.
 
+> **Hizmet almak için iletişime geçin.** Sitenizin dizine eklenme, hız ve mobil durumunu birlikte tarayalım; bulguları öncelik sırasıyla yazılı verelim. [Teknik SEO hizmetimizi](/teknik-seo/) inceleyin ya da [bize yazın](/iletisim/).
+
 ## 4. Spam sorunları ve manuel işlem
 
 Google, spam politikalarını ihlal eden uygulamaları hem otomatik sistemlerle hem gerektiğinde gerçek kişilerce yapılan incelemelerle tespit ettiğini, bu ihlaller sonucunda manuel işlem uygulanabileceğini ve ihlal eden sitelerin sonuçlarda daha alt sıralarda yer alabileceğini ya da hiç görünmeyebileceğini söyler. Search Console’daki Manuel İşlemler raporunu kontrol edin. Satın alınmış bağlantı gibi bir geçmişiniz varsa bkz. [backlink satın almak](/blog/backlink-satin-almak-riskleri/).
@@ -74,6 +76,8 @@ Google’ın rehberi, en iyi sayfalarınızın sıralamasına bakmanızı öneri
 5. **Güvenlik ya da manuel işlem var mı?** Evet → ilgili rapordaki talimatı izleyin.
 6. **Güncellemeyle örtüşüyor mu?** Evet → içerik ve kalite değerlendirmesi, aceleyle değişiklik yapmayın.
 7. **Hiçbiri değilse?** Rakipler, içerik eskimesi ve talep değişimi gibi daha yavaş etkenlere bakın.
+
+> **Sizin için de yapalım mı?** Sitenizde teknik bir sorun şüpheniz varsa nedenini sırayla teşhis edelim. [Hizmet almak için iletişime geçin](/iletisim/); çalışmanın kapsamı [teknik SEO sayfamızda](/teknik-seo/) anlatılıyor.
 
 ## Teşhis tablosu şablonu
 

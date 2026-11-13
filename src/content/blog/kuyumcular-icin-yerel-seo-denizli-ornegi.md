@@ -56,6 +56,8 @@ Kuyumcuda fotoğraf hem güven hem ürün tanıtımıdır. Google, fotoğraflar�
 
 Stok takı fotoğrafı kullanmayın; müşteri aynı ürünü dükkânda göremezse güven zedelenir. Ayrıntılar: [profil fotoğrafları](/blog/google-isletme-profili-fotograflari-neler-eklenmeli/).
 
+> **Hizmet almak için iletişime geçin.** Google İşletme Profili’nizi ve harita görünürlüğünüzü birlikte inceleyelim; ne eksik, neyin düzeltileceğini yazılı söyleyelim. [Yerel SEO hizmetimizi](/yerel-seo/) inceleyin ya da [bize yazın](/iletisim/).
+
 ## 4. Fiyat ve altın fiyatları konusunda dikkat
 
 Altın fiyatı gün içinde değiştiği için sitede ya da profilde eski fiyat yayımlamak yanıltıcıdır. İki güvenli yol:
@@ -94,6 +96,8 @@ Siteniz küçük de olsa şu sayfalar işe yarar:
 - **Sık sorulan sorular:** “Ölçü değişimi ne kadar sürer?”, “Alım satımda nasıl işlem yapılır?”
 
 Sayfa yazım adımları için “Hizmet sayfası nasıl yazılır?” yazımıza bakın.
+
+> **Sizin için de yapalım mı?** Haritada daha görünür olmak istiyorsanız profilinize ve yerel kayıtlarınıza bakıp yapılacakları kalem kalem çıkaralım. [Hizmet almak için iletişime geçin](/iletisim/); ayrıntı için [yerel SEO sayfamıza](/yerel-seo/) göz atabilirsiniz.
 
 ## 8. Tutarlı bilgi ve rehber kayıtları
 

@@ -76,6 +76,8 @@ Dizine eklenen sayfa sayısı düşerken hata sayısı artmıyorsa Google’a g�
 
 Bizim gözlemimize göre sık rastlanan bir neden de sitenin geliştirme aşamasında arama motorlarına kapatılıp yayına alınırken açılmasının unutulmasıdır. WordPress’te bu, Okuma ayarlarındaki arama motoru görünürlüğü kutusudur. Böyle bir durumda sayfalar raporda “noindex” nedeniyle dışarıda görünür.
 
+> **Hizmet almak için iletişime geçin.** Sitenizin dizine eklenme, hız ve mobil durumunu birlikte tarayalım; bulguları öncelik sırasıyla yazılı verelim. [Teknik SEO hizmetimizi](/teknik-seo/) inceleyin ya da [bize yazın](/iletisim/).
+
 ## Tek bir sayfa Google’da mı? URL denetimi nasıl kullanılır?
 
 Tek bir sayfanın durumunu öğrenmenin yolu URL denetimi aracıdır ([URL Denetleme aracı](https://support.google.com/webmasters/answer/9012289?hl=tr)). Sayfa dizine ekleme raporu sitenin genel resmini verir; belirli bir adresi aramak için tasarlanmamıştır.
@@ -146,6 +148,8 @@ Tablonun üstündeki sekmeler veriyi gruplar: Sorgular, Sayfalar, Ülkeler, Ciha
 Google, listede gördüğünüz bir sorguyu kendiniz aradığınızda sitenizi görmeyebileceğinizi de hatırlatır; sonuçlar arayan kişinin konumuna, cihazına ve geçmişine göre değişir. Denizli’de arama yapan iki kişi farklı sonuç görebilir. Bu yüzden sırayı tek bir elle yapılmış aramaya göre değil, bu rapora göre izleyin.
 
 Son günlerin verisi kesinleşmemiş olabilir; grafikte noktalı çizgiyle gösterilir. Karşılaştırma yaparken aynı uzunluktaki dönemleri karşılaştırın.
+
+> **Sizin için de yapalım mı?** Sitenizde teknik bir sorun şüpheniz varsa nedenini sırayla teşhis edelim. [Hizmet almak için iletişime geçin](/iletisim/); çalışmanın kapsamı [teknik SEO sayfamızda](/teknik-seo/) anlatılıyor.
 
 ## Bağlantı raporu ne işe yarar?
 

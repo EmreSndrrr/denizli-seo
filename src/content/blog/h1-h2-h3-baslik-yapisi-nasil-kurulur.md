@@ -48,6 +48,8 @@ Pratik sonuç: başlık yapısı SEO’dan çok **okunabilirlik ve erişilebilir
 
 Blog ve rehber sayfalarında H2’leri müşterinin arama kutusuna yazdığı soru biçiminde kurmak işe yarar: “Klima bakımı ne zaman yapılır?”, “Bakım ücreti neye göre değişir?”. Bu başlıkların altındaki ilk cümle soruyu doğrudan cevaplasın. Bu yapı hem okuyucuya hem özet çıkaran sistemlere nettir.
 
+> **Hizmet almak için iletişime geçin.** Müşterilerinizin sorduğu sorulardan bir içerik planı çıkaralım ve sayfalarınızı birlikte yazalım. [İçerik SEO hizmetimizi](/icerik-seo/) inceleyin ya da [bize yazın](/iletisim/).
+
 ## Örnek iskelet: hizmet sayfası
 
 Örnek (hayalî bir işletme için): Merkezefendi’de bir klima servisi.
@@ -96,6 +98,8 @@ H1: Klima Bakımı Yılda Kaç Kez Yapılmalı?
 ## Başlık ve sayfa başlığı farkı
 
 Sayfanın görünen H1’i ile `<title>` etiketi aynı şey değildir. H1 sayfanın içinde görünen ana başlıktır; `<title>` arama sonucunda ve tarayıcı sekmesinde görünür. İkisi uyumlu olmalı ama birebir aynı olması şart değildir. `<title>` için kurallar [başlık etiketi ve meta açıklama](/blog/baslik-etiketi-ve-meta-aciklama-nasil-yazilir/) yazımızda.
+
+> **Sizin için de yapalım mı?** Sayfalarınızın ve yazılarınızın neden yeterince işe yaramadığına birlikte bakalım. [Hizmet almak için iletişime geçin](/iletisim/); yöntemimiz [içerik SEO sayfamızda](/icerik-seo/) yazılı.
 
 ## Kontrol listesi
 

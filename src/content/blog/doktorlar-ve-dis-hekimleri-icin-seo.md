@@ -51,6 +51,8 @@ Sağlık sektöründe yorum yanıtı yazarken tek bir kural geçerlidir: **hasta
 
 Yorum toplama kurallarına uyun: yorum karşılığında indirim, hediye ya da ücretsiz hizmet sunmak yasaktır. Süreç için [Google yorumları nasıl artırılır?](/blog/google-yorumlari-nasil-artirilir/) ve [olumsuz yoruma cevap](/blog/olumsuz-google-yorumuna-nasil-cevap-verilir/) yazılarımıza bakın.
 
+> **Hizmet almak için iletişime geçin.** Google İşletme Profili’nizi ve harita görünürlüğünüzü birlikte inceleyelim; ne eksik, neyin düzeltileceğini yazılı söyleyelim. [Yerel SEO hizmetimizi](/yerel-seo/) inceleyin ya da [bize yazın](/iletisim/).
+
 ## 3. Hizmet ve bilgi sayfaları
 
 Siteniz, müşterinin sorularına doğru ve anlaşılır cevap veren sayfalardan oluşmalı. Her hizmet için ayrı sayfa yazın: ne olduğu, kimler için olduğu, süreç, hazırlık, sık sorulan sorular ve randevu. Dil sade ve doğru olmalı; abartılı vaat ya da garantili sonuç ifadesi yazmayın.
@@ -80,6 +82,8 @@ Doğrulanamayan ödül, sertifika, “binlerce başarılı tedavi” gibi rakaml
 ## 6. Randevu ve iletişimi kolaylaştırın
 
 Müşteri “yakınımda” aradığında hızlı ulaşmak ister. Telefonun doğru çalıştığından, WhatsApp ve online randevunun çalıştığından ve çalışma saatlerinin güncel olduğundan emin olun. Acil bir durumda hastaya nereye başvuracağını söyleyen bir not (“acil durumlarda en yakın sağlık kuruluşuna başvurun”) siteye eklenebilir; ifade için mevzuatı kontrol edin.
+
+> **Sizin için de yapalım mı?** Haritada daha görünür olmak istiyorsanız profilinize ve yerel kayıtlarınıza bakıp yapılacakları kalem kalem çıkaralım. [Hizmet almak için iletişime geçin](/iletisim/); ayrıntı için [yerel SEO sayfamıza](/yerel-seo/) göz atabilirsiniz.
 
 ## 7. Ölçüm
 

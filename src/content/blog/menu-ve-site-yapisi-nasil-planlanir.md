@@ -36,6 +36,8 @@ Ana sayfa
  └─ İletişim
 ```
 
+> **Hizmet almak için iletişime geçin.** SEO’yu baştan düşünerek tasarlanmış, hızlı ve telefonda rahat bir site kuralım. [Web tasarım hizmetimizi](/web-tasarim/) inceleyin ya da [bize yazın](/iletisim/).
+
 ## Adım adım planlama
 
 1. **Hizmetleri listeleyin.** Her ana hizmet bir sayfa.
@@ -54,6 +56,8 @@ Ana sayfa
 - **Kısa ve tutarlı:** Uzun, rastgele, her sayfada farklı düzen
 
 Adresleri sonradan değiştirmek yönlendirme gerektirir; baştan doğru planlayın, bkz. [301 ve 302 farkı](/blog/301-ve-302-yonlendirme-farki-nedir/).
+
+> **Sizin için de yapalım mı?** Mevcut sitenizi yenilemek ya da sıfırdan kurmak istiyorsanız ihtiyacınızı birlikte netleştirelim. [Hizmet almak için iletişime geçin](/iletisim/); ayrıntı [web tasarım sayfamızda](/web-tasarim/).
 
 ## Sık yapılan hatalar
 

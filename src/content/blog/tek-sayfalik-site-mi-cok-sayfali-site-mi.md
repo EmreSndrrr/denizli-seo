@@ -43,6 +43,8 @@ Bir sayfa, genellikle bir konuyu iyi anlatır. Üç farklı hizmeti tek sayfada 
 - Adres, telefon, harita; bkz. [iletişim sayfası SEO’su](/blog/iletisim-sayfasi-seo-su-adres-telefon-ve-harita/).
 - Tek sayfaya her şeyi sığdırmaya çalışmayın.
 
+> **Hizmet almak için iletişime geçin.** SEO’yu baştan düşünerek tasarlanmış, hızlı ve telefonda rahat bir site kuralım. [Web tasarım hizmetimizi](/web-tasarim/) inceleyin ya da [bize yazın](/iletisim/).
+
 ## Sık yapılan hatalar
 
 - **Üç hizmeti tek sayfada yığmak:** Hizmet başına sayfa
@@ -62,6 +64,8 @@ Tek sayfalık site, ziyaretçiye yalnızca birkaç bilgi vermesi gereken işletm
 ## Çok sayfalı siteyi daha güçlü yapan nedir?
 
 Çok sayfalı sitenin farkı, her konuya kendi sayfasını verebilmesidir. “Klima bakımı”, “klima montajı” ve “klima tamiri” farklı aramalardır; her biri için ayrı bir sayfa, o aramaya doğrudan cevap verir. Her sayfa kendi başlığına, açıklamasına, sık sorulan sorularına ve iletişim çağrısına sahip olur. Ayrıca blog yazıları, ilçe bilgileri ve referanslar için yer açılır. Google’ın SEO başlangıç kılavuzu, düzenli ve anlaşılır site yapısını önerir ([SEO başlangıç kılavuzu](https://developers.google.com/search/docs/fundamentals/seo-starter-guide?hl=tr)); çok sayfalı yapı bunu daha kolay sağlar.
+
+> **Sizin için de yapalım mı?** Mevcut sitenizi yenilemek ya da sıfırdan kurmak istiyorsanız ihtiyacınızı birlikte netleştirelim. [Hizmet almak için iletişime geçin](/iletisim/); ayrıntı [web tasarım sayfamızda](/web-tasarim/).
 
 ## Tek sayfada başlık ve bölüm yapısı nasıl kurulur?
 

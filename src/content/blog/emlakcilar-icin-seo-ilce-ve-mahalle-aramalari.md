@@ -60,6 +60,8 @@ Bölge sayfası ne zaman açılır?
 
 Sayfa iskeleti için [ilçe sayfası nasıl yazılır?](/blog/ilce-sayfasi-nasil-yazilir/) yazımıza bakın. Her bölge sayfası, o bölgeye özgü gerçek bilgi taşımalı; uydurma bilgi yazmayın.
 
+> **Hizmet almak için iletişime geçin.** Google İşletme Profili’nizi ve harita görünürlüğünüzü birlikte inceleyelim; ne eksik, neyin düzeltileceğini yazılı söyleyelim. [Yerel SEO hizmetimizi](/yerel-seo/) inceleyin ya da [bize yazın](/iletisim/).
+
 ## 4. İlan sayfaları
 
 Sitenizde ilan yayımlıyorsanız şu kurallara dikkat edin:
@@ -91,6 +93,8 @@ Satış ya da kiralama tamamlandıktan sonra memnun müşteriden yorum isteyin. 
 ## 7. Hız ve iletişim
 
 Emlak müşterisi çoğu zaman aynı anda birkaç ofise yazar; ilk yanıt veren öne çıkar. Telefon, WhatsApp ve form yanıtlarının hızlı olduğundan emin olun. Profil ve sitede çalışma saatlerini doğru gösterin; gece ya da hafta sonu yanıt veremeyecekseniz bunu yazın.
+
+> **Sizin için de yapalım mı?** Haritada daha görünür olmak istiyorsanız profilinize ve yerel kayıtlarınıza bakıp yapılacakları kalem kalem çıkaralım. [Hizmet almak için iletişime geçin](/iletisim/); ayrıntı için [yerel SEO sayfamıza](/yerel-seo/) göz atabilirsiniz.
 
 ## Aylık kontrol listesi
 

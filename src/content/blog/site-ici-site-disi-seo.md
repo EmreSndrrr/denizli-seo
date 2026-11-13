@@ -55,6 +55,8 @@ Google, yerel sıralamada belirginlik etkenini işletmenin ne kadar iyi bilindi�
 | Risk | Düşük | Satın alınan bağlantı gibi riskli yollar var |
 | Önce mi sonra mı? | Önce | Sonra |
 
+> **Hizmet almak için iletişime geçin.** Sitenizin dizine eklenme, hız ve mobil durumunu birlikte tarayalım; bulguları öncelik sırasıyla yazılı verelim. [Teknik SEO hizmetimizi](/teknik-seo/) inceleyin ya da [bize yazın](/iletisim/).
+
 ## Hangisine önce başlanmalı?
 
 Önce site içi, çünkü bağlantı ya da yorum kazanmak için anılmaya değer ve Google’ın bulabildiği bir sitenin olması gerekir. Basit bir sıra:
@@ -91,6 +93,8 @@ Bağlantı satın almak, toplu profil ve dizin kayıtları ve otomatik programla
 3. Beni kim anıyor, müşteriler yorum yazıyor mu? (Site dışı)
 
 Üç sorudan ilkinde “hayır” varsa, diğerlerine geçmeyin. İlk sorunun cevabı “evet” ise ikinciyi ve üçüncüyü sırayla ele alın.
+
+> **Sizin için de yapalım mı?** Sitenizde teknik bir sorun şüpheniz varsa nedenini sırayla teşhis edelim. [Hizmet almak için iletişime geçin](/iletisim/); çalışmanın kapsamı [teknik SEO sayfamızda](/teknik-seo/) anlatılıyor.
 
 ## Site içi SEO kontrol listesi
 

@@ -43,6 +43,8 @@ Dükkânınızın dışı, içi, ürün ya da hizmet örneği ve ekibiniz. Başk
 
 Cevapsız yorum bırakmayın; olumlu yoruma teşekkür, olumsuza sakin ve çözüm odaklı cevap yazın. Google, yorum karşılığı indirim ya da ücretsiz ürün sunmanın yasak olduğunu söyler; yorumu karşılıksız isteyin ([yorum ipuçları](https://support.google.com/business/answer/3474122?hl=tr)). Bkz. olumsuz yoruma nasıl cevap verilir?
 
+> **Hizmet almak için iletişime geçin.** Sitenizin dizine eklenme, hız ve mobil durumunu birlikte tarayalım; bulguları öncelik sırasıyla yazılı verelim. [Teknik SEO hizmetimizi](/teknik-seo/) inceleyin ya da [bize yazın](/iletisim/).
+
 ## 6. Sitenizi telefonda açın
 
 Kendi telefonunuzdan, mobil veriyle açın: sayfa kaç saniyede açıldı, yazı okunuyor mu, menü çalışıyor mu, telefon numarası tıklanıyor mu? Google dizine ekleme ve sıralama için sitenin mobil sürümünü kullanır ([mobil öncelikli dizine ekleme](https://developers.google.com/search/docs/crawling-indexing/mobile/mobile-sites-mobile-first-indexing?hl=tr)). Sitenizi başka bir kişinin telefonundan da deneyin.
@@ -84,6 +86,8 @@ Talebi kaydetmek kadar, ilk cevabı hızlı vermek de önemlidir. Aşağıdaki �
 - **Yorum isteği:** “Memnun kaldıysanız Google’da kısa bir yorum bırakmanız bizi sevindirir: [bağlantı]. Yorumunuz tamamen sizin kararınızdır.”
 
 Yorum isteğinde indirim, hediye ya da başka bir karşılık önermeyin; Google bunu sahte etkileşim sayar.
+
+> **Sizin için de yapalım mı?** Sitenizde teknik bir sorun şüpheniz varsa nedenini sırayla teşhis edelim. [Hizmet almak için iletişime geçin](/iletisim/); çalışmanın kapsamı [teknik SEO sayfamızda](/teknik-seo/) anlatılıyor.
 
 ## Mevsimlik işlerde ne değişir?
 

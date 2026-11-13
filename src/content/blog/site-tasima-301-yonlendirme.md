@@ -53,6 +53,8 @@ Aynı alan adı ve aynı adres yapısında yalnızca tasarımı yeniliyorsanız 
 
 Mümkünse hayır. Google, değişiklikleri aynı anda değil arka arkaya yapmanızı önerir: örneğin önce yeni alan adına geçip, ardından sitenin düzenini değiştirmek. Adres değişikliği aracının yardım sayfası da taşımayı yeni tasarım ve yeni URL yapısıyla birleştirmenin büyük olasılıkla trafik kaybına yol açacağını, çünkü Google’ın her sayfayı yeniden öğrenmesi gerekeceğini belirtir ([Adres değişikliği aracı](https://support.google.com/webmasters/answer/9370220?hl=tr)).
 
+> **Hizmet almak için iletişime geçin.** SEO’yu baştan düşünerek tasarlanmış, hızlı ve telefonda rahat bir site kuralım. [Web tasarım hizmetimizi](/web-tasarim/) inceleyin ya da [bize yazın](/iletisim/).
+
 ## Geçişten önce URL eşleme tablosu nasıl hazırlanır?
 
 Eşleme tablosu, eski sitedeki her adresin yeni sitede nereye gideceğini gösteren listedir. Yönlendirmeler bu tabloya göre kurulur, iç bağlantılar bu tabloya göre güncellenir.
@@ -144,6 +146,8 @@ Alan adınız ya da alt alan adınız değişiyorsa, yönlendirmeleri kurduktan 
 4. Kritik bir ön kontrol başarısız olursa sorunu düzeltip tekrar deneyin.
 
 Google, taşıma bildiriminin 180 gün boyunca Search Console’da gösterildiğini ve bu süre içinde istek iptal edilebildiğini belirtir. Google ayrıca, bırakılan alan adının başkası tarafından alınıp kötüye kullanılmasını önlemek için eski alan adının ücretini en az bir yıl ödemeye devam etmenizi önerir.
+
+> **Sizin için de yapalım mı?** Mevcut sitenizi yenilemek ya da sıfırdan kurmak istiyorsanız ihtiyacınızı birlikte netleştirelim. [Hizmet almak için iletişime geçin](/iletisim/); ayrıntı [web tasarım sayfamızda](/web-tasarim/).
 
 ## Yönlendirmeler ne kadar süre kalmalı?
 

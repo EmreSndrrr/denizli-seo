@@ -71,6 +71,8 @@ Karar basittir:
 
 Hangi yolu seçerseniz seçin, Google’a giden fiyat ile sitenizdeki fiyatın aynı olmasına dikkat edin. Google, fiyat doğruluğunu sıralama sinyalleri arasında sayıyor; misafir de sitenize geldiğinde farklı bir fiyat görürse vazgeçer.
 
+> **Hizmet almak için iletişime geçin.** Google İşletme Profili’nizi ve harita görünürlüğünüzü birlikte inceleyelim; ne eksik, neyin düzeltileceğini yazılı söyleyelim. [Yerel SEO hizmetimizi](/yerel-seo/) inceleyin ya da [bize yazın](/iletisim/).
+
 ## Oda sayfaları nasıl yazılmalı?
 
 Her oda tipi için ayrı bir sayfa yazın. “Aile odası”, “havuz manzaralı oda” ya da “bahçe katında oda” gibi aramalar oda düzeyindedir. Tek bir “Odalarımız” sayfası yerine her oda tipinin kendi sayfası olması, hem misafire hem Google’a ne sunduğunuzu açıkça söyler. Fiyat bilgisini yazabiliyorsanız yazın; yazamıyorsanız fiyatın neye göre değiştiğini anlatın.
@@ -137,6 +139,8 @@ Hızlı bir rezervasyon sayfası için:
 - Rezervasyon formu kısa olsun; yalnızca gerçekten gereken bilgileri isteyin.
 
 Hız konusunda [telefonda yavaş açılan site yazımıza](/blog/telefonda-hizli-acilan-site/) bakabilirsiniz.
+
+> **Sizin için de yapalım mı?** Haritada daha görünür olmak istiyorsanız profilinize ve yerel kayıtlarınıza bakıp yapılacakları kalem kalem çıkaralım. [Hizmet almak için iletişime geçin](/iletisim/); ayrıntı için [yerel SEO sayfamıza](/yerel-seo/) göz atabilirsiniz.
 
 ## Bölge rehberi içerikleri işe yarar mı?
 

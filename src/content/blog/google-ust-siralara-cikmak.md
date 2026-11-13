@@ -32,6 +32,8 @@ Bir aramada sıra almanın ana şartı, o aramaya cevap veren bir sayfanız olma
 
 Her sayfanın açıklayıcı, kısa ve benzersiz bir `<title>` başlığı olmalı. “Ana Sayfa” gibi belirsiz başlıklardan ve tüm sayfalarda tekrar eden başlıklardan kaçının ([başlık bağlantıları](https://developers.google.com/search/docs/appearance/title-link?hl=tr)). Başlık, hem Google’ın sayfayı anlamasına hem de arama sonucunda tıklanmanıza yardım eder.
 
+> **Hizmet almak için iletişime geçin.** Müşterilerinizin sorduğu sorulardan bir içerik planı çıkaralım ve sayfalarınızı birlikte yazalım. [İçerik SEO hizmetimizi](/icerik-seo/) inceleyin ya da [bize yazın](/iletisim/).
+
 ## 5. Siteyi telefonda hızlı ve düzgün hale getirin
 
 Google, dizine ekleme ve sıralama için sitenin mobil sürümünü kullanır ([mobil öncelikli dizine ekleme](https://developers.google.com/search/docs/crawling-indexing/mobile/mobile-sites-mobile-first-indexing?hl=tr)). Mobil sitede masaüstüyle aynı içerik bulunmalı. Hız için web.dev, en büyük içeriğin yüklenmesi (LCP) için 2,5 saniyeyi, etkileşime yanıt süresi (INP) için 200 milisaniyeyi hedef olarak verir ([Web Vitals](https://web.dev/articles/vitals?hl=tr)). Hıza nereden başlanacağını ayrı bir yazıda anlattık: “Sitem telefonda yavaş.”
@@ -73,6 +75,8 @@ Süre konusunda ayrıntı için “SEO ne kadar sürede sonuç verir?” yazım�
 - **Ölçüm:** Üç ay sonra Performans raporunda yeni sayfaların gösterim almaya başladığı görülüyor.
 
 Bu örnek bir sonuç vaadi değil, işlerin sırasını gösteren bir şemadır.
+
+> **Sizin için de yapalım mı?** Sayfalarınızın ve yazılarınızın neden yeterince işe yaramadığına birlikte bakalım. [Hizmet almak için iletişime geçin](/iletisim/); yöntemimiz [içerik SEO sayfamızda](/icerik-seo/) yazılı.
 
 ## Yapılmaması gerekenler
 

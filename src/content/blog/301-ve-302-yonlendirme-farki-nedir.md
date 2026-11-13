@@ -47,6 +47,8 @@ Sunucu tarafı yönlendirmeler, sunucu yapılandırma dosyalarına (ör. Apache�
 
 Google’ın site taşıma rehberine göre 301 ve diğer kalıcı yönlendirmeler PageRank’te kayba neden olmaz ([site taşıma işlemleri](https://developers.google.com/search/docs/crawling-indexing/site-move-with-url-changes?hl=tr)). Yani “301 sıralama kaybettirir” kaygısıyla yönlendirmeden kaçınmayın; yönlendirme yapmamak, eski adresin görünürlüğünü kaybetmenin daha büyük bir yoludur.
 
+> **Hizmet almak için iletişime geçin.** Sitenizin dizine eklenme, hız ve mobil durumunu birlikte tarayalım; bulguları öncelik sırasıyla yazılı verelim. [Teknik SEO hizmetimizi](/teknik-seo/) inceleyin ya da [bize yazın](/iletisim/).
+
 ## Ne zaman 301, ne zaman 302 kullanılır?
 
 Karar kuralı: **Yönlendirme geri dönmeyecekse 301; geri dönecekse 302.**
@@ -81,6 +83,8 @@ Kontrol: Eski adresi tarayıcıya yazın ve son adrese doğrudan gidip gitmediğ
 ## Yönlendirmeleri ne kadar süre tutmalısınız?
 
 Bu yazıda Google’a atfedilen kesin bir süre yoktur. Genel tavsiye olarak, bağlantı alan ve hâlâ ziyaret edilen adresler için yönlendirmeyi uzun süre, mümkünse süresiz tutun. Dışarıdan bağlantı alan bir adrese yönlendirmeyi kaldırmak, o bağlantıların boşa gitmesine yol açar.
+
+> **Sizin için de yapalım mı?** Sitenizde teknik bir sorun şüpheniz varsa nedenini sırayla teşhis edelim. [Hizmet almak için iletişime geçin](/iletisim/); çalışmanın kapsamı [teknik SEO sayfamızda](/teknik-seo/) anlatılıyor.
 
 ## Denizli’den bir örnek
 

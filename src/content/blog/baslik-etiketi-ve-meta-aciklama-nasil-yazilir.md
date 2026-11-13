@@ -63,6 +63,8 @@ Google, snippet’i, yani sonuçtaki açıklama satırını, öncelikle sayfadak
 
 Snippet’i engellemek istiyorsanız `nosnippet`, uzunluğunu sınırlamak istiyorsanız `max-snippet` meta etiketlerini kullanabilirsiniz; ama çoğu işletme için gerek yoktur.
 
+> **Hizmet almak için iletişime geçin.** Müşterilerinizin sorduğu sorulardan bir içerik planı çıkaralım ve sayfalarınızı birlikte yazalım. [İçerik SEO hizmetimizi](/icerik-seo/) inceleyin ya da [bize yazın](/iletisim/).
+
 ## Meta açıklama nasıl yazılır?
 
 İyi bir meta açıklama kısa bir cümlede sayfanın ne sunduğunu ve müşterinin ne kazanacağını söyler:
@@ -93,6 +95,8 @@ Bu örnek sonuç vaadi değildir; yazım biçimini gösterir.
 ## Toplu düzeltme: yüzlerce sayfa varsa
 
 Çok sayfalı sitelerde başlık ve açıklamaları tek tek yazmak zordur. Öncelik sırası: ana sayfa, hizmet ve ürün kategorileri, en çok trafik alan sayfalar. Kalanlar için sayfaya özgü verilerden (ürün adı, ölçü, yer) şablonla başlık üretilebilir; ama şablon her sayfada benzersiz sonuç vermeli. Google da sayfaya özgü verilerin programlı üretim için iyi bir aday olduğunu söyler.
+
+> **Sizin için de yapalım mı?** Sayfalarınızın ve yazılarınızın neden yeterince işe yaramadığına birlikte bakalım. [Hizmet almak için iletişime geçin](/iletisim/); yöntemimiz [içerik SEO sayfamızda](/icerik-seo/) yazılı.
 
 ## Yayından sonra kontrol
 

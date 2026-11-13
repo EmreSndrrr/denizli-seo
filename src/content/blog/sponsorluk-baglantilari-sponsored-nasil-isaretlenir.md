@@ -55,6 +55,8 @@ Spam politikalarına göre sıralama için para karşılığı ya da ürün/hizm
 
 Örnek (hayalî bir işletme için): Merkezefendi’de bir otel, yerel bir gezi rehberi sitesinde sponsorlu içerik yayımlatıyor ve sözleşmede bağlantının `sponsored` olarak işaretleneceğini yazıyor. Aynı otelin bloguna gelen yorumlardaki bağlantılar `ugc` ile işaretleniyor. Kendi sayfalarına verdiği iç bağlantılarda herhangi bir niteleme yok.
 
+> **Hizmet almak için iletişime geçin.** Satın alınmış bağlantı olmadan, gerçek kaynaklarla bağlantı ve otorite çalışması planlayalım. [Backlink hizmetimizi](/backlink-hizmeti/) inceleyin ya da [bize yazın](/iletisim/).
+
 ## Yayıncıyla yazılı anlaşma: bağlantı nasıl işaretlenecek?
 
 Sponsorlu içerik ya da reklam alanı satın aldığınızda bağlantının nasıl işaretleneceğini baştan yazıya geçirin. Sonradan “bunu konuşmamıştık” demek zordur. Yayıncıya göndereceğiniz kısa bir e-posta ya da sözleşme maddesi şu unsurları içermelidir:
@@ -118,6 +120,8 @@ Bu kısa not, sonradan yaşanacak anlaşmazlıkları azaltır. Yayıncı nitelem
 - Sponsorlu içerik okuyucuya belirtilmiş mi?
 - Sitedeki giden bağlantılar yılda bir denetleniyor mu?
 - Eklenen `rel` özelliği sayfa kaynağında doğrulandı mı?
+
+> **Sizin için de yapalım mı?** Mevcut bağlantı durumunuza birlikte bakıp güvenli bir yol çizelim. [Hizmet almak için iletişime geçin](/iletisim/); hangi yöntemleri kullanmadığımız [backlink sayfamızda](/backlink-hizmeti/) açıkça yazıyor.
 
 ## Üç farklı işletmede uygulama
 

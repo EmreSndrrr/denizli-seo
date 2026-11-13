@@ -191,7 +191,10 @@
 .prose li + li { margin-top: 0.45rem; }
 .prose a { color: var(--pink-text); }
 .prose strong { font-weight: 700; color: #fff; }
-.prose blockquote { padding: 0.2rem 0 0.2rem 1.2rem; border-left: 1px solid var(--pink); color: var(--soft); }
+.prose blockquote { margin-block: 2rem; padding: 1.1rem 1.3rem; border-radius: 14px; background: var(--card); border: 1px solid var(--line); box-shadow: inset 5px 0 0 var(--pink); color: var(--muted); }
+.prose blockquote p { margin: 0; }
+.prose blockquote strong { color: #fff; }
+.prose blockquote a { color: var(--pink-text); }
 .prose table { width: 100%; border-collapse: collapse; font-size: 1rem; }
 .prose th, .prose td { text-align: left; padding: 0.6rem 0.8rem; border-bottom: 1px solid var(--line); }
 @media (max-width: 40em) {

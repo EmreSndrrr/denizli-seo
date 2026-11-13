@@ -38,6 +38,8 @@ Search Console’un Bağlantılar raporu yalnızca doğrulanmış kendi sitenizi
 
 Rakibin satın aldığı bağlantıları taklit etmeyin. Spam politikalarına göre para karşılığı bağlantılar, aşırı bağlantı takası ve düşük kaliteli dizin bağlantıları bağlantı spam’i örnekleridir ([spam politikaları](https://developers.google.com/search/docs/essentials/spam-policies?hl=tr)). Rakibin bağlantı profilindeki her şeyin “iyi” olduğunu varsaymayın.
 
+> **Hizmet almak için iletişime geçin.** Satın alınmış bağlantı olmadan, gerçek kaynaklarla bağlantı ve otorite çalışması planlayalım. [Backlink hizmetimizi](/backlink-hizmeti/) inceleyin ya da [bize yazın](/iletisim/).
+
 ## Sık yapılan hatalar
 
 - **Büyük ulusal siteleri kıyaslamak:** Yerel ve benzer ölçekteki rakipler
@@ -68,6 +70,8 @@ Listeyi sınıflandırmak, neye benzer bir çalışma yapabileceğinizi gösteri
 - **Düşük kaliteli dizinler.** Spam politikasında örnek olarak geçer; kopyalamayın.
 
 Google’ın spam politikası, para karşılığı bağlantıları, aşırı bağlantı takasını, otomatik programlarla bağlantı üretmeyi ve düşük kaliteli dizinleri bağlantı spam’i örnekleri arasında sayar ([spam politikaları](https://developers.google.com/search/docs/essentials/spam-policies?hl=tr)). Rakibinizin böyle bağlantıları varsa, bunları taklit etmek sizi aynı riske sokar.
+
+> **Sizin için de yapalım mı?** Mevcut bağlantı durumunuza birlikte bakıp güvenli bir yol çizelim. [Hizmet almak için iletişime geçin](/iletisim/); hangi yöntemleri kullanmadığımız [backlink sayfamızda](/backlink-hizmeti/) açıkça yazıyor.
 
 ## Rakipte gördüğünüz fırsatı kendinize nasıl uyarlarsınız?
 

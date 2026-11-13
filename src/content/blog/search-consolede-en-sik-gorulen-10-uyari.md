@@ -40,6 +40,8 @@ Google’ın Sayfa dizine ekleme raporu sayfası, dizine eklenmeyen URL’lerin 
 
 **Ne yapmalı?** Google, gerçekten bulunamayan sayfalar için 404 döndürmenizi ya da sayfaya daha fazla bilgi eklemenizi önerir. Ayrıntı: [soft 404 nedir?](/blog/soft-404-nedir-nasil-duzeltilir/)
 
+> **Hizmet almak için iletişime geçin.** Sitenizin dizine eklenme, hız ve mobil durumunu birlikte tarayalım; bulguları öncelik sırasıyla yazılı verelim. [Teknik SEO hizmetimizi](/teknik-seo/) inceleyin ya da [bize yazın](/iletisim/).
+
 ## 5. robots.txt tarafından engellendi
 
 **Anlamı:** Sayfa robots.txt dosyanızdaki bir kurala takılıyor.
@@ -69,6 +71,8 @@ Google’ın Sayfa dizine ekleme raporu sayfası, dizine eklenmeyen URL’lerin 
 **Anlamı:** Sayfa Google tarafından taranmış ama dizine eklenmemiş. Google, web’deki tüm sayfaları dizine eklemediği için bunun birçok site için yaygın bir mesaj olduğunu ve mutlaka ilgilenilmesi gereken bir sorun anlamına gelmediğini belirtir. Önemli sayfalar için bu mesajı görürseniz sayfaların görünmesini sağlamaya çalışın.
 
 **Ne yapmalı?** İçeriği özgün ve yararlı hale getirin, iç bağlantı verin. Ayrıntı: [Taranan, dizine eklenmeyen sayfalar](/blog/taranan-dizine-eklenmeyen-sayfalar-nedenleri/).
+
+> **Sizin için de yapalım mı?** Sitenizde teknik bir sorun şüpheniz varsa nedenini sırayla teşhis edelim. [Hizmet almak için iletişime geçin](/iletisim/); çalışmanın kapsamı [teknik SEO sayfamızda](/teknik-seo/) anlatılıyor.
 
 ## 10. Bulundu: şu anda dizine eklenmiş değil
 

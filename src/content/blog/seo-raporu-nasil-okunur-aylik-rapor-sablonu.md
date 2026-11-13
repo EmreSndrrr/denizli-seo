@@ -46,6 +46,8 @@ Bu ölçüler zamanla dalgalanır; bir aylık değişimi tek başına yorumlamay
 7. **İşe dönüşümü kontrol edin.** Form, telefon, WhatsApp ve gerçek talep sayısı.
 8. **Sonraki ayın planını sorun.** Rapor yalnızca geçmişi değil, gelecek planı da içermeli.
 
+> **Hizmet almak için iletişime geçin.** Sitenizin dizine eklenme, hız ve mobil durumunu birlikte tarayalım; bulguları öncelik sırasıyla yazılı verelim. [Teknik SEO hizmetimizi](/teknik-seo/) inceleyin ya da [bize yazın](/iletisim/).
+
 ## Aylık rapor şablonu
 
 - **1. Özet:** 5–6 cümle: ne yapıldı, ne oldu, ne öğrendik
@@ -82,6 +84,8 @@ Google’ın SEO uzmanı rehberi, üçüncü taraf araçları Google’ın değe
 - **Marka aramaları ile marka dışı aramalar farklıdır.** Marka adınızı yazan kişi zaten sizi arıyor; asıl büyüme marka dışı aramalardadır. Raporda ayırın.
 - **Mobil ve masaüstü karışımı.** Cihaz kırılımına bakın.
 - **Küçük sayılarla yüzde.** “Tıklamalar yüzde 100 arttı” — 2’den 4’e mi çıktı? Mutlak sayıyı da gösterin.
+
+> **Sizin için de yapalım mı?** Sitenizde teknik bir sorun şüpheniz varsa nedenini sırayla teşhis edelim. [Hizmet almak için iletişime geçin](/iletisim/); çalışmanın kapsamı [teknik SEO sayfamızda](/teknik-seo/) anlatılıyor.
 
 ## Yerel işletmeler için ek ölçüler
 
