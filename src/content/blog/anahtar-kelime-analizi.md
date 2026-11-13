@@ -6,7 +6,7 @@ service: icerik-seo
 imageAlt: "Arama kutusu ve altında sıralı anahtar kelime önerileri listesi"
 ---
 
-**Kısa cevap:** Anahtar kelime analizi, müşterinizin Google’a ne yazdığını bulup her aramaya cevap verecek bir sayfa planlamaktır. Ücretsiz yapmak için müşteri sorularını listeleyin, Search Console’daki Performans raporuna bakın, Google’ın arama önerilerini inceleyin ve gerekirse Anahtar Kelime Planlayıcı’yı kullanın. Sonra her kelimeyi arama niyetine göre gruplayıp sayfalara dağıtın.
+Anahtar kelime analizi, müşterinizin Google’a ne yazdığını bulup her aramaya cevap verecek bir sayfa planlamaktır. Ücretsiz yapmak için müşteri sorularını listeleyin, Search Console’daki Performans raporuna bakın, Google’ın arama önerilerini inceleyin ve gerekirse Anahtar Kelime Planlayıcı’yı kullanın. Sonra her kelimeyi arama niyetine göre gruplayıp sayfalara dağıtın.
 
 Anahtar kelime analizi çoğu zaman yanlış anlaşılır: uzun bir kelime listesi çıkarmak amaç değildir. Amaç, hangi sayfayı hangi arama için yazacağınıza karar vermektir. Bu yazıda önce kelime bulma yöntemlerini, sonra bunları nasıl eleyeceğinizi ve sayfalara nasıl dağıtacağınızı anlatıyoruz. Genel yol haritası için [Google’da üst sıralara nasıl çıkılır?](/blog/google-ust-siralara-cikmak/) yazımıza da bakabilirsiniz.
 
@@ -75,11 +75,9 @@ Dört sorudan geçen kelimeler, sayfa planınızın temelidir.
 
 Basit bir tablo yeterlidir:
 
-| Sayfa | Ana arama | Yan aramalar |
-| --- | --- | --- |
-| Hizmet sayfası | Ana hizmet + Denizli | Fiyat, süre, ilçe varyantları |
-| Rehber yazısı | Müşterinin sorduğu soru | Alternatif söylenişler |
-| İletişim ve profil | İşletme adı, yakınımda | Adres, telefon, harita |
+- **Hizmet sayfası:** ana arama: Ana hizmet + Denizli; yan aramalar: Fiyat, süre, ilçe varyantları
+- **Rehber yazısı:** ana arama: Müşterinin sorduğu soru; yan aramalar: Alternatif söylenişler
+- **İletişim ve profil:** ana arama: İşletme adı, yakınımda; yan aramalar: Adres, telefon, harita
 
 Kural: **bir sayfa, bir ana niyet.** Yan kelimeler aynı niyete hizmet ediyorsa aynı sayfada geçebilir; farklı niyetler ayrı sayfa ister. Sayfanın nasıl yazılacağı [hizmet sayfası nasıl yazılır?](/blog/hizmet-sayfasi-nasil-yazilir/) yazımızda.
 
@@ -91,13 +89,11 @@ Yerel aramalarda ilçe adı güçlü bir niyet işaretidir: “Çivril sondaj”
 
 Örnek (hayalî bir işletme için): Merkezefendi’de halı yıkama hizmeti veren küçük bir firma.
 
-| Müşteri sorusu | Niyet | Karar |
-| --- | --- | --- |
-| “Halı yıkama ne kadar sürer?” | Bilgi | Hizmet sayfasında sık sorulan sorulara ekle |
-| “Evden halı alıyor musunuz?” | Satın almaya yakın | Hizmet sayfasında ayrı bölüm |
-| “İpek halı yıkanır mı?” | Bilgi | Ayrı rehber yazısı |
-| “Pamukkale halı yıkama” | Yer + hizmet | Gerçekten hizmet veriliyorsa ilçe sayfası |
-| “Halı yıkama ücretsiz” | Uygunsuz | Hedefleme |
+- **“Halı yıkama ne kadar sürer?”:** niyet: Bilgi; karar: Hizmet sayfasında sık sorulan sorulara ekle
+- **“Evden halı alıyor musunuz?”:** niyet: Satın almaya yakın; karar: Hizmet sayfasında ayrı bölüm
+- **“İpek halı yıkanır mı?”:** niyet: Bilgi; karar: Ayrı rehber yazısı
+- **“Pamukkale halı yıkama”:** niyet: Yer + hizmet; karar: Gerçekten hizmet veriliyorsa ilçe sayfası
+- **“Halı yıkama ücretsiz”:** niyet: Uygunsuz; karar: Hedefleme
 
 Tablo, tek bir ana sayfa yerine dört dolu sayfaya giden bir plan çıkarır.
 
@@ -126,13 +122,11 @@ Denizli’de bazı aramalar mevsimle birlikte değişir. Pamukkale ve Karahayıt
 
 Karmaşık bir yazılım gerekmez; basit bir tablo yeterlidir. Her satır bir arama olsun:
 
-| Sütun | Ne yazılır? |
-| --- | --- |
-| Arama | Müşterinin yazdığı cümle |
-| Niyet | Bilgi, karşılaştırma, satın alma, yer |
-| Hedef sayfa | Hangi adres bu aramaya cevap verecek? |
-| Durum | Sayfa var mı, geliştirilecek mi, yazılacak mı? |
-| Son kontrol | Search Console’da görünürlük ne durumda? |
+- **Arama:** Müşterinin yazdığı cümle
+- **Niyet:** Bilgi, karşılaştırma, satın alma, yer
+- **Hedef sayfa:** Hangi adres bu aramaya cevap verecek?
+- **Durum:** Sayfa var mı, geliştirilecek mi, yazılacak mı?
+- **Son kontrol:** Search Console’da görünürlük ne durumda?
 
 Üç ayda bir tabloya dönüp “son kontrol” sütununu güncelleyin. Hangi aramaların işe yaradığını, hangi sayfaların yeniden yazılması gerektiğini bu tablo söyler.
 

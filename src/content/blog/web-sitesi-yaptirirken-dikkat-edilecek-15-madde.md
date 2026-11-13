@@ -6,29 +6,27 @@ service: web-tasarim
 imageAlt: "Web sitesi yaptırma kontrol listesi: sahiplik, SEO, hız, güvenlik, sözleşme"
 ---
 
-**Kısa cevap:** Web sitesi yaptırırken en önemli konular şunlardır: alan adı ve hosting sahipliğinin sizde olması, sözleşmede kapsam ve teslim şartlarının net yazılması, mobil uyum, SEO temeli (başlık, URL, sayfa yapısı), hız, güvenlik, yedek ve site yayına çıkarken yönlendirme planı. Hazır bir “SEO garantisi” ya da “ilk sayfa” sözü verilmemelidir; Google kimsenin sıralama garantisi veremeyeceğini söyler.
+Web sitesi yaptırırken en önemli konular şunlardır: alan adı ve hosting sahipliğinin sizde olması, sözleşmede kapsam ve teslim şartlarının net yazılması, mobil uyum, SEO temeli (başlık, URL, sayfa yapısı), hız, güvenlik, yedek ve site yayına çıkarken yönlendirme planı. Hazır bir “SEO garantisi” ya da “ilk sayfa” sözü verilmemelidir; Google kimsenin sıralama garantisi veremeyeceğini söyler.
 
 Güzel görünen bir site, teknik temeli zayıfsa iş getirmez. Bu yazıda 15 maddelik bir kontrol listesi veriyoruz. Teknik temel için [SEO uyumlu web sitesi](/blog/seo-uyumlu-web-sitesi/), ajans seçimi için [SEO ajansı mı, uzman mı?](/blog/seo-ajansi-mi-uzmani-mi/) yazılarına bakabilirsiniz.
 
 ## 15 maddelik kontrol listesi
 
-| # | Madde | Neden? |
-| --- | --- | --- |
-| 1 | Alan adı sizin adınıza kayıtlı olsun | Sahiplik sizde kalır |
-| 2 | Hosting ve yönetim paneli bilgileri sizde olsun | Bağımlı kalmazsınız |
-| 3 | Sözleşmede kapsam, süre, teslim ve revizyon yazılı olsun | Belirsizliği önler |
-| 4 | Mobil uyumlu tasarım | Google mobil sürümü esas alır |
-| 5 | HTTPS (SSL) | Güvenlik ve güven |
-| 6 | Sayfa başına tek H1, anlamlı başlık yapısı | Anlaşılırlık |
-| 7 | Anlamlı URL’ler | Kısa, okunur adresler |
-| 8 | Her sayfaya özgü başlık ve açıklama | Arama sonucunda görünüm |
-| 9 | Hız ve Core Web Vitals | Kullanıcı deneyimi |
-| 10 | Site haritası ve robots.txt | Tarama kolaylığı |
-| 11 | Görsellerde alt metin | Erişilebilirlik ve görsel arama |
-| 12 | İletişim ve yerel bilgi tutarlılığı | Ad, adres, telefon |
-| 13 | Yedekleme ve güncelleme planı | Güvenlik |
-| 14 | Eski siteden yönlendirme planı | SEO kaybını önler |
-| 15 | Yayın sonrası Search Console kurulumu | İzleme |
+- **1:** madde: Alan adı sizin adınıza kayıtlı olsun; neden?: Sahiplik sizde kalır
+- **2:** madde: Hosting ve yönetim paneli bilgileri sizde olsun; neden?: Bağımlı kalmazsınız
+- **3:** madde: Sözleşmede kapsam, süre, teslim ve revizyon yazılı olsun; neden?: Belirsizliği önler
+- **4:** madde: Mobil uyumlu tasarım; neden?: Google mobil sürümü esas alır
+- **5:** madde: HTTPS (SSL); neden?: Güvenlik ve güven
+- **6:** madde: Sayfa başına tek H1, anlamlı başlık yapısı; neden?: Anlaşılırlık
+- **7:** madde: Anlamlı URL’ler; neden?: Kısa, okunur adresler
+- **8:** madde: Her sayfaya özgü başlık ve açıklama; neden?: Arama sonucunda görünüm
+- **9:** madde: Hız ve Core Web Vitals; neden?: Kullanıcı deneyimi
+- **10:** madde: Site haritası ve robots.txt; neden?: Tarama kolaylığı
+- **11:** madde: Görsellerde alt metin; neden?: Erişilebilirlik ve görsel arama
+- **12:** madde: İletişim ve yerel bilgi tutarlılığı; neden?: Ad, adres, telefon
+- **13:** madde: Yedekleme ve güncelleme planı; neden?: Güvenlik
+- **14:** madde: Eski siteden yönlendirme planı; neden?: SEO kaybını önler
+- **15:** madde: Yayın sonrası Search Console kurulumu; neden?: İzleme
 
 ## Neden bu maddeler?
 
@@ -47,14 +45,12 @@ Google, dizine ekleme ve sıralama için sitenin mobil sürümünü kullanır ([
 
 ## Kırmızı bayraklar
 
-| Bayrak | Neden? |
-| --- | --- |
-| “İlk sayfa garantisi” | Kimse garanti edemez |
-| Alan adının ajans adına alınması | Sahiplik sorunu |
-| Yönetim paneli erişimi vermemek | Bağımlılık |
-| Hazır tema ve kopya metinle sınırsız “özel tasarım” | Beklenti uyuşmazlığı |
-| Sözleşmesiz iş | Belirsizlik |
-| Eski sitenin yönlendirme planı olmaması | Trafik kaybı riski |
+- **“İlk sayfa garantisi”:** Kimse garanti edemez
+- **Alan adının ajans adına alınması:** Sahiplik sorunu
+- **Yönetim paneli erişimi vermemek:** Bağımlılık
+- **Hazır tema ve kopya metinle sınırsız “özel tasarım”:** Beklenti uyuşmazlığı
+- **Sözleşmesiz iş:** Belirsizlik
+- **Eski sitenin yönlendirme planı olmaması:** Trafik kaybı riski
 
 ## Denizli’den bir örnek
 

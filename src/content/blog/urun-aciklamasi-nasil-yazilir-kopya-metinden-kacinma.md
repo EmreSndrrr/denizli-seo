@@ -6,7 +6,7 @@ service: icerik-seo
 imageAlt: "Ürün kartı ve yanında özgün açıklama metni satırları"
 ---
 
-**Kısa cevap:** İyi bir ürün açıklaması, ürünü alacak kişinin sorularını cevaplar: ne işe yarar, kime uygun, ölçüsü ve malzemesi nedir, nasıl kullanılır, teslimat ve iade nasıl işler. Üreticinin ya da başka sitenin metnini olduğu gibi kopyalamak, hem müşteriye yeni bir şey söylemez hem de Google’ın spam politikalarındaki kopyalanmış içerik başlığına yaklaşır. Her ürün için kendi cümlelerinizle, gerçek bilgiyle yazın.
+İyi bir ürün açıklaması, ürünü alacak kişinin sorularını cevaplar: ne işe yarar, kime uygun, ölçüsü ve malzemesi nedir, nasıl kullanılır, teslimat ve iade nasıl işler. Üreticinin ya da başka sitenin metnini olduğu gibi kopyalamak, hem müşteriye yeni bir şey söylemez hem de Google’ın spam politikalarındaki kopyalanmış içerik başlığına yaklaşır. Her ürün için kendi cümlelerinizle, gerçek bilgiyle yazın.
 
 E-ticarette yüzlerce ürün olduğunda en kolay yol üretici metnini yapıştırmaktır; aynı metin yüzlerce sitede durur. Bu yazıda ürün açıklamasını hızlı ama özgün yazmanın yolunu anlatıyoruz. Genel kopya içerik sorunu için [kopya içerik nedir?](/blog/kopya-icerik-nedir-nasil-onlenir/) yazımıza, e-ticaretin geneli için [e-ticaret SEO](/blog/e-ticaret-seo/) yazımıza bakabilirsiniz.
 
@@ -49,11 +49,9 @@ Google’ın spam politikaları, başka sitelerden içeriği özgün bir değer 
 
 Binlerce ürün varsa hepsini aynı özenle yazamazsınız. Öncelik verin:
 
-| Öncelik | Ürün grubu | Yaklaşım |
-| --- | --- | --- |
-| 1 | En çok satan ve en çok kâr getirenler | Tamamen özgün, ayrıntılı |
-| 2 | Orta grup | Özgün giriş + teknik tablo |
-| 3 | Uzun kuyruk | Kısa özgün giriş, doğru teknik bilgi |
+- **1:** ürün grubu: En çok satan ve en çok kâr getirenler; yaklaşım: Tamamen özgün, ayrıntılı
+- **2:** ürün grubu: Orta grup; yaklaşım: Özgün giriş + teknik tablo
+- **3:** ürün grubu: Uzun kuyruk; yaklaşım: Kısa özgün giriş, doğru teknik bilgi
 
 Şablon doldurma tek başına özgün sayılmaz: yalnızca ürün adını değiştirdiğiniz metinler de aynı sorunu yaratır. Google’ın yardımcı içerik rehberi, okuyucuya ek değer sunan, özgün bilgi ve analiz içeren içeriği öne çıkarır ([yardımcı içerik rehberi](https://developers.google.com/search/docs/fundamentals/creating-helpful-content?hl=tr)).
 
@@ -63,15 +61,13 @@ Binlerce ürün varsa hepsini aynı özenle yazamazsınız. Öncelik verin:
 
 ## Sık yapılan hatalar
 
-| Hata | Çözüm |
-| --- | --- |
-| Üretici metnini aynen yapıştırmak | Kendi cümlelerinizle yazın |
-| “En iyi, eşsiz, kaliteli” gibi boş sözler | Somut özellik yazın |
-| Anahtar kelimeyi tekrar tekrar sıkıştırmak | Doğal yazın |
-| Yalnızca ürün adı değişen şablon | Ürüne özgü bilgi ekleyin |
-| Teslimat ve iade bilgisi eksik | Kısa, net bölüm ekleyin |
-| Doğrulanmamış üstünlük iddiaları | Kanıtlayamıyorsanız yazmayın |
-| Her varyant için ayrı kopya sayfa | Tek sayfada seçenek sunun |
+- **Üretici metnini aynen yapıştırmak:** Kendi cümlelerinizle yazın
+- **“En iyi, eşsiz, kaliteli” gibi boş sözler:** Somut özellik yazın
+- **Anahtar kelimeyi tekrar tekrar sıkıştırmak:** Doğal yazın
+- **Yalnızca ürün adı değişen şablon:** Ürüne özgü bilgi ekleyin
+- **Teslimat ve iade bilgisi eksik:** Kısa, net bölüm ekleyin
+- **Doğrulanmamış üstünlük iddiaları:** Kanıtlayamıyorsanız yazmayın
+- **Her varyant için ayrı kopya sayfa:** Tek sayfada seçenek sunun
 
 ## Denizli’den bir örnek
 
@@ -79,15 +75,15 @@ Binlerce ürün varsa hepsini aynı özenle yazamazsınız. Öncelik verin:
 
 ## Yayın öncesi kontrol listesi
 
-| Kontrol | Evet / Hayır |
-| --- | --- |
-| Metin başka bir sitedeki metinle aynı değil mi? | |
-| İlk iki cümle ürünün ne işe yaradığını söylüyor mu? | |
-| Ölçü, malzeme ve içerik bilgisi doğru ve tabloda mı? | |
-| Teslimat, iade ve garanti koşulları yazılı mı? | |
-| Doğrulayamadığınız bir üstünlük iddiası var mı? | |
-| Görsellerin alt metni ürünü tarif ediyor mu? | |
-| Sayfa ilgili kategoriye ve iletişim sayfasına bağlanıyor mu? | |
+Şunları tek tek kontrol edin:
+
+- Metin başka bir sitedeki metinle aynı değil mi?
+- İlk iki cümle ürünün ne işe yaradığını söylüyor mu?
+- Ölçü, malzeme ve içerik bilgisi doğru ve tabloda mı?
+- Teslimat, iade ve garanti koşulları yazılı mı?
+- Doğrulayamadığınız bir üstünlük iddiası var mı?
+- Görsellerin alt metni ürünü tarif ediyor mu?
+- Sayfa ilgili kategoriye ve iletişim sayfasına bağlanıyor mu?
 
 Görsel tarafı için [görsel SEO](/blog/gorsel-seo/) yazımıza bakabilirsiniz. Bu listeyi her yeni ürün eklendiğinde kullanın; hızlı ama düzenli bir alışkanlık, yüzlerce ürünlü sitede bile özgünlüğü korur.
 

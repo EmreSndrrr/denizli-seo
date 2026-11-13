@@ -6,7 +6,7 @@ service: teknik-seo
 imageAlt: "Kontrol kutucukları işaretlenmiş bir SEO analiz listesi ve büyüteç"
 ---
 
-**Kısa cevap:** Ücretsiz bir SEO analizi için Google Search Console, bir telefon ve yarım gün yeterlidir. On şeyi kontrol edin: sayfalarınız dizinde mi, hangileri dışarıda, telefonda nasıl görünüyor, ne kadar hızlı açılıyor, başlık ve açıklamaları, hizmet sayfaları, iç bağlantılar, İşletme Profili ve hangi aramalarda göründüğünüz. Bulguları önem sırasına koyup en çok müşteri getirecek sayfadan başlayın.
+Ücretsiz bir SEO analizi için Google Search Console, bir telefon ve yarım gün yeterlidir. On şeyi kontrol edin: sayfalarınız dizinde mi, hangileri dışarıda, telefonda nasıl görünüyor, ne kadar hızlı açılıyor, başlık ve açıklamaları, hizmet sayfaları, iç bağlantılar, İşletme Profili ve hangi aramalarda göründüğünüz. Bulguları önem sırasına koyup en çok müşteri getirecek sayfadan başlayın.
 
 “Ücretsiz SEO analizi” diye aratan çoğu kişi, adresini yazınca bir puan veren bir araç bulur. Puan işe yarar bir başlangıç olabilir, ama neyin düzeltileceğini söylemez. Bu yazıda puansız, Google’ın kendi araçlarıyla yapabileceğiniz on kontrolü sırayla anlatıyoruz. Sonunda bulguları nasıl önceliklendireceğinizi ve ücretsiz analizin nerede bittiğini de açıklıyoruz.
 
@@ -114,13 +114,11 @@ Her gruptan en fazla üç iş seçin. Yirmi maddelik bir liste çoğu zaman hiç
 
 Örnek (hayalî bir işletme için): Buldan’da dokuma ürünleri satan küçük bir atölyenin sitesi.
 
-| Kontrol | Bulgu | Yapılacak |
-| --- | --- | --- |
-| 1-2. Dizin | Ürün kategori sayfalarından ikisi dizin dışında | Nedeni raporda bul, düzelt, tekrar denetle |
-| 3-4. Mobil ve hız | Ana sayfadaki fotoğraflar çok büyük | Fotoğrafları küçült |
-| 5-6. Başlık ve açıklama | Tüm sayfalarda aynı başlık | Her sayfaya özgü başlık yaz |
-| 7. Hizmet sayfası | Toptan satış için ayrı sayfa yok | Yeni sayfa yaz |
-| 9. Profil | Çalışma saatleri eski | Güncelle |
+- **1-2. Dizin:** bulgu: Ürün kategori sayfalarından ikisi dizin dışında; yapılacak: Nedeni raporda bul, düzelt, tekrar denetle
+- **3-4. Mobil ve hız:** bulgu: Ana sayfadaki fotoğraflar çok büyük; yapılacak: Fotoğrafları küçült
+- **5-6. Başlık ve açıklama:** bulgu: Tüm sayfalarda aynı başlık; yapılacak: Her sayfaya özgü başlık yaz
+- **7. Hizmet sayfası:** bulgu: Toptan satış için ayrı sayfa yok; yapılacak: Yeni sayfa yaz
+- **9. Profil:** bulgu: Çalışma saatleri eski; yapılacak: Güncelle
 
 Bu liste yarım günde çıkarılır ve ilk iş, yani dizin sorunu, bir saatte çözülebilir.
 

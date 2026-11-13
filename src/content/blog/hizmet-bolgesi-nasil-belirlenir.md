@@ -6,7 +6,7 @@ service: yerel-seo
 imageAlt: "Haritada işaretlenmiş hizmet bölgeleri ve gizlenmiş adres pini"
 ---
 
-**Kısa cevap:** Müşteriye bulunduğu yerde hizmet veriyorsanız profilinize hizmet bölgesi ekleyin: İşletme Profilinde Profili düzenle, Konum, Hizmet bölgesi yolunu izleyip şehir ya da posta koduyla en fazla 20 bölge seçin. Yalnızca gerçekten gittiğiniz yerleri girin. Müşteri adresinize gelmiyorsa adresi kaldırın; hem dükkânı olan hem müşteriye giden işletmeler (karma işletme) adresi ve hizmet bölgesini birlikte gösterebilir.
+Müşteriye bulunduğu yerde hizmet veriyorsanız profilinize hizmet bölgesi ekleyin: İşletme Profilinde Profili düzenle, Konum, Hizmet bölgesi yolunu izleyip şehir ya da posta koduyla en fazla 20 bölge seçin. Yalnızca gerçekten gittiğiniz yerleri girin. Müşteri adresinize gelmiyorsa adresi kaldırın; hem dükkânı olan hem müşteriye giden işletmeler (karma işletme) adresi ve hizmet bölgesini birlikte gösterebilir.
 
 Nakliyat, çilingir, tesisat, halı yıkama gibi müşteriye giden işletmeler için hizmet bölgesi, haritada görünmenin temel ayarıdır. Yanlış kurulursa profil askıya alınabilir ya da yanlış müşteri size ulaşır. Bu yazıda doğru kurulumu, Google’ın sınırlarını ve Denizli’deki ilçeler için pratik bir yöntemi anlatıyoruz. Profilin tamamı için [Google İşletme Profili nasıl doldurulur?](/blog/google-isletme-profili-nasil-doldurulur/) rehberimize bakabilirsiniz.
 
@@ -56,12 +56,10 @@ Denizli için pratik bir yöntem:
 4. **Süre ve maliyeti düşünün.** Çameli ya da Çardak gibi uzak bir ilçeye gitmek maliyetliyse ve kabul etmiyorsanız eklemeyin.
 5. **Her üç ayda bir gözden geçirin.** Yeni açılan bir hat ya da değişen bir fiyat politikası bölge listesini değiştirebilir.
 
-| Durum | Önerilen seçim |
-| --- | --- |
-| Sadece merkez ilçelere hizmet | Merkezefendi, Pamukkale |
-| Merkez ve yakın ilçeler | Merkezefendi, Pamukkale, Honaz, Sarayköy |
-| Tüm il (ilçeye göre fiyat farkı var) | Hizmet verdiğiniz ilçeler, en fazla 20 bölge sınırında |
-| Sadece belirli bir mahalle | O mahalle ya da posta kodu |
+- **Sadece merkez ilçelere hizmet:** Merkezefendi, Pamukkale
+- **Merkez ve yakın ilçeler:** Merkezefendi, Pamukkale, Honaz, Sarayköy
+- **Tüm il (ilçeye göre fiyat farkı var):** Hizmet verdiğiniz ilçeler, en fazla 20 bölge sınırında
+- **Sadece belirli bir mahalle:** O mahalle ya da posta kodu
 
 ## Adres gizleme ve adres gösterme
 
@@ -130,12 +128,10 @@ Hizmet bölgesi işletmesiyseniz müşterinin sizi ne zaman arayabileceğini net
 
 ## Hizmet bölgenizi sitede nasıl anlatırsınız?
 
-| Sayfa | İçerik |
-| --- | --- |
-| Hizmetler | Her hizmetin hangi bölgelerde verildiği |
-| Hizmet bölgeleri | İlçe ve mahalle listesi, randevu bilgisi |
-| İletişim | Telefon, WhatsApp, çalışma saatleri |
-| Sık sorulan sorular | “Hangi ilçelere geliyorsunuz?”, “Ek ücret var mı?” |
+- **Hizmetler:** Her hizmetin hangi bölgelerde verildiği
+- **Hizmet bölgeleri:** İlçe ve mahalle listesi, randevu bilgisi
+- **İletişim:** Telefon, WhatsApp, çalışma saatleri
+- **Sık sorulan sorular:** “Hangi ilçelere geliyorsunuz?”, “Ek ücret var mı?”
 
 Listenin her satırı gerçeği yansıtmalı. Gitmediğiniz bir ilçeyi listelemek, o ilçeden gelen müşteriyi hayal kırıklığına uğratır.
 

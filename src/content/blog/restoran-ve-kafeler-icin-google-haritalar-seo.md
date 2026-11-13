@@ -6,7 +6,7 @@ service: yerel-seo
 imageAlt: "Bir restoran profili: menü, fotoğraflar, saatler ve yorum kartları"
 ---
 
-**Kısa cevap:** Restoran ve kafeler için Google Haritalar’da öne çıkmanın temeli doğru ana kategori, güncel saatler, gerçek yemek ve mekân fotoğrafları, menü bilgisi, yorumlara yanıt ve paket servis varsa hizmet bölgesidir. Müşteri çoğu zaman “yakınımda kafe” ya da “Denizli kahvaltı” gibi aramayla karar verir; profil, onun gördüğü ilk sayfadır. Sıra garantisi yoktur; eksiksiz ve güncel profil şarttır.
+Restoran ve kafeler için Google Haritalar’da öne çıkmanın temeli doğru ana kategori, güncel saatler, gerçek yemek ve mekân fotoğrafları, menü bilgisi, yorumlara yanıt ve paket servis varsa hizmet bölgesidir. Müşteri çoğu zaman “yakınımda kafe” ya da “Denizli kahvaltı” gibi aramayla karar verir; profil, onun gördüğü ilk sayfadır. Sıra garantisi yoktur; eksiksiz ve güncel profil şarttır.
 
 Yeme içme işletmeleri, yerel aramaların en yoğun olduğu sektörlerden biridir: müşteri çoğunlukla anlık karar verir, harita sonucuna bakar ve fotoğraflara, yorumlara ve saatlere göre seçim yapar. Bu yüzden profil, restoranın dijital vitrinidir. Bu yazı, restoran ve kafelerin profillerini nasıl kuracağını anlatıyor. Haritada sıralama etkenlerini ayrıca [Google Haritalar’da üst sıralara nasıl çıkılır?](/blog/google-haritalarda-ust-siralara-cikmak/) yazımızda ele aldık.
 
@@ -116,14 +116,12 @@ Bu örnek sonuç vaadi değildir; işlerin sırasını gösterir.
 
 Yeme içme aramaları gün, mevsim ve etkinlikle değişir. Takvimi önceden planlayın:
 
-| Dönem | Profil ve gönderi işi |
-| --- | --- |
-| Hafta sonu sabahı | Kahvaltı gönderisi ve saatlerin netliği |
-| Yaz | Teras ve açık alan fotoğrafı; uzatılmış saatler |
-| Kış | Sıcak içecek, çorba, kapalı alan fotoğrafı |
-| Bayram ve özel günler | Çalışma saatleri, özel menü |
-| Okul ve iş dönemi | Öğle menüsü, toplantı ve grup rezervasyonu |
-| Turizm yoğunluğu | Pamukkale ve Karahayıt çevresindeki işletmelerde sezon saatleri |
+- **Hafta sonu sabahı:** Kahvaltı gönderisi ve saatlerin netliği
+- **Yaz:** Teras ve açık alan fotoğrafı; uzatılmış saatler
+- **Kış:** Sıcak içecek, çorba, kapalı alan fotoğrafı
+- **Bayram ve özel günler:** Çalışma saatleri, özel menü
+- **Okul ve iş dönemi:** Öğle menüsü, toplantı ve grup rezervasyonu
+- **Turizm yoğunluğu:** Pamukkale ve Karahayıt çevresindeki işletmelerde sezon saatleri
 
 Her dönem öncesinde profili ve gönderileri güncelleyin; ihtiyaç anında bilgiyi bulamayan müşteri başka işletmeye gider.
 

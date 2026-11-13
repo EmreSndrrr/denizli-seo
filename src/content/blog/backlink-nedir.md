@@ -6,7 +6,7 @@ service: backlink-hizmeti
 imageAlt: "Birbirine bağlanan sitelerden oluşan küçük bir bağlantı ağı"
 ---
 
-**Kısa cevap:** Backlink, yani geri bağlantı, başka bir sitenin sizin sitenize verdiği bağlantıdır. Google bu bağlantılar sayesinde sayfanızı daha kolay bulur; yerel aramalarda ise sitenize bağlantı veren siteler “belirginlik” etkenine katkı yapabilir. “Dofollow” Google’ın kendi terimi değildir; Google nofollow, sponsored ve ugc işaretli bağlantıların genellikle izlenmediğini söyler. Değerli olan, satın alınan değil hak edilen bağlantıdır.
+Backlink, yani geri bağlantı, başka bir sitenin sizin sitenize verdiği bağlantıdır. Google bu bağlantılar sayesinde sayfanızı daha kolay bulur; yerel aramalarda ise sitenize bağlantı veren siteler “belirginlik” etkenine katkı yapabilir. “Dofollow” Google’ın kendi terimi değildir; Google nofollow, sponsored ve ugc işaretli bağlantıların genellikle izlenmediğini söyler. Değerli olan, satın alınan değil hak edilen bağlantıdır.
 
 Backlink konusu çoğu işletme için bulanıktır: çok konuşulur, ne olduğu ve hangisinin işe yaradığı karışık anlatılır. Bu yazıda önce backlinkin ne olduğunu, sonra dofollow ve nofollow ayrımını ve “doğal” bir bağlantının nasıl göründüğünü anlatıyoruz. Denizli’deki işletmeler için örnekler ve kaçınılacak yollar da var.
 
@@ -81,13 +81,11 @@ Sayı tuzağının bir yan etkisi de “binlerce backlink” satan paketlerdir. 
 
 Örnek (hayalî bir işletme için): Çal’da zeytin ve zeytinyağı üreten küçük bir aile işletmesi. Gerçekçi bağlantı kaynakları şunlar olabilir:
 
-| Kaynak | Neden bağlantı verir? | Bağlantı türü |
-| --- | --- | --- |
-| Yerel üretici derneği | Üyelerini listeler | Etiketsiz |
-| Tarım fuarı sayfası | Katılımcıları ve stantları duyurur | Etiketsiz ya da `sponsored` |
-| Yerel haber sitesi | Hasat dönemi haberinde işletmeyi anar | Etiketsiz |
-| Satış yapan restoran ya da market | Tedarikçilerini sayfasında gösterir | Etiketsiz |
-| Müşteri yorum ve forum siteleri | Kullanıcılar kendi eklediği bağlantı | `ugc` ya da `nofollow` |
+- **Yerel üretici derneği:** neden bağlantı verir?: Üyelerini listeler; bağlantı türü: Etiketsiz
+- **Tarım fuarı sayfası:** neden bağlantı verir?: Katılımcıları ve stantları duyurur; bağlantı türü: Etiketsiz ya da `sponsored`
+- **Yerel haber sitesi:** neden bağlantı verir?: Hasat dönemi haberinde işletmeyi anar; bağlantı türü: Etiketsiz
+- **Satış yapan restoran ya da market:** neden bağlantı verir?: Tedarikçilerini sayfasında gösterir; bağlantı türü: Etiketsiz
+- **Müşteri yorum ve forum siteleri:** neden bağlantı verir?: Kullanıcılar kendi eklediği bağlantı; bağlantı türü: `ugc` ya da `nofollow`
 
 Bu profil küçük ve yavaş büyür. Ama her satırın bir sebebi vardır ve üçüncü kişilerce doğrulanabilir. İşletmenin gerçek hayattaki ilişkileri, bağlantı profilini oluşturur.
 
@@ -121,12 +119,10 @@ Bir iş ortağınızı ya da tedarikçinizi gerçekten önermek için bağlantı
 
 ## Backlink hakkında yaygın yanlış anlamalar
 
-| Yanlış anlama | Gerçek |
-| --- | --- |
-| “Ne kadar çok backlink, o kadar iyi.” | Sayı kaliteyi göstermez; sebebi olan birkaç bağlantı, sebepsiz yüzlercesinden daha anlamlıdır. |
-| “Yalnızca dofollow bağlantı işe yarar.” | Dofollow Google’ın terimi değildir; nofollow bir bağlantı da ziyaretçi ve tanınırlık getirebilir. |
-| “Bağlantıyı satın alırsam hızlanırım.” | Sıralama için para karşılığı bağlantı, Google’ın spam örnekleri arasındadır. |
-| “Backlink SEO’nun tamamıdır.” | Bağlantı yalnızca bir parça; içerik, teknik düzen ve yerel profil de gerekir. |
+- **“Ne kadar çok backlink, o kadar iyi.”:** Sayı kaliteyi göstermez; sebebi olan birkaç bağlantı, sebepsiz yüzlercesinden daha anlamlıdır.
+- **“Yalnızca dofollow bağlantı işe yarar.”:** Dofollow Google’ın terimi değildir; nofollow bir bağlantı da ziyaretçi ve tanınırlık getirebilir.
+- **“Bağlantıyı satın alırsam hızlanırım.”:** Sıralama için para karşılığı bağlantı, Google’ın spam örnekleri arasındadır.
+- **“Backlink SEO’nun tamamıdır.”:** Bağlantı yalnızca bir parça; içerik, teknik düzen ve yerel profil de gerekir.
 
 Bu tabloyu kafanızda tutarsanız bir teklifte “bağlantı paketi” gördüğünüzde doğru soruyu sorabilirsiniz: bu bağlantılar kimden gelecek ve neden?
 

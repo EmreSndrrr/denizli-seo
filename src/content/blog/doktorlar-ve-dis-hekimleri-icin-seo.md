@@ -6,7 +6,7 @@ service: yerel-seo
 imageAlt: "Bir muayenehane profil kartı, randevu düğmesi ve gizlilik simgesi"
 ---
 
-**Kısa cevap:** Doktorlar ve diş hekimleri için SEO, doğru kategori ve bilgi, kolay randevu, açık ve doğrulanabilir hizmet sayfaları, hasta gizliliğine uygun yorum yanıtı ve gerçek uzmanlık bilgisiyle yapılır. Sağlık hizmetlerinin tanıtımı özel düzenlemelere tabidir; sitede ve profilde yazacaklarınızı yayımlamadan önce ilgili mevzuata ve meslek kuruluşunuzun kurallarına göre kendiniz doğrulayın. Bu yazı hukuki danışmanlık değildir.
+Doktorlar ve diş hekimleri için SEO, doğru kategori ve bilgi, kolay randevu, açık ve doğrulanabilir hizmet sayfaları, hasta gizliliğine uygun yorum yanıtı ve gerçek uzmanlık bilgisiyle yapılır. Sağlık hizmetlerinin tanıtımı özel düzenlemelere tabidir; sitede ve profilde yazacaklarınızı yayımlamadan önce ilgili mevzuata ve meslek kuruluşunuzun kurallarına göre kendiniz doğrulayın. Bu yazı hukuki danışmanlık değildir.
 
 Sağlık sektöründe arama yapan kişi, karar vermeden önce kimin, nerede, hangi konuda hizmet verdiğini ve ne kadar güvenilir olduğunu araştırır. “Denizli diş hekimi”, “Merkezefendi kadın doğum”, “yakınımda göz doktoru” gibi aramalarda harita ve site birlikte çalışır. Bu yazı, bir muayenehane ya da klinik için neyi nasıl yapacağınızı ve nelere dikkat edeceğinizi anlatıyor.
 
@@ -55,12 +55,10 @@ Yorum toplama kurallarına uyun: yorum karşılığında indirim, hediye ya da �
 
 Siteniz, müşterinin sorularına doğru ve anlaşılır cevap veren sayfalardan oluşmalı. Her hizmet için ayrı sayfa yazın: ne olduğu, kimler için olduğu, süreç, hazırlık, sık sorulan sorular ve randevu. Dil sade ve doğru olmalı; abartılı vaat ya da garantili sonuç ifadesi yazmayın.
 
-| Sayfa | İçerik | Dikkat |
-| --- | --- | --- |
-| Hizmet sayfası | Hizmetin ne olduğu, süreç, sık sorulan sorular | Tıbbi bilgi güncel ve doğru olmalı |
-| Hakkımda / ekip | Eğitim, uzmanlık alanı, çalışma yılı | Yalnızca doğrulanabilir bilgi |
-| Randevu / iletişim | Telefon, WhatsApp, form, adres, harita | Çalışma saatleri net |
-| Sık sorulan sorular | Hasta sorularına kısa, doğru cevap | Kişiye özel tıbbi tavsiye vermemek |
+- **Hizmet sayfası:** i̇çerik: Hizmetin ne olduğu, süreç, sık sorulan sorular; dikkat: Tıbbi bilgi güncel ve doğru olmalı
+- **Hakkımda / ekip:** i̇çerik: Eğitim, uzmanlık alanı, çalışma yılı; dikkat: Yalnızca doğrulanabilir bilgi
+- **Randevu / iletişim:** i̇çerik: Telefon, WhatsApp, form, adres, harita; dikkat: Çalışma saatleri net
+- **Sık sorulan sorular:** i̇çerik: Hasta sorularına kısa, doğru cevap; dikkat: Kişiye özel tıbbi tavsiye vermemek
 
 Google’ın içerik rehberi, birinci elden uzmanlığın ve kapsamlı bilginin açıkça gösterilmesini ister ([faydalı ve güvenilir içerik](https://developers.google.com/search/docs/fundamentals/creating-helpful-content?hl=tr)). Sağlık içeriğinde bunun karşılığı, bilgiyi alanında yetkin birinin hazırlaması ya da gözden geçirmesidir. İçeriği yazan ve onaylayan kişiyi, eğitimini ve uzmanlık alanını açıkça belirtin.
 
@@ -91,14 +89,12 @@ Aylık şu rakamlara bakın: profilin aramaları ve yol tarifleri, sitenizin Sea
 
 Örnek (hayalî bir işletme için): Merkezefendi’de bir diş kliniği. Durum: profilde kategori genel, saatler eski, fotoğraf yok, siteyi tek sayfa; yorumlara yanıt verilmiyor.
 
-| Alan | Yapılacak |
-| --- | --- |
-| Profil | Doğru kategori; saatler, telefon ve randevu bağlantısı; dış cephe ve bekleme salonu fotoğrafı |
-| Yorum | Gizliliğe uygun, genel ve sakin yanıt şablonu; yorum karşılığı teşvik yok |
-| Site | Her hizmet için ayrı sayfa; yazar ve gözden geçiren hekim bilgisi |
-| Güven | Doktor tanıtımı, muayenehane fotoğrafları; doğrulanamayan iddia yok |
-| Mevzuat | Yayımlanacak her ifade, mevzuat ve meslek odası kurallarına göre kontrol ediliyor |
-| Ölçüm | Aylık profil ve Search Console rakamları; “nasıl buldunuz?” kaydı |
+- **Profil:** Doğru kategori; saatler, telefon ve randevu bağlantısı; dış cephe ve bekleme salonu fotoğrafı
+- **Yorum:** Gizliliğe uygun, genel ve sakin yanıt şablonu; yorum karşılığı teşvik yok
+- **Site:** Her hizmet için ayrı sayfa; yazar ve gözden geçiren hekim bilgisi
+- **Güven:** Doktor tanıtımı, muayenehane fotoğrafları; doğrulanamayan iddia yok
+- **Mevzuat:** Yayımlanacak her ifade, mevzuat ve meslek odası kurallarına göre kontrol ediliyor
+- **Ölçüm:** Aylık profil ve Search Console rakamları; “nasıl buldunuz?” kaydı
 
 Bu örnek sonuç vaadi değildir; işlerin sırasını gösterir.
 

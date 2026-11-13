@@ -6,7 +6,7 @@ service: icerik-seo
 imageAlt: "Soru balonları ve altlarında kısa cevap kutuları"
 ---
 
-**Kısa cevap:** SSS bölümü, müşterinin gerçekten sorduğu soruları, kısa ve doğrudan cevaplarla yanıtlayan bölümdür. Soruları müşteri mesajlarından, telefon notlarından ve Search Console sorgularından toplayın; her soruyu müşterinin yazacağı biçimde yazın; cevabın ilk cümlesi soruyu doğrudan karşılasın; sayfa başına üç ile sekiz soru yeterlidir. Bilgi gerçek ve güncel olmalı; yapılandırılmış veri kullanacaksanız Google’ın güncel yönergelerini ayrıca kontrol edin.
+SSS bölümü, müşterinin gerçekten sorduğu soruları, kısa ve doğrudan cevaplarla yanıtlayan bölümdür. Soruları müşteri mesajlarından, telefon notlarından ve Search Console sorgularından toplayın; her soruyu müşterinin yazacağı biçimde yazın; cevabın ilk cümlesi soruyu doğrudan karşılasın; sayfa başına üç ile sekiz soru yeterlidir. Bilgi gerçek ve güncel olmalı; yapılandırılmış veri kullanacaksanız Google’ın güncel yönergelerini ayrıca kontrol edin.
 
 SSS bölümü, hizmet sayfalarının en az emek isteyen ama en çok iş gören parçasıdır: müşteri karar vermeden önce takıldığı soruyu burada bulur. İyi yazılmış bir SSS, telefon trafiğini azaltır, güveni artırır ve sayfanın aramalarda eşleşme alanını genişletir. Bu yazıda soruları nasıl bulacağınızı, nasıl yazacağınızı ve nereye koyacağınızı anlatıyoruz. Hizmet sayfasının bütünü için [hizmet sayfası nasıl yazılır?](/blog/hizmet-sayfasi-nasil-yazilir/) yazımıza bakabilirsiniz.
 
@@ -42,14 +42,12 @@ Kurallar:
 
 ## Cevabı nasıl yazarsınız?
 
-| Kural | Açıklama |
-| --- | --- |
-| İlk cümle soruyu cevaplasın | “Evet”, “Hayır”, “Süre işe göre değişir; çoğu bakım bir saat civarındadır” gibi doğrudan |
-| Kısa tutun | İki üç cümle; gerekirse devamında bir ayrıntı |
-| Doğru ve doğrulanabilir olun | Rakam yalnızca gerçeği yansıtıyorsa |
-| Kesin söz vermeyin | “Garanti” ve “mutlaka” ifadelerinden kaçının |
-| Eylem ekleyin | “Randevu için arayın” gibi bir sonraki adım |
-| İlgili sayfaya bağlayın | Ayrıntı için ilgili hizmet ya da yazıya bağlantı |
+- **İlk cümle soruyu cevaplasın:** “Evet”, “Hayır”, “Süre işe göre değişir; çoğu bakım bir saat civarındadır” gibi doğrudan
+- **Kısa tutun:** İki üç cümle; gerekirse devamında bir ayrıntı
+- **Doğru ve doğrulanabilir olun:** Rakam yalnızca gerçeği yansıtıyorsa
+- **Kesin söz vermeyin:** “Garanti” ve “mutlaka” ifadelerinden kaçının
+- **Eylem ekleyin:** “Randevu için arayın” gibi bir sonraki adım
+- **İlgili sayfaya bağlayın:** Ayrıntı için ilgili hizmet ya da yazıya bağlantı
 
 Zayıf ve iyi örnek (hayalî bir işletme için):
 
@@ -93,14 +91,12 @@ Bu örnek sonuç vaadi değildir; SSS düzenini gösterir.
 
 ## Sektöre göre örnek SSS konuları
 
-| Sektör | Tipik sorular |
-| --- | --- |
-| Klima ve beyaz eşya servisi | Aynı gün gelir misiniz? Fiyat nasıl belirlenir? Garanti var mı (gerçekse)? |
-| Pansiyon, otel | Kahvaltı dahil mi? Otopark var mı? İptal koşulu nedir? Check-in saati? |
-| Kuyumcu | Ölçü değişimi ne kadar sürer? Alım satımda nasıl işlem yapılır? |
-| Diş kliniği | Randevu nasıl alınır? İlk muayenede ne yapılır? (genel, kişiye özel tıbbi tavsiye değil) |
-| Nakliyat | Keşif ücretli mi? Hangi ilçelere gidiyorsunuz? Sigorta var mı (gerçekse)? |
-| Mağaza | İade ve değişim koşulları? Teslimat süresi? |
+- **Klima ve beyaz eşya servisi:** Aynı gün gelir misiniz? Fiyat nasıl belirlenir? Garanti var mı (gerçekse)?
+- **Pansiyon, otel:** Kahvaltı dahil mi? Otopark var mı? İptal koşulu nedir? Check-in saati?
+- **Kuyumcu:** Ölçü değişimi ne kadar sürer? Alım satımda nasıl işlem yapılır?
+- **Diş kliniği:** Randevu nasıl alınır? İlk muayenede ne yapılır? (genel, kişiye özel tıbbi tavsiye değil)
+- **Nakliyat:** Keşif ücretli mi? Hangi ilçelere gidiyorsunuz? Sigorta var mı (gerçekse)?
+- **Mağaza:** İade ve değişim koşulları? Teslimat süresi?
 
 Soruları kendi müşterilerinizin sorularıyla değiştirin; liste yalnızca fikir verir.
 

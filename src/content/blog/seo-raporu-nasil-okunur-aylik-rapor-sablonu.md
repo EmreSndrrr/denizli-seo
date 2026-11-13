@@ -6,7 +6,7 @@ service: teknik-seo
 imageAlt: "Aylık SEO raporu: gösterim, tıklama, sıra ve yapılan işler tablosu"
 ---
 
-**Kısa cevap:** İyi bir SEO raporu, ay içinde ne yapıldığını, hangi verilerin ölçüldüğünü ve verinin ne anlama geldiğini açıkça gösterir. Çekirdek ölçüler Search Console’dan gelir: gösterim, tıklama, tıklama oranı ve ortalama konum; bunlara dizine ekleme durumu, sayfa deneyimi, bağlantılar ve (yerel işletmelerde) Google İşletme Profili etkileşimleri eklenir. Tek bir aya ya da sayıya değil, trende, sayfa ve sorgu ayrıntısına bakın. Yalnızca “trafik arttı” diyen rapor yetersizdir.
+İyi bir SEO raporu, ay içinde ne yapıldığını, hangi verilerin ölçüldüğünü ve verinin ne anlama geldiğini açıkça gösterir. Çekirdek ölçüler Search Console’dan gelir: gösterim, tıklama, tıklama oranı ve ortalama konum; bunlara dizine ekleme durumu, sayfa deneyimi, bağlantılar ve (yerel işletmelerde) Google İşletme Profili etkileşimleri eklenir. Tek bir aya ya da sayıya değil, trende, sayfa ve sorgu ayrıntısına bakın. Yalnızca “trafik arttı” diyen rapor yetersizdir.
 
 Aylık raporu çoğu işletme sahibi sayfalarca tablo olarak alır ve neye bakacağını bilemez. Bu yazı, raporun hangi bölümlerden oluşması gerektiğini, her ölçünün ne söylediğini ve ne söylemediğini anlatır. Ajansa hangi raporu sormalısınız konusu için [backlink raporu](/blog/backlink-calismasinda-ajanstan-hangi-rapor-istenmeli/), ücretsiz ilk kontrol için Search Console ilk kontrol yazılarına da bakabilirsiniz.
 
@@ -48,34 +48,30 @@ Bu ölçüler zamanla dalgalanır; bir aylık değişimi tek başına yorumlamay
 
 ## Aylık rapor şablonu
 
-| Bölüm | İçerik |
-| --- | --- |
-| 1. Özet | 5–6 cümle: ne yapıldı, ne oldu, ne öğrendik |
-| 2. Yapılan işler | Tarih, sayfa, yapılan değişiklik, gerekçe |
-| 3. Aramadaki görünürlük | Gösterim, tıklama, TO, ortalama konum; önceki dönemle karşılaştırma |
-| 4. En çok kazanan ve kaybeden sayfalar / sorgular | İlk 5–10 |
-| 5. Dizine ekleme ve teknik sağlık | Yeni hatalar, düzeltilenler, açık sorunlar |
-| 6. Sayfa deneyimi | Core Web Vitals durumu, hız bulguları |
-| 7. Yerel görünürlük | Profil görüntüleme, arama, yol tarifi, yorum sayısı ve puan |
-| 8. Bağlantılar | Yeni, kaybolan, dikkat edilecek bağlantılar |
-| 9. İşe dönüşüm | Form, telefon, WhatsApp, kendi kaydınızdaki talep ve satış |
-| 10. Riskler ve belirsizlikler | Ne bilmiyoruz, neyi ölçemiyoruz? |
-| 11. Sonraki ay planı | 3–5 somut iş ve öncelik |
+- **1. Özet:** 5–6 cümle: ne yapıldı, ne oldu, ne öğrendik
+- **2. Yapılan işler:** Tarih, sayfa, yapılan değişiklik, gerekçe
+- **3. Aramadaki görünürlük:** Gösterim, tıklama, TO, ortalama konum; önceki dönemle karşılaştırma
+- **4. En çok kazanan ve kaybeden sayfalar / sorgular:** İlk 5–10
+- **5. Dizine ekleme ve teknik sağlık:** Yeni hatalar, düzeltilenler, açık sorunlar
+- **6. Sayfa deneyimi:** Core Web Vitals durumu, hız bulguları
+- **7. Yerel görünürlük:** Profil görüntüleme, arama, yol tarifi, yorum sayısı ve puan
+- **8. Bağlantılar:** Yeni, kaybolan, dikkat edilecek bağlantılar
+- **9. İşe dönüşüm:** Form, telefon, WhatsApp, kendi kaydınızdaki talep ve satış
+- **10. Riskler ve belirsizlikler:** Ne bilmiyoruz, neyi ölçemiyoruz?
+- **11. Sonraki ay planı:** 3–5 somut iş ve öncelik
 
 “Riskler ve belirsizlikler” bölümü dürüst bir raporun işaretidir: veri her zaman her şeyi söylemez.
 
 ## Raporda dikkat edilecek kırmızı bayraklar
 
-| Bayrak | Neden sorun? |
-| --- | --- |
-| Yalnızca “trafik arttı” | Hangi sayfa, hangi arama, işe dönüştü mü bilinmez |
-| “Sıralama yükseldi” ama hangi aramada olduğu yok | Önemsiz aramalarda yükselmiş olabilir |
-| Yapılan işler listesi yok | Neden için ne yapıldığı görünmez |
-| Sıralama garantisi | Kimse garanti edemez |
-| Mevsimsellik açıklanmamış | Normal artış başarı gibi sunulmuş olabilir |
-| “Otorite puanı arttı” gibi üçüncü taraf puanlar | Bu puanlar Google’ın ölçüsü değildir; Google bu araçları değerlendirmez ya da desteklemez |
-| Ekran görüntüsüz, kaynaksız rakam | Doğrulanamaz |
-| Tek aylık değişime büyük anlam yüklemek | Dalgalanma normaldir |
+- **Yalnızca “trafik arttı”:** Hangi sayfa, hangi arama, işe dönüştü mü bilinmez
+- **“Sıralama yükseldi” ama hangi aramada olduğu yok:** Önemsiz aramalarda yükselmiş olabilir
+- **Yapılan işler listesi yok:** Neden için ne yapıldığı görünmez
+- **Sıralama garantisi:** Kimse garanti edemez
+- **Mevsimsellik açıklanmamış:** Normal artış başarı gibi sunulmuş olabilir
+- **“Otorite puanı arttı” gibi üçüncü taraf puanlar:** Bu puanlar Google’ın ölçüsü değildir; Google bu araçları değerlendirmez ya da desteklemez
+- **Ekran görüntüsüz, kaynaksız rakam:** Doğrulanamaz
+- **Tek aylık değişime büyük anlam yüklemek:** Dalgalanma normaldir
 
 Google’ın SEO uzmanı rehberi, üçüncü taraf araçları Google’ın değerlendirmediğini ve desteklemediğini söyler ve ajansa başarının nasıl ölçüleceğini, ne kadar zamanda nasıl sonuç beklendiğini sormayı önerir ([SEO uzmanı işe alma](https://developers.google.com/search/docs/fundamentals/do-i-need-seo?hl=tr)).
 
@@ -97,18 +93,16 @@ Google İşletme Profili’nin performans raporu, profilin kaç kez görüntüle
 
 ## Raporu aldığınızda sorulacak 10 soru
 
-| # | Soru |
-| --- | --- |
-| 1 | Bu ay tam olarak hangi işler yapıldı? |
-| 2 | Bu işler neden yapıldı, hangi sorunu ya da fırsatı hedefliyordu? |
-| 3 | Hangi veri hangi araçtan alındı, hangi tarih aralığı? |
-| 4 | Mevsimsellik ve önceki yılla karşılaştırma var mı? |
-| 5 | Marka ve marka dışı aramalar ayrı mı? |
-| 6 | Hangi sayfalar ve sorgular kazandı, hangileri kaybetti, nedenini biliyor muyuz? |
-| 7 | Dizine ekleme ve teknik hata var mı? |
-| 8 | Gelen talepler müşteriye dönüştü mü? |
-| 9 | Neyi bilmiyoruz ya da ölçemiyoruz? |
-| 10 | Gelecek ay ne yapılacak ve neden? |
+- **1:** Bu ay tam olarak hangi işler yapıldı?
+- **2:** Bu işler neden yapıldı, hangi sorunu ya da fırsatı hedefliyordu?
+- **3:** Hangi veri hangi araçtan alındı, hangi tarih aralığı?
+- **4:** Mevsimsellik ve önceki yılla karşılaştırma var mı?
+- **5:** Marka ve marka dışı aramalar ayrı mı?
+- **6:** Hangi sayfalar ve sorgular kazandı, hangileri kaybetti, nedenini biliyor muyuz?
+- **7:** Dizine ekleme ve teknik hata var mı?
+- **8:** Gelen talepler müşteriye dönüştü mü?
+- **9:** Neyi bilmiyoruz ya da ölçemiyoruz?
+- **10:** Gelecek ay ne yapılacak ve neden?
 
 ## Denizli SEO bu konuda nasıl yardımcı olur?
 

@@ -6,7 +6,7 @@ service: teknik-seo
 imageAlt: "Düşen bir trafik grafiği ve altında teşhis adımları"
 ---
 
-**Kısa cevap:** Trafik düştüğünde önce düşüşün kalıbına bakın: ne zaman başladı, ani mi kademeli mi, hangi sayfa ve sorgular etkilendi, gösterim mi tıklama mı düştü? Google’ın rehberi başlıca nedenleri şöyle sıralar: teknik sorunlar, güvenlik sorunları, spam sorunları ve manuel işlem, algoritma güncellemeleri, sezona bağlı değişiklikler ve raporlama hataları. Önce raporlama ve mevsim gibi zararsız nedenleri eleyin, sonra teknik ve diğer nedenlere geçin; panikle siteyi değiştirmeyin.
+Trafik düştüğünde önce düşüşün kalıbına bakın: ne zaman başladı, ani mi kademeli mi, hangi sayfa ve sorgular etkilendi, gösterim mi tıklama mı düştü? Google’ın rehberi başlıca nedenleri şöyle sıralar: teknik sorunlar, güvenlik sorunları, spam sorunları ve manuel işlem, algoritma güncellemeleri, sezona bağlı değişiklikler ve raporlama hataları. Önce raporlama ve mevsim gibi zararsız nedenleri eleyin, sonra teknik ve diğer nedenlere geçin; panikle siteyi değiştirmeyin.
 
 “Trafiğim düştü” cümlesi, bir işletme sahibinin en endişeli anıdır; ama tek bir neden yoktur. Google, arama trafiği düşüşlerini ayıklamak için kendi rehberini yayımlar ve Search Console Performans raporunun ana grafiğiyle başlamayı önerir. Bu yazıda o rehberi adım adım, küçük bir işletme için uyarlıyoruz. Search Console’u tanımak için [Search Console’da ilk kontrol](/blog/search-console-ilk-kontrol/) yazımıza bakın.
 
@@ -77,16 +77,16 @@ Google’ın rehberi, en iyi sayfalarınızın sıralamasına bakmanızı öneri
 
 ## Teşhis tablosu şablonu
 
-| Kontrol | Sonuç | Not |
-| --- | --- | --- |
-| Veri anormalliği var mı? | | |
-| Mevsimsel mi? (geçen yıl) | | |
-| Site açılıyor, sunucu hatası yok mu? | | |
-| robots.txt ve noindex doğru mu? | | |
-| Önemli sayfalar dizinde mi? | | |
-| Güvenlik sorunu raporu | | |
-| Manuel işlem raporu | | |
-| Güncelleme tarihleriyle örtüşme | | |
+Şunları tek tek kontrol edin:
+
+- Veri anormalliği var mı?
+- Mevsimsel mi? (geçen yıl)
+- Site açılıyor, sunucu hatası yok mu?
+- robots.txt ve noindex doğru mu?
+- Önemli sayfalar dizinde mi?
+- Güvenlik sorunu raporu
+- Manuel işlem raporu
+- Güncelleme tarihleriyle örtüşme
 
 ## Denizli’den bir örnek
 

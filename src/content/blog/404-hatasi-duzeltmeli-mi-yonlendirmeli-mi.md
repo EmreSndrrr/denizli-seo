@@ -6,7 +6,7 @@ service: teknik-seo
 imageAlt: "Kırık bağlantı simgesi ve iki yoldan oluşan karar şeması"
 ---
 
-**Kısa cevap:** 404, “sayfa bulunamadı” anlamına gelir ve kendi başına sitenize zarar vermez. Google, 4xx kodu dönen URL’leri dizine eklemez; daha önce dizindeyse zamanla kaldırır. Sayfa gerçekten silindiyse ve yerine uygun bir sayfa yoksa 404 bırakın. Sayfa taşındıysa ya da yerine benzer bir sayfa varsa 301 ile o sayfaya yönlendirin. Önemli olan, bulunamayan sayfanın gerçekten 404 kodu döndürmesidir; “bulunamadı” yazan ama 200 dönen sayfa soft 404 sayılır.
+404, “sayfa bulunamadı” anlamına gelir ve kendi başına sitenize zarar vermez. Google, 4xx kodu dönen URL’leri dizine eklemez; daha önce dizindeyse zamanla kaldırır. Sayfa gerçekten silindiyse ve yerine uygun bir sayfa yoksa 404 bırakın. Sayfa taşındıysa ya da yerine benzer bir sayfa varsa 301 ile o sayfaya yönlendirin. Önemli olan, bulunamayan sayfanın gerçekten 404 kodu döndürmesidir; “bulunamadı” yazan ama 200 dönen sayfa soft 404 sayılır.
 
 “404’leri düzeltmek zorunda mıyım?” sorusunun cevabı çoğu zaman “hayır, ama doğru karar vermelisiniz” olur. Her 404 hata değildir; silinmiş bir sayfa için 404 doğru davranıştır. Sorun, işe yarayan bir sayfanın yanlışlıkla 404 vermesi ya da eski adreslere hâlâ bağlantı veren sayfaların bulunmasıdır. Bu yazıda karar kuralını, kırık bağlantıları bulma ve düzeltme adımlarını anlatıyoruz. Yönlendirme türleri için [301 ve 302 farkı](/blog/301-ve-302-yonlendirme-farki-nedir/) yazımıza bakabilirsiniz.
 
@@ -79,13 +79,11 @@ Karar: eski bakım sayfası yeni bakım sayfasına 301 ile yönlendiriliyor; yı
 
 ## 404 hakkında yaygın yanlış anlamalar
 
-| Yanlış anlama | Gerçek |
-| --- | --- |
-| “Çok 404 varsa Google ceza verir.” | Google, 4xx dönen URL’leri dizine eklemez ve zamanla kullanmayı bırakır; silinmiş sayfa için 404 normaldir |
-| “Her 404’ü yönlendirmeliyim.” | Yalnızca karşılığı olan ve değeri olan sayfaları yönlendirin |
-| “404 sayfamı güzel yaptım, sorun yok.” | Sayfa 404 durum kodunu döndürmüyorsa soft 404 olabilir |
-| “Silinen sayfayı ana sayfaya yönlendirmek en kolayı.” | Alakasız yönlendirme kullanıcıyı yanıltır |
-| “404 ile 410 farklı çalışır.” | Google’a göre 429 dışındaki 4xx hataları aynı işlenir |
+- **“Çok 404 varsa Google ceza verir.”:** Google, 4xx dönen URL’leri dizine eklemez ve zamanla kullanmayı bırakır; silinmiş sayfa için 404 normaldir
+- **“Her 404’ü yönlendirmeliyim.”:** Yalnızca karşılığı olan ve değeri olan sayfaları yönlendirin
+- **“404 sayfamı güzel yaptım, sorun yok.”:** Sayfa 404 durum kodunu döndürmüyorsa soft 404 olabilir
+- **“Silinen sayfayı ana sayfaya yönlendirmek en kolayı.”:** Alakasız yönlendirme kullanıcıyı yanıltır
+- **“404 ile 410 farklı çalışır.”:** Google’a göre 429 dışındaki 4xx hataları aynı işlenir
 
 ## Aylık 404 kontrol rutini
 

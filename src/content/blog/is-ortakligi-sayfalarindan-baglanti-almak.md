@@ -6,7 +6,7 @@ service: backlink-hizmeti
 imageAlt: "İki işletmenin birbirini gerçek bir ortaklıkla göstermesi"
 ---
 
-**Kısa cevap:** Gerçek iş ortaklarınızın sayfalarında yer almak ya da onları kendi sitenizde tanıtmak normaldir. Sorun, bağlantı takasının amaca dönüşmesidir: Google’ın spam politikası, aşırı miktarda bağlantı takasını (“bana bağlantı ver, ben de sana vereyim”) ve karşılıklı bağlantı vermeyi amaçlayan özel iş ortağı sayfalarını bağlantı spam’i örnekleri arasında sayar. Ortaklık gerçekse, bağlantı müşteriye yararlıysa ve sayıca makulse sorun yoktur.
+Gerçek iş ortaklarınızın sayfalarında yer almak ya da onları kendi sitenizde tanıtmak normaldir. Sorun, bağlantı takasının amaca dönüşmesidir: Google’ın spam politikası, aşırı miktarda bağlantı takasını (“bana bağlantı ver, ben de sana vereyim”) ve karşılıklı bağlantı vermeyi amaçlayan özel iş ortağı sayfalarını bağlantı spam’i örnekleri arasında sayar. Ortaklık gerçekse, bağlantı müşteriye yararlıysa ve sayıca makulse sorun yoktur.
 
 Tedarikçi, distribütör, sektör derneği ya da yerel iş birliği gibi gerçek ilişkiler doğal bağlantı fırsatıdır. Ama “bağlantı değişelim” teklifleri çoğu zaman bir ağın parçasıdır. Genel çerçeve için [backlink nedir?](/blog/backlink-nedir/) ve [Denizli yerel backlink kaynakları](/blog/denizli-yerel-backlink-kaynaklari/) yazılarına bakabilirsiniz.
 
@@ -36,14 +36,12 @@ Spam politikalarına göre aşırı miktarda bağlantı takası ya da karşılı
 
 ## Sık yapılan hatalar
 
-| Hata | Çözüm |
-| --- | --- |
-| Hiç tanımadığınız sitelerle bağlantı takası | Gerçek ortaklarla sınırlayın |
-| Yüzlerce bağlantılı ortak sayfası | Makul sayıda, gerçek ortak |
-| Bağlantı şartı koymak | Karşılıksız verin |
-| Anahtar kelimeli bağlantı metni dayatmak | Marka adı kullanın |
-| Üçlü ya da döngüsel takas ağları | Yapmayın |
-| Ücretli ortaklığı nitelememek | `sponsored` |
+- **Hiç tanımadığınız sitelerle bağlantı takası:** Gerçek ortaklarla sınırlayın
+- **Yüzlerce bağlantılı ortak sayfası:** Makul sayıda, gerçek ortak
+- **Bağlantı şartı koymak:** Karşılıksız verin
+- **Anahtar kelimeli bağlantı metni dayatmak:** Marka adı kullanın
+- **Üçlü ya da döngüsel takas ağları:** Yapmayın
+- **Ücretli ortaklığı nitelememek:** `sponsored`
 
 ## Denizli’den bir örnek
 
@@ -53,15 +51,13 @@ Spam politikalarına göre aşırı miktarda bağlantı takası ya da karşılı
 
 “İş ortağı” kelimesi çok geniş kullanılır. Bağlantı açısından önemli olan, ilişkinin sitenizden bağımsız olarak var olup olmadığıdır. Bir ortaklık, bağlantı olmasa da sürecek bir iş ilişkisiyse gerçektir.
 
-| Ortaklık türü | Örnek | Bağlantı mantıklı mı? |
-| --- | --- | --- |
-| Tedarikçi | Ürününüzün hammaddesini ya da parçasını sağlayan firma | Evet, ürün sayfasında “Tedarikçilerimiz” olarak anılabilir |
-| Distribütör / bayi | Ürününüzü satan mağazalar | Evet, “Satış noktalarımız” sayfasında |
-| Sektör derneği / oda | Üyesi olduğunuz meslek kuruluşu | Evet, üyelik bilgisiyle |
-| Yerel iş birliği | Aynı bölgede tamamlayıcı hizmet veren firma | Evet, müşteriye yararlıysa |
-| Etkinlik ortaklığı | Birlikte düzenlenen bir etkinlik | Evet, etkinlik sayfasında |
-| Yalnızca bağlantı takası | “Siz bize bağlantı verin, biz de size” | Hayır, bu bağlantı spam’i örneğidir |
-| Satın alınmış “ortak” sayfası | Ücret karşılığı ortak olarak listelenmek | Yalnızca `sponsored` ile |
+- **Tedarikçi:** örnek: Ürününüzün hammaddesini ya da parçasını sağlayan firma; bağlantı mantıklı mı?: Evet, ürün sayfasında “Tedarikçilerimiz” olarak anılabilir
+- **Distribütör / bayi:** örnek: Ürününüzü satan mağazalar; bağlantı mantıklı mı?: Evet, “Satış noktalarımız” sayfasında
+- **Sektör derneği / oda:** örnek: Üyesi olduğunuz meslek kuruluşu; bağlantı mantıklı mı?: Evet, üyelik bilgisiyle
+- **Yerel iş birliği:** örnek: Aynı bölgede tamamlayıcı hizmet veren firma; bağlantı mantıklı mı?: Evet, müşteriye yararlıysa
+- **Etkinlik ortaklığı:** örnek: Birlikte düzenlenen bir etkinlik; bağlantı mantıklı mı?: Evet, etkinlik sayfasında
+- **Yalnızca bağlantı takası:** örnek: “Siz bize bağlantı verin, biz de size”; bağlantı mantıklı mı?: Hayır, bu bağlantı spam’i örneğidir
+- **Satın alınmış “ortak” sayfası:** örnek: Ücret karşılığı ortak olarak listelenmek; bağlantı mantıklı mı?: Yalnızca `sponsored` ile
 
 Google’ın spam politikası, aşırı miktarda bağlantı takasını ve karşılıklı bağlantı vermeyi amaçlayan özel iş ortağı sayfalarını bağlantı spam’i örnekleri arasında sayar ([spam politikaları](https://developers.google.com/search/docs/essentials/spam-policies?hl=tr)). Yani bir sayfanın tek amacı bağlantı değişimiyse sorun vardır.
 
@@ -69,13 +65,11 @@ Google’ın spam politikası, aşırı miktarda bağlantı takasını ve karş�
 
 İyi bir ortak sayfası, müşteriye bir şey anlatır. Her ortak için aşağıdaki alanları doldurun:
 
-| Alan | Örnek (hayalî) |
-| --- | --- |
-| Ortak adı | Firma adı |
-| İlişkinin türü | Tedarikçi, bayi, üye olunan kuruluş |
-| İlişkinin içeriği | “2020’den beri hammadde tedarikçimizdir.” (yalnızca doğruysa) |
-| Müşteriye faydası | “Ürünlerimizi şu ilçedeki mağazadan da alabilirsiniz.” |
-| Bağlantı | Ortağın kendi sitesi |
+- **Ortak adı:** Firma adı
+- **İlişkinin türü:** Tedarikçi, bayi, üye olunan kuruluş
+- **İlişkinin içeriği:** “2020’den beri hammadde tedarikçimizdir.” (yalnızca doğruysa)
+- **Müşteriye faydası:** “Ürünlerimizi şu ilçedeki mağazadan da alabilirsiniz.”
+- **Bağlantı:** Ortağın kendi sitesi
 
 Sayfanın yalnızca logolardan ve bağlantılardan oluşmaması gerekir; metin açıklamaları ve gerçek bilgi içermelidir. Bir ortağı anarken izin almak nezaket ve güvenlik açısından da doğrudur.
 
@@ -93,13 +87,11 @@ Sayfanın yalnızca logolardan ve bağlantılardan oluşmaması gerekir; metin a
 
 Bir iş ortaklığı sözleşmesi yapıyorsanız bağlantı konusunu şu çerçevede yazabilirsiniz (hukuki metin için bir uzmanla çalışın):
 
-| Madde | Çerçeve |
-| --- | --- |
-| Tanıtım hakkı | Tarafların birbirini sitelerinde ve materyallerinde anabileceği |
-| Bağlantı niteleme | Ücret ya da karşılık varsa bağlantının `sponsored` ile işaretleneceği |
-| Niteleme hakkı | Hiçbir tarafın diğerinin bağlantıyı niteleme hakkını kısıtlamadığı |
-| İçerik onayı | Tarafın kendisiyle ilgili içeriği onaylama hakkı |
-| Sonlandırma | Ortaklık bittiğinde bağlantıların kaldırılması |
+- **Tanıtım hakkı:** Tarafların birbirini sitelerinde ve materyallerinde anabileceği
+- **Bağlantı niteleme:** Ücret ya da karşılık varsa bağlantının `sponsored` ile işaretleneceği
+- **Niteleme hakkı:** Hiçbir tarafın diğerinin bağlantıyı niteleme hakkını kısıtlamadığı
+- **İçerik onayı:** Tarafın kendisiyle ilgili içeriği onaylama hakkı
+- **Sonlandırma:** Ortaklık bittiğinde bağlantıların kaldırılması
 
 Spam politikası, bağlantının niteleme seçeneğine izin vermeyip sözleşmeyle bağlantı zorunlu kılmayı bağlantı spam’i örnekleri arasında saydığı için “bağlantı vermek zorundayız” tarzı maddelerden kaçının.
 
@@ -119,14 +111,12 @@ Spam politikası, bağlantının niteleme seçeneğine izin vermeyip sözleşmey
 
 ## Riskli “ortaklık ağı” teklifleri nasıl tanınır?
 
-| İşaret | Anlamı |
-| --- | --- |
-| Ortak sayfası yüzlerce bağlantıdan oluşuyor | Gerçek ilişki olması zor |
-| Teklif eden sitenin konusu sizinle ilgisiz | Müşteriye yararı yok |
-| Bağlantı metni dayatılıyor | Optimize bağlantı metni riski |
-| “Üçlü” ya da “döngüsel” takas öneriliyor | Takas ağı belirtisi |
-| Ücret karşılığı “ortaklık” isteniyor | Ücretli bağlantı; niteleme gerekir |
-| Teklif toplu ve kişiselleştirilmemiş | Otomatik ya da toplu çalışma |
+- **Ortak sayfası yüzlerce bağlantıdan oluşuyor:** Gerçek ilişki olması zor
+- **Teklif eden sitenin konusu sizinle ilgisiz:** Müşteriye yararı yok
+- **Bağlantı metni dayatılıyor:** Optimize bağlantı metni riski
+- **“Üçlü” ya da “döngüsel” takas öneriliyor:** Takas ağı belirtisi
+- **Ücret karşılığı “ortaklık” isteniyor:** Ücretli bağlantı; niteleme gerekir
+- **Teklif toplu ve kişiselleştirilmemiş:** Otomatik ya da toplu çalışma
 
 ## Ortaklık bağlantılarını ölçme
 
@@ -134,16 +124,16 @@ Ortaklık bağlantısının değerini sıralamayla değil, işe katkısıyla öl
 
 ## Kontrol listesi
 
-| Kontrol | Evet / Hayır |
-| --- | --- |
-| Her ortak gerçek bir iş ilişkisi mi? | |
-| Ortak sayfası müşteriye yararlı bilgi veriyor mu? | |
-| Bağlantılar karşılıksız mı? | |
-| Bağlantı metni marka adı ya da doğal mı? | |
-| Ücret karşılığı bağlantılar `sponsored` ile mi? | |
-| Sayfada yüzlerce bağlantı yok mu? | |
-| Ortaklık sözleşmesi niteleme hakkını kısıtlıyor mu? (Kısıtlamamalı) | |
-| Eski ortaklar güncelleniyor mu? | |
+Şunları tek tek kontrol edin:
+
+- Her ortak gerçek bir iş ilişkisi mi?
+- Ortak sayfası müşteriye yararlı bilgi veriyor mu?
+- Bağlantılar karşılıksız mı?
+- Bağlantı metni marka adı ya da doğal mı?
+- Ücret karşılığı bağlantılar `sponsored` ile mi?
+- Sayfada yüzlerce bağlantı yok mu?
+- Ortaklık sözleşmesi niteleme hakkını kısıtlıyor mu? (Kısıtlamamalı)
+- Eski ortaklar güncelleniyor mu?
 
 ## Ortaklık fikirlerini hayata geçirme: adım adım
 
@@ -160,12 +150,10 @@ Bu yolun avantajı, bağlantının bir pazarlık değil, müşteriye sunulan bir
 
 ## Ortaklarla ortak içerik örnekleri
 
-| İçerik | Taraflar | Müşteriye faydası |
-| --- | --- | --- |
-| “Taşınma kontrol listesi” | Nakliyat + temizlik + klima servisi | Tek yerde yapılacaklar |
-| “Düğün hazırlığı takvimi” | Mekân + organizasyon + fotoğrafçı | Planlama kolaylığı |
-| “Ev yenileme sıralaması” | Boya + zemin + elektrik | Doğru sıra bilgisi |
-| “Kış öncesi bakım rehberi” | Kalorifer + izolasyon + tesisat | Mevsimsel hazırlık |
+- **“Taşınma kontrol listesi”:** taraflar: Nakliyat + temizlik + klima servisi; müşteriye faydası: Tek yerde yapılacaklar
+- **“Düğün hazırlığı takvimi”:** taraflar: Mekân + organizasyon + fotoğrafçı; müşteriye faydası: Planlama kolaylığı
+- **“Ev yenileme sıralaması”:** taraflar: Boya + zemin + elektrik; müşteriye faydası: Doğru sıra bilgisi
+- **“Kış öncesi bakım rehberi”:** taraflar: Kalorifer + izolasyon + tesisat; müşteriye faydası: Mevsimsel hazırlık
 
 Bu içerikleri hayalî birer örnek olarak düşünün; kendi ortaklarınıza göre uyarlayın. Her içerikte gerçek bilgi olmalı ve taraflar yalnızca kendi uzmanlık alanlarında konuşmalı.
 
@@ -183,13 +171,11 @@ Denizli gibi bir şehirde esnaf ve işletmeler birbirini tanır; bu, ortaklıkla
 
 Güncel olmayan bir ortaklar sayfası güveni zedeler. Yılda bir şunları kontrol edin:
 
-| Kontrol | İşlem |
-| --- | --- |
-| Ortak hâlâ faaliyette mi? | Kapanmışsa kaldırın |
-| Adres ve telefon güncel mi? | Güncelleyin |
-| Bağlantı çalışıyor mu? | Kırıksa düzeltin ya da kaldırın |
-| İlişki devam ediyor mu? | Bitmişse sayfadan çıkarın |
-| Yeni ortak var mı? | İzinle ekleyin |
+- **Ortak hâlâ faaliyette mi?:** Kapanmışsa kaldırın
+- **Adres ve telefon güncel mi?:** Güncelleyin
+- **Bağlantı çalışıyor mu?:** Kırıksa düzeltin ya da kaldırın
+- **İlişki devam ediyor mu?:** Bitmişse sayfadan çıkarın
+- **Yeni ortak var mı?:** İzinle ekleyin
 
 ## Ortak ilişkisini sürdürürken dürüst kalmak
 

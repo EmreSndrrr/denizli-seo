@@ -6,7 +6,7 @@ service: teknik-seo
 imageAlt: "Arama kutusu ve altında sıralanmış üç sonuç kartı"
 ---
 
-**Kısa cevap:** SEO, yani arama motoru optimizasyonu, sitenizi Google gibi arama motorlarının anlamasını ve insanların aradıklarında sizi bulup seçmesini kolaylaştırma işidir. Google’a göre SEO, arama motorlarının içeriğinizi anlamasına ve kullanıcıların sitenizi ziyaret edip etmeyeceklerine karar vermesine yardımcı olur. Sıra para ile alınmaz; içerik, teknik düzen ve güvenilirlik birlikte çalışır.
+SEO, yani arama motoru optimizasyonu, sitenizi Google gibi arama motorlarının anlamasını ve insanların aradıklarında sizi bulup seçmesini kolaylaştırma işidir. Google’a göre SEO, arama motorlarının içeriğinizi anlamasına ve kullanıcıların sitenizi ziyaret edip etmeyeceklerine karar vermesine yardımcı olur. Sıra para ile alınmaz; içerik, teknik düzen ve güvenilirlik birlikte çalışır.
 
 Bu yazı SEO’yu hiç bilmeyen bir işletme sahibine yazıldı. Önce SEO’nun ne olduğunu ve Google’ın bir sayfayı nasıl bulup sıraladığını anlatıyoruz. Sonra SEO’nun parçalarını, işe nereden başlanacağını, Denizli’den hayalî bir örneği ve en sık yapılan yanlış anlamaları ele alıyoruz.
 
@@ -73,11 +73,9 @@ Başlık, Google sonucunda en çok görünen satırdır. Google, her sayfanın `
 
 **Örnek** (hayalî bir işletme için): Honaz’da bir mobilya atölyesi, bütün sayfalarında “Ana Sayfa” ya da “Ucuz mobilya” başlığı kullanıyor.
 
-| Önce | Sonra |
-| --- | --- |
-| Ana Sayfa | Honaz’da Ahşap Mutfak Dolabı Yapımı |
-| Ucuz mobilya | Ölçüye Özel Gardırop ve Dolap, Honaz |
-| Hizmetler | Kapı, Dolap ve Banyo Dolabı Montajı |
+- **Ana Sayfa:** Honaz’da Ahşap Mutfak Dolabı Yapımı
+- **Ucuz mobilya:** Ölçüye Özel Gardırop ve Dolap, Honaz
+- **Hizmetler:** Kapı, Dolap ve Banyo Dolabı Montajı
 
 Sonraki başlıklar hem ne yapıldığını hem de nerede yapıldığını söylüyor ve her sayfa farklı bir soruya cevap veriyor.
 
@@ -111,13 +109,11 @@ Destek alacaksanız seçim kriterlerini [SEO ajansı mı, SEO uzmanı mı?](/blo
 
 ## SEO hakkında en sık yanlış anlamalar nelerdir?
 
-| Yanlış anlama | Gerçek |
-| --- | --- |
-| “SEO bir kere yapılır, biter.” | Rakipler ve Google değişir; site bakım ister. |
-| “Çok anahtar kelime yazarsam üste çıkarım.” | Aynı kelimeyi sürekli tekrar etmek işe yaramaz; asıl iş soruya doğru cevap vermektir. |
-| “Reklam verirsem sıram yükselir.” | Google sıralama için ödeme kabul etmez. |
-| “SEO uzmanı birinci sırayı garanti eder.” | Kimse Google’da birinci sıra garantisi veremez. |
-| “SEO sadece büyük şirketler içindir.” | Dar ve yerel aramalarda küçük işletmeler de görünebilir. |
+- **“SEO bir kere yapılır, biter.”:** Rakipler ve Google değişir; site bakım ister.
+- **“Çok anahtar kelime yazarsam üste çıkarım.”:** Aynı kelimeyi sürekli tekrar etmek işe yaramaz; asıl iş soruya doğru cevap vermektir.
+- **“Reklam verirsem sıram yükselir.”:** Google sıralama için ödeme kabul etmez.
+- **“SEO uzmanı birinci sırayı garanti eder.”:** Kimse Google’da birinci sıra garantisi veremez.
+- **“SEO sadece büyük şirketler içindir.”:** Dar ve yerel aramalarda küçük işletmeler de görünebilir.
 
 Bu yanlış anlamalardan sonuncusu özellikle Denizli gibi illerde önemlidir. “Merkezefendi halı yıkama” ya da “Çivril sondaj” gibi dar aramalarda karşınızda çoğu zaman ulusal markalar değil, birkaç yerel işletme olur.
 

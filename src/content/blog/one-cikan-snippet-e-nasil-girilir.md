@@ -6,7 +6,7 @@ service: icerik-seo
 imageAlt: "Arama sonucunun en üstünde cevap kutusu olarak gösterilen kısa paragraf"
 ---
 
-**Kısa cevap:** Öne çıkan snippet’i siz işaretleyemezsiniz: Google’ın rehberine göre kullanıcının arama isteğinde belirli bir sayfanın iyi bir öne çıkan snippet olup olmayacağını Google sistemleri belirler. Yapabileceğiniz, soruya sayfanın başında net ve kısa cevap vermek, bölümleri açık başlıklarla düzenlemek, liste ve tabloyu gerçekten işe yaradığı yerde kullanmak ve snippet’i kısıtlayan ayarları (`nosnippet`, kısa `max-snippet`) gereksiz yere kullanmamaktır. Garanti yoktur.
+Öne çıkan snippet’i siz işaretleyemezsiniz: Google’ın rehberine göre kullanıcının arama isteğinde belirli bir sayfanın iyi bir öne çıkan snippet olup olmayacağını Google sistemleri belirler. Yapabileceğiniz, soruya sayfanın başında net ve kısa cevap vermek, bölümleri açık başlıklarla düzenlemek, liste ve tabloyu gerçekten işe yaradığı yerde kullanmak ve snippet’i kısıtlayan ayarları (`nosnippet`, kısa `max-snippet`) gereksiz yere kullanmamaktır. Garanti yoktur.
 
 Arama sonuçlarının en üstündeki “cevap kutusu” çoğu işletmenin hedeflediği yerdir; ama Google’ın rehberi bu konuda dürüsttür: bu alan sizin seçiminiz değildir. Bu yazıda öne çıkan snippet’in ne olduğunu, Google’ın söylediklerini ve yazı yazarken şansınızı artıracak pratik adımları anlatıyoruz. İçeriğin genel yazım düzeni için [blog yazısı nasıl yazılır?](/blog/blog-yazisi-nasil-yazilir-seo-uyumlu-8-adim/) yazımıza bakabilirsiniz.
 
@@ -59,11 +59,9 @@ Bu kısa cevap, hem ziyaretçiye hem arama sistemlerine soruya net bir cevap ver
 
 ## Snippet kontrol ayarları: ne zaman kullanılır?
 
-| Ayar | Anlamı | Ne zaman? |
-| --- | --- | --- |
-| `nosnippet` | Snippet gösterilmesini engeller | Sayfanın içeriği arama sonucunda hiç alıntılanmasın istiyorsanız |
-| `max-snippet:[sayı]` | En fazla snippet uzunluğu | Alıntı uzunluğunu sınırlamak istiyorsanız; kısa değer öne çıkan snippet şansını azaltır |
-| Varsayılan | Google karar verir | Çoğu işletme için en uygunu |
+- **`nosnippet`:** anlamı: Snippet gösterilmesini engeller; ne zaman?: Sayfanın içeriği arama sonucunda hiç alıntılanmasın istiyorsanız
+- **`max-snippet:[sayı]`:** anlamı: En fazla snippet uzunluğu; ne zaman?: Alıntı uzunluğunu sınırlamak istiyorsanız; kısa değer öne çıkan snippet şansını azaltır
+- **Varsayılan:** anlamı: Google karar verir; ne zaman?: Çoğu işletme için en uygunu
 
 Yeni başlayan işletmeler için varsayılan ayar en güvenlisidir. Snippet’i kısıtlayan bir ayar eklediyseniz nedenini hatırlayın ve gereksizse kaldırın; eski bir `nosnippet` sayfayı sonuçlarda cazibesiz kılabilir.
 

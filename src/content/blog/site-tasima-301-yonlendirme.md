@@ -7,7 +7,7 @@ service: web-tasarim
 imageAlt: "Eski bir sayfadan yeni bir sayfaya giden ok ve 301 yazısı"
 ---
 
-**Kısa cevap:** Yeni siteye geçerken sıralamayı korumak için, adresi değişen her eski sayfayı yeni sitedeki en yakın karşılığına sunucu tarafında 301 ile yönlendirin. Önce eski adreslerin listesini çıkarıp bir eşleme tablosu hazırlayın, yayın günü yönlendirmeleri test edin, yeni site haritasını gönderin. Yönlendirmeleri en az bir yıl yerinde tutun. Alan adı değişiyorsa Search Console’daki Adres değişikliği aracını da kullanın.
+Yeni siteye geçerken sıralamayı korumak için, adresi değişen her eski sayfayı yeni sitedeki en yakın karşılığına sunucu tarafında 301 ile yönlendirin. Önce eski adreslerin listesini çıkarıp bir eşleme tablosu hazırlayın, yayın günü yönlendirmeleri test edin, yeni site haritasını gönderin. Yönlendirmeleri en az bir yıl yerinde tutun. Alan adı değişiyorsa Search Console’daki Adres değişikliği aracını da kullanın.
 
 Bu yazıda 301’in ne olduğunu, hangi yönlendirmenin ne zaman kullanılacağını, eşleme tablosunun nasıl hazırlanacağını ve geçişten önce, yayın günü ve sonrasında neleri kontrol etmeniz gerektiğini adım adım anlatıyoruz. Google’ın kendi rehberlerine dayanan bir kontrol listesiyle bitiriyoruz.
 
@@ -74,12 +74,10 @@ Görselleri ve PDF gibi indirilebilir dosyaları unutmayın. Google, bunların d
 
 Aşağıdaki tablo bir örnektir; adresler gerçek bir siteye ait değildir.
 
-| Eski adres (örnek) | Yeni adres (örnek) | Not |
-| --- | --- | --- |
-| `/hizmetler.php?id=3` | `/hizmetler/klima-montaji/` | Birebir karşılık |
-| `/hakkimizda.html` | `/hakkimizda/` | Yalnızca yazım değişti |
-| `/klima-bakim.html` ve `/klima-temizlik.html` | `/hizmetler/klima-bakimi/` | İki sayfa birleştirildi |
-| `/kampanya-2024.html` | 404 ya da 410 | İçerik kaldırıldı, karşılığı yok |
+- **`/hizmetler.php?id=3`:** yeni adres (örnek): `/hizmetler/klima-montaji/`; not: Birebir karşılık
+- **`/hakkimizda.html`:** yeni adres (örnek): `/hakkimizda/`; not: Yalnızca yazım değişti
+- **`/klima-bakim.html` ve `/klima-temizlik.html`:** yeni adres (örnek): `/hizmetler/klima-bakimi/`; not: İki sayfa birleştirildi
+- **`/kampanya-2024.html`:** yeni adres (örnek): 404 ya da 410; not: İçerik kaldırıldı, karşılığı yok
 
 Karar kuralı şöyle:
 

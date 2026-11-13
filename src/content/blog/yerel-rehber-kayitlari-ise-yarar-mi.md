@@ -6,7 +6,7 @@ service: yerel-seo
 imageAlt: "Bir rehber listesinde işaretli ve çizili kayıtlar"
 ---
 
-**Kısa cevap:** Yerel rehber kayıtları, gerçek müşterinin kullandığı ve işletme bilgisini doğru gösteren rehberlerde işe yarar; sırf bağlantı almak için toplu açılan kayıtlarda işe yaramaz. Google, düşük kaliteli dizinleri ve yer işareti sitelerini bağlantı spam’i örnekleri arasında sayar. Az sayıda, ilgili ve tutarlı kayıt, çok sayıda rastgele kayıttan daha değerlidir.
+Yerel rehber kayıtları, gerçek müşterinin kullandığı ve işletme bilgisini doğru gösteren rehberlerde işe yarar; sırf bağlantı almak için toplu açılan kayıtlarda işe yaramaz. Google, düşük kaliteli dizinleri ve yer işareti sitelerini bağlantı spam’i örnekleri arasında sayar. Az sayıda, ilgili ve tutarlı kayıt, çok sayıda rastgele kayıttan daha değerlidir.
 
 “Rehber kaydı” yıllardır yerel SEO’nun klasik adımı olarak anlatılır. Bugün doğru sorular şunlardır: bu rehberi gerçek müşteri kullanıyor mu? Bilgilerim doğru ve güncel mi? Beni neden anıyor? Bu yazı bu soruları ve Denizli’de hangi tür kaynakların mantıklı olduğunu ele alıyor. Bilgi tutarlılığı için önce [ad, adres, telefon tutarlılığı](/blog/ad-adres-telefon-tutarliligi/) yazımıza bakabilirsiniz.
 
@@ -74,9 +74,9 @@ Seçtiğiniz her rehber için şu sıra:
 
 ## Kayıtları takip etmek için tablo
 
-| Rehber | Tür | Kayıt tarihi | Bilgi güncel mi? | Sonraki kontrol |
-| --- | --- | --- | --- | --- |
-| (rehberin adı) | Oda / dernek / bölge rehberi | | | |
+Şunları tek tek kontrol edin:
+
+- (rehberin adı)
 
 Basit bir tablo, yıllar sonra bile hangi bilginin nerede olduğunu hatırlamanızı sağlar.
 

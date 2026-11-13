@@ -6,24 +6,22 @@ service: teknik-seo
 imageAlt: "Esnaf için 10 maddelik SEO kontrol listesi, işaretlenmiş kutucuklarla"
 ---
 
-**Kısa cevap:** Bugün, ajans tutmadan, ücretsiz araçlarla yapabileceğiniz 10 iş şunlardır: Google İşletme Profili’ni kontrol etmek, ad–adres–telefonu tutarlı hâle getirmek, çalışma saatlerini güncellemek, fotoğraf eklemek, yorumlara cevap vermek, sitenizi telefonda açıp denemek, iletişim yollarını test etmek, Search Console’u kurmak, ana sayfa başlığını kontrol etmek ve talepleri kaydetmeye başlamak. Hiçbirinin sıralama garantisi yoktur; ama hepsi müşterinin sizi bulmasını ve size ulaşmasını kolaylaştırır. Her madde için kısa bir “nasıl” ve “neden” yazdık.
+Bugün, ajans tutmadan, ücretsiz araçlarla yapabileceğiniz 10 iş şunlardır: Google İşletme Profili’ni kontrol etmek, ad–adres–telefonu tutarlı hâle getirmek, çalışma saatlerini güncellemek, fotoğraf eklemek, yorumlara cevap vermek, sitenizi telefonda açıp denemek, iletişim yollarını test etmek, Search Console’u kurmak, ana sayfa başlığını kontrol etmek ve talepleri kaydetmeye başlamak. Hiçbirinin sıralama garantisi yoktur; ama hepsi müşterinin sizi bulmasını ve size ulaşmasını kolaylaştırır. Her madde için kısa bir “nasıl” ve “neden” yazdık.
 
 Küçük işletmede zaman azdır; bu yüzden listeyi uzun tutmadık. Bir gün içinde hepsini yapmak zorunda değilsiniz: bir maddeyi bile bitirmek, hiç başlamamaktan iyidir. Daha planlı bir yol için [yeni işletme için 30 günlük SEO planı](/blog/yeni-acilan-isletme-icin-30-gunluk-seo-plani/), yerel görünürlük için [Google haritalarda üst sıralara çıkmak](/blog/google-haritalarda-ust-siralara-cikmak/) yazılarına bakabilirsiniz.
 
 ## 10 işin özeti
 
-| # | İş | Tahmini süre | Neden? |
-| --- | --- | --- | --- |
-| 1 | Google İşletme Profili’ni açıp eksikleri bulun | 15 dk | Haritada ilk karşılaşma |
-| 2 | Ad, adres, telefonu tek kaynağa eşitleyin | 15 dk | Tutarlılık güven verir |
-| 3 | Çalışma saatlerini güncelleyin | 5 dk | Müşteri yanlış saatle gelmesin |
-| 4 | Gerçek fotoğraf ekleyin | 10 dk | Güven ve tanıma |
-| 5 | Yorumlara cevap verin | 15 dk | Cevap güveni artırır |
-| 6 | Sitenizi telefonda açın | 10 dk | Müşteri telefondan bakar |
-| 7 | Telefon, form, WhatsApp’ı test edin | 10 dk | Talep kaybını önler |
-| 8 | Search Console’u kurun | 15 dk | Google’ın gördüğünü izlersiniz |
-| 9 | Ana sayfa başlığını kontrol edin | 10 dk | Aramada ilk görünen satır |
-| 10 | Talep kayıt tablosu açın | 10 dk | Ne işe yaradığını bilmek için |
+- **1:** i̇ş: Google İşletme Profili’ni açıp eksikleri bulun; tahmini süre: 15 dk; neden?: Haritada ilk karşılaşma
+- **2:** i̇ş: Ad, adres, telefonu tek kaynağa eşitleyin; tahmini süre: 15 dk; neden?: Tutarlılık güven verir
+- **3:** i̇ş: Çalışma saatlerini güncelleyin; tahmini süre: 5 dk; neden?: Müşteri yanlış saatle gelmesin
+- **4:** i̇ş: Gerçek fotoğraf ekleyin; tahmini süre: 10 dk; neden?: Güven ve tanıma
+- **5:** i̇ş: Yorumlara cevap verin; tahmini süre: 15 dk; neden?: Cevap güveni artırır
+- **6:** i̇ş: Sitenizi telefonda açın; tahmini süre: 10 dk; neden?: Müşteri telefondan bakar
+- **7:** i̇ş: Telefon, form, WhatsApp’ı test edin; tahmini süre: 10 dk; neden?: Talep kaybını önler
+- **8:** i̇ş: Search Console’u kurun; tahmini süre: 15 dk; neden?: Google’ın gördüğünü izlersiniz
+- **9:** i̇ş: Ana sayfa başlığını kontrol edin; tahmini süre: 10 dk; neden?: Aramada ilk görünen satır
+- **10:** i̇ş: Talep kayıt tablosu açın; tahmini süre: 10 dk; neden?: Ne işe yaradığını bilmek için
 
 ## 1. Google İşletme Profili’ni kontrol edin
 
@@ -78,14 +76,12 @@ Basit bir tablo: tarih, müşteri adı (ya da kısaltma), nereden öğrendi (Goo
 
 Talebi kaydetmek kadar, ilk cevabı hızlı vermek de önemlidir. Aşağıdaki şablonları kendi işletmenize göre uyarlayıp telefonunuza kaydedin; bilgi yazmadığınız yerlere uydurma süre ya da fiyat koymayın.
 
-| Durum | Şablon örneği |
-| --- | --- |
-| İlk karşılama | “Merhaba, [İşletme adı]. Mesajınız için teşekkürler. Hangi hizmet hakkında bilgi almak istiyorsunuz?” |
-| Fiyat sorusu | “Fiyat, [fiyatı etkileyen etkenler] göre değişiyor. Kısa bilgi verirseniz size net bir bilgi iletelim.” |
-| Adres ve saat | “[Adres]. [Gün–saat aralığı] arasında açığız. Haritadaki konumumuz: [profil bağlantısı].” |
-| Mesai dışı | “Mesajınızı aldık. [Gün ve saat] itibarıyla size dönüş yapacağız.” |
-| Randevu | “Size uygun gün ve saat nedir? [Seçenekler] arasından seçebilirsiniz.” |
-| Yorum isteği | “Memnun kaldıysanız Google’da kısa bir yorum bırakmanız bizi sevindirir: [bağlantı]. Yorumunuz tamamen sizin kararınızdır.” |
+- **İlk karşılama:** “Merhaba, [İşletme adı]. Mesajınız için teşekkürler. Hangi hizmet hakkında bilgi almak istiyorsunuz?”
+- **Fiyat sorusu:** “Fiyat, [fiyatı etkileyen etkenler] göre değişiyor. Kısa bilgi verirseniz size net bir bilgi iletelim.”
+- **Adres ve saat:** “[Adres]. [Gün–saat aralığı] arasında açığız. Haritadaki konumumuz: [profil bağlantısı].”
+- **Mesai dışı:** “Mesajınızı aldık. [Gün ve saat] itibarıyla size dönüş yapacağız.”
+- **Randevu:** “Size uygun gün ve saat nedir? [Seçenekler] arasından seçebilirsiniz.”
+- **Yorum isteği:** “Memnun kaldıysanız Google’da kısa bir yorum bırakmanız bizi sevindirir: [bağlantı]. Yorumunuz tamamen sizin kararınızdır.”
 
 Yorum isteğinde indirim, hediye ya da başka bir karşılık önermeyin; Google bunu sahte etkileşim sayar.
 
@@ -99,15 +95,13 @@ Bilerek koymadık: bağlantı satın almak, sahte yorum, toplu rehber kaydı, an
 
 ## Sık yapılan hatalar
 
-| Hata | Çözüm |
-| --- | --- |
-| Profili açıp bırakmak | Aylık kontrol |
-| Her yerde farklı telefon | Tek doğru bilgi |
-| Yorumlara hiç cevap vermemek | Haftada bir bakın |
-| Telefonda sitenin bozuk olduğunu bilmemek | Düzenli test |
-| Formun çalışmadığını fark etmemek | Ayda bir test edin |
-| Talepleri kaydetmemek | Basit tablo |
-| Hızlı sonuç bekleyip bırakmak | Düzenli, küçük adımlar |
+- **Profili açıp bırakmak:** Aylık kontrol
+- **Her yerde farklı telefon:** Tek doğru bilgi
+- **Yorumlara hiç cevap vermemek:** Haftada bir bakın
+- **Telefonda sitenin bozuk olduğunu bilmemek:** Düzenli test
+- **Formun çalışmadığını fark etmemek:** Ayda bir test edin
+- **Talepleri kaydetmemek:** Basit tablo
+- **Hızlı sonuç bekleyip bırakmak:** Düzenli, küçük adımlar
 
 ## Denizli’den bir örnek
 
@@ -115,12 +109,10 @@ Bilerek koymadık: bağlantı satın almak, sahte yorum, toplu rehber kaydı, an
 
 ## Aylık tekrar listesi
 
-| Tekrar | İş |
-| --- | --- |
-| Haftalık | Yorumlara bak, cevap ver; gelen talepleri kaydet |
-| Aylık | Profil bilgileri, saatler, fotoğraf; sitede formu ve telefonu test et |
-| Üç ayda bir | Search Console’da hata ve performansa bak; ilk 3 sorguyu incele |
-| Yılda bir | Tüm kayıtlarda ad, adres, telefon kontrolü |
+- **Haftalık:** Yorumlara bak, cevap ver; gelen talepleri kaydet
+- **Aylık:** Profil bilgileri, saatler, fotoğraf; sitede formu ve telefonu test et
+- **Üç ayda bir:** Search Console’da hata ve performansa bak; ilk 3 sorguyu incele
+- **Yılda bir:** Tüm kayıtlarda ad, adres, telefon kontrolü
 
 ## Denizli SEO bu konuda nasıl yardımcı olur?
 

@@ -6,7 +6,7 @@ service: teknik-seo
 imageAlt: "Bir adres çubuğu, URL Denetleme kutusu ve dizine ekleme isteği düğmesi"
 ---
 
-**Kısa cevap:** Tek bir sayfa için Search Console’daki URL Denetleme aracına adresi yazıp dizine ekleme (tarama) isteği gönderebilirsiniz; bunun için mülkün sahibi ya da tam kullanıcısı olmanız gerekir. Çok sayıda sayfa için site haritası gönderin. Google, tarama isteğinin dizine eklenmeyi garanti etmediğini, tarama işleminin birkaç gün ile birkaç hafta sürebildiğini ve aynı URL için tekrar istek göndermenin işi hızlandırmadığını söyler.
+Tek bir sayfa için Search Console’daki URL Denetleme aracına adresi yazıp dizine ekleme (tarama) isteği gönderebilirsiniz; bunun için mülkün sahibi ya da tam kullanıcısı olmanız gerekir. Çok sayıda sayfa için site haritası gönderin. Google, tarama isteğinin dizine eklenmeyi garanti etmediğini, tarama işleminin birkaç gün ile birkaç hafta sürebildiğini ve aynı URL için tekrar istek göndermenin işi hızlandırmadığını söyler.
 
 Yeni bir sayfa yayımladığınızda ya da önemli bir sayfayı güncellediğinizde “Google ne zaman görecek?” diye merak edersiniz. Google sayfayı kendiliğinden bulur; ama süreyi kısaltmak için istek gönderebilirsiniz. Bu yazıda isteğin nasıl yapılacağını, sınırlarını ve sayfa dizine girmiyorsa neye bakacağınızı anlatıyoruz. Genel dizin kontrolü için [Search Console’da ilk kontrol](/blog/search-console-ilk-kontrol/) yazımıza da bakabilirsiniz.
 
@@ -77,14 +77,12 @@ Kontrol: sayfa 200 dönüyor, noindex yok, canonical doğru; ama menüden hiçbi
 
 Yeni bir site yayımladıysanız tek tek istek göndermek yerine şu sırayı izleyin:
 
-| Gün | İş |
-| --- | --- |
-| 1 | Search Console’a siteyi ekleyin ve doğrulayın |
-| 1 | Site haritasını gönderin; robots.txt’ye satırı ekleyin |
-| 1 | Ana sayfa ve en önemli iki hizmet sayfası için URL Denetleme ile istek |
-| 2–3 | Sayfa dizine ekleme raporuna bakın; hata varsa düzeltin |
-| 7 | Dizindeki sayfa sayısını beklentinizle karşılaştırın |
-| 14 | Dizinde olmayan önemli sayfaları ayrı ayrı inceleyin |
+- **1:** Search Console’a siteyi ekleyin ve doğrulayın
+- **1:** Site haritasını gönderin; robots.txt’ye satırı ekleyin
+- **1:** Ana sayfa ve en önemli iki hizmet sayfası için URL Denetleme ile istek
+- **2–3:** Sayfa dizine ekleme raporuna bakın; hata varsa düzeltin
+- **7:** Dizindeki sayfa sayısını beklentinizle karşılaştırın
+- **14:** Dizinde olmayan önemli sayfaları ayrı ayrı inceleyin
 
 Google, siteniz yeni kullanıma sunulduysa ya da yakın zamanda taşındıysa site haritasının özellikle önemli olduğunu belirtir.
 

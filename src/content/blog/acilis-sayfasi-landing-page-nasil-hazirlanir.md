@@ -6,7 +6,7 @@ service: icerik-seo
 imageAlt: "Açılış sayfası iskeleti: başlık, faydalar, form ve eylem düğmesi"
 ---
 
-**Kısa cevap:** Açılış sayfası, ziyaretçiyi tek bir eyleme (arama, form, WhatsApp, randevu) yönlendirmek için hazırlanmış sayfadır. Net bir başlık, kısa fayda anlatımı, güven veren gerçek bilgiler, sade bir form ve tek ana eylem çağrısı içerir. Arama trafiği için hazırlıyorsanız sayfa yine de gerçek, özgün ve yararlı içerik taşımalıdır; yalnızca sıralama için üretilmiş, birbirine benzeyen çok sayıda sayfa Google’ın spam politikalarına aykırı olabilir.
+Açılış sayfası, ziyaretçiyi tek bir eyleme (arama, form, WhatsApp, randevu) yönlendirmek için hazırlanmış sayfadır. Net bir başlık, kısa fayda anlatımı, güven veren gerçek bilgiler, sade bir form ve tek ana eylem çağrısı içerir. Arama trafiği için hazırlıyorsanız sayfa yine de gerçek, özgün ve yararlı içerik taşımalıdır; yalnızca sıralama için üretilmiş, birbirine benzeyen çok sayıda sayfa Google’ın spam politikalarına aykırı olabilir.
 
 Reklam ya da kampanya için hazırlanan sayfalar ile sitenin kalıcı hizmet sayfaları arasındaki farkı bilmek, hem dönüşümü hem arama görünürlüğünü korur. Hizmet sayfası mantığı için [SEO uyumlu web sitesi](/blog/seo-uyumlu-web-sitesi/) yazımıza bakabilirsiniz.
 
@@ -37,15 +37,13 @@ Google’ın spam politikaları, belirli arama sorgularında sıralanmak için �
 
 ## Örnek iskelet (hayalî bir işletme için)
 
-| Bölüm | İçerik |
-| --- | --- |
-| Başlık | “Denizli’de klima bakımı için randevu alın” |
-| Alt başlık | Hangi hizmet, hangi bölge, nasıl çalışır |
-| Faydalar | Ne yapılır, ne kadar sürer (doğruysa), nasıl ödenir |
-| Süreç | 3 adım |
-| Güven | Adres, telefon, çalışma saatleri |
-| Form | Ad, telefon, ilçe |
-| Sık sorulan sorular | 3 soru |
+- **Başlık:** “Denizli’de klima bakımı için randevu alın”
+- **Alt başlık:** Hangi hizmet, hangi bölge, nasıl çalışır
+- **Faydalar:** Ne yapılır, ne kadar sürer (doğruysa), nasıl ödenir
+- **Süreç:** 3 adım
+- **Güven:** Adres, telefon, çalışma saatleri
+- **Form:** Ad, telefon, ilçe
+- **Sık sorulan sorular:** 3 soru
 
 ## Ölçüm ve iyileştirme
 
@@ -53,15 +51,13 @@ Sayfa yayına çıktıktan sonra şunlara bakın: ziyaret sayısı, form gönder
 
 ## Sık yapılan hatalar
 
-| Hata | Çözüm |
-| --- | --- |
-| Birden fazla hedef | Tek ana eylem seçin |
-| Uzun ve karışık form | Alanları azaltın |
-| Abartılı vaatler | Doğrulanabilir ifadeler kullanın |
-| Hiç güven öğesi yok | Gerçek adres ve iletişim ekleyin |
-| Yavaş sayfa | Görselleri sıkıştırın; bkz. [LCP](/blog/lcp-nasil-duzeltilir-buyuk-gorseller-sunucu-suresi/) |
-| Mobilde bozuk düzen | Telefonda test edin |
-| Benzer sayfa çoğaltma | Gerçekten ayrı konu için sayfa açın |
+- **Birden fazla hedef:** Tek ana eylem seçin
+- **Uzun ve karışık form:** Alanları azaltın
+- **Abartılı vaatler:** Doğrulanabilir ifadeler kullanın
+- **Hiç güven öğesi yok:** Gerçek adres ve iletişim ekleyin
+- **Yavaş sayfa:** Görselleri sıkıştırın; bkz. [LCP](/blog/lcp-nasil-duzeltilir-buyuk-gorseller-sunucu-suresi/)
+- **Mobilde bozuk düzen:** Telefonda test edin
+- **Benzer sayfa çoğaltma:** Gerçekten ayrı konu için sayfa açın
 
 ## Denizli’den bir örnek
 

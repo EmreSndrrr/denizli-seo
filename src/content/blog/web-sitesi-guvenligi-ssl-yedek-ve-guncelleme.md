@@ -6,7 +6,7 @@ service: web-tasarim
 imageAlt: "Kilitli site: HTTPS, yedek ve güncelleme simgeleri"
 ---
 
-**Kısa cevap:** Güvenli bir site için dört temel iş vardır: HTTPS (SSL sertifikası), düzenli ve test edilmiş yedek, yazılım ve eklenti güncellemeleri ile güçlü parola ve sınırlı erişim. Güvenlik sorunları hem müşteriyi hem aramadaki görünürlüğü etkileyebilir; Google’ın trafik düşüşü rehberi, güvenlik sorunlarını düşüşün olası nedenleri arasında sayar. Güvenlik tam bir garanti sunmaz; amaç riski azaltmak ve sorun olduğunda hızlı toparlanmaktır.
+Güvenli bir site için dört temel iş vardır: HTTPS (SSL sertifikası), düzenli ve test edilmiş yedek, yazılım ve eklenti güncellemeleri ile güçlü parola ve sınırlı erişim. Güvenlik sorunları hem müşteriyi hem aramadaki görünürlüğü etkileyebilir; Google’ın trafik düşüşü rehberi, güvenlik sorunlarını düşüşün olası nedenleri arasında sayar. Güvenlik tam bir garanti sunmaz; amaç riski azaltmak ve sorun olduğunda hızlı toparlanmaktır.
 
 Küçük işletmelerin siteleri de saldırı ya da ele geçirilme riskine sahiptir; çoğu zaman eski eklenti ya da zayıf parola yüzünden. Bu yazı, işletme sahibinin yapabileceği temel kontrolleri anlatır. HTTPS’e geçiş için [HTTPS’e geçiş SEO kontrol listesi](/blog/https-e-gecis-seo-kontrol-listesi/), WordPress için [WordPress SEO](/blog/wordpress-seo/) yazılarına bakabilirsiniz.
 
@@ -38,15 +38,13 @@ Küçük işletmelerin siteleri de saldırı ya da ele geçirilme riskine sahipt
 
 ## Sık yapılan hatalar
 
-| Hata | Çözüm |
-| --- | --- |
-| Yedeğin olmaması | Otomatik yedek |
-| Yedeğin aynı sunucuda durması | Site dışında bir kopya |
-| Güncellemeleri aylarca ertelemek | Düzenli güncelleme |
-| Kullanılmayan eklentiler | Kaldırın |
-| Herkese yönetici yetkisi | En az yetki |
-| Aynı parola her yerde | Parola yöneticisi |
-| HTTP ve HTTPS’i iki ayrı site gibi bırakmak | Tek adrese yönlendirin |
+- **Yedeğin olmaması:** Otomatik yedek
+- **Yedeğin aynı sunucuda durması:** Site dışında bir kopya
+- **Güncellemeleri aylarca ertelemek:** Düzenli güncelleme
+- **Kullanılmayan eklentiler:** Kaldırın
+- **Herkese yönetici yetkisi:** En az yetki
+- **Aynı parola her yerde:** Parola yöneticisi
+- **HTTP ve HTTPS’i iki ayrı site gibi bırakmak:** Tek adrese yönlendirin
 
 ## Denizli’den bir örnek
 

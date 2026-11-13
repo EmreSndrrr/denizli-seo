@@ -6,7 +6,7 @@ service: teknik-seo
 imageAlt: "Eski alan adından yeni alan adına giden yönlendirme okları"
 ---
 
-**Kısa cevap:** Alan adı değiştirirken SEO kaybını önlemek için eski sitedeki her adresi yeni sitedeki karşılığına 301 ile yönlendirin, URL eşlemesini önceden hazırlayın, Search Console’da eski site için Adres değişikliği isteği gönderin, yeni sitenin site haritasını yükleyin ve trafiği hem eski hem yeni adreste izleyin. Google, 301 ve diğer kalıcı yönlendirmelerin PageRank’te kayba neden olmadığını söyler. Taşıma işleminin tamamlanması birkaç hafta, büyük sitelerde daha uzun sürebilir.
+Alan adı değiştirirken SEO kaybını önlemek için eski sitedeki her adresi yeni sitedeki karşılığına 301 ile yönlendirin, URL eşlemesini önceden hazırlayın, Search Console’da eski site için Adres değişikliği isteği gönderin, yeni sitenin site haritasını yükleyin ve trafiği hem eski hem yeni adreste izleyin. Google, 301 ve diğer kalıcı yönlendirmelerin PageRank’te kayba neden olmadığını söyler. Taşıma işleminin tamamlanması birkaç hafta, büyük sitelerde daha uzun sürebilir.
 
 Marka değiştiren, yeni bir alan adı alan ya da “.com” yerine “.com.tr” adresine geçen işletmeler için alan adı değişikliği, en riskli teknik işlerden biridir: Google, yeni adresi sıfırdan tanımak zorundadır. Doğru planla bu sürecin kaybı en aza indirilebilir. Bu yazıda adım adım bir taşıma planı anlatıyoruz. Yönlendirme türleri için [301 ve 302 farkı](/blog/301-ve-302-yonlendirme-farki-nedir/) yazımıza da bakabilirsiniz.
 
@@ -40,12 +40,10 @@ Yeni alan adında siteyi kurun; içeriklerin, görsellerin ve dosyaların (PDF g
 
 Eski sitedeki her önemli adresi yeni sitedeki karşılığıyla eşleştirin:
 
-| Eski adres | Yeni adres | Not |
-| --- | --- | --- |
-| eski.com/ | yeni.com/ | Ana sayfa |
-| eski.com/hizmetler/klima-bakim | yeni.com/hizmetler/klima-bakim/ | Aynı içerik |
-| eski.com/iletisim | yeni.com/iletisim/ | Aynı içerik |
-| eski.com/eski-kampanya | — | Karşılığı yok: 404 |
+- **eski.com/:** yeni adres: yeni.com/; not: Ana sayfa
+- **eski.com/hizmetler/klima-bakim:** yeni adres: yeni.com/hizmetler/klima-bakim/; not: Aynı içerik
+- **eski.com/iletisim:** yeni adres: yeni.com/iletisim/; not: Aynı içerik
+- **eski.com/eski-kampanya:** yeni adres: —; not: Karşılığı yok: 404
 
 Google’ın rehberi de geçerli URL’lerden karşılık gelen yeni biçimlerine bir URL eşlemesi hazırlamanızı önerir. Mümkünse adres yapısını (yolları) değiştirmeden taşıyın; böylece eşleme basitleşir. Ayrıntılı örnek için [yeni siteye geçerken 301 listesi](/blog/site-tasima-301-yonlendirme/) yazımıza bakın.
 
@@ -99,14 +97,12 @@ Bu örnek sonuç vaadi değildir; taşıma sırasını gösterir.
 
 ## Taşıma sırasında izlenecek göstergeler
 
-| Gösterge | Nerede? | Ne arıyoruz? |
-| --- | --- | --- |
-| Eski adres trafiği | Search Console (eski mülk) | Zamanla azalması beklenir |
-| Yeni adres trafiği | Search Console (yeni mülk) | Zamanla artması beklenir |
-| Dizine eklenen sayfa sayısı | Sayfa dizine ekleme raporu | Eski sayıya yaklaşması |
-| Site haritası durumu | Site Haritaları raporu | Gönderilen/dizine eklenen oran |
-| Yönlendirme hataları | Sayfa dizine ekleme raporu | Hata olmaması |
-| Önemli sayfalar | URL Denetleme | Dizinde ve doğru standartta |
+- **Eski adres trafiği:** nerede?: Search Console (eski mülk); ne arıyoruz?: Zamanla azalması beklenir
+- **Yeni adres trafiği:** nerede?: Search Console (yeni mülk); ne arıyoruz?: Zamanla artması beklenir
+- **Dizine eklenen sayfa sayısı:** nerede?: Sayfa dizine ekleme raporu; ne arıyoruz?: Eski sayıya yaklaşması
+- **Site haritası durumu:** nerede?: Site Haritaları raporu; ne arıyoruz?: Gönderilen/dizine eklenen oran
+- **Yönlendirme hataları:** nerede?: Sayfa dizine ekleme raporu; ne arıyoruz?: Hata olmaması
+- **Önemli sayfalar:** nerede?: URL Denetleme; ne arıyoruz?: Dizinde ve doğru standartta
 
 Toplam trafiği (eski + yeni) tek tabloda izleyin; yalnızca yeni adrese bakmak, geçiş dönemindeki düşüşü olduğundan büyük gösterebilir.
 

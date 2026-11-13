@@ -6,7 +6,7 @@ service: web-tasarim
 imageAlt: "Hazır tema ile özel tasarım arasında karşılaştırma terazisi"
 ---
 
-**Kısa cevap:** SEO açısından “hazır tema” ya da “özel tasarım” tek başına iyi veya kötü değildir; belirleyici olan, sitenin hızlı, mobil uyumlu, temiz kodlu, anlaşılır başlık yapısına sahip ve içeriğin iyi olmasıdır. Hazır temalar hızlı ve ucuz başlangıç sağlar ama ağır, gereksiz özellik yüklü olanlar siteyi yavaşlatabilir. Özel tasarım esnektir ve ihtiyaca göre sade kurulabilir, ancak daha pahalı ve zaman alıcıdır. Karar öncesinde adayları gerçek verilerle test edin.
+SEO açısından “hazır tema” ya da “özel tasarım” tek başına iyi veya kötü değildir; belirleyici olan, sitenin hızlı, mobil uyumlu, temiz kodlu, anlaşılır başlık yapısına sahip ve içeriğin iyi olmasıdır. Hazır temalar hızlı ve ucuz başlangıç sağlar ama ağır, gereksiz özellik yüklü olanlar siteyi yavaşlatabilir. Özel tasarım esnektir ve ihtiyaca göre sade kurulabilir, ancak daha pahalı ve zaman alıcıdır. Karar öncesinde adayları gerçek verilerle test edin.
 
 Google, bir sitenin hangi araçla yapıldığına göre değil, kullanıcı deneyimine ve içeriğe göre değerlendirme yapar. Hız ve kullanıcı deneyimi için [Core Web Vitals](/blog/core-web-vitals-nedir-lcp-inp-cls/), WordPress tarafı için WordPress SEO yazılarına bakabilirsiniz.
 
@@ -35,23 +35,19 @@ Google, bir sitenin hangi araçla yapıldığına göre değil, kullanıcı dene
 
 ## Karar öncesi test
 
-| Test | Nasıl? |
-| --- | --- |
-| Hız | Temanın demo sayfasını hız ölçüm aracıyla deneyin |
-| Mobil | Telefonda açın, menüyü ve formu deneyin |
-| Başlık yapısı | Sayfa kaynağında H1/H2 yapısına bakın |
-| Özelleştirme | İstediğiniz değişikliği yapabiliyor musunuz? |
-| Destek | Güncelleme ve destek süresini sorun |
+- **Hız:** Temanın demo sayfasını hız ölçüm aracıyla deneyin
+- **Mobil:** Telefonda açın, menüyü ve formu deneyin
+- **Başlık yapısı:** Sayfa kaynağında H1/H2 yapısına bakın
+- **Özelleştirme:** İstediğiniz değişikliği yapabiliyor musunuz?
+- **Destek:** Güncelleme ve destek süresini sorun
 
 ## Sık yapılan hatalar
 
-| Hata | Çözüm |
-| --- | --- |
-| Demo görünüşüne bakıp hız ölçmemek | Önce hız testi |
-| Her özelliği açık tema | Gereksizi kapatın |
-| Özel tasarımda sürekli geliştiriciye bağımlı olmak | Yönetim bilgisini teslim alın |
-| Çok eklentiyle siteyi yavaşlatmak | Gerekli olanla sınırlayın |
-| Temayı sonradan değiştirirken yönlendirme yapmamak | URL’leri koruyun |
+- **Demo görünüşüne bakıp hız ölçmemek:** Önce hız testi
+- **Her özelliği açık tema:** Gereksizi kapatın
+- **Özel tasarımda sürekli geliştiriciye bağımlı olmak:** Yönetim bilgisini teslim alın
+- **Çok eklentiyle siteyi yavaşlatmak:** Gerekli olanla sınırlayın
+- **Temayı sonradan değiştirirken yönlendirme yapmamak:** URL’leri koruyun
 
 ## Denizli’den bir örnek
 

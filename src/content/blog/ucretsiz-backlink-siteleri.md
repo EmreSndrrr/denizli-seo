@@ -6,7 +6,7 @@ service: backlink-hizmeti
 imageAlt: "Üzeri çizilmiş bir site listesi ve yanında tek bir gerçek bağlantı"
 ---
 
-**Kısa cevap:** Çoğunlukla hayır. “Ücretsiz backlink siteleri” listelerinin büyük kısmı profil, yorum, dizin ve otomatik araçlara dayanır; Google düşük kaliteli dizinleri, optimize edilmiş forum yorumlarını ve otomatik bağlantı programlarını bağlantı spam’i örnekleri arasında sayar. Ücretsiz ama işe yarayan bağlantılar da vardır: gerçek ilişkilerden, yerel kurumlardan ve işe yarayan sayfalardan gelenler.
+Çoğunlukla hayır. “Ücretsiz backlink siteleri” listelerinin büyük kısmı profil, yorum, dizin ve otomatik araçlara dayanır; Google düşük kaliteli dizinleri, optimize edilmiş forum yorumlarını ve otomatik bağlantı programlarını bağlantı spam’i örnekleri arasında sayar. Ücretsiz ama işe yarayan bağlantılar da vardır: gerçek ilişkilerden, yerel kurumlardan ve işe yarayan sayfalardan gelenler.
 
 “Ücretsiz backlink” araması yapan biri çoğunlukla hızlı ve bedava bir yol arıyor. Bu yazı, bu listelerin ne vaat ettiğini, Google’ın bu yöntemler hakkında ne dediğini ve aynı zamanı daha iyi nereye harcayabileceğinizi anlatıyor. Bağlantının ne olduğunu bilmiyorsanız önce [backlink nedir?](/blog/backlink-nedir/) yazımıza bakın.
 
@@ -101,12 +101,10 @@ Bu kaynakların listesi ve her biri için pratik adımlar [Denizli işletmeleri 
 
 Bir bağlantı fırsatı karşınıza çıktığında basit bir test uygulayın: **Google olmasaydı, bu bağlantıyı yine de ister miydim?** Yani sayfanın gerçek ziyaretçisi var mı, bu bağlantıdan telefon ya da ziyaretçi gelir mi, işinize yarar mı?
 
-| Soru | Evet ise | Hayır ise |
-| --- | --- | --- |
-| Sayfanın gerçek ziyaretçisi var mı? | Devam edin | Atlayın |
-| Bağlantıyı bir insan sebep göstererek mi veriyor? | Devam edin | Atlayın |
-| Bu bağlantı bana müşteri getirebilir mi? | İyi işaret | Zayıf işaret |
-| Bağlantıyı yüzlerce yere aynı şekilde bırakabilir miyim? | Şüpheli | Büyük olasılıkla doğal |
+- **Sayfanın gerçek ziyaretçisi var mı?:** evet ise: Devam edin; hayır ise: Atlayın
+- **Bağlantıyı bir insan sebep göstererek mi veriyor?:** evet ise: Devam edin; hayır ise: Atlayın
+- **Bu bağlantı bana müşteri getirebilir mi?:** evet ise: İyi işaret; hayır ise: Zayıf işaret
+- **Bağlantıyı yüzlerce yere aynı şekilde bırakabilir miyim?:** evet ise: Şüpheli; hayır ise: Büyük olasılıkla doğal
 
 Üçüncü sorunun “evet” cevabı bile yeterli değildir; ilk ikisi gerçekten sağlanmalıdır.
 

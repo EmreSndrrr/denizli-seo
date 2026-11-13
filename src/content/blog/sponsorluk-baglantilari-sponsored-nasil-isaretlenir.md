@@ -6,7 +6,7 @@ service: backlink-hizmeti
 imageAlt: "Bağlantı etiketi: rel sponsored, ugc ve nofollow karşılaştırması"
 ---
 
-**Kısa cevap:** Reklam ya da ücretli yerleşim olan bağlantılar `rel="sponsored"` ile, kullanıcı içeriğindeki (yorum, forum) bağlantılar `rel="ugc"` ile işaretlenir; bir sayfayla ilişkilendirilmek istemediğiniz bağlantılar için `rel="nofollow"` kullanılır. Google’ın spam politikasına göre reklam ve sponsorluk bağlantıları `nofollow` veya `sponsored` ile nitelendiği sürece politikaya aykırı değildir. Nitelenmemiş ücretli bağlantı ise bağlantı spam’i sayılabilir.
+Reklam ya da ücretli yerleşim olan bağlantılar `rel="sponsored"` ile, kullanıcı içeriğindeki (yorum, forum) bağlantılar `rel="ugc"` ile işaretlenir; bir sayfayla ilişkilendirilmek istemediğiniz bağlantılar için `rel="nofollow"` kullanılır. Google’ın spam politikasına göre reklam ve sponsorluk bağlantıları `nofollow` veya `sponsored` ile nitelendiği sürece politikaya aykırı değildir. Nitelenmemiş ücretli bağlantı ise bağlantı spam’i sayılabilir.
 
 Sponsorlu yazı, reklam alanı ya da ürün karşılığı yazı yayımlayan bir site de, bu tür bir yayında yer alan işletme de bağlantıyı doğru nitelemelidir. Genel çerçeve için [backlink satın almanın riskleri](/blog/backlink-satin-almak-riskleri/) ve [misafir yazı](/blog/misafir-yazi-guest-post-riskli-mi/) yazılarına bakabilirsiniz.
 
@@ -32,13 +32,11 @@ Rehbere göre bu özelliklerle işaretlenen bağlantılar genellikle izlenmez.
 
 ## Ne zaman hangisi?
 
-| Durum | Önerilen |
-| --- | --- |
-| Reklam ya da sponsorlu yazı | `sponsored` |
-| Ürün gönderip yazı yazdırma | `sponsored` (karşılık var) |
-| Blog yorumundaki bağlantılar | `ugc` |
-| Güvenmediğiniz kaynağa bağlantı | `nofollow` |
-| Editoryal, kendi kararınızla verilen bağlantı | Nitelemeye gerek yok |
+- **Reklam ya da sponsorlu yazı:** `sponsored`
+- **Ürün gönderip yazı yazdırma:** `sponsored` (karşılık var)
+- **Blog yorumundaki bağlantılar:** `ugc`
+- **Güvenmediğiniz kaynağa bağlantı:** `nofollow`
+- **Editoryal, kendi kararınızla verilen bağlantı:** Nitelemeye gerek yok
 
 ## İşaretlenmemiş ücretli bağlantı
 
@@ -46,14 +44,12 @@ Spam politikalarına göre sıralama için para karşılığı ya da ürün/hizm
 
 ## Sık yapılan hatalar
 
-| Hata | Çözüm |
-| --- | --- |
-| Ücretli bağlantıyı nitelememek | `sponsored` ekleyin |
-| Nitelenmesi gereken bağlantıyı açık bırakmak | Doğru `rel` değerini ekleyin |
-| Tüm dış bağlantıları nofollow yapmak | Yalnızca gereken bağlantılar |
-| Yorum bağlantılarını açık bırakmak | `ugc` ya da moderasyon |
-| Bağlantı karşılığı ürün alıp bildirmemek | Nitelendirin |
-| Sözleşmede bağlantı niteleme hakkını kısıtlamak | Niteleme seçeneğini koruyun |
+- **Ücretli bağlantıyı nitelememek:** `sponsored` ekleyin
+- **Nitelenmesi gereken bağlantıyı açık bırakmak:** Doğru `rel` değerini ekleyin
+- **Tüm dış bağlantıları nofollow yapmak:** Yalnızca gereken bağlantılar
+- **Yorum bağlantılarını açık bırakmak:** `ugc` ya da moderasyon
+- **Bağlantı karşılığı ürün alıp bildirmemek:** Nitelendirin
+- **Sözleşmede bağlantı niteleme hakkını kısıtlamak:** Niteleme seçeneğini koruyun
 
 ## Denizli’den bir örnek
 
@@ -63,14 +59,12 @@ Spam politikalarına göre sıralama için para karşılığı ya da ürün/hizm
 
 Sponsorlu içerik ya da reklam alanı satın aldığınızda bağlantının nasıl işaretleneceğini baştan yazıya geçirin. Sonradan “bunu konuşmamıştık” demek zordur. Yayıncıya göndereceğiniz kısa bir e-posta ya da sözleşme maddesi şu unsurları içermelidir:
 
-| Madde | Örnek ifade |
-| --- | --- |
-| İçeriğin niteliği | “Bu yayın ücretli/sponsorlu bir yerleşimdir.” |
-| Bağlantı özelliği | “Siteme verilen bağlantı `rel="sponsored"` ile işaretlenecektir.” |
-| Bağlantı metni | “Bağlantı metni marka adı ya da doğal bir ifade olacaktır.” |
-| Yayın tarihi ve süresi | “Yayın tarihi ve yayında kalma süresi şudur.” |
-| İçerik onayı | “Metin yayımlanmadan önce onayıma sunulacaktır.” |
-| Şeffaflık | “Sayfada sponsorlu içerik olduğu okuyucuya belirtilecektir.” |
+- **İçeriğin niteliği:** “Bu yayın ücretli/sponsorlu bir yerleşimdir.”
+- **Bağlantı özelliği:** “Siteme verilen bağlantı `rel="sponsored"` ile işaretlenecektir.”
+- **Bağlantı metni:** “Bağlantı metni marka adı ya da doğal bir ifade olacaktır.”
+- **Yayın tarihi ve süresi:** “Yayın tarihi ve yayında kalma süresi şudur.”
+- **İçerik onayı:** “Metin yayımlanmadan önce onayıma sunulacaktır.”
+- **Şeffaflık:** “Sayfada sponsorlu içerik olduğu okuyucuya belirtilecektir.”
 
 Google’ın spam politikası, üçüncü tarafın giden bağlantıyı niteleme seçeneğine izin vermeyip hizmet şartları ya da sözleşme kapsamında bağlantı zorunlu kılmayı bağlantı spam’i örnekleri arasında sayar ([spam politikaları](https://developers.google.com/search/docs/essentials/spam-policies?hl=tr)). Yani sözleşmede “bağlantıyı niteleme hakkı” yayıncıda bırakılmalı, bu hak kısıtlanmamalıdır.
 
@@ -88,25 +82,21 @@ Google’ın spam politikası, üçüncü tarafın giden bağlantıyı niteleme 
 
 ## Sistemlere göre nasıl eklenir?
 
-| Sistem | Nasıl yapılır? |
-| --- | --- |
-| Kod görünümü olan sayfa | `<a href="..." rel="sponsored">metin</a>` biçiminde elle yazın |
-| WordPress blok düzenleyici | Bağlantı kutusunda “Gelişmiş” ya da “Sponsorlu olarak işaretle” benzeri seçenekleri arayın; yoksa “HTML olarak düzenle” ile ekleyin |
-| Eklentili sistemler | Bağlantı yönetimi eklentileri `rel` değerlerini toplu atayabilir; kullanmadan önce güncel ve güvenilir olduğunu kontrol edin |
-| Elle hazırlanmış (özel kodlu) site | Şablonda reklam bağlantılarına otomatik `rel` ekleyen bir kural yazdırın |
-| Yorum sistemi | Çoğu yorum sistemi bağlantılara otomatik `ugc` ya da `nofollow` ekleyebilir; ayarını kontrol edin |
+- **Kod görünümü olan sayfa:** `<a href="..." rel="sponsored">metin</a>` biçiminde elle yazın
+- **WordPress blok düzenleyici:** Bağlantı kutusunda “Gelişmiş” ya da “Sponsorlu olarak işaretle” benzeri seçenekleri arayın; yoksa “HTML olarak düzenle” ile ekleyin
+- **Eklentili sistemler:** Bağlantı yönetimi eklentileri `rel` değerlerini toplu atayabilir; kullanmadan önce güncel ve güvenilir olduğunu kontrol edin
+- **Elle hazırlanmış (özel kodlu) site:** Şablonda reklam bağlantılarına otomatik `rel` ekleyen bir kural yazdırın
+- **Yorum sistemi:** Çoğu yorum sistemi bağlantılara otomatik `ugc` ya da `nofollow` ekleyebilir; ayarını kontrol edin
 
 Sistemlerin menü adları değişebilir; bu nedenle ekleme sonrası sayfanın kaynak kodunda bağlantının gerçekten `rel="sponsored"` taşıdığını kontrol edin.
 
 ## Yaygın yanlış anlamalar
 
-| Yanlış anlama | Gerçek |
-| --- | --- |
-| “Reklam bağlantısı vermek yasak.” | Google’ın politikasına göre nitelendiği sürece aykırı değil. |
-| “nofollow ile sponsored aynı şey.” | İkisi farklı anlam taşır: `sponsored` ücretli yerleşimi, `nofollow` ilişkilendirmek istememeyi anlatır. |
-| “İşaretli bağlantı değersizdir.” | Google bu bağlantıların genellikle izlenmediğini söyler; ama okuyucu tıklayıp müşteri olabilir. |
-| “Bağlantıyı işaretlemezsem kimse anlamaz.” | Ücretli bağlantıyı gizlemek, spam politikası açısından sorun yaratabilir; şeffaf olun. |
-| “Her dış bağlantıyı nofollow yapmalıyım.” | Kendi kararınızla verdiğiniz kaynak bağlantıları için genel bir zorunluluk yok. |
+- **“Reklam bağlantısı vermek yasak.”:** Google’ın politikasına göre nitelendiği sürece aykırı değil.
+- **“nofollow ile sponsored aynı şey.”:** İkisi farklı anlam taşır: `sponsored` ücretli yerleşimi, `nofollow` ilişkilendirmek istememeyi anlatır.
+- **“İşaretli bağlantı değersizdir.”:** Google bu bağlantıların genellikle izlenmediğini söyler; ama okuyucu tıklayıp müşteri olabilir.
+- **“Bağlantıyı işaretlemezsem kimse anlamaz.”:** Ücretli bağlantıyı gizlemek, spam politikası açısından sorun yaratabilir; şeffaf olun.
+- **“Her dış bağlantıyı nofollow yapmalıyım.”:** Kendi kararınızla verdiğiniz kaynak bağlantıları için genel bir zorunluluk yok.
 
 ## Okuyucuya şeffaflık
 
@@ -120,14 +110,14 @@ Bu kısa not, sonradan yaşanacak anlaşmazlıkları azaltır. Yayıncı nitelem
 
 ## Kontrol listesi
 
-| Kontrol | Evet / Hayır |
-| --- | --- |
-| Ücretli ya da karşılığı olan her bağlantı `sponsored` ile işaretli mi? | |
-| Yorum ve forum bağlantıları `ugc` ile işaretli mi? | |
-| Sözleşmede niteleme hakkı kısıtlanmış mı? (Kısıtlanmamalı) | |
-| Sponsorlu içerik okuyucuya belirtilmiş mi? | |
-| Sitedeki giden bağlantılar yılda bir denetleniyor mu? | |
-| Eklenen `rel` özelliği sayfa kaynağında doğrulandı mı? | |
+Şunları tek tek kontrol edin:
+
+- Ücretli ya da karşılığı olan her bağlantı `sponsored` ile işaretli mi?
+- Yorum ve forum bağlantıları `ugc` ile işaretli mi?
+- Sözleşmede niteleme hakkı kısıtlanmış mı? (Kısıtlanmamalı)
+- Sponsorlu içerik okuyucuya belirtilmiş mi?
+- Sitedeki giden bağlantılar yılda bir denetleniyor mu?
+- Eklenen `rel` özelliği sayfa kaynağında doğrulandı mı?
 
 ## Üç farklı işletmede uygulama
 
@@ -160,16 +150,14 @@ Aynı kural, farklı işletmelerde farklı biçimlerde karşınıza çıkar. Ü�
 
 Ücretli yerleşimleri bir tabloda tutun; böylece yıllar sonra hangi bağlantının neden orada olduğunu hatırlarsınız.
 
-| Alan | Örnek |
-| --- | --- |
-| Yayın tarihi | Kasım 2026 |
-| Yayıncı | Yayının adı ve adresi |
-| Sayfa adresi | Bağlantının bulunduğu sayfa |
-| Bağlantı verilen sayfamız | Hangi sayfamıza bağlantı veriliyor? |
-| Ücret / karşılık | Tutar ya da ürün |
-| `rel` değeri | `sponsored` |
-| Doğrulama tarihi | Kaynak kodunda kontrol ettiğimiz tarih |
-| Notlar | Yayın süresi, anlaşma şartları |
+- **Yayın tarihi:** Kasım 2026
+- **Yayıncı:** Yayının adı ve adresi
+- **Sayfa adresi:** Bağlantının bulunduğu sayfa
+- **Bağlantı verilen sayfamız:** Hangi sayfamıza bağlantı veriliyor?
+- **Ücret / karşılık:** Tutar ya da ürün
+- **`rel` değeri:** `sponsored`
+- **Doğrulama tarihi:** Kaynak kodunda kontrol ettiğimiz tarih
+- **Notlar:** Yayın süresi, anlaşma şartları
 
 ## İşaretlemeyi unutursanız ne yapmalı?
 
@@ -187,13 +175,11 @@ Başka sitelerdeki bağlantılar kadar kendi sitenizdeki reklam alanları da ön
 
 ## Sık yapılan ek hatalar
 
-| Hata | Çözüm |
-| --- | --- |
-| Yalnızca ana sayfadaki reklamı işaretleyip iç sayfalarda unutmak | Tüm şablonlarda kontrol edin |
-| Reklam bağlantısı için `rel` yerine yalnızca görsel “reklam” etiketi koymak | Hem okuyucuya hem koda yansıtın |
-| Kaynak kodda doğrulamadan bırakmak | Yayın sonrası kontrol edin |
-| Eski sponsorlu yazıları unutmak | Kayıt tablosu tutun |
-| Yayıncının niteleme hakkını sözleşmeyle engellemek | Yazılı olarak hakkı tanıyın |
+- **Yalnızca ana sayfadaki reklamı işaretleyip iç sayfalarda unutmak:** Tüm şablonlarda kontrol edin
+- **Reklam bağlantısı için `rel` yerine yalnızca görsel “reklam” etiketi koymak:** Hem okuyucuya hem koda yansıtın
+- **Kaynak kodda doğrulamadan bırakmak:** Yayın sonrası kontrol edin
+- **Eski sponsorlu yazıları unutmak:** Kayıt tablosu tutun
+- **Yayıncının niteleme hakkını sözleşmeyle engellemek:** Yazılı olarak hakkı tanıyın
 
 ## Denizli SEO bu konuda nasıl yardımcı olur?
 

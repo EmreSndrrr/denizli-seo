@@ -6,7 +6,7 @@ service: icerik-seo
 imageAlt: "Bir arama sonucu kartında başlık ve açıklama satırı"
 ---
 
-**Kısa cevap:** Başlık etiketi (`<title>`) sayfanın arama sonucundaki başlığını, meta açıklama ise başlığın altındaki açıklama satırını etkiler. Google, başlığın açıklayıcı ve kısa olmasını, her sayfada farklı olmasını ve anahtar kelimeyle doldurulmamasını söyler. Meta açıklamayı sayfaya özgü ve gerçekten açıklayıcı yazın; Google snippet’i öncelikle sayfa içeriğinden oluşturur ve meta açıklamayı sayfayı daha iyi tarif ediyorsa kullanabilir. Başlık için uzunluk sınırı yoktur ama sonuçta genişliğe göre kısaltılabilir.
+Başlık etiketi (`<title>`) sayfanın arama sonucundaki başlığını, meta açıklama ise başlığın altındaki açıklama satırını etkiler. Google, başlığın açıklayıcı ve kısa olmasını, her sayfada farklı olmasını ve anahtar kelimeyle doldurulmamasını söyler. Meta açıklamayı sayfaya özgü ve gerçekten açıklayıcı yazın; Google snippet’i öncelikle sayfa içeriğinden oluşturur ve meta açıklamayı sayfayı daha iyi tarif ediyorsa kullanabilir. Başlık için uzunluk sınırı yoktur ama sonuçta genişliğe göre kısaltılabilir.
 
 Arama sonucunda sayfanızdan görülen ilk şey başlık ve açıklamadır. Bu iki satır, kullanıcının sizi tıklayıp tıklamayacağını etkiler; Google’ın sayfayı anlamasına da yardımcı olur. Bu yazıda her ikisini nasıl yazacağınızı, Google’ın kurallarını ve sayfa türüne göre örnek şablonları anlatıyoruz. Başlıkların yazının geri kalanıyla ilişkisi için [H1, H2, H3: başlık yapısı](/blog/h1-h2-h3-baslik-yapisi-nasil-kurulur/) yazımıza bakabilirsiniz.
 
@@ -37,13 +37,11 @@ Google, başlık bağlantısı oluştururken çeşitli kaynaklara baktığını 
 
 Basit bir formül: **[Hizmet/konu] + [ayırt edici ayrıntı] + [yer, gerekiyorsa] + [marka].**
 
-| Sayfa | Zayıf başlık | İyi başlık |
-| --- | --- | --- |
-| Ana sayfa | Ana Sayfa | Merkezefendi Klima Servisi: Bakım, Montaj, Gaz Dolumu |
-| Hizmet | Hizmetler | Split Klima Bakımı, Merkezefendi’de Randevulu Servis |
-| Blog | Klima bakımı klima bakımı fiyat | Klima Bakımı Yılda Kaç Kez Yapılmalı? |
-| İletişim | İletişim | İletişim ve Servis Randevusu, Merkezefendi |
-| Ürün | Ürün 1 | Pamuklu Banyo Havlusu 70x140, Buldan Dokuması |
+- **Ana sayfa:** zayıf başlık: Ana Sayfa; i̇yi başlık: Merkezefendi Klima Servisi: Bakım, Montaj, Gaz Dolumu
+- **Hizmet:** zayıf başlık: Hizmetler; i̇yi başlık: Split Klima Bakımı, Merkezefendi’de Randevulu Servis
+- **Blog:** zayıf başlık: Klima bakımı klima bakımı fiyat; i̇yi başlık: Klima Bakımı Yılda Kaç Kez Yapılmalı?
+- **İletişim:** zayıf başlık: İletişim; i̇yi başlık: İletişim ve Servis Randevusu, Merkezefendi
+- **Ürün:** zayıf başlık: Ürün 1; i̇yi başlık: Pamuklu Banyo Havlusu 70x140, Buldan Dokuması
 
 İpuçları:
 
@@ -69,10 +67,8 @@ Snippet’i engellemek istiyorsanız `nosnippet`, uzunluğunu sınırlamak istiy
 
 İyi bir meta açıklama kısa bir cümlede sayfanın ne sunduğunu ve müşterinin ne kazanacağını söyler:
 
-| Zayıf | İyi |
-| --- | --- |
-| Klima servisi klima bakımı klima montajı Denizli ucuz | Merkezefendi’de split klima bakımı, montaj ve gaz dolumu. Randevu için arayın; fiyat, cihaz ve işe göre yazılı bildirilir. |
-| Hoş geldiniz | Pamukkale’de balkonlu odalar ve kahvaltı dahil konaklama. Oda tipleri, olanaklar ve rezervasyon bilgisi. |
+- **Klima servisi klima bakımı klima montajı Denizli ucuz:** Merkezefendi’de split klima bakımı, montaj ve gaz dolumu. Randevu için arayın; fiyat, cihaz ve işe göre yazılı bildirilir.
+- **Hoş geldiniz:** Pamukkale’de balkonlu odalar ve kahvaltı dahil konaklama. Oda tipleri, olanaklar ve rezervasyon bilgisi.
 
 Kurallar: gerçek bilgi verin, abartı kullanmayın, kampanya ya da garanti iddiası yazmayın, sayfanın içeriğiyle uyumlu olun.
 
@@ -80,23 +76,19 @@ Kurallar: gerçek bilgi verin, abartı kullanmayın, kampanya ya da garanti iddi
 
 Örnek (hayalî bir işletme için): Honaz’da bir mobilya atölyesinin tüm sayfalarında “Ana Sayfa” başlığı ve “Mobilya, mutfak dolabı, gardırop, ucuz mobilya Denizli” açıklaması var.
 
-| Sayfa | Yeni başlık | Yeni açıklama |
-| --- | --- | --- |
-| Ana sayfa | Honaz’da Ölçüye Özel Mobilya Atölyesi | Honaz’da mutfak dolabı, gardırop ve banyo dolabı yapımı. Ölçü alma, üretim ve montaj aynı atölyede. |
-| Mutfak dolabı | Ahşap Mutfak Dolabı Yapımı, Honaz | Ölçüye göre ahşap mutfak dolabı: süreç, malzeme seçenekleri ve fiyatı etkileyen etkenler. |
-| İletişim | İletişim ve Randevu, Honaz Mobilya Atölyesi | Adres, telefon ve çalışma saatleri. Ölçü almak için randevu oluşturun. |
+- **Ana sayfa:** yeni başlık: Honaz’da Ölçüye Özel Mobilya Atölyesi; yeni açıklama: Honaz’da mutfak dolabı, gardırop ve banyo dolabı yapımı. Ölçü alma, üretim ve montaj aynı atölyede.
+- **Mutfak dolabı:** yeni başlık: Ahşap Mutfak Dolabı Yapımı, Honaz; yeni açıklama: Ölçüye göre ahşap mutfak dolabı: süreç, malzeme seçenekleri ve fiyatı etkileyen etkenler.
+- **İletişim:** yeni başlık: İletişim ve Randevu, Honaz Mobilya Atölyesi; yeni açıklama: Adres, telefon ve çalışma saatleri. Ölçü almak için randevu oluşturun.
 
 Bu örnek sonuç vaadi değildir; yazım biçimini gösterir.
 
 ## Sayfa türüne göre şablonlar
 
-| Sayfa türü | Başlık şablonu | Açıklama şablonu |
-| --- | --- | --- |
-| Ana sayfa | [Hizmet] [Yer] — [Marka] | [Ne yapıyorsunuz], [nerede], [nasıl ulaşılır] |
-| Hizmet | [Hizmet] [Yer]: [Ayrıntı] | [Hizmetin kapsamı], [süreç], [iletişim] |
-| Blog | [Soru ya da konu] | [Sorunun kısa cevabı ve yazının neleri anlattığı] |
-| Ürün | [Ürün] [Ayrıntı] | [Ölçü, malzeme, teslimat] |
-| İletişim | İletişim, [Yer] | [Adres, telefon, saatler] |
+- **Ana sayfa:** başlık şablonu: [Hizmet] [Yer] — [Marka]; açıklama şablonu: [Ne yapıyorsunuz], [nerede], [nasıl ulaşılır]
+- **Hizmet:** başlık şablonu: [Hizmet] [Yer]: [Ayrıntı]; açıklama şablonu: [Hizmetin kapsamı], [süreç], [iletişim]
+- **Blog:** başlık şablonu: [Soru ya da konu]; açıklama şablonu: [Sorunun kısa cevabı ve yazının neleri anlattığı]
+- **Ürün:** başlık şablonu: [Ürün] [Ayrıntı]; açıklama şablonu: [Ölçü, malzeme, teslimat]
+- **İletişim:** başlık şablonu: İletişim, [Yer]; açıklama şablonu: [Adres, telefon, saatler]
 
 ## Toplu düzeltme: yüzlerce sayfa varsa
 
@@ -116,13 +108,13 @@ Müşteri ilçe adıyla arıyorsa başlıkta ilçe adı işe yarar: “Merkezefe
 
 Sitenizin sayfalarını bir tabloya dökün ve her satırı kontrol edin:
 
-| Sayfa | Başlık var mı? | Benzersiz mi? | Açıklayıcı mı? | Açıklama var mı? | Not |
-| --- | --- | --- | --- | --- | --- |
-| Ana sayfa | | | | | |
-| Hizmet 1 | | | | | |
-| Hizmet 2 | | | | | |
-| İletişim | | | | | |
-| Blog 1 | | | | | |
+Şunları tek tek kontrol edin:
+
+- Ana sayfa
+- Hizmet 1
+- Hizmet 2
+- İletişim
+- Blog 1
 
 Hayır cevapları, öncelikli düzeltme listenizdir.
 

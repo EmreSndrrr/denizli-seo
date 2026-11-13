@@ -6,7 +6,7 @@ service: backlink-hizmeti
 imageAlt: "Kopmuş bağlantı zinciri ve yeniden bağlanan halka"
 ---
 
-**Kısa cevap:** Bir backlink üç nedenle kaybolur: bağlantı veren sayfa kaldırılır ya da bağlantı silinir, sizin sayfanızın adresi değişir ya da sayfanız hata verir. Önce kendi tarafınızdaki sorunları düzeltin: adresi değişen sayfaları 301 ile yeni adrese yönlendirin, kaldırdığınız sayfaların yerine uygun bir sayfa bulun. Karşı tarafın sildiği bağlantı için siteye nazik bir hatırlatma yazabilirsiniz; ama bağlantıyı geri vermek onların kararıdır.
+Bir backlink üç nedenle kaybolur: bağlantı veren sayfa kaldırılır ya da bağlantı silinir, sizin sayfanızın adresi değişir ya da sayfanız hata verir. Önce kendi tarafınızdaki sorunları düzeltin: adresi değişen sayfaları 301 ile yeni adrese yönlendirin, kaldırdığınız sayfaların yerine uygun bir sayfa bulun. Karşı tarafın sildiği bağlantı için siteye nazik bir hatırlatma yazabilirsiniz; ama bağlantıyı geri vermek onların kararıdır.
 
 Çoğu işletme, siteyi yenilerken ya da sayfa silerken dışarıdan gelen bağlantıları kaybettiğini fark etmez. Kendi bağlantılarınızı görmek için [backlink sorgulama](/blog/backlink-sorgulama/), adres değişiklikleri için [301 ve 302 yönlendirme farkı](/blog/301-ve-302-yonlendirme-farki-nedir/) yazılarına bakabilirsiniz.
 
@@ -36,13 +36,11 @@ Google’ın yönlendirme rehberi, kalıcı yönlendirmeleri (301/308) hedefin s
 
 ## Sık yapılan hatalar
 
-| Hata | Çözüm |
-| --- | --- |
-| Siteyi yenilerken URL eşlemesi yapmamak | Önce eski-yeni adres listesi |
-| Hepsini ana sayfaya yönlendirmek | Konuya uygun sayfaya |
-| Karşı tarafa baskı yapmak | Nazik ve tek mesaj |
-| Bağlantıyı satın alıp geri getirmek | Yapmayın |
-| Rapora hiç bakmamak | Düzenli kontrol |
+- **Siteyi yenilerken URL eşlemesi yapmamak:** Önce eski-yeni adres listesi
+- **Hepsini ana sayfaya yönlendirmek:** Konuya uygun sayfaya
+- **Karşı tarafa baskı yapmak:** Nazik ve tek mesaj
+- **Bağlantıyı satın alıp geri getirmek:** Yapmayın
+- **Rapora hiç bakmamak:** Düzenli kontrol
 
 ## Denizli’den bir örnek
 

@@ -6,7 +6,7 @@ service: icerik-seo
 imageAlt: "Basamaklı başlık yapısı: ana başlık, alt başlıklar ve paragraflar"
 ---
 
-**Kısa cevap:** H1 sayfanın ana başlığıdır, H2’ler ana bölümleri, H3’ler bölümlerin alt başlıklarını oluşturur. Google’ın SEO rehberine göre başlıkları anlamsal sırada kullanmak ekran okuyucular için çok yararlıdır, ama Google Arama açısından başlıkların belirli bir sırada olması önemli değildir ve “ideal bir başlık sayısı” yoktur. Başlıkları, içeriği bölümlere ayırıp okuyucunun gezinmesini kolaylaştırmak için kullanın; sayının çok fazla olduğunu düşünüyorsanız muhtemelen fazladır.
+H1 sayfanın ana başlığıdır, H2’ler ana bölümleri, H3’ler bölümlerin alt başlıklarını oluşturur. Google’ın SEO rehberine göre başlıkları anlamsal sırada kullanmak ekran okuyucular için çok yararlıdır, ama Google Arama açısından başlıkların belirli bir sırada olması önemli değildir ve “ideal bir başlık sayısı” yoktur. Başlıkları, içeriği bölümlere ayırıp okuyucunun gezinmesini kolaylaştırmak için kullanın; sayının çok fazla olduğunu düşünüyorsanız muhtemelen fazladır.
 
 Başlık etiketleri SEO’da en çok abartılan konulardan biridir: “H1 mutlaka bir tane olmalı”, “H2’de anahtar kelime geçmeli” gibi kurallar sık duyulur. Google’ın kendi rehberi ise daha sadedir: başlıklar önce okuyucu içindir. Bu yazıda başlık yapısını nasıl kuracağınızı, Google’ın bu konudaki net ifadelerini ve pratik bir iskeleti anlatıyoruz. Blog yazısının bütünü için [blog yazısı nasıl yazılır?](/blog/blog-yazisi-nasil-yazilir-seo-uyumlu-8-adim/) yazımıza bakabilirsiniz.
 
@@ -85,15 +85,13 @@ H1: Klima Bakımı Yılda Kaç Kez Yapılmalı?
 
 ## Sık yapılan başlık hataları
 
-| Hata | Neden sorun? | Çözüm |
-| --- | --- | --- |
-| Yazı büyük olsun diye başlık etiketi | Yapıyı bozar | Stil için başlık değil biçimlendirme kullanın |
-| Hiç başlık yok | Uzun metin okunmaz | Bölümlere ayırın |
-| Çok fazla başlık | Parçalı, yorucu | Birleştirin |
-| Başlıkların anahtar kelimeyle dolu olması | Spam hissi | Doğal yazın |
-| Her sayfada aynı H1 | Sayfalar ayırt edilemez | Sayfaya özgü H1 |
-| Başlık metni görselin içinde | Metin olarak okunmaz | Gerçek metin kullanın |
-| Menü ve alt bilgi öğelerinin başlık etiketiyle işaretlenmesi | Karışık yapı | Yalnızca içerik başlıklarını kullanın |
+- **Yazı büyük olsun diye başlık etiketi:** neden sorun?: Yapıyı bozar; çözüm: Stil için başlık değil biçimlendirme kullanın
+- **Hiç başlık yok:** neden sorun?: Uzun metin okunmaz; çözüm: Bölümlere ayırın
+- **Çok fazla başlık:** neden sorun?: Parçalı, yorucu; çözüm: Birleştirin
+- **Başlıkların anahtar kelimeyle dolu olması:** neden sorun?: Spam hissi; çözüm: Doğal yazın
+- **Her sayfada aynı H1:** neden sorun?: Sayfalar ayırt edilemez; çözüm: Sayfaya özgü H1
+- **Başlık metni görselin içinde:** neden sorun?: Metin olarak okunmaz; çözüm: Gerçek metin kullanın
+- **Menü ve alt bilgi öğelerinin başlık etiketiyle işaretlenmesi:** neden sorun?: Karışık yapı; çözüm: Yalnızca içerik başlıklarını kullanın
 
 ## Başlık ve sayfa başlığı farkı
 
@@ -122,13 +120,11 @@ Telefonda uzun başlıklar birkaç satıra yayılır. H1’i kısa tutun (en faz
 
 ## Sayfa türüne göre başlık stratejisi
 
-| Sayfa | H1 | H2’ler |
-| --- | --- | --- |
-| Hizmet | Hizmet adı ve yer | Kapsam, süreç, fiyat etkenleri, SSS, iletişim |
-| Blog | Müşteri sorusu | Alt sorular |
-| Kategori (mağaza) | Kategori adı | Seçim rehberi, sık sorulan sorular |
-| Ürün | Ürün adı | Özellikler, ölçüler, bakım, teslimat |
-| İletişim | İletişim | Adres, saatler, ulaşım |
+- **Hizmet:** h1: Hizmet adı ve yer; h2’ler: Kapsam, süreç, fiyat etkenleri, SSS, iletişim
+- **Blog:** h1: Müşteri sorusu; h2’ler: Alt sorular
+- **Kategori (mağaza):** h1: Kategori adı; h2’ler: Seçim rehberi, sık sorulan sorular
+- **Ürün:** h1: Ürün adı; h2’ler: Özellikler, ölçüler, bakım, teslimat
+- **İletişim:** h1: İletişim; h2’ler: Adres, saatler, ulaşım
 
 ## Denizli SEO bu konuda nasıl yardımcı olur?
 

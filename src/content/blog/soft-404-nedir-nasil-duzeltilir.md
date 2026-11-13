@@ -6,7 +6,7 @@ service: teknik-seo
 imageAlt: "“Sayfa bulunamadı” yazan ama yeşil onaylı bir sayfa"
 ---
 
-**Kısa cevap:** Soft 404, bir sayfanın “bulunamadı” içeriği gösterirken sunucudan 404 değil 200 (başarılı) durum kodu döndürmesidir. Google’ın Sayfa dizine ekleme raporu bunu şöyle açıklar: sayfa isteği 404 yanıt kodu değil, kullanıcı dostu bir “bulunamadı” mesajı döndürmüştür. Google’ın önerisi: gerçekten bulunamayan sayfalar için 404 yanıt kodu döndürmek ya da sayfanın bir hata olmadığını anlaması için sayfaya daha fazla bilgi eklemek.
+Soft 404, bir sayfanın “bulunamadı” içeriği gösterirken sunucudan 404 değil 200 (başarılı) durum kodu döndürmesidir. Google’ın Sayfa dizine ekleme raporu bunu şöyle açıklar: sayfa isteği 404 yanıt kodu değil, kullanıcı dostu bir “bulunamadı” mesajı döndürmüştür. Google’ın önerisi: gerçekten bulunamayan sayfalar için 404 yanıt kodu döndürmek ya da sayfanın bir hata olmadığını anlaması için sayfaya daha fazla bilgi eklemek.
 
 Soft 404, sinsi bir sorundur: sayfa ziyaretçiye “bulunamadı” der, ama sunucu Google’a “her şey yolunda” der. Google bunu fark eder ve sayfayı dizine eklemeyebilir. Bu yazıda soft 404’ün ne olduğunu, nasıl oluştuğunu ve nasıl düzeltileceğini anlatıyoruz. Normal 404’ler için [404 hatası: düzeltmeli mi, yönlendirmeli mi?](/blog/404-hatasi-duzeltmeli-mi-yonlendirmeli-mi/) yazımıza bakabilirsiniz.
 
@@ -45,15 +45,13 @@ Google, 4xx dönen URL’lerin dizine eklenmediğini ve dizindekilerin kaldırı
 
 Karar kuralı: **Sayfa gerçekten yoksa 404 dönsün; sayfa varsa içeriği yeterli olsun.**
 
-| Durum | Çözüm |
-| --- | --- |
-| Gerçekten silinmiş sayfa | 404 (ya da 410) durum kodu döndürün |
-| Sayfa taşındı, karşılığı var | 301 ile yeni sayfaya yönlendirin |
-| Özel 404 sayfası 200 dönüyor | Yazılımcıya 404 durum kodu döndürtün |
-| Boş kategori | Kategoriyi 404 yapın ya da gerçek içerik ekleyin (ürünü olmadığında alternatif öneri, açıklama) |
-| İnce içerik sayfası | Özgün ve yararlı içerikle derinleştirin; yoksa kaldırın ya da birleştirin |
-| Stokta olmayan ürün | “Stokta yok” bilgisi ve benzer ürün önerisiyle sayfayı anlamlı tutun; kalıcı kaldırıldıysa 404 ya da yönlendirme |
-| SPA | Aşağıdaki stratejilerden birini uygulayın |
+- **Gerçekten silinmiş sayfa:** 404 (ya da 410) durum kodu döndürün
+- **Sayfa taşındı, karşılığı var:** 301 ile yeni sayfaya yönlendirin
+- **Özel 404 sayfası 200 dönüyor:** Yazılımcıya 404 durum kodu döndürtün
+- **Boş kategori:** Kategoriyi 404 yapın ya da gerçek içerik ekleyin (ürünü olmadığında alternatif öneri, açıklama)
+- **İnce içerik sayfası:** Özgün ve yararlı içerikle derinleştirin; yoksa kaldırın ya da birleştirin
+- **Stokta olmayan ürün:** “Stokta yok” bilgisi ve benzer ürün önerisiyle sayfayı anlamlı tutun; kalıcı kaldırıldıysa 404 ya da yönlendirme
+- **SPA:** Aşağıdaki stratejilerden birini uygulayın
 
 ## Tek sayfalık uygulamalarda soft 404
 
@@ -76,12 +74,10 @@ Düzeltme: özel 404 sayfasının 404 durum kodu döndürmesi sağlanıyor; eski
 
 E-ticarette soft 404’ün en sık kaynağı budur. Karar tablosu:
 
-| Durum | Önerilen davranış |
-| --- | --- |
-| Kategori geçici olarak boş, dönecek | Sayfayı tutun; açıklama, alternatif kategori ve arama kutusu ekleyin |
-| Kategori kalıcı olarak kapandı | Uygun kategoriye 301; karşılığı yoksa 404 |
-| Ürün geçici stok dışı | Sayfa kalsın; “stokta yok”, haber ver seçeneği, benzer ürünler |
-| Ürün kalıcı kaldırıldı | Benzer ürüne 301 ya da 404 |
+- **Kategori geçici olarak boş, dönecek:** Sayfayı tutun; açıklama, alternatif kategori ve arama kutusu ekleyin
+- **Kategori kalıcı olarak kapandı:** Uygun kategoriye 301; karşılığı yoksa 404
+- **Ürün geçici stok dışı:** Sayfa kalsın; “stokta yok”, haber ver seçeneği, benzer ürünler
+- **Ürün kalıcı kaldırıldı:** Benzer ürüne 301 ya da 404
 
 Sayfa gerçekten işlevsiz ve içeriksizse Google’ın “soft 404” kararı yerinde olabilir.
 

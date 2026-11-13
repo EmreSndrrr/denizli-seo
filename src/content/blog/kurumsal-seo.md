@@ -6,7 +6,7 @@ service: icerik-seo
 imageAlt: "Dünya haritası üzerinde işaretlenmiş dil sürümleri ve bir kurumsal site"
 ---
 
-**Kısa cevap:** Kurumsal SEO, çok sayıda ürün ya da hizmeti, birden fazla ekibi ve çoğu zaman birden fazla dili olan şirketlerin SEO çalışmasıdır. Temel kurallar küçük işletmeyle aynıdır; fark ölçek, yönetişim ve markadır: sayfa planı, sorumluluk paylaşımı, marka aramalarının korunması ve çok dilli sitede dil sürümlerinin Google’a doğru bildirilmesi. Önce yapıyı kurun, sonra içeriği çoğaltın.
+Kurumsal SEO, çok sayıda ürün ya da hizmeti, birden fazla ekibi ve çoğu zaman birden fazla dili olan şirketlerin SEO çalışmasıdır. Temel kurallar küçük işletmeyle aynıdır; fark ölçek, yönetişim ve markadır: sayfa planı, sorumluluk paylaşımı, marka aramalarının korunması ve çok dilli sitede dil sürümlerinin Google’a doğru bildirilmesi. Önce yapıyı kurun, sonra içeriği çoğaltın.
 
 “Kurumsal SEO” ifadesi pazarlamada çok kullanılır ama çoğu zaman belirsizdir. Bu yazıda onu üç soruya indiriyoruz: kurumsal bir sitede neler farklıdır, ihracat yapan bir firmada çok dilli site nasıl kurulur, ve bu işi bir ajansla ya da iç ekiple nasıl yönetirsiniz? Küçük işletme için temel bir giriş arıyorsanız önce [SEO nedir?](/blog/seo-nedir/) yazımıza bakabilirsiniz.
 
@@ -75,14 +75,12 @@ Bir dili yarım bırakmak, hiç eklememekten daha kötüdür; yarım çevrilmiş
 
 Örnek (hayalî bir işletme için): Denizli’de üretim yapan ve yurt dışına satış yapan orta ölçekli bir ev tekstili firması. Sitesi yalnızca Türkçe ve bütün ürünler tek bir sayfada.
 
-| Alan | Yapılacak |
-| --- | --- |
-| Yapı | Ürün grupları için ayrı sayfalar planla (havlu, bornoz, nevresim vb.) |
-| Marka | Marka adı aramasında çıkan sonuçları kontrol et; profili doğrula |
-| Güven | Hakkımızda: üretim yeri, ekip, gerçek tesis fotoğrafları |
-| Dil | Önce en önemli pazarın dili; ayrı adres ve hreflang |
-| Süreç | Kim yazar, kim onaylar, kim günceller: sorumluları belirle |
-| Ölçüm | Aylık Search Console raporu; ülke ve sorgu kırılımı |
+- **Yapı:** Ürün grupları için ayrı sayfalar planla (havlu, bornoz, nevresim vb.)
+- **Marka:** Marka adı aramasında çıkan sonuçları kontrol et; profili doğrula
+- **Güven:** Hakkımızda: üretim yeri, ekip, gerçek tesis fotoğrafları
+- **Dil:** Önce en önemli pazarın dili; ayrı adres ve hreflang
+- **Süreç:** Kim yazar, kim onaylar, kim günceller: sorumluları belirle
+- **Ölçüm:** Aylık Search Console raporu; ülke ve sorgu kırılımı
 
 Bu örnek bir sonuç vaadi değil, işlerin sırasıdır.
 
@@ -90,12 +88,10 @@ Bu örnek bir sonuç vaadi değil, işlerin sırasıdır.
 
 Kurumsal alıcı, tek bir aramayla karar vermez; birkaç aşamadan geçer:
 
-| Aşama | Örnek arama | Sitede karşılığı |
-| --- | --- | --- |
-| Sorun fark etme | “havlu gramajı nasıl seçilir” | Rehber yazısı |
-| Seçenek araştırma | “toptan banyo havlusu üreticisi” | Ürün grubu sayfası |
-| Tedarikçi doğrulama | “firma adı” + “yorum” | Hakkımızda, profil, referanslar |
-| Teklif | “firma adı iletişim” | İletişim ve teklif formu |
+- **Sorun fark etme:** örnek arama: “havlu gramajı nasıl seçilir”; sitede karşılığı: Rehber yazısı
+- **Seçenek araştırma:** örnek arama: “toptan banyo havlusu üreticisi”; sitede karşılığı: Ürün grubu sayfası
+- **Tedarikçi doğrulama:** örnek arama: “firma adı” + “yorum”; sitede karşılığı: Hakkımızda, profil, referanslar
+- **Teklif:** örnek arama: “firma adı iletişim”; sitede karşılığı: İletişim ve teklif formu
 
 Bir siteyi yalnızca ürün sayfalarıyla kurmak, bu yolculuğun ilk iki aşamasında görünmez olmak demektir. Rehber yazıları ve “hakkımızda” sayfası, kurumsal siteyi tamamlar.
 
@@ -124,11 +120,9 @@ Rapora yalnızca grafik ve puan koymayın; yapılan işi ve etkisini anlatın.
 
 Üç model vardır:
 
-| Model | Güçlü yanı | Zayıf yanı |
-| --- | --- | --- |
-| İç ekip | Şirketi iyi tanır, hızlı karar verir | Uzmanlık ve zaman sınırlı olabilir |
-| Ajans | Çok yönlü ekip, deneyim | İletişim ve yetki devri gerekir |
-| Karma | İç ekip içeriği bilir, ajans teknik ve strateji getirir | İşbölümü net olmalı |
+- **İç ekip:** güçlü yanı: Şirketi iyi tanır, hızlı karar verir; zayıf yanı: Uzmanlık ve zaman sınırlı olabilir
+- **Ajans:** güçlü yanı: Çok yönlü ekip, deneyim; zayıf yanı: İletişim ve yetki devri gerekir
+- **Karma:** güçlü yanı: İç ekip içeriği bilir, ajans teknik ve strateji getirir; zayıf yanı: İşbölümü net olmalı
 
 Ajans seçerken sorulacak sorular ve kırmızı bayraklar için [SEO ajansı mı, SEO uzmanı mı?](/blog/seo-ajansi-mi-uzmani-mi/) yazımıza bakın. Google’ın rehberi de kimsenin birinci sıra garantisi veremeyeceğini söyler; kurumsal bütçeyle de olsa bu söz geçerlidir. Fiyat modelleri için [SEO fiyatları neye göre değişir?](/blog/seo-fiyatlari/) yazımız işe yarar.
 

@@ -6,7 +6,7 @@ service: teknik-seo
 imageAlt: "Birbirine benzeyen üç sayfa ve birini işaret eden canonical oku"
 ---
 
-**Kısa cevap:** Canonical (standart URL) etiketi, aynı ya da çok benzer içeriğin birden çok adreste bulunduğu durumda Google’a hangi adresin asıl sayfa olduğunu söyler. Sayfanın `<head>` bölümüne `<link rel="canonical" href="asıl-adres">` eklenir. Google’a göre yönlendirmeler ve rel=canonical güçlü, site haritası zayıf bir sinyaldir. Kopya sayfayı gizlemek için noindex ya da robots.txt kullanmak önerilmez.
+Canonical (standart URL) etiketi, aynı ya da çok benzer içeriğin birden çok adreste bulunduğu durumda Google’a hangi adresin asıl sayfa olduğunu söyler. Sayfanın `<head>` bölümüne `<link rel="canonical" href="asıl-adres">` eklenir. Google’a göre yönlendirmeler ve rel=canonical güçlü, site haritası zayıf bir sinyaldir. Kopya sayfayı gizlemek için noindex ya da robots.txt kullanmak önerilmez.
 
 Aynı içerik birden fazla adreste bulunabilir: `http` ve `https`, `www` ve `www`’suz, sonunda eğik çizgi olan ve olmayan adresler, takip parametreli adresler, filtreli mağaza sayfaları. Google bunlardan birini “standart” seçer; siz söylemezseniz yanlış olanı seçebilir. Bu yazı canonical’in ne işe yaradığını, nasıl ekleneceğini ve hangi hatalardan kaçınacağınızı anlatıyor. Dizin durumunu görmek için [Search Console’da ilk kontrol](/blog/search-console-ilk-kontrol/) yazımıza bakabilirsiniz.
 
@@ -36,11 +36,9 @@ Sayfanızın `<head>` bölümüne asıl adresi gösteren bir bağlantı eklersin
 
 Bu etiket Google’a “bu sayfanın içeriğinin standart adresi budur” der. Google, bunu “güçlü bir sinyal” olarak değerlendirir; ama bağlayıcı bir komut değildir. Google’ın sunduğu seçenekler, standartlaştırmayı ne kadar etkilediklerine göre şöyle sıralanır:
 
-| Yöntem | Sinyal gücü |
-| --- | --- |
-| Yönlendirme (301) | Güçlü: hedefin standart URL olması gerektiği yönünde |
-| `rel="canonical"` bağlantısı | Güçlü |
-| Site haritasına ekleme | Zayıf |
+- **Yönlendirme (301):** Güçlü: hedefin standart URL olması gerektiği yönünde
+- **`rel="canonical"` bağlantısı:** Güçlü
+- **Site haritasına ekleme:** Zayıf
 
 Yöntemler birlikte kullanılabilir ve birleştirildiğinde daha etkili olabilir. HTML olmayan dosyalarda (PDF gibi) `rel="canonical"` HTTP üstbilgisi kullanılabilir.
 
@@ -91,15 +89,13 @@ Düzeltme: tüm trafik tek bir adres biçimine (`https://alanadi.com/`) 301 ile 
 
 ## Canonical ve sayfa sinyalleri: pratik bir karar tablosu
 
-| Durum | Önerilen çözüm |
-| --- | --- |
-| `http` sürümü hâlâ açık | 301 ile `https`’e yönlendirme |
-| `www` ve `www`’suz ikisi de açık | 301 ile birine yönlendirme |
-| Takip parametresi eklenmiş adres | Parametresiz adrese canonical |
-| Mağaza varyantları | Standart ürün adresine canonical |
-| Yazdırma sürümü | Asıl sayfaya canonical |
-| Aynı içeriğin iki farklı adreste yayını | Birini seçip yönlendirme; ya da canonical |
-| Gerçekten farklı sayfalar | Canonical gerekmez; her biri kendi adresini göstersin |
+- **`http` sürümü hâlâ açık:** 301 ile `https`’e yönlendirme
+- **`www` ve `www`’suz ikisi de açık:** 301 ile birine yönlendirme
+- **Takip parametresi eklenmiş adres:** Parametresiz adrese canonical
+- **Mağaza varyantları:** Standart ürün adresine canonical
+- **Yazdırma sürümü:** Asıl sayfaya canonical
+- **Aynı içeriğin iki farklı adreste yayını:** Birini seçip yönlendirme; ya da canonical
+- **Gerçekten farklı sayfalar:** Canonical gerekmez; her biri kendi adresini göstersin
 
 ## Canonical hatası nasıl fark edilir?
 

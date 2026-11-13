@@ -6,7 +6,7 @@ service: icerik-seo
 imageAlt: "İletişim sayfası: adres, telefon, harita ve form blokları"
 ---
 
-**Kısa cevap:** İletişim sayfası, müşterinin sizi bulup ulaşabileceği en kritik sayfadır. İşletme adı, açık adres, telefon, çalışma saatleri, harita ve kısa bir form tek sayfada, metin olarak (görsele gömülmeden) yer almalı; bu bilgiler Google İşletme Profili ve diğer kayıtlarla birebir aynı olmalıdır. İsterseniz LocalBusiness yapılandırılmış verisi ekleyebilirsiniz; veri sayfadaki bilgiyle uyuşmalıdır.
+İletişim sayfası, müşterinin sizi bulup ulaşabileceği en kritik sayfadır. İşletme adı, açık adres, telefon, çalışma saatleri, harita ve kısa bir form tek sayfada, metin olarak (görsele gömülmeden) yer almalı; bu bilgiler Google İşletme Profili ve diğer kayıtlarla birebir aynı olmalıdır. İsterseniz LocalBusiness yapılandırılmış verisi ekleyebilirsiniz; veri sayfadaki bilgiyle uyuşmalıdır.
 
 Birçok sitede iletişim sayfası yalnızca bir form ya da tek satır telefondur. Oysa yerel işletmeler için bu sayfa hem müşteri hem arama sistemleri açısından işletmenin gerçek olduğunu gösteren yerdir. Tutarlılık için [ad, adres, telefon tutarlılığı](/blog/ad-adres-telefon-tutarliligi/), güven için [Hakkımızda sayfası](/blog/hakkimizda-sayfasi-nasil-yazilir-guven-icin-rehber/) yazılarına bakabilirsiniz.
 
@@ -48,15 +48,13 @@ Form toplayacağınız kişisel veriyi (ad, telefon) gerekli olanla sınırlayı
 
 ## Sık yapılan hatalar
 
-| Hata | Çözüm |
-| --- | --- |
-| Adres ve telefon görsel içinde | Metin olarak yazın |
-| Profil ile farklı bilgi | Tek doğru bilgiye eşitleyin |
-| Telefon tıklanamıyor | `tel:` bağlantısı kullanın |
-| Haritasız sayfa | Harita ve yol tarifi ekleyin |
-| Çok uzun form | Üç dört alana indirin |
-| Eski çalışma saatleri | Düzenli güncelleyin |
-| Sayfa menüde yok | Menü ve alt bilgiden bağlayın |
+- **Adres ve telefon görsel içinde:** Metin olarak yazın
+- **Profil ile farklı bilgi:** Tek doğru bilgiye eşitleyin
+- **Telefon tıklanamıyor:** `tel:` bağlantısı kullanın
+- **Haritasız sayfa:** Harita ve yol tarifi ekleyin
+- **Çok uzun form:** Üç dört alana indirin
+- **Eski çalışma saatleri:** Düzenli güncelleyin
+- **Sayfa menüde yok:** Menü ve alt bilgiden bağlayın
 
 ## Denizli’den bir örnek
 
@@ -64,14 +62,14 @@ Form toplayacağınız kişisel veriyi (ad, telefon) gerekli olanla sınırlayı
 
 ## Yayın öncesi kontrol listesi
 
-| Kontrol | Evet / Hayır |
-| --- | --- |
-| Ad, adres, telefon profille aynı mı? | |
-| Telefon mobilde tek dokunuşla aranıyor mu? | |
-| Harita doğru konumu gösteriyor mu? | |
-| Form çalışıyor ve cevap veriliyor mu? | |
-| Çalışma saatleri güncel mi? | |
-| Yapılandırılmış veri sayfayla uyumlu mu? | |
+Şunları tek tek kontrol edin:
+
+- Ad, adres, telefon profille aynı mı?
+- Telefon mobilde tek dokunuşla aranıyor mu?
+- Harita doğru konumu gösteriyor mu?
+- Form çalışıyor ve cevap veriliyor mu?
+- Çalışma saatleri güncel mi?
+- Yapılandırılmış veri sayfayla uyumlu mu?
 
 ## Denizli SEO bu konuda nasıl yardımcı olur?
 

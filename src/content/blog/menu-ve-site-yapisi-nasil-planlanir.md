@@ -6,7 +6,7 @@ service: web-tasarim
 imageAlt: "Ana menü ve alt sayfa hiyerarşisini gösteren site yapısı şeması"
 ---
 
-**Kısa cevap:** İyi bir menü, müşterinin aradığına birkaç tıklamada ulaşmasını sağlar. Ana menüde beş altı öğe (hizmetler, hakkımızda, blog, iletişim gibi), hizmetler altında ana hizmet sayfaları, her sayfadan iletişime ulaşım ve sade bir URL düzeni yeterlidir. Google, önemsediğiniz her sayfaya sitenizdeki en az bir başka sayfadan bağlantı verilmesini ve URL’lerde anlaşılır, tutarlı bir düzen kullanılmasını önerir.
+İyi bir menü, müşterinin aradığına birkaç tıklamada ulaşmasını sağlar. Ana menüde beş altı öğe (hizmetler, hakkımızda, blog, iletişim gibi), hizmetler altında ana hizmet sayfaları, her sayfadan iletişime ulaşım ve sade bir URL düzeni yeterlidir. Google, önemsediğiniz her sayfaya sitenizdeki en az bir başka sayfadan bağlantı verilmesini ve URL’lerde anlaşılır, tutarlı bir düzen kullanılmasını önerir.
 
 Site yapısı, ziyaretçi için yol haritası, arama motoru için sayfalar arası ilişki anlatımıdır. Küçük sitede bu, 20 dakikalık bir kâğıt çalışmasıyla çözülebilir. İç bağlantılar için [iç bağlantı stratejisi](/blog/ic-baglanti-stratejisi-kucuk-siteler-icin-rehber/), sayfa listesi için [kurumsal web sitesi kaç sayfa olmalı?](/blog/kurumsal-web-sitesi-kac-sayfa-olmali/) yazılarına bakabilirsiniz.
 
@@ -49,24 +49,20 @@ Ana sayfa
 
 ## URL düzeni
 
-| İyi | Kaçının |
-| --- | --- |
-| /hizmetler/klima-bakimi/ | /index.php?id=37 |
-| /blog/klima-bakimi-yilda-kac-kez/ | /blog/Klima_Bakimi%20Yazisi |
-| Kısa ve tutarlı | Uzun, rastgele, her sayfada farklı düzen |
+- **/hizmetler/klima-bakimi/:** /index.php?id=37
+- **/blog/klima-bakimi-yilda-kac-kez/:** /blog/Klima_Bakimi%20Yazisi
+- **Kısa ve tutarlı:** Uzun, rastgele, her sayfada farklı düzen
 
 Adresleri sonradan değiştirmek yönlendirme gerektirir; baştan doğru planlayın, bkz. [301 ve 302 farkı](/blog/301-ve-302-yonlendirme-farki-nedir/).
 
 ## Sık yapılan hatalar
 
-| Hata | Çözüm |
-| --- | --- |
-| Menüde çok fazla öğe | En önemli beş altı öğe |
-| Müşterinin kullanmadığı kelimeler | Müşterinin dili |
-| Hizmet sayfalarının menüden ulaşılamaz olması | Ana menüye ekleyin |
-| İletişimin gizli kalması | Her sayfadan görünür |
-| Rastgele URL’ler | Tutarlı düzen |
-| JavaScript ile çizilen, taranamayan menü | Gerçek bağlantılar |
+- **Menüde çok fazla öğe:** En önemli beş altı öğe
+- **Müşterinin kullanmadığı kelimeler:** Müşterinin dili
+- **Hizmet sayfalarının menüden ulaşılamaz olması:** Ana menüye ekleyin
+- **İletişimin gizli kalması:** Her sayfadan görünür
+- **Rastgele URL’ler:** Tutarlı düzen
+- **JavaScript ile çizilen, taranamayan menü:** Gerçek bağlantılar
 
 ## Denizli’den bir örnek
 

@@ -6,7 +6,7 @@ service: yerel-seo
 imageAlt: "Görüntüleme, arama ve yol tarifi sayılarını gösteren bir rapor paneli"
 ---
 
-**Kısa cevap:** İşletme Profili’nin Performans bölümü, profilinizin kaç kez görüntülendiğini, hangi aramalarda bulunduğunuzu ve kaç kişinin sizi aradığını, yol tarifi istediğini ya da sitenize tıkladığını gösterir. Rakamları tek bir günle değil, aylık olarak ve aynı uzunluktaki dönemlerle karşılaştırın. Görüntülemeden çok, arama ve yol tarifi gibi eylem sayılarına bakın; çünkü işinize yarayan, görüntüleme değil eylemdir.
+İşletme Profili’nin Performans bölümü, profilinizin kaç kez görüntülendiğini, hangi aramalarda bulunduğunuzu ve kaç kişinin sizi aradığını, yol tarifi istediğini ya da sitenize tıkladığını gösterir. Rakamları tek bir günle değil, aylık olarak ve aynı uzunluktaki dönemlerle karşılaştırın. Görüntülemeden çok, arama ve yol tarifi gibi eylem sayılarına bakın; çünkü işinize yarayan, görüntüleme değil eylemdir.
 
 Performans bölümü, yaptığınız profil çalışmasının işe yarayıp yaramadığını görmenin en kolay yoludur. Ama rakamlar yanıltıcı olabilir: sezon, bayram, kampanya ve hava durumu bile sayıları değiştirir. Bu yazıda raporun hangi göstergeleri sunduğunu, nasıl yorumlanacağını ve aylık bir karşılaştırma tablosunu anlatıyoruz. Profil kurulumu için [Google İşletme Profili nasıl doldurulur?](/blog/google-isletme-profili-nasil-doldurulur/) yazımıza bakabilirsiniz.
 
@@ -40,14 +40,14 @@ Rapor size sebep söylemez; yalnızca ne olduğunu gösterir. Sebebi siz araşt�
 
 Her ay sonunda şu tabloyu doldurun:
 
-| Gösterge | Geçen ay | Bu ay | Fark | Not (neden olabilir?) |
-| --- | --- | --- | --- | --- |
-| Profil görüntüleme | | | | |
-| Telefon araması | | | | |
-| Yol tarifi isteği | | | | |
-| Site tıklaması | | | | |
-| Yeni yorum sayısı | | | | |
-| Yorum puanı | | | | |
+Şunları tek tek kontrol edin:
+
+- Profil görüntüleme
+- Telefon araması
+- Yol tarifi isteği
+- Site tıklaması
+- Yeni yorum sayısı
+- Yorum puanı
 
 “Not” sütunu önemlidir: bayram, kampanya, profil değişikliği ya da gönderi gibi etkenleri yazın. Altı ay sonra bu notlar, neyin işe yaradığını gösterir.
 
@@ -79,13 +79,11 @@ Her yol tarifi ya da arama satışa dönüşmez; ama güçlü bir niyet işareti
 
 ## Sık yapılan yanılgılar
 
-| Yanılgı | Gerçek |
-| --- | --- |
-| “Görüntüleme arttı, başarılıyız.” | Görüntüleme yetmez; arama ve yol tarifi de artmalı |
-| “Bir gün düştü, sorun var.” | Tek günlük dalgalanma anlamsızdır; trend izleyin |
-| “Bu ay yaz sezonu, geçen ayla kıyaslayayım.” | Mevsim farkı; geçen yılın aynı ayıyla karşılaştırın |
-| “Rakamlar sıramı gösterir.” | Performans bölümü sıra değil, kullanıcı davranışını gösterir |
-| “Reklam verince rakamlar arttı, SEO işe yaradı.” | Reklam rakamları karıştırabilir; dönemleri ayrı not edin |
+- **“Görüntüleme arttı, başarılıyız.”:** Görüntüleme yetmez; arama ve yol tarifi de artmalı
+- **“Bir gün düştü, sorun var.”:** Tek günlük dalgalanma anlamsızdır; trend izleyin
+- **“Bu ay yaz sezonu, geçen ayla kıyaslayayım.”:** Mevsim farkı; geçen yılın aynı ayıyla karşılaştırın
+- **“Rakamlar sıramı gösterir.”:** Performans bölümü sıra değil, kullanıcı davranışını gösterir
+- **“Reklam verince rakamlar arttı, SEO işe yaradı.”:** Reklam rakamları karıştırabilir; dönemleri ayrı not edin
 
 ## Sezon etkisini nasıl ayıklarsınız?
 

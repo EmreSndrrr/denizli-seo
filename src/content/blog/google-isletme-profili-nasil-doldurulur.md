@@ -7,7 +7,7 @@ service: yerel-seo
 imageAlt: "Google İşletme Profili kartı: işletme adı, işlem düğmeleri ve çalışma bilgileri"
 ---
 
-**Kısa cevap:** Google İşletme Profili’ni doldurmak için önce [business.google.com](https://business.google.com/) adresinde işletmenizi bulup sahipliğini alın ve doğrulayın. Ardından ana kategoriyi, tabeladaki adla aynı işletme adını, adres ya da hizmet bölgesini, telefonu, çalışma ve özel saatleri, en fazla 750 karakterlik açıklamayı, hizmetleri ve gerçek fotoğrafları girin. Son olarak yorum isteme bağlantısını müşterilerinize gönderin ve gelen yorumları yanıtlayın.
+Google İşletme Profili’ni doldurmak için önce [business.google.com](https://business.google.com/) adresinde işletmenizi bulup sahipliğini alın ve doğrulayın. Ardından ana kategoriyi, tabeladaki adla aynı işletme adını, adres ya da hizmet bölgesini, telefonu, çalışma ve özel saatleri, en fazla 750 karakterlik açıklamayı, hizmetleri ve gerçek fotoğrafları girin. Son olarak yorum isteme bağlantısını müşterilerinize gönderin ve gelen yorumları yanıtlayın.
 
 Bu rehber, Denizli’deki bir işletmenin profilini sıfırdan açarken ya da mevcut profilini gözden geçirirken izleyebileceği sırayı veriyor. Her adımda Google’ın kendi yardım sayfasına bağlantı var; kurallar değiştiğinde güncel hâli oradan kontrol edilebilir.
 

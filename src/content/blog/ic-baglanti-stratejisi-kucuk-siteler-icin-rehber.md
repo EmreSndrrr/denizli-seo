@@ -6,7 +6,7 @@ service: icerik-seo
 imageAlt: "Birbirine bağlanan sayfa kutuları ve merkezdeki hizmet sayfası"
 ---
 
-**Kısa cevap:** İç bağlantı, sitenizdeki bir sayfadan yine sitenizdeki başka bir sayfaya verdiğiniz bağlantıdır. Google, önemsediğiniz her sayfaya sitenizdeki en az bir başka sayfadan bağlantı verilmesini ve bağlantı metninin açıklayıcı, kısa ve alakalı olmasını önerir. Küçük bir sitede strateji basittir: hizmet sayfalarını ana sayfa ve menüden, blog yazılarını ilgili hizmet sayfasından ve birbirinden bağlayın; “buraya tıklayın” yerine sayfanın adını yazın; hiçbir yerden bağlanmayan (yetim) sayfa bırakmayın.
+İç bağlantı, sitenizdeki bir sayfadan yine sitenizdeki başka bir sayfaya verdiğiniz bağlantıdır. Google, önemsediğiniz her sayfaya sitenizdeki en az bir başka sayfadan bağlantı verilmesini ve bağlantı metninin açıklayıcı, kısa ve alakalı olmasını önerir. Küçük bir sitede strateji basittir: hizmet sayfalarını ana sayfa ve menüden, blog yazılarını ilgili hizmet sayfasından ve birbirinden bağlayın; “buraya tıklayın” yerine sayfanın adını yazın; hiçbir yerden bağlanmayan (yetim) sayfa bırakmayın.
 
 İç bağlantılar, bir SEO çalışmasının en ucuz ve en kontrol edilebilir parçasıdır: başka sitelerin sizi anmasını beklemeden, kendi sayfalarınızı birbirine bağlayarak hem ziyaretçiye yol gösterir hem Google’ın sayfalarınızı bulmasını kolaylaştırırsınız. Bu yazıda iç bağlantının nasıl kurulacağını, bağlantı metninin nasıl yazılacağını ve basit bir bağlantı planını anlatıyoruz. Dışarıdan gelen bağlantılar için [backlink nedir?](/blog/backlink-nedir/) yazımıza bakabilirsiniz.
 
@@ -90,16 +90,14 @@ Search Console’daki Bağlantılar raporunun dahili bağlantılar bölümü, en
 
 ## Sık yapılan hatalar
 
-| Hata | Çözüm |
-| --- | --- |
-| “Buraya tıklayın” bağlantıları | Açıklayıcı bağlantı metni |
-| Menüde çok fazla öğe | En önemli beş altı öğe |
-| Yetim sayfalar | Uygun yerden bağlantı |
-| Her bağlantıda aynı anahtar kelime | Doğal çeşitlilik |
-| Kırık iç bağlantılar | Düzeltin ya da kaldırın |
-| Hizmet sayfasına blogdan hiç bağlantı yok | Yazıdan hizmete doğal bağlantı |
-| Aşırı bağlantı | Yalnızca yararlı olanları bırakın |
-| Bağlantının JavaScript ile çizilmesi | Gerçek `<a href>` |
+- **“Buraya tıklayın” bağlantıları:** Açıklayıcı bağlantı metni
+- **Menüde çok fazla öğe:** En önemli beş altı öğe
+- **Yetim sayfalar:** Uygun yerden bağlantı
+- **Her bağlantıda aynı anahtar kelime:** Doğal çeşitlilik
+- **Kırık iç bağlantılar:** Düzeltin ya da kaldırın
+- **Hizmet sayfasına blogdan hiç bağlantı yok:** Yazıdan hizmete doğal bağlantı
+- **Aşırı bağlantı:** Yalnızca yararlı olanları bırakın
+- **Bağlantının JavaScript ile çizilmesi:** Gerçek `<a href>`
 
 ## Denizli’den bir örnek
 

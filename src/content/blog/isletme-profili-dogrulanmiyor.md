@@ -6,7 +6,7 @@ service: yerel-seo
 imageAlt: "Doğrulama kodu giriş ekranı ve tabela gösteren bir telefon"
 ---
 
-**Kısa cevap:** Doğrulama yöntemini işletme türüne ve konuma göre Google belirler; siz seçemezsiniz. Önce profilinizde sunulan seçenekleri deneyin. Telefon ya da SMS için işletme numaranızın aramayı alabilmesi gerekir; sesli yanıt sistemi kodu engeller. Video seçeneği varsa kesintisiz ve en az 30 saniyelik kayıtla konumunuzu, işletmenizi ve yetkinizi gösterin. Olmuyorsa destek ekibine başvurun.
+Doğrulama yöntemini işletme türüne ve konuma göre Google belirler; siz seçemezsiniz. Önce profilinizde sunulan seçenekleri deneyin. Telefon ya da SMS için işletme numaranızın aramayı alabilmesi gerekir; sesli yanıt sistemi kodu engeller. Video seçeneği varsa kesintisiz ve en az 30 saniyelik kayıtla konumunuzu, işletmenizi ve yetkinizi gösterin. Olmuyorsa destek ekibine başvurun.
 
 Doğrulama, Google’ın profilin gerçekten size ait olduğundan emin olma adımıdır. Doğrulanmamış profilde yaptığınız değişiklikler Google’da görünmeyebilir. Bu yüzden haritada görünmeyi planlayan her işletmenin ilk işi budur. Bu yazı, yöntemleri, sık takılınan noktaları ve alternatif yolları anlatıyor. Profilin tamamını doldurmak için [Google İşletme Profili nasıl doldurulur?](/blog/google-isletme-profili-nasil-doldurulur/) yazımıza bakabilirsiniz.
 

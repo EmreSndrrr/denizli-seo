@@ -6,7 +6,7 @@ service: yerel-seo
 imageAlt: "Aylık yerel SEO rapor paneli: arama, yol tarifi ve talep sayıları"
 ---
 
-**Kısa cevap:** Yerel SEO sonucunu beş yerden ölçün: İşletme Profili Performans bölümü (görüntüleme, arama, yol tarifi), Search Console (gösterim ve tıklama), telefon ve WhatsApp talepleri, yorum sayısı ile puanı ve belirli aramalardaki harita sırası. Aynı uzunluktaki dönemleri karşılaştırın, mevsimi hesaba katın ve en çok gelen talebe bakın; çünkü asıl sonuç sıra değil, müşteri talebidir.
+Yerel SEO sonucunu beş yerden ölçün: İşletme Profili Performans bölümü (görüntüleme, arama, yol tarifi), Search Console (gösterim ve tıklama), telefon ve WhatsApp talepleri, yorum sayısı ile puanı ve belirli aramalardaki harita sırası. Aynı uzunluktaki dönemleri karşılaştırın, mevsimi hesaba katın ve en çok gelen talebe bakın; çünkü asıl sonuç sıra değil, müşteri talebidir.
 
 Yerel SEO’da “sıram yükseldi mi?” sorusu çoğu zaman tek başına yanıltıcıdır: harita sırası konuma ve cihaza göre değişir. Bu yüzden ölçümü birden fazla gösterge üzerinden yapmak gerekir. Bu yazı, küçük bir işletmenin ayda bir yarım saatte yapabileceği bir ölçüm düzenini anlatıyor. Profil rakamlarını ayrıntılı okumak için [İşletme Profili Performans raporu](/blog/isletme-profili-performans-raporu-nasil-okunur/) yazımıza bakabilirsiniz.
 
@@ -58,18 +58,18 @@ Haritada sıra konuma ve kişiye göre değiştiği için bu rakam kesin değil,
 
 Her ay sonu doldurun. İlk satırlar talep; sıra en sonda:
 
-| Gösterge | Önceki ay | Bu ay | Not |
-| --- | --- | --- | --- |
-| Telefon talebi | | | |
-| WhatsApp talebi | | | |
-| Form ve randevu | | | |
-| Profil: arama | | | |
-| Profil: yol tarifi | | | |
-| Profil: görüntüleme | | | |
-| Site: gösterim (Search Console) | | | |
-| Site: tıklama (Search Console) | | | |
-| Yeni yorum / puan | | | |
-| Harita sırası (3 hedef arama) | | | |
+Şunları tek tek kontrol edin:
+
+- Telefon talebi
+- WhatsApp talebi
+- Form ve randevu
+- Profil: arama
+- Profil: yol tarifi
+- Profil: görüntüleme
+- Site: gösterim (Search Console)
+- Site: tıklama (Search Console)
+- Yeni yorum / puan
+- Harita sırası (3 hedef arama)
 
 “Not” sütununa o ayda yaptığınız işleri yazın (profil düzeltmesi, yeni sayfa, fotoğraf, kampanya, bayram).
 

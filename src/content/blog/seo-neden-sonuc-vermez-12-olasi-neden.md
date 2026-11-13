@@ -6,7 +6,7 @@ service: teknik-seo
 imageAlt: "SEO sonuç vermediğinde kontrol edilecek nedenlerin listesi"
 ---
 
-**Kısa cevap:** SEO’nun sonuç vermemesinin tek bir nedeni yoktur; çoğu zaman şu gruplardan biridir: sayfalar dizine eklenmemiştir, içerik müşterinin arama niyetine uymaz, teknik bir engel vardır, site yeni ya da rekabet çok yüksektir, çalışma yeterince uzun sürmemiştir, ölçüm yanlıştır ya da Google’ın yönergelerine aykırı bir yöntem kullanılmıştır. Önce sayfanın dizinde olup olmadığına, sonra doğru aramalarda görünüp görünmediğine, sonra tıklamaya ve işe dönüşüme bakın. Kimse garanti veremez.
+SEO’nun sonuç vermemesinin tek bir nedeni yoktur; çoğu zaman şu gruplardan biridir: sayfalar dizine eklenmemiştir, içerik müşterinin arama niyetine uymaz, teknik bir engel vardır, site yeni ya da rekabet çok yüksektir, çalışma yeterince uzun sürmemiştir, ölçüm yanlıştır ya da Google’ın yönergelerine aykırı bir yöntem kullanılmıştır. Önce sayfanın dizinde olup olmadığına, sonra doğru aramalarda görünüp görünmediğine, sonra tıklamaya ve işe dönüşüme bakın. Kimse garanti veremez.
 
 Bir işletme sahibi için en sinir bozucu cümle, “üç aydır SEO yapıyoruz ama telefon çalmıyor”dur. Bu yazı, bu durumda sırayla neyi kontrol edeceğinizi gösterir. Düşüş yaşıyorsanız [trafik düşüşü nasıl teşhis edilir?](/blog/trafik-dususu-nasil-teshis-edilir/), hiç başlamadıysanız SEO nedir? yazısına bakabilirsiniz.
 
@@ -92,15 +92,13 @@ Trafik gelip müşteri gelmiyorsa sorun SEO’da değil sayfada olabilir: güven
 
 ## Hızlı teşhis tablosu
 
-| Belirti | İlk bakılacak yer |
-| --- | --- |
-| Hiç görünmüyorum | Dizine ekleme, noindex, robots.txt |
-| Görünüyorum ama tıklanmıyorum | Başlık ve açıklama, arama niyeti |
-| Tıklanıyorum ama talep yok | Sayfa içeriği, güven, iletişim |
-| Haritada yokum | İşletme profili, doğrulama, kategori |
-| Ani düşüş | Teknik değişiklik, güncelleme, güvenlik |
-| Çok yavaş büyüme | Rekabet, içerik derinliği, süre |
-| Rakip sürekli önde | İçerik, yorum, bağlantı ve profil farkı |
+- **Hiç görünmüyorum:** Dizine ekleme, noindex, robots.txt
+- **Görünüyorum ama tıklanmıyorum:** Başlık ve açıklama, arama niyeti
+- **Tıklanıyorum ama talep yok:** Sayfa içeriği, güven, iletişim
+- **Haritada yokum:** İşletme profili, doğrulama, kategori
+- **Ani düşüş:** Teknik değişiklik, güncelleme, güvenlik
+- **Çok yavaş büyüme:** Rekabet, içerik derinliği, süre
+- **Rakip sürekli önde:** İçerik, yorum, bağlantı ve profil farkı
 
 ## Denizli’den bir örnek
 

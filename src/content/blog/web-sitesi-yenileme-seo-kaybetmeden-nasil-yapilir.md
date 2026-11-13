@@ -6,7 +6,7 @@ service: web-tasarim
 imageAlt: "Eski sitenin sayfalarından yeni sitenin sayfalarına giden yönlendirme okları"
 ---
 
-**Kısa cevap:** Siteyi yenilerken en büyük risk, adreslerin (URL) değişip eski adreslerin yönlendirilmemesidir. SEO kaybını azaltmak için: eski sitenin tüm önemli sayfalarını listeleyin, her birine yeni adres eşleyin, kalıcı değişiklikler için 301 yönlendirmesi kurun, iyi çalışan içeriği koruyun, test ortamını arama motorlarına kapalı tutun ve yayından sonra Search Console’da izleyin. Google, URL değişikliği yapan site taşımalarında URL eşlemesi hazırlanmasını önerir; yine de sıralamanın aynı kalacağını garanti etmek mümkün değildir.
+Siteyi yenilerken en büyük risk, adreslerin (URL) değişip eski adreslerin yönlendirilmemesidir. SEO kaybını azaltmak için: eski sitenin tüm önemli sayfalarını listeleyin, her birine yeni adres eşleyin, kalıcı değişiklikler için 301 yönlendirmesi kurun, iyi çalışan içeriği koruyun, test ortamını arama motorlarına kapalı tutun ve yayından sonra Search Console’da izleyin. Google, URL değişikliği yapan site taşımalarında URL eşlemesi hazırlanmasını önerir; yine de sıralamanın aynı kalacağını garanti etmek mümkün değildir.
 
 Yeni tasarım güzel olabilir; ama eski adresler 404 verirse bağlantıları ve ziyaretçileri kaybedersiniz. Alan adı değişikliği için [alan adı değiştirirken SEO kaybı](/blog/alan-adi-degistirirken-seo-kaybi-nasil-onlenir/), genel taşıma için [site taşıma ve 301](/blog/site-tasima-301-yonlendirme/) yazılarına bakabilirsiniz.
 
@@ -44,14 +44,12 @@ Search Console’da yayından sonraki günlerde dizin kapsamı ve tarama hatalar
 
 ## Sık yapılan hatalar
 
-| Hata | Çözüm |
-| --- | --- |
-| Adres eşlemesi yapmamak | Önce liste çıkarın |
-| Hepsini ana sayfaya yönlendirmek | Konuya uygun yeni sayfaya |
-| Test ortamının dizine eklenmesi | Arama motorlarına kapatın |
-| Metinleri tamamen yeniden yazmak | İyi çalışanı koruyun |
-| Başlık ve açıklamaları kaybetmek | Taşıyın ya da iyileştirin |
-| İzlememek | İlk haftalarda sık kontrol |
+- **Adres eşlemesi yapmamak:** Önce liste çıkarın
+- **Hepsini ana sayfaya yönlendirmek:** Konuya uygun yeni sayfaya
+- **Test ortamının dizine eklenmesi:** Arama motorlarına kapatın
+- **Metinleri tamamen yeniden yazmak:** İyi çalışanı koruyun
+- **Başlık ve açıklamaları kaybetmek:** Taşıyın ya da iyileştirin
+- **İzlememek:** İlk haftalarda sık kontrol
 
 ## Denizli’den bir örnek
 

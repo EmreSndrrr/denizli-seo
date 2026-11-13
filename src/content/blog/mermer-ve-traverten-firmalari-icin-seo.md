@@ -6,7 +6,7 @@ service: teknik-seo
 imageAlt: "Traverten ve mermer plaka örnekleri ile proje galerisi düzeni"
 ---
 
-**Kısa cevap:** Mermer ve traverten alıcısı (mimar, müteahhit, yapı market, ihracatçı, bireysel ev sahibi) satın almadan önce taşı görmek, ölçüsünü ve yüzey işlemini bilmek ve firmanın gerçekten üretim yaptığına güvenmek ister. SEO’da bu üç ihtiyaca karşılık gelen sayfalar yazılır: taş türü ve yüzey işlemi sayfaları (teknik bilgi tabloyla), gerçek proje ve plaka fotoğraflarından oluşan galeri, katalog ve numune talebi. İhracatta hedef dilde ayrı sayfa ve hreflang kullanılır. Uydurma sertifika ya da referans yazmayın.
+Mermer ve traverten alıcısı (mimar, müteahhit, yapı market, ihracatçı, bireysel ev sahibi) satın almadan önce taşı görmek, ölçüsünü ve yüzey işlemini bilmek ve firmanın gerçekten üretim yaptığına güvenmek ister. SEO’da bu üç ihtiyaca karşılık gelen sayfalar yazılır: taş türü ve yüzey işlemi sayfaları (teknik bilgi tabloyla), gerçek proje ve plaka fotoğraflarından oluşan galeri, katalog ve numune talebi. İhracatta hedef dilde ayrı sayfa ve hreflang kullanılır. Uydurma sertifika ya da referans yazmayın.
 
 Denizli ve çevresi, traverten ve mermer sektörüyle anılan bir bölgedir; bu da aynı aramalarda çok sayıda firmanın yarıştığı anlamına gelir. “Mermer” ya da “traverten” gibi genel kelimelerde öne çıkmak zordur; ama alıcının spesifik niyetine (ölçü, yüzey, kullanım alanı, ihracat, numune) net cevap veren sayfalar daha gerçekçi bir yoldur. Bu yazıda sektör için bir site ve içerik planı sunuyoruz. Genel çerçeve için kurumsal SEO, görsel tarafı için [görsel SEO](/blog/gorsel-seo/) yazılarına bakabilirsiniz.
 
@@ -24,32 +24,28 @@ Aramaları tahmin etmek yerine, telefonla ve e-postayla gelen soruları listeley
 
 ## Site yapısı
 
-| Sayfa | İçerik |
-| --- | --- |
-| Ana sayfa | Ne üretiyorsunuz, nerede, kimlere satıyorsunuz, iletişim |
-| Taş türü sayfaları | Her taş (traverten, mermer çeşitleri) için ayrı sayfa: görünüm, kullanım alanı, bakım |
-| Yüzey işlemi sayfaları | Cilalı, honlu, fırçalı gibi işlemler; her biri için ne olduğu ve nerede kullanıldığı |
-| Ürün / ölçü tabloları | Plaka ve karo ölçüleri, kalınlık seçenekleri (kendi gerçek verinizle) |
-| Proje galerisi | Gerçek uygulama fotoğrafları, kullanım alanı ve yer bilgisi (izinle) |
-| Üretim ve kalite | Ocak ve fabrika süreci, kalite kontrol, gerçek sertifikalar |
-| Katalog ve numune | İndirilebilir katalog, numune talep formu |
-| Rehber yazılar | “Traverten zemin nasıl bakılır?”, “Cilalı mı honlu mu?” |
-| Hakkımızda ve iletişim | Firma bilgisi, adres, harita, telefon |
-| Yabancı dil sürümleri | Hedef pazarın dilinde ürün ve katalog sayfaları |
+- **Ana sayfa:** Ne üretiyorsunuz, nerede, kimlere satıyorsunuz, iletişim
+- **Taş türü sayfaları:** Her taş (traverten, mermer çeşitleri) için ayrı sayfa: görünüm, kullanım alanı, bakım
+- **Yüzey işlemi sayfaları:** Cilalı, honlu, fırçalı gibi işlemler; her biri için ne olduğu ve nerede kullanıldığı
+- **Ürün / ölçü tabloları:** Plaka ve karo ölçüleri, kalınlık seçenekleri (kendi gerçek verinizle)
+- **Proje galerisi:** Gerçek uygulama fotoğrafları, kullanım alanı ve yer bilgisi (izinle)
+- **Üretim ve kalite:** Ocak ve fabrika süreci, kalite kontrol, gerçek sertifikalar
+- **Katalog ve numune:** İndirilebilir katalog, numune talep formu
+- **Rehber yazılar:** “Traverten zemin nasıl bakılır?”, “Cilalı mı honlu mu?”
+- **Hakkımızda ve iletişim:** Firma bilgisi, adres, harita, telefon
+- **Yabancı dil sürümleri:** Hedef pazarın dilinde ürün ve katalog sayfaları
 
 ## Teknik bilgiyi tabloya koyun
 
 Alıcı, bir taşın neye uygun olduğunu bilmek ister. Aşağıdaki gibi bir yapı kullanın (değerleri kendi gerçek verinizle doldurun; uydurma teknik değer yazmayın):
 
-| Bilgi | Neden önemli? |
-| --- | --- |
-| Taş adı ve tür | Aramada kullanılan isimle eşleşme |
-| Renk ve desen | Görsel tercih |
-| Yüzey işlemi seçenekleri | Kullanım yerine uygunluk |
-| Ölçü ve kalınlık seçenekleri | Planlama |
-| Kullanım alanı (iç/dış mekân, zemin, cephe, tezgâh) | Doğru ürün seçimi |
-| Bakım önerisi | Müşteri memnuniyeti |
-| Teslim ve paketleme | Toptan alıcı için |
+- **Taş adı ve tür:** Aramada kullanılan isimle eşleşme
+- **Renk ve desen:** Görsel tercih
+- **Yüzey işlemi seçenekleri:** Kullanım yerine uygunluk
+- **Ölçü ve kalınlık seçenekleri:** Planlama
+- **Kullanım alanı (iç/dış mekân, zemin, cephe, tezgâh):** Doğru ürün seçimi
+- **Bakım önerisi:** Müşteri memnuniyeti
+- **Teslim ve paketleme:** Toptan alıcı için
 
 Bir ürünün teknik özellikleri hakkında yalnızca doğrulayabildiğiniz bilgiyi yazın; test raporu ya da standart belirtiyorsanız belge numarasını ve kurumu açıkça yazın.
 
@@ -74,14 +70,12 @@ Yurtdışına satış yapıyorsanız hedef dilde ayrı sayfalar hazırlayın. Go
 
 ## Güven öğeleri
 
-| Öğe | Dikkat |
-| --- | --- |
-| Adres, harita ve telefon | Ocak, fabrika ya da ofis adresi gerçek ve profille tutarlı olsun |
-| Üretim fotoğrafları | Kendi tesisinizden |
-| Sertifika ve test raporları | Yalnızca gerçekten sahip olduklarınız; belge numarası ve kurum |
-| Referanslar | İzinli ve doğrulanabilir |
-| Hakkımızda | Firma tarihçesi ve ekip; bkz. [Hakkımızda sayfası](/blog/hakkimizda-sayfasi-nasil-yazilir-guven-icin-rehber/) |
-| Çevre ve iş güvenliği | Yalnızca doğru ve belgeli bilgi |
+- **Adres, harita ve telefon:** Ocak, fabrika ya da ofis adresi gerçek ve profille tutarlı olsun
+- **Üretim fotoğrafları:** Kendi tesisinizden
+- **Sertifika ve test raporları:** Yalnızca gerçekten sahip olduklarınız; belge numarası ve kurum
+- **Referanslar:** İzinli ve doğrulanabilir
+- **Hakkımızda:** Firma tarihçesi ve ekip; bkz. [Hakkımızda sayfası](/blog/hakkimizda-sayfasi-nasil-yazilir-guven-icin-rehber/)
+- **Çevre ve iş güvenliği:** Yalnızca doğru ve belgeli bilgi
 
 “Dünyanın en kaliteli taşı”, “1 numara” gibi doğrulanamayan üstünlük iddiaları yazmayın.
 
@@ -91,16 +85,14 @@ Satış ofisi, showroom ya da fabrika satış noktası varsa Google İşletme Pr
 
 ## Sık yapılan hatalar
 
-| Hata | Çözüm |
-| --- | --- |
-| Tek sayfa “Ürünler” | Taş ve yüzey işlemi başına sayfa |
-| İnternetten alınmış görseller | Kendi fotoğraflarınız |
-| Dosya adlarının `IMG_` ile kalması | Anlamlı adlar |
-| Görselleri yalnızca arka plan olarak eklemek | `<img>` ve alt metin |
-| Uydurma teknik değer ya da sertifika | Yalnızca doğrulanabilir bilgi |
-| Yalnızca Türkçe site (ihracatta) | Hedef dilde sayfalar |
-| Teklif yolu zor | Net form, telefon ve WhatsApp |
-| Yavaş, ağır galeri | Sıkıştırma, doğru boyut |
+- **Tek sayfa “Ürünler”:** Taş ve yüzey işlemi başına sayfa
+- **İnternetten alınmış görseller:** Kendi fotoğraflarınız
+- **Dosya adlarının `IMG_` ile kalması:** Anlamlı adlar
+- **Görselleri yalnızca arka plan olarak eklemek:** `<img>` ve alt metin
+- **Uydurma teknik değer ya da sertifika:** Yalnızca doğrulanabilir bilgi
+- **Yalnızca Türkçe site (ihracatta):** Hedef dilde sayfalar
+- **Teklif yolu zor:** Net form, telefon ve WhatsApp
+- **Yavaş, ağır galeri:** Sıkıştırma, doğru boyut
 
 ## Denizli’den bir örnek
 
@@ -108,18 +100,18 @@ Satış ofisi, showroom ya da fabrika satış noktası varsa Google İşletme Pr
 
 ## Başlangıç kontrol listesi
 
-| Kontrol | Evet / Hayır |
-| --- | --- |
-| Her taş türü ve yüzey işlemi için ayrı sayfa var mı? | |
-| Teknik bilgiler gerçek ve tabloda mı? | |
-| Görseller gerçek, sıkıştırılmış, anlamlı adlı ve alt metinli mi? | |
-| Galeri taranabilir bir sayfada mı? | |
-| Katalog ve numune formu çalışıyor mu? | |
-| Sertifika ve referanslar doğrulanabilir mi? | |
-| İhracatta hedef dilde sayfalar ve hreflang var mı? | |
-| Google İşletme Profili ve adres bilgisi tutarlı mı? | |
-| Site mobilde ve hızlı mı? | |
-| Talepler kaydediliyor mu? | |
+Şunları tek tek kontrol edin:
+
+- Her taş türü ve yüzey işlemi için ayrı sayfa var mı?
+- Teknik bilgiler gerçek ve tabloda mı?
+- Görseller gerçek, sıkıştırılmış, anlamlı adlı ve alt metinli mi?
+- Galeri taranabilir bir sayfada mı?
+- Katalog ve numune formu çalışıyor mu?
+- Sertifika ve referanslar doğrulanabilir mi?
+- İhracatta hedef dilde sayfalar ve hreflang var mı?
+- Google İşletme Profili ve adres bilgisi tutarlı mı?
+- Site mobilde ve hızlı mı?
+- Talepler kaydediliyor mu?
 
 ## Denizli SEO bu konuda nasıl yardımcı olur?
 

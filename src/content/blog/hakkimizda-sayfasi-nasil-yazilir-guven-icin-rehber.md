@@ -6,7 +6,7 @@ service: icerik-seo
 imageAlt: "Hakkımızda sayfası: ekip, hikâye ve iletişim blokları"
 ---
 
-**Kısa cevap:** Hakkımızda sayfası, “siz kimsiniz, ne yapıyorsunuz, neden size güvenmeliyim?” sorularını açıkça cevaplamalıdır. Google’ın yardımcı içerik rehberi “Kim, Nasıl, Neden” sorularını önerir: içeriği kimin yazdığı, nasıl üretildiği ve neden var olduğu anlaşılmalıdır. İşletmenin adı, ne iş yaptığı, kimin yönettiği, hangi bölgeye hizmet verdiği ve nasıl ulaşılacağı sayfada net olmalı; uydurma rakam, ödül ya da yorum yazılmamalıdır.
+Hakkımızda sayfası, “siz kimsiniz, ne yapıyorsunuz, neden size güvenmeliyim?” sorularını açıkça cevaplamalıdır. Google’ın yardımcı içerik rehberi “Kim, Nasıl, Neden” sorularını önerir: içeriği kimin yazdığı, nasıl üretildiği ve neden var olduğu anlaşılmalıdır. İşletmenin adı, ne iş yaptığı, kimin yönettiği, hangi bölgeye hizmet verdiği ve nasıl ulaşılacağı sayfada net olmalı; uydurma rakam, ödül ya da yorum yazılmamalıdır.
 
 Hakkımızda sayfası genellikle son yazılan sayfadır; oysa karar vermeden önce en çok bakılan sayfalardan biridir. Bu yazıda sayfanın iskeletini ve hangi bilgilerin güven verdiğini anlatıyoruz. İletişim bilgileri için [iletişim sayfası SEO’su](/blog/iletisim-sayfasi-seo-su-adres-telefon-ve-harita/), yazarlık için [yazar kutusu ve kaynak gösterme](/blog/yazar-kutusu-ve-kaynak-gosterme-guven-icin-rehber/) yazılarına bakabilirsiniz.
 
@@ -39,12 +39,10 @@ Google’ın yardımcı içerik rehberi, içeriğin kim tarafından yazıldığ�
 
 ## Yazarken kaçınılacak ifadeler
 
-| Yerine | Şunu yazın |
-| --- | --- |
-| “Sektörün lideriyiz” | Yaptığınız işi somut anlatın |
-| “Yüzlerce mutlu müşteri” (sayısız) | Rakam doğrulanabiliyorsa yazın, yoksa yazmayın |
-| “En iyi fiyat” | Fiyatlandırma biçiminizi açıklayın |
-| “Garantili sonuç” | Süreci ve kapsamı anlatın |
+- **“Sektörün lideriyiz”:** Yaptığınız işi somut anlatın
+- **“Yüzlerce mutlu müşteri” (sayısız):** Rakam doğrulanabiliyorsa yazın, yoksa yazmayın
+- **“En iyi fiyat”:** Fiyatlandırma biçiminizi açıklayın
+- **“Garantili sonuç”:** Süreci ve kapsamı anlatın
 
 ## Yapılandırılmış veri ve tutarlılık
 
@@ -52,15 +50,13 @@ Google’ın yardımcı içerik rehberi, içeriğin kim tarafından yazıldığ�
 
 ## Sık yapılan hatalar
 
-| Hata | Çözüm |
-| --- | --- |
-| Sayfanın hiç olmaması | Kısa da olsa yazın |
-| Kimsenin adı ve yüzü yok | Gerçek kişileri tanıtın |
-| Boş sloganlar | Somut bilgi yazın |
-| Uydurma ödül ve sayı | Kaldırın |
-| Eski adres ve telefon | Güncelleyin |
-| Hizmetlere bağlantı yok | Hizmet sayfalarına bağlayın |
-| İletişim bilgisi yok | Net iletişim bölümü ekleyin |
+- **Sayfanın hiç olmaması:** Kısa da olsa yazın
+- **Kimsenin adı ve yüzü yok:** Gerçek kişileri tanıtın
+- **Boş sloganlar:** Somut bilgi yazın
+- **Uydurma ödül ve sayı:** Kaldırın
+- **Eski adres ve telefon:** Güncelleyin
+- **Hizmetlere bağlantı yok:** Hizmet sayfalarına bağlayın
+- **İletişim bilgisi yok:** Net iletişim bölümü ekleyin
 
 ## Denizli’den bir örnek
 
@@ -77,13 +73,13 @@ Google’ın yardımcı içerik rehberi, içeriğin kim tarafından yazıldığ�
 
 ## Yayın öncesi kontrol listesi
 
-| Kontrol | Evet / Hayır |
-| --- | --- |
-| İşletmenin adı ve ne yaptığı ilk ekranda var mı? | |
-| Yazdığınız her iddia doğrulanabilir mi? | |
-| Fotoğraflar gerçek ve izinli mi? | |
-| Adres ve telefon Google İşletme Profili ile aynı mı? | |
-| Sayfa mobilde rahat okunuyor mu? | |
+Şunları tek tek kontrol edin:
+
+- İşletmenin adı ve ne yaptığı ilk ekranda var mı?
+- Yazdığınız her iddia doğrulanabilir mi?
+- Fotoğraflar gerçek ve izinli mi?
+- Adres ve telefon Google İşletme Profili ile aynı mı?
+- Sayfa mobilde rahat okunuyor mu?
 
 Bu liste, sayfayı yılda en az bir kez güncelleme alışkanlığı için de kullanılabilir: ekip değiştiyse, adres taşındıysa ya da yeni hizmet eklendiyse sayfa da değişmelidir.
 

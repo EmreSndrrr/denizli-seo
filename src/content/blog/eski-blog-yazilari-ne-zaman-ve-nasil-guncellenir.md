@@ -6,7 +6,7 @@ service: icerik-seo
 imageAlt: "Eski bir yazı kartı, takvim ve yenilenmiş sürümü gösteren ok"
 ---
 
-**Kısa cevap:** Eski bir yazıyı, bilgisi eskidiyse, hâlâ arama alıyorsa ya da müşterinin sorusuna artık eksik cevap veriyorsa güncelleyin; aynı soruya cevap veren birden fazla yazı varsa birleştirip eskiyi yönlendirin; artık alakalı değilse ve değeri yoksa kaldırın. Google’ın SEO rehberi, yayınlanmış içeriği kontrol edip gerektiğinde güncellemeyi ya da artık alakalı değilse silmeyi önerir. Güncelleme tarihini yalnızca gerçekten değişiklik yaptığınızda ve doğru olarak gösterin.
+Eski bir yazıyı, bilgisi eskidiyse, hâlâ arama alıyorsa ya da müşterinin sorusuna artık eksik cevap veriyorsa güncelleyin; aynı soruya cevap veren birden fazla yazı varsa birleştirip eskiyi yönlendirin; artık alakalı değilse ve değeri yoksa kaldırın. Google’ın SEO rehberi, yayınlanmış içeriği kontrol edip gerektiğinde güncellemeyi ya da artık alakalı değilse silmeyi önerir. Güncelleme tarihini yalnızca gerçekten değişiklik yaptığınızda ve doğru olarak gösterin.
 
 Bir blog yayımlandıkça çoğu işletme yeni yazı yazmaya odaklanır; eski yazıların eskidiğini fark etmez. Oysa bu yazıların bir kısmı hâlâ arama alıyor olabilir; yanlış ya da eski bilgi hem okuyucuyu hem güveni zedeler. Bu yazıda hangi yazıya ne yapılacağını, güncellemenin nasıl yapılacağını ve tarihin nasıl gösterileceğini anlatıyoruz. Yazı planı için [içerik planı nasıl yapılır?](/blog/icerik-plani-nasil-yapilir-aylik-takvim-ornegi/) yazımıza bakabilirsiniz.
 
@@ -72,9 +72,7 @@ Değeri olmayan, güncel olmayan ve karşılığı bulunmayan bir yazıyı kald�
 
 Yılda bir tüm yazıları tabloya dökün:
 
-| Yazı | Son güncelleme | Aylık gösterim | Doğru mu? | Karar |
-| --- | --- | --- | --- | --- |
-| (başlık) | | | | Güncelle / birleştir / kaldır / bırak |
+- **(başlık):** karar: Güncelle / birleştir / kaldır / bırak
 
 Önce en çok gösterimi olan ve bilgisi eski olan yazılardan başlayın.
 

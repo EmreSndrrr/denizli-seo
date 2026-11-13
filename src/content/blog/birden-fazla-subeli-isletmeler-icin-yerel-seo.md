@@ -6,7 +6,7 @@ service: yerel-seo
 imageAlt: "Harita üzerinde ayrı pinlerle gösterilen üç işletme şubesi"
 ---
 
-**Kısa cevap:** Birden fazla şubeniz varsa her şube için ayrı İşletme Profili, sitede ayrı bir sayfa, ayrı telefon ve tutarlı bilgi gerekir. Google, işletmenin birden fazla konumu varsa ve her konumda farklı personelle farklı bölgelere hizmet veriliyorsa her konum için ayrı profil açılabileceğini söyler. Şubeleri tek sayfada toplamak ya da aynı bilgiyi kopyalamak, hem müşteriyi hem Google’ı karıştırır.
+Birden fazla şubeniz varsa her şube için ayrı İşletme Profili, sitede ayrı bir sayfa, ayrı telefon ve tutarlı bilgi gerekir. Google, işletmenin birden fazla konumu varsa ve her konumda farklı personelle farklı bölgelere hizmet veriliyorsa her konum için ayrı profil açılabileceğini söyler. Şubeleri tek sayfada toplamak ya da aynı bilgiyi kopyalamak, hem müşteriyi hem Google’ı karıştırır.
 
 Şube sayısı arttıkça yerel SEO işi çoğalır: her şubenin profili, yorumları, fotoğrafları, saatleri ve sayfası ayrı yönetilir. Doğru kurulmazsa şubeler birbirinin sırasını bozar ya da bilgiler karışır. Bu yazı, çok şubeli bir işletmenin yerel SEO’sunu nasıl düzenleyeceğini anlatıyor. Temel profil bilgisi için [Google İşletme Profili nasıl doldurulur?](/blog/google-isletme-profili-nasil-doldurulur/) rehberine bakabilirsiniz.
 
@@ -83,10 +83,10 @@ Google, 10 ya da daha fazla konumunuz varsa fotoğrafları e-tablo üzerinden to
 
 Şubeleri toplu değil, ayrı ayrı ölçün. Her şube için aylık şu rakamlar yeterlidir: profil görüntüleme, arama, yol tarifi, site tıklaması, yorum sayısı, yorum yanıtı. Şubeleri karşılaştırmak, hangi şubenin yardıma ihtiyacı olduğunu gösterir.
 
-| Şube | Görüntüleme | Arama | Yol tarifi | Yeni yorum |
-| --- | --- | --- | --- | --- |
-| (Şube 1) | | | | |
-| (Şube 2) | | | | |
+Şunları tek tek kontrol edin:
+
+- (Şube 1)
+- (Şube 2)
 
 ## Denizli’den bir örnek
 
@@ -112,11 +112,9 @@ Bu örnek sonuç vaadi değildir; kurulumun mantığını gösterir.
 
 Çok şubeli işletmelerde iki yönetim modeli vardır:
 
-| Model | Nasıl işler? | Avantaj | Dikkat |
-| --- | --- | --- | --- |
-| Merkezi | Tüm profil ve yorumlar merkezden yönetilir | Tutarlı üslup, tek kontrol | Şubeye özgü bilgi gecikebilir |
-| Yerel | Her şube kendi profilini yönetir | Hızlı, yerel bilgi | Tutarsızlık ve hata riski |
-| Karma | Merkez kritik alanları, şube günlük işleri yönetir | Denge | Net görev dağılımı gerekir |
+- **Merkezi:** nasıl işler?: Tüm profil ve yorumlar merkezden yönetilir; avantaj: Tutarlı üslup, tek kontrol; dikkat: Şubeye özgü bilgi gecikebilir
+- **Yerel:** nasıl işler?: Her şube kendi profilini yönetir; avantaj: Hızlı, yerel bilgi; dikkat: Tutarsızlık ve hata riski
+- **Karma:** nasıl işler?: Merkez kritik alanları, şube günlük işleri yönetir; avantaj: Denge; dikkat: Net görev dağılımı gerekir
 
 Çoğu işletme için karma model uygundur: ad, adres, kategori ve telefonu merkez yönetir; fotoğraf, yorum yanıtı ve özel günlerin saatini şube yöneticisi girer. Erişimi şifre paylaşarak değil, kullanıcı ve yönetici rolleriyle verin.
 

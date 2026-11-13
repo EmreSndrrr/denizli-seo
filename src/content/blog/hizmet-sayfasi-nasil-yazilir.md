@@ -7,7 +7,7 @@ service: icerik-seo
 imageAlt: "Bir hizmet sayfasını temsil eden, başlık ve bölümleri olan belge"
 ---
 
-**Kısa cevap:** İyi bir hizmet sayfası, müşterinin Google’a yazdığı soruyu ilk ekranda yanıtlar. Her hizmete ayrı bir sayfa açın. Sayfada sırasıyla şunlar olsun: hizmetin adı ve bölgesi, kime uygun olduğu, neleri kapsadığı, işin nasıl ilerlediği, fiyatı neyin belirlediği, gerçek iş örnekleri, sık sorulanlar ve tek bir net iletişim adımı. Başlığı ve açıklamayı her sayfaya özel yazın.
+İyi bir hizmet sayfası, müşterinin Google’a yazdığı soruyu ilk ekranda yanıtlar. Her hizmete ayrı bir sayfa açın. Sayfada sırasıyla şunlar olsun: hizmetin adı ve bölgesi, kime uygun olduğu, neleri kapsadığı, işin nasıl ilerlediği, fiyatı neyin belirlediği, gerçek iş örnekleri, sık sorulanlar ve tek bir net iletişim adımı. Başlığı ve açıklamayı her sayfaya özel yazın.
 
 Bu yazıda bir hizmet sayfasını yazmadan önce neleri toplamanız gerektiğini, sayfanın bölümlerini, başlık ve açıklamanın nasıl yazılacağını, ilçe sayfalarında nereye dikkat edileceğini ve hayalî bir işletme için hazırlanmış örnek bir taslağı anlatıyoruz. Sonda yayın öncesi kullanabileceğiniz bir kontrol listesi var.
 
@@ -56,14 +56,12 @@ Bir hizmet sayfası, müşterinin karar verirken sırayla sorduğu soruları yan
 
 Her bölümün hangi soruyu yanıtladığını aklınızda tutmak, gereksiz metni ayıklamayı kolaylaştırır:
 
-| Bölüm | Müşterinin sorusu |
-| --- | --- |
-| Başlık ve ilk paragraf | “Doğru yerde miyim?” |
-| Kime uygun, neleri kapsar | “Bu benim işimi görür mü?” |
-| Nasıl ilerler, süre | “Beni ne bekliyor, ne kadar sürer?” |
-| Fiyat çerçevesi | “Bütçeme uyar mı?” |
-| Gerçek işler | “Bu işi gerçekten yapıyorlar mı?” |
-| Sık sorulanlar, iletişim | “Aklımdaki son soru ne, nasıl ulaşırım?” |
+- **Başlık ve ilk paragraf:** “Doğru yerde miyim?”
+- **Kime uygun, neleri kapsar:** “Bu benim işimi görür mü?”
+- **Nasıl ilerler, süre:** “Beni ne bekliyor, ne kadar sürer?”
+- **Fiyat çerçevesi:** “Bütçeme uyar mı?”
+- **Gerçek işler:** “Bu işi gerçekten yapıyorlar mı?”
+- **Sık sorulanlar, iletişim:** “Aklımdaki son soru ne, nasıl ulaşırım?”
 
 ### İlk paragraf nasıl yazılır?
 

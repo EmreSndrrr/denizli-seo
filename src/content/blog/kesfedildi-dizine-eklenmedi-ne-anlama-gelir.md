@@ -6,7 +6,7 @@ service: teknik-seo
 imageAlt: "Taranmayı bekleyen sayfa kartları ve bir saat simgesi"
 ---
 
-**Kısa cevap:** Google’ın Sayfa dizine ekleme raporundaki “Bulundu: şu anda dizine eklenmiş değil” durumu (İngilizce arayüzde “Discovered – currently not indexed”), sayfanın Google tarafından bulunduğunu ama henüz taranmadığını gösterir. Google’ın açıklamasına göre bu, tipik olarak Google’ın URL’yi taramak istemesine rağmen sitenin aşırı yüklenmesi beklendiği için taramayı başka zamana ertelemesidir; bu yüzden rapordaki son tarama tarihi boştur.
+Google’ın Sayfa dizine ekleme raporundaki “Bulundu: şu anda dizine eklenmiş değil” durumu (İngilizce arayüzde “Discovered – currently not indexed”), sayfanın Google tarafından bulunduğunu ama henüz taranmadığını gösterir. Google’ın açıklamasına göre bu, tipik olarak Google’ın URL’yi taramak istemesine rağmen sitenin aşırı yüklenmesi beklendiği için taramayı başka zamana ertelemesidir; bu yüzden rapordaki son tarama tarihi boştur.
 
 Bu durum, “Tarandı: şu anda dizine eklenmiş değil” ile karıştırılır; ama anlamları farklıdır: birinde sayfa taranmış ve dizine alınmamış, diğerinde sayfa hiç taranmamıştır. Bu yazıda “bulundu ama taranmadı” durumunun ne anlama geldiğini, olası nedenlerini ve neler yapabileceğinizi anlatıyoruz. Diğer durum için [Taranan, dizine eklenmeyen sayfalar](/blog/taranan-dizine-eklenmeyen-sayfalar-nedenleri/) yazımıza bakın.
 
@@ -82,12 +82,10 @@ Karar: sunucu ve eklenti yükü azaltılıyor, yeni sayfalar ilgili sayfalardan 
 
 ## Karar tablosu
 
-| Durum | Karar |
-| --- | --- |
-| Önemli sayfa, site yeni | İç bağlantı ver, haritaya ekle, bekle |
-| Önemli sayfa, site eski, sunucu yavaş | Sunucuyu ve hızı iyileştir |
-| Önemsiz ya da kopya sayfalar çok | Yapıyı sadeleştir (canonical, noindex, birleştir) |
-| Tüm sayfalar bulundu ama taranmadı | Sunucu ve site yapısını gözden geçir |
+- **Önemli sayfa, site yeni:** İç bağlantı ver, haritaya ekle, bekle
+- **Önemli sayfa, site eski, sunucu yavaş:** Sunucuyu ve hızı iyileştir
+- **Önemsiz ya da kopya sayfalar çok:** Yapıyı sadeleştir (canonical, noindex, birleştir)
+- **Tüm sayfalar bulundu ama taranmadı:** Sunucu ve site yapısını gözden geçir
 
 ## Denizli SEO bu konuda nasıl yardımcı olur?
 

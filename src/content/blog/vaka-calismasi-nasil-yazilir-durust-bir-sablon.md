@@ -6,7 +6,7 @@ service: icerik-seo
 imageAlt: "Vaka çalışması şablonu: durum, yapılanlar, ölçüm, sınırlar"
 ---
 
-**Kısa cevap:** Vaka çalışması, gerçek bir işin durumunu, yapılanları ve ölçülen sonucu anlatan yazıdır. Dürüst bir vaka şunları içerir: müşterinin izni, başlangıç durumu, yapılan işler, hangi araçla neyin ölçüldüğü, sonuçların sınırları ve ne yapılamadığı. Rakamı yoksa uydurmayın; ölçülmemiş şeyi başarı gibi yazmayın. Yeni başlayan bir işletmenin vakası yoksa, hayalî bir örnek “örnek” diye açıkça etiketlenmelidir.
+Vaka çalışması, gerçek bir işin durumunu, yapılanları ve ölçülen sonucu anlatan yazıdır. Dürüst bir vaka şunları içerir: müşterinin izni, başlangıç durumu, yapılan işler, hangi araçla neyin ölçüldüğü, sonuçların sınırları ve ne yapılamadığı. Rakamı yoksa uydurmayın; ölçülmemiş şeyi başarı gibi yazmayın. Yeni başlayan bir işletmenin vakası yoksa, hayalî bir örnek “örnek” diye açıkça etiketlenmelidir.
 
 Vaka çalışması güven kurmanın en güçlü yollarından biridir; ama uydurma ya da şişirilmiş vaka güveni en hızlı yıkan şeydir. Bu yazıda dürüst bir şablonu ve sınırları anlatıyoruz. Güven için genel çerçeve: [Hakkımızda sayfası](/blog/hakkimizda-sayfasi-nasil-yazilir-guven-icin-rehber/) ve [yazar kutusu ve kaynak gösterme](/blog/yazar-kutusu-ve-kaynak-gosterme-guven-icin-rehber/).
 
@@ -52,22 +52,18 @@ Yeni başlıyorsanız ya da izniniz yoksa vaka uydurmak yerine:
 
 ## Sonuç anlatımında dil
 
-| Yerine | Şunu yazın |
-| --- | --- |
-| “Trafik 3 kat arttı” (kaynaksız) | “Search Console’a göre X–Y tarihleri arasında tıklamalar A’dan B’ye çıktı” |
-| “Garantili sıralama” | “Hedeflenen aramalarda görünürlük arttı; başka etkenler de olmuş olabilir” |
-| “Rakipleri geçtik” | Hangi aramada, hangi tarihte, neye göre |
+- **“Trafik 3 kat arttı” (kaynaksız):** “Search Console’a göre X–Y tarihleri arasında tıklamalar A’dan B’ye çıktı”
+- **“Garantili sıralama”:** “Hedeflenen aramalarda görünürlük arttı; başka etkenler de olmuş olabilir”
+- **“Rakipleri geçtik”:** Hangi aramada, hangi tarihte, neye göre
 
 ## Sık yapılan hatalar
 
-| Hata | Çözüm |
-| --- | --- |
-| Uydurma rakam ve müşteri | Kaldırın |
-| Müşteri izni yok | İzin alın ya da anonim yazın |
-| Ölçüm kaynağı yok | Araç ve dönemi yazın |
-| Tek bir sonucu genelleme | Sınırları belirtin |
-| Başka etkenleri gizlemek | Dürüstçe yazın |
-| Garanti dili | Kaldırın |
+- **Uydurma rakam ve müşteri:** Kaldırın
+- **Müşteri izni yok:** İzin alın ya da anonim yazın
+- **Ölçüm kaynağı yok:** Araç ve dönemi yazın
+- **Tek bir sonucu genelleme:** Sınırları belirtin
+- **Başka etkenleri gizlemek:** Dürüstçe yazın
+- **Garanti dili:** Kaldırın
 
 ## Denizli’den bir örnek
 

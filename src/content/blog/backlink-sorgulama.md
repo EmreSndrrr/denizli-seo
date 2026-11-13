@@ -6,7 +6,7 @@ service: backlink-hizmeti
 imageAlt: "Bir tablo ve sitelerden ana siteye uzanan bağlantı okları"
 ---
 
-**Kısa cevap:** Kendi sitenizin backlinklerini görmenin ücretsiz ve resmî yolu Google Search Console’daki Bağlantılar raporudur. Rapor, sitenize en çok bağlantı veren siteleri, en çok bağlantı verilen sayfalarınızı ve en çok kullanılan bağlantı metinlerini listeler. Yalnızca doğruladığınız site için çalışır ve Google’ın bulduğu bağlantıları gösterir; kaldırılmış bağlantılar da listede kalabilir.
+Kendi sitenizin backlinklerini görmenin ücretsiz ve resmî yolu Google Search Console’daki Bağlantılar raporudur. Rapor, sitenize en çok bağlantı veren siteleri, en çok bağlantı verilen sayfalarınızı ve en çok kullanılan bağlantı metinlerini listeler. Yalnızca doğruladığınız site için çalışır ve Google’ın bulduğu bağlantıları gösterir; kaldırılmış bağlantılar da listede kalabilir.
 
 Bu yazı, sitenize hangi sitelerin bağlantı verdiğini nasıl göreceğinizi ve raporu nasıl yorumlayacağınızı anlatıyor. Rakip sitelerin bağlantılarına bakmanın sınırlarını ve “zararlı backlink gördüm” paniğinde ne yapılacağını da ele alıyoruz. Backlinkin ne olduğunu bilmiyorsanız önce [backlink nedir?](/blog/backlink-nedir/) yazımıza bakın.
 
@@ -59,14 +59,12 @@ Rakibin backlink listesi size ilham verebilir: hangi yerel kaynaklar onları an�
 
 Aşağıdaki tablo, rapordaki en sık karşılaşılan durumlar için bir karar kuralıdır:
 
-| Gördüğünüz | Anlamı | Ne yapmalı? |
-| --- | --- | --- |
-| Yerel dernek, oda ya da haber sitesinden bağlantı | Büyük olasılıkla doğal | Kayda alın, sayfanın doğru açıldığını kontrol edin |
-| Tanımadığınız ama konuyla ilgili bir blogdan bağlantı | Büyük olasılıkla doğal | Siteye bakın; gerçekse teşekkür edin |
-| Hiç tanımadığınız, ilgisiz birçok siteden bağlantı | Şüpheli olabilir | Rastgele birkaçını açıp bakın |
-| Hepsi aynı bağlantı metnini kullanan çok sayıda bağlantı | Düzenli bir çalışmanın izi olabilir | Kimin yaptırdığını araştırın (eski ajans ya da tedarikçi) |
-| Çok az bağlantı, ama gerçek | Normal | Yeni ya da küçük sitelerde beklenen durum |
-| Hiç bağlantı yok | Yeni site ya da veri henüz yok | Sabırla bekleyin; kaynakları kendiniz oluşturun |
+- **Yerel dernek, oda ya da haber sitesinden bağlantı:** anlamı: Büyük olasılıkla doğal; ne yapmalı?: Kayda alın, sayfanın doğru açıldığını kontrol edin
+- **Tanımadığınız ama konuyla ilgili bir blogdan bağlantı:** anlamı: Büyük olasılıkla doğal; ne yapmalı?: Siteye bakın; gerçekse teşekkür edin
+- **Hiç tanımadığınız, ilgisiz birçok siteden bağlantı:** anlamı: Şüpheli olabilir; ne yapmalı?: Rastgele birkaçını açıp bakın
+- **Hepsi aynı bağlantı metnini kullanan çok sayıda bağlantı:** anlamı: Düzenli bir çalışmanın izi olabilir; ne yapmalı?: Kimin yaptırdığını araştırın (eski ajans ya da tedarikçi)
+- **Çok az bağlantı, ama gerçek:** anlamı: Normal; ne yapmalı?: Yeni ya da küçük sitelerde beklenen durum
+- **Hiç bağlantı yok:** anlamı: Yeni site ya da veri henüz yok; ne yapmalı?: Sabırla bekleyin; kaynakları kendiniz oluşturun
 
 Manuel işlem yoksa ve bağlantıyı siz yaptırmadıysanız, tek bir tuhaf bağlantı için harekete geçmeyin.
 

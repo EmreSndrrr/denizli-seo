@@ -6,7 +6,7 @@ service: icerik-seo
 imageAlt: "Birbirine benzeyen iki sayfa ve aralarındaki eşitlik işareti"
 ---
 
-**Kısa cevap:** Kopya içerik, aynı ya da çok benzer içeriğin birden fazla adreste bulunmasıdır. İki türü vardır: sitenizin kendi içinde (aynı sayfanın http/https, www, parametreli adresleri; birbirine benzeyen şablon sayfalar) ve başka sitelerle (üreticiden gelen ürün metni, başkasından kopyalanan yazı). Site içi kopyayı canonical, yönlendirme ve sayfa birleştirmeyle yönetin; site dışı kopyayı kendi metninizi yazarak önleyin. Google, başkasının içeriğini küçük değişikliklerle yeniden yayınlamayı kazıma olarak spam sayar.
+Kopya içerik, aynı ya da çok benzer içeriğin birden fazla adreste bulunmasıdır. İki türü vardır: sitenizin kendi içinde (aynı sayfanın http/https, www, parametreli adresleri; birbirine benzeyen şablon sayfalar) ve başka sitelerle (üreticiden gelen ürün metni, başkasından kopyalanan yazı). Site içi kopyayı canonical, yönlendirme ve sayfa birleştirmeyle yönetin; site dışı kopyayı kendi metninizi yazarak önleyin. Google, başkasının içeriğini küçük değişikliklerle yeniden yayınlamayı kazıma olarak spam sayar.
 
 “Kopya içerik cezası” korkusu SEO’da sık dile getirilir; gerçek ise daha ayrıntılıdır: sorun çoğunlukla Google’ın hangi adresi göstereceğini seçmek zorunda kalması ve sayfanızın ayırt edici bir şey sunmamasıdır. Bu yazıda kopya içeriğin türlerini, Google’ın ilgili rehberlerini ve nasıl önleyeceğinizi anlatıyoruz. Teknik taraf için [canonical etiketi nedir?](/blog/canonical-etiketi-nedir-kopya-sayfa-sorunu/) yazımıza bakabilirsiniz.
 
@@ -31,14 +31,12 @@ Google’ın standart URL rehberi, kopya ya da çok benzer sayfalar için bir st
 
 ## Site içi kopya: nasıl önlenir?
 
-| Sorun | Çözüm |
-| --- | --- |
-| http/https, www/www’suz | 301 ile tek adrese yönlendirme; bkz. [www ve www’suz adres](/blog/www-ve-wwwsuz-adres-tek-adrese-yonlendirme/) |
-| Parametreli adresler | Canonical ile asıl adresi gösterin |
-| Mağaza varyantları ve filtreler | Standart ürün adresine canonical; gereksiz filtre adreslerini azaltın |
-| Aynı yazı iki kategoride | Tek adres, tek canonical |
-| Yazdırma sürümleri | Asıl sayfaya canonical |
-| Eski ve yeni adres | 301 yönlendirme |
+- **http/https, www/www’suz:** 301 ile tek adrese yönlendirme; bkz. [www ve www’suz adres](/blog/www-ve-wwwsuz-adres-tek-adrese-yonlendirme/)
+- **Parametreli adresler:** Canonical ile asıl adresi gösterin
+- **Mağaza varyantları ve filtreler:** Standart ürün adresine canonical; gereksiz filtre adreslerini azaltın
+- **Aynı yazı iki kategoride:** Tek adres, tek canonical
+- **Yazdırma sürümleri:** Asıl sayfaya canonical
+- **Eski ve yeni adres:** 301 yönlendirme
 
 Google, standartlaştırma için robots.txt’yi ve URL kaldırma aracını kullanmamanızı ve aynı sayfa için farklı tekniklerle farklı standart URL’ler belirtmemenizi önerir.
 
@@ -96,14 +94,12 @@ Düzeltme: en çok satan elli ürün için kendi açıklamalarımız yazılıyor
 
 ## Kopya içerik karar tablosu
 
-| Bulgu | Karar |
-| --- | --- |
-| Aynı sayfa birden çok adreste | 301 ya da canonical |
-| Birbirine çok benzeyen iki sayfa | Birleştir, ya da her birini özgün yap |
-| Üretici metni | Kendi cümlelerinle yeniden yaz |
-| Başkasından alınmış yazı | Özgün yaz ya da kaldır |
-| Eski ve yeni sitede aynı içerik | Eski adresleri yönlendir |
-| Aynı metin iki şubede | Şubeye özgü bilgi ekle |
+- **Aynı sayfa birden çok adreste:** 301 ya da canonical
+- **Birbirine çok benzeyen iki sayfa:** Birleştir, ya da her birini özgün yap
+- **Üretici metni:** Kendi cümlelerinle yeniden yaz
+- **Başkasından alınmış yazı:** Özgün yaz ya da kaldır
+- **Eski ve yeni sitede aynı içerik:** Eski adresleri yönlendir
+- **Aynı metin iki şubede:** Şubeye özgü bilgi ekle
 
 ## Kopya içerikle ilgili yaygın yanlış anlamalar
 

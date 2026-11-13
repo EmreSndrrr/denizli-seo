@@ -7,7 +7,7 @@ service: teknik-seo
 imageAlt: "Site hızını gösteren renkli bir kadran ve altında üç ilerleme çubuğu"
 ---
 
-**Kısa cevap:** Siteniz telefonda yavaşsa önce PageSpeed Insights ve Search Console ile ölçün, sonra en büyük kalemi düzeltin. Google üç değere bakar: ana içeriğin görünmesi (LCP) en fazla 2,5 saniye, dokunmaya yanıt (INP) en fazla 200 milisaniye, içerik kayması (CLS) en fazla 0,1 olmalı. İşletme sitelerinde ilk bakılacak yerler büyük görseller, gereksiz eklentiler, üçüncü taraf kodlar ve sunucudur.
+Siteniz telefonda yavaşsa önce PageSpeed Insights ve Search Console ile ölçün, sonra en büyük kalemi düzeltin. Google üç değere bakar: ana içeriğin görünmesi (LCP) en fazla 2,5 saniye, dokunmaya yanıt (INP) en fazla 200 milisaniye, içerik kayması (CLS) en fazla 0,1 olmalı. İşletme sitelerinde ilk bakılacak yerler büyük görseller, gereksiz eklentiler, üçüncü taraf kodlar ve sunucudur.
 
 Bu yazıda telefondaki yavaşlığın nasıl ölçüleceğini, ölçüm sonuçlarının nasıl okunacağını, hangi değerin hangi soruna işaret ettiğini ve kod tarafına inmeden yapılabilecek düzeltmeleri sırayla anlatıyoruz.
 
@@ -23,11 +23,9 @@ Google, sayfa deneyimini **Core Web Vitals** adı verilen üç değerle ölçer.
 
 Search Console ve PageSpeed Insights her değeri üç gruba ayırır ([Core Web Vitals raporu](https://support.google.com/webmasters/answer/9205520?hl=tr)):
 
-| Ölçü | İyi | İyileştirme gerektiriyor | Yetersiz |
-|---|---|---|---|
-| LCP | 2,5 sn veya altı | 4 sn veya altı | 4 sn üstü |
-| INP | 200 ms veya altı | 500 ms veya altı | 500 ms üstü |
-| CLS | 0,1 veya altı | 0,25 veya altı | 0,25 üstü |
+- **LCP:** i̇yi: 2,5 sn veya altı; i̇yileştirme gerektiriyor: 4 sn veya altı; yetersiz: 4 sn üstü
+- **INP:** i̇yi: 200 ms veya altı; i̇yileştirme gerektiriyor: 500 ms veya altı; yetersiz: 500 ms üstü
+- **CLS:** i̇yi: 0,1 veya altı; i̇yileştirme gerektiriyor: 0,25 veya altı; yetersiz: 0,25 üstü
 
 Bu sınırlar tek bir ziyarete göre değil, **75. yüzdelik dilime** göre değerlendirilir. Yani ziyaretlerin en az yüzde 75’i sınırın içinde kalmalıdır. web.dev, bu ölçümün telefon ve masaüstü için ayrı yapılmasını önerir. Telefonda iyi, masaüstünde kötü ya da tersi olabilir.
 
@@ -51,11 +49,9 @@ INP (Interaction to Next Paint), ziyaretçinin dokunma, tıklama ve klavye etkil
 
 PageSpeed Insights iki tür veri gösterir ([PageSpeed Insights hakkında](https://developers.google.com/speed/docs/insights/v5/about?hl=tr)):
 
-| | Gerçek kullanıcı verisi | Laboratuvar verisi |
-|---|---|---|
-| Nereden gelir? | Chrome kullanıcılarının son 28 günlük deneyimi (CrUX) | Lighthouse ile tek bir simülasyon |
-| Ne işe yarar? | Ziyaretçinin gerçekte ne yaşadığını gösterir | Sorunun nedenini bulmaya yardım eder |
-| Sınırı | Az ziyaret alan sayfada olmayabilir | Her çalıştırmada biraz değişir |
+- **Nereden gelir?:** gerçek kullanıcı verisi: Chrome kullanıcılarının son 28 günlük deneyimi (CrUX); laboratuvar verisi: Lighthouse ile tek bir simülasyon
+- **Ne işe yarar?:** gerçek kullanıcı verisi: Ziyaretçinin gerçekte ne yaşadığını gösterir; laboratuvar verisi: Sorunun nedenini bulmaya yardım eder
+- **Sınırı:** gerçek kullanıcı verisi: Az ziyaret alan sayfada olmayabilir; laboratuvar verisi: Her çalıştırmada biraz değişir
 
 Laboratuvar ölçümü, orta seviye bir telefonu ve mobil ağı taklit eder. Google, puanın hiçbir şey değiştirmeseniz de çalıştırmadan çalıştırmaya değişebileceğini belirtir. Lighthouse puanında 90 ve üstü iyi, 50 ile 89 arası iyileştirme gerektiren, 50’nin altı zayıf sayılır. Ancak Google’a göre iyi bir laboratuvar puanı, gerçek kullanıcı deneyiminin de iyi olduğu anlamına gelmez.
 
@@ -77,11 +73,9 @@ Search Console’un diğer raporlarını [Search Console ilk kontrol yazımızda
 
 Her değer farklı bir soruna işaret eder. Düzeltmeye başlamadan önce hangi değerin sınırı aştığını bulun; yanlış yere emek harcamayı önler.
 
-| Sınırı aşan değer | Olası neden | İlk bakılacak yer |
-|---|---|---|
-| LCP | Büyük ana görsel, yavaş sunucu, geç yüklenen üst görsel | Ana görselin boyutu, sunucu yanıt süresi |
-| CLS | Boyutu belirtilmemiş görseller, sonradan eklenen reklam ve kutular, yazı tipi değişimi | Görsellerin genişlik ve yükseklik bilgisi, sayfaya sonradan giren öğeler |
-| INP | Ağır JavaScript, sohbet ve takip kodları, büyük eklentiler | Üçüncü taraf kodlar ve eklentiler |
+- **LCP:** olası neden: Büyük ana görsel, yavaş sunucu, geç yüklenen üst görsel; i̇lk bakılacak yer: Ana görselin boyutu, sunucu yanıt süresi
+- **CLS:** olası neden: Boyutu belirtilmemiş görseller, sonradan eklenen reklam ve kutular, yazı tipi değişimi; i̇lk bakılacak yer: Görsellerin genişlik ve yükseklik bilgisi, sayfaya sonradan giren öğeler
+- **INP:** olası neden: Ağır JavaScript, sohbet ve takip kodları, büyük eklentiler; i̇lk bakılacak yer: Üçüncü taraf kodlar ve eklentiler
 
 ### LCP yüksekse
 

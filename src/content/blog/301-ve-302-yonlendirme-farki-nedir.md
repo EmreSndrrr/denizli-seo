@@ -6,7 +6,7 @@ service: teknik-seo
 imageAlt: "Eski adresten yeni adrese giden iki ok: kalıcı ve geçici"
 ---
 
-**Kısa cevap:** 301 kalıcı, 302 geçici yönlendirmedir. Bir sayfa kalıcı olarak yeni adrese taşındıysa 301; geçici bir süre başka yere yönlendirilecekse 302 kullanın. Google’a göre kalıcı yönlendirme, hedefin standart URL olması gerektiği yönünde zayıf bir sinyal olarak kullanılır; geçici yönlendirme ise bu sinyali taşımaz. En güvenilir yöntem sunucu tarafı yönlendirmedir; JavaScript yönlendirmesi yalnızca başka seçenek yoksa kullanılmalıdır.
+301 kalıcı, 302 geçici yönlendirmedir. Bir sayfa kalıcı olarak yeni adrese taşındıysa 301; geçici bir süre başka yere yönlendirilecekse 302 kullanın. Google’a göre kalıcı yönlendirme, hedefin standart URL olması gerektiği yönünde zayıf bir sinyal olarak kullanılır; geçici yönlendirme ise bu sinyali taşımaz. En güvenilir yöntem sunucu tarafı yönlendirmedir; JavaScript yönlendirmesi yalnızca başka seçenek yoksa kullanılmalıdır.
 
 Yönlendirme, bir adrese gelen ziyaretçiyi ve arama motorunu otomatik olarak başka bir adrese göndermektir. Site yenilerken, alan adı değiştirirken ya da bir sayfayı silip yerine başkasını koyarken kullanılır. Yanlış türü seçmek, yeni adresin dizine girmemesine ya da eski adresin sonuçlarda kalmasına yol açabilir. Bu yazıda iki türün farkını ve hangisini ne zaman kullanacağınızı anlatıyoruz. Bulunamayan sayfalar için [404 hatası](/blog/404-hatasi-duzeltmeli-mi-yonlendirmeli-mi/) yazımıza bakabilirsiniz.
 
@@ -37,11 +37,9 @@ HTTP durum kodu olarak kalıcı yönlendirmeler 301 ve 308; geçici yönlendirme
 
 Google, yöntemleri Google’ın doğru yorumlama olasılığına göre sıralar:
 
-| Yöntem | Not |
-| --- | --- |
-| Sunucu tarafı yönlendirme (301, 302 vb.) | En güvenilir; sunucu yapılandırması gerekir |
-| `meta refresh` yönlendirmesi | Sunucu tarafı yapılamıyorsa; 0 saniye kalıcı gibi, daha uzun süre geçici gibi yorumlanır |
-| JavaScript yönlendirmesi | Yalnızca sunucu tarafı ya da meta refresh yapılamıyorsa kullanın |
+- **Sunucu tarafı yönlendirme (301, 302 vb.):** En güvenilir; sunucu yapılandırması gerekir
+- **`meta refresh` yönlendirmesi:** Sunucu tarafı yapılamıyorsa; 0 saniye kalıcı gibi, daha uzun süre geçici gibi yorumlanır
+- **JavaScript yönlendirmesi:** Yalnızca sunucu tarafı ya da meta refresh yapılamıyorsa kullanın
 
 Sunucu tarafı yönlendirmeler, sunucu yapılandırma dosyalarına (ör. Apache’de .htaccess) erişim ya da yönlendirme başlıklarını sunucu tarafı betikle gönderme gerektirir. Siteniz bir içerik yönetim sistemi kullanıyorsa yönlendirme eklentisi ya da panel ayarı sunucu tarafı yönlendirmeyi sizin yerinize yapabilir.
 
@@ -53,16 +51,14 @@ Google’ın site taşıma rehberine göre 301 ve diğer kalıcı yönlendirmele
 
 Karar kuralı: **Yönlendirme geri dönmeyecekse 301; geri dönecekse 302.**
 
-| Senaryo | Tür |
-| --- | --- |
-| Siteyi yeni alan adına taşıdık | 301 |
-| `http` → `https` | 301 |
-| `www` → `www`’suz (ya da tersi) | 301 |
-| İki ürün sayfasını birleştirdik | 301 |
-| Silinen sayfa için en yakın benzeri var | 301 |
-| Sayfa iki hafta bakımda, sonra geri gelecek | 302 |
-| Mevsimlik kampanya sayfasına geçici yönlendirme | 302 |
-| Test için bir ziyaretçi grubunu başka sayfaya gönderme | 302 |
+- **Siteyi yeni alan adına taşıdık:** 301
+- **`http` → `https`:** 301
+- **`www` → `www`’suz (ya da tersi):** 301
+- **İki ürün sayfasını birleştirdik:** 301
+- **Silinen sayfa için en yakın benzeri var:** 301
+- **Sayfa iki hafta bakımda, sonra geri gelecek:** 302
+- **Mevsimlik kampanya sayfasına geçici yönlendirme:** 302
+- **Test için bir ziyaretçi grubunu başka sayfaya gönderme:** 302
 
 Kalıcı bir taşımada yanlışlıkla 302 kullanmak, yeni adresin standart olarak görülmemesine ve eski adresin dizinde kalmasına yol açabilir.
 
@@ -96,12 +92,10 @@ Düzeltme: eski adres eşleme tablosuna göre tüm kalıcı taşımalar 301’e 
 
 Site yenilerken ya da taşırken yönlendirmeleri önceden tabloya yazın:
 
-| Eski adres | Yeni adres | Tür | Not |
-| --- | --- | --- | --- |
-| /eski-hizmet | /yeni-hizmet/ | 301 | Aynı içerik taşındı |
-| /eski-blog/yazi-1 | /blog/yazi-1/ | 301 | Adres yapısı değişti |
-| /kampanya-2023 | — | 404 | Bitmiş kampanya, karşılığı yok |
-| /bakimda | /ana-sayfa/ | 302 | Geçici bakım sayfası |
+- **/eski-hizmet:** yeni adres: /yeni-hizmet/; tür: 301; not: Aynı içerik taşındı
+- **/eski-blog/yazi-1:** yeni adres: /blog/yazi-1/; tür: 301; not: Adres yapısı değişti
+- **/kampanya-2023:** yeni adres: —; tür: 404; not: Bitmiş kampanya, karşılığı yok
+- **/bakimda:** yeni adres: /ana-sayfa/; tür: 302; not: Geçici bakım sayfası
 
 Google’ın site taşıma rehberi de geçerli URL’lerden yeni biçimlerine bir URL eşlemesi hazırlamayı ve sunucuyu bu eşlemeye göre yönlendirecek şekilde yapılandırmayı önerir. Ayrıntı için [yeni siteye geçerken 301 listesi](/blog/site-tasima-301-yonlendirme/) yazımıza bakın.
 

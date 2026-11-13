@@ -6,7 +6,7 @@ service: icerik-seo
 imageAlt: "Kategori sayfası düzeni: başlık, kısa metin, ürün kartları"
 ---
 
-**Kısa cevap:** Kategori sayfası metni, ürün listesini engellemeden ziyaretçiye “bu kategoride ne var, nasıl seçilir?” sorusunu cevaplayan kısa bir bölümdür. Üstte bir iki cümlelik giriş, ürün listesi, altta seçim rehberi ve birkaç sık sorulan soru çoğu site için yeterlidir. Metni yalnızca arama için uzatmayın; okuyucuya yardım etmiyorsa kısaltın.
+Kategori sayfası metni, ürün listesini engellemeden ziyaretçiye “bu kategoride ne var, nasıl seçilir?” sorusunu cevaplayan kısa bir bölümdür. Üstte bir iki cümlelik giriş, ürün listesi, altta seçim rehberi ve birkaç sık sorulan soru çoğu site için yeterlidir. Metni yalnızca arama için uzatmayın; okuyucuya yardım etmiyorsa kısaltın.
 
 Kategori sayfaları çoğu işletme sitesinde en çok arama alan sayfalardır; ama çoğunda ya hiç metin yoktur ya da ürünlerin üstüne yığılmış, kimsenin okumadığı bir paragraf. Bu yazıda dengeli bir düzen öneriyoruz. Ürün sayfaları için [ürün açıklaması nasıl yazılır?](/blog/urun-aciklamasi-nasil-yazilir-kopya-metinden-kacinma/), genel e-ticaret için [e-ticaret SEO](/blog/e-ticaret-seo/) yazılarımıza bakın.
 
@@ -42,12 +42,10 @@ Müşteriler çoğu zaman tek bir ürün değil, bir grup arar: “koltuk takım
 
 **Seçim rehberi (tablo):**
 
-| Ölçüt | Neye bakmalı? |
-| --- | --- |
-| Oda ölçüsü | Koltuğun ölçüsünü odaya göre planlayın |
-| Kumaş | Kullanım yoğunluğuna göre seçin |
-| İskelet | Üreticinin verdiği bilgiyi okuyun |
-| Teslimat | Kapı ve asansör ölçüsüne bakın |
+- **Oda ölçüsü:** Koltuğun ölçüsünü odaya göre planlayın
+- **Kumaş:** Kullanım yoğunluğuna göre seçin
+- **İskelet:** Üreticinin verdiği bilgiyi okuyun
+- **Teslimat:** Kapı ve asansör ölçüsüne bakın
 
 ## Filtre ve sıralama sayfaları
 
@@ -55,15 +53,13 @@ Filtre ve sıralama kombinasyonları çok sayıda benzer URL üretebilir. Google
 
 ## Sık yapılan hatalar
 
-| Hata | Çözüm |
-| --- | --- |
-| Ürünlerin üstüne uzun metin yığmak | Kısa giriş, geri kalanı altta |
-| Hiç metin olmaması | Kısa giriş ve rehber ekleyin |
-| Tüm kategorilerde aynı metin | Kategoriye özel yazın |
-| Anahtar kelime tekrarı | Doğal yazın |
-| Alt kategori bağlantısı yok | Bağlantı ekleyin |
-| Boş ya da tek ürünlü kategori | Birleştirin |
-| Yanıltıcı üstünlük iddiaları | Doğrulanabilir bilgi yazın |
+- **Ürünlerin üstüne uzun metin yığmak:** Kısa giriş, geri kalanı altta
+- **Hiç metin olmaması:** Kısa giriş ve rehber ekleyin
+- **Tüm kategorilerde aynı metin:** Kategoriye özel yazın
+- **Anahtar kelime tekrarı:** Doğal yazın
+- **Alt kategori bağlantısı yok:** Bağlantı ekleyin
+- **Boş ya da tek ürünlü kategori:** Birleştirin
+- **Yanıltıcı üstünlük iddiaları:** Doğrulanabilir bilgi yazın
 
 ## Denizli’den bir örnek
 
@@ -71,15 +67,15 @@ Filtre ve sıralama kombinasyonları çok sayıda benzer URL üretebilir. Google
 
 ## Yayın öncesi kontrol listesi
 
-| Kontrol | Evet / Hayır |
-| --- | --- |
-| H1, müşterinin aradığı kategori adını taşıyor mu? | |
-| Ürünler ilk ekranda görünüyor mu? | |
-| Giriş metni bir üç cümleyi geçmiyor mu? | |
-| Seçim rehberi gerçek ölçütler içeriyor mu? | |
-| Alt kategorilere ve ilgili rehber yazılara bağlantı var mı? | |
-| Başlık etiketi ve meta açıklama kategoriye özel mi? | |
-| Filtre kombinasyonları gereksiz kopya sayfa üretiyor mu? | |
+Şunları tek tek kontrol edin:
+
+- H1, müşterinin aradığı kategori adını taşıyor mu?
+- Ürünler ilk ekranda görünüyor mu?
+- Giriş metni bir üç cümleyi geçmiyor mu?
+- Seçim rehberi gerçek ölçütler içeriyor mu?
+- Alt kategorilere ve ilgili rehber yazılara bağlantı var mı?
+- Başlık etiketi ve meta açıklama kategoriye özel mi?
+- Filtre kombinasyonları gereksiz kopya sayfa üretiyor mu?
 
 Başlık ve açıklama için [başlık etiketi ve meta açıklama](/blog/baslik-etiketi-ve-meta-aciklama-nasil-yazilir/) yazımıza bakın. Kategori sayfalarını üç ayda bir gözden geçirmek; stok, fiyat ve rehber bilgisinin güncel kalmasını sağlar.
 

@@ -6,7 +6,7 @@ service: web-tasarim
 imageAlt: "Alan adı seçerken karşılaştırılan adaylar ve kontrol listesi"
 ---
 
-**Kısa cevap:** İyi bir alan adı kısa, hatırlanır, yazılışı kolay ve markanızla uyumludur. Alan adının içinde anahtar kelime olması sıralama için sihirli bir etken değildir; Google’ın rehberlerinde bunu garanti eden bir ifade yoktur. Önemli olan, alan adının sahibinin siz olması, geçmişinin temiz olması (daha önce spam için kullanılmamış), uzantının güven vermesi ve ileride değiştirmek zorunda kalmayacağınız kalıcı bir marka adı olmasıdır. Alan adı değiştirmek SEO açısından zahmetlidir.
+İyi bir alan adı kısa, hatırlanır, yazılışı kolay ve markanızla uyumludur. Alan adının içinde anahtar kelime olması sıralama için sihirli bir etken değildir; Google’ın rehberlerinde bunu garanti eden bir ifade yoktur. Önemli olan, alan adının sahibinin siz olması, geçmişinin temiz olması (daha önce spam için kullanılmamış), uzantının güven vermesi ve ileride değiştirmek zorunda kalmayacağınız kalıcı bir marka adı olmasıdır. Alan adı değiştirmek SEO açısından zahmetlidir.
 
 Alan adı bir kez seçilir ve değiştirilmesi zordur. Bu yüzden baştan düşünün. Değişiklik gerekirse [alan adı değiştirirken SEO kaybı nasıl önlenir?](/blog/alan-adi-degistirirken-seo-kaybi-nasil-onlenir/) yazısına bakabilirsiniz. Genel çerçeve için [SEO uyumlu web sitesi](/blog/seo-uyumlu-web-sitesi/) yazımızı okuyun.
 
@@ -41,14 +41,12 @@ Alan adı bir kez seçilir ve değiştirilmesi zordur. Bu yüzden baştan düş�
 
 ## Sık yapılan hatalar
 
-| Hata | Çözüm |
-| --- | --- |
-| Alan adını ajans ya da yazılımcı adına almak | Kendi adınıza kaydedin |
-| Çok uzun ve tireli ad | Kısa marka adı |
-| Anahtar kelimeye güvenmek | İçeriğe yatırım yapın |
-| Süresi dolması | Otomatik yenileme ve hatırlatma |
-| Tarihçesini kontrol etmemek | Önce araştırın |
-| Birden fazla alan adını aynı içerikle yayımlamak | Birini asıl yapın, diğerini yönlendirin |
+- **Alan adını ajans ya da yazılımcı adına almak:** Kendi adınıza kaydedin
+- **Çok uzun ve tireli ad:** Kısa marka adı
+- **Anahtar kelimeye güvenmek:** İçeriğe yatırım yapın
+- **Süresi dolması:** Otomatik yenileme ve hatırlatma
+- **Tarihçesini kontrol etmemek:** Önce araştırın
+- **Birden fazla alan adını aynı içerikle yayımlamak:** Birini asıl yapın, diğerini yönlendirin
 
 ## Denizli’den bir örnek
 

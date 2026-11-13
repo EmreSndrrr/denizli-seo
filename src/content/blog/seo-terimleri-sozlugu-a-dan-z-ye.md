@@ -6,7 +6,7 @@ service: teknik-seo
 imageAlt: "Harf sırasıyla dizilmiş SEO terimleri kartları"
 ---
 
-**Kısa cevap:** SEO terimleri ilk bakışta karmaşık görünür ama çoğu basit bir fikre dayanır: Google sayfanızı bulur (tarama), saklar (dizine ekleme), aramaya göre sıralar ve ekranda gösterir. Bu sözlük, işletme sahibinin ajansla konuşurken ya da raporu okurken karşılaşacağı onlarca terimi harf sırasıyla ve sade Türkçeyle açıklar. Tanımlar genel bilgidir.
+SEO terimleri ilk bakışta karmaşık görünür ama çoğu basit bir fikre dayanır: Google sayfanızı bulur (tarama), saklar (dizine ekleme), aramaya göre sıralar ve ekranda gösterir. Bu sözlük, işletme sahibinin ajansla konuşurken ya da raporu okurken karşılaşacağı onlarca terimi harf sırasıyla ve sade Türkçeyle açıklar. Tanımlar genel bilgidir.
 
 Bir terimi bilmemek utanılacak bir şey değil; ama anlamadığınız bir terimle onaylanan iş, para ve zaman kaybettirebilir. Raporu daha iyi okumak için [SEO raporu nasıl okunur?](/blog/seo-raporu-nasil-okunur-aylik-rapor-sablonu/), genel temel için SEO nedir? yazılarına bakabilirsiniz.
 
@@ -27,131 +27,107 @@ Terimler Türkçe harf sırasına göredir. İngilizce karşılığı yaygınsa 
 
 ## B
 
-| Terim | Anlamı |
-| --- | --- |
-| **Backlink (dış bağlantı, geri bağlantı)** | Başka bir sitenin sizin sitenize verdiği bağlantı. Bkz. [backlink nedir?](/blog/backlink-nedir/) |
-| **Bağlantı spam’i (link spam)** | Google’ın tanımına göre, arama sıralamalarını etkilemek için bir siteye veya siteden bağlantı verilmesi. |
-| **Belirginlik (prominence)** | Google’ın yerel sıralama etkenlerinden biri; işletmenin ne kadar iyi bilindiğiyle ilgili. |
-| **Breadcrumb (içerik haritası)** | “Ana sayfa › Hizmetler › Klima bakımı” gibi sayfanın yerini gösteren yol. |
+- ****Backlink (dış bağlantı, geri bağlantı)**:** Başka bir sitenin sizin sitenize verdiği bağlantı. Bkz. [backlink nedir?](/blog/backlink-nedir/)
+- ****Bağlantı spam’i (link spam)**:** Google’ın tanımına göre, arama sıralamalarını etkilemek için bir siteye veya siteden bağlantı verilmesi.
+- ****Belirginlik (prominence)**:** Google’ın yerel sıralama etkenlerinden biri; işletmenin ne kadar iyi bilindiğiyle ilgili.
+- ****Breadcrumb (içerik haritası)**:** “Ana sayfa › Hizmetler › Klima bakımı” gibi sayfanın yerini gösteren yol.
 
 ## C – Ç
 
-| Terim | Anlamı |
-| --- | --- |
-| **Canonical (standart URL)** | Aynı ya da çok benzer sayfalar arasında asıl sayfayı belirten işaret. Bkz. [canonical etiketi](/blog/canonical-etiketi-nedir-kopya-sayfa-sorunu/). |
-| **Core Web Vitals** | Sayfa deneyimini ölçen üç değer: LCP, INP, CLS. Google’ın belgesine göre LCP ilk 2,5 saniye, INP 200 milisaniyenin altı, CLS 0,1’in altı iyi kabul edilir. |
-| **CTR (tıklama oranı, TO)** | Tıklama sayısının gösterim sayısına oranı. |
-| **CLS (Cumulative Layout Shift)** | Sayfa yüklenirken öğelerin beklenmedik kayma miktarı. |
-| **Çıkış oranı** | Tek sayfa görüp ayrılan ziyaretçilerin oranı; analiz araçlarına göre tanımı değişir. |
+- ****Canonical (standart URL)**:** Aynı ya da çok benzer sayfalar arasında asıl sayfayı belirten işaret. Bkz. [canonical etiketi](/blog/canonical-etiketi-nedir-kopya-sayfa-sorunu/).
+- ****Core Web Vitals**:** Sayfa deneyimini ölçen üç değer: LCP, INP, CLS. Google’ın belgesine göre LCP ilk 2,5 saniye, INP 200 milisaniyenin altı, CLS 0,1’in altı iyi kabul edilir.
+- ****CTR (tıklama oranı, TO)**:** Tıklama sayısının gösterim sayısına oranı.
+- ****CLS (Cumulative Layout Shift)**:** Sayfa yüklenirken öğelerin beklenmedik kayma miktarı.
+- ****Çıkış oranı**:** Tek sayfa görüp ayrılan ziyaretçilerin oranı; analiz araçlarına göre tanımı değişir.
 
 ## D
 
-| Terim | Anlamı |
-| --- | --- |
-| **Dahili bağlantı (iç bağlantı)** | Sitenizdeki bir sayfadan yine sitenizdeki başka bir sayfaya verilen bağlantı. Bkz. iç bağlantı stratejisi. |
-| **Dizine ekleme (indexing)** | Google’ın taradığı sayfayı arama sonuçlarında gösterebilmek için kaydetmesi. |
-| **Dizin kapsamı raporu** | Search Console’da hangi sayfaların dizinde olduğunu ve olmayanların nedenlerini gösteren rapor. |
-| **Disavow (bağlantı reddetme)** | Google’a belirli bağlantılara güvenmemesini söyleyen araç. Google çoğu sitede gerekmediğini söyler. |
-| **Doğal (organik) sonuç** | Ücretli reklam olmayan arama sonucu. Google organik sonuçlarda görünmenin ücretsiz olduğunu söyler. |
-| **Duyarlı tasarım (responsive)** | Sayfanın ekran boyutuna uyum sağlayan tasarımı. |
+- ****Dahili bağlantı (iç bağlantı)**:** Sitenizdeki bir sayfadan yine sitenizdeki başka bir sayfaya verilen bağlantı. Bkz. iç bağlantı stratejisi.
+- ****Dizine ekleme (indexing)**:** Google’ın taradığı sayfayı arama sonuçlarında gösterebilmek için kaydetmesi.
+- ****Dizin kapsamı raporu**:** Search Console’da hangi sayfaların dizinde olduğunu ve olmayanların nedenlerini gösteren rapor.
+- ****Disavow (bağlantı reddetme)**:** Google’a belirli bağlantılara güvenmemesini söyleyen araç. Google çoğu sitede gerekmediğini söyler.
+- ****Doğal (organik) sonuç**:** Ücretli reklam olmayan arama sonucu. Google organik sonuçlarda görünmenin ücretsiz olduğunu söyler.
+- ****Duyarlı tasarım (responsive)**:** Sayfanın ekran boyutuna uyum sağlayan tasarımı.
 
 ## E – F – G
 
-| Terim | Anlamı |
-| --- | --- |
-| **E-E-A-T** | Deneyim, uzmanlık, otorite, güvenilirlik kavramlarının kısaltması; Google’ın içerik kalitesi konusundaki kavramlarından biri. |
-| **Eylem çağrısı (CTA)** | Ziyaretçiyi harekete geçiren düğme ya da yazı: “Ara”, “Randevu al”. |
-| **Featured snippet (öne çıkan snippet)** | Sonuç listesinin üstünde gösterilen kısa cevap kutusu. Bkz. öne çıkan snippet. |
-| **Google İşletme Profili** | Haritalarda ve aramada işletmenizi gösteren ücretsiz profil. |
-| **Googlebot** | Google’ın sayfaları tarayan yazılımı. |
+- ****E-E-A-T**:** Deneyim, uzmanlık, otorite, güvenilirlik kavramlarının kısaltması; Google’ın içerik kalitesi konusundaki kavramlarından biri.
+- ****Eylem çağrısı (CTA)**:** Ziyaretçiyi harekete geçiren düğme ya da yazı: “Ara”, “Randevu al”.
+- ****Featured snippet (öne çıkan snippet)**:** Sonuç listesinin üstünde gösterilen kısa cevap kutusu. Bkz. öne çıkan snippet.
+- ****Google İşletme Profili**:** Haritalarda ve aramada işletmenizi gösteren ücretsiz profil.
+- ****Googlebot**:** Google’ın sayfaları tarayan yazılımı.
 
 ## H – I – İ
 
-| Terim | Anlamı |
-| --- | --- |
-| **H1, H2, H3** | Sayfadaki başlık seviyeleri; H1 ana başlıktır. Bkz. başlık yapısı. |
-| **Hreflang** | Bir sayfanın dil ve bölge varyantlarını Google’a bildiren işaretleme. |
-| **HTTPS** | Güvenli bağlantı biçimi; adres çubuğundaki kilit işareti. |
-| **INP (Interaction to Next Paint)** | Sayfanın kullanıcı etkileşimine ne kadar hızlı yanıt verdiğini ölçen değer. |
-| **İnce içerik (thin content)** | Okuyucuya az değer sunan, kısa ya da özgün olmayan içerik. |
-| **İç bağlantı** | Bkz. dahili bağlantı. |
+- ****H1, H2, H3**:** Sayfadaki başlık seviyeleri; H1 ana başlıktır. Bkz. başlık yapısı.
+- ****Hreflang**:** Bir sayfanın dil ve bölge varyantlarını Google’a bildiren işaretleme.
+- ****HTTPS**:** Güvenli bağlantı biçimi; adres çubuğundaki kilit işareti.
+- ****INP (Interaction to Next Paint)**:** Sayfanın kullanıcı etkileşimine ne kadar hızlı yanıt verdiğini ölçen değer.
+- ****İnce içerik (thin content)**:** Okuyucuya az değer sunan, kısa ya da özgün olmayan içerik.
+- ****İç bağlantı**:** Bkz. dahili bağlantı.
 
 ## K
 
-| Terim | Anlamı |
-| --- | --- |
-| **Kanonik** | Bkz. canonical. |
-| **Kopya içerik (duplicate content)** | Birden fazla adreste bulunan aynı ya da çok benzer içerik. Bkz. kopya içerik. |
-| **Kırık bağlantı** | Hedef sayfası açılmayan (çoğu zaman 404 veren) bağlantı. |
-| **Konu kümesi (topic cluster)** | Bir ana sayfa ve ona bağlı destek yazılarından oluşan içerik düzeni. Bkz. konu kümesi. |
-| **Kurumsal SEO** | Büyük ve çok sayfalı kurumsal siteler için SEO yaklaşımı. |
+- ****Kanonik**:** Bkz. canonical.
+- ****Kopya içerik (duplicate content)**:** Birden fazla adreste bulunan aynı ya da çok benzer içerik. Bkz. kopya içerik.
+- ****Kırık bağlantı**:** Hedef sayfası açılmayan (çoğu zaman 404 veren) bağlantı.
+- ****Konu kümesi (topic cluster)**:** Bir ana sayfa ve ona bağlı destek yazılarından oluşan içerik düzeni. Bkz. konu kümesi.
+- ****Kurumsal SEO**:** Büyük ve çok sayfalı kurumsal siteler için SEO yaklaşımı.
 
 ## L – M
 
-| Terim | Anlamı |
-| --- | --- |
-| **LCP (Largest Contentful Paint)** | Sayfanın en büyük öğesinin ne kadar sürede göründüğü. Bkz. LCP nasıl düzeltilir? |
-| **Link building** | Bağlantı kazanma çalışması. Satın alınmış bağlantı bu tanımın dışındadır. |
-| **Meta açıklama (meta description)** | Arama sonucunda sayfanın özeti olarak kullanılabilen kısa metin. |
-| **Mobil öncelikli dizine ekleme** | Google’ın dizine ekleme ve sıralama için sitenin mobil sürümünü kullanması. |
+- ****LCP (Largest Contentful Paint)**:** Sayfanın en büyük öğesinin ne kadar sürede göründüğü. Bkz. LCP nasıl düzeltilir?
+- ****Link building**:** Bağlantı kazanma çalışması. Satın alınmış bağlantı bu tanımın dışındadır.
+- ****Meta açıklama (meta description)**:** Arama sonucunda sayfanın özeti olarak kullanılabilen kısa metin.
+- ****Mobil öncelikli dizine ekleme**:** Google’ın dizine ekleme ve sıralama için sitenin mobil sürümünü kullanması.
 
 ## N – O – Ö
 
-| Terim | Anlamı |
-| --- | --- |
-| **Nofollow** | Bağlantıyı siteyle ilişkilendirmek istemediğinizi belirten `rel` değeri. Bkz. sponsored işaretleme. |
-| **Noindex** | Sayfanın arama sonuçlarında gösterilmemesini isteyen işaret. Bkz. noindex. |
-| **Organik trafik** | Ücretli olmayan arama sonuçlarından gelen ziyaretçi. |
-| **Otorite** | Bir sitenin konusunda güvenilir bir kaynak olarak tanınması; tek bir ölçüsü yoktur. |
-| **Ortalama konum** | Search Console’da sitenizin sorgularda ortalama sırası; tek başına yanıltıcı olabilir. |
+- ****Nofollow**:** Bağlantıyı siteyle ilişkilendirmek istemediğinizi belirten `rel` değeri. Bkz. sponsored işaretleme.
+- ****Noindex**:** Sayfanın arama sonuçlarında gösterilmemesini isteyen işaret. Bkz. noindex.
+- ****Organik trafik**:** Ücretli olmayan arama sonuçlarından gelen ziyaretçi.
+- ****Otorite**:** Bir sitenin konusunda güvenilir bir kaynak olarak tanınması; tek bir ölçüsü yoktur.
+- ****Ortalama konum**:** Search Console’da sitenizin sorgularda ortalama sırası; tek başına yanıltıcı olabilir.
 
 ## P – R – S – Ş
 
-| Terim | Anlamı |
-| --- | --- |
-| **Performans raporu** | Search Console’da gösterim, tıklama, TO ve ortalama konumu veren rapor. |
-| **Robots.txt** | Tarayıcılara hangi alanlara girebileceklerini söyleyen dosya. Bkz. [robots.txt](/blog/robots-txt-nedir-nasil-hazirlanir/). |
-| **Search Console** | Google’ın ücretsiz sitesi izleme aracı. Bkz. [Search Console ilk kontrol](/blog/search-console-ilk-kontrol/). |
-| **SERP** | Arama sonuçları sayfası. |
-| **Site haritası (sitemap)** | Sitenizdeki sayfaların listesi. Bkz. site haritası. |
-| **Snippet** | Arama sonucunda gösterilen sayfa özeti. |
-| **Soft 404** | Sayfa yok ama sunucu “başarılı” kodu dönüyor; bkz. soft 404. |
-| **Spam politikaları** | Google’ın kabul etmediği yöntemleri tarif eden yönergeler. |
-| **Sponsored** | Reklam ya da ücretli yerleşim bağlantıları için `rel` değeri. |
+- ****Performans raporu**:** Search Console’da gösterim, tıklama, TO ve ortalama konumu veren rapor.
+- ****Robots.txt**:** Tarayıcılara hangi alanlara girebileceklerini söyleyen dosya. Bkz. [robots.txt](/blog/robots-txt-nedir-nasil-hazirlanir/).
+- ****Search Console**:** Google’ın ücretsiz sitesi izleme aracı. Bkz. [Search Console ilk kontrol](/blog/search-console-ilk-kontrol/).
+- ****SERP**:** Arama sonuçları sayfası.
+- ****Site haritası (sitemap)**:** Sitenizdeki sayfaların listesi. Bkz. site haritası.
+- ****Snippet**:** Arama sonucunda gösterilen sayfa özeti.
+- ****Soft 404**:** Sayfa yok ama sunucu “başarılı” kodu dönüyor; bkz. soft 404.
+- ****Spam politikaları**:** Google’ın kabul etmediği yöntemleri tarif eden yönergeler.
+- ****Sponsored**:** Reklam ya da ücretli yerleşim bağlantıları için `rel` değeri.
 
 ## T – U – Ü – V – Y – Z
 
-| Terim | Anlamı |
-| --- | --- |
-| **Tarama (crawling)** | Googlebot’un sayfaları bulup okuması. |
-| **Title (başlık etiketi)** | Sayfanın arama sonucunda başlık olarak kullanılabilen `<title>` öğesi. Bkz. başlık ve meta açıklama. |
-| **UGC** | Kullanıcı içeriğindeki bağlantılar için `rel` değeri. |
-| **URL** | Sayfanın internet adresi. |
-| **Uzun kuyruk (long tail)** | Daha uzun, daha spesifik ve genellikle daha az aranan sorgular. |
-| **Yapılandırılmış veri (structured data)** | Sayfadaki bilgiyi arama sistemlerine standart biçimde anlatan işaretleme. Bkz. yapılandırılmış veri. |
-| **Yetim sayfa** | Sitedeki hiçbir sayfadan bağlantı almayan sayfa. |
-| **Yerel SEO** | Yerel aramalarda ve haritalarda görünürlük çalışması. |
-| **Yönlendirme (redirect)** | Bir adresten başka adrese otomatik gönderme. Bkz. 301 ve 302. |
+- ****Tarama (crawling)**:** Googlebot’un sayfaları bulup okuması.
+- ****Title (başlık etiketi)**:** Sayfanın arama sonucunda başlık olarak kullanılabilen `<title>` öğesi. Bkz. başlık ve meta açıklama.
+- ****UGC**:** Kullanıcı içeriğindeki bağlantılar için `rel` değeri.
+- ****URL**:** Sayfanın internet adresi.
+- ****Uzun kuyruk (long tail)**:** Daha uzun, daha spesifik ve genellikle daha az aranan sorgular.
+- ****Yapılandırılmış veri (structured data)**:** Sayfadaki bilgiyi arama sistemlerine standart biçimde anlatan işaretleme. Bkz. yapılandırılmış veri.
+- ****Yetim sayfa**:** Sitedeki hiçbir sayfadan bağlantı almayan sayfa.
+- ****Yerel SEO**:** Yerel aramalarda ve haritalarda görünürlük çalışması.
+- ****Yönlendirme (redirect)**:** Bir adresten başka adrese otomatik gönderme. Bkz. 301 ve 302.
 
 ## Yerel SEO terimleri
 
-| Terim | Anlamı |
-| --- | --- |
-| **Alaka, mesafe, belirginlik** | Google’ın yerel sıralamada belirttiği üç etken; alaka aramaya uyum, mesafe konum yakınlığı, belirginlik tanınırlıktır. |
-| **NAP** | Ad, adres, telefon; kayıtlar arasında tutarlı olmalı. Bkz. NAP tutarlılığı. |
-| **Yerel paket / harita sonuçları** | Arama sonucunda gösterilen işletme ve harita bölümü. |
-| **Atıf (citation)** | İşletmenin adı, adresi ve telefonunun rehberlerde anılması. |
-| **Hizmet bölgesi** | İşletmenin hizmet verdiği alanlar. Bkz. hizmet bölgesi. |
+- ****Alaka, mesafe, belirginlik**:** Google’ın yerel sıralamada belirttiği üç etken; alaka aramaya uyum, mesafe konum yakınlığı, belirginlik tanınırlıktır.
+- ****NAP**:** Ad, adres, telefon; kayıtlar arasında tutarlı olmalı. Bkz. NAP tutarlılığı.
+- ****Yerel paket / harita sonuçları**:** Arama sonucunda gösterilen işletme ve harita bölümü.
+- ****Atıf (citation)**:** İşletmenin adı, adresi ve telefonunun rehberlerde anılması.
+- ****Hizmet bölgesi**:** İşletmenin hizmet verdiği alanlar. Bkz. hizmet bölgesi.
 
 ## Ajans konuşmalarında sık geçen ifadeler
 
-| İfade | Dikkat |
-| --- | --- |
-| “Sıralamayı garanti ederiz” | Google kimsenin birinci sıra garantisi veremeyeceğini söyler. |
-| “Özel bağlantı ağımız var” | Bağlantı spam’i riski; yöntemi açıklamalarını isteyin. |
-| “Otorite puanımız yükseldi” | Üçüncü taraf puandır; Google bu araçları değerlendirmez. |
-| “Trafik arttı” | Hangi sayfa, hangi arama, işe dönüştü mü? |
-| “Google’a öncelikli gönderim yapıyoruz” | Google bu tür tanıtımlara karşı uyarır. |
+- **“Sıralamayı garanti ederiz”:** Google kimsenin birinci sıra garantisi veremeyeceğini söyler.
+- **“Özel bağlantı ağımız var”:** Bağlantı spam’i riski; yöntemi açıklamalarını isteyin.
+- **“Otorite puanımız yükseldi”:** Üçüncü taraf puandır; Google bu araçları değerlendirmez.
+- **“Trafik arttı”:** Hangi sayfa, hangi arama, işe dönüştü mü?
+- **“Google’a öncelikli gönderim yapıyoruz”:** Google bu tür tanıtımlara karşı uyarır.
 
 ## Denizli’den bir örnek
 

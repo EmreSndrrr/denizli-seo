@@ -7,7 +7,7 @@ service: teknik-seo
 imageAlt: "Bir performans grafiği ve altında üç denetim satırı; ikisi onaylı, biri uyarılı"
 ---
 
-**Kısa cevap:** Sitenizin Google dizininde olup olmadığını görmek için Search Console’a sitenizi ekleyip doğrulayın. Ardından Sayfa dizine ekleme raporunda önemli sayfalarınızın “dizine eklendi” tarafında olup olmadığına bakın. Tek bir sayfayı URL denetimi aracına yazın; “URL Google’da mevcut” yazıyorsa sayfa dizindedir. Eksik sayfalar için nedeni okuyun, düzeltin, site haritası gönderin ve gerekirse dizine ekleme isteyin.
+Sitenizin Google dizininde olup olmadığını görmek için Search Console’a sitenizi ekleyip doğrulayın. Ardından Sayfa dizine ekleme raporunda önemli sayfalarınızın “dizine eklendi” tarafında olup olmadığına bakın. Tek bir sayfayı URL denetimi aracına yazın; “URL Google’da mevcut” yazıyorsa sayfa dizindedir. Eksik sayfalar için nedeni okuyun, düzeltin, site haritası gönderin ve gerekirse dizine ekleme isteyin.
 
 **Google Search Console**, sitenizin Google’da nasıl göründüğünü gösteren ücretsiz bir araçtır. Bu yazıda kurulumdan sonra ilk gün bakmanız gereken beş yeri sırayla anlatıyoruz: sayfa dizine ekleme raporu, URL denetimi, site haritası, performans ve bağlantı raporu. Her adımda raporda ne göreceğinizi, ne anlama geldiğini ve ne yapmanız gerektiğini yazdık.
 
@@ -49,18 +49,16 @@ Raporda gri, yani dizine eklenmemiş sayfalar görmek tek başına sorun değild
 
 Aşağıdaki adlar Google’ın Türkçe yardım sayfasındaki adlardır; arayüzde küçük yazım farkları olabilir.
 
-| Rapordaki durum | Ne anlama gelir? | Ne yapmalı? |
-| --- | --- | --- |
-| Sayfa dizine eklendi | Sayfa Google dizininde ve aramada görünmeye uygun. | Bir şey yapmanız gerekmez. |
-| URL “noindex” olarak işaretlenmiş | Sayfada dizine eklemeyi engelleyen bir kural var. | Bilerek konulmadıysa kaldırın, sonra dizine ekleme isteyin. |
-| Tarandı: Şu anda dizine eklenmiş değil | Google sayfayı taradı ama dizine almadı. | Önemli bir sayfaysa içeriği güçlendirin, benzer sayfalarla çakışıp çakışmadığına bakın. |
-| Bulundu: Şu anda dizine eklenmiş değil | Google adresi biliyor ama henüz taramadı. | Sayfaya iç bağlantı verin, site haritasında olduğundan emin olun. |
-| Kullanıcı tarafından seçilen standart sayfa olmadan kopya | Sayfa başka bir sayfanın kopyası sayıldı; Google diğerini seçti. | Doğru sayfa seçildiyse sorun yok; değilse standart (canonical) adresi belirtin. |
-| Yönlendirmeli sayfa | Adres başka bir adrese yönlendiriyor. | Normaldir; hedef sayfanın dizinde olduğunu kontrol edin. |
-| Bulunamadı (404) | Sayfa silinmiş ya da adres hatalı. | Sayfa taşındıysa yeni adrese 301 yönlendirmesi verin. |
-| Soft 404 | Sayfa “bulunamadı” gibi görünüyor ama sunucu hata kodu döndürmüyor. | Gerçekten yoksa 404 döndürün; varsa içeriği netleştirin. |
-| Sunucu hatası (5xx) | Google sayfayı istediğinde sunucu hata verdi. | Barındırma firmanızla görüşün; sorun sürüyorsa sunucuyu inceletin. |
-| URL, robots.txt tarafından engellendi | robots.txt dosyası Google’ın taramasını engelliyor. | Engel bilinçli değilse kuralı kaldırın. |
+- **Sayfa dizine eklendi:** ne anlama gelir?: Sayfa Google dizininde ve aramada görünmeye uygun.; ne yapmalı?: Bir şey yapmanız gerekmez.
+- **URL “noindex” olarak işaretlenmiş:** ne anlama gelir?: Sayfada dizine eklemeyi engelleyen bir kural var.; ne yapmalı?: Bilerek konulmadıysa kaldırın, sonra dizine ekleme isteyin.
+- **Tarandı: Şu anda dizine eklenmiş değil:** ne anlama gelir?: Google sayfayı taradı ama dizine almadı.; ne yapmalı?: Önemli bir sayfaysa içeriği güçlendirin, benzer sayfalarla çakışıp çakışmadığına bakın.
+- **Bulundu: Şu anda dizine eklenmiş değil:** ne anlama gelir?: Google adresi biliyor ama henüz taramadı.; ne yapmalı?: Sayfaya iç bağlantı verin, site haritasında olduğundan emin olun.
+- **Kullanıcı tarafından seçilen standart sayfa olmadan kopya:** ne anlama gelir?: Sayfa başka bir sayfanın kopyası sayıldı; Google diğerini seçti.; ne yapmalı?: Doğru sayfa seçildiyse sorun yok; değilse standart (canonical) adresi belirtin.
+- **Yönlendirmeli sayfa:** ne anlama gelir?: Adres başka bir adrese yönlendiriyor.; ne yapmalı?: Normaldir; hedef sayfanın dizinde olduğunu kontrol edin.
+- **Bulunamadı (404):** ne anlama gelir?: Sayfa silinmiş ya da adres hatalı.; ne yapmalı?: Sayfa taşındıysa yeni adrese 301 yönlendirmesi verin.
+- **Soft 404:** ne anlama gelir?: Sayfa “bulunamadı” gibi görünüyor ama sunucu hata kodu döndürmüyor.; ne yapmalı?: Gerçekten yoksa 404 döndürün; varsa içeriği netleştirin.
+- **Sunucu hatası (5xx):** ne anlama gelir?: Google sayfayı istediğinde sunucu hata verdi.; ne yapmalı?: Barındırma firmanızla görüşün; sorun sürüyorsa sunucuyu inceletin.
+- **URL, robots.txt tarafından engellendi:** ne anlama gelir?: robots.txt dosyası Google’ın taramasını engelliyor.; ne yapmalı?: Engel bilinçli değilse kuralı kaldırın.
 
 Google, “Tarandı: Şu anda dizine eklenmiş değil” mesajının birçok sitede görüldüğünü ve her zaman ilgilenilmesi gereken bir sorun olmadığını belirtir. Bizim gözlemimiz, işletme sitelerinde bu durumun çoğu zaman birbirine çok benzeyen ya da çok az içerik taşıyan sayfalarda ortaya çıktığı yönünde. Her ilçe için aynı metni ilçe adı değiştirilerek kopyalamak buna tipik bir örnektir. Hizmet sayfalarını nasıl ayrıştıracağınızı [hizmet sayfası yazımı rehberimizde](/blog/hizmet-sayfasi-nasil-yazilir/) anlattık.
 

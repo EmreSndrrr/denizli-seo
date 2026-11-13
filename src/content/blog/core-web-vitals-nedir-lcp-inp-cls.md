@@ -6,7 +6,7 @@ service: teknik-seo
 imageAlt: "Üç gösterge: yükleme, duyarlılık ve görsel kararlılık"
 ---
 
-**Kısa cevap:** Core Web Vitals, Google’ın sayfa deneyimini ölçmek için kullandığı üç göstergedir: LCP (yükleme hızı), INP (etkileşime yanıt) ve CLS (görsel kararlılık). Google’ın iyi eşikleri: LCP sayfa yüklenmeye başladıktan sonra 2,5 saniye içinde, INP 200 milisaniyeden kısa, CLS 0,1’den az olmalı. Search Console’daki Core Web Vitals raporu, sayfalarınızın bu üç ölçümdeki durumunu gösterir.
+Core Web Vitals, Google’ın sayfa deneyimini ölçmek için kullandığı üç göstergedir: LCP (yükleme hızı), INP (etkileşime yanıt) ve CLS (görsel kararlılık). Google’ın iyi eşikleri: LCP sayfa yüklenmeye başladıktan sonra 2,5 saniye içinde, INP 200 milisaniyeden kısa, CLS 0,1’den az olmalı. Search Console’daki Core Web Vitals raporu, sayfalarınızın bu üç ölçümdeki durumunu gösterir.
 
 Siteniz telefonda “yavaş” hissettiriyorsa bunun sayısal karşılığı Core Web Vitals’tır. Ölçüler ilk bakışta teknik görünür, ama her biri ziyaretçinin hissettiği bir şeyi anlatır: sayfa ne zaman göründü, tıkladığımda ne kadar çabuk yanıt verdi, sayfa kaydı mı? Bu yazıda üç ölçümü sade bir dille, eşikleriyle ve küçük işletme siteleri için düzeltme sırasıyla anlatıyoruz. Hızı pratikte ölçmek için [Sitem telefonda yavaş: nereden başlamalıyım?](/blog/telefonda-hizli-acilan-site/) yazımıza da bakabilirsiniz.
 
@@ -48,14 +48,12 @@ Google’ın sayfa deneyimi sayfası, temel sıralama sistemlerinin iyi bir sayf
 
 ## Küçük bir işletme sitesi için düzeltme sırası
 
-| Sıra | İş | Etkilediği ölçüm |
-| --- | --- | --- |
-| 1 | Büyük görselleri küçült, doğru biçime çevir | LCP |
-| 2 | LCP görselini geç yüklemeyin | LCP |
-| 3 | Sunucu yanıt süresine bak; ağır eklenti ve tema | LCP, INP |
-| 4 | Görsellerin boyutunu tanımla | CLS |
-| 5 | Gereksiz JavaScript ve eklentileri kaldır | INP |
-| 6 | Geç yüklenen banner ve bildirimleri düzenle | CLS |
+- **1:** i̇ş: Büyük görselleri küçült, doğru biçime çevir; etkilediği ölçüm: LCP
+- **2:** i̇ş: LCP görselini geç yüklemeyin; etkilediği ölçüm: LCP
+- **3:** i̇ş: Sunucu yanıt süresine bak; ağır eklenti ve tema; etkilediği ölçüm: LCP, INP
+- **4:** i̇ş: Görsellerin boyutunu tanımla; etkilediği ölçüm: CLS
+- **5:** i̇ş: Gereksiz JavaScript ve eklentileri kaldır; etkilediği ölçüm: INP
+- **6:** i̇ş: Geç yüklenen banner ve bildirimleri düzenle; etkilediği ölçüm: CLS
 
 İlk iki iş çoğu küçük sitede en büyük farkı yaratır. Görsel düzeltmeleri için [görsel SEO](/blog/gorsel-seo/) yazımıza bakın.
 
@@ -69,12 +67,10 @@ Google, dizine ekleme ve sıralama için sitenin mobil sürümünü kullanır; b
 
 ## Belirtiden ölçüme: sorun nerede?
 
-| Ziyaretçinin hissettiği | Büyük olasılıkla ölçüm | İlk bakılacak yer |
-| --- | --- | --- |
-| “Sayfa geç görünüyor” | LCP | Ana görsel, sunucu süresi |
-| “Tıkladım, hemen tepki vermedi” | INP | Ağır JavaScript, eklentiler |
-| “Yazıyı okurken sayfa kaydı, yanlış yere tıkladım” | CLS | Boyutsuz görsel, geç yüklenen banner |
-| “Telefonda çok kasıyor” | LCP ve INP | Mobil ölçüm, görsel boyutu |
+- **“Sayfa geç görünüyor”:** büyük olasılıkla ölçüm: LCP; i̇lk bakılacak yer: Ana görsel, sunucu süresi
+- **“Tıkladım, hemen tepki vermedi”:** büyük olasılıkla ölçüm: INP; i̇lk bakılacak yer: Ağır JavaScript, eklentiler
+- **“Yazıyı okurken sayfa kaydı, yanlış yere tıkladım”:** büyük olasılıkla ölçüm: CLS; i̇lk bakılacak yer: Boyutsuz görsel, geç yüklenen banner
+- **“Telefonda çok kasıyor”:** büyük olasılıkla ölçüm: LCP ve INP; i̇lk bakılacak yer: Mobil ölçüm, görsel boyutu
 
 ## Aylık Core Web Vitals kontrolü
 

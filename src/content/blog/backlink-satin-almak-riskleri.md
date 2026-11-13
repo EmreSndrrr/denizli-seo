@@ -7,7 +7,7 @@ service: backlink-hizmeti
 imageAlt: "Kopmuş iki zincir halkası ve önünde turuncu bir uyarı işareti"
 ---
 
-**Kısa cevap:** Sıralamayı etkilemek için backlink satın almak, Google’ın spam politikalarına aykırıdır. Google, sıralama amacıyla para, ürün ya da hizmet karşılığında verilen bağlantıları “bağlantı spam’i” sayar. Böyle bağlantılar sitenin daha alt sıralarda çıkmasına ya da manuel işlem almasına yol açabilir. Reklam ve sponsorluk bağlantıları ise `rel="sponsored"` veya `rel="nofollow"` ile işaretlendiğinde kurala aykırı değildir.
+Sıralamayı etkilemek için backlink satın almak, Google’ın spam politikalarına aykırıdır. Google, sıralama amacıyla para, ürün ya da hizmet karşılığında verilen bağlantıları “bağlantı spam’i” sayar. Böyle bağlantılar sitenin daha alt sıralarda çıkmasına ya da manuel işlem almasına yol açabilir. Reklam ve sponsorluk bağlantıları ise `rel="sponsored"` veya `rel="nofollow"` ile işaretlendiğinde kurala aykırı değildir.
 
 Bu yazıda Google’ın hangi bağlantıları spam saydığını, hacklink ve özel blog ağlarının (PBN) neden zararlı olduğunu, sitenizde satın alınmış bağlantı olup olmadığını nasıl kontrol edeceğinizi ve manuel işlem aldıysanız hangi sırayla ilerleyeceğinizi anlatıyoruz. Her bilgi için Google’ın kendi sayfasına bağlantı veriyoruz.
 
@@ -87,11 +87,9 @@ Google’ın SEO uzmanı seçme rehberinde açık bir cümle var: iş verdiğini
 
 Bağlantı için ödeme yapılmışsa, bağlantıyı veren sitenin onu işaretlemesi gerekir. Google’ın önerdiği değerler şunlar ([Google: giden bağlantıları nitelendirme](https://developers.google.com/search/docs/crawling-indexing/qualify-outbound-links?hl=tr)):
 
-| Değer | Ne zaman kullanılır? |
-| --- | --- |
-| `rel="sponsored"` | Reklam ya da ücretli yerleşim olan bağlantılar |
-| `rel="ugc"` | Yorum ve forum yazısı gibi kullanıcıların eklediği bağlantılar |
-| `rel="nofollow"` | Diğer değerler uymadığında ve Google’ın sitenizi bağlantı verilen sayfayla ilişkilendirmesini istemediğinizde |
+- **`rel="sponsored"`:** Reklam ya da ücretli yerleşim olan bağlantılar
+- **`rel="ugc"`:** Yorum ve forum yazısı gibi kullanıcıların eklediği bağlantılar
+- **`rel="nofollow"`:** Diğer değerler uymadığında ve Google’ın sitenizi bağlantı verilen sayfayla ilişkilendirmesini istemediğinizde
 
 Google’a göre ücretli bağlantılar için önceden önerilen `nofollow`, hâlâ kabul edilebilir bir yoldur; ancak `sponsored` tercih edilir. Birden fazla değer boşlukla ya da virgülle birlikte yazılabilir.
 

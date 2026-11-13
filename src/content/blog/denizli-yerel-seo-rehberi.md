@@ -7,7 +7,7 @@ service: yerel-seo
 imageAlt: "Denizli haritası üzerinde işaretçiler ve Google Haritalar’da öne çıkan bir işletme"
 ---
 
-**Kısa cevap:** Denizli’de yerel SEO, işletmenizin Google Haritalar’da ve “Denizli kuyumcu” ya da “yakınımdaki eczane” gibi konumlu aramalarda bulunmasını sağlayan çalışmadır. Başlangıç sırası şudur: Google İşletme Profili’nin sahipliğini alıp doğrulamak, kategori ve bilgileri eksiksiz girmek, sitede aynı ad, adres ve telefonu yazmak, gerçek müşterilerden yorum istemek ve sonucu her ay ölçmek.
+Denizli’de yerel SEO, işletmenizin Google Haritalar’da ve “Denizli kuyumcu” ya da “yakınımdaki eczane” gibi konumlu aramalarda bulunmasını sağlayan çalışmadır. Başlangıç sırası şudur: Google İşletme Profili’nin sahipliğini alıp doğrulamak, kategori ve bilgileri eksiksiz girmek, sitede aynı ad, adres ve telefonu yazmak, gerçek müşterilerden yorum istemek ve sonucu her ay ölçmek.
 
 Bu rehber, Denizli’de dükkânı, ofisi ya da hizmet aracı olan bir işletme sahibinin ilk ayda yapabileceği işleri sırasıyla anlatıyor. Google’ın yerel sonuçları nasıl sıraladığını, profilde ve sitede nelerin önemli olduğunu, en sık yapılan hataları ve ilerlemenin nasıl ölçüleceğini bulacaksınız. Google’a dair her bilginin yanında, kontrol edebileceğiniz resmî kaynak var.
 
@@ -122,14 +122,12 @@ Doğal bağlantı kaynakları şunlardır: üyesi olduğunuz meslek odası ya da
 
 En sık hatalar, profili kurallara aykırı biçimde “güçlendirmeye” çalışmaktan doğar. Aşağıdaki tablo, sık gördüğümüz hataları ve doğrusunu özetliyor.
 
-| Hata | Neden sorun? | Doğrusu |
-| --- | --- | --- |
-| İşletme adına “Denizli” ya da hizmet adı eklemek | Google’ın ad kurallarına aykırı; profil askıya alınabilir | Tabeladaki adı aynen yazmak |
-| Aynı yer için ikinci profil açmak | Google her konum için tek profil ister | Mevcut profilin sahipliğini almak |
-| Gidilmeyen ilçeleri hizmet bölgesine eklemek | Müşteriyi yanıltır; Google yaklaşık 2 saatlik sürüş sınırı önerir | Yalnızca gerçekten gidilen yerleri seçmek |
-| Yorum karşılığı indirim vermek | Google bunu sahte etkileşim sayar | Her müşteriden teşviksiz yorum istemek |
-| Profil ile sitede farklı telefon ya da adres | Google bilgileri birden çok kaynaktan derler | Tek bir biçim seçip her yerde kullanmak |
-| Her ilçe için kopya sayfa açmak | Google’ın spam politikalarında sayılan bir uygulama | Gerçek bilgisi olan ilçelere sayfa, diğerlerine tek paragraf |
+- **İşletme adına “Denizli” ya da hizmet adı eklemek:** neden sorun?: Google’ın ad kurallarına aykırı; profil askıya alınabilir; doğrusu: Tabeladaki adı aynen yazmak
+- **Aynı yer için ikinci profil açmak:** neden sorun?: Google her konum için tek profil ister; doğrusu: Mevcut profilin sahipliğini almak
+- **Gidilmeyen ilçeleri hizmet bölgesine eklemek:** neden sorun?: Müşteriyi yanıltır; Google yaklaşık 2 saatlik sürüş sınırı önerir; doğrusu: Yalnızca gerçekten gidilen yerleri seçmek
+- **Yorum karşılığı indirim vermek:** neden sorun?: Google bunu sahte etkileşim sayar; doğrusu: Her müşteriden teşviksiz yorum istemek
+- **Profil ile sitede farklı telefon ya da adres:** neden sorun?: Google bilgileri birden çok kaynaktan derler; doğrusu: Tek bir biçim seçip her yerde kullanmak
+- **Her ilçe için kopya sayfa açmak:** neden sorun?: Google’ın spam politikalarında sayılan bir uygulama; doğrusu: Gerçek bilgisi olan ilçelere sayfa, diğerlerine tek paragraf
 
 ## Yapay zekâ aramalarında yerel işletme nasıl görünür?
 

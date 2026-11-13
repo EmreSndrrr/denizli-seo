@@ -6,7 +6,7 @@ service: web-tasarim
 imageAlt: "Sitede iletişim formu ve sabit WhatsApp butonu yerleşimi"
 ---
 
-**Kısa cevap:** İletişim formu ve WhatsApp butonu, ziyaretçiyi müşteriye çeviren iki ana kapıdır. WhatsApp butonu için `https://wa.me/90XXXXXXXXXX` biçiminde, ülke koduyla yazılmış (başında 0 ve + olmadan) bir bağlantı kullanılır; isterseniz `?text=` ile hazır bir mesaj eklenir. Form ise kısa olmalıdır: ad, telefon, kısa not. Her ikisini de mobilde baş parmakla kolay basılacak yere koyun, gelen mesajlara hızlı dönün ve tıklamaları ölçün. Kişisel veri topladığınız için amacını açıkça söyleyin.
+İletişim formu ve WhatsApp butonu, ziyaretçiyi müşteriye çeviren iki ana kapıdır. WhatsApp butonu için `https://wa.me/90XXXXXXXXXX` biçiminde, ülke koduyla yazılmış (başında 0 ve + olmadan) bir bağlantı kullanılır; isterseniz `?text=` ile hazır bir mesaj eklenir. Form ise kısa olmalıdır: ad, telefon, kısa not. Her ikisini de mobilde baş parmakla kolay basılacak yere koyun, gelen mesajlara hızlı dönün ve tıklamaları ölçün. Kişisel veri topladığınız için amacını açıkça söyleyin.
 
 Birçok işletme sitesinde iletişim yolu ya hiç yoktur ya da öyle saklıdır ki müşteri vazgeçer. Oysa yerel hizmetlerde (klima servisi, klinik, temizlik) müşteri çoğu zaman sayfayı okumadan önce “hemen yazabilir miyim?” diye bakar. Bu yazıda iki kanalı kurmanın teknik ve pratik tarafını anlatıyoruz. Sayfanın bilgi tarafı için [iletişim sayfası SEO’su](/blog/iletisim-sayfasi-seo-su-adres-telefon-ve-harita/), kampanya sayfaları için [açılış sayfası nasıl hazırlanır?](/blog/acilis-sayfasi-landing-page-nasil-hazirlanir/) yazılarına bakabilirsiniz.
 
@@ -58,15 +58,13 @@ Bu biçim WhatsApp’ın bağlantı sistemidir; sitenizdeki bir Google kuralı d
 
 Her ek alan, formu doldurma oranını düşürür. Başlangıç için şu alanlar çoğu işletmeye yeter:
 
-| Alan | Zorunlu mu? | Not |
-| --- | --- | --- |
-| Ad soyad | Evet | Tek alan, ayrı ad ve soyad gerekmez |
-| Telefon | Evet | Geri dönüş için |
-| E-posta | İsteğe bağlı | Zorunlu yapmayın; çoğu müşteri telefon bırakır |
-| Hizmet / konu | Seçmeli liste | Mesajı doğru kişiye yönlendirir |
-| İlçe / adres | Hizmete göre | Servis işlerinde faydalıdır |
-| Mesaj | İsteğe bağlı | Kısa tutun |
-| Onay kutusu | Gerekirse | Kişisel veri bilgilendirmesi için |
+- **Ad soyad:** zorunlu mu?: Evet; not: Tek alan, ayrı ad ve soyad gerekmez
+- **Telefon:** zorunlu mu?: Evet; not: Geri dönüş için
+- **E-posta:** zorunlu mu?: İsteğe bağlı; not: Zorunlu yapmayın; çoğu müşteri telefon bırakır
+- **Hizmet / konu:** zorunlu mu?: Seçmeli liste; not: Mesajı doğru kişiye yönlendirir
+- **İlçe / adres:** zorunlu mu?: Hizmete göre; not: Servis işlerinde faydalıdır
+- **Mesaj:** zorunlu mu?: İsteğe bağlı; not: Kısa tutun
+- **Onay kutusu:** zorunlu mu?: Gerekirse; not: Kişisel veri bilgilendirmesi için
 
 ### Adım adım kurulum
 
@@ -97,13 +95,11 @@ Google, dizine ekleme ve sıralama için sitenizin mobil sürümünü esas alır
 
 Kurup bırakmayın. Hangi kanalın müşteri getirdiğini bilmek, bütçe ve zaman kararlarını değiştirir:
 
-| Ölçüm | Nasıl yapılır? |
-| --- | --- |
-| Form gönderimi | Teşekkür sayfasının ziyaret sayısı |
-| WhatsApp tıklaması | Buton tıklamasını analiz aracında olay olarak kaydedin |
-| Telefon tıklaması | `tel:` bağlantısı tıklaması |
-| Kaynak | Hangi sayfa ve hangi aramadan geldi? |
-| Gerçek sonuç | Gelen talebin kaçı müşteriye döndü? (kendi kaydınızla) |
+- **Form gönderimi:** Teşekkür sayfasının ziyaret sayısı
+- **WhatsApp tıklaması:** Buton tıklamasını analiz aracında olay olarak kaydedin
+- **Telefon tıklaması:** `tel:` bağlantısı tıklaması
+- **Kaynak:** Hangi sayfa ve hangi aramadan geldi?
+- **Gerçek sonuç:** Gelen talebin kaçı müşteriye döndü? (kendi kaydınızla)
 
 Tıklama sayısı gerçek müşteri sayısı değildir; talebin sonucunu kendi kaydınızda tutun. Ölçüm yaklaşımı için [yerel SEO sonuçları nasıl ölçülür?](/blog/yerel-seo-sonuclari-nasil-olculur/) yazısına bakın.
 
@@ -119,17 +115,15 @@ Teknik kurulum yarım iştir. Müşteri bir mesaj bıraktığında ilk cevap hı
 
 ## Sık yapılan hatalar
 
-| Hata | Çözüm |
-| --- | --- |
-| Form çok uzun | 3–4 alana indirin |
-| E-posta alanını zorunlu yapmak | Telefon yeterli olabilir |
-| Formun e-postası spam’e düşer | Gönderen adresini ve e-posta ayarlarını test edin |
-| WhatsApp numarasında ülke kodu hatası | `90` ile başlayan, sıfırsız biçim |
-| Yüzen buton içeriği kapatır | Konumu ve boyutu mobilde deneyin |
-| Teşekkür sayfası yok | Gönderimi ölçmek için ayrı sayfa |
-| Gelen mesajlara geç dönmek | Dönüş süresi ve sorumlu belirleyin |
-| Kişisel veri bilgisi eksik | Kısa bilgilendirme ve gizlilik sayfası |
-| Müşteri mesajlarını kişisel telefonda tutmak | İşletme hattı kullanın |
+- **Form çok uzun:** 3–4 alana indirin
+- **E-posta alanını zorunlu yapmak:** Telefon yeterli olabilir
+- **Formun e-postası spam’e düşer:** Gönderen adresini ve e-posta ayarlarını test edin
+- **WhatsApp numarasında ülke kodu hatası:** `90` ile başlayan, sıfırsız biçim
+- **Yüzen buton içeriği kapatır:** Konumu ve boyutu mobilde deneyin
+- **Teşekkür sayfası yok:** Gönderimi ölçmek için ayrı sayfa
+- **Gelen mesajlara geç dönmek:** Dönüş süresi ve sorumlu belirleyin
+- **Kişisel veri bilgisi eksik:** Kısa bilgilendirme ve gizlilik sayfası
+- **Müşteri mesajlarını kişisel telefonda tutmak:** İşletme hattı kullanın
 
 ## Denizli’den bir örnek
 
@@ -137,18 +131,18 @@ Teknik kurulum yarım iştir. Müşteri bir mesaj bıraktığında ilk cevap hı
 
 ## Yayın öncesi kontrol listesi
 
-| Kontrol | Evet / Hayır |
-| --- | --- |
-| WhatsApp bağlantısı telefonda doğru numarayı açıyor mu? | |
-| Hazır mesaj okunaklı ve Türkçe karakterler doğru mu? | |
-| Telefon numarası tıklanabilir mi? | |
-| Form alanları en aza indirilmiş mi? | |
-| Spam koruması var mı? | |
-| Form e-postası gerçekten geliyor mu? | |
-| Teşekkür sayfası ve ölçüm kurulu mu? | |
-| Kişisel veri bilgilendirmesi ve gizlilik bağlantısı var mı? | |
-| Yüzen buton mobilde içeriği kapatıyor mu? | |
-| Dönüş süresi ve sorumlu kişi belli mi? | |
+Şunları tek tek kontrol edin:
+
+- WhatsApp bağlantısı telefonda doğru numarayı açıyor mu?
+- Hazır mesaj okunaklı ve Türkçe karakterler doğru mu?
+- Telefon numarası tıklanabilir mi?
+- Form alanları en aza indirilmiş mi?
+- Spam koruması var mı?
+- Form e-postası gerçekten geliyor mu?
+- Teşekkür sayfası ve ölçüm kurulu mu?
+- Kişisel veri bilgilendirmesi ve gizlilik bağlantısı var mı?
+- Yüzen buton mobilde içeriği kapatıyor mu?
+- Dönüş süresi ve sorumlu kişi belli mi?
 
 ## Denizli SEO bu konuda nasıl yardımcı olur?
 

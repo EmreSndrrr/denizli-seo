@@ -6,7 +6,7 @@ service: yerel-seo
 imageAlt: "Ad, adres ve telefon alanlarının üç farklı sitede aynı yazıldığını gösteren kartlar"
 ---
 
-**Kısa cevap:** NAP, işletmenin adı, adresi ve telefonudur. Bu üç bilgi sitenizde, Google İşletme Profili’nde, sosyal medyada ve rehber kayıtlarında aynı biçimde yazılmalıdır. Tutarlı bilgi, Google’ın işletmenizi doğru tanımasına ve müşterinin sizi bulmasına yardımcı olur. Kontrol için bilgilerin bulunduğu yerleri listeleyin, tek bir “doğru” yazım belirleyin ve farklı olanları düzeltin.
+NAP, işletmenin adı, adresi ve telefonudur. Bu üç bilgi sitenizde, Google İşletme Profili’nde, sosyal medyada ve rehber kayıtlarında aynı biçimde yazılmalıdır. Tutarlı bilgi, Google’ın işletmenizi doğru tanımasına ve müşterinin sizi bulmasına yardımcı olur. Kontrol için bilgilerin bulunduğu yerleri listeleyin, tek bir “doğru” yazım belirleyin ve farklı olanları düzeltin.
 
 “NAP” İngilizce “name, address, phone” ifadesinin kısaltmasıdır. Bu üçlü, yerel SEO’nun en temel ve en çok ihmal edilen parçasıdır; çünkü her yerde “aşağı yukarı” aynı olması yeterli sanılır. Bu yazıda tutarlılığın neden önemli olduğunu, Denizli’de en sık yapılan yazım farklarını ve bir kontrol listesini veriyoruz. Profilin tamamı için [Google İşletme Profili nasıl doldurulur?](/blog/google-isletme-profili-nasil-doldurulur/) rehberimize bakabilirsiniz.
 
@@ -32,16 +32,14 @@ Bu kurallar, “doğru yazım”ı seçerken sınırdır: profilde izin verilmey
 
 Bizim gözlemimiz, Denizli’de tutarsızlıkların birkaç tipik kaynaktan geldiği yönünde:
 
-| Tutarsızlık | Örnek | Düzeltme |
-| --- | --- | --- |
-| Numaralı sokak yazımı | “1894. Sk.”, “1894 Sokak”, “1894. Sokak” | Tek biçim seçin |
-| Eski sokak adı | Yeni ve eski adın karışması | Güncel resmî adı kullanın |
-| Mahalle ve ilçe | Merkezefendi ile Pamukkale sınırındaki mahalleler | Güncel ilçeyi kontrol edin |
-| Kat ve dükkân numarası | Bazı yerlerde yok | Hepsinde yazın |
-| İş hanı ve sitesi adı | Bina adı bir yerde var, bir yerde yok | Tek biçim kullanın |
-| Telefon | Sabit hat bir yerde, cep bir yerde | Müşterinin arayacağı numarayı seçin |
-| Alan kodu | “0258…” ile “258…” ya da boşluklu/boşluksuz | Tek biçim seçin |
-| İşletme adı | “Aksoy Kuyumculuk” / “Aksoy Kuyumculuk Ltd. Şti.” | Tabeladaki adı kullanın |
+- **Numaralı sokak yazımı:** örnek: “1894. Sk.”, “1894 Sokak”, “1894. Sokak”; düzeltme: Tek biçim seçin
+- **Eski sokak adı:** örnek: Yeni ve eski adın karışması; düzeltme: Güncel resmî adı kullanın
+- **Mahalle ve ilçe:** örnek: Merkezefendi ile Pamukkale sınırındaki mahalleler; düzeltme: Güncel ilçeyi kontrol edin
+- **Kat ve dükkân numarası:** örnek: Bazı yerlerde yok; düzeltme: Hepsinde yazın
+- **İş hanı ve sitesi adı:** örnek: Bina adı bir yerde var, bir yerde yok; düzeltme: Tek biçim kullanın
+- **Telefon:** örnek: Sabit hat bir yerde, cep bir yerde; düzeltme: Müşterinin arayacağı numarayı seçin
+- **Alan kodu:** örnek: “0258…” ile “258…” ya da boşluklu/boşluksuz; düzeltme: Tek biçim seçin
+- **İşletme adı:** örnek: “Aksoy Kuyumculuk” / “Aksoy Kuyumculuk Ltd. Şti.”; düzeltme: Tabeladaki adı kullanın
 
 ## Doğru yazımı nasıl belirlersiniz?
 
@@ -92,13 +90,11 @@ Her şubenin kendi adı ve adresi olmalı; aynı telefon numarasını birden faz
 
 Örnek (hayalî bir işletme için): Merkezefendi’de bir kuyumcu. Sitede “1894. Sokak No: 12”, profilde “1894 Sk. 12”, Instagram’da “Kuyumcular Çarşısı”, rehberde eski telefon numarası var.
 
-| Kaynak | Bulgu | Düzeltme |
-| --- | --- | --- |
-| Site | “1894. Sokak No: 12” | NAP kartı olarak kabul edildi |
-| Profil | “1894 Sk. 12” | Karttaki yazıma getirildi |
-| Instagram | Çarşı adı var, sokak yok | Biyografiye tam adres yazıldı |
-| Rehber | Eski telefon | Güncellendi; eski numara yönlendiriliyor |
-| Kartvizit | Eski adres | Yeni baskıda düzeltilecek |
+- **Site:** bulgu: “1894. Sokak No: 12”; düzeltme: NAP kartı olarak kabul edildi
+- **Profil:** bulgu: “1894 Sk. 12”; düzeltme: Karttaki yazıma getirildi
+- **Instagram:** bulgu: Çarşı adı var, sokak yok; düzeltme: Biyografiye tam adres yazıldı
+- **Rehber:** bulgu: Eski telefon; düzeltme: Güncellendi; eski numara yönlendiriliyor
+- **Kartvizit:** bulgu: Eski adres; düzeltme: Yeni baskıda düzeltilecek
 
 Bu örnek sonuç vaadi değildir; tutarlılığın nasıl denetleneceğini gösterir.
 
@@ -116,16 +112,16 @@ Sosyal medya hesaplarında adres ve telefon çoğu zaman biyografide, kısa bir 
 
 Aşağıdaki tabloyu kopyalayıp doldurun. “Doğru mu?” sütununa evet ya da hayır yazın; hayır olanlar yapılacaklar listenizdir.
 
-| Yer | Ad doğru mu? | Adres doğru mu? | Telefon doğru mu? | Saat doğru mu? | Not |
-| --- | --- | --- | --- | --- | --- |
-| Site: ana sayfa | | | | | |
-| Site: iletişim | | | | | |
-| Site: alt bilgi | | | | | |
-| İşletme Profili | | | | | |
-| Instagram | | | | | |
-| Facebook | | | | | |
-| Rehber 1 | | | | | |
-| Rehber 2 | | | | | |
+Şunları tek tek kontrol edin:
+
+- Site: ana sayfa
+- Site: iletişim
+- Site: alt bilgi
+- İşletme Profili
+- Instagram
+- Facebook
+- Rehber 1
+- Rehber 2
 
 ## Güncelleme ne zaman görünür?
 

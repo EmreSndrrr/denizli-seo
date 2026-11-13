@@ -6,7 +6,7 @@ service: icerik-seo
 imageAlt: "Yeni bir site için sayfa planı: ana sayfa, hizmetler, hakkımızda, iletişim"
 ---
 
-**Kısa cevap:** Sıfırdan bir işletme sitesi için ilk aşamada şu sayfalar yeterlidir: ana sayfa, her ana hizmet için ayrı bir hizmet sayfası, hakkımızda, iletişim ve gizlilik bilgisi. Blog, ilçe sayfaları ve vaka çalışmaları sonra gelir. Önce müşterinin “ne yapıyorsunuz, nasıl ulaşırım, size güvenebilir miyim?” sorularını cevaplayın; sayfa sayısını artırmak için aynı içeriği çoğaltmayın.
+Sıfırdan bir işletme sitesi için ilk aşamada şu sayfalar yeterlidir: ana sayfa, her ana hizmet için ayrı bir hizmet sayfası, hakkımızda, iletişim ve gizlilik bilgisi. Blog, ilçe sayfaları ve vaka çalışmaları sonra gelir. Önce müşterinin “ne yapıyorsunuz, nasıl ulaşırım, size güvenebilir miyim?” sorularını cevaplayın; sayfa sayısını artırmak için aynı içeriği çoğaltmayın.
 
 Yeni bir site açan işletmeler genellikle iki hataya düşer: ya tek sayfalık bir kartvizit yaparlar ya da içeriği olmayan onlarca sayfa açarlar. Bu yazı ikisi arasındaki dengeyi gösterir. Sitenin teknik tarafı için [SEO uyumlu web sitesi](/blog/seo-uyumlu-web-sitesi/), yerel görünürlük için [Google haritalarda üst sıralara çıkmak](/blog/google-haritalarda-ust-siralara-cikmak/) yazılarına bakabilirsiniz.
 
@@ -45,23 +45,19 @@ Yeni bir site açan işletmeler genellikle iki hataya düşer: ya tek sayfalık 
 
 ## Hangi sayfaları şimdilik yazmayın?
 
-| Sayfa | Neden bekleyin? |
-| --- | --- |
-| Çok sayıda ilçe sayfası | Her biri için özgün içerik yoksa kopya riski; bkz. ilçe sayfası nasıl yazılır? |
-| Vaka çalışmaları | Gerçek ve izinli iş yoksa uydurmayın |
-| Yorumlar sayfası | Gerçek yorum yoksa boş sayfa açmayın |
-| “Hakkımızda”nın uzun hikâyesi | Önce kısa ve net yazın |
+- **Çok sayıda ilçe sayfası:** Her biri için özgün içerik yoksa kopya riski; bkz. ilçe sayfası nasıl yazılır?
+- **Vaka çalışmaları:** Gerçek ve izinli iş yoksa uydurmayın
+- **Yorumlar sayfası:** Gerçek yorum yoksa boş sayfa açmayın
+- **“Hakkımızda”nın uzun hikâyesi:** Önce kısa ve net yazın
 
 ## Sık yapılan hatalar
 
-| Hata | Çözüm |
-| --- | --- |
-| Tek sayfalık site | Hizmetler için ayrı sayfa |
-| Boş “yakında” sayfaları | Yayımlamayın |
-| Aynı metni çoğaltarak sayfa sayısını artırmak | Özgün içerik yazın |
-| İletişim bilgisi eksik | Net ve görünür yazın |
-| Menüde çok fazla öğe | Önemli beş altı sayfa |
-| Siteyi yayına alıp Search Console’u kurmamak | Kurun |
+- **Tek sayfalık site:** Hizmetler için ayrı sayfa
+- **Boş “yakında” sayfaları:** Yayımlamayın
+- **Aynı metni çoğaltarak sayfa sayısını artırmak:** Özgün içerik yazın
+- **İletişim bilgisi eksik:** Net ve görünür yazın
+- **Menüde çok fazla öğe:** Önemli beş altı sayfa
+- **Siteyi yayına alıp Search Console’u kurmamak:** Kurun
 
 ## Denizli’den bir örnek
 

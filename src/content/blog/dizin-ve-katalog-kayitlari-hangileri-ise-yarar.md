@@ -6,7 +6,7 @@ service: backlink-hizmeti
 imageAlt: "İşletme kayıt listesi: güvenilir dizinler işaretli, düşük kaliteliler çizili"
 ---
 
-**Kısa cevap:** Dizin ve katalog kayıtlarının hepsi aynı değerde değildir. Gerçek kullanıcıları olan, kayıt denetimi yapan, işletme bilgisini doğru gösteren yerel ve sektörel rehberlerde yer almak yararlı olabilir. Google’ın spam politikaları ise düşük kaliteli dizinleri ve yer işareti sitelerindeki bağlantıları bağlantı spam’i örnekleri arasında sayar. Kural: kullanıcıya yararlı mı, bilgi doğru mu, kayıt ücretsiz ya da makul mü diye sorun; toplu kayıt paketi almayın.
+Dizin ve katalog kayıtlarının hepsi aynı değerde değildir. Gerçek kullanıcıları olan, kayıt denetimi yapan, işletme bilgisini doğru gösteren yerel ve sektörel rehberlerde yer almak yararlı olabilir. Google’ın spam politikaları ise düşük kaliteli dizinleri ve yer işareti sitelerindeki bağlantıları bağlantı spam’i örnekleri arasında sayar. Kural: kullanıcıya yararlı mı, bilgi doğru mu, kayıt ücretsiz ya da makul mü diye sorun; toplu kayıt paketi almayın.
 
 “Yüz dizine kayıt” teklifleri sık görülür. Bunların çoğu işe yaramaz, bazıları risklidir. Bu yazıda hangi kayıtların anlamlı olduğunu ayırıyoruz. Yerel rehber kayıtları için [yerel rehber kayıtları işe yarar mı?](/blog/yerel-rehber-kayitlari-ise-yarar-mi/), tutarlı bilgi için [ad, adres, telefon tutarlılığı](/blog/ad-adres-telefon-tutarliligi/) yazılarına bakabilirsiniz.
 
@@ -42,13 +42,11 @@ Bir rehberden gelen bağlantıyı “sıralama aracı” gibi görmeyin. Müşte
 
 ## Sık yapılan hatalar
 
-| Hata | Çözüm |
-| --- | --- |
-| Toplu dizin kayıt paketi | Seçici olun |
-| Farklı sitelerde farklı telefon/adres | Tek doğru bilgi |
-| Anahtar kelimeyle şişirilmiş işletme adı | Gerçek işletme adı |
-| Kayıtları listelememek | Kayıt envanteri tutun |
-| Eski kayıtları güncellememek | Yıllık kontrol |
+- **Toplu dizin kayıt paketi:** Seçici olun
+- **Farklı sitelerde farklı telefon/adres:** Tek doğru bilgi
+- **Anahtar kelimeyle şişirilmiş işletme adı:** Gerçek işletme adı
+- **Kayıtları listelememek:** Kayıt envanteri tutun
+- **Eski kayıtları güncellememek:** Yıllık kontrol
 
 ## Denizli’den bir örnek
 

@@ -6,23 +6,21 @@ service: backlink-hizmeti
 imageAlt: "Backlink raporu: kaynak, tarih, yöntem ve nitelendirme sütunları"
 ---
 
-**Kısa cevap:** İyi bir backlink raporu, her bağlantının nerede, ne zaman ve nasıl alındığını açıkça gösterir: kaynak adresi, bağlantı verilen sayfa, bağlantı metni, yöntem (haber, uzman yazısı, ortaklık, kayıt), ücret ya da karşılık var mı, `rel` niteleme durumu ve ölçülen etkiler. “Bağlantı sayısı arttı” gibi yalnızca sayı veren ya da yöntemini açıklamayan rapor yetersizdir. Sıralama garantisi ya da “özel ağ” sözü kırmızı bayraktır.
+İyi bir backlink raporu, her bağlantının nerede, ne zaman ve nasıl alındığını açıkça gösterir: kaynak adresi, bağlantı verilen sayfa, bağlantı metni, yöntem (haber, uzman yazısı, ortaklık, kayıt), ücret ya da karşılık var mı, `rel` niteleme durumu ve ölçülen etkiler. “Bağlantı sayısı arttı” gibi yalnızca sayı veren ya da yöntemini açıklamayan rapor yetersizdir. Sıralama garantisi ya da “özel ağ” sözü kırmızı bayraktır.
 
 Backlink çalışmasının riski, neyin yapıldığını görememektir. Bu yazı, ajanstan isteyebileceğiniz bir rapor şablonunu anlatır. Genel kaynaklar için [backlink sorgulama](/blog/backlink-sorgulama/) ve [SEO ajansı mı, uzman mı?](/blog/seo-ajansi-mi-uzmani-mi/) yazılarına bakabilirsiniz.
 
 ## Rapor neyi göstermeli?
 
-| Sütun | Ne yazmalı? |
-| --- | --- |
-| Kaynak sayfa | Bağlantının bulunduğu adres |
-| Hedef sayfa | Bağlantı verilen sayfanız |
-| Bağlantı metni | Kullanılan metin |
-| Yöntem | Haber, uzman yazısı, ortaklık, kayıt vb. |
-| Tarih | Yayın tarihi |
-| Ücret / karşılık | Varsa açıkça |
-| `rel` durumu | Normal, `sponsored`, `nofollow` |
-| Kaynağın niteliği | Ne tür bir site, gerçek okuyucusu var mı? |
-| Kalıcılık | Bağlantı hâlâ aktif mi? |
+- **Kaynak sayfa:** Bağlantının bulunduğu adres
+- **Hedef sayfa:** Bağlantı verilen sayfanız
+- **Bağlantı metni:** Kullanılan metin
+- **Yöntem:** Haber, uzman yazısı, ortaklık, kayıt vb.
+- **Tarih:** Yayın tarihi
+- **Ücret / karşılık:** Varsa açıkça
+- **`rel` durumu:** Normal, `sponsored`, `nofollow`
+- **Kaynağın niteliği:** Ne tür bir site, gerçek okuyucusu var mı?
+- **Kalıcılık:** Bağlantı hâlâ aktif mi?
 
 ## Kontrol edilecekler
 
@@ -39,23 +37,19 @@ Rapor yalnızca bağlantıyı değil, etkiyi de ele almalıdır: ilgili sayfalar
 
 ## Kırmızı bayraklar
 
-| Bayrak | Neden? |
-| --- | --- |
-| “Garantili sıra” | Kimse garanti edemez |
-| Kaynak listesi vermemek | Neyin yapıldığını göremezsiniz |
-| “Özel blog ağı” | Bağlantı spam’i riski |
-| Çok ucuz “yüzlerce bağlantı” paketi | Kalitesiz, otomatik olması olası |
-| Yalnızca “DA/DR arttı” raporu | Bunlar Google’ın ölçüsü değil |
-| Ücretli yerleşimleri gizlemek | Niteleme gerekir |
+- **“Garantili sıra”:** Kimse garanti edemez
+- **Kaynak listesi vermemek:** Neyin yapıldığını göremezsiniz
+- **“Özel blog ağı”:** Bağlantı spam’i riski
+- **Çok ucuz “yüzlerce bağlantı” paketi:** Kalitesiz, otomatik olması olası
+- **Yalnızca “DA/DR arttı” raporu:** Bunlar Google’ın ölçüsü değil
+- **Ücretli yerleşimleri gizlemek:** Niteleme gerekir
 
 ## Sık yapılan hatalar
 
-| Hata | Çözüm |
-| --- | --- |
-| Raporu okumadan geçmek | Her ay kaynakları kontrol edin |
-| Sayıya göre karar vermek | Kaynak ve alaka |
-| Sözleşmede rapor biçimini yazmamak | Rapor kapsamını sözleşmeye koyun |
-| Etkiyi ölçmemek | Başlangıç ölçümü alın |
+- **Raporu okumadan geçmek:** Her ay kaynakları kontrol edin
+- **Sayıya göre karar vermek:** Kaynak ve alaka
+- **Sözleşmede rapor biçimini yazmamak:** Rapor kapsamını sözleşmeye koyun
+- **Etkiyi ölçmemek:** Başlangıç ölçümü alın
 
 ## Denizli’den bir örnek
 

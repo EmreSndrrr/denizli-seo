@@ -6,7 +6,7 @@ service: yerel-seo
 imageAlt: "Bir ilçe sayfası taslağı: başlık, harita ve hizmet listesi"
 ---
 
-**Kısa cevap:** İlçe sayfası, yalnızca o ilçede gerçekten hizmet verdiğinizde ve o ilçeye özgü gerçek bilgi sunabildiğinizde açılır. Sayfada ilçedeki işleriniz, hizmet kapsamınız, ulaşım ve iletişim bilgisi, o ilçenin müşterisinin sorduğu sorular ve açıklayıcı bir başlık bulunmalı. Yalnızca ilçe adı değişen kopya sayfalar değer katmaz; Google şehir ve bölge listelerini anahtar kelime doldurma örneği sayar.
+İlçe sayfası, yalnızca o ilçede gerçekten hizmet verdiğinizde ve o ilçeye özgü gerçek bilgi sunabildiğinizde açılır. Sayfada ilçedeki işleriniz, hizmet kapsamınız, ulaşım ve iletişim bilgisi, o ilçenin müşterisinin sorduğu sorular ve açıklayıcı bir başlık bulunmalı. Yalnızca ilçe adı değişen kopya sayfalar değer katmaz; Google şehir ve bölge listelerini anahtar kelime doldurma örneği sayar.
 
 “Merkezefendi klima servisi”, “Pamukkale kuyumcu”, “Çivril sondaj”: yerel aramalarda ilçe adı güçlü bir işarettir. Bu yüzden her ilçe için sayfa açma fikri akla gelir; ama yanlış yapılırsa zaman kaybıdır. Bu yazıda ilçe sayfasının ne zaman açılacağını, nasıl yazılacağını ve bir Merkezefendi örneği iskeletini veriyoruz. Konunun genel çerçevesi için [ilçe bazlı arama](/blog/denizli-ilce-bazli-arama/) yazımıza bakabilirsiniz.
 
@@ -45,11 +45,9 @@ Her bölüm gerçek bilgi taşımalı. Bilginiz yoksa o bölümü yazmayın.
 
 Google, sayfa başlığının açıklayıcı ve kısa olmasını, belirsiz ya da tekrar eden başlıklardan kaçınılmasını söyler ([başlık bağlantıları](https://developers.google.com/search/docs/appearance/title-link?hl=tr)). İlçe sayfası için:
 
-| Zayıf | İyi |
-| --- | --- |
-| Merkezefendi | Merkezefendi’de Klima Bakım ve Montaj Servisi |
-| Merkezefendi klima, Merkezefendi klima servisi, Merkezefendi klima montajı | Merkezefendi Klima Servisi: Bakım, Montaj, Gaz Dolumu |
-| Hizmetlerimiz | Pamukkale’de Halı Yıkama ve Evden Alım |
+- **Merkezefendi:** Merkezefendi’de Klima Bakım ve Montaj Servisi
+- **Merkezefendi klima, Merkezefendi klima servisi, Merkezefendi klima montajı:** Merkezefendi Klima Servisi: Bakım, Montaj, Gaz Dolumu
+- **Hizmetlerimiz:** Pamukkale’de Halı Yıkama ve Evden Alım
 
 Meta açıklamayı da her ilçe sayfası için ayrı yazın; aynı cümlenin yalnızca ilçe adını değiştirmeyin.
 

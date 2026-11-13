@@ -6,7 +6,7 @@ service: teknik-seo
 imageAlt: "Bir zaman çizelgesi: sunucu, kaynak yükleme ve görüntüleme aşamaları"
 ---
 
-**Kısa cevap:** LCP’yi düzeltmek için önce hangi öğenin LCP olduğunu bulun (çoğu zaman ana görsel), sonra süreyi dört parçaya bölüp en uzun parçaya odaklanın: sunucunun ilk yanıtı (TTFB), kaynağın yüklenmeye başlaması, yüklenme süresi ve ekranda oluşturulma. Küçük sitelerde en çok işe yarayanlar: görseli küçültmek ve modern biçime çevirmek, LCP görselini geç yüklememek, sunucu ve eklenti yükünü azaltmak. Hedef: 2,5 saniye veya daha kısa.
+LCP’yi düzeltmek için önce hangi öğenin LCP olduğunu bulun (çoğu zaman ana görsel), sonra süreyi dört parçaya bölüp en uzun parçaya odaklanın: sunucunun ilk yanıtı (TTFB), kaynağın yüklenmeye başlaması, yüklenme süresi ve ekranda oluşturulma. Küçük sitelerde en çok işe yarayanlar: görseli küçültmek ve modern biçime çevirmek, LCP görselini geç yüklememek, sunucu ve eklenti yükünü azaltmak. Hedef: 2,5 saniye veya daha kısa.
 
 Sayfa yavaş görünüyorsa neden çoğu zaman tek bir yerdedir; ama o yeri bulmadan yapılan düzeltmeler çoğunlukla boşa gider. Bu yazı, LCP’nin hangi parçalardan oluştuğunu, her parçayı nasıl iyileştireceğinizi ve küçük bir işletme sitesi için adım adım bir düzeltme sırasını anlatıyor. LCP’nin ne olduğunu bilmiyorsanız önce [Core Web Vitals nedir?](/blog/core-web-vitals-nedir-lcp-inp-cls/) yazımıza bakın.
 
@@ -74,15 +74,13 @@ Görsel hızlı yüklendiği hâlde ekranda geç görünüyorsa çoğunlukla Jav
 
 ## Küçük bir sitede düzeltme sırası
 
-| Adım | İş | Beklenen etki |
-| --- | --- | --- |
-| 1 | LCP öğesini bul (PageSpeed Insights) | Hedefi netleştirir |
-| 2 | Görseli yeniden boyutlandır ve sıkıştır | Kaynak yükleme süresi |
-| 3 | WebP/AVIF’e çevir | Kaynak yükleme süresi |
-| 4 | LCP görselindeki `loading="lazy"` kaldır | Kaynak yükleme gecikmesi |
-| 5 | Önbellek ve eklenti temizliği | TTFB |
-| 6 | Kaydırıcı ve ağır betikleri azalt | Oluşturma gecikmesi |
-| 7 | Mobilde yeniden ölç | Doğrulama |
+- **1:** i̇ş: LCP öğesini bul (PageSpeed Insights); beklenen etki: Hedefi netleştirir
+- **2:** i̇ş: Görseli yeniden boyutlandır ve sıkıştır; beklenen etki: Kaynak yükleme süresi
+- **3:** i̇ş: WebP/AVIF’e çevir; beklenen etki: Kaynak yükleme süresi
+- **4:** i̇ş: LCP görselindeki `loading="lazy"` kaldır; beklenen etki: Kaynak yükleme gecikmesi
+- **5:** i̇ş: Önbellek ve eklenti temizliği; beklenen etki: TTFB
+- **6:** i̇ş: Kaydırıcı ve ağır betikleri azalt; beklenen etki: Oluşturma gecikmesi
+- **7:** i̇ş: Mobilde yeniden ölç; beklenen etki: Doğrulama
 
 Her değişiklikten sonra ölçüm yapın; aynı anda beş şeyi değiştirirseniz hangisinin işe yaradığını bilemezsiniz.
 
@@ -111,14 +109,12 @@ Sıra: fotoğraf sitede gösterildiği boyuta indiriliyor ve WebP’ye çevriliy
 
 ## Hızlı kazanç tablosu
 
-| Düzeltme | Zorluk | Genellikle kimin işi? |
-| --- | --- | --- |
-| Görseli küçültüp sıkıştırma | Kolay | Siz |
-| Tembel yüklemeyi LCP görselinden kaldırma | Orta | Siz ya da tema ayarı |
-| Önbellek eklentisi | Orta | Siz ya da yazılımcı |
-| Kullanılmayan eklentileri silme | Kolay | Siz |
-| Ön yükleme ve öncelik ayarı | Teknik | Yazılımcı |
-| Sunucu değişikliği | Teknik | Yazılımcı / barındırma |
+- **Görseli küçültüp sıkıştırma:** zorluk: Kolay; genellikle kimin işi?: Siz
+- **Tembel yüklemeyi LCP görselinden kaldırma:** zorluk: Orta; genellikle kimin işi?: Siz ya da tema ayarı
+- **Önbellek eklentisi:** zorluk: Orta; genellikle kimin işi?: Siz ya da yazılımcı
+- **Kullanılmayan eklentileri silme:** zorluk: Kolay; genellikle kimin işi?: Siz
+- **Ön yükleme ve öncelik ayarı:** zorluk: Teknik; genellikle kimin işi?: Yazılımcı
+- **Sunucu değişikliği:** zorluk: Teknik; genellikle kimin işi?: Yazılımcı / barındırma
 
 ## Denizli SEO bu konuda nasıl yardımcı olur?
 

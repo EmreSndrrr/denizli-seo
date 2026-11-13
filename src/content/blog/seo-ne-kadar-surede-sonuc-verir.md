@@ -7,7 +7,7 @@ service: teknik-seo
 imageAlt: "Zaman içinde yükselen bir sıralama grafiği"
 ---
 
-**Kısa cevap:** SEO’nun sonuç verme süresi sabit değildir; çoğu işletmede ilk hareket aylar içinde görülür, rekabetli aramalarda ilerleme bir yılı bulabilir. Google uzun süre kendi rehberinde “genellikle dört ay ile bir yıl” ifadesini kullandı. Süreyi aranan kelimenin rekabeti, sitenin teknik durumu ve geçmişi, içerik ve siteye verilen bağlantılar belirler. Denizli’deki yerel ve dar aramalarda hareket genellikle daha erken başlar.
+SEO’nun sonuç verme süresi sabit değildir; çoğu işletmede ilk hareket aylar içinde görülür, rekabetli aramalarda ilerleme bir yılı bulabilir. Google uzun süre kendi rehberinde “genellikle dört ay ile bir yıl” ifadesini kullandı. Süreyi aranan kelimenin rekabeti, sitenin teknik durumu ve geçmişi, içerik ve siteye verilen bağlantılar belirler. Denizli’deki yerel ve dar aramalarda hareket genellikle daha erken başlar.
 
 Bir işletmeyle ilk görüşmede en çok sorulan soru budur. Bu yazıda süreyi neyin belirlediğini, ay ay neler beklenebileceğini ve ilerlemenin nasıl ölçüleceğini anlatıyoruz.
 
@@ -90,11 +90,9 @@ Sitenizi yeniden yapıyorsanız eski adreslerin yeni adreslere yönlendirildiği
 
 Evet. Haritadaki sıra Google İşletme Profili’nin bilgilerine dayanır ve Google’a göre üç etkene bağlıdır: alaka düzeyi, mesafe ve belirginlik (popülerlik) ([yerel sıralama ipuçları](https://support.google.com/business/answer/7091?hl=tr)). Google, belirginlik etkeninde işletmenize bağlantı veren siteleri ve yorumları da hesaba katar; yani sitenize yaptığınız çalışma haritaya da yansır.
 
-| | Sitenin sırası | Haritadaki sıra |
-| --- | --- | --- |
-| Neye dayanır? | Sayfaların içeriği, teknik durumu, bağlantılar | İşletme Profili, mesafe, yorumlar ve bilinirlik |
-| Ana kaldıraç | İçerik ve teknik düzeltme | Profilin doğruluğu ve yorumlar |
-| İlk hareket | Genellikle aylar içinde | Eksik bilgi düzeltildiğinde bazen haftalar içinde (bizim gözlemimiz) |
+- **Neye dayanır?:** sitenin sırası: Sayfaların içeriği, teknik durumu, bağlantılar; haritadaki sıra: İşletme Profili, mesafe, yorumlar ve bilinirlik
+- **Ana kaldıraç:** sitenin sırası: İçerik ve teknik düzeltme; haritadaki sıra: Profilin doğruluğu ve yorumlar
+- **İlk hareket:** sitenin sırası: Genellikle aylar içinde; haritadaki sıra: Eksik bilgi düzeltildiğinde bazen haftalar içinde (bizim gözlemimiz)
 
 Yanlış seçilmiş bir kategoriyi düzeltmek ya da eksik bilgileri tamamlamak bazen kısa sürede fark yaratabilir. Ayrıntılar için [Google İşletme Profili rehberimize](/blog/google-isletme-profili-nasil-doldurulur/) ve [yerel SEO](/yerel-seo/) sayfamıza bakabilirsiniz.
 

@@ -6,7 +6,7 @@ service: teknik-seo
 imageAlt: "Bir telefon ekranında test edilen web sitesi ve işaretli kontrol listesi"
 ---
 
-**Kısa cevap:** Mobil uyumluluğu en doğru şekilde sitenizi gerçek bir telefonda açıp sayfa sayfa deneyerek test edersiniz: yazı okunuyor mu, düğmelere rahat basılıyor mu, menü çalışıyor mu, sayfa hızlı açılıyor mu, masaüstündeki içeriğin aynısı telefonda da var mı? Google dizine ekleme ve sıralama için sitenin mobil sürümünü kullanır; bu yüzden mobil sürümün masaüstüyle aynı içeriğe, aynı alt metne ve doğru görsellere sahip olması gerekir.
+Mobil uyumluluğu en doğru şekilde sitenizi gerçek bir telefonda açıp sayfa sayfa deneyerek test edersiniz: yazı okunuyor mu, düğmelere rahat basılıyor mu, menü çalışıyor mu, sayfa hızlı açılıyor mu, masaüstündeki içeriğin aynısı telefonda da var mı? Google dizine ekleme ve sıralama için sitenin mobil sürümünü kullanır; bu yüzden mobil sürümün masaüstüyle aynı içeriğe, aynı alt metne ve doğru görsellere sahip olması gerekir.
 
 Çoğu işletme sahibi siteyi bilgisayardan açıp “güzel görünüyor” der, ama müşterileri siteyi telefonda görür. Mobil uyumsuz bir site, ziyaretçiyi kaybetmenin yanında Google’ın gördüğü sürümü de zayıflatabilir. Bu yazıda mobil uyumluluğu nasıl test edeceğinizi, Google’ın kurallarını ve bulduğunuz sorunları nasıl önceliklendireceğinizi anlatıyoruz. Genel kontrol için [ücretsiz SEO analizi](/blog/ucretsiz-seo-analizi-nasil-yapilir/) yazımızdaki on kontrol de işe yarar.
 
@@ -61,15 +61,13 @@ Search Console’daki URL Denetleme aracı, Google’ın sayfanızı nasıl gör
 
 ## Bulduğunuz sorunları nasıl önceliklendirirsiniz?
 
-| Sorun | Öncelik |
-| --- | --- |
-| Telefonda içerik ya da sayfa eksik | Çok yüksek: Google’ın gördüğü sürüm eksik |
-| Menü ya da telefon düğmesi çalışmıyor | Yüksek: müşteri talep gönderemiyor |
-| Sayfa çok geç açılıyor | Yüksek |
-| Yatay kayma, taşan görsel | Orta |
-| Küçük yazı ve dokunma alanı | Orta |
-| Ekranı kaplayan açılır pencere | Orta |
-| Küçük hizalama kusurları | Düşük |
+- **Telefonda içerik ya da sayfa eksik:** Çok yüksek: Google’ın gördüğü sürüm eksik
+- **Menü ya da telefon düğmesi çalışmıyor:** Yüksek: müşteri talep gönderemiyor
+- **Sayfa çok geç açılıyor:** Yüksek
+- **Yatay kayma, taşan görsel:** Orta
+- **Küçük yazı ve dokunma alanı:** Orta
+- **Ekranı kaplayan açılır pencere:** Orta
+- **Küçük hizalama kusurları:** Düşük
 
 ## Denizli’den bir örnek
 
@@ -79,14 +77,12 @@ Düzeltme sırası: önce telefonda gizlenen içeriğin görünür kılınması,
 
 ## Mobil uyumsuzluğun sık görülen nedenleri
 
-| Neden | Belirti | Çözüm |
-| --- | --- | --- |
-| Duyarlı olmayan eski tasarım | Yatay kayma, çok küçük yazı | Duyarlı tasarıma geçiş |
-| Sabit genişlikli görsel ya da tablo | Taşan öğeler | Görselleri ve tabloları ekran genişliğine uyarlama |
-| Küçük düğmeler | Yanlış tıklama | Dokunma alanlarını büyütme |
-| Telefonda gizlenen içerik | Eksik bilgi | İçeriği mobilde de gösterme |
-| Ağır sayfa | Yavaş açılış | Görsel ve betik azaltma |
-| Büyük açılır pencere | Sayfayı kaplayan pencere | Boyutunu küçültme ya da kaldırma |
+- **Duyarlı olmayan eski tasarım:** belirti: Yatay kayma, çok küçük yazı; çözüm: Duyarlı tasarıma geçiş
+- **Sabit genişlikli görsel ya da tablo:** belirti: Taşan öğeler; çözüm: Görselleri ve tabloları ekran genişliğine uyarlama
+- **Küçük düğmeler:** belirti: Yanlış tıklama; çözüm: Dokunma alanlarını büyütme
+- **Telefonda gizlenen içerik:** belirti: Eksik bilgi; çözüm: İçeriği mobilde de gösterme
+- **Ağır sayfa:** belirti: Yavaş açılış; çözüm: Görsel ve betik azaltma
+- **Büyük açılır pencere:** belirti: Sayfayı kaplayan pencere; çözüm: Boyutunu küçültme ya da kaldırma
 
 ## Düzeltmeden önce ve sonra ölçün
 

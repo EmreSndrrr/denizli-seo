@@ -6,7 +6,7 @@ service: teknik-seo
 imageAlt: "Halı yıkama hizmeti için hizmet bölgesi haritası, öncesi sonrası fotoğraf ve yorum kartları"
 ---
 
-**Kısa cevap:** Halı yıkama ve temizlik, tipik bir yerel hizmettir: müşteri çoğu zaman telefondan “yakınımda halı yıkama”, “Pamukkale’de koltuk yıkama” gibi arar, harita sonuçlarına bakar ve birkaç firmayı arayıp seçer. SEO’da üç parça öne çıkar: kurallara uygun Google İşletme Profili (hizmet bölgesi dahil), her hizmet için net sayfalar ve gerçek yorumlar ile gerçek öncesi–sonrası fotoğraflar. Fiyat yaklaşımını ve süreci açık anlatmak aramayı randevuya çevirir. Sıralama garantisi verilemez.
+Halı yıkama ve temizlik, tipik bir yerel hizmettir: müşteri çoğu zaman telefondan “yakınımda halı yıkama”, “Pamukkale’de koltuk yıkama” gibi arar, harita sonuçlarına bakar ve birkaç firmayı arayıp seçer. SEO’da üç parça öne çıkar: kurallara uygun Google İşletme Profili (hizmet bölgesi dahil), her hizmet için net sayfalar ve gerçek yorumlar ile gerçek öncesi–sonrası fotoğraflar. Fiyat yaklaşımını ve süreci açık anlatmak aramayı randevuya çevirir. Sıralama garantisi verilemez.
 
 Bu sektörde rekabet yoğundur ve müşteri çoğu zaman acildir: halı yıkama bayram ve sezon öncesi artar. Sıralamada öne çıkmak kadar, aramadan sonra hızlı ve güvenilir bir izlenim vermek de önemlidir. Bu yazı, bir temizlik firmasının sitesini ve profilini nasıl kuracağını anlatır. Yerel görünürlük için [Google haritalarda üst sıralara çıkmak](/blog/google-haritalarda-ust-siralara-cikmak/), “yakınımda” aramaları için yakınımda aramalarında görünmek yazılarına bakabilirsiniz.
 
@@ -37,17 +37,15 @@ Profil, bu sektörde sitenizden bile önemli olabilir. Kontrol listesi:
 
 ## Site yapısı
 
-| Sayfa | İçerik |
-| --- | --- |
-| Ana sayfa | Ne yapıyorsunuz, hangi bölgelere, nasıl ulaşılır |
-| Hizmet sayfaları | Halı yıkama, koltuk yıkama, yatak, perde, ofis temizliği; her biri ayrı |
-| Süreç sayfası | Teslim alma, yıkama, kurutma, teslim; süre bilgisi (gerçeğe uygun) |
-| Fiyat yaklaşımı | Neye göre fiyatlandığı (metrekare, tür, leke durumu); kesin fiyat yoksa teklif yolu |
-| İlçe sayfaları | Hizmet verdiğiniz ilçeler için özgün bilgi içeren sayfalar |
-| Galeri | Gerçek öncesi–sonrası fotoğraflar |
-| Yorumlar | Gerçek, izinli |
-| Sık sorulan sorular | Leke, kurutma süresi, teslim, ödeme |
-| İletişim | Telefon, WhatsApp, form, adres (varsa) |
+- **Ana sayfa:** Ne yapıyorsunuz, hangi bölgelere, nasıl ulaşılır
+- **Hizmet sayfaları:** Halı yıkama, koltuk yıkama, yatak, perde, ofis temizliği; her biri ayrı
+- **Süreç sayfası:** Teslim alma, yıkama, kurutma, teslim; süre bilgisi (gerçeğe uygun)
+- **Fiyat yaklaşımı:** Neye göre fiyatlandığı (metrekare, tür, leke durumu); kesin fiyat yoksa teklif yolu
+- **İlçe sayfaları:** Hizmet verdiğiniz ilçeler için özgün bilgi içeren sayfalar
+- **Galeri:** Gerçek öncesi–sonrası fotoğraflar
+- **Yorumlar:** Gerçek, izinli
+- **Sık sorulan sorular:** Leke, kurutma süresi, teslim, ödeme
+- **İletişim:** Telefon, WhatsApp, form, adres (varsa)
 
 ## Hizmet sayfası nasıl yazılır?
 
@@ -75,12 +73,10 @@ Denizli’de farklı ilçelere hizmet veriyorsanız ilçe sayfaları faydalı ol
 
 ## Mevsimsellik
 
-| Dönem | Yapılacak |
-| --- | --- |
-| Bayram ve temizlik öncesi | Takvim ve kapasite bilgisini güncelleyin; telefon ve WhatsApp hazır olsun |
-| Yaz | Halı ve perde yıkama içerikleri, hızlı kuruma rehberi |
-| Kış | Koltuk ve yatak içerikleri |
-| Yıl boyu | Sık sorulan sorular, bakım rehberleri |
+- **Bayram ve temizlik öncesi:** Takvim ve kapasite bilgisini güncelleyin; telefon ve WhatsApp hazır olsun
+- **Yaz:** Halı ve perde yıkama içerikleri, hızlı kuruma rehberi
+- **Kış:** Koltuk ve yatak içerikleri
+- **Yıl boyu:** Sık sorulan sorular, bakım rehberleri
 
 Dönemlik içerikleri aynı adreste güncelleyin. Randevu kapasitesi dolduğunda bunu açıkça belirtin; müşteri bekletilmekten nefret eder.
 
@@ -90,16 +86,14 @@ Müşteri “fiyat nedir?” diye sorar. Rakam yazmak istemiyorsanız fiyatı ne
 
 ## Sık yapılan hatalar
 
-| Hata | Çözüm |
-| --- | --- |
-| Profil adına pazarlama ifadesi eklemek | Gerçek işletme adı |
-| Hizmet vermediğiniz bölgeleri listelemek | Gerçek hizmet bölgesi |
-| Tek sayfada tüm hizmetler | Hizmet başına sayfa |
-| Yalnızca ilçe adı değişen kopya sayfalar | Özgün ilçe içeriği ya da açmayın |
-| Stok ya da başka firma fotoğrafları | Gerçek fotoğraflar |
-| Yorum karşılığı kampanya | Karşılıksız yorum isteyin |
-| Mesajlara geç dönmek | Hızlı ve düzenli cevap |
-| Uydurma süre ve fiyat sözü | Gerçekçi ve tutulabilir |
+- **Profil adına pazarlama ifadesi eklemek:** Gerçek işletme adı
+- **Hizmet vermediğiniz bölgeleri listelemek:** Gerçek hizmet bölgesi
+- **Tek sayfada tüm hizmetler:** Hizmet başına sayfa
+- **Yalnızca ilçe adı değişen kopya sayfalar:** Özgün ilçe içeriği ya da açmayın
+- **Stok ya da başka firma fotoğrafları:** Gerçek fotoğraflar
+- **Yorum karşılığı kampanya:** Karşılıksız yorum isteyin
+- **Mesajlara geç dönmek:** Hızlı ve düzenli cevap
+- **Uydurma süre ve fiyat sözü:** Gerçekçi ve tutulabilir
 
 ## Denizli’den bir örnek
 
@@ -107,18 +101,18 @@ Müşteri “fiyat nedir?” diye sorar. Rakam yazmak istemiyorsanız fiyatı ne
 
 ## Başlangıç kontrol listesi
 
-| Kontrol | Evet / Hayır |
-| --- | --- |
-| Profil adı gerçek işletme adı mı? | |
-| Hizmet bölgesi gerçeğe uygun mu? | |
-| Her hizmet için ayrı sayfa var mı? | |
-| Fiyat yaklaşımı açıklanmış mı? | |
-| Öncesi–sonrası fotoğraflar gerçek ve izinli mi? | |
-| Yorumlar karşılıksız isteniyor mu? | |
-| Olumsuz yorumlara cevap veriliyor mu? | |
-| Ad, adres, telefon her yerde aynı mı? | |
-| WhatsApp, telefon ve form çalışıyor mu? | |
-| Site mobilde hızlı mı? | |
+Şunları tek tek kontrol edin:
+
+- Profil adı gerçek işletme adı mı?
+- Hizmet bölgesi gerçeğe uygun mu?
+- Her hizmet için ayrı sayfa var mı?
+- Fiyat yaklaşımı açıklanmış mı?
+- Öncesi–sonrası fotoğraflar gerçek ve izinli mi?
+- Yorumlar karşılıksız isteniyor mu?
+- Olumsuz yorumlara cevap veriliyor mu?
+- Ad, adres, telefon her yerde aynı mı?
+- WhatsApp, telefon ve form çalışıyor mu?
+- Site mobilde hızlı mı?
 
 ## Denizli SEO bu konuda nasıl yardımcı olur?
 

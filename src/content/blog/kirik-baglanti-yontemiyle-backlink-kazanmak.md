@@ -6,7 +6,7 @@ service: backlink-hizmeti
 imageAlt: "Kırık bağlantı simgesi ve yerine önerilen kaynak"
 ---
 
-**Kısa cevap:** Kırık bağlantı yöntemi, ilgili bir sitede hedefi artık açılmayan (404 veren) bir bağlantıyı bulup site sahibine hatayı bildirmek ve gerçekten uygunsa kendi kaynağınızı alternatif olarak önermektir. Site sahibine yardım ettiğiniz için nazik ve dürüst bir yoldur; ama başarı garantisi yoktur ve yalnızca yerine koyacak gerçek, yararlı bir sayfanız varsa anlamlıdır.
+Kırık bağlantı yöntemi, ilgili bir sitede hedefi artık açılmayan (404 veren) bir bağlantıyı bulup site sahibine hatayı bildirmek ve gerçekten uygunsa kendi kaynağınızı alternatif olarak önermektir. Site sahibine yardım ettiğiniz için nazik ve dürüst bir yoldur; ama başarı garantisi yoktur ve yalnızca yerine koyacak gerçek, yararlı bir sayfanız varsa anlamlıdır.
 
 Yöntem basit görünür ama emek ister: doğru siteyi bulmak, kırık bağlantıyı doğrulamak ve karşı tarafı rahatsız etmeden önermek. Kendi sitenizdeki kırık bağlantılar için [404 hatası: düzeltmeli mi, yönlendirmeli mi?](/blog/404-hatasi-duzeltmeli-mi-yonlendirmeli-mi/) yazımıza bakın.
 
@@ -44,13 +44,11 @@ Google’ın bağlantı rehberi, bağlantının kullanıcıya yararlı ve bağla
 
 ## Sık yapılan hatalar
 
-| Hata | Çözüm |
-| --- | --- |
-| Alternatif sayfanız zayıf | Önce sayfayı güçlendirin |
-| Toplu aynı mesaj | Kişiselleştirin |
-| Karşılık bağlantı teklif etmek | Teklif etmeyin |
-| Kırıklığı doğrulamadan yazmak | Önce kontrol edin |
-| Israrcı takip | Bir hatırlatma yeter |
+- **Alternatif sayfanız zayıf:** Önce sayfayı güçlendirin
+- **Toplu aynı mesaj:** Kişiselleştirin
+- **Karşılık bağlantı teklif etmek:** Teklif etmeyin
+- **Kırıklığı doğrulamadan yazmak:** Önce kontrol edin
+- **Israrcı takip:** Bir hatırlatma yeter
 
 ## Denizli’den bir örnek
 
@@ -60,12 +58,10 @@ Google’ın bağlantı rehberi, bağlantının kullanıcıya yararlı ve bağla
 
 Kırık bağlantı, tıkladığınızda hata sayfasına (çoğunlukla 404) giden bağlantıdır. Bir sayfa silindiğinde, adresi değiştiğinde ya da site kapandığında, o sayfaya bağlantı veren tüm sayfalarda kırık bağlantı oluşur. Web sitelerinin büyük bölümünde bir miktar kırık bağlantı vardır; çünkü içerik eskir ama bağlantılar güncellenmez. Bu yöntem, bu doğal erimeyi bir iyilik fırsatına çevirir: sitenin sahibine sorunu bildirirsiniz, çözümün parçası olursunuz.
 
-| Kırılma nedeni | Örnek | Site sahibi için sorun |
-| --- | --- | --- |
-| Hedef sayfa silindi | Eski bir kaynak makale kaldırıldı | Okuyucu hata sayfası görür |
-| Adres değişti, yönlendirme yok | Site yenilenmiş, eski adres 404 | Güven kaybı |
-| Site kapandı | Alan adı süresi dolmuş | Bağlantı tamamen çalışmaz |
-| Bağlantı yanlış yazılmış | Adreste harf hatası | Okuyucu yanlış yere gider |
+- **Hedef sayfa silindi:** örnek: Eski bir kaynak makale kaldırıldı; site sahibi için sorun: Okuyucu hata sayfası görür
+- **Adres değişti, yönlendirme yok:** örnek: Site yenilenmiş, eski adres 404; site sahibi için sorun: Güven kaybı
+- **Site kapandı:** örnek: Alan adı süresi dolmuş; site sahibi için sorun: Bağlantı tamamen çalışmaz
+- **Bağlantı yanlış yazılmış:** örnek: Adreste harf hatası; site sahibi için sorun: Okuyucu yanlış yere gider
 
 ## Kırık bağlantı bulma yöntemleri
 
@@ -84,13 +80,11 @@ Bulduğunuz her kırık bağlantıyı bir tabloda kaydedin: site adresi, kırık
 
 Önerinin başarısı, sayfanızın gerçekten yerini doldurabilmesine bağlıdır. Kendinize şunu sorun:
 
-| Soru | İdeal cevap |
-| --- | --- |
-| Eski kaynak neyi anlatıyordu? | Net biliyorum |
-| Sayfam aynı soruyu cevaplıyor mu? | Evet, daha güncel ve eksiksiz |
-| Okuyucu için gerçekten yararlı mı? | Evet |
-| Reklam ya da satış dili ağır basıyor mu? | Hayır, bilgi ağırlıklı |
-| Sayfa güvenilir mi? | Yazar, kaynak ve tarih bilgisi var |
+- **Eski kaynak neyi anlatıyordu?:** Net biliyorum
+- **Sayfam aynı soruyu cevaplıyor mu?:** Evet, daha güncel ve eksiksiz
+- **Okuyucu için gerçekten yararlı mı?:** Evet
+- **Reklam ya da satış dili ağır basıyor mu?:** Hayır, bilgi ağırlıklı
+- **Sayfa güvenilir mi?:** Yazar, kaynak ve tarih bilgisi var
 
 Eski sayfa hâlâ bir arşiv kopyasında okunabiliyorsa içeriğini inceleyip aynı konuyu kendi uzmanlığınızla daha iyi anlatan bir sayfa hazırlayabilirsiniz. Ama eski içeriği kopyalamayın; özgün yazın. Bkz. [kopya içerik](/blog/kopya-icerik-nedir-nasil-onlenir/).
 
@@ -109,13 +103,11 @@ Eski sayfa hâlâ bir arşiv kopyasında okunabiliyorsa içeriğini inceleyip ay
 
 ## Yanıt gelmezse ve gelirse
 
-| Durum | Ne yapmalı? |
-| --- | --- |
-| Yanıt yok | Bir hafta sonra tek bir kısa hatırlatma yazın; ardından bırakın |
-| Teşekkür edip kırık bağlantıyı kaldırdı | Teşekkür edin; yeni bir istekte bulunmayın |
-| Sizin sayfanızı ekledi | Teşekkür edin ve sayfanızı güncel tutun |
-| Hayır dedi | Saygı gösterin, ısrar etmeyin |
-| Ücret teklif etti ya da karşılık istedi | Reddedin; ücret karşılığı bağlantı ayrı bir konudur (`sponsored` gerekir) |
+- **Yanıt yok:** Bir hafta sonra tek bir kısa hatırlatma yazın; ardından bırakın
+- **Teşekkür edip kırık bağlantıyı kaldırdı:** Teşekkür edin; yeni bir istekte bulunmayın
+- **Sizin sayfanızı ekledi:** Teşekkür edin ve sayfanızı güncel tutun
+- **Hayır dedi:** Saygı gösterin, ısrar etmeyin
+- **Ücret teklif etti ya da karşılık istedi:** Reddedin; ücret karşılığı bağlantı ayrı bir konudur (`sponsored` gerekir)
 
 ## Kırık bağlantı yönteminin sınırları
 
@@ -129,13 +121,11 @@ Eski sayfa hâlâ bir arşiv kopyasında okunabiliyorsa içeriğini inceleyip ay
 
 Yöntemin diğer yüzü, kendi sitenizde kırık bağlantı bırakmamaktır:
 
-| Yapılacak | Nasıl? |
-| --- | --- |
-| Dış bağlantıları tarayın | Çalışmayanları düzeltin ya da kaldırın |
-| Kaldırdığınız sayfaları izleyin | Dışarıdan bağlantı alıyorsa yönlendirin; bkz. [kaybolan backlinkler](/blog/kaybolan-backlinkler-nasil-geri-kazanilir/) |
-| Yönlendirme planı yapın | Adres değişimlerinde 301 ile yeni sayfaya |
-| Düzenli kontrol yapın | Üç ayda bir bağlantı taraması |
-| Hata sayfanızı iyi tasarlayın | Kullanıcıyı ana sayfaya ya da aramaya yönlendirin |
+- **Dış bağlantıları tarayın:** Çalışmayanları düzeltin ya da kaldırın
+- **Kaldırdığınız sayfaları izleyin:** Dışarıdan bağlantı alıyorsa yönlendirin; bkz. [kaybolan backlinkler](/blog/kaybolan-backlinkler-nasil-geri-kazanilir/)
+- **Yönlendirme planı yapın:** Adres değişimlerinde 301 ile yeni sayfaya
+- **Düzenli kontrol yapın:** Üç ayda bir bağlantı taraması
+- **Hata sayfanızı iyi tasarlayın:** Kullanıcıyı ana sayfaya ya da aramaya yönlendirin
 
 Google’ın bağlantı rehberi, bağlantıların gerçek `<a href>` öğeleri olmasını ve bağlantı metninin açıklayıcı olmasını önerir ([bağlantı en iyi uygulamaları](https://developers.google.com/search/docs/crawling-indexing/links-crawlable?hl=tr)); kırık bağlantılar bu bağlamda hem okuyucuya hem tarayıcılara zarar verir.
 
@@ -155,27 +145,25 @@ Google’ın bağlantı rehberi, bağlantıların gerçek `<a href>` öğeleri o
 
 ## Kontrol listesi
 
-| Kontrol | Evet / Hayır |
-| --- | --- |
-| Kırık bağlantıyı en az iki kez doğruladım mı? | |
-| Sayfam gerçekten aynı konuyu daha iyi anlatıyor mu? | |
-| Mesajım kısa, saygılı ve fayda odaklı mı? | |
-| Karşılık ya da bağlantı takası teklif etmedim mi? | |
-| Bir kez hatırlatıp bıraktım mı? | |
-| Sonuçları tabloya kaydettim mi? | |
-| Kendi sitemdeki kırık bağlantıları da kontrol ettim mi? | |
+Şunları tek tek kontrol edin:
+
+- Kırık bağlantıyı en az iki kez doğruladım mı?
+- Sayfam gerçekten aynı konuyu daha iyi anlatıyor mu?
+- Mesajım kısa, saygılı ve fayda odaklı mı?
+- Karşılık ya da bağlantı takası teklif etmedim mi?
+- Bir kez hatırlatıp bıraktım mı?
+- Sonuçları tabloya kaydettim mi?
+- Kendi sitemdeki kırık bağlantıları da kontrol ettim mi?
 
 ## Haftalık çalışma düzeni
 
 Kırık bağlantı çalışması düzenli ve küçük adımlarla yürütüldüğünde yorucu olmaktan çıkar. Örnek bir haftalık düzen:
 
-| Gün | İş | Süre (yaklaşık) |
-| --- | --- | --- |
-| Pazartesi | Hedef siteleri ve kaynak sayfaları belirle (5 site) | 45 dk |
-| Salı | Kırık bağlantıları tara ve doğrula | 45 dk |
-| Çarşamba | Önerilecek sayfaları gözden geçir, eksik varsa iyileştir | 60 dk |
-| Perşembe | Kişiye özel mesajları yaz ve gönder | 45 dk |
-| Cuma | Önceki haftanın cevaplarına bak, tabloyu güncelle | 30 dk |
+- **Pazartesi:** i̇ş: Hedef siteleri ve kaynak sayfaları belirle (5 site); süre (yaklaşık): 45 dk
+- **Salı:** i̇ş: Kırık bağlantıları tara ve doğrula; süre (yaklaşık): 45 dk
+- **Çarşamba:** i̇ş: Önerilecek sayfaları gözden geçir, eksik varsa iyileştir; süre (yaklaşık): 60 dk
+- **Perşembe:** i̇ş: Kişiye özel mesajları yaz ve gönder; süre (yaklaşık): 45 dk
+- **Cuma:** i̇ş: Önceki haftanın cevaplarına bak, tabloyu güncelle; süre (yaklaşık): 30 dk
 
 Haftada beş site, ayda yirmi site eder. Bu hacimde bile cevap gelenler yararlı ilişkiler kurmanızı sağlar; sayıdan çok kalite önemlidir.
 
@@ -195,13 +183,11 @@ Google’ın yardımcı içerik rehberi, okuyucuya özgün bilgi ve değer sunan
 
 Kırık bağlantı yönteminde başarı yalnızca “bağlantı alındı mı?” sorusuyla ölçülmez:
 
-| Ölçü | Anlamı |
-| --- | --- |
-| Gönderilen mesaj sayısı | Çalışma hacmi |
-| Cevap alınan sayısı | İlişki kurma oranı |
-| Kırık bağlantıyı düzelten site sayısı | Yardım ettiğiniz site sayısı |
-| Bağlantı alınan sayfa sayısı | Yöntemin doğrudan sonucu |
-| Gelen ziyaretçi | Bağlantı verilen sayfadan siteye geçiş |
+- **Gönderilen mesaj sayısı:** Çalışma hacmi
+- **Cevap alınan sayısı:** İlişki kurma oranı
+- **Kırık bağlantıyı düzelten site sayısı:** Yardım ettiğiniz site sayısı
+- **Bağlantı alınan sayfa sayısı:** Yöntemin doğrudan sonucu
+- **Gelen ziyaretçi:** Bağlantı verilen sayfadan siteye geçiş
 
 Search Console’un Bağlantılar raporunda yeni bağlantı veren siteleri görebilirsiniz ([bağlantılar raporu](https://support.google.com/webmasters/answer/9049606?hl=tr)). Sonuçlara kısa vadede bakıp karar vermeyin; ilişkiler zamanla oluşur.
 

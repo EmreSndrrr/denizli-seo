@@ -6,7 +6,7 @@ service: backlink-hizmeti
 imageAlt: "Başka bir sitede yayımlanan yazıdan kendi sitenize giden bağlantı oku"
 ---
 
-**Kısa cevap:** Misafir yazının kendisi yasak değildir; risk, yazıyı bağlantı kazanmak için toplu, ücretli ya da anahtar kelimeli bağlantı metniyle yayımlamaktan doğar. Google’ın spam politikaları, para karşılığı sağlanan bağlantıları ve başka sayfalarda dağıtılan makalelerde, misafir yayınlarında ya da basın bültenlerinde optimize edilmiş bağlantı metni içeren bağlantıları bağlantı spam’i örnekleri arasında sayar. Gerçekten okuyucuya yararlı, kendi uzmanlığınızı gösteren ve bağlantısı doğal olan bir yazı ise farklı bir şeydir.
+Misafir yazının kendisi yasak değildir; risk, yazıyı bağlantı kazanmak için toplu, ücretli ya da anahtar kelimeli bağlantı metniyle yayımlamaktan doğar. Google’ın spam politikaları, para karşılığı sağlanan bağlantıları ve başka sayfalarda dağıtılan makalelerde, misafir yayınlarında ya da basın bültenlerinde optimize edilmiş bağlantı metni içeren bağlantıları bağlantı spam’i örnekleri arasında sayar. Gerçekten okuyucuya yararlı, kendi uzmanlığınızı gösteren ve bağlantısı doğal olan bir yazı ise farklı bir şeydir.
 
 “Misafir yazı yazarsanız backlink alırsınız” cümlesi, yarı doğru olduğu için tehlikelidir. Bu yazıda neyin riskli, neyin makul olduğunu ayırıyoruz. Genel çerçeve için [backlink nedir?](/blog/backlink-nedir/) ve [backlink satın almanın riskleri](/blog/backlink-satin-almak-riskleri/) yazılarına bakabilirsiniz.
 
@@ -42,13 +42,11 @@ Spam politikalarına göre bağlantı spam’i, temel olarak arama sıralamalar�
 
 ## Sık yapılan hatalar
 
-| Hata | Çözüm |
-| --- | --- |
-| Paket halinde “guest post” satın almak | Kaçının |
-| Her yazıda aynı anahtar kelimeli bağlantı | Doğal bağlantı metni |
-| Konu dışı sitelerde yayın | İlgili yayınları seçin |
-| Aynı yazıyı çoğaltmak | Özgün yazın |
-| Ücretli bağlantıyı nitelemeden bırakmak | `sponsored` ekletin |
+- **Paket halinde “guest post” satın almak:** Kaçının
+- **Her yazıda aynı anahtar kelimeli bağlantı:** Doğal bağlantı metni
+- **Konu dışı sitelerde yayın:** İlgili yayınları seçin
+- **Aynı yazıyı çoğaltmak:** Özgün yazın
+- **Ücretli bağlantıyı nitelemeden bırakmak:** `sponsored` ekletin
 
 ## Denizli’den bir örnek
 

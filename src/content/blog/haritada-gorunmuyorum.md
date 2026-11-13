@@ -6,7 +6,7 @@ service: yerel-seo
 imageAlt: "Boş bir harita üzerinde soru işaretli bir pin ve kontrol listesi"
 ---
 
-**Kısa cevap:** İşletmeniz haritada görünmüyorsa önce profilin doğrulanmış ve askıya alınmamış olduğunu kontrol edin. Sonra kategorinin, adın ve adresin doğru olduğuna, aramayı yaptığınız konumun işletmenize uzak olmadığına bakın. Çoğu “görünmüyorum” şikâyeti doğrulama eksikliği, askıya alma, yanlış kategori ya da yalnızca arama konumundan kaynaklanır. Google sıralama garantisi vermez.
+İşletmeniz haritada görünmüyorsa önce profilin doğrulanmış ve askıya alınmamış olduğunu kontrol edin. Sonra kategorinin, adın ve adresin doğru olduğuna, aramayı yaptığınız konumun işletmenize uzak olmadığına bakın. Çoğu “görünmüyorum” şikâyeti doğrulama eksikliği, askıya alma, yanlış kategori ya da yalnızca arama konumundan kaynaklanır. Google sıralama garantisi vermez.
 
 “Haritada yokum” şikâyeti aslında üç farklı durumu kapsar: profil hiç yok, profil var ama arama sonucunda çıkmıyor ya da çıkıyor ama çok aşağıda. Bu yazıda sırayla neleri kontrol edeceğinizi veriyoruz. Her adımın sonunda “bu bende var mı?” sorusunu sorun. Sıralamayı yükseltmenin ayrıntıları için [Google Haritalar’da üst sıralara nasıl çıkılır?](/blog/google-haritalarda-ust-siralara-cikmak/) yazımıza bakın.
 

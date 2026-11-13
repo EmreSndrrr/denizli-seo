@@ -6,7 +6,7 @@ service: icerik-seo
 imageAlt: "Kategori listesi ve ürün kartları içeren bir online mağaza sayfası"
 ---
 
-**Kısa cevap:** E-ticaret SEO, mağazanızdaki kategori ve ürün sayfalarının Google’da bulunmasını sağlamaktır. Her kategori ve ürün için benzersiz bir adres, açıklayıcı başlık ve kendi yazdığınız açıklama gerekir. Varyantlar için standart adres belirleyin, gereksiz parametreleri azaltın, fiyat ve stok bilgisini güncel tutun ve görsellere açıklayıcı alt metin yazın. Önce kategori sayfalarına odaklanın; arama çoğunlukla orada başlar.
+E-ticaret SEO, mağazanızdaki kategori ve ürün sayfalarının Google’da bulunmasını sağlamaktır. Her kategori ve ürün için benzersiz bir adres, açıklayıcı başlık ve kendi yazdığınız açıklama gerekir. Varyantlar için standart adres belirleyin, gereksiz parametreleri azaltın, fiyat ve stok bilgisini güncel tutun ve görsellere açıklayıcı alt metin yazın. Önce kategori sayfalarına odaklanın; arama çoğunlukla orada başlar.
 
 E-ticarette SEO’nun farkı ölçektir: yüzlerce ya da binlerce sayfa vardır ve çoğu birbirine benzer. Bu yüzden küçük bir hizmet sitesinde işe yarayan “her sayfaya özenle metin yaz” yaklaşımı burada öncelik sıralamasına dönüşür. Bu yazı, hangi sayfaya önce bakacağınızı ve neyi hangi sırayla düzelteceğinizi anlatıyor. Trendyol, Hepsiburada gibi pazaryerlerinin kendi içindeki aramaları bu yazının konusu değil; burada Google’da kendi mağazanızın bulunması anlatılıyor.
 
@@ -67,10 +67,8 @@ Google’ın e-ticaret URL rehberi, mağazalarda adres yapısı için şu ilkele
 
 Genel URL rehberi de kelimeleri ayırmak için kısa çizgi (-) kullanmanızı önerir ([URL yapısı](https://developers.google.com/search/docs/crawling-indexing/url-structure?hl=tr)). Pratik sonuç:
 
-| İyi | Zayıf |
-| --- | --- |
-| `/banyo-havlusu/pamuklu-70x140/` | `/urun?id=48213&oturum=a9f3` |
-| `/havlu-setleri/` | `/kategori_3/` |
+- **`/banyo-havlusu/pamuklu-70x140/`:** `/urun?id=48213&oturum=a9f3`
+- **`/havlu-setleri/`:** `/kategori_3/`
 
 ## Varyantlar ve filtreler: kopya sayfa sorunu
 
@@ -95,13 +93,11 @@ Bu işi çoğu mağaza yazılımı otomatik yapar. Siz yalnızca yazılımın do
 
 Örnek (hayalî bir işletme için): Buldan dokumasından ürünler satan küçük bir online mağaza. Ürünler: masa örtüsü, runner, peştemal, havlu.
 
-| Bölüm | Yapılacak |
-| --- | --- |
-| Kategori | “Peştemal” kategorisine kullanım alanlarını (plaj, hamam, ev), malzeme farkını ve bakımı anlatan kısa metin |
-| Ürün | Her ürüne ölçü, malzeme, bakım ve teslimat bilgisi; üreticiden kopya metin değil kendi cümleleriniz |
-| Varyant | Renk seçenekleri için standart adres belirlemek |
-| Görsel | Gerçek fotoğraflar, açıklayıcı dosya adı ve alt metin |
-| Rehber | “Peştemal nasıl yıkanır?”, “Hamam peştemalı mı plaj peştemalı mı?” gibi sorulara cevap veren iki üç yazı |
+- **Kategori:** “Peştemal” kategorisine kullanım alanlarını (plaj, hamam, ev), malzeme farkını ve bakımı anlatan kısa metin
+- **Ürün:** Her ürüne ölçü, malzeme, bakım ve teslimat bilgisi; üreticiden kopya metin değil kendi cümleleriniz
+- **Varyant:** Renk seçenekleri için standart adres belirlemek
+- **Görsel:** Gerçek fotoğraflar, açıklayıcı dosya adı ve alt metin
+- **Rehber:** “Peştemal nasıl yıkanır?”, “Hamam peştemalı mı plaj peştemalı mı?” gibi sorulara cevap veren iki üç yazı
 
 Bu yapı sonuç vaat etmez; müşterinin sorduğu sorulara cevap veren sayfaların varlığını sağlar.
 
@@ -146,12 +142,10 @@ Müşterilerin size en çok hangi soruları sorduğunu müşteri hizmetleri mesa
 
 E-ticarette sıraya tek başına bakmak yanıltıcıdır. Şu göstergeleri birlikte izleyin:
 
-| Gösterge | Nerede? | Ne söyler? |
-| --- | --- | --- |
-| Kategori sayfalarının gösterimi | Search Console, Performans | Geniş aramalarda görünüyor muyuz? |
-| Dizindeki ve dizin dışındaki sayfa sayısı | Search Console, Sayfa dizine ekleme | Ürünler Google’a ulaşıyor mu? |
-| Organik ziyaretçi ve sipariş | Mağaza raporları | Aramadan gelen trafik satışa dönüyor mu? |
-| Sepeti terk oranı (mobil) | Mağaza raporları | Telefondaki alışveriş akışı sorunlu mu? |
+- **Kategori sayfalarının gösterimi:** nerede?: Search Console, Performans; ne söyler?: Geniş aramalarda görünüyor muyuz?
+- **Dizindeki ve dizin dışındaki sayfa sayısı:** nerede?: Search Console, Sayfa dizine ekleme; ne söyler?: Ürünler Google’a ulaşıyor mu?
+- **Organik ziyaretçi ve sipariş:** nerede?: Mağaza raporları; ne söyler?: Aramadan gelen trafik satışa dönüyor mu?
+- **Sepeti terk oranı (mobil):** nerede?: Mağaza raporları; ne söyler?: Telefondaki alışveriş akışı sorunlu mu?
 
 Her ay aynı tarih aralıklarını karşılaştırın; kampanya ve sezon dönemlerini ayrı not edin, çünkü bayram ve kampanya trafiği SEO etkisini gölgeler.
 

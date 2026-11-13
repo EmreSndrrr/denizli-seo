@@ -6,7 +6,7 @@ service: icerik-seo
 imageAlt: "Basamaklı bir sıralama listesi ve en üste uzanan ok"
 ---
 
-**Kısa cevap:** Bir web sitesi Google’da üst sıralara; önce taranıp dizine girerek, sonra aranan soruya en iyi cevabı veren sayfalara sahip olarak, telefonda hızlı ve düzgün açılarak ve başka kaynaklarca tanınarak çıkar. Yerel işletmelerde Google İşletme Profili de gerekir. Google sıralama için ödeme kabul etmez ve kimse birinci sıra garantisi veremez; ilerleme düzenli işle birikir.
+Bir web sitesi Google’da üst sıralara; önce taranıp dizine girerek, sonra aranan soruya en iyi cevabı veren sayfalara sahip olarak, telefonda hızlı ve düzgün açılarak ve başka kaynaklarca tanınarak çıkar. Yerel işletmelerde Google İşletme Profili de gerekir. Google sıralama için ödeme kabul etmez ve kimse birinci sıra garantisi veremez; ilerleme düzenli işle birikir.
 
 “Sitemi Google’da nasıl üste çıkarırım?” sorusunun tek bir hile cevabı yoktur. Bu yazıda sekiz adımlık bir yol haritası veriyoruz. Her adım, sırayla yapılması gereken bir işi anlatır; önceki adım tamamlanmadan sonrakine geçmek çoğu zaman boşa emektir. Temel kavramlar için önce “SEO nedir?” yazımıza bakabilirsiniz.
 
@@ -96,11 +96,9 @@ Sonra kendi sayfanızı bu bakışla gözden geçirin. Amaç rakipten uzun yazma
 
 Kesin sonuç söz vermeden, işlerin makul bir dağılımı şöyle olabilir:
 
-| Dönem | Odak | Ölçüt |
-| --- | --- | --- |
-| 1. ay | Dizin, mobil, hız, başlıklar, İşletme Profili | Sayfa dizine ekleme raporunda hatalar azalıyor mu? |
-| 2. ay | Hedef aramalar için hizmet sayfaları | Yeni sayfalar dizinde mi, gösterim almaya başladı mı? |
-| 3. ay | Sık sorulan sorular, rehber yazıları, yorum toplama | Gösterim ve tıklama artıyor mu? |
+- **1. ay:** odak: Dizin, mobil, hız, başlıklar, İşletme Profili; ölçüt: Sayfa dizine ekleme raporunda hatalar azalıyor mu?
+- **2. ay:** odak: Hedef aramalar için hizmet sayfaları; ölçüt: Yeni sayfalar dizinde mi, gösterim almaya başladı mı?
+- **3. ay:** odak: Sık sorulan sorular, rehber yazıları, yorum toplama; ölçüt: Gösterim ve tıklama artıyor mu?
 
 Bu takvim bir tahmin değil, işlerin sırasıdır. Rekabetli aramalarda daha uzun sürer; dar yerel aramalarda daha erken hareket görülebilir. Gerçekçi beklenti için süre yazımıza bakın.
 

@@ -6,7 +6,7 @@ service: icerik-seo
 imageAlt: "Arama sonucu satırı ve yanında tıklama oranı göstergesi"
 ---
 
-**Kısa cevap:** Tıklama oranı (TO), sonucunuzun gösterildiği her yüz seferde kaç kez tıklandığını gösterir. Artırmak için sayfanın başlığını ve açıklamasını aramanın niyetine uygun, net ve doğru yazın; Google’ın başlık ve snippet’i sayfanızdan nasıl ürettiğini bilin; Search Console’da gösterimi yüksek ama tıklaması düşük sayfaları bulup tek tek iyileştirin. Başlığı aldatıcı yapmayın; Google başlığı ve açıklamayı farklı gösterebilir, sonuç garantisi yoktur.
+Tıklama oranı (TO), sonucunuzun gösterildiği her yüz seferde kaç kez tıklandığını gösterir. Artırmak için sayfanın başlığını ve açıklamasını aramanın niyetine uygun, net ve doğru yazın; Google’ın başlık ve snippet’i sayfanızdan nasıl ürettiğini bilin; Search Console’da gösterimi yüksek ama tıklaması düşük sayfaları bulup tek tek iyileştirin. Başlığı aldatıcı yapmayın; Google başlığı ve açıklamayı farklı gösterebilir, sonuç garantisi yoktur.
 
 Birçok sayfa sıralanır ama tıklanmaz. Sorun çoğu zaman içerikte değil, aramada görünen iki satırdadır. Başlık için [başlık etiketi ve meta açıklama](/blog/baslik-etiketi-ve-meta-aciklama-nasil-yazilir/), ölçüm için [yerel SEO sonuçları nasıl ölçülür?](/blog/yerel-seo-sonuclari-nasil-olculur/) yazılarına bakın.
 
@@ -41,24 +41,20 @@ Google’ın başlık bağlantısı rehberi, başlığın Google tarafından say
 
 ## Başlık yazarken
 
-| Zayıf | Daha iyi |
-| --- | --- |
-| Klima | Klima bakımı: yılda kaç kez, ne kadar sürer? |
-| Anasayfa – Firma Adı | Denizli’de klima bakımı ve montajı – Firma Adı |
-| EN İYİ KLİMA SERVİSİ!!! | Klima servisi: bakım, tamir ve montaj |
+- **Klima:** Klima bakımı: yılda kaç kez, ne kadar sürer?
+- **Anasayfa – Firma Adı:** Denizli’de klima bakımı ve montajı – Firma Adı
+- **EN İYİ KLİMA SERVİSİ!!!:** Klima servisi: bakım, tamir ve montaj
 
 Başlıkta doğrulayamadığınız “en iyi” gibi iddialardan kaçının.
 
 ## Sık yapılan hatalar
 
-| Hata | Çözüm |
-| --- | --- |
-| Başlığı yalnızca anahtar kelimeyle doldurmak | Okuyucuya yazın |
-| Aldatıcı başlık | Sayfanın içeriğiyle uyumlu yazın |
-| Tüm sayfalarda aynı açıklama | Sayfaya özel yazın |
-| Bir haftada karar vermek | Yeterli süre bekleyin |
-| TO’yu tek başına hedef yapmak | Dönüşümle birlikte bakın |
-| Google başlığı değiştirdi diye vazgeçmek | Sayfa başlığını ve içeriğini netleştirin |
+- **Başlığı yalnızca anahtar kelimeyle doldurmak:** Okuyucuya yazın
+- **Aldatıcı başlık:** Sayfanın içeriğiyle uyumlu yazın
+- **Tüm sayfalarda aynı açıklama:** Sayfaya özel yazın
+- **Bir haftada karar vermek:** Yeterli süre bekleyin
+- **TO’yu tek başına hedef yapmak:** Dönüşümle birlikte bakın
+- **Google başlığı değiştirdi diye vazgeçmek:** Sayfa başlığını ve içeriğini netleştirin
 
 ## Denizli’den bir örnek
 

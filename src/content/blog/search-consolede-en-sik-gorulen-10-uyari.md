@@ -6,7 +6,7 @@ service: teknik-seo
 imageAlt: "Search Console raporunda renkli durum satırları ve uyarı simgeleri"
 ---
 
-**Kısa cevap:** Search Console’daki Sayfa dizine ekleme raporunda en sık görülen durumlar şunlardır: sunucu hatası (5xx), yönlendirme hatası, bulunamadı (404), soft 404, robots.txt tarafından engellendi, noindex nedeniyle hariç tutuldu, yetkisiz (401) ya da erişim izni verilmemesi (403) nedeniyle engellendi, “Tarandı: şu anda dizine eklenmiş değil” ve “Bulundu: şu anda dizine eklenmiş değil”. Her durum hata değildir; önce sayfanın dizine girmesi gerekip gerekmediğine bakın.
+Search Console’daki Sayfa dizine ekleme raporunda en sık görülen durumlar şunlardır: sunucu hatası (5xx), yönlendirme hatası, bulunamadı (404), soft 404, robots.txt tarafından engellendi, noindex nedeniyle hariç tutuldu, yetkisiz (401) ya da erişim izni verilmemesi (403) nedeniyle engellendi, “Tarandı: şu anda dizine eklenmiş değil” ve “Bulundu: şu anda dizine eklenmiş değil”. Her durum hata değildir; önce sayfanın dizine girmesi gerekip gerekmediğine bakın.
 
 Search Console’u ilk açtığınızda kırmızı ve gri satırlar görürsünüz ve çoğu işletme sahibi bunları “hata” sanır. Oysa Google’ın kendi rehberi, bazı sayfaların dizine eklenmemesinin geçerli nedenleri olduğunu söyler. Bu yazıda en sık görülen on durumu, anlamlarını ve ne yapacağınızı anlatıyoruz. Raporu kurmak ve okumak için [Search Console’da ilk kontrol](/blog/search-console-ilk-kontrol/) yazımıza da bakabilirsiniz.
 

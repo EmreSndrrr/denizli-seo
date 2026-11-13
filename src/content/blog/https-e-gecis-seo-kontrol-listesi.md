@@ -6,7 +6,7 @@ service: teknik-seo
 imageAlt: "Kilit simgeli bir adres çubuğu ve http’den https’e giden ok"
 ---
 
-**Kısa cevap:** HTTP’den HTTPS’e geçiş, Google’ın site taşıma tanımına giren bir değişikliktir; bu yüzden eski adresleri yenilerine 301 ile yönlendirmek, site haritasında ve iç bağlantılarda HTTPS adreslerini kullanmak, canonical’ları güncellemek ve Search Console’da yeni sürümü izlemek gerekir. Google’ın önerisi: HTTP’den HTTPS’e yönlendirin, sertifikayı doğru kullanın ve site haritasında HTTPS sürümlerini tercih edin. Doğru yapıldığında geçiş sıralamanızı kaybettirmez; kontrolsüz yapılırsa kopya adres ve kırık bağlantı sorunları çıkar.
+HTTP’den HTTPS’e geçiş, Google’ın site taşıma tanımına giren bir değişikliktir; bu yüzden eski adresleri yenilerine 301 ile yönlendirmek, site haritasında ve iç bağlantılarda HTTPS adreslerini kullanmak, canonical’ları güncellemek ve Search Console’da yeni sürümü izlemek gerekir. Google’ın önerisi: HTTP’den HTTPS’e yönlendirin, sertifikayı doğru kullanın ve site haritasında HTTPS sürümlerini tercih edin. Doğru yapıldığında geçiş sıralamanızı kaybettirmez; kontrolsüz yapılırsa kopya adres ve kırık bağlantı sorunları çıkar.
 
 Adres çubuğunda kilit simgesi görmek ziyaretçiye güven verir; ama HTTPS geçişi yalnızca bir sertifika kurmak değildir. Site “http://” ile “https://” iki ayrı adreste açılabilir ve Google bunları ayrı URL’ler olarak görür. Bu yazıda geçişin SEO kısmını, sırayla bir kontrol listesi olarak anlatıyoruz. Tek adrese toplama konusu için [www ve www’suz adres](/blog/www-ve-wwwsuz-adres-tek-adrese-yonlendirme/) yazımıza da bakabilirsiniz.
 

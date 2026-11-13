@@ -6,7 +6,7 @@ service: backlink-hizmeti
 imageAlt: "Yerel haber sitesi sayfası ve işletmeye giden bağlantı"
 ---
 
-**Kısa cevap:** Yerel haber sitelerinden bağlantı almanın sağlam yolu, editöre gerçekten haber ya da bilgi değeri olan bir konu sunmaktır: yeni bir açılış, bölgeyi ilgilendiren bir veri, uzman görüşü ya da etkinlik. Haber siteleri bağlantıyı genellikle kaynak göstermek için verir. Para karşılığı yayımlanan içerikte bağlantı varsa, Google’ın kurallarına göre `rel="sponsored"` ile nitelenmelidir.
+Yerel haber sitelerinden bağlantı almanın sağlam yolu, editöre gerçekten haber ya da bilgi değeri olan bir konu sunmaktır: yeni bir açılış, bölgeyi ilgilendiren bir veri, uzman görüşü ya da etkinlik. Haber siteleri bağlantıyı genellikle kaynak göstermek için verir. Para karşılığı yayımlanan içerikte bağlantı varsa, Google’ın kurallarına göre `rel="sponsored"` ile nitelenmelidir.
 
 Denizli gibi bir şehirde yerel haber siteleri, hem okuyucu hem bölgesel ilgi açısından değerlidir. Genel yerel kaynak fikirleri için [Denizli yerel backlink kaynakları](/blog/denizli-yerel-backlink-kaynaklari/), geniş çerçeve için [dijital PR](/blog/dijital-pr-ile-dogal-backlink-kazanmak/) yazılarına bakabilirsiniz.
 
@@ -39,14 +39,12 @@ Bazı yayınlar reklam/sponsorlu içerik satar. Google, reklam ve sponsorluk ba�
 
 ## Sık yapılan hatalar
 
-| Hata | Çözüm |
-| --- | --- |
-| Haber değeri olmayan reklam metni | Önce haber değeri bulun |
-| Toplu aynı e-posta | Kişiye özel yazın |
-| Abartılı iddialar | Doğru bilgi |
-| Bağlantı şartı | Editöre bırakın |
-| Ücretli yayını nitelememek | `sponsored` |
-| Yalnızca bir kez denemek | Düzenli, faydalı konular sunun |
+- **Haber değeri olmayan reklam metni:** Önce haber değeri bulun
+- **Toplu aynı e-posta:** Kişiye özel yazın
+- **Abartılı iddialar:** Doğru bilgi
+- **Bağlantı şartı:** Editöre bırakın
+- **Ücretli yayını nitelememek:** `sponsored`
+- **Yalnızca bir kez denemek:** Düzenli, faydalı konular sunun
 
 ## Denizli’den bir örnek
 

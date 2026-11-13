@@ -6,7 +6,7 @@ service: icerik-seo
 imageAlt: "Makale altında yazar kutusu ve kaynak listesi"
 ---
 
-**Kısa cevap:** Yazar kutusu, bir yazının kim tarafından yazıldığını ve yazarın o konuyla ilişkisini gösterir; kaynak listesi ise iddiaların nereye dayandığını gösterir. Google’ın yardımcı içerik rehberi, okuyucunun içeriğin kim tarafından yazıldığını görebilmesini ve yazar bilgisine ulaşabilmesini önerir. Yazı sonuna gerçek bir yazar adı, kısa tanıtım ve doğrulanabilir kaynaklar ekleyin; uydurma unvan ya da kaynak yazmayın.
+Yazar kutusu, bir yazının kim tarafından yazıldığını ve yazarın o konuyla ilişkisini gösterir; kaynak listesi ise iddiaların nereye dayandığını gösterir. Google’ın yardımcı içerik rehberi, okuyucunun içeriğin kim tarafından yazıldığını görebilmesini ve yazar bilgisine ulaşabilmesini önerir. Yazı sonuna gerçek bir yazar adı, kısa tanıtım ve doğrulanabilir kaynaklar ekleyin; uydurma unvan ya da kaynak yazmayın.
 
 Okuyucu bir bilgiye güvenmeden önce “bunu kim söylüyor, neye dayanıyor?” diye sorar. Yazar kutusu ve kaynaklar bu sorunun cevabıdır. Güven bütününde [Hakkımızda sayfası](/blog/hakkimizda-sayfasi-nasil-yazilir-guven-icin-rehber/) ve [vaka çalışması](/blog/vaka-calismasi-nasil-yazilir-durust-bir-sablon/) ile birlikte düşünülmelidir.
 
@@ -39,13 +39,11 @@ Tarih konusunda: Google’ın tarih rehberi, görünür tarihlerin doğru ve yap
 
 ## Kaynak gösterme kuralları
 
-| İyi | Kaçının |
-| --- | --- |
-| Resmî dokümanlar, doğrudan kaynak | Kaynağı belirsiz “araştırmalara göre” |
-| İddiaya yakın bağlantı | Yalnızca yazı sonunda toplu liste |
-| Açıklayıcı bağlantı metni | “Buraya tıklayın” |
-| Tarihli ve güncel kaynak | Eski, ölü bağlantı |
-| Kendi gözleminizi “gözlemimiz” diye etiketlemek | Gözlemi kanıtlanmış bilgi gibi sunmak |
+- **Resmî dokümanlar, doğrudan kaynak:** Kaynağı belirsiz “araştırmalara göre”
+- **İddiaya yakın bağlantı:** Yalnızca yazı sonunda toplu liste
+- **Açıklayıcı bağlantı metni:** “Buraya tıklayın”
+- **Tarihli ve güncel kaynak:** Eski, ölü bağlantı
+- **Kendi gözleminizi “gözlemimiz” diye etiketlemek:** Gözlemi kanıtlanmış bilgi gibi sunmak
 
 ## Yapay zekâ ve kaynak
 
@@ -53,14 +51,12 @@ Yapay zekâ ile taslak yazdıysanız, kaynakları ve bilgileri insan olarak doğ
 
 ## Sık yapılan hatalar
 
-| Hata | Çözüm |
-| --- | --- |
-| Yazar yok ya da “Admin” | Gerçek yazar |
-| Uydurma unvan ve sertifika | Kaldırın |
-| Kaynaksız büyük iddialar | Kaynak ekleyin ya da iddiayı çıkarın |
-| Ölü kaynak bağlantısı | Düzenli kontrol |
-| Güncelleme tarihini sürekli değiştirmek | Yalnızca gerçek güncellemede |
-| Uzmanlık gereken konuda uzmansız yazı | Uzman gözden geçirsin |
+- **Yazar yok ya da “Admin”:** Gerçek yazar
+- **Uydurma unvan ve sertifika:** Kaldırın
+- **Kaynaksız büyük iddialar:** Kaynak ekleyin ya da iddiayı çıkarın
+- **Ölü kaynak bağlantısı:** Düzenli kontrol
+- **Güncelleme tarihini sürekli değiştirmek:** Yalnızca gerçek güncellemede
+- **Uzmanlık gereken konuda uzmansız yazı:** Uzman gözden geçirsin
 
 ## Denizli’den bir örnek
 

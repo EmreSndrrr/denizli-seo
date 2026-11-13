@@ -6,7 +6,7 @@ service: teknik-seo
 imageAlt: "Bir işletme kartı ve arkasındaki etiketlenmiş veri alanları"
 ---
 
-**Kısa cevap:** Yapılandırılmış veri, sayfanızdaki bilgiyi (işletme adı, adres, telefon, saatler, ürün, makale gibi) Google’ın anlayacağı standart bir biçimde etiketlemektir. Google en kolay uygulanabilen biçim olarak çoğu durumda JSON-LD’yi önerir. Doğru ve eksiksiz uygulandığında Google bu bilgileri Arama’da zengin sonuç görüntülemek için kullanabilir; bu bir garanti değildir. İşaretlemeyi Zengin Sonuçlar Testi ile doğrulayın; sayfada görünmeyen ya da yanlış bilgiyi işaretlemeyin.
+Yapılandırılmış veri, sayfanızdaki bilgiyi (işletme adı, adres, telefon, saatler, ürün, makale gibi) Google’ın anlayacağı standart bir biçimde etiketlemektir. Google en kolay uygulanabilen biçim olarak çoğu durumda JSON-LD’yi önerir. Doğru ve eksiksiz uygulandığında Google bu bilgileri Arama’da zengin sonuç görüntülemek için kullanabilir; bu bir garanti değildir. İşaretlemeyi Zengin Sonuçlar Testi ile doğrulayın; sayfada görünmeyen ya da yanlış bilgiyi işaretlemeyin.
 
 Yapılandırılmış veri, teknik SEO’nun “görünmeyen” kısımlarından biridir: ziyaretçi onu görmez, ama Google bilgiyi daha doğru anlar. Küçük bir işletme için en anlamlı kullanımı yerel işletme bilgisidir: ad, adres, telefon, çalışma saatleri. Bu yazıda yapılandırılmış verinin ne olduğunu, hangi alanların önemli olduğunu ve nasıl doğrulanacağını anlatıyoruz. Profil tarafı için [Google İşletme Profili nasıl doldurulur?](/blog/google-isletme-profili-nasil-doldurulur/) yazımıza da bakabilirsiniz.
 
@@ -33,15 +33,13 @@ Wix, WordPress ya da Shopify gibi sistemler kullanıyorsanız çoğu zaman eklen
 
 Google’ın örneklerinde yerel işletme için şu alanlar öne çıkar:
 
-| Alan | Anlamı | Durum |
-| --- | --- | --- |
-| `name` | İşletmenin adı | Gerekli |
-| `address` | Posta adresi (sokak, ilçe, il, posta kodu, ülke) | Gerekli |
-| `telephone` | Telefon numarası | Önerilir |
-| `openingHoursSpecification` | Çalışma saatleri | Önerilir |
-| `url`, `image` | Web adresi, fotoğraf | Önerilir |
-| `geo` | Koordinat | Önerilir |
-| `aggregateRating` | Ortalama puan | Yalnızca diğer yerel işletmelere ait yorumları toplayan siteler için önerilir |
+- **`name`:** anlamı: İşletmenin adı; durum: Gerekli
+- **`address`:** anlamı: Posta adresi (sokak, ilçe, il, posta kodu, ülke); durum: Gerekli
+- **`telephone`:** anlamı: Telefon numarası; durum: Önerilir
+- **`openingHoursSpecification`:** anlamı: Çalışma saatleri; durum: Önerilir
+- **`url`, `image`:** anlamı: Web adresi, fotoğraf; durum: Önerilir
+- **`geo`:** anlamı: Koordinat; durum: Önerilir
+- **`aggregateRating`:** anlamı: Ortalama puan; durum: Yalnızca diğer yerel işletmelere ait yorumları toplayan siteler için önerilir
 
 Son satıra dikkat edin: Google, `aggregateRating` özelliğinin yalnızca diğer yerel işletmeler hakkında yorum alan siteler için önerildiğini belirtir. Kendi işletmenizin yorumlarını işaretlemeden önce Google’ın yorum snippet’i yönergelerini okuyun; uydurma ya da doğrulanamayan puan yazmayın.
 
@@ -100,12 +98,10 @@ Google, Zengin Sonuçlar Testi’nin yapılandırılmış verinizi doğrulamak v
 
 ## Hangi sayfalara hangi işaretleme?
 
-| Sayfa | Olası işaretleme |
-| --- | --- |
-| Ana sayfa / iletişim | Yerel işletme (LocalBusiness) |
-| Blog yazısı | Makale |
-| Ürün sayfası | Ürün; e-ticarette fiyat ve stok ([e-ticaret SEO](/blog/e-ticaret-seo/)) |
-| Sık sorulan sorular | Yalnızca Google’ın güncel yönergelerine uygunsa; yönergeleri kontrol edin |
+- **Ana sayfa / iletişim:** Yerel işletme (LocalBusiness)
+- **Blog yazısı:** Makale
+- **Ürün sayfası:** Ürün; e-ticarette fiyat ve stok ([e-ticaret SEO](/blog/e-ticaret-seo/))
+- **Sık sorulan sorular:** Yalnızca Google’ın güncel yönergelerine uygunsa; yönergeleri kontrol edin
 
 Her işaretleme türünün Google’da kendi yönergeleri vardır ve zaman içinde değişebilir. Kullanmadan önce güncel yönergeye bakın.
 
@@ -117,12 +113,10 @@ Düzeltme: eklentide ad, adres, telefon ve saatler profildeki bilgilerle aynı y
 
 ## İşaretleme ile profil arasındaki fark
 
-| | Yapılandırılmış veri | İşletme Profili |
-| --- | --- | --- |
-| Nerede? | Sitenizin sayfasında | Google Arama ve Haritalar’da |
-| Kim kontrol eder? | Siz, kod ya da eklentiyle | Siz, profil yönetiminden |
-| Ne işe yarar? | Sayfayı Google’a açıklar | Haritada ve aramada işletme kartı |
-| Birbirini etkiler mi? | Tutarlı bilgi, Google’ın işletmeyi anlamasını destekler | Haritadaki bilgiyi asıl belirleyen |
+- **Nerede?:** yapılandırılmış veri: Sitenizin sayfasında; i̇şletme profili: Google Arama ve Haritalar’da
+- **Kim kontrol eder?:** yapılandırılmış veri: Siz, kod ya da eklentiyle; i̇şletme profili: Siz, profil yönetiminden
+- **Ne işe yarar?:** yapılandırılmış veri: Sayfayı Google’a açıklar; i̇şletme profili: Haritada ve aramada işletme kartı
+- **Birbirini etkiler mi?:** yapılandırılmış veri: Tutarlı bilgi, Google’ın işletmeyi anlamasını destekler; i̇şletme profili: Haritadaki bilgiyi asıl belirleyen
 
 İkisi birbirini tamamlar; biri diğerinin yerine geçmez.
 

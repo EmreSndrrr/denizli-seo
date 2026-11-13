@@ -6,7 +6,7 @@ service: yerel-seo
 imageAlt: "Harita üzerinde mahalle sınırları ve ilan kartları"
 ---
 
-**Kısa cevap:** Emlakçılar için SEO, iki ayağa dayanır: haritada görünmek (İşletme Profili, yorum, fotoğraf) ve ilçe ile mahalle aramalarında sitenizin görünmesi (bölge sayfaları, güncel ilan ve rehber içerik). Her mahalle için kopya sayfa açmayın; yalnızca gerçekten çalıştığınız ve söyleyecek bilginiz olan bölgeler için özgün sayfa yazın. Sıra garantisi yoktur.
+Emlakçılar için SEO, iki ayağa dayanır: haritada görünmek (İşletme Profili, yorum, fotoğraf) ve ilçe ile mahalle aramalarında sitenizin görünmesi (bölge sayfaları, güncel ilan ve rehber içerik). Her mahalle için kopya sayfa açmayın; yalnızca gerçekten çalıştığınız ve söyleyecek bilginiz olan bölgeler için özgün sayfa yazın. Sıra garantisi yoktur.
 
 Emlak sektöründe aramalar genellikle konuma bağlıdır: “Merkezefendi kiralık daire”, “Pamukkale satılık arsa”, “Denizli emlakçı”. Ayrıca büyük ilan portalları rekabeti yükseltir. Küçük bir emlak ofisi, portallarla aynı alanda yarışmak yerine kendi güçlü yanını, yani bölge bilgisini ve güveni öne çıkarabilir. Bu yazı, nasıl yapılacağını anlatıyor. İlçe adının sayfada kullanımı için [ilçe bazlı arama](/blog/denizli-ilce-bazli-arama/) yazımıza da bakabilirsiniz.
 
@@ -76,13 +76,11 @@ Süresi biten ilanlar, müşteriyi hayal kırıklığına uğratır ve siteyi es
 
 Portallar ilan verir; ama müşterinin sorduğu soruların hepsine cevap vermez. Siz bu boşluğu doldurabilirsiniz:
 
-| Konu | Örnek rehber başlığı |
-| --- | --- |
-| Alım süreci | Ev alırken adım adım ne yapılır? |
-| Kiralama | Kiracı ve ev sahibi için dikkat edilecekler |
-| Bölge | Merkezefendi’de yaşamak: ulaşım ve yaşam |
-| Karşılaştırma | Daire mi müstakil ev mi? Karar kuralı |
-| Hazırlık | Evinizi satışa hazırlarken yapılacaklar |
+- **Alım süreci:** Ev alırken adım adım ne yapılır?
+- **Kiralama:** Kiracı ve ev sahibi için dikkat edilecekler
+- **Bölge:** Merkezefendi’de yaşamak: ulaşım ve yaşam
+- **Karşılaştırma:** Daire mi müstakil ev mi? Karar kuralı
+- **Hazırlık:** Evinizi satışa hazırlarken yapılacaklar
 
 Bu yazılarda yalnızca doğrulanabilir bilgi verin; yasal süreç ve maliyet konusunda kesin rakam yazmadan önce kaynağı doğrulayın ya da müşteriyi danışmanlığa yönlendirin.
 

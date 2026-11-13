@@ -6,7 +6,7 @@ service: teknik-seo
 imageAlt: "Bir XML dosyası ve sitenin sayfalarını gösteren harita"
 ---
 
-**Kısa cevap:** Site haritası, sitenizde önemsediğiniz URL’leri içeren ve Google’a sayfalarınızı bildiren bir dosyadır. WordPress, Wix gibi sistemler çoğunlukla otomatik üretir. Dosyanın adresini bulun (genellikle `/sitemap.xml`), `robots.txt` dosyanıza `Sitemap:` satırı olarak ekleyin ve Search Console’dan gönderin. Tek bir dosya en fazla 50 MB ya da 50.000 URL içerebilir. Küçük ve iyi bağlanmış sitelerde zorunlu değildir.
+Site haritası, sitenizde önemsediğiniz URL’leri içeren ve Google’a sayfalarınızı bildiren bir dosyadır. WordPress, Wix gibi sistemler çoğunlukla otomatik üretir. Dosyanın adresini bulun (genellikle `/sitemap.xml`), `robots.txt` dosyanıza `Sitemap:` satırı olarak ekleyin ve Search Console’dan gönderin. Tek bir dosya en fazla 50 MB ya da 50.000 URL içerebilir. Küçük ve iyi bağlanmış sitelerde zorunlu değildir.
 
 Site haritası, teknik SEO’nun en bilinen ama en çok yanlış anlaşılan parçasıdır: çoğu işletme sahibi onu sıralamayı yükselten bir araç sanır. Oysa görevi, Google’ın sayfalarınızı **bulmasına** yardımcı olmaktır. Bu yazı, site haritasının ne olduğunu, kimler için gerektiğini ve nasıl oluşturulup gönderileceğini anlatıyor. Sitenizin genel durumu için [Search Console’da ilk kontrol](/blog/search-console-ilk-kontrol/) yazımıza da bakabilirsiniz.
 
@@ -98,13 +98,11 @@ Bu örnek sonuç vaadi değildir; kontrol sırasını gösterir.
 
 Haritaya yalnızca Google’ın dizine eklemesini istediğiniz, standart ve erişilebilir sayfaları koyun:
 
-| Olmalı | Olmamalı |
-| --- | --- |
-| Ana sayfa, hizmet sayfaları, iletişim | Teşekkür ve giriş sayfaları |
-| Önemli blog yazıları | noindex verilmiş sayfalar |
-| Ürün ve kategori sayfaları | Başka adrese yönlendirilen sayfalar |
-| Gerçek, özgün ilçe ve şube sayfaları | 404 veren sayfalar |
-| Standart (canonical) adresler | Parametreli kopya adresler |
+- **Ana sayfa, hizmet sayfaları, iletişim:** Teşekkür ve giriş sayfaları
+- **Önemli blog yazıları:** noindex verilmiş sayfalar
+- **Ürün ve kategori sayfaları:** Başka adrese yönlendirilen sayfalar
+- **Gerçek, özgün ilçe ve şube sayfaları:** 404 veren sayfalar
+- **Standart (canonical) adresler:** Parametreli kopya adresler
 
 ## Site yenilerken ya da büyütürken harita
 

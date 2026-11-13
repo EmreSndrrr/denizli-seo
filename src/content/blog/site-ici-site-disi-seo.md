@@ -6,7 +6,7 @@ service: teknik-seo
 imageAlt: "Bir sayfanın içi ve dışı: sol tarafta düzenlenen sayfa, sağda ona bağlanan siteler"
 ---
 
-**Kısa cevap:** Site içi SEO, kendi sitenizde yaptığınız işlerdir: içerik, başlıklar, iç bağlantılar, hız ve mobil görünüm. Site dışı SEO ise sitenizin dışında olanlardır: başka sitelerin size verdiği bağlantılar, yorumlar ve tanınırlık. Teknik SEO, site içinin Google’ın siteyi bulup anlamasını sağlayan kısmıdır. Çoğu işletme için doğru sıra, önce site içi, sonra site dışıdır.
+Site içi SEO, kendi sitenizde yaptığınız işlerdir: içerik, başlıklar, iç bağlantılar, hız ve mobil görünüm. Site dışı SEO ise sitenizin dışında olanlardır: başka sitelerin size verdiği bağlantılar, yorumlar ve tanınırlık. Teknik SEO, site içinin Google’ın siteyi bulup anlamasını sağlayan kısmıdır. Çoğu işletme için doğru sıra, önce site içi, sonra site dışıdır.
 
 “Sayfa içi”, “sayfa dışı”, “on-page”, “off-page” gibi terimler birbirine karışır. Bu yazı, hangi işin hangi gruba girdiğini ve neden bu ayrımın işinize yaradığını anlatıyor. Terimlerin tamamı Google’ın değil, sektörün kullandığı kavramlardır; Google’ın kendi rehberleri bunları bu adlarla ayırmaz. Ayrım yine de önceliklendirme için yararlıdır. Genel çerçeve için [SEO nedir?](/blog/seo-nedir/) yazımıza bakabilirsiniz.
 
@@ -71,12 +71,10 @@ Mevcut durumunuzu görmek için [ücretsiz SEO analizi](/blog/ucretsiz-seo-anali
 
 Örnek (hayalî bir işletme için): Çivril’de bir tarım makineleri bayisi.
 
-| Grup | Yapılacak iş |
-| --- | --- |
-| Teknik | Siteyi telefonda hızlandırmak; eski ürün sayfalarını yeni adreslere yönlendirmek |
-| Site içi | Her ürün grubu için ayrı sayfa; sık sorulan sorular; açıklayıcı başlıklar |
-| Site dışı | Ziraat odasında ve yerel çiftçi derneklerinde üye kaydı; yerel haberde fuar katılımı |
-| Yerel | İşletme Profili’nde doğru kategori ve hizmet bölgesi |
+- **Teknik:** Siteyi telefonda hızlandırmak; eski ürün sayfalarını yeni adreslere yönlendirmek
+- **Site içi:** Her ürün grubu için ayrı sayfa; sık sorulan sorular; açıklayıcı başlıklar
+- **Site dışı:** Ziraat odasında ve yerel çiftçi derneklerinde üye kaydı; yerel haberde fuar katılımı
+- **Yerel:** İşletme Profili’nde doğru kategori ve hizmet bölgesi
 
 Sıra: teknik ve içerik önce; dış kaynaklar sayfalar hazır olduğunda.
 
@@ -120,24 +118,20 @@ On beş maddenin hepsini aynı gün çözmeye çalışmayın. “Hayır” cevap
 
 Site dışı çalışma yavaş birikir, bu yüzden bir kez değil yıl boyunca düzenli yapılır. Küçük bir yerel işletme için makul bir yıllık takvim:
 
-| Dönem | İş |
-| --- | --- |
-| Her ay | Müşterilerden Google yorumu isteme; gelen yorumlara yanıt verme |
-| Üç ayda bir | Rehber ve kuruluş sitelerindeki ad, adres ve telefon bilgisini kontrol etme |
-| Yılda iki kez | Tedarikçi, iş ortağı ve dernek sitelerinde kaydınızın güncel olup olmadığına bakma |
-| Fırsat çıktıkça | Etkinlik, fuar ya da yerel haber için basın bilgisi hazırlama |
+- **Her ay:** Müşterilerden Google yorumu isteme; gelen yorumlara yanıt verme
+- **Üç ayda bir:** Rehber ve kuruluş sitelerindeki ad, adres ve telefon bilgisini kontrol etme
+- **Yılda iki kez:** Tedarikçi, iş ortağı ve dernek sitelerinde kaydınızın güncel olup olmadığına bakma
+- **Fırsat çıktıkça:** Etkinlik, fuar ya da yerel haber için basın bilgisi hazırlama
 
 Bu işlerin hiçbiri tek başına büyük sıçrama yaratmaz; ama birlikte işletmenin gerçekte tanındığını gösterir. Yerel kaynakların listesi için “Denizli işletmeleri için yerel backlink kaynakları” yazımıza bakabilirsiniz.
 
 ## Hangi işin etkisini nerede ölçersiniz?
 
-| İş | Etkisini nerede görürsünüz? |
-| --- | --- |
-| Başlık ve açıklama düzeltme | Search Console, Performans: tıklama oranı |
-| Yeni hizmet sayfası | Performans: yeni sayfanın gösterimi; Sayfa dizine ekleme: dizinde mi |
-| Hız iyileştirme | Hız ölçüm araçları; telefonda deneyim |
-| Google yorumları | İşletme Profili, Performans bölümü |
-| Yeni bağlantı | Search Console, Bağlantılar raporu |
+- **Başlık ve açıklama düzeltme:** Search Console, Performans: tıklama oranı
+- **Yeni hizmet sayfası:** Performans: yeni sayfanın gösterimi; Sayfa dizine ekleme: dizinde mi
+- **Hız iyileştirme:** Hız ölçüm araçları; telefonda deneyim
+- **Google yorumları:** İşletme Profili, Performans bölümü
+- **Yeni bağlantı:** Search Console, Bağlantılar raporu
 
 Her değişiklikten sonra tarihi not edin. Üç ay sonra hangi işin neye yaradığını geriye dönüp görebilirsiniz.
 

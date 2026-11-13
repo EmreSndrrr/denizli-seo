@@ -6,7 +6,7 @@ service: teknik-seo
 imageAlt: "SEO sözleşmesi maddeleri: kapsam, süre, rapor, sahiplik, garanti, fesih"
 ---
 
-**Kısa cevap:** SEO hizmeti sözleşmesinde en az şu sekiz konu yazılı olmalıdır: kapsam, süre ve ücret, raporlama, erişim ve sahiplik, garanti ifadeleri, bağlantı ve içerik politikası, fesih ve devir koşulları ve gizlilik. Google kimsenin birinci sıra garantisi veremeyeceğini söyler; “ilk sayfa garantisi” maddesine dikkat edin. Bu yazı hukuki danışmanlık değildir; sözleşmeyi bir hukukçuya da gösterin.
+SEO hizmeti sözleşmesinde en az şu sekiz konu yazılı olmalıdır: kapsam, süre ve ücret, raporlama, erişim ve sahiplik, garanti ifadeleri, bağlantı ve içerik politikası, fesih ve devir koşulları ve gizlilik. Google kimsenin birinci sıra garantisi veremeyeceğini söyler; “ilk sayfa garantisi” maddesine dikkat edin. Bu yazı hukuki danışmanlık değildir; sözleşmeyi bir hukukçuya da gösterin.
 
 SEO hizmeti satın almanın zor yanı, sonucu önceden bilememenizdir; bu yüzden sözleşme iki tarafın da neyi vaat ettiğini ve neyi vaat etmediğini netleştirmelidir. İyi bir sözleşme, ajansı kısıtlamaz; ilişkiyi şeffaf hâle getirir. Ajans seçimi için [SEO ajansı mı, uzman mı?](/blog/seo-ajansi-mi-uzmani-mi/), fiyat için SEO fiyatları yazılarına bakabilirsiniz.
 
@@ -44,13 +44,11 @@ SEO’da sonuçlar zaman alır; çok kısa bir süreye bağlı beklentiler gerç
 
 ### 3. Raporlama
 
-| Konu | Yazılması gereken |
-| --- | --- |
-| Sıklık | Aylık, belirli bir tarihe kadar |
-| İçerik | Yapılan işler, ölçüler, riskler, sonraki plan; bkz. [SEO raporu nasıl okunur?](/blog/seo-raporu-nasil-okunur-aylik-rapor-sablonu/) |
-| Veri kaynağı | Search Console, işletme profili raporu, analiz aracı |
-| Başlangıç ölçümü | Çalışma başlamadan önceki durum kaydı |
-| Toplantı | Rapor sunumu ya da görüşme sıklığı |
+- **Sıklık:** Aylık, belirli bir tarihe kadar
+- **İçerik:** Yapılan işler, ölçüler, riskler, sonraki plan; bkz. [SEO raporu nasıl okunur?](/blog/seo-raporu-nasil-okunur-aylik-rapor-sablonu/)
+- **Veri kaynağı:** Search Console, işletme profili raporu, analiz aracı
+- **Başlangıç ölçümü:** Çalışma başlamadan önceki durum kaydı
+- **Toplantı:** Rapor sunumu ya da görüşme sıklığı
 
 ### 4. Erişim ve sahiplik
 
@@ -64,12 +62,10 @@ Bu madde en çok ihmal edilen ve en pahalıya patlayan maddedir:
 
 ### 5. Garanti ifadeleri
 
-| Madde | Güvenli yaklaşım |
-| --- | --- |
-| “Google’da birinci sıra garantisi” | Olmamalı; kimse veremez |
-| “Şu kadar ayda şu kadar trafik” | Taahhüt değil, hedef olarak ve varsayımlarıyla yazılmalı |
-| “Garanti iade” | Koşulları ve ölçüsü açık olmalı |
-| Çalışma garantisi | İşlerin yapılması (iş kalemleri) taahhüdü olabilir |
+- **“Google’da birinci sıra garantisi”:** Olmamalı; kimse veremez
+- **“Şu kadar ayda şu kadar trafik”:** Taahhüt değil, hedef olarak ve varsayımlarıyla yazılmalı
+- **“Garanti iade”:** Koşulları ve ölçüsü açık olmalı
+- **Çalışma garantisi:** İşlerin yapılması (iş kalemleri) taahhüdü olabilir
 
 Çalışma taahhüdü ile sonuç taahhüdü arasındaki farkı koruyun: ajans, iş kalemlerini yapmayı taahhüt edebilir; Google’ın sonucunu taahhüt edemez.
 
@@ -115,15 +111,13 @@ Bu madde yazılı olmazsa, ayrılmak istediğinizde elinizde ne olduğunu bileme
 
 ## Kırmızı bayraklar
 
-| Bayrak | Neden? |
-| --- | --- |
-| “İlk sayfa garantisi” | Google bunu kimsenin veremeyeceğini söylüyor |
-| Alan adı ya da hesapların ajans adına açılması | Ayrılırken rehine olur |
-| “Özel yöntemlerimiz” diyip yöntemi açıklamamak | Bağlantı spam’i riski olabilir |
-| Raporlama yok ya da belirsiz | Neyin yapıldığı görülmez |
-| Çok uzun, çıkışsız sözleşme | Fesih koşulları ağır olabilir |
-| Google ile “özel ilişki” iddiası | Google bu tür iddialara karşı uyarır |
-| Kapsamın sürekli genişlemesi | Ek ücret riski |
+- **“İlk sayfa garantisi”:** Google bunu kimsenin veremeyeceğini söylüyor
+- **Alan adı ya da hesapların ajans adına açılması:** Ayrılırken rehine olur
+- **“Özel yöntemlerimiz” diyip yöntemi açıklamamak:** Bağlantı spam’i riski olabilir
+- **Raporlama yok ya da belirsiz:** Neyin yapıldığı görülmez
+- **Çok uzun, çıkışsız sözleşme:** Fesih koşulları ağır olabilir
+- **Google ile “özel ilişki” iddiası:** Google bu tür iddialara karşı uyarır
+- **Kapsamın sürekli genişlemesi:** Ek ücret riski
 
 ## Denizli’den bir örnek
 
@@ -131,18 +125,18 @@ Bu madde yazılı olmazsa, ayrılmak istediğinizde elinizde ne olduğunu bileme
 
 ## Sözleşme kontrol listesi
 
-| Madde | Yazılı mı? |
-| --- | --- |
-| Kapsam iş kalemleriyle belirtilmiş mi? | |
-| Kapsam dışı işler yazılı mı? | |
-| Süre, ücret, ödeme ve KDV net mi? | |
-| Rapor içeriği, sıklığı ve başlangıç ölçümü yazılı mı? | |
-| Alan adı, hosting, Search Console, analiz ve profil sahipliği sizde mi? | |
-| İçerik ve telif hakkı koşulu yazılı mı? | |
-| Sıralama garantisi var mı? (Olmamalı) | |
-| Bağlantı ve içerik politikası yazılı mı? | |
-| Fesih bildirimi ve teslim edilecekler yazılı mı? | |
-| Gizlilik ve veri maddesi yazılı mı? | |
+Şunları tek tek kontrol edin:
+
+- Kapsam iş kalemleriyle belirtilmiş mi?
+- Kapsam dışı işler yazılı mı?
+- Süre, ücret, ödeme ve KDV net mi?
+- Rapor içeriği, sıklığı ve başlangıç ölçümü yazılı mı?
+- Alan adı, hosting, Search Console, analiz ve profil sahipliği sizde mi?
+- İçerik ve telif hakkı koşulu yazılı mı?
+- Sıralama garantisi var mı? (Olmamalı)
+- Bağlantı ve içerik politikası yazılı mı?
+- Fesih bildirimi ve teslim edilecekler yazılı mı?
+- Gizlilik ve veri maddesi yazılı mı?
 
 ## Denizli SEO bu konuda nasıl yardımcı olur?
 

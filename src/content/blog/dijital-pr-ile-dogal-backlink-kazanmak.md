@@ -6,7 +6,7 @@ service: backlink-hizmeti
 imageAlt: "Haber sitesi ve gazeteciye ulaşan bilgi paketi"
 ---
 
-**Kısa cevap:** Dijital PR, haber değeri olan bir konuyu gazetecilere, yerel yayınlara ve sektör sitelerine ulaştırarak doğal biçimde anılmak ve bağlantı almaktır. Bağlantı, anılmanın yan ürünüdür; amaç haberin ya da uzman görüşünün gerçekten yayımlanmasıdır. Basın bültenlerini bağlantı dağıtmak için kullanmak ise Google’ın spam politikalarında optimize bağlantı metni örnekleri arasında geçer.
+Dijital PR, haber değeri olan bir konuyu gazetecilere, yerel yayınlara ve sektör sitelerine ulaştırarak doğal biçimde anılmak ve bağlantı almaktır. Bağlantı, anılmanın yan ürünüdür; amaç haberin ya da uzman görüşünün gerçekten yayımlanmasıdır. Basın bültenlerini bağlantı dağıtmak için kullanmak ise Google’ın spam politikalarında optimize bağlantı metni örnekleri arasında geçer.
 
 Bir işletmenin “haber değeri” taşıyan bir konusu çoğu zaman vardır: yeni açılış, gerçek bir ödül (yalnızca varsa), bölgeye dair bir veri analizi, bir etkinlik ya da mevsimsel bir uyarı. Bağlantı yapısı için [backlink nedir?](/blog/backlink-nedir/) ve [Denizli yerel backlink kaynakları](/blog/denizli-yerel-backlink-kaynaklari/) yazılarına bakabilirsiniz.
 
@@ -39,14 +39,12 @@ Bülteni yayımlamak meşrudur; ama onlarca bülten sitesine aynı metni anahtar
 
 ## Sık yapılan hatalar
 
-| Hata | Çözüm |
-| --- | --- |
-| Haber değeri olmayan duyuru | Önce hikâyeyi bulun |
-| Abartılı ya da uydurma iddialar | Yalnızca doğru olanı yazın |
-| Toplu aynı e-posta | Kişiselleştirin |
-| Bağlantıyı şart koşmak | Yayıncıya bırakın |
-| Bülteni her yere dağıtmak | Seçici olun |
-| Sonuç takibi yapmamak | Kaydedin |
+- **Haber değeri olmayan duyuru:** Önce hikâyeyi bulun
+- **Abartılı ya da uydurma iddialar:** Yalnızca doğru olanı yazın
+- **Toplu aynı e-posta:** Kişiselleştirin
+- **Bağlantıyı şart koşmak:** Yayıncıya bırakın
+- **Bülteni her yere dağıtmak:** Seçici olun
+- **Sonuç takibi yapmamak:** Kaydedin
 
 ## Denizli’den bir örnek
 
@@ -56,13 +54,11 @@ Bülteni yayımlamak meşrudur; ama onlarca bülten sitesine aynı metni anahtar
 
 Bir gazeteci ya da editör, her gün onlarca öneri alır. Sizi seçmesinin nedeni, okuyucusuna yeni, yararlı ya da ilginç bir şey sunmanızdır. Bu yüzden dijital PR’ın ilk sorusu “nasıl bağlantı alırım?” değil, “okuyucuya ne veriyorum?” olmalıdır.
 
-| Editörün sorusu | Sizin hazırlamanız gereken |
-| --- | --- |
-| Bu neden bugün önemli? | Güncel bir bağlantı: mevsim, olay, yeni açılış, yasal ya da yerel gelişme |
-| Okuyucum için ne ifade ediyor? | Okuyucuya somut fayda ya da merak konusu |
-| Bu doğru mu? | Doğrulanabilir bilgi, kaynak, fotoğraf |
-| Bunu bir kişi anlatabilir mi? | Konuşabilecek, adı ve unvanı belli bir uzman |
-| Başka yerde yayımlandı mı? | Özgün, yalnızca kendisine sunulmuş içerik |
+- **Bu neden bugün önemli?:** Güncel bir bağlantı: mevsim, olay, yeni açılış, yasal ya da yerel gelişme
+- **Okuyucum için ne ifade ediyor?:** Okuyucuya somut fayda ya da merak konusu
+- **Bu doğru mu?:** Doğrulanabilir bilgi, kaynak, fotoğraf
+- **Bunu bir kişi anlatabilir mi?:** Konuşabilecek, adı ve unvanı belli bir uzman
+- **Başka yerde yayımlandı mı?:** Özgün, yalnızca kendisine sunulmuş içerik
 
 ## Haber değeri taşıyan 8 konu fikri
 
@@ -83,15 +79,13 @@ Her fikirde doğruluk ön plandadır. Abartılı iddia, uydurma rakam ya da saht
 
 Editöre göndereceğiniz paket kısa ve hazır olmalı:
 
-| Parça | İçerik |
-| --- | --- |
-| Konu cümlesi | Tek cümlede haber değeri |
-| Kısa metin | 150–250 kelimelik özet; kim, ne, nerede, ne zaman, neden |
-| Görseller | İzinli, yüksek çözünürlüklü fotoğraflar; kaynak ve izin bilgisi |
-| Alıntı | Konuşabilecek kişinin adı, unvanı ve kısa bir cümlesi |
-| Veri kaynağı | Rakam varsa nereden geldiği |
-| İletişim | Telefon ve e-posta; hızlı cevap vereceğiniz saatler |
-| Bağlantı | İsteğe bağlı: daha fazla bilgi için sitenizdeki sayfa |
+- **Konu cümlesi:** Tek cümlede haber değeri
+- **Kısa metin:** 150–250 kelimelik özet; kim, ne, nerede, ne zaman, neden
+- **Görseller:** İzinli, yüksek çözünürlüklü fotoğraflar; kaynak ve izin bilgisi
+- **Alıntı:** Konuşabilecek kişinin adı, unvanı ve kısa bir cümlesi
+- **Veri kaynağı:** Rakam varsa nereden geldiği
+- **İletişim:** Telefon ve e-posta; hızlı cevap vereceğiniz saatler
+- **Bağlantı:** İsteğe bağlı: daha fazla bilgi için sitenizdeki sayfa
 
 “Daha fazla bilgi için” bağlantısını kendiniz önermek meşrudur; ama bağlantıyı şart koşmayın. Editör kendi kararını verir.
 
@@ -102,24 +96,20 @@ Editöre göndereceğiniz paket kısa ve hazır olmalı:
 3. **İlgili kişiyi bulun.** Genel adres yerine konuyu yazan editör ya da muhabir.
 4. **Bir tablo tutun.** Yayın, kişi, konu, tarih, durum.
 
-| Yayın türü | Örnek konu | Dikkat |
-| --- | --- | --- |
-| Yerel haber sitesi | Açılış, mevsimsel rehber, etkinlik | Doğrudan editöre kısa not |
-| Meslek odası / dernek bülteni | Sektörel bilgi, üye haberi | Üyelik ve belge bilgisi |
-| Sektör sitesi | Teknik rehber, uzman görüşü | Doğruluk ve uzmanlık |
-| Bölgesel dergi / rehber | Hikâye, röportaj | Fotoğraf ve zaman planı |
-| Üniversite ya da kurum sayfaları | Ortak çalışma, etkinlik | Resmî izin |
+- **Yerel haber sitesi:** örnek konu: Açılış, mevsimsel rehber, etkinlik; dikkat: Doğrudan editöre kısa not
+- **Meslek odası / dernek bülteni:** örnek konu: Sektörel bilgi, üye haberi; dikkat: Üyelik ve belge bilgisi
+- **Sektör sitesi:** örnek konu: Teknik rehber, uzman görüşü; dikkat: Doğruluk ve uzmanlık
+- **Bölgesel dergi / rehber:** örnek konu: Hikâye, röportaj; dikkat: Fotoğraf ve zaman planı
+- **Üniversite ya da kurum sayfaları:** örnek konu: Ortak çalışma, etkinlik; dikkat: Resmî izin
 
 ## Adım adım bir kampanya planı
 
-| Hafta | İş |
-| --- | --- |
-| 1 | Konu fikirlerini belirleyin, bir tanesini seçin |
-| 2 | Bilgi ve görselleri hazırlayın, basın kitini yazın |
-| 3 | Yayın listesini çıkarın, kişiye özel kısa notlar yazın |
-| 4 | Gönderin; bir hafta sonra tek bir nazik hatırlatma |
-| 5 | Yayımlanan haberleri kaydedin, bağlantı olup olmadığına bakın |
-| 6 | Sonuçları değerlendirin; yayımlanmayan konuları kendi sitenizde rehbere çevirin |
+- **1:** Konu fikirlerini belirleyin, bir tanesini seçin
+- **2:** Bilgi ve görselleri hazırlayın, basın kitini yazın
+- **3:** Yayın listesini çıkarın, kişiye özel kısa notlar yazın
+- **4:** Gönderin; bir hafta sonra tek bir nazik hatırlatma
+- **5:** Yayımlanan haberleri kaydedin, bağlantı olup olmadığına bakın
+- **6:** Sonuçları değerlendirin; yayımlanmayan konuları kendi sitenizde rehbere çevirin
 
 ## Mesaj örneği
 
@@ -137,15 +127,13 @@ Mesajın kısa, kişisel ve sizden çok okuyucuya dönük olmasına dikkat edin.
 
 ## Dijital PR’da kaçınılacaklar
 
-| Hata | Neden? |
-| --- | --- |
-| Aynı basın bültenini yüzlerce yere göndermek | Spam gibi görünür ve yayın alma ihtimalini düşürür |
-| Bağlantıyı şart koşmak | Editörün kararını zorlamak olur |
-| Uydurma ya da şişirilmiş iddialar | İtibarı yok eder |
-| Reklamı haber gibi sunmak | Ücretli içerik niteleme gerektirir |
-| Haber değeri olmayan duyurular | Dikkate alınmaz |
-| Hatırlatmayı sürekli tekrarlamak | İlişkiyi bozar |
-| Kimseye danışmadan kişisel verileri paylaşmak | Gizlilik ihlali riski |
+- **Aynı basın bültenini yüzlerce yere göndermek:** Spam gibi görünür ve yayın alma ihtimalini düşürür
+- **Bağlantıyı şart koşmak:** Editörün kararını zorlamak olur
+- **Uydurma ya da şişirilmiş iddialar:** İtibarı yok eder
+- **Reklamı haber gibi sunmak:** Ücretli içerik niteleme gerektirir
+- **Haber değeri olmayan duyurular:** Dikkate alınmaz
+- **Hatırlatmayı sürekli tekrarlamak:** İlişkiyi bozar
+- **Kimseye danışmadan kişisel verileri paylaşmak:** Gizlilik ihlali riski
 
 ## Üç farklı işletmede dijital PR
 
@@ -187,29 +175,27 @@ Haberde başka birinin adı, fotoğrafı ya da sözü yer alacaksa yazılı izin
 
 ## Dijital PR için hazırlık kontrol listesi
 
-| Kontrol | Evet / Hayır |
-| --- | --- |
-| Haber değeri taşıyan gerçek bir konum var mı? | |
-| Tüm bilgiler doğrulanabilir mi? | |
-| Fotoğraflar ve alıntılar için izin var mı? | |
-| Konuşabilecek bir uzman belirlendi mi? | |
-| Yayın listesi konuya uygun mu? | |
-| Mesajlar kişiselleştirilmiş mi? | |
-| Kendi sitemde aynı konuyu anlatan kalıcı bir sayfa var mı? | |
-| Sonuçları kaydedecek bir tablo var mı? | |
+Şunları tek tek kontrol edin:
+
+- Haber değeri taşıyan gerçek bir konum var mı?
+- Tüm bilgiler doğrulanabilir mi?
+- Fotoğraflar ve alıntılar için izin var mı?
+- Konuşabilecek bir uzman belirlendi mi?
+- Yayın listesi konuya uygun mu?
+- Mesajlar kişiselleştirilmiş mi?
+- Kendi sitemde aynı konuyu anlatan kalıcı bir sayfa var mı?
+- Sonuçları kaydedecek bir tablo var mı?
 
 ## Sonuçları değerlendirme
 
 Dijital PR sonuçları ay ay değil, çalışma bazında değerlendirilir. Şu soruları sorun:
 
-| Soru | Nasıl bakılır? |
-| --- | --- |
-| Kaç yayın çıktı? | Yayın tablosu |
-| Yayınlarda bağlantı var mı? | Sayfayı açıp kontrol edin |
-| Siteye ziyaretçi geldi mi? | Analiz aracında kaynak ve tarih bazlı bakış |
-| Arama ya da form geldi mi? | Talep kayıt tablonuz |
-| Marka aramaları arttı mı? | Search Console’da marka adı içeren sorgular |
-| Müşteri “sizi haberde gördüm” dedi mi? | Görüşmelerdeki not |
+- **Kaç yayın çıktı?:** Yayın tablosu
+- **Yayınlarda bağlantı var mı?:** Sayfayı açıp kontrol edin
+- **Siteye ziyaretçi geldi mi?:** Analiz aracında kaynak ve tarih bazlı bakış
+- **Arama ya da form geldi mi?:** Talep kayıt tablonuz
+- **Marka aramaları arttı mı?:** Search Console’da marka adı içeren sorgular
+- **Müşteri “sizi haberde gördüm” dedi mi?:** Görüşmelerdeki not
 
 Search Console’un Bağlantılar raporu, hangi sitelerin size bağlantı verdiğini gösterir; yeni bir yayından bağlantı gelip gelmediğini buradan da takip edebilirsiniz ([bağlantılar raporu](https://support.google.com/webmasters/answer/9049606?hl=tr)). Yayının sıralamaya etkisini kesin biçimde ayırmak zordur; bu nedenle sonuç vaat etmeyin.
 

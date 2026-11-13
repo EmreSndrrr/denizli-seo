@@ -6,7 +6,7 @@ service: teknik-seo
 imageAlt: "Zeytinyağı şişeleri ve tarım ürünleri için ürün sayfası düzeni"
 ---
 
-**Kısa cevap:** Zeytinyağı, bal, pekmez, kuru meyve, bakliyat gibi tarım ürünlerinde online satış SEO’su, tüketicinin üç sorusuna cevap vermeye dayanır: “Bu ürün ne, kim üretiyor, güvenebilir miyim?”, “Hangi çeşit bana uygun?” ve “Nasıl sipariş veririm, ne zaman gelir?”. Bunun için net ürün sayfaları, üretici hikâyesi, gerçek fotoğraflar, doğru varyant yönetimi ve kolay sipariş yolu gerekir. “Organik”, “katkısız” gibi iddiaları yalnızca belgeleyebiliyorsanız yazın.
+Zeytinyağı, bal, pekmez, kuru meyve, bakliyat gibi tarım ürünlerinde online satış SEO’su, tüketicinin üç sorusuna cevap vermeye dayanır: “Bu ürün ne, kim üretiyor, güvenebilir miyim?”, “Hangi çeşit bana uygun?” ve “Nasıl sipariş veririm, ne zaman gelir?”. Bunun için net ürün sayfaları, üretici hikâyesi, gerçek fotoğraflar, doğru varyant yönetimi ve kolay sipariş yolu gerekir. “Organik”, “katkısız” gibi iddiaları yalnızca belgeleyebiliyorsanız yazın.
 
 Gıda ve tarım ürünlerinde güven her şeydir. Müşteri ürünü dokunup koklayamaz; bu yüzden güveni sayfa kurar. Aynı zamanda ürünlerin mevsimsel olması ve çok sayıda benzer üreticinin bulunması rekabeti artırır. Bu yazıda üreticinin ya da küçük satıcının kendi sitesinde satış yapacağı bir yapıyı anlatıyoruz. Genel çerçeve için [e-ticaret SEO](/blog/e-ticaret-seo/), ürün metinleri için [ürün açıklaması nasıl yazılır?](/blog/urun-aciklamasi-nasil-yazilir-kopya-metinden-kacinma/) yazılarına bakabilirsiniz.
 
@@ -25,16 +25,14 @@ Aramaların çoğu mevsimsel bir dalga gösterir (hasat, yılbaşı, bayram). Ge
 
 ## Site yapısı
 
-| Sayfa | İçerik |
-| --- | --- |
-| Ana sayfa | Ne satıyorsunuz, kim üretiyor, nasıl sipariş verilir |
-| Kategori sayfaları | Zeytinyağı, bal, pekmez, kuru meyve gibi; kısa giriş ve seçim rehberi |
-| Ürün sayfaları | Ürün adı, çeşit, boyut seçenekleri, içerik bilgisi, saklama, fiyat, stok |
-| Üretici / üretim sayfası | Bahçe ve tesis, hasat, üretim süreci, gerçek fotoğraf |
-| Rehber yazıları | Seçim, saklama, kullanım, tarifler |
-| Sipariş, kargo ve iade | Net koşullar |
-| Hakkımızda ve iletişim | Kimlik, adres, telefon |
-| Yorumlar | Gerçek ve izinli |
+- **Ana sayfa:** Ne satıyorsunuz, kim üretiyor, nasıl sipariş verilir
+- **Kategori sayfaları:** Zeytinyağı, bal, pekmez, kuru meyve gibi; kısa giriş ve seçim rehberi
+- **Ürün sayfaları:** Ürün adı, çeşit, boyut seçenekleri, içerik bilgisi, saklama, fiyat, stok
+- **Üretici / üretim sayfası:** Bahçe ve tesis, hasat, üretim süreci, gerçek fotoğraf
+- **Rehber yazıları:** Seçim, saklama, kullanım, tarifler
+- **Sipariş, kargo ve iade:** Net koşullar
+- **Hakkımızda ve iletişim:** Kimlik, adres, telefon
+- **Yorumlar:** Gerçek ve izinli
 
 ## Ürün sayfası: gıdada neyi yazmalı?
 
@@ -70,26 +68,22 @@ Google, görsellerin `<img>` öğesinin `src` özelliğinde yer alması gerekti�
 
 ## Mevsimsellik: içerik takvimi
 
-| Dönem | İçerik fikri |
-| --- | --- |
-| Hasat öncesi | “Bu yıl hasat nasıl ilerliyor?”, üretici notu (gerçek gözleminizle) |
-| Hasat dönemi | Üretim süreci fotoğrafları, yeni mahsul duyurusu |
-| Kış | Saklama, kullanım ve tarif içerikleri |
-| Özel günler | Hediye kategorisi ve kurumsal sipariş sayfası |
-| Yıl boyu | Seçim rehberleri ve sık sorulan sorular |
+- **Hasat öncesi:** “Bu yıl hasat nasıl ilerliyor?”, üretici notu (gerçek gözleminizle)
+- **Hasat dönemi:** Üretim süreci fotoğrafları, yeni mahsul duyurusu
+- **Kış:** Saklama, kullanım ve tarif içerikleri
+- **Özel günler:** Hediye kategorisi ve kurumsal sipariş sayfası
+- **Yıl boyu:** Seçim rehberleri ve sık sorulan sorular
 
 Mevsimsel sayfaları her yıl silip yeniden açmayın; aynı adreste güncelleyin, böylece sayfanın geçmişi kaybolmaz. Eski yazıların güncellenmesi için eski blog yazıları ne zaman ve nasıl güncellenir? yazısına bakın.
 
 ## Güven öğeleri
 
-| Öğe | Not |
-| --- | --- |
-| Üretici bilgisi ve adres | Gerçek, ziyaret edilebilir ya da iletişim kurulabilir |
-| Üretim fotoğrafları | Kendi bahçe ve tesisiniz |
-| Belgeler | Yalnızca sahip olduklarınız; numara ve kurum |
-| Yorumlar | Gerçek ve izinli; uydurma yorum yok; bkz. [müşteri yorumları siteye nasıl eklenir?](/blog/musteri-yorumlari-siteye-nasil-eklenir/) |
-| Kargo ve iade bilgisi | Açık koşullar |
-| İletişim | Telefon, WhatsApp, e-posta |
+- **Üretici bilgisi ve adres:** Gerçek, ziyaret edilebilir ya da iletişim kurulabilir
+- **Üretim fotoğrafları:** Kendi bahçe ve tesisiniz
+- **Belgeler:** Yalnızca sahip olduklarınız; numara ve kurum
+- **Yorumlar:** Gerçek ve izinli; uydurma yorum yok; bkz. [müşteri yorumları siteye nasıl eklenir?](/blog/musteri-yorumlari-siteye-nasil-eklenir/)
+- **Kargo ve iade bilgisi:** Açık koşullar
+- **İletişim:** Telefon, WhatsApp, e-posta
 
 ## Yerel ve toptan görünürlük
 
@@ -97,16 +91,14 @@ Doğrudan satış noktanız ya da deponuz varsa Google İşletme Profili açın 
 
 ## Sık yapılan hatalar
 
-| Hata | Çözüm |
-| --- | --- |
-| Başka sitenin metnini ya da üretici metnini kopyalamak | Özgün ürün ve üretici bilgisi |
-| Doğrulanamayan “organik/doğal” iddiaları | Belgesiz yazmayın |
-| Her boyut için ayrı kopya sayfa | Tek sayfada seçenek; canonical |
-| Stok ve fiyatın güncel olmaması | Düzenli güncelleme |
-| Görseller stok fotoğraf | Gerçek ürün ve üretim fotoğrafı |
-| Kargo ve iade koşullarının belirsiz olması | Net sayfa |
-| Mevsimsel sayfaları sürekli silmek | Aynı adreste güncelleyin |
-| Uydurma yorum | Yalnızca gerçek yorum |
+- **Başka sitenin metnini ya da üretici metnini kopyalamak:** Özgün ürün ve üretici bilgisi
+- **Doğrulanamayan “organik/doğal” iddiaları:** Belgesiz yazmayın
+- **Her boyut için ayrı kopya sayfa:** Tek sayfada seçenek; canonical
+- **Stok ve fiyatın güncel olmaması:** Düzenli güncelleme
+- **Görseller stok fotoğraf:** Gerçek ürün ve üretim fotoğrafı
+- **Kargo ve iade koşullarının belirsiz olması:** Net sayfa
+- **Mevsimsel sayfaları sürekli silmek:** Aynı adreste güncelleyin
+- **Uydurma yorum:** Yalnızca gerçek yorum
 
 ## Denizli’den bir örnek
 
@@ -114,18 +106,18 @@ Doğrudan satış noktanız ya da deponuz varsa Google İşletme Profili açın 
 
 ## Başlangıç kontrol listesi
 
-| Kontrol | Evet / Hayır |
-| --- | --- |
-| Her ürün için özgün, doğru açıklama var mı? | |
-| Etiket bilgisiyle sayfadaki bilgi uyumlu mu? | |
-| Belgesiz iddialar (organik, katkısız vb.) kaldırıldı mı? | |
-| Boyut seçenekleri tek sayfada ve canonical doğru mu? | |
-| Gerçek ürün ve üretim fotoğrafı var mı? | |
-| Fiyat, stok ve yapılandırılmış veri güncel mi? | |
-| Kargo, iade ve iletişim bilgisi açık mı? | |
-| Mevsimsel sayfalar aynı adreste güncelleniyor mu? | |
-| Site mobilde ve hızlı mı? | |
-| Sipariş ve talepler kaydediliyor mu? | |
+Şunları tek tek kontrol edin:
+
+- Her ürün için özgün, doğru açıklama var mı?
+- Etiket bilgisiyle sayfadaki bilgi uyumlu mu?
+- Belgesiz iddialar (organik, katkısız vb.) kaldırıldı mı?
+- Boyut seçenekleri tek sayfada ve canonical doğru mu?
+- Gerçek ürün ve üretim fotoğrafı var mı?
+- Fiyat, stok ve yapılandırılmış veri güncel mi?
+- Kargo, iade ve iletişim bilgisi açık mı?
+- Mevsimsel sayfalar aynı adreste güncelleniyor mu?
+- Site mobilde ve hızlı mı?
+- Sipariş ve talepler kaydediliyor mu?
 
 ## Denizli SEO bu konuda nasıl yardımcı olur?
 

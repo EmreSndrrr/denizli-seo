@@ -6,7 +6,7 @@ service: icerik-seo
 imageAlt: "Aylık takvim üzerinde yazı konuları ve yayın tarihleri"
 ---
 
-**Kısa cevap:** İçerik planı, hangi konuda, kimin için, ne zaman ve hangi sayfada yazı yayımlayacağınızı belirleyen yazılı bir takvimdir. Küçük bir işletme için etkili bir plan şunları içerir: net bir hedef, müşteri sorularından oluşan bir konu havuzu, hizmet sayfalarını destekleyen sırayla yazı konuları, ayda bir ya da iki yazılık gerçekçi bir ritim ve ayda bir ölçüm. Ritmi sürdürebilmek, çok yazıdan daha önemlidir.
+İçerik planı, hangi konuda, kimin için, ne zaman ve hangi sayfada yazı yayımlayacağınızı belirleyen yazılı bir takvimdir. Küçük bir işletme için etkili bir plan şunları içerir: net bir hedef, müşteri sorularından oluşan bir konu havuzu, hizmet sayfalarını destekleyen sırayla yazı konuları, ayda bir ya da iki yazılık gerçekçi bir ritim ve ayda bir ölçüm. Ritmi sürdürebilmek, çok yazıdan daha önemlidir.
 
 “Ne zaman yazı yazacağız?” sorusu çoğu işletmede sürekli ertelenir; çünkü yazı işi günlük işlerin arasında kalır. İçerik planı bunu bir takvim ve bir sıraya çevirir. Bu yazıda sıfırdan bir planın nasıl kurulacağını, aylık takvim örneğini ve ölçüm yöntemini anlatıyoruz. Tek bir yazının nasıl yazılacağı için [blog yazısı nasıl yazılır?](/blog/blog-yazisi-nasil-yazilir-seo-uyumlu-8-adim/) yazımıza bakabilirsiniz.
 
@@ -57,11 +57,9 @@ Her konuya üç soru sorun ve puanlayın:
 
 Ritim, sürdürebileceğiniz kadar olmalı:
 
-| İşletme durumu | Önerilen ritim |
-| --- | --- |
-| Tek kişi, zaman kısıtlı | Ayda 1 yazı |
-| Küçük ekip | Ayda 2 yazı |
-| İçerik sorumlusu var | Haftada 1 yazı |
+- **Tek kişi, zaman kısıtlı:** Ayda 1 yazı
+- **Küçük ekip:** Ayda 2 yazı
+- **İçerik sorumlusu var:** Haftada 1 yazı
 
 Hızlı başlayıp bırakmak yerine, küçük ve sürekli bir ritim kurun. Google’ın rehberi de içeriğin güncel tutulmasını ve gerektiğinde güncellenmesini ya da artık alakalı değilse silinmesini önerir; sürekli bakım, çok yazıdan değerlidir.
 
@@ -69,14 +67,12 @@ Hızlı başlayıp bırakmak yerine, küçük ve sürekli bir ritim kurun. Googl
 
 Aşağıdaki örnek, ayda iki yazı üreten hayalî bir klima servisi içindir. Kendi işinize uyarlayın:
 
-| Ay | Yazı 1 | Yazı 2 | Hizmet sayfası işi |
-| --- | --- | --- | --- |
-| Mart | Klima bakımı ne zaman yapılır? | Klima bakımında neler yapılır? | Bakım sayfasını güncelle |
-| Nisan | Yaz öncesi klima kontrol listesi | Klima gaz dolumu: ne zaman gerekir? | Gaz dolumu sayfası |
-| Mayıs | Klima montajında nelere dikkat edilir? | Klima seçerken hangi soruları sormalı? | Montaj sayfasını güncelle |
-| Haziran | Klima su damlatıyorsa ne yapmalı? | Klima neden yeterince soğutmuyor? | Arıza sayfası |
-| Eylül | Yaz sonu klima bakımı | Klimayı kışa hazırlama | Bakım sayfasını gözden geçir |
-| Kasım | Kış için ısıtma ve klima ayarı | Sık sorulan sorular güncellemesi | SSS bölümünü genişlet |
+- **Mart:** yazı 1: Klima bakımı ne zaman yapılır?; yazı 2: Klima bakımında neler yapılır?; hizmet sayfası işi: Bakım sayfasını güncelle
+- **Nisan:** yazı 1: Yaz öncesi klima kontrol listesi; yazı 2: Klima gaz dolumu: ne zaman gerekir?; hizmet sayfası işi: Gaz dolumu sayfası
+- **Mayıs:** yazı 1: Klima montajında nelere dikkat edilir?; yazı 2: Klima seçerken hangi soruları sormalı?; hizmet sayfası işi: Montaj sayfasını güncelle
+- **Haziran:** yazı 1: Klima su damlatıyorsa ne yapmalı?; yazı 2: Klima neden yeterince soğutmuyor?; hizmet sayfası işi: Arıza sayfası
+- **Eylül:** yazı 1: Yaz sonu klima bakımı; yazı 2: Klimayı kışa hazırlama; hizmet sayfası işi: Bakım sayfasını gözden geçir
+- **Kasım:** yazı 1: Kış için ısıtma ve klima ayarı; yazı 2: Sık sorulan sorular güncellemesi; hizmet sayfası işi: SSS bölümünü genişlet
 
 Bu örnek, bir iş döngüsünü gösterir; sonuç vaadi değildir. Her işletme kendi sezonuna göre farklı bir takvim kurar. Denizli’de turizm işletmeleri yaz ve bayram öncesinde, sanayi firmaları fuar ve sipariş dönemlerinde, ev tekstili üreticileri ihracat sezonunda farklı konulara ihtiyaç duyabilir.
 
@@ -84,17 +80,17 @@ Bu örnek, bir iş döngüsünü gösterir; sonuç vaadi değildir. Her işletme
 
 Yazı başına tek bir kart doldurun:
 
-| Alan | Doldurulacak |
-| --- | --- |
-| Başlık (taslak) | |
-| Ana soru | |
-| Arama niyeti | |
-| Hedef sayfa (hangi hizmeti destekliyor?) | |
-| Kaynak ve doğrulama | |
-| İç bağlantılar | |
-| Yazan / gözden geçiren | |
-| Taslak tarihi / yayın tarihi | |
-| Ölçüm tarihi | |
+Şunları tek tek kontrol edin:
+
+- Başlık (taslak)
+- Ana soru
+- Arama niyeti
+- Hedef sayfa (hangi hizmeti destekliyor?)
+- Kaynak ve doğrulama
+- İç bağlantılar
+- Yazan / gözden geçiren
+- Taslak tarihi / yayın tarihi
+- Ölçüm tarihi
 
 Kartlar, işi birden fazla kişiye dağıtmayı kolaylaştırır.
 
@@ -129,17 +125,15 @@ Bu örnek sonuç vaadi değildir; planlama düzenini gösterir.
 
 Örnek (hayalî bir işletme için):
 
-| Alan | Değer |
-| --- | --- |
-| Başlık (taslak) | Klima Bakımı Yılda Kaç Kez Yapılmalı? |
-| Ana soru | Klima bakımı ne sıklıkla yapılmalı? |
-| Arama niyeti | Bilgi arıyor |
-| Hedef sayfa | Klima bakım hizmet sayfası |
-| Kaynak | Cihaz üreticisinin bakım tavsiyesi (resmî doküman) |
-| İç bağlantılar | Bakım sayfası, arıza yazısı, iletişim |
-| Yazan / gözden geçiren | Servis müdürü / ofis |
-| Taslak / yayın | Ayın 5’i / 12’si |
-| Ölçüm | Üç ay sonra |
+- **Başlık (taslak):** Klima Bakımı Yılda Kaç Kez Yapılmalı?
+- **Ana soru:** Klima bakımı ne sıklıkla yapılmalı?
+- **Arama niyeti:** Bilgi arıyor
+- **Hedef sayfa:** Klima bakım hizmet sayfası
+- **Kaynak:** Cihaz üreticisinin bakım tavsiyesi (resmî doküman)
+- **İç bağlantılar:** Bakım sayfası, arıza yazısı, iletişim
+- **Yazan / gözden geçiren:** Servis müdürü / ofis
+- **Taslak / yayın:** Ayın 5’i / 12’si
+- **Ölçüm:** Üç ay sonra
 
 ## Aylık içerik toplantısı
 

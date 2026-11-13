@@ -6,7 +6,7 @@ service: web-tasarim
 imageAlt: "Kurumsal site sayfa haritası: ana sayfa, hizmetler, hakkımızda, iletişim, blog"
 ---
 
-**Kısa cevap:** Kurumsal bir web sitesi için sabit bir sayfa sayısı yoktur; Google de sayfa sayısı için bir ölçü vermez. Önemli olan, müşterinin sorularını cevaplayan sayfaların bulunmasıdır: ana sayfa, her ana hizmet için bir sayfa, hakkımızda, iletişim ve gizlilik bilgisi. Küçük işletmeler için bu çoğu zaman 6–12 sayfalık bir başlangıçtır; blog ve ilçe sayfaları gerçek içerik hazır oldukça eklenir. Boş ya da kopya sayfa siteyi güçlendirmez.
+Kurumsal bir web sitesi için sabit bir sayfa sayısı yoktur; Google de sayfa sayısı için bir ölçü vermez. Önemli olan, müşterinin sorularını cevaplayan sayfaların bulunmasıdır: ana sayfa, her ana hizmet için bir sayfa, hakkımızda, iletişim ve gizlilik bilgisi. Küçük işletmeler için bu çoğu zaman 6–12 sayfalık bir başlangıçtır; blog ve ilçe sayfaları gerçek içerik hazır oldukça eklenir. Boş ya da kopya sayfa siteyi güçlendirmez.
 
 “Kaç sayfa olmalı?” sorusu, aslında “müşteri hangi soruyu soruyor?” sorusudur. Ayrıntılı sayfa listesi için [sıfırdan bir işletme sitesi için hangi sayfalar yazılmalı?](/blog/sifirdan-bir-isletme-sitesi-icin-hangi-sayfalar-yazilmali/), teknik temel için [SEO uyumlu web sitesi](/blog/seo-uyumlu-web-sitesi/) yazılarına bakabilirsiniz.
 
@@ -24,13 +24,11 @@ Google’ın SEO başlangıç kılavuzu, kullanıcıya yararlı ve düzenli içe
 
 ## İşletme türüne göre örnek planlar
 
-| İşletme | Örnek başlangıç planı |
-| --- | --- |
-| Tek hizmetli esnaf | Ana sayfa, hizmet, hakkımızda, iletişim (4–5) |
-| Üç hizmetli servis | Ana sayfa, 3 hizmet, hakkımızda, iletişim, sık sorulan sorular (7–8) |
-| Klinik / büro | Ana sayfa, 4–5 hizmet, ekip, hakkımızda, iletişim, blog (9–12) |
-| Üretici firma | Ana sayfa, ürün grupları, üretim, referanslar, iletişim, katalog (8–12) |
-| E-ticaret | Ana sayfa, kategoriler, ürünler, sepet/ödeme, iade ve teslimat |
+- **Tek hizmetli esnaf:** Ana sayfa, hizmet, hakkımızda, iletişim (4–5)
+- **Üç hizmetli servis:** Ana sayfa, 3 hizmet, hakkımızda, iletişim, sık sorulan sorular (7–8)
+- **Klinik / büro:** Ana sayfa, 4–5 hizmet, ekip, hakkımızda, iletişim, blog (9–12)
+- **Üretici firma:** Ana sayfa, ürün grupları, üretim, referanslar, iletişim, katalog (8–12)
+- **E-ticaret:** Ana sayfa, kategoriler, ürünler, sepet/ödeme, iade ve teslimat
 
 Bunlar örnek planlardır, kural değildir.
 
@@ -46,13 +44,11 @@ Bunlar örnek planlardır, kural değildir.
 
 ## Sık yapılan hatalar
 
-| Hata | Çözüm |
-| --- | --- |
-| Tek sayfalık kartvizit site | Hizmetler için ayrı sayfa |
-| Sayfa sayısını şişirmek için çoğaltma | Özgün içerik yazın; bkz. kopya içerik |
-| Boş ya da “yakında” sayfaları | Yayımlamayın |
-| Çok sayıda ilçe sayfası | Her biri için özgün bilgi varsa |
-| Menüde her şeyi göstermek | Ana sayfaları seçin |
+- **Tek sayfalık kartvizit site:** Hizmetler için ayrı sayfa
+- **Sayfa sayısını şişirmek için çoğaltma:** Özgün içerik yazın; bkz. kopya içerik
+- **Boş ya da “yakında” sayfaları:** Yayımlamayın
+- **Çok sayıda ilçe sayfası:** Her biri için özgün bilgi varsa
+- **Menüde her şeyi göstermek:** Ana sayfaları seçin
 
 ## Denizli’den bir örnek
 

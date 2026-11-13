@@ -6,7 +6,7 @@ service: icerik-seo
 imageAlt: "Merkezde ana sayfa, etrafında ona bağlı yazı düğümleri"
 ---
 
-**Kısa cevap:** Konu kümesi, bir konuyu tek bir yazıya sıkıştırmak yerine bir ana sayfa (hizmet ya da kapsamlı rehber) ve ona bağlı, tek tek sorulara cevap veren yazılar olarak düzenleme yöntemidir. Yazılar birbirine ve ana sayfaya bağlanır. Bu, Google’ın resmî bir terimi ya da sıralama garantisi değil; müşterinin sorularını düzenli cevaplamak ve iç bağlantıyı anlamlı kurmak için kullanılan pratik bir içerik planıdır.
+Konu kümesi, bir konuyu tek bir yazıya sıkıştırmak yerine bir ana sayfa (hizmet ya da kapsamlı rehber) ve ona bağlı, tek tek sorulara cevap veren yazılar olarak düzenleme yöntemidir. Yazılar birbirine ve ana sayfaya bağlanır. Bu, Google’ın resmî bir terimi ya da sıralama garantisi değil; müşterinin sorularını düzenli cevaplamak ve iç bağlantıyı anlamlı kurmak için kullanılan pratik bir içerik planıdır.
 
 Bir klima servisi “klima bakımı” hakkında tek bir uzun yazı yazabilir; ama müşteri “yılda kaç kez?”, “ne kadar sürer?”, “kendim yapabilir miyim?” diye ayrı ayrı sorar. Konu kümesi bu soruların her birine ayrı yazı verir ve hepsini hizmet sayfasına bağlar. İç bağlantı ayrıntısı için [iç bağlantı stratejisi](/blog/ic-baglanti-stratejisi-kucuk-siteler-icin-rehber/), planlama için [içerik planı](/blog/icerik-plani-nasil-yapilir-aylik-takvim-ornegi/) yazılarına bakın.
 
@@ -48,21 +48,17 @@ Aynı aramayı hedefleyen iki yazı birbirinin önüne geçebilir. Her yazının
 
 ## Küçük işletme için örnek küme
 
-| Hizmet | Destek yazı fikirleri |
-| --- | --- |
-| Klima bakımı | Yılda kaç kez? Ne kadar sürer? Filtre temizliği? Su damlatması? |
-| Diş beyazlatma | Nasıl yapılır? Ne kadar sürer? Kimlere uygun? |
-| Muhasebe | Defter türleri, vergi takvimi soruları (uzman onayıyla) |
+- **Klima bakımı:** Yılda kaç kez? Ne kadar sürer? Filtre temizliği? Su damlatması?
+- **Diş beyazlatma:** Nasıl yapılır? Ne kadar sürer? Kimlere uygun?
+- **Muhasebe:** Defter türleri, vergi takvimi soruları (uzman onayıyla)
 
 ## Sık yapılan hatalar
 
-| Hata | Çözüm |
-| --- | --- |
-| Rastgele konularda yazı | Gelir getiren konuya odaklanın |
-| Yazılar birbirine bağlı değil | İç bağlantı kurun |
-| Aynı soruya iki yazı | Birleştirin |
-| Ana hizmet sayfası zayıf | Önce ana sayfayı güçlendirin |
-| Çok geniş kümeye başlamak | Bir hizmetle başlayın |
+- **Rastgele konularda yazı:** Gelir getiren konuya odaklanın
+- **Yazılar birbirine bağlı değil:** İç bağlantı kurun
+- **Aynı soruya iki yazı:** Birleştirin
+- **Ana hizmet sayfası zayıf:** Önce ana sayfayı güçlendirin
+- **Çok geniş kümeye başlamak:** Bir hizmetle başlayın
 
 ## Denizli’den bir örnek
 

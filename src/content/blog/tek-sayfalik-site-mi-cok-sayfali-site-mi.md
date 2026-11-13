@@ -6,7 +6,7 @@ service: web-tasarim
 imageAlt: "Tek uzun sayfa ile birbirine bağlı çok sayfalı site karşılaştırması"
 ---
 
-**Kısa cevap:** Tek hizmetli, küçük ve yalnızca iletişim bilgisi göstermesi gereken bir işletme için tek sayfalık site yeterli olabilir. Birden fazla hizmeti olan, aramalarda farklı konularda görünmek isteyen ya da güven ve ayrıntı gerektiren işletmeler için çok sayfalı site daha uygundur; çünkü her hizmet için ayrı, odaklı bir sayfa yazabilirsiniz. Google sayfa sayısı için bir kural koymaz; hangisi seçilirse seçilsin içerik müşterinin sorularını cevaplamalıdır.
+Tek hizmetli, küçük ve yalnızca iletişim bilgisi göstermesi gereken bir işletme için tek sayfalık site yeterli olabilir. Birden fazla hizmeti olan, aramalarda farklı konularda görünmek isteyen ya da güven ve ayrıntı gerektiren işletmeler için çok sayfalı site daha uygundur; çünkü her hizmet için ayrı, odaklı bir sayfa yazabilirsiniz. Google sayfa sayısı için bir kural koymaz; hangisi seçilirse seçilsin içerik müşterinin sorularını cevaplamalıdır.
 
 Tek sayfa daha hızlı hazırlanır ve ucuzdur; ama büyümeye kapalıdır. Çok sayfalı site daha fazla emek ister, fakat farklı aramalar için ayrı kapılar açar. Sayfa planı için [kurumsal web sitesi kaç sayfa olmalı?](/blog/kurumsal-web-sitesi-kac-sayfa-olmali/) yazımıza bakabilirsiniz.
 
@@ -45,13 +45,11 @@ Bir sayfa, genellikle bir konuyu iyi anlatır. Üç farklı hizmeti tek sayfada 
 
 ## Sık yapılan hatalar
 
-| Hata | Çözüm |
-| --- | --- |
-| Üç hizmeti tek sayfada yığmak | Hizmet başına sayfa |
-| Çok sayfalı sitede boş sayfalar | Yalnızca gerçek içerik |
-| Tek sayfada başlık yapısı olmaması | H1 ve H2’leri kurun |
-| Büyümeyi hiç düşünmemek | Adres yapısını baştan planlayın |
-| Hız ve mobil uyumu ihmal etmek | Telefonda test edin |
+- **Üç hizmeti tek sayfada yığmak:** Hizmet başına sayfa
+- **Çok sayfalı sitede boş sayfalar:** Yalnızca gerçek içerik
+- **Tek sayfada başlık yapısı olmaması:** H1 ve H2’leri kurun
+- **Büyümeyi hiç düşünmemek:** Adres yapısını baştan planlayın
+- **Hız ve mobil uyumu ihmal etmek:** Telefonda test edin
 
 ## Denizli’den bir örnek
 

@@ -6,7 +6,7 @@ service: teknik-seo
 imageAlt: "Kurs programı sayfaları, kayıt formu ve harita ile eğitim kurumu site yapısı"
 ---
 
-**Kısa cevap:** Kurs ve eğitim kurumlarında karar vericiler çoğunlukla veli ya da öğrenci adaydır ve aramalar yereldir: “Denizli’de İngilizce kursu”, “Merkezefendi’de yüzme kursu”, “sürücü kursu fiyatları”. SEO’da bu yüzden her program için ayrı sayfa, net kayıt yolu, güncel Google İşletme Profili, gerçek yorumlar ve güven veren bilgiler gerekir. “Garantili başarı” gibi doğrulanamayan vaatlerden kaçının.
+Kurs ve eğitim kurumlarında karar vericiler çoğunlukla veli ya da öğrenci adaydır ve aramalar yereldir: “Denizli’de İngilizce kursu”, “Merkezefendi’de yüzme kursu”, “sürücü kursu fiyatları”. SEO’da bu yüzden her program için ayrı sayfa, net kayıt yolu, güncel Google İşletme Profili, gerçek yorumlar ve güven veren bilgiler gerekir. “Garantili başarı” gibi doğrulanamayan vaatlerden kaçının.
 
 Eğitim, güvenin en önemli olduğu sektörlerden biridir: veli çocuğunu, öğrenci zamanını ve parasını emanet eder. Bu yüzden SEO çalışması aynı zamanda “güvenilir görünme” çalışmasıdır. Yerel görünürlük için [Google haritalarda üst sıralara çıkmak](/blog/google-haritalarda-ust-siralara-cikmak/), hizmet sayfası yazımı için [hizmet sayfası nasıl yazılır?](/blog/hizmet-sayfasi-nasil-yazilir/) yazılarına bakabilirsiniz.
 
@@ -24,17 +24,15 @@ Eğitim, güvenin en önemli olduğu sektörlerden biridir: veli çocuğunu, ö�
 
 ## Site yapısı
 
-| Sayfa | İçerik |
-| --- | --- |
-| Ana sayfa | Ne öğretiyorsunuz, kime, nerede, kayıt yolu |
-| Program / kurs sayfaları | Her kurs, seviye ve yaş grubu için ayrı sayfa |
-| Eğitmenler | Gerçek isim, deneyim, doğrulanabilir bilgi |
-| Program takvimi ve saatler | Güncel gün ve saat bilgisi |
-| Fiyat ve kayıt süreci | Kendi koşullarınıza göre net açıklama |
-| Sık sorulan sorular | Gerçek veli ve öğrenci soruları |
-| Hakkımızda | Kurumun hikâyesi, değerler; bkz. Hakkımızda sayfası |
-| İletişim ve konum | Adres, harita, telefon, WhatsApp, form |
-| Blog / rehber | “Çocuğa uygun kurs nasıl seçilir?”, “Sınav öncesi plan” gibi gerçek bilgi yazıları |
+- **Ana sayfa:** Ne öğretiyorsunuz, kime, nerede, kayıt yolu
+- **Program / kurs sayfaları:** Her kurs, seviye ve yaş grubu için ayrı sayfa
+- **Eğitmenler:** Gerçek isim, deneyim, doğrulanabilir bilgi
+- **Program takvimi ve saatler:** Güncel gün ve saat bilgisi
+- **Fiyat ve kayıt süreci:** Kendi koşullarınıza göre net açıklama
+- **Sık sorulan sorular:** Gerçek veli ve öğrenci soruları
+- **Hakkımızda:** Kurumun hikâyesi, değerler; bkz. Hakkımızda sayfası
+- **İletişim ve konum:** Adres, harita, telefon, WhatsApp, form
+- **Blog / rehber:** “Çocuğa uygun kurs nasıl seçilir?”, “Sınav öncesi plan” gibi gerçek bilgi yazıları
 
 ## Program sayfası nasıl yazılır?
 
@@ -50,14 +48,12 @@ Eğitim, güvenin en önemli olduğu sektörlerden biridir: veli çocuğunu, ö�
 
 ## Güven ve doğruluk: en kritik bölüm
 
-| Konu | Dikkat |
-| --- | --- |
-| Başarı iddiaları | “Yüzde yüz başarı”, “kesin kabul” gibi vaatler yazmayın; doğrulanabilir değilse hiç yazmayın |
-| Sertifika ve izinler | Kurumun gerçekten sahip olduğu belge ve izinleri doğru ve güncel yazın; emin değilseniz ilgili kuruma ve bir uzmana danışın |
-| Eğitmen bilgisi | Gerçek, güncel, kişinin onayıyla |
-| Öğrenci ve veli yorumları | Gerçek ve izinli; küçüklerin adı ve fotoğrafı için ayrıca dikkat edin |
-| Fotoğraf ve video | Çocukların görüntüsü için veli izni ve gizlilik duyarlılığı şart |
-| Referans sonuçlar | Yalnızca gerçek ve izinli; vaka yazımı için vaka çalışması nasıl yazılır? |
+- **Başarı iddiaları:** “Yüzde yüz başarı”, “kesin kabul” gibi vaatler yazmayın; doğrulanabilir değilse hiç yazmayın
+- **Sertifika ve izinler:** Kurumun gerçekten sahip olduğu belge ve izinleri doğru ve güncel yazın; emin değilseniz ilgili kuruma ve bir uzmana danışın
+- **Eğitmen bilgisi:** Gerçek, güncel, kişinin onayıyla
+- **Öğrenci ve veli yorumları:** Gerçek ve izinli; küçüklerin adı ve fotoğrafı için ayrıca dikkat edin
+- **Fotoğraf ve video:** Çocukların görüntüsü için veli izni ve gizlilik duyarlılığı şart
+- **Referans sonuçlar:** Yalnızca gerçek ve izinli; vaka yazımı için vaka çalışması nasıl yazılır?
 
 Google’ın yardımcı içerik rehberi, içeriğin kim tarafından yazıldığı ve nasıl üretildiğinin açık olmasını önerir; eğitim içeriğinde yazar ve uzmanlık bilgisi güvenin parçasıdır ([yardımcı içerik rehberi](https://developers.google.com/search/docs/fundamentals/creating-helpful-content?hl=tr)).
 
@@ -72,12 +68,10 @@ Kurs aramaları büyük ölçüde yereldir. Yapılacaklar:
 
 ## Mevsimsellik ve dönem içeriği
 
-| Dönem | Yapılacak |
-| --- | --- |
-| Yeni dönem öncesi (yaz sonu, bahar sonu) | Kayıt bilgisi ve takvimi güncelleyin; yeni program sayfalarını yayımlayın |
-| Sınav dönemleri | Gerçek ve yararlı rehber içerikleri |
-| Dönem içi | Duyurular, eğitmen tanıtımı, öğrenci çalışmaları (izinle) |
-| Dönem sonu | Yorum isteme, sonraki dönem için ilgi toplama |
+- **Yeni dönem öncesi (yaz sonu, bahar sonu):** Kayıt bilgisi ve takvimi güncelleyin; yeni program sayfalarını yayımlayın
+- **Sınav dönemleri:** Gerçek ve yararlı rehber içerikleri
+- **Dönem içi:** Duyurular, eğitmen tanıtımı, öğrenci çalışmaları (izinle)
+- **Dönem sonu:** Yorum isteme, sonraki dönem için ilgi toplama
 
 Dönemlik sayfaları her dönem silip yeniden açmak yerine aynı adreste güncelleyin.
 
@@ -87,16 +81,14 @@ Form kısa olmalı: ad, telefon, ilgilenilen kurs, yaş grubu ve kısa not. Kiş
 
 ## Sık yapılan hatalar
 
-| Hata | Çözüm |
-| --- | --- |
-| Tüm kurslar tek sayfada | Program başına sayfa |
-| Garantili başarı vaadi | Doğrulanabilir bilgi, vaatsiz dil |
-| Eski program ve saat bilgisi | Düzenli güncelleme |
-| Eğitmen bilgisinin eksik ya da uydurma olması | Gerçek ve onaylı bilgi |
-| Çocuk fotoğraflarını izinsiz kullanmak | Yazılı izin |
-| Profil bilgisinin siteyle tutarsız olması | Tek doğru bilgi |
-| Her ilçe için kopya sayfa | Özgün içerik ya da hiç açmayın |
-| Mesajlara geç dönmek | Dönüş süresi ve sorumlu kişi |
+- **Tüm kurslar tek sayfada:** Program başına sayfa
+- **Garantili başarı vaadi:** Doğrulanabilir bilgi, vaatsiz dil
+- **Eski program ve saat bilgisi:** Düzenli güncelleme
+- **Eğitmen bilgisinin eksik ya da uydurma olması:** Gerçek ve onaylı bilgi
+- **Çocuk fotoğraflarını izinsiz kullanmak:** Yazılı izin
+- **Profil bilgisinin siteyle tutarsız olması:** Tek doğru bilgi
+- **Her ilçe için kopya sayfa:** Özgün içerik ya da hiç açmayın
+- **Mesajlara geç dönmek:** Dönüş süresi ve sorumlu kişi
 
 ## Denizli’den bir örnek
 
@@ -104,18 +96,18 @@ Form kısa olmalı: ad, telefon, ilgilenilen kurs, yaş grubu ve kısa not. Kiş
 
 ## Başlangıç kontrol listesi
 
-| Kontrol | Evet / Hayır |
-| --- | --- |
-| Her kurs ve seviye için ayrı program sayfası var mı? | |
-| Gün, saat ve takvim güncel mi? | |
-| Eğitmen bilgileri gerçek ve onaylı mı? | |
-| Doğrulanamayan başarı vaatleri kaldırıldı mı? | |
-| Google İşletme Profili eksiksiz ve siteyle tutarlı mı? | |
-| Kayıt formu kısa, çalışıyor ve kişisel veri bilgisi var mı? | |
-| Gerçek, izinli yorumlar toplanıyor mu? | |
-| Çocuk görselleri için izin alındı mı? | |
-| Site mobilde ve hızlı mı? | |
-| Gelen taleplere hızlı dönülüyor mu? | |
+Şunları tek tek kontrol edin:
+
+- Her kurs ve seviye için ayrı program sayfası var mı?
+- Gün, saat ve takvim güncel mi?
+- Eğitmen bilgileri gerçek ve onaylı mı?
+- Doğrulanamayan başarı vaatleri kaldırıldı mı?
+- Google İşletme Profili eksiksiz ve siteyle tutarlı mı?
+- Kayıt formu kısa, çalışıyor ve kişisel veri bilgisi var mı?
+- Gerçek, izinli yorumlar toplanıyor mu?
+- Çocuk görselleri için izin alındı mı?
+- Site mobilde ve hızlı mı?
+- Gelen taleplere hızlı dönülüyor mu?
 
 ## Denizli SEO bu konuda nasıl yardımcı olur?
 

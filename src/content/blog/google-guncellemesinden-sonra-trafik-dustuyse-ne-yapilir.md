@@ -6,7 +6,7 @@ service: teknik-seo
 imageAlt: "Bir takvim, güncelleme tarihi işareti ve iniş çıkış grafiği"
 ---
 
-**Kısa cevap:** Temel güncelleme tamamlanana kadar bekleyin, ardından Search Console’da sitenizi analiz etmeden önce en az bir hafta daha bekleyin. Sonra bu haftayı güncelleme öncesindeki haftayla karşılaştırın, en popüler sayfalarınızın ve sorgularınızın sıralamasına bakın ve düşüşün küçük mü (örneğin 2.’den 4. sıraya) büyük mü (4.’den 29. sıraya) olduğunu belirleyin. Aceleyle siteyi değiştirmeyin; önce nedenini anlayın.
+Temel güncelleme tamamlanana kadar bekleyin, ardından Search Console’da sitenizi analiz etmeden önce en az bir hafta daha bekleyin. Sonra bu haftayı güncelleme öncesindeki haftayla karşılaştırın, en popüler sayfalarınızın ve sorgularınızın sıralamasına bakın ve düşüşün küçük mü (örneğin 2.’den 4. sıraya) büyük mü (4.’den 29. sıraya) olduğunu belirleyin. Aceleyle siteyi değiştirmeyin; önce nedenini anlayın.
 
 Google yılda birkaç kez büyük çaplı “temel güncellemeler” yayımlar. Bu dönemlerde sıralar dalgalanır ve bazı siteler trafik kaybeder, bazıları kazanır. İşletme sahibi için sorun, neyin değiştiğini ve neyin yapılması gerektiğini bilmemektir. Bu yazı, Google’ın temel güncellemeler rehberini küçük işletmeler için sade bir yol haritasına çeviriyor. Genel trafik teşhisi için [trafik düşüşü nasıl teşhis edilir?](/blog/trafik-dususu-nasil-teshis-edilir/) yazımıza bakın.
 
@@ -64,12 +64,10 @@ Google’ın rehberi, iyileştirmelerinizin etkisini görmek için büyük bir t
 
 ## Aksiyon planı: güncelleme sonrası 30 gün
 
-| Hafta | İş |
-| --- | --- |
-| 1 | Güncelleme tarihlerini not edin; tamamlanmasını bekleyin; hiçbir sayfayı topluca değiştirmeyin |
-| 2 | Güncelleme tamamlandıktan en az bir hafta sonra Search Console’da öncesi–sonrası karşılaştırın |
-| 3 | En çok trafik kaybeden beş sayfayı seçin; yukarıdaki sorularla değerlendirin |
-| 4 | İyileştirmeleri tek tek yapın; tarihleri not edin; sonuçları izleyin |
+- **1:** Güncelleme tarihlerini not edin; tamamlanmasını bekleyin; hiçbir sayfayı topluca değiştirmeyin
+- **2:** Güncelleme tamamlandıktan en az bir hafta sonra Search Console’da öncesi–sonrası karşılaştırın
+- **3:** En çok trafik kaybeden beş sayfayı seçin; yukarıdaki sorularla değerlendirin
+- **4:** İyileştirmeleri tek tek yapın; tarihleri not edin; sonuçları izleyin
 
 ## Denizli’den bir örnek
 
@@ -81,16 +79,16 @@ Google’ın rehberi, iyileştirmelerinizin etkisini görmek için büyük bir t
 
 Her düşen sayfa için bir kart doldurun:
 
-| Soru | Cevap |
-| --- | --- |
-| Sayfanın ana sorusu nedir? | |
-| İlk iki cümle bu soruya doğrudan cevap veriyor mu? | |
-| Bilgilerin güncelliği (tarih, fiyat, adres) | |
-| Gerçek örnek, süreç, ayrıntı var mı? | |
-| Yazan kişi ve uzmanlığı görünüyor mu? | |
-| Rakip sayfalardan hangi bilgi eksik? | |
-| Telefon deneyimi ve hız | |
-| Yapılacak tek ve en önemli iyileştirme | |
+Şunları tek tek kontrol edin:
+
+- Sayfanın ana sorusu nedir?
+- İlk iki cümle bu soruya doğrudan cevap veriyor mu?
+- Bilgilerin güncelliği (tarih, fiyat, adres)
+- Gerçek örnek, süreç, ayrıntı var mı?
+- Yazan kişi ve uzmanlığı görünüyor mu?
+- Rakip sayfalardan hangi bilgi eksik?
+- Telefon deneyimi ve hız
+- Yapılacak tek ve en önemli iyileştirme
 
 Kartları sayfa başına bir iyileştirme önceliğiyle tamamlayın; hepsini aynı anda yapmaya çalışmayın.
 

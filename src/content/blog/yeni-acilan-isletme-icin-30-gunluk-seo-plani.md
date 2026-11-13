@@ -6,7 +6,7 @@ service: teknik-seo
 imageAlt: "Dört haftalık SEO planı takvimi: profil, site, içerik, ölçüm"
 ---
 
-**Kısa cevap:** Yeni açılan bir işletmenin ilk 30 günü, sonuç beklemek için değil, temel atmak içindir. Hafta 1: Google İşletme Profili. Hafta 2: site temeli ve Search Console. Hafta 3: ilk içerikler ve yerel kayıtlar. Hafta 4: ölçüm, yorum düzeni ve sonraki ay planı. Dizine ekleme bir haftayı bulabilir; sıralama için tarih ve garanti verilemez.
+Yeni açılan bir işletmenin ilk 30 günü, sonuç beklemek için değil, temel atmak içindir. Hafta 1: Google İşletme Profili. Hafta 2: site temeli ve Search Console. Hafta 3: ilk içerikler ve yerel kayıtlar. Hafta 4: ölçüm, yorum düzeni ve sonraki ay planı. Dizine ekleme bir haftayı bulabilir; sıralama için tarih ve garanti verilemez.
 
 Yeni işletme sahibi her şeyi aynı anda yapmak ister; ama sıra önemlidir. Önce müşterinin sizi bulabileceği ve güvenebileceği temel kurulur, sonra büyütülür. Bu yazı, günlük iş listesi hâlinde bir plan sunar. Daha kısa bir günlük liste için [esnaf için SEO kontrol listesi](/blog/esnaf-icin-seo-kontrol-listesi-bugun-yapilacak-10-is/), genel çerçeve için SEO nedir? yazılarına bakabilirsiniz.
 
@@ -28,72 +28,62 @@ Yeni işletme sahibi her şeyi aynı anda yapmak ister; ama sıra önemlidir. Ö
 
 ## Hafta 1: Kimlik ve profil (gün 1–7)
 
-| Gün | İş | Not |
-| --- | --- | --- |
-| 1 | Bilgileri tek dosyada toplayın | Ad, adres, telefon, saat, hizmetler, bölge |
-| 2 | Google İşletme Profili’ni oluşturun | İşletme adı gerçek adınız olmalı; pazarlama ifadesi eklemeyin |
-| 3 | Kategori, hizmetler ve açıklamayı doldurun | Gerçek bilgiyle |
-| 4 | Doğrulama sürecini başlatın | Google yöntemi kendisi belirler; bkz. [profil doğrulanmıyor](/blog/isletme-profili-dogrulanmiyor/) |
-| 5 | Fotoğrafları ekleyin | Gerçek, işletmeyi gösteren fotoğraflar |
-| 6 | Çalışma saatlerini ve iletişimi kontrol edin | Tutarlı olsun |
-| 7 | Hafta sonu kontrolü | Eksik alan, hata var mı? |
+- **1:** i̇ş: Bilgileri tek dosyada toplayın; not: Ad, adres, telefon, saat, hizmetler, bölge
+- **2:** i̇ş: Google İşletme Profili’ni oluşturun; not: İşletme adı gerçek adınız olmalı; pazarlama ifadesi eklemeyin
+- **3:** i̇ş: Kategori, hizmetler ve açıklamayı doldurun; not: Gerçek bilgiyle
+- **4:** i̇ş: Doğrulama sürecini başlatın; not: Google yöntemi kendisi belirler; bkz. [profil doğrulanmıyor](/blog/isletme-profili-dogrulanmiyor/)
+- **5:** i̇ş: Fotoğrafları ekleyin; not: Gerçek, işletmeyi gösteren fotoğraflar
+- **6:** i̇ş: Çalışma saatlerini ve iletişimi kontrol edin; not: Tutarlı olsun
+- **7:** i̇ş: Hafta sonu kontrolü; not: Eksik alan, hata var mı?
 
 Google’ın profil kurallarına göre işletme adına pazarlama etiketi, telefon ya da web adresi eklemek yasaktır ve askıya alma sebebi olabilir ([işletme kuralları](https://support.google.com/business/answer/3038177?hl=tr)). Yeni işletmelerde en sık hata budur: “Denizli en ucuz klima servisi” gibi adlar.
 
 ## Hafta 2: Site temeli (gün 8–14)
 
-| Gün | İş | Not |
-| --- | --- | --- |
-| 8 | Alan adı ve HTTPS | Bkz. alan adı seçimi |
-| 9 | Ana sayfa ve hizmet sayfaları | Her ana hizmet için bir sayfa |
-| 10 | Hakkımızda ve iletişim sayfaları | Gerçek bilgi; bkz. iletişim sayfası SEO’su |
-| 11 | Başlık, açıklama ve H1’leri kontrol edin | Her sayfaya özel |
-| 12 | Mobil ve hız testi | Gerçek telefonda deneyin |
-| 13 | Search Console’u kurun, site haritasını gönderin | Bkz. site haritası |
-| 14 | Engel kontrolü | noindex, robots.txt, yanlış yönlendirme yok mu? |
+- **8:** i̇ş: Alan adı ve HTTPS; not: Bkz. alan adı seçimi
+- **9:** i̇ş: Ana sayfa ve hizmet sayfaları; not: Her ana hizmet için bir sayfa
+- **10:** i̇ş: Hakkımızda ve iletişim sayfaları; not: Gerçek bilgi; bkz. iletişim sayfası SEO’su
+- **11:** i̇ş: Başlık, açıklama ve H1’leri kontrol edin; not: Her sayfaya özel
+- **12:** i̇ş: Mobil ve hız testi; not: Gerçek telefonda deneyin
+- **13:** i̇ş: Search Console’u kurun, site haritasını gönderin; not: Bkz. site haritası
+- **14:** i̇ş: Engel kontrolü; not: noindex, robots.txt, yanlış yönlendirme yok mu?
 
 Yayından önce test ortamında bırakılan `noindex` etiketini kontrol edin; yeni sitelerde en pahalı hata budur.
 
 ## Hafta 3: İçerik ve yerel kayıtlar (gün 15–21)
 
-| Gün | İş | Not |
-| --- | --- | --- |
-| 15 | Müşteri sorularını toplayın | Telefon, mesaj, tanıdık sorular |
-| 16–17 | İlk iki blog yazısı ya da sık sorulan sorular sayfası | Gerçek soruya cevap |
-| 18 | Hizmet sayfalarına sık sorulan sorular ekleyin | Kısa, net |
-| 19 | İç bağlantıları kurun | Hizmet ↔ yazı; bkz. iç bağlantı stratejisi |
-| 20 | Yerel kayıtlar | Gerçek kullanıcısı olan rehber ve haritalar; bkz. dizin kayıtları |
-| 21 | Bilgi tutarlılığı kontrolü | Site, profil, rehberlerde aynı mı? |
+- **15:** i̇ş: Müşteri sorularını toplayın; not: Telefon, mesaj, tanıdık sorular
+- **16–17:** i̇ş: İlk iki blog yazısı ya da sık sorulan sorular sayfası; not: Gerçek soruya cevap
+- **18:** i̇ş: Hizmet sayfalarına sık sorulan sorular ekleyin; not: Kısa, net
+- **19:** i̇ş: İç bağlantıları kurun; not: Hizmet ↔ yazı; bkz. iç bağlantı stratejisi
+- **20:** i̇ş: Yerel kayıtlar; not: Gerçek kullanıcısı olan rehber ve haritalar; bkz. dizin kayıtları
+- **21:** i̇ş: Bilgi tutarlılığı kontrolü; not: Site, profil, rehberlerde aynı mı?
 
 Burada hız değil kalite önemlidir. Üç özgün, doğru yazı, otuz kopya yazıdan iyidir.
 
 ## Hafta 4: Ölçüm, yorum ve plan (gün 22–30)
 
-| Gün | İş | Not |
-| --- | --- | --- |
-| 22 | Talep kayıt düzeni | Telefon, WhatsApp, form talepleri bir listede |
-| 23 | Form ve WhatsApp butonunu test edin | Bkz. [form ve WhatsApp butonu](/blog/iletisim-formu-ve-whatsapp-butonu-nasil-kurulur/) |
-| 24 | Yorum isteme düzenini başlatın | Memnun müşteriden karşılıksız yorum rica edin |
-| 25 | Profil performans raporuna bakın | İlk veriler az olabilir |
-| 26 | Search Console’da dizine ekleme durumunu kontrol edin | Hangi sayfalar dizinde? |
-| 27 | Eksikleri düzeltin | Hata, uyarı, tutarsızlık |
-| 28 | Rakipleri inceleyin | Aynı aramada kimler çıkıyor? |
-| 29 | Sonraki 60 gün için iş listesi hazırlayın | İçerik, yorum, yerel kayıtlar |
-| 30 | Aylık özet raporu yazın | Yapılanlar, ölçülenler, öğrenilenler |
+- **22:** i̇ş: Talep kayıt düzeni; not: Telefon, WhatsApp, form talepleri bir listede
+- **23:** i̇ş: Form ve WhatsApp butonunu test edin; not: Bkz. [form ve WhatsApp butonu](/blog/iletisim-formu-ve-whatsapp-butonu-nasil-kurulur/)
+- **24:** i̇ş: Yorum isteme düzenini başlatın; not: Memnun müşteriden karşılıksız yorum rica edin
+- **25:** i̇ş: Profil performans raporuna bakın; not: İlk veriler az olabilir
+- **26:** i̇ş: Search Console’da dizine ekleme durumunu kontrol edin; not: Hangi sayfalar dizinde?
+- **27:** i̇ş: Eksikleri düzeltin; not: Hata, uyarı, tutarsızlık
+- **28:** i̇ş: Rakipleri inceleyin; not: Aynı aramada kimler çıkıyor?
+- **29:** i̇ş: Sonraki 60 gün için iş listesi hazırlayın; not: İçerik, yorum, yerel kayıtlar
+- **30:** i̇ş: Aylık özet raporu yazın; not: Yapılanlar, ölçülenler, öğrenilenler
 
 Yorum konusunda Google, yorum karşılığı ücretsiz ya da indirimli ürün veya hizmet sunmanın sahte etkileşim sayıldığını ve yasak olduğunu söyler ([yorum ipuçları](https://support.google.com/business/answer/3474122?hl=tr)). Yorumu karşılıksız isteyin; bkz. [Google yorumları nasıl artırılır?](/blog/google-yorumlari-nasil-artirilir/)
 
 ## 30 gün içinde yapılmaması gerekenler
 
-| Yapmayın | Neden? |
-| --- | --- |
-| Bağlantı paketi satın almak | Bağlantı spam’i riski |
-| Sahte ya da karşılıklı yorum | Platform kuralı ihlali |
-| Aynı metni onlarca sayfaya kopyalamak | Kopya içerik |
-| Anahtar kelimeyle şişirilmiş işletme adı | Profil askıya alınabilir |
-| Her ilçe için boş sayfa açmak | Değeri yok |
-| Sonuç beklentisiyle çalışmayı bırakmak | SEO zaman ister |
-| Hiç ölçmemek | Karar için veri gerekir |
+- **Bağlantı paketi satın almak:** Bağlantı spam’i riski
+- **Sahte ya da karşılıklı yorum:** Platform kuralı ihlali
+- **Aynı metni onlarca sayfaya kopyalamak:** Kopya içerik
+- **Anahtar kelimeyle şişirilmiş işletme adı:** Profil askıya alınabilir
+- **Her ilçe için boş sayfa açmak:** Değeri yok
+- **Sonuç beklentisiyle çalışmayı bırakmak:** SEO zaman ister
+- **Hiç ölçmemek:** Karar için veri gerekir
 
 ## İlk ayın sonunda ne bekleyebilirsiniz?
 
@@ -105,12 +95,12 @@ Gerçekçi bir bekleyiş: profilinizin doğrulanmış ve eksiksiz olması, siten
 
 ## Haftalık kontrol listesi
 
-| Hafta | Hedef | Bitti mi? |
-| --- | --- | --- |
-| 1 | Profil açık, doğrulama süreci başladı, bilgiler tek kaynakta | |
-| 2 | Site yayında, mobil ve hızlı, Search Console kurulu | |
-| 3 | İlk içerikler yayında, kayıtlar tutarlı | |
-| 4 | Ölçüm, yorum düzeni ve 60 günlük plan hazır | |
+Şunları tek tek kontrol edin:
+
+- 1
+- 2
+- 3
+- 4
 
 ## Denizli SEO bu konuda nasıl yardımcı olur?
 

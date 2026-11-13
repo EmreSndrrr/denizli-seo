@@ -6,7 +6,7 @@ service: teknik-seo
 imageAlt: "B2B alıcının ürün, teknik doküman ve teklif sayfaları arasında gezindiği yol"
 ---
 
-**Kısa cevap:** Sanayide alıcı çoğu zaman tek bir kişi değildir: arayan teknik bir uzman, onaylayan bir satın alma yöneticisi ve karar veren bir üsttür. Arama önce teknik soru, ölçü ve standartla başlar; süreç uzundur ve teklif talebiyle biter. Bu yüzden ürün sayfaları, teknik doküman, gerçek referans, kolay teklif yolu ve uzun döngüye uygun ölçüm gerekir. Sıralama garantisi verilemez.
+Sanayide alıcı çoğu zaman tek bir kişi değildir: arayan teknik bir uzman, onaylayan bir satın alma yöneticisi ve karar veren bir üsttür. Arama önce teknik soru, ölçü ve standartla başlar; süreç uzundur ve teklif talebiyle biter. Bu yüzden ürün sayfaları, teknik doküman, gerçek referans, kolay teklif yolu ve uzun döngüye uygun ölçüm gerekir. Sıralama garantisi verilemez.
 
 Bir ev kullanıcısı “klima servisi” yazıp aynı gün arar; bir fabrikanın satın alma müdürü ise haftalarca araştırır, teknik şartname hazırlar, birkaç tedarikçiden teklif ister. SEO, bu süreçte alıcının sizi bulacağı, teknik olarak anlayacağı ve güveneceği içeriği sunmakla ilgilidir. Bu yazıda sanayi firmaları için bir içerik ve site planı anlatıyoruz. Kurumsal siteler için [kurumsal SEO](/blog/kurumsal-seo/), hizmet sayfası mantığı için hizmet sayfası nasıl yazılır? yazılarına bakabilirsiniz.
 
@@ -24,17 +24,15 @@ Aramalar sektöre göre değişir; sizin müşteri konuşmalarınız ve satış 
 
 ## Site yapısı
 
-| Sayfa | İçerik | Hedef |
-| --- | --- | --- |
-| Ana sayfa | Ne üretiyorsunuz, hangi sektörlere, nasıl iletişim | Tanıtım ve yönlendirme |
-| Ürün / hizmet sayfaları | Her ürün grubu ya da hizmet için ayrı sayfa | Çözüm araştırması ve tedarikçi arama |
-| Sektör / uygulama sayfaları | Hangi sektörlerde, hangi uygulamalarda kullanılıyor | Sektöre özgü arama |
-| Teknik doküman ve katalog | Teknik özellik tabloları, çizim, indirilebilir PDF | Teknik değerlendirme |
-| Üretim ve kalite | Tesis, makine parkuru, kalite kontrol, belgeler (gerçekse) | Güven |
-| Referans ve vaka | İzinli, doğrulanabilir projeler | Güven ve karar |
-| Rehber / bilgi yazıları | Teknik sorulara cevap | Üst huni trafiği |
-| Teklif talep sayfası | Kısa form: ürün, miktar, termin, iletişim | Dönüşüm |
-| Hakkımızda ve iletişim | Firma, adres, harita, telefon, e-posta | Güven ve erişim |
+- **Ana sayfa:** i̇çerik: Ne üretiyorsunuz, hangi sektörlere, nasıl iletişim; hedef: Tanıtım ve yönlendirme
+- **Ürün / hizmet sayfaları:** i̇çerik: Her ürün grubu ya da hizmet için ayrı sayfa; hedef: Çözüm araştırması ve tedarikçi arama
+- **Sektör / uygulama sayfaları:** i̇çerik: Hangi sektörlerde, hangi uygulamalarda kullanılıyor; hedef: Sektöre özgü arama
+- **Teknik doküman ve katalog:** i̇çerik: Teknik özellik tabloları, çizim, indirilebilir PDF; hedef: Teknik değerlendirme
+- **Üretim ve kalite:** i̇çerik: Tesis, makine parkuru, kalite kontrol, belgeler (gerçekse); hedef: Güven
+- **Referans ve vaka:** i̇çerik: İzinli, doğrulanabilir projeler; hedef: Güven ve karar
+- **Rehber / bilgi yazıları:** i̇çerik: Teknik sorulara cevap; hedef: Üst huni trafiği
+- **Teklif talep sayfası:** i̇çerik: Kısa form: ürün, miktar, termin, iletişim; hedef: Dönüşüm
+- **Hakkımızda ve iletişim:** i̇çerik: Firma, adres, harita, telefon, e-posta; hedef: Güven ve erişim
 
 ## Ürün ve çözüm sayfası nasıl yazılır?
 
@@ -65,27 +63,23 @@ PDF katalog ve teknik föy B2B’de yaygındır. İyi uygulama:
 
 Alıcı sizi bulduktan sonra teklif istemek zor olmamalı:
 
-| Alan | Not |
-| --- | --- |
-| Ad ve firma | Zorunlu |
-| E-posta ve telefon | İkisinden biri zorunlu olabilir |
-| Ürün / hizmet | Seçmeli liste |
-| Miktar ve termin | İsteğe bağlı |
-| Teknik not / çizim | Dosya ekleme imkânı |
-| Onay metni | Kişisel veri bilgilendirmesi; hukuki konularda uzman desteği alın |
+- **Ad ve firma:** Zorunlu
+- **E-posta ve telefon:** İkisinden biri zorunlu olabilir
+- **Ürün / hizmet:** Seçmeli liste
+- **Miktar ve termin:** İsteğe bağlı
+- **Teknik not / çizim:** Dosya ekleme imkânı
+- **Onay metni:** Kişisel veri bilgilendirmesi; hukuki konularda uzman desteği alın
 
 Talebe cevap süresini yazın ve tutun. İletişim yolları için [iletişim formu ve WhatsApp butonu](/blog/iletisim-formu-ve-whatsapp-butonu-nasil-kurulur/) yazısına bakabilirsiniz.
 
 ## Güven: B2B’de belirleyici
 
-| Öğe | Nasıl? |
-| --- | --- |
-| Firma kimliği | Resmî unvan, adres, vergi bilgisi (yayımlamak serbestse), telefon |
-| Tesis ve üretim | Gerçek fotoğraf ve video |
-| Referanslar | İzinli, adı geçen firmanın onayıyla |
-| Belgeler | Yalnızca sahip olduklarınız; numara ve kurum |
-| Hakkımızda | Kimin kurduğu, ekip; bkz. Hakkımızda sayfası |
-| İçerik yazarı | Teknik yazılarda yazar ve uzmanlık bilgisi |
+- **Firma kimliği:** Resmî unvan, adres, vergi bilgisi (yayımlamak serbestse), telefon
+- **Tesis ve üretim:** Gerçek fotoğraf ve video
+- **Referanslar:** İzinli, adı geçen firmanın onayıyla
+- **Belgeler:** Yalnızca sahip olduklarınız; numara ve kurum
+- **Hakkımızda:** Kimin kurduğu, ekip; bkz. Hakkımızda sayfası
+- **İçerik yazarı:** Teknik yazılarda yazar ve uzmanlık bilgisi
 
 Google’ın yardımcı içerik rehberi, içeriğin kim tarafından yazıldığının ve nasıl üretildiğinin açık olmasını önerir ([yardımcı içerik rehberi](https://developers.google.com/search/docs/fundamentals/creating-helpful-content?hl=tr)); teknik B2B içeriğinde bu doğrudan güven demektir.
 
@@ -106,16 +100,14 @@ Fabrika ve ofis adresinizi Google İşletme Profili’nde doğru tutun; yerel te
 
 ## Sık yapılan hatalar
 
-| Hata | Çözüm |
-| --- | --- |
-| Yalnızca firma tanıtımı, ürün sayfası yok | Ürün ve çözüm sayfaları |
-| Bilginin yalnızca PDF’te olması | Sayfada metin olarak da yayımlayın |
-| Pazarlama diliyle dolu, teknik veri yok | Tablo ve ölçü verin |
-| Eski katalog ve belge | Güncel tutun |
-| Uydurma referans, sertifika | Yalnızca doğrulanabilir bilgi |
-| Teklif formu uzun ve zor | Kısa form |
-| Kısa dönemde sonuç beklemek | Uzun döngüye uygun ölçüm |
-| Satış ekibiyle SEO’nun konuşmaması | Müşteri sorularını içeriğe taşıyın |
+- **Yalnızca firma tanıtımı, ürün sayfası yok:** Ürün ve çözüm sayfaları
+- **Bilginin yalnızca PDF’te olması:** Sayfada metin olarak da yayımlayın
+- **Pazarlama diliyle dolu, teknik veri yok:** Tablo ve ölçü verin
+- **Eski katalog ve belge:** Güncel tutun
+- **Uydurma referans, sertifika:** Yalnızca doğrulanabilir bilgi
+- **Teklif formu uzun ve zor:** Kısa form
+- **Kısa dönemde sonuç beklemek:** Uzun döngüye uygun ölçüm
+- **Satış ekibiyle SEO’nun konuşmaması:** Müşteri sorularını içeriğe taşıyın
 
 ## Denizli’den bir örnek
 
@@ -123,18 +115,18 @@ Fabrika ve ofis adresinizi Google İşletme Profili’nde doğru tutun; yerel te
 
 ## Başlangıç kontrol listesi
 
-| Kontrol | Evet / Hayır |
-| --- | --- |
-| Her ürün grubu için ayrı sayfa var mı? | |
-| Teknik bilgi tabloyla ve doğru mu? | |
-| Katalog sayfada metin olarak da var mı? | |
-| Referans ve belgeler doğrulanabilir mi? | |
-| Teklif formu kısa ve çalışıyor mu? | |
-| Cevap süresi yazılı ve tutulabilir mi? | |
-| Talepler kaynakla kaydediliyor mu? | |
-| Sektör ve uygulama sayfaları var mı? | |
-| Hedef dilde sayfalar ve hreflang (ihracatta) var mı? | |
-| Site mobilde ve hızlı mı? | |
+Şunları tek tek kontrol edin:
+
+- Her ürün grubu için ayrı sayfa var mı?
+- Teknik bilgi tabloyla ve doğru mu?
+- Katalog sayfada metin olarak da var mı?
+- Referans ve belgeler doğrulanabilir mi?
+- Teklif formu kısa ve çalışıyor mu?
+- Cevap süresi yazılı ve tutulabilir mi?
+- Talepler kaynakla kaydediliyor mu?
+- Sektör ve uygulama sayfaları var mı?
+- Hedef dilde sayfalar ve hreflang (ihracatta) var mı?
+- Site mobilde ve hızlı mı?
 
 ## Denizli SEO bu konuda nasıl yardımcı olur?
 

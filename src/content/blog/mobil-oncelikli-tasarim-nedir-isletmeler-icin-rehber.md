@@ -6,7 +6,7 @@ service: web-tasarim
 imageAlt: "Önce telefon ekranı tasarlanıp sonra büyük ekrana genişleyen sayfa düzeni"
 ---
 
-**Kısa cevap:** Mobil öncelikli tasarım, siteyi önce telefon ekranı için kurup sonra tablet ve bilgisayara genişletme yaklaşımıdır. Bu, Google’ın “mobil öncelikli dizine ekleme” uygulamasından farklı bir kavramdır ama birbirini destekler: Google, dizine ekleme ve sıralama için sitenin akıllı telefon aracısıyla taranan mobil sürümünü kullanır. Telefonda eksik ya da bozuk bir site arama tarafında da zayıf kalabilir. Hedef: aynı içerik, okunur yazı, kolay düğmeler, hızlı yükleme.
+Mobil öncelikli tasarım, siteyi önce telefon ekranı için kurup sonra tablet ve bilgisayara genişletme yaklaşımıdır. Bu, Google’ın “mobil öncelikli dizine ekleme” uygulamasından farklı bir kavramdır ama birbirini destekler: Google, dizine ekleme ve sıralama için sitenin akıllı telefon aracısıyla taranan mobil sürümünü kullanır. Telefonda eksik ya da bozuk bir site arama tarafında da zayıf kalabilir. Hedef: aynı içerik, okunur yazı, kolay düğmeler, hızlı yükleme.
 
 Yerel işletmeler için müşteri çoğu zaman telefondadır: “yakınımda klima servisi”, “bu akşam açık eczane”, “Pamukkale’de otel”. Müşteri sitenize yolda, kuyrukta ya da evde kanepede gelir; sayfanın saniyeler içinde anlaşılması gerekir. Bu yazıda kavramı, Google’ın ne dediğini ve bir işletme sitesinde nelere dikkat edileceğini anlatıyoruz. Test için [mobil uyumluluk nasıl test edilir?](/blog/mobil-uyumluluk-nasil-test-edilir/), genel temel için [SEO uyumlu web sitesi](/blog/seo-uyumlu-web-sitesi/) yazılarına bakabilirsiniz.
 
@@ -37,13 +37,11 @@ Google’ın rehberine göre Google, dizine ekleme ve sıralama için site içer
 
 Google’ın rehberi mobil sitede masaüstüyle aynı içeriğin bulunmasını ister. Başlık, açıklama ve yapılandırılmış veride de tutarlılık, bizim genel tavsiyemizdir. Sık yapılan sapmalar şunlardır:
 
-| Sorun | Neden zarar? | Çözüm |
-| --- | --- | --- |
-| Mobilde metnin kısaltılması | Google mobil sürümü esas alır, kısaltılan bilgi görülmez | Aynı metni gösterin; gerekirse açılır bölüm kullanın |
-| Mobilde görsellerin ya da alt metnin eksik olması | Görsel arama ve anlam kaybı | Aynı görselleri ve alt metinleri koruyun |
-| Mobilde farklı başlık ve açıklama | Tutarsız sinyal | Aynı başlık ve açıklama |
-| Mobilde menüde bağlantıların olmaması | Sayfalar bulunamaz | Aynı iç bağlantıları sağlayın |
-| Mobil sürümün ayrı adreste (m. alt alan adı) tutulması | Bakım ve eşleme zorluğu | Tek adreste duyarlı tasarım |
+- **Mobilde metnin kısaltılması:** neden zarar?: Google mobil sürümü esas alır, kısaltılan bilgi görülmez; çözüm: Aynı metni gösterin; gerekirse açılır bölüm kullanın
+- **Mobilde görsellerin ya da alt metnin eksik olması:** neden zarar?: Görsel arama ve anlam kaybı; çözüm: Aynı görselleri ve alt metinleri koruyun
+- **Mobilde farklı başlık ve açıklama:** neden zarar?: Tutarsız sinyal; çözüm: Aynı başlık ve açıklama
+- **Mobilde menüde bağlantıların olmaması:** neden zarar?: Sayfalar bulunamaz; çözüm: Aynı iç bağlantıları sağlayın
+- **Mobil sürümün ayrı adreste (m. alt alan adı) tutulması:** neden zarar?: Bakım ve eşleme zorluğu; çözüm: Tek adreste duyarlı tasarım
 
 Açılır bölümlerin Google tarafından nasıl işlendiği için güncel dokümana bakın; en güvenli yol, kritik bilgiyi (adres, telefon, ana hizmet) açılır bölüme gömmeden görünür tutmaktır.
 
@@ -63,15 +61,13 @@ Mobilde hızı artıran başlıca işler:
 
 Telefonda tasarım hatalarının çoğu “yanlış yere basma” ve “okunamama”dır:
 
-| Kontrol | İyi uygulama |
-| --- | --- |
-| Düğme boyutu | Parmakla kolay basılacak yükseklik ve genişlik |
-| Düğmeler arası boşluk | Yanlış basmayı önleyecek mesafe |
-| Yazı boyutu | Yakınlaştırmadan okunabilir |
-| Satır uzunluğu | Çok uzun satırlardan kaçının |
-| Kontrast | Açık zeminde koyu, koyu zeminde açık yazı; güneş altında da okunabilir |
-| Form alanları | Büyük, tek sütun, uygun klavye türü |
-| Açılır pencereler | Sayfayı kapatan ya da kapatması zor pencerelerden kaçının |
+- **Düğme boyutu:** Parmakla kolay basılacak yükseklik ve genişlik
+- **Düğmeler arası boşluk:** Yanlış basmayı önleyecek mesafe
+- **Yazı boyutu:** Yakınlaştırmadan okunabilir
+- **Satır uzunluğu:** Çok uzun satırlardan kaçının
+- **Kontrast:** Açık zeminde koyu, koyu zeminde açık yazı; güneş altında da okunabilir
+- **Form alanları:** Büyük, tek sütun, uygun klavye türü
+- **Açılır pencereler:** Sayfayı kapatan ya da kapatması zor pencerelerden kaçının
 
 Bu ölçütlerin sayısal eşikleri için resmî bir “tek doğru” yoktur; en güvenli test, siteyi gerçek bir telefonda ve farklı boyutlarda kullanmaktır.
 
@@ -100,28 +96,24 @@ Yerel görünürlük için [Google haritalarda üst sıralara çıkmak](/blog/go
 
 ## Test araçları ve yöntemler
 
-| Yöntem | Ne gösterir? |
-| --- | --- |
-| Gerçek telefonda deneme | En güvenilir kullanıcı deneyimi testi |
-| Tarayıcı geliştirici araçlarında cihaz modu | Farklı ekran boyutlarını hızlıca görme |
-| Search Console URL Denetleme | Google’ın sayfayı nasıl gördüğü (taranan sürüm) |
-| Core Web Vitals raporu | Gerçek kullanıcı verisine dayalı hız ölçümü |
-| Hız ölçüm aracı | LCP, INP, CLS ve iyileştirme önerileri |
+- **Gerçek telefonda deneme:** En güvenilir kullanıcı deneyimi testi
+- **Tarayıcı geliştirici araçlarında cihaz modu:** Farklı ekran boyutlarını hızlıca görme
+- **Search Console URL Denetleme:** Google’ın sayfayı nasıl gördüğü (taranan sürüm)
+- **Core Web Vitals raporu:** Gerçek kullanıcı verisine dayalı hız ölçümü
+- **Hız ölçüm aracı:** LCP, INP, CLS ve iyileştirme önerileri
 
 Eski “mobil uyumluluk testi” araçları ve raporları zamanla değişebilir; bu yüzden güncel araçları Google’ın dokümanlarından kontrol edin.
 
 ## Sık yapılan hatalar
 
-| Hata | Çözüm |
-| --- | --- |
-| Önce masaüstü tasarlayıp mobili sıkıştırmak | Önce telefondan başlayın |
-| Mobilde içeriği kısaltmak | Aynı içerik, daha iyi düzen |
-| Çok küçük düğme ve yazı | Dokunma dostu ölçüler |
-| Her şeyi açılır menüye gömmek | Kritik bilgi görünür olsun |
-| Yavaş, ağır görseller | Sıkıştırma ve doğru boyut |
-| Sayfayı kaplayan açılır pencereler | Sade, kapatması kolay uyarılar |
-| Yalnızca masaüstünde test etmek | Gerçek telefonda deneyin |
-| Mobil sürümde farklı başlık ve açıklama | Tutarlı meta veriler |
+- **Önce masaüstü tasarlayıp mobili sıkıştırmak:** Önce telefondan başlayın
+- **Mobilde içeriği kısaltmak:** Aynı içerik, daha iyi düzen
+- **Çok küçük düğme ve yazı:** Dokunma dostu ölçüler
+- **Her şeyi açılır menüye gömmek:** Kritik bilgi görünür olsun
+- **Yavaş, ağır görseller:** Sıkıştırma ve doğru boyut
+- **Sayfayı kaplayan açılır pencereler:** Sade, kapatması kolay uyarılar
+- **Yalnızca masaüstünde test etmek:** Gerçek telefonda deneyin
+- **Mobil sürümde farklı başlık ve açıklama:** Tutarlı meta veriler
 
 ## Denizli’den bir örnek
 
@@ -129,18 +121,18 @@ Eski “mobil uyumluluk testi” araçları ve raporları zamanla değişebilir;
 
 ## Yayın öncesi kontrol listesi
 
-| Kontrol | Evet / Hayır |
-| --- | --- |
-| Mobil sürümde masaüstüyle aynı içerik var mı? | |
-| İlk ekranda iş, bölge ve ana eylem görünüyor mu? | |
-| Düğmeler parmakla kolay basılıyor mu? | |
-| Yazı yakınlaştırmadan okunuyor mu? | |
-| Telefon numarası tıklanabilir mi? | |
-| Sayfa mobilde hızlı açılıyor mu? | |
-| Görsellerde alt metin var mı? | |
-| Açılır pencere sayfayı kapatıyor mu? | |
-| En az iki gerçek telefonda test edildi mi? | |
-| Başlık, açıklama ve yapılandırılmış veri mobilde de aynı mı? | |
+Şunları tek tek kontrol edin:
+
+- Mobil sürümde masaüstüyle aynı içerik var mı?
+- İlk ekranda iş, bölge ve ana eylem görünüyor mu?
+- Düğmeler parmakla kolay basılıyor mu?
+- Yazı yakınlaştırmadan okunuyor mu?
+- Telefon numarası tıklanabilir mi?
+- Sayfa mobilde hızlı açılıyor mu?
+- Görsellerde alt metin var mı?
+- Açılır pencere sayfayı kapatıyor mu?
+- En az iki gerçek telefonda test edildi mi?
+- Başlık, açıklama ve yapılandırılmış veri mobilde de aynı mı?
 
 ## Denizli SEO bu konuda nasıl yardımcı olur?
 

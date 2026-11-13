@@ -6,7 +6,7 @@ service: teknik-seo
 imageAlt: "Bir metin dosyası ve tarayıcı botu için izin verilen ve engellenen yollar"
 ---
 
-**Kısa cevap:** robots.txt, sitenizin kök dizininde duran ve arama motoru botlarına hangi bölümleri tarayıp hangilerini taramamaları gerektiğini söyleyen düz metin dosyasıdır. Google’a göre robots.txt, bir sayfayı Google’dan gizlemek için değil, tarama trafiğini yönetmek içindir; sayfayı arama sonuçlarından uzak tutmak için noindex kullanın ya da sayfayı şifreyle koruyun. Küçük bir işletme sitesi için çoğu zaman basit bir dosya yeterlidir.
+robots.txt, sitenizin kök dizininde duran ve arama motoru botlarına hangi bölümleri tarayıp hangilerini taramamaları gerektiğini söyleyen düz metin dosyasıdır. Google’a göre robots.txt, bir sayfayı Google’dan gizlemek için değil, tarama trafiğini yönetmek içindir; sayfayı arama sonuçlarından uzak tutmak için noindex kullanın ya da sayfayı şifreyle koruyun. Küçük bir işletme sitesi için çoğu zaman basit bir dosya yeterlidir.
 
 robots.txt, teknik SEO’nun en kısa ama en çok yanlış kullanılan dosyasıdır. Tek bir yanlış satır, sitenin tamamının taranmasını engelleyebilir. Bu yazıda dosyanın ne olduğunu, nasıl hazırlanacağını, sık yapılan hataları ve kontrolünü anlatıyoruz. Sitenizin genel kontrolü için [ücretsiz SEO analizi](/blog/ucretsiz-seo-analizi-nasil-yapilir/) yazımızdaki on kontrol de işe yarar.
 
@@ -69,11 +69,9 @@ Taranmasını istemediğiniz bölümler varsa (yönetim paneli, iç arama sonuç
 
 ## robots.txt ile noindex arasındaki fark
 
-| | robots.txt `Disallow` | noindex |
-| --- | --- | --- |
-| Ne yapar? | Botun sayfayı taramasını engeller | Sayfanın arama dizinine girmesini engeller |
-| Sayfayı sonuçlardan gizler mi? | Hayır, tek başına gizlemez | Evet, tarandığında |
-| Birlikte kullanılabilir mi? | Dikkat: engellenen sayfada noindex görülmez | Sayfa taramaya açık olmalı |
+- **Ne yapar?:** robots.txt `disallow`: Botun sayfayı taramasını engeller; noindex: Sayfanın arama dizinine girmesini engeller
+- **Sayfayı sonuçlardan gizler mi?:** robots.txt `disallow`: Hayır, tek başına gizlemez; noindex: Evet, tarandığında
+- **Birlikte kullanılabilir mi?:** robots.txt `disallow`: Dikkat: engellenen sayfada noindex görülmez; noindex: Sayfa taramaya açık olmalı
 
 Google, noindex kuralının etkili olması için sayfanın hem robots.txt tarafından engellenmemesi hem de tarayıcı tarafından erişilebilir olması gerektiğini söyler. Sayfa robots.txt ile engellenirse bot noindex’i hiç görmez ve sayfa, başka sayfalar ona bağlantı verirse yine sonuçlarda görünebilir ([noindex ile engelleme](https://developers.google.com/search/docs/crawling-indexing/block-indexing?hl=tr)). Bu konuyu [noindex nedir?](/blog/noindex-nedir-ne-zaman-kullanilir/) yazımızda ayrıca anlattık.
 

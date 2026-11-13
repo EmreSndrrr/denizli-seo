@@ -6,7 +6,7 @@ service: yerel-seo
 imageAlt: "Duraklatılmış bir profil kartı ve itiraz belgesi listesi"
 ---
 
-**Kısa cevap:** Profil askıya alındıysa önce Google’ın kurallarına uymayan noktayı bulup düzeltin: ad, adres, kategori ya da kopya profil. Sonra İşletme Profili itiraz aracından itiraz edin ve destekleyici belge ekleyin: işletme tescili, ruhsat, vergi levhası, fatura. İtiraz yalnızca bir kez gönderilebilir, bu yüzden göndermeden önce her şeyi düzeltin. Aynı işletme için yeni profil açmayın.
+Profil askıya alındıysa önce Google’ın kurallarına uymayan noktayı bulup düzeltin: ad, adres, kategori ya da kopya profil. Sonra İşletme Profili itiraz aracından itiraz edin ve destekleyici belge ekleyin: işletme tescili, ruhsat, vergi levhası, fatura. İtiraz yalnızca bir kez gönderilebilir, bu yüzden göndermeden önce her şeyi düzeltin. Aynı işletme için yeni profil açmayın.
 
 Profilin askıya alınması, çoğu işletme için telefonların susması demektir. Panik yapmadan, doğru sırayla ilerlemek gerekir. Bu yazı sebepleri, düzeltme listesini ve itiraz sürecini anlatıyor. Askıya almadan önce profilinizin tamam olup olmadığına bakmak için [Google İşletme Profili nasıl doldurulur?](/blog/google-isletme-profili-nasil-doldurulur/) rehberimiz işe yarar.
 
@@ -105,13 +105,11 @@ Google, 10’dan fazla profil için itirazda bulunmanın ayrı bir akışı oldu
 
 Örnek (hayalî bir işletme için): Pamukkale’de bir turizm acentesi, profil adını “Pamukkale Tur – En İyi Fiyat Garantili Denizli Turları” olarak girmiş. Profil askıya alınıyor.
 
-| Adım | Yapılacak |
-| --- | --- |
-| Karar ekranı | Nedeni okunuyor: işletme adındaki gereksiz ifade |
-| Ad düzeltme | “Pamukkale Tur” (tabelada yazdığı gibi) |
-| Diğer kontroller | Adres gerçek mi, kategori “Seyahat acentesi” mi, kopya profil var mı? |
-| Belgeler | Acente belgesi ve vergi levhası, ad ve adres eşleşmesi kontrol edilerek ekleniyor |
-| İtiraz | Düzeltilenler ve belgeler yazıyla özetlenip tek seferde gönderiliyor |
+- **Karar ekranı:** Nedeni okunuyor: işletme adındaki gereksiz ifade
+- **Ad düzeltme:** “Pamukkale Tur” (tabelada yazdığı gibi)
+- **Diğer kontroller:** Adres gerçek mi, kategori “Seyahat acentesi” mi, kopya profil var mı?
+- **Belgeler:** Acente belgesi ve vergi levhası, ad ve adres eşleşmesi kontrol edilerek ekleniyor
+- **İtiraz:** Düzeltilenler ve belgeler yazıyla özetlenip tek seferde gönderiliyor
 
 Bu örnek bir sonuç vaadi değil; sırayı gösterir.
 
@@ -119,12 +117,10 @@ Bu örnek bir sonuç vaadi değil; sırayı gösterir.
 
 İtirazı göndermeden önce belgeleri tek tek kontrol edin:
 
-| Belge | Ne gösterir? | Kontrol edin |
-| --- | --- | --- |
-| Vergi levhası | İşletme adı ve adres | Profildeki adla birebir eşleşiyor mu? |
-| İşletme ruhsatı | Faaliyet izni | Adres ve faaliyet konusu doğru mu? |
-| Elektrik, su, telefon, internet faturası | Adreste fiilen faaliyet | Ad ve adres profille aynı mı? |
-| Resmî tescil | İşletmenin varlığı | Ünvan, marka adından farklıysa açıklayın |
+- **Vergi levhası:** ne gösterir?: İşletme adı ve adres; kontrol edin: Profildeki adla birebir eşleşiyor mu?
+- **İşletme ruhsatı:** ne gösterir?: Faaliyet izni; kontrol edin: Adres ve faaliyet konusu doğru mu?
+- **Elektrik, su, telefon, internet faturası:** ne gösterir?: Adreste fiilen faaliyet; kontrol edin: Ad ve adres profille aynı mı?
+- **Resmî tescil:** ne gösterir?: İşletmenin varlığı; kontrol edin: Ünvan, marka adından farklıysa açıklayın
 
 Belgelerdeki kişisel bilgileri (kimlik numarası gibi) gerektiğinde kapatın; yalnızca ad, adres ve işletme bilgisini görünür bırakın.
 

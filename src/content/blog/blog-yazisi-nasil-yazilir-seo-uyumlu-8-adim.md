@@ -6,7 +6,7 @@ service: icerik-seo
 imageAlt: "Boş bir sayfa, adım adım işaretlenmiş yazı planı ve kalem"
 ---
 
-**Kısa cevap:** SEO uyumlu bir blog yazısı, müşterinin gerçekten sorduğu bir soruyu seçer, ona özgün ve doğru cevap verir, anlaşılır başlıklarla bölümlere ayrılır, iç bağlantılarla siteye bağlanır ve yayından sonra ölçülür. Google’ın rehberi, içeriği önce insanlar için yazmayı, başkalarının içeriğini kopyalamamayı ve içeriği güncel tutmayı önerir. Sekiz adım: konu, arama niyeti, taslak, başlık, yazım, bağlantılar, kaynak, yayın ve ölçüm.
+SEO uyumlu bir blog yazısı, müşterinin gerçekten sorduğu bir soruyu seçer, ona özgün ve doğru cevap verir, anlaşılır başlıklarla bölümlere ayrılır, iç bağlantılarla siteye bağlanır ve yayından sonra ölçülür. Google’ın rehberi, içeriği önce insanlar için yazmayı, başkalarının içeriğini kopyalamamayı ve içeriği güncel tutmayı önerir. Sekiz adım: konu, arama niyeti, taslak, başlık, yazım, bağlantılar, kaynak, yayın ve ölçüm.
 
 Blog yazmak, çoğu küçük işletme için sürekli yapılması zor bir iştir: konu bulmak, yazmak, yayımlamak ve sonuç görmek zaman alır. İyi yapılandırılmış sekiz adımlık bir süreç, işi hafifletir. Bu yazıda bir blog yazısının sıfırdan nasıl hazırlanacağını anlatıyoruz. Kelime seçimi için [anahtar kelime analizi](/blog/anahtar-kelime-analizi/) yazımıza bakabilirsiniz.
 
@@ -89,16 +89,16 @@ Kritik bir iddia (süre, limit, politika) yazıyorsanız kaynağını açıkça 
 
 ## 8 adımlık kontrol listesi
 
-| Adım | Soru | Evet? |
-| --- | --- | --- |
-| 1 | Konu müşteri sorusundan mı? | |
-| 2 | Arama niyeti net mi? | |
-| 3 | Taslak ve kısa cevap hazır mı? | |
-| 4 | Başlık açıklayıcı ve ilk paragraf cevap veriyor mu? | |
-| 5 | Metin özgün, somut ve doğrulanabilir mi? | |
-| 6 | İç bağlantılar var mı? | |
-| 7 | Kaynak ve tarih var mı? | |
-| 8 | Yayın sonrası ölçüm planlandı mı? | |
+Şunları tek tek kontrol edin:
+
+- 1
+- 2
+- 3
+- 4
+- 5
+- 6
+- 7
+- 8
 
 ## Denizli’den bir örnek
 
@@ -108,13 +108,11 @@ Bu örnek sonuç vaadi değildir; yazım sürecini gösterir.
 
 ## Yazı türüne göre iskelet
 
-| Tür | İskelet |
-| --- | --- |
-| Nasıl yapılır | Kısa cevap, ön hazırlık, numaralı adımlar, sık hatalar, kontrol listesi |
-| Karşılaştırma | Kısa cevap, ölçütler, tablo, karar kuralı, örnek |
-| Nedir | Tanım, nasıl çalışır, örnek, ne zaman gerekir, sık sorulan sorular |
-| Fiyat ve süre | Etkenler, modeller, teklifte neye bakılır, örnek hesap yöntemi |
-| Sorun giderme | Belirti, olası nedenler, adım adım kontrol, ne zaman uzmana gidilir |
+- **Nasıl yapılır:** Kısa cevap, ön hazırlık, numaralı adımlar, sık hatalar, kontrol listesi
+- **Karşılaştırma:** Kısa cevap, ölçütler, tablo, karar kuralı, örnek
+- **Nedir:** Tanım, nasıl çalışır, örnek, ne zaman gerekir, sık sorulan sorular
+- **Fiyat ve süre:** Etkenler, modeller, teklifte neye bakılır, örnek hesap yöntemi
+- **Sorun giderme:** Belirti, olası nedenler, adım adım kontrol, ne zaman uzmana gidilir
 
 ## Yazarken sık yapılan hatalar
 

@@ -6,7 +6,7 @@ service: teknik-seo
 imageAlt: "Organik sonuçlar ve reklam sonuçları arasında seçim yapan terazi"
 ---
 
-**Kısa cevap:** SEO, arama sonuçlarında organik (ücretsiz) görünmeye çalışmaktır; Google Ads ise ücretli reklam vermektir. İkisi ayrı sistemlerdir: Google’ın SEO uzmanı rehberine göre Google ile reklam vermenin sitenizin arama sonuçlarındaki durumu üzerinde hiçbir etkisi olmaz ve organik sonuçlarda görünmenin herhangi bir maliyeti yoktur. Reklam hızlı başlar ama durdurunca biter; SEO yavaş kurulur ama emek birikir. Karar bütçeye, aciliyete ve sitenizin hazır olup olmadığına bağlıdır.
+SEO, arama sonuçlarında organik (ücretsiz) görünmeye çalışmaktır; Google Ads ise ücretli reklam vermektir. İkisi ayrı sistemlerdir: Google’ın SEO uzmanı rehberine göre Google ile reklam vermenin sitenizin arama sonuçlarındaki durumu üzerinde hiçbir etkisi olmaz ve organik sonuçlarda görünmenin herhangi bir maliyeti yoktur. Reklam hızlı başlar ama durdurunca biter; SEO yavaş kurulur ama emek birikir. Karar bütçeye, aciliyete ve sitenizin hazır olup olmadığına bağlıdır.
 
 “SEO mu reklam mı?” sorusu aslında “bu ay müşteri mi lazım, yoksa üç ay sonra da müşteri getirecek bir temel mi kurmak istiyorum?” sorusudur. İkisini doğru karşılaştırmak için önce neyin ne olduğunu netleştirmek gerekir. SEO’nun temelleri için [SEO nedir?](/blog/seo-nedir/), maliyet tarafı için [SEO fiyatları](/blog/seo-fiyatlari/) yazılarına bakabilirsiniz.
 
@@ -41,16 +41,14 @@ SEO’nun etkisi bir anahtarla açılan bir şey değildir. Search Console’dak
 
 ## Hangi durumda hangisi?
 
-| Durum | Öneri | Gerekçe |
-| --- | --- | --- |
-| Yeni açıldınız, bugün müşteri lazım | Ads ile başlayıp aynı anda SEO temelini kurun | Reklam hızlı görünürlük, SEO uzun vadeli temel |
-| Mevsimlik iş (ör. klima öncesi sezon) | Sezonda Ads, yıl boyu SEO | Talep dönemsel |
-| Tek seferlik kampanya ya da etkinlik | Ads ağırlıklı | SEO için zaman yok |
-| Düşük bütçe, sabırlı büyüme | SEO ve Google İşletme Profili | Tıklama başı ücret yok; emek var |
-| Çok rekabetçi, pahalı aramalar | Önce yerel SEO ve profil, reklamı hedefli kullanın | Geniş reklam pahalı olabilir |
-| Sitesi zayıf | Önce siteyi düzeltin | Reklamla gelen ziyaretçi sitede kaybolur |
-| Güven ve tanınırlık gerektiren iş | SEO + içerik + yorumlar | Güven zamanla birikir |
-| Acil ve yüksek değerli hizmet | Ads + telefon/WhatsApp | Hızlı erişim |
+- **Yeni açıldınız, bugün müşteri lazım:** öneri: Ads ile başlayıp aynı anda SEO temelini kurun; gerekçe: Reklam hızlı görünürlük, SEO uzun vadeli temel
+- **Mevsimlik iş (ör. klima öncesi sezon):** öneri: Sezonda Ads, yıl boyu SEO; gerekçe: Talep dönemsel
+- **Tek seferlik kampanya ya da etkinlik:** öneri: Ads ağırlıklı; gerekçe: SEO için zaman yok
+- **Düşük bütçe, sabırlı büyüme:** öneri: SEO ve Google İşletme Profili; gerekçe: Tıklama başı ücret yok; emek var
+- **Çok rekabetçi, pahalı aramalar:** öneri: Önce yerel SEO ve profil, reklamı hedefli kullanın; gerekçe: Geniş reklam pahalı olabilir
+- **Sitesi zayıf:** öneri: Önce siteyi düzeltin; gerekçe: Reklamla gelen ziyaretçi sitede kaybolur
+- **Güven ve tanınırlık gerektiren iş:** öneri: SEO + içerik + yorumlar; gerekçe: Güven zamanla birikir
+- **Acil ve yüksek değerli hizmet:** öneri: Ads + telefon/WhatsApp; gerekçe: Hızlı erişim
 
 Tablo genel bir yön gösterir; kararınızı kendi sayılarınızla vermelisiniz.
 
@@ -73,27 +71,23 @@ Yerel aramalarda müşteri çoğu zaman harita sonuçlarına bakar. Burası ne k
 
 “Hangisi daha ucuz?” sorusunun cevabı rakamlarla çıkar. Basit bir karşılaştırma tablosu:
 
-| Ölçüt | Reklam | SEO |
-| --- | --- | --- |
-| Aylık harcama | Reklam bütçesi + yönetim ücreti | Hizmet ya da emek maliyeti |
-| Gelen talep sayısı | Reklam hesabı + telefon/form kaydı | Search Console + profil + kayıt |
-| Talep başına maliyet | Harcama ÷ talep | Harcama ÷ talep (genellikle zamanla düşer; garanti değil) |
-| Müşteriye dönüşme | Kendi kaydınız | Kendi kaydınız |
-| Müşteri başına maliyet | Harcama ÷ müşteri | Harcama ÷ müşteri |
+- **Aylık harcama:** reklam: Reklam bütçesi + yönetim ücreti; seo: Hizmet ya da emek maliyeti
+- **Gelen talep sayısı:** reklam: Reklam hesabı + telefon/form kaydı; seo: Search Console + profil + kayıt
+- **Talep başına maliyet:** reklam: Harcama ÷ talep; seo: Harcama ÷ talep (genellikle zamanla düşer; garanti değil)
+- **Müşteriye dönüşme:** reklam: Kendi kaydınız; seo: Kendi kaydınız
+- **Müşteri başına maliyet:** reklam: Harcama ÷ müşteri; seo: Harcama ÷ müşteri
 
 SEO’nun maliyeti çoğu zaman tek bir aylık sayı gibi görünmez; kuruluma ve düzenli çalışmaya dağılır. Dürüst karşılaştırma için en az birkaç ay veri tutun. Fiyat tarafı için [SEO fiyatları](/blog/seo-fiyatlari/) ve geri dönüş hesabı için [SEO yatırımının geri dönüşü](/blog/seo-yatiriminin-geri-donusu-nasil-hesaplanir/) yazılarına bakın.
 
 ## Sık yapılan hatalar
 
-| Hata | Çözüm |
-| --- | --- |
-| “Reklam verirsem sıram yükselir” sanmak | Google ilişki olmadığını söylüyor |
-| Zayıf siteye reklam vermek | Önce siteyi düzeltin |
-| Ölçmeden bütçeyi büyütmek | Küçük denemeyle başlayın |
-| SEO’dan bir ayda sonuç beklemek | Gerçekçi süre planı |
-| Reklam ve organik sonucu karıştırıp raporlamak | Ayrı ölçün |
-| Reklamı durdurunca tüm trafiğin gitmesi | Organik temeli de kurun |
-| Garanti veren ajansa güvenmek | Kimse garanti edemez |
+- **“Reklam verirsem sıram yükselir” sanmak:** Google ilişki olmadığını söylüyor
+- **Zayıf siteye reklam vermek:** Önce siteyi düzeltin
+- **Ölçmeden bütçeyi büyütmek:** Küçük denemeyle başlayın
+- **SEO’dan bir ayda sonuç beklemek:** Gerçekçi süre planı
+- **Reklam ve organik sonucu karıştırıp raporlamak:** Ayrı ölçün
+- **Reklamı durdurunca tüm trafiğin gitmesi:** Organik temeli de kurun
+- **Garanti veren ajansa güvenmek:** Kimse garanti edemez
 
 ## Denizli’den bir örnek
 
@@ -101,16 +95,16 @@ SEO’nun maliyeti çoğu zaman tek bir aylık sayı gibi görünmez; kuruluma v
 
 ## Karar öncesi kontrol listesi
 
-| Soru | Cevap |
-| --- | --- |
-| Bu ay acil müşteri ihtiyacım var mı? | |
-| Sitem ve profilim ziyaretçiyi karşılamaya hazır mı? | |
-| Bir müşterinin bana kazandırdığı ortalama değer ne? | |
-| Reklam için ayırabileceğim aylık bütçe ne? | |
-| Talepleri (telefon, form, WhatsApp) kaydediyor muyum? | |
-| Mevsimlik bir talep döngüm var mı? | |
-| Rakiplerim aynı aramalarda reklam veriyor mu? | |
-| 6 ay sonra ne olmasını istiyorum? | |
+Şunları tek tek kontrol edin:
+
+- Bu ay acil müşteri ihtiyacım var mı?
+- Sitem ve profilim ziyaretçiyi karşılamaya hazır mı?
+- Bir müşterinin bana kazandırdığı ortalama değer ne?
+- Reklam için ayırabileceğim aylık bütçe ne?
+- Talepleri (telefon, form, WhatsApp) kaydediyor muyum?
+- Mevsimlik bir talep döngüm var mı?
+- Rakiplerim aynı aramalarda reklam veriyor mu?
+- 6 ay sonra ne olmasını istiyorum?
 
 ## Denizli SEO bu konuda nasıl yardımcı olur?
 

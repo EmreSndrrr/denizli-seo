@@ -6,7 +6,7 @@ service: icerik-seo
 imageAlt: "Site sayfasında gerçek müşteri yorumu kartları"
 ---
 
-**Kısa cevap:** Siteye yalnızca gerçek müşterilerden gelen, izin alınmış ve doğrulanabilir yorumları ekleyin. Yorum uydurmak, satın almak ya da seçerek yalnızca olumluları göstermek hem güveni zedeler hem de ilgili platformların kurallarına aykırı olabilir. Yorumu isim (ya da baş harfleri), tarih ve kaynakla gösterin; yapılandırılmış veri kullanacaksanız Google’ın kendi yorum işaretleme yönergelerine uyun.
+Siteye yalnızca gerçek müşterilerden gelen, izin alınmış ve doğrulanabilir yorumları ekleyin. Yorum uydurmak, satın almak ya da seçerek yalnızca olumluları göstermek hem güveni zedeler hem de ilgili platformların kurallarına aykırı olabilir. Yorumu isim (ya da baş harfleri), tarih ve kaynakla gösterin; yapılandırılmış veri kullanacaksanız Google’ın kendi yorum işaretleme yönergelerine uyun.
 
 Yorumlar karar verirken en çok bakılan güven öğelerindendir; ama yanlış kullanıldığında en çok zarar veren öğelerdendir. Bu yazıda siteye yorum eklemenin dürüst yolunu anlatıyoruz. Google üzerindeki yorumlar için [Google yorumları nasıl artırılır?](/blog/google-yorumlari-nasil-artirilir/) ve [olumsuz yoruma cevap](/blog/olumsuz-google-yorumuna-nasil-cevap-verilir/) yazılarına bakabilirsiniz.
 
@@ -45,15 +45,13 @@ Yorum ve puan verisini işaretlemek istiyorsanız Google’ın ilgili dokümanı
 
 ## Sık yapılan hatalar
 
-| Hata | Çözüm |
-| --- | --- |
-| Uydurma ya da şablon yorum | Kaldırın; yalnızca gerçek yorum |
-| İzinsiz isim ve fotoğraf | İzin alın ya da isim kullanmayın |
-| Yorumu düzeltip değiştirmek | Olduğu gibi yayımlayın |
-| Kaynak ve tarih yok | Ekleyin |
-| Yalnızca beş yıldızlılar | Dengeli yansıtın |
-| Yorum yapılandırılmış verisini kuralsız kullanmak | Google dokümanını izleyin |
-| Olumsuz yorumları silmeye çalışmak | Nazikçe cevap verin |
+- **Uydurma ya da şablon yorum:** Kaldırın; yalnızca gerçek yorum
+- **İzinsiz isim ve fotoğraf:** İzin alın ya da isim kullanmayın
+- **Yorumu düzeltip değiştirmek:** Olduğu gibi yayımlayın
+- **Kaynak ve tarih yok:** Ekleyin
+- **Yalnızca beş yıldızlılar:** Dengeli yansıtın
+- **Yorum yapılandırılmış verisini kuralsız kullanmak:** Google dokümanını izleyin
+- **Olumsuz yorumları silmeye çalışmak:** Nazikçe cevap verin
 
 ## Denizli’den bir örnek
 

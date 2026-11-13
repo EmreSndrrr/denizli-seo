@@ -6,7 +6,7 @@ service: backlink-hizmeti
 imageAlt: "Bağlantı metinleri türlerine göre dağılım çubuğu"
 ---
 
-**Kısa cevap:** Bağlantı metni (anchor), bağlantının tıklanabilir yazısıdır. Google, iyi bağlantı metnini açıklayıcı, kısa ve bulunduğu sayfayla alakalı olarak tarif eder; spam politikasında ise optimize edilmiş bağlantı metinlerinin yoğun kullanımı bağlantı spam’i örnekleri arasında geçer. Pratikte sizi dışarıdan bağlayan metinlerin doğal olmasına bakın: çoğunlukla marka adı ve sayfanın konusunu anlatan cümleler. Hedeflenen bir “oran” yoktur; Google bunun için bir yüzde vermez.
+Bağlantı metni (anchor), bağlantının tıklanabilir yazısıdır. Google, iyi bağlantı metnini açıklayıcı, kısa ve bulunduğu sayfayla alakalı olarak tarif eder; spam politikasında ise optimize edilmiş bağlantı metinlerinin yoğun kullanımı bağlantı spam’i örnekleri arasında geçer. Pratikte sizi dışarıdan bağlayan metinlerin doğal olmasına bakın: çoğunlukla marka adı ve sayfanın konusunu anlatan cümleler. Hedeflenen bir “oran” yoktur; Google bunun için bir yüzde vermez.
 
 Bu yazıda anchor çeşitlerini, kendi sitenizdeki iç bağlantılar ile dışarıdan gelen bağlantılar arasındaki farkı ve kontrol yöntemini anlatıyoruz. İç bağlantı metni için [iç bağlantı stratejisi](/blog/ic-baglanti-stratejisi-kucuk-siteler-icin-rehber/), genel konu için [backlink nedir?](/blog/backlink-nedir/) yazılarına bakabilirsiniz.
 
@@ -44,13 +44,11 @@ Dışarıdan gelen bağlantıların metnini çoğunlukla bağlantıyı veren ki�
 
 ## Sık yapılan hatalar
 
-| Hata | Çözüm |
-| --- | --- |
-| Tüm bağlantılarda aynı ticari ifade | Doğal çeşitlilik |
-| “Buraya tıklayın” anchor’ları | Açıklayıcı ifade |
-| Bağlantı veren siteye metin dayatmak | Metni onlara bırakın |
-| Belirli bir yüzde hedeflemek | Böyle bir kural yok |
-| Anchor’a bakıp panikle bağlantı reddetmek | Önce nedenini araştırın |
+- **Tüm bağlantılarda aynı ticari ifade:** Doğal çeşitlilik
+- **“Buraya tıklayın” anchor’ları:** Açıklayıcı ifade
+- **Bağlantı veren siteye metin dayatmak:** Metni onlara bırakın
+- **Belirli bir yüzde hedeflemek:** Böyle bir kural yok
+- **Anchor’a bakıp panikle bağlantı reddetmek:** Önce nedenini araştırın
 
 ## Denizli’den bir örnek
 

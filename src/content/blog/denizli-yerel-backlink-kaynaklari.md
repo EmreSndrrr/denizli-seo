@@ -7,7 +7,7 @@ service: backlink-hizmeti
 imageAlt: "Merkezde büyüteç bulunan, çevresindeki sitelere bağlı bir bağlantı ağı"
 ---
 
-**Kısa cevap:** Denizli’deki bir işletme yerel backlinki satın almadan, gerçek ilişkilerinden kazanır. Başlıca kaynaklar üyesi olduğunuz oda, borsa ve dernekler, birlikte çalıştığınız tedarikçi ve markalar, gerçek haberleriniz için yerel haber siteleri, sponsor olduğunuz etkinlikler ve başkalarının kaynak göstereceği yararlı içeriktir. Ücret ödenen bağlantılar `rel="sponsored"` ile işaretlenmelidir.
+Denizli’deki bir işletme yerel backlinki satın almadan, gerçek ilişkilerinden kazanır. Başlıca kaynaklar üyesi olduğunuz oda, borsa ve dernekler, birlikte çalıştığınız tedarikçi ve markalar, gerçek haberleriniz için yerel haber siteleri, sponsor olduğunuz etkinlikler ve başkalarının kaynak göstereceği yararlı içeriktir. Ücret ödenen bağlantılar `rel="sponsored"` ile işaretlenmelidir.
 
 Bu yazıda yerel backlinkin neden önemli olduğunu, bugün kimlerin size bağlandığını nasıl göreceğinizi, Denizli’de hangi kaynak türlerine bakabileceğinizi ve her birinde nelere dikkat etmeniz gerektiğini anlatıyoruz. Sonunda örnek bir ulaşma mesajı ve basit bir takip tablosu var.
 
@@ -128,13 +128,11 @@ Mesajda şunlar olsun: kim olduğunuz, aranızdaki gerçek ilişki, hangi sayfad
 
 Google’ın bağlantı spam’i örneklerinden bazıları yerel çalışmada sık karşınıza çıkar ([spam politikaları](https://developers.google.com/search/docs/essentials/spam-policies?hl=tr)):
 
-| Kaçının | Neden? |
-| --- | --- |
-| Toplu “firma rehberi” kayıtları | Google, düşük kaliteli dizin ve yer işareti sitesi bağlantılarını spam sayar |
-| Bağlantı paketleri ve ücretli işaretsiz bağlantılar | Sıralama için bağlantı alıp satmak bağlantı spam’idir |
-| Hiç iş yapmadığınız sitelerle bağlantı takası | Aşırı bağlantı takası spam örneğidir |
-| Forum ve yorumlarda kelime dolu imzalar | Optimize bağlantılı forum yorumları spam örneğidir |
-| Özel blog ağları ve hacklink | Satın alınan ve gizlenen bağlantılar spam politikalarına aykırıdır |
+- **Toplu “firma rehberi” kayıtları:** Google, düşük kaliteli dizin ve yer işareti sitesi bağlantılarını spam sayar
+- **Bağlantı paketleri ve ücretli işaretsiz bağlantılar:** Sıralama için bağlantı alıp satmak bağlantı spam’idir
+- **Hiç iş yapmadığınız sitelerle bağlantı takası:** Aşırı bağlantı takası spam örneğidir
+- **Forum ve yorumlarda kelime dolu imzalar:** Optimize bağlantılı forum yorumları spam örneğidir
+- **Özel blog ağları ve hacklink:** Satın alınan ve gizlenen bağlantılar spam politikalarına aykırıdır
 
 Bir rehber sitesi, gerçekten insanların kullandığı ve konusu belli bir rehberse sorun değildir. Sorun, yalnızca bağlantı için var olan ve herkesi kabul eden yüzlerce siteye toplu kayıttır. Ayrıntısı için [backlink satın almanın riskleri](/blog/backlink-satin-almak-riskleri/) yazımıza bakın.
 
@@ -142,12 +140,10 @@ Bir rehber sitesi, gerçekten insanların kullandığı ve konusu belli bir rehb
 
 Basit bir tabloyla takip edin. Her kaynak için bir satır açın:
 
-| Sütun | Ne yazılır? |
-| --- | --- |
-| Kaynak | Kurumun ya da sitenin adı ve sayfanın adresi |
-| İlişki | Üyelik, tedarikçi, haber, sponsorluk |
-| Durum | Kontrol edildi, istendi, eklendi, yanıt yok |
-| Bağlantı türü | İşaretsiz, `sponsored`, `nofollow` ya da yalnızca ad |
+- **Kaynak:** Kurumun ya da sitenin adı ve sayfanın adresi
+- **İlişki:** Üyelik, tedarikçi, haber, sponsorluk
+- **Durum:** Kontrol edildi, istendi, eklendi, yanıt yok
+- **Bağlantı türü:** İşaretsiz, `sponsored`, `nofollow` ya da yalnızca ad
 
 Ayda bir Search Console’daki Bağlantılar raporuna bakın ve yeni gelen siteleri tablonuzla karşılaştırın. Bağlantının sıralamaya etkisi hemen görülmez ve garanti edilemez; değerlendirmeyi aylar içinde yapın.
 

@@ -6,7 +6,7 @@ service: teknik-seo
 imageAlt: "Havlu, bornoz ve kumaş ürün kartlarıyla tekstil üreticisi site yapısı"
 ---
 
-**Kısa cevap:** Tekstil ve ev tekstili üreticilerinin müşterisi çoğunlukla iki gruptur: toptan alıcılar (mağaza, otel, distribütör, ihracat alıcısı) ve doğrudan tüketiciler. Ürün ve ürün grubu sayfaları (havlu, bornoz, nevresim gibi) kumaş, gramaj, ölçü ve kullanım bilgisini net verir; üretim, sertifika ve katalog sayfaları güven kurar; ihracat yapıyorsanız hedef dilde ayrı sayfalar ve hreflang gerekir.
+Tekstil ve ev tekstili üreticilerinin müşterisi çoğunlukla iki gruptur: toptan alıcılar (mağaza, otel, distribütör, ihracat alıcısı) ve doğrudan tüketiciler. Ürün ve ürün grubu sayfaları (havlu, bornoz, nevresim gibi) kumaş, gramaj, ölçü ve kullanım bilgisini net verir; üretim, sertifika ve katalog sayfaları güven kurar; ihracat yapıyorsanız hedef dilde ayrı sayfalar ve hreflang gerekir.
 
 Denizli’nin ev tekstili ve tekstil üretimiyle tanınan bir şehir olması, bu sektörde çok sayıda üreticinin aynı aramalarda yarıştığı anlamına gelir. Bu yüzden “havlu üreticisi” gibi genel aramalarda öne çıkmak zordur; ama alıcının gerçekten kullandığı, daha spesifik aramalarda net bir cevap vermek mümkündür. Bu yazı bir üreticinin sitesini nasıl kuracağını, hangi sayfaları yazacağını ve nelerden kaçınacağını anlatır. Genel çerçeve için [e-ticaret SEO](/blog/e-ticaret-seo/), ürün metinleri için [ürün açıklaması nasıl yazılır?](/blog/urun-aciklamasi-nasil-yazilir-kopya-metinden-kacinma/) yazılarına bakabilirsiniz.
 
@@ -25,17 +25,15 @@ Aramayı tahmin etmek yerine gerçek veriye bakın: müşterilerinizin hangi kel
 
 ## Site yapısı: hangi sayfalar?
 
-| Sayfa | İçerik | Kime hitap eder? |
-| --- | --- | --- |
-| Ana sayfa | Ne üretiyorsunuz, kime satıyorsunuz, nasıl ulaşılır | Hepsi |
-| Ürün grubu sayfaları | Havlu, bornoz, nevresim, perde vb. grup başına bir sayfa | Alıcılar |
-| Ürün sayfaları | Tek ürün: kumaş, gramaj, ölçü, renk, kullanım, bakım | Alıcılar, tüketiciler |
-| Üretim ve kalite | Süreç, tesis, kalite kontrol, sertifikalar (varsa) | Toptan ve ihracat alıcısı |
-| Katalog ve numune | İndirilebilir katalog, numune talep formu | Toptan alıcı |
-| Hakkımızda | Firma, ekip, tarihçe, adres | Hepsi |
-| İletişim ve teklif | Adres, telefon, e-posta, teklif formu | Hepsi |
-| Rehber yazılar | “Otel havlusu nasıl seçilir?”, “Gramaj ne demek?” | Bilgi arayan alıcı |
-| Yabancı dil sürümleri | İngilizce ve diğer hedef dillerde | İhracat alıcısı |
+- **Ana sayfa:** i̇çerik: Ne üretiyorsunuz, kime satıyorsunuz, nasıl ulaşılır; kime hitap eder?: Hepsi
+- **Ürün grubu sayfaları:** i̇çerik: Havlu, bornoz, nevresim, perde vb. grup başına bir sayfa; kime hitap eder?: Alıcılar
+- **Ürün sayfaları:** i̇çerik: Tek ürün: kumaş, gramaj, ölçü, renk, kullanım, bakım; kime hitap eder?: Alıcılar, tüketiciler
+- **Üretim ve kalite:** i̇çerik: Süreç, tesis, kalite kontrol, sertifikalar (varsa); kime hitap eder?: Toptan ve ihracat alıcısı
+- **Katalog ve numune:** i̇çerik: İndirilebilir katalog, numune talep formu; kime hitap eder?: Toptan alıcı
+- **Hakkımızda:** i̇çerik: Firma, ekip, tarihçe, adres; kime hitap eder?: Hepsi
+- **İletişim ve teklif:** i̇çerik: Adres, telefon, e-posta, teklif formu; kime hitap eder?: Hepsi
+- **Rehber yazılar:** i̇çerik: “Otel havlusu nasıl seçilir?”, “Gramaj ne demek?”; kime hitap eder?: Bilgi arayan alıcı
+- **Yabancı dil sürümleri:** i̇çerik: İngilizce ve diğer hedef dillerde; kime hitap eder?: İhracat alıcısı
 
 Yalnızca genel bir “ürünlerimiz” sayfası yetmez: her ürün grubu ayrı bir arama niyetidir.
 
@@ -83,14 +81,12 @@ Yabancı alıcıya satış yapıyorsanız:
 
 Toptan alıcı, sizden kayda değer bir sipariş vermeden önce firmanın gerçek olduğunu görmek ister:
 
-| Öğe | Nasıl gösterilir? |
-| --- | --- |
-| Adres ve harita | Üretim tesisi ya da ofis adresi; Google İşletme Profili ile tutarlı |
-| Telefon ve e-posta | Gerçek ve ulaşılabilir |
-| Üretim fotoğrafları | Kendi tesisinizden gerçek görüntüler |
-| Sertifikalar | Yalnızca gerçekten sahip olduklarınız, belge numarası ya da ilgili kuruluş bilgisiyle |
-| Referanslar | İzin alınmış ve doğrulanabilir; uydurma müşteri logosu yok |
-| Hakkımızda | Firma tarihçesi ve ekip; bkz. [Hakkımızda sayfası](/blog/hakkimizda-sayfasi-nasil-yazilir-guven-icin-rehber/) |
+- **Adres ve harita:** Üretim tesisi ya da ofis adresi; Google İşletme Profili ile tutarlı
+- **Telefon ve e-posta:** Gerçek ve ulaşılabilir
+- **Üretim fotoğrafları:** Kendi tesisinizden gerçek görüntüler
+- **Sertifikalar:** Yalnızca gerçekten sahip olduklarınız, belge numarası ya da ilgili kuruluş bilgisiyle
+- **Referanslar:** İzin alınmış ve doğrulanabilir; uydurma müşteri logosu yok
+- **Hakkımızda:** Firma tarihçesi ve ekip; bkz. [Hakkımızda sayfası](/blog/hakkimizda-sayfasi-nasil-yazilir-guven-icin-rehber/)
 
 Uydurma ödül, istatistik ya da müşteri adı yazmayın; bir tek yalan tüm siteye olan güveni kaybettirir.
 
@@ -100,16 +96,14 @@ Fabrika ve mağaza işleten üreticiler için Google İşletme Profili de gereki
 
 ## Sık yapılan hatalar
 
-| Hata | Çözüm |
-| --- | --- |
-| Katalog metnini aynen kopyalamak | Özgün, ürüne özgü bilgi |
-| Tek sayfada tüm ürünleri yığmak | Ürün grubu başına sayfa |
-| Yalnızca PDF katalog | Sayfada metin olarak da yayımlayın |
-| Otomatik çeviriyle çok dilli site | İnsan kontrolüyle çeviri |
-| Görsel ağırlığı nedeniyle yavaş site | Sıkıştırma ve doğru boyut |
-| Uydurma sertifika ya da müşteri | Yalnızca doğrulanabilir bilgi |
-| İletişim ve teklif yolu zor | Net form ve telefon |
-| Toptan ve tüketici mesajını karıştırmak | Ayrı sayfalar |
+- **Katalog metnini aynen kopyalamak:** Özgün, ürüne özgü bilgi
+- **Tek sayfada tüm ürünleri yığmak:** Ürün grubu başına sayfa
+- **Yalnızca PDF katalog:** Sayfada metin olarak da yayımlayın
+- **Otomatik çeviriyle çok dilli site:** İnsan kontrolüyle çeviri
+- **Görsel ağırlığı nedeniyle yavaş site:** Sıkıştırma ve doğru boyut
+- **Uydurma sertifika ya da müşteri:** Yalnızca doğrulanabilir bilgi
+- **İletişim ve teklif yolu zor:** Net form ve telefon
+- **Toptan ve tüketici mesajını karıştırmak:** Ayrı sayfalar
 
 ## Denizli’den bir örnek
 
@@ -117,18 +111,18 @@ Fabrika ve mağaza işleten üreticiler için Google İşletme Profili de gereki
 
 ## Başlangıç kontrol listesi
 
-| Kontrol | Evet / Hayır |
-| --- | --- |
-| Her ürün grubunun ayrı sayfası var mı? | |
-| Ürün açıklamaları özgün mü? | |
-| Teknik bilgi (gramaj, ölçü, kumaş) tabloda mı? | |
-| Görseller gerçek, sıkıştırılmış ve alt metinli mi? | |
-| Numune ve teklif formu çalışıyor mu? | |
-| Sertifika ve referanslar doğrulanabilir mi? | |
-| İhracat için hedef dilde ayrı sayfalar ve hreflang var mı? | |
-| Google İşletme Profili tesis ya da mağaza bilgisiyle tutarlı mı? | |
-| Site mobilde ve hızlı mı? | |
-| Talepler (form, telefon, e-posta) kaydediliyor mu? | |
+Şunları tek tek kontrol edin:
+
+- Her ürün grubunun ayrı sayfası var mı?
+- Ürün açıklamaları özgün mü?
+- Teknik bilgi (gramaj, ölçü, kumaş) tabloda mı?
+- Görseller gerçek, sıkıştırılmış ve alt metinli mi?
+- Numune ve teklif formu çalışıyor mu?
+- Sertifika ve referanslar doğrulanabilir mi?
+- İhracat için hedef dilde ayrı sayfalar ve hreflang var mı?
+- Google İşletme Profili tesis ya da mağaza bilgisiyle tutarlı mı?
+- Site mobilde ve hızlı mı?
+- Talepler (form, telefon, e-posta) kaydediliyor mu?
 
 ## Denizli SEO bu konuda nasıl yardımcı olur?
 

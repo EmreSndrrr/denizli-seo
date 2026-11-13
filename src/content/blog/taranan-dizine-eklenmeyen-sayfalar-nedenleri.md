@@ -6,7 +6,7 @@ service: teknik-seo
 imageAlt: "Taranmış ama dizine eklenmemiş sayfa kartları ve soru işareti"
 ---
 
-**Kısa cevap:** Search Console’daki “Tarandı: şu anda dizine eklenmiş değil” durumu, sayfanın Google tarafından taranmış ama dizine eklenmemiş olduğunu gösterir. Yani Google sayfayı taramış ama şimdilik dizine koymamıştır. Olası nedenler (genel değerlendirme): içeriğin zayıf ya da başka sayfalara benzer olması, sayfanın siteden zayıf bağlanması, sitenin yeni olması. Çözüm, sayfayı özgün ve yararlı hale getirmek, iç bağlantılarla güçlendirmek ve sabırla izlemektir.
+Search Console’daki “Tarandı: şu anda dizine eklenmiş değil” durumu, sayfanın Google tarafından taranmış ama dizine eklenmemiş olduğunu gösterir. Yani Google sayfayı taramış ama şimdilik dizine koymamıştır. Olası nedenler (genel değerlendirme): içeriğin zayıf ya da başka sayfalara benzer olması, sayfanın siteden zayıf bağlanması, sitenin yeni olması. Çözüm, sayfayı özgün ve yararlı hale getirmek, iç bağlantılarla güçlendirmek ve sabırla izlemektir.
 
 Search Console’daki Sayfa dizine ekleme raporunda bu durumu görünce çoğu işletme sahibi panik yapar. Oysa Google’ın kendi rehberi, sitedeki her sayfanın dizine eklenmesinin gerekmediğini belirtir. Bu yazıda durumun ne anlama geldiğini, hangi sayfalar için sorun olduğunu ve nasıl bir yol izleyeceğinizi anlatıyoruz. Dizin raporunu okumak için [Search Console’da ilk kontrol](/blog/search-console-ilk-kontrol/) yazımıza da bakabilirsiniz.
 
@@ -60,13 +60,11 @@ Nedeni görmek için URL Denetleme aracını kullanın ([URL Denetleme](https://
 
 Bir sayfanın yararlı olup olmadığına şu sorularla bakın:
 
-| Soru | İyi cevap |
-| --- | --- |
-| Müşteri bu sayfada aradığını bulabilir mi? | Net, doğrudan cevap |
-| Başka sayfadan farkı ne? | Özgün bilgi, gerçek örnek |
-| Sayfayı kim hazırladı? | Alanında bilgili, doğrulanabilir |
-| Sayfada gerçek ayrıntı var mı? | Süreç, süre, fiyatı etkileyen etkenler |
-| Bu sayfa güncel mi? | Güncel bilgi |
+- **Müşteri bu sayfada aradığını bulabilir mi?:** Net, doğrudan cevap
+- **Başka sayfadan farkı ne?:** Özgün bilgi, gerçek örnek
+- **Sayfayı kim hazırladı?:** Alanında bilgili, doğrulanabilir
+- **Sayfada gerçek ayrıntı var mı?:** Süreç, süre, fiyatı etkileyen etkenler
+- **Bu sayfa güncel mi?:** Güncel bilgi
 
 Sayfa gerçekten ayırt edici bir şey sunmuyorsa daha güçlü bir sayfayla birleştirmek en doğrusu olabilir.
 
@@ -86,14 +84,12 @@ Karar: işletme yalnızca üç ilçede gerçek iş yapıyor. Bu üç ilçe için
 
 ## Hangi sayfaya hangi çözüm?
 
-| Sayfa türü | Olası sorun | Çözüm |
-| --- | --- | --- |
-| Hizmet sayfası | Yüzeysel içerik, zayıf bağlantı | Derinleştir, menüden ve ilgili sayfalardan bağla |
-| Şablon ilçe sayfası | Kopyaya yakın | Özgün hale getir ya da birleştir |
-| Eski blog yazısı | Güncel değil, zayıf | Güncelle, birleştir ya da kaldır |
-| Etiket ve arşiv | Değersiz kalabalık | noindex ya da azalt |
-| Ürün sayfası | Üretici metni kopya | Kendi metninle zenginleştir |
-| Yeni sayfa | Henüz erken | Birkaç hafta bekle, bağlantı ver |
+- **Hizmet sayfası:** olası sorun: Yüzeysel içerik, zayıf bağlantı; çözüm: Derinleştir, menüden ve ilgili sayfalardan bağla
+- **Şablon ilçe sayfası:** olası sorun: Kopyaya yakın; çözüm: Özgün hale getir ya da birleştir
+- **Eski blog yazısı:** olası sorun: Güncel değil, zayıf; çözüm: Güncelle, birleştir ya da kaldır
+- **Etiket ve arşiv:** olası sorun: Değersiz kalabalık; çözüm: noindex ya da azalt
+- **Ürün sayfası:** olası sorun: Üretici metni kopya; çözüm: Kendi metninle zenginleştir
+- **Yeni sayfa:** olası sorun: Henüz erken; çözüm: Birkaç hafta bekle, bağlantı ver
 
 ## Bekleme sırasında yapılacaklar
 

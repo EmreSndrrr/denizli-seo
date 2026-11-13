@@ -7,7 +7,7 @@ service: yerel-seo
 imageAlt: "Pamukkale’de bir otel binası ve haritada işaretli konum"
 ---
 
-**Kısa cevap:** Pamukkale’deki bir otel ya da pansiyonun doğrudan rezervasyon alması için üç şey gerekir: doğrulanmış ve eksiksiz bir Google İşletme Profili, Google’ın otel fiyat alanında sizin sitenizi de gösteren ücretsiz rezervasyon bağlantısı ve her oda tipini, konumu ve fiyatı açıkça anlatan, telefonda hızlı açılan bir site. Yabancı misafir bekliyorsanız her dil için ayrı adres kurun.
+Pamukkale’deki bir otel ya da pansiyonun doğrudan rezervasyon alması için üç şey gerekir: doğrulanmış ve eksiksiz bir Google İşletme Profili, Google’ın otel fiyat alanında sizin sitenizi de gösteren ücretsiz rezervasyon bağlantısı ve her oda tipini, konumu ve fiyatı açıkça anlatan, telefonda hızlı açılan bir site. Yabancı misafir bekliyorsanız her dil için ayrı adres kurun.
 
 Bu yazıda konaklama işletmelerinin Google’da hangi alanlarda göründüğünü, her alanın nasıl beslendiğini ve misafirin sizi rezervasyon sitesi yerine doğrudan bulması için adım adım ne yapılacağını anlatıyoruz. Yazı Pamukkale ve Karahayıt’taki işletmeler düşünülerek yazıldı; Denizli’nin diğer ilçelerindeki konaklama işletmeleri için de geçerli.
 

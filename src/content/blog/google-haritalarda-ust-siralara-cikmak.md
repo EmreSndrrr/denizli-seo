@@ -6,7 +6,7 @@ service: yerel-seo
 imageAlt: "Harita üzerinde sıralanmış işletme pinleri ve birinci pin"
 ---
 
-**Kısa cevap:** Google Haritalar’da üst sıralara çıkmak için profilinizi doğrulayın, ana kategoriyi doğru seçin, bilgilerinizi eksiksiz ve tutarlı tutun, gerçek yorumlar toplayıp yanıtlayın ve sitenizi profille uyumlu hale getirin. Google, yerel sıralamayı alaka düzeyi, mesafe ve belirginlik etkenlerine bağlar. Mesafeyi değiştiremezsiniz; diğer ikisini etkileyebilirsiniz. Birinci sıra garantisi yoktur.
+Google Haritalar’da üst sıralara çıkmak için profilinizi doğrulayın, ana kategoriyi doğru seçin, bilgilerinizi eksiksiz ve tutarlı tutun, gerçek yorumlar toplayıp yanıtlayın ve sitenizi profille uyumlu hale getirin. Google, yerel sıralamayı alaka düzeyi, mesafe ve belirginlik etkenlerine bağlar. Mesafeyi değiştiremezsiniz; diğer ikisini etkileyebilirsiniz. Birinci sıra garantisi yoktur.
 
 Haritadaki üç sonuç (“yerel paket”), yerel işletmeler için çoğu zaman sitedeki sıradan daha değerlidir; çünkü arayan kişi telefon etmeye ya da yol tarifi almaya hazırdır. Bu yazıda her etkeni somut işlere çeviriyoruz. Genel çerçeve için [Denizli’de yerel SEO rehberine](/blog/denizli-yerel-seo-rehberi/) da bakabilirsiniz.
 
@@ -67,14 +67,12 @@ Sitenizdeki iletişim sayfasında profildekiyle aynı ad, adres ve telefon bulun
 
 ## Hangi işi önce yapmalı?
 
-| Sıra | İş | Neden önce? |
-| --- | --- | --- |
-| 1 | Doğrulama | Doğrulanmamış profilde değişiklikler görünmeyebilir |
-| 2 | Kategori ve ad | Hangi aramalarda göründüğünüzü belirler |
-| 3 | Bilgi ve saat eksiklerini tamamlama | Alaka düzeyini güçlendirir |
-| 4 | Fotoğraf ve hizmetler | Tıklama ve arama oranını etkiler |
-| 5 | Yorum süreci | Belirginliği zamanla yükseltir |
-| 6 | Site ve bağlantılar | Yavaş birikir |
+- **1:** i̇ş: Doğrulama; neden önce?: Doğrulanmamış profilde değişiklikler görünmeyebilir
+- **2:** i̇ş: Kategori ve ad; neden önce?: Hangi aramalarda göründüğünüzü belirler
+- **3:** i̇ş: Bilgi ve saat eksiklerini tamamlama; neden önce?: Alaka düzeyini güçlendirir
+- **4:** i̇ş: Fotoğraf ve hizmetler; neden önce?: Tıklama ve arama oranını etkiler
+- **5:** i̇ş: Yorum süreci; neden önce?: Belirginliği zamanla yükseltir
+- **6:** i̇ş: Site ve bağlantılar; neden önce?: Yavaş birikir
 
 ## Denizli’den bir örnek
 
@@ -128,12 +126,10 @@ Stok fotoğraf kullanmayın; başkasının dükkânı sizin profilinizde görün
 
 ## İlk 30 gün için plan
 
-| Hafta | İş |
-| --- | --- |
-| 1 | Doğrulama, kategori, ad, adres, telefon ve saatleri düzeltme |
-| 2 | Hizmetleri ve açıklamayı yazma, fotoğrafları yükleme |
-| 3 | Siteyle ad-adres-telefon eşitleme; hizmet sayfalarının eksiklerini listeleme |
-| 4 | Yorum isteme sürecini başlatma; Performans bölümünde başlangıç rakamlarını not alma |
+- **1:** Doğrulama, kategori, ad, adres, telefon ve saatleri düzeltme
+- **2:** Hizmetleri ve açıklamayı yazma, fotoğrafları yükleme
+- **3:** Siteyle ad-adres-telefon eşitleme; hizmet sayfalarının eksiklerini listeleme
+- **4:** Yorum isteme sürecini başlatma; Performans bölümünde başlangıç rakamlarını not alma
 
 Bu plan bir sonuç vaadi değildir; yalnızca işlerin sırasıdır. Ay sonunda Performans rakamlarını yeniden okuyup karşılaştırın.
 

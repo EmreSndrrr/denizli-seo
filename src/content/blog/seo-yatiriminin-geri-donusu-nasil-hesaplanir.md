@@ -6,7 +6,7 @@ service: teknik-seo
 imageAlt: "Maliyet ve kazanç sütunlarıyla SEO geri dönüş hesabı tablosu"
 ---
 
-**Kısa cevap:** SEO’nun geri dönüşünü (ROI) hesaplamak için üç şeye ihtiyacınız var: SEO için yaptığınız toplam harcama, SEO kaynaklı gelen talep sayısı ve bu taleplerin müşteriye dönüşüp ne kadar kazandırdığı. Formül basittir: (SEO’dan elde edilen kazanç − SEO maliyeti) ÷ SEO maliyeti. Zor olan, “SEO’dan gelen” talebi ayırmaktır; Search Console, profil raporu, form ve telefon kayıtları ve “nereden buldunuz?” sorusu birlikte kullanılır. Hesap tahmindir, garanti değildir.
+SEO’nun geri dönüşünü (ROI) hesaplamak için üç şeye ihtiyacınız var: SEO için yaptığınız toplam harcama, SEO kaynaklı gelen talep sayısı ve bu taleplerin müşteriye dönüşüp ne kadar kazandırdığı. Formül basittir: (SEO’dan elde edilen kazanç − SEO maliyeti) ÷ SEO maliyeti. Zor olan, “SEO’dan gelen” talebi ayırmaktır; Search Console, profil raporu, form ve telefon kayıtları ve “nereden buldunuz?” sorusu birlikte kullanılır. Hesap tahmindir, garanti değildir.
 
 “SEO’ya verdiğim paranın karşılığını alıyor muyum?” sorusu haklıdır. Ama cevap, “trafik arttı” cümlesiyle verilemez; trafik, işe dönüşmedikçe geri dönüş değildir. Bu yazıda sade bir hesap yöntemi, varsayımsal bir örnek ve hesabın sınırlarını anlatıyoruz. Raporu okumak için [SEO raporu nasıl okunur?](/blog/seo-raporu-nasil-okunur-aylik-rapor-sablonu/), maliyet için [SEO fiyatları](/blog/seo-fiyatlari/) yazılarına bakabilirsiniz.
 
@@ -27,12 +27,10 @@ Gelir mi kâr mı kullanacağınıza dikkat edin: gelir üzerinden hesap iyimser
 
 Aşağıdaki sayılar yalnızca formülü göstermek için uydurulmuş yuvarlak rakamlardır; gerçek bir işletmenin ya da sonucun verisi değildir.
 
-| Kalem | Varsayımsal değer |
-| --- | --- |
-| Aylık toplam SEO maliyeti | 10.000 ₺ |
-| Aylık SEO kaynaklı talep | 40 |
-| Kapanış oranı | %25 |
-| Müşteri başına ortalama kâr | 1.500 ₺ |
+- **Aylık toplam SEO maliyeti:** 10.000 ₺
+- **Aylık SEO kaynaklı talep:** 40
+- **Kapanış oranı:** %25
+- **Müşteri başına ortalama kâr:** 1.500 ₺
 
 Hesap: 40 talep × %25 = 10 müşteri. 10 müşteri × 1.500 ₺ = 15.000 ₺ kâr. ROI = (15.000 − 10.000) ÷ 10.000 = %50.
 
@@ -42,14 +40,12 @@ Aynı işletmede talep 20’ye düşseydi, 5 müşteri ve 7.500 ₺ kâr olurdu;
 
 Ölçüm, hesabın en zayıf halkasıdır. Birkaç kaynağı birlikte kullanın:
 
-| Kaynak | Ne gösterir? | Sınırı |
-| --- | --- | --- |
-| Search Console | Aramadaki gösterim ve tıklama | Talep ya da satışı göstermez |
-| Google İşletme Profili raporu | Arama, yol tarifi, site tıklaması | Gerçek müşteriyi göstermez |
-| Analiz aracı | Siteye gelenin form, WhatsApp, telefon tıklaması | Tarayıcı ayarları ve izin nedeniyle eksik olabilir |
-| Telefon kaydı | Gelen aramalar | Hangi kaynaktan geldiği belirsiz olabilir |
-| “Bizi nereden buldunuz?” sorusu | Müşterinin beyanı | Hatırlama farkı olabilir |
-| Kendi satış kaydınız | Gerçek müşteri ve kazanç | Elle tutmanız gerekir |
+- **Search Console:** ne gösterir?: Aramadaki gösterim ve tıklama; sınırı: Talep ya da satışı göstermez
+- **Google İşletme Profili raporu:** ne gösterir?: Arama, yol tarifi, site tıklaması; sınırı: Gerçek müşteriyi göstermez
+- **Analiz aracı:** ne gösterir?: Siteye gelenin form, WhatsApp, telefon tıklaması; sınırı: Tarayıcı ayarları ve izin nedeniyle eksik olabilir
+- **Telefon kaydı:** ne gösterir?: Gelen aramalar; sınırı: Hangi kaynaktan geldiği belirsiz olabilir
+- **“Bizi nereden buldunuz?” sorusu:** ne gösterir?: Müşterinin beyanı; sınırı: Hatırlama farkı olabilir
+- **Kendi satış kaydınız:** ne gösterir?: Gerçek müşteri ve kazanç; sınırı: Elle tutmanız gerekir
 
 Search Console’un performans raporu gösterim, tıklama, tıklama oranı ve ortalama konumu verir; bu değerler görünürlüğü ölçer, kazancı değil ([Performans raporu](https://support.google.com/webmasters/answer/7576553?hl=tr)). Kazanç için kendi kaydınız şarttır. Ölçüm düzeni için [yerel SEO sonuçları nasıl ölçülür?](/blog/yerel-seo-sonuclari-nasil-olculur/) yazısına bakın.
 
@@ -68,15 +64,13 @@ Search Console’un performans raporu gösterim, tıklama, tıklama oranı ve or
 
 ## Hesabın sınırları
 
-| Sınır | Açıklama |
-| --- | --- |
-| Gecikmeli etki | SEO çalışmasının etkisi aylar sonra görünebilir; kısa dönem ROI düşük çıkar |
-| Birikim | İçerik ve profil emeği zamanla değer biriktirir; ilk aylar maliyet ağırlıklıdır |
-| Başka etkenler | Sezon, kampanya, tanıtım ya da Google güncellemesi aynı dönemde etkili olabilir |
-| Marka etkisi | SEO, “bizi duymuş kişiler” üzerinden de iş getirir; bunu ayırmak zordur |
-| Atıf sorunu | Müşteri üç yerde sizi görüp tek yerden gelmiş gibi kaydolabilir |
-| Ölçüm eksikliği | Telefon aramalarının kaynağı çoğu zaman bilinmez |
-| Garanti yok | Google kimsenin sıralama garantisi veremeyeceğini söyler; geri dönüş de garanti edilemez |
+- **Gecikmeli etki:** SEO çalışmasının etkisi aylar sonra görünebilir; kısa dönem ROI düşük çıkar
+- **Birikim:** İçerik ve profil emeği zamanla değer biriktirir; ilk aylar maliyet ağırlıklıdır
+- **Başka etkenler:** Sezon, kampanya, tanıtım ya da Google güncellemesi aynı dönemde etkili olabilir
+- **Marka etkisi:** SEO, “bizi duymuş kişiler” üzerinden de iş getirir; bunu ayırmak zordur
+- **Atıf sorunu:** Müşteri üç yerde sizi görüp tek yerden gelmiş gibi kaydolabilir
+- **Ölçüm eksikliği:** Telefon aramalarının kaynağı çoğu zaman bilinmez
+- **Garanti yok:** Google kimsenin sıralama garantisi veremeyeceğini söyler; geri dönüş de garanti edilemez
 
 ## ROI dışında bakılacak göstergeler
 
@@ -95,25 +89,23 @@ Bazı faydalar para olarak hemen görünmez ama değerlidir:
 
 ## Raporda geri dönüş nasıl anlatılmalı?
 
-| Dürüst ifade | Kaçınılacak ifade |
-| --- | --- |
-| “Bu dönemde SEO kaynaklı olarak kayda geçen talep 40; kapanış oranı %25” | “SEO size 10 kat kazandırdı” |
-| “Aynı dönemde sezon etkisi olabilir; önceki yılla karşılaştırdık” | “Bütün artış SEO sayesinde” |
-| “Ölçemediğimiz kaynaklar: telefon aramalarının bir kısmı” | “Her şeyi ölçüyoruz” |
-| “Üç ay sonra yeniden hesaplayacağız” | “Kesin geri dönüş garantisi” |
+- **“Bu dönemde SEO kaynaklı olarak kayda geçen talep 40; kapanış oranı %25”:** “SEO size 10 kat kazandırdı”
+- **“Aynı dönemde sezon etkisi olabilir; önceki yılla karşılaştırdık”:** “Bütün artış SEO sayesinde”
+- **“Ölçemediğimiz kaynaklar: telefon aramalarının bir kısmı”:** “Her şeyi ölçüyoruz”
+- **“Üç ay sonra yeniden hesaplayacağız”:** “Kesin geri dönüş garantisi”
 
 ## Hesap öncesi kontrol listesi
 
-| Soru | Cevap |
-| --- | --- |
-| Çalışma öncesi talep sayısını kaydettim mi? | |
-| Talep kaynaklarını (telefon, form, WhatsApp, harita) kaydediyor muyum? | |
-| Müşteriye nereden bulduğunu soruyor muyum? | |
-| Kapanış oranımı biliyor muyum? | |
-| Ortalama müşteri değerimi (kâr olarak) biliyor muyum? | |
-| Toplam SEO maliyetimi eksiksiz yazdım mı? | |
-| Mevsimselliği düşündüm mü? | |
-| İyimser ve kötümser senaryo hazırladım mı? | |
+Şunları tek tek kontrol edin:
+
+- Çalışma öncesi talep sayısını kaydettim mi?
+- Talep kaynaklarını (telefon, form, WhatsApp, harita) kaydediyor muyum?
+- Müşteriye nereden bulduğunu soruyor muyum?
+- Kapanış oranımı biliyor muyum?
+- Ortalama müşteri değerimi (kâr olarak) biliyor muyum?
+- Toplam SEO maliyetimi eksiksiz yazdım mı?
+- Mevsimselliği düşündüm mü?
+- İyimser ve kötümser senaryo hazırladım mı?
 
 ## Denizli SEO bu konuda nasıl yardımcı olur?
 
