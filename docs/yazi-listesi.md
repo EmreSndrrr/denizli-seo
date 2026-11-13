@@ -196,10 +196,10 @@ Biçim: Venti blog düzeni (`docs/seo-yazi-talimati.md`): cevap-önce giriş, 7�
 
 ### Backlink
 
-- [ ] 122. Backlink Paketleri ve Fiyatları: Nelere Dikkat Edilmeli? — `backlink-hizmeti` — backlink paketleri — `backlink-paketleri-ve-fiyatlari-nelere-dikkat` — not: Mevcut “satın alma riskleri” yazısı genişletilmeden önce bunu yaz; rakam yok
-- [ ] 123. Hacklink Nedir? Neden Tehlikelidir? — `backlink-hizmeti` — hacklink — `hacklink-nedir-neden-tehlikelidir` — not: Spam politikası + güvenlik; hizmetimizin reddettiği yöntem
-- [ ] 124. Backlink Kalitesi Nasıl Değerlendirilir? 8 Soru — `backlink-hizmeti` — backlink kalitesi — `backlink-kalitesi-nasil-degerlendirilir` — not: Alan otoritesi Google ölçüsü değil uyarısı
-- [ ] 125. Backlink Hizmeti Nasıl Çalışır? Süreç ve Rapor — `backlink-hizmeti` — backlink hizmeti — `backlink-hizmeti-nasil-calisir-surec-ve-rapor` — not: Satış odaklı: yöntemlerimiz ve yapmadıklarımız
+- [x] 122. Backlink Paketleri ve Fiyatları: Nelere Dikkat Edilmeli? — `backlink-hizmeti` — backlink paketleri — `backlink-paketleri-ve-fiyatlari-nelere-dikkat` — not: Mevcut “satın alma riskleri” yazısı genişletilmeden önce bunu yaz; rakam yok
+- [x] 123. Hacklink Nedir? Neden Tehlikelidir? — `backlink-hizmeti` — hacklink — `hacklink-nedir-neden-tehlikelidir` — not: Spam politikası + güvenlik; hizmetimizin reddettiği yöntem
+- [x] 124. Backlink Kalitesi Nasıl Değerlendirilir? 8 Soru — `backlink-hizmeti` — backlink kalitesi — `backlink-kalitesi-nasil-degerlendirilir` — not: Alan otoritesi Google ölçüsü değil uyarısı
+- [x] 125. Backlink Hizmeti Nasıl Çalışır? Süreç ve Rapor — `backlink-hizmeti` — backlink hizmeti — `backlink-hizmeti-nasil-calisir-surec-ve-rapor` — not: Satış odaklı: yöntemlerimiz ve yapmadıklarımız
 
 ### Web tasarım
 

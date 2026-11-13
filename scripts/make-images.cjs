@@ -310,6 +310,10 @@ const POST_MOTIF = {
   'seo-paketleri-neler-dahil-olmali': 'doc',
   'aylik-seo-calismasi-nasil-isler': 'chart',
   'seo-danismanligi-nedir-ne-zaman-gerekir': 'lens',
+  'backlink-paketleri-ve-fiyatlari-nelere-dikkat': 'linkgraph',
+  'hacklink-nedir-neden-tehlikelidir': 'broken',
+  'backlink-kalitesi-nasil-degerlendirilir': 'linkgraph',
+  'backlink-hizmeti-nasil-calisir-surec-ve-rapor': 'linkgraph',
 };
 
 function posts() {
