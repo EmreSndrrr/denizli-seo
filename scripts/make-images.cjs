@@ -325,6 +325,10 @@ const POST_MOTIF = {
   'oto-servis-ve-lastikciler-icin-yerel-seo': 'pins',
   'avukat-ve-hukuk-burolari-icin-seo': 'profile',
   'insaat-ve-gayrimenkul-firmalari-icin-seo': 'districts',
+  'google-siralama-faktorleri-yanlis-bilinenler': 'gauge',
+  'seo-analiz-araclari-ucretsiz-ve-ucretli': 'console',
+  'google-analytics-4-temel-raporlar-isletmeler-icin': 'chart',
+  'uluslararasi-seo-ve-hreflang-ihracatcilar-icin': 'layout',
 };
 
 function posts() {
