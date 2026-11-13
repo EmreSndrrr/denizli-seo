@@ -178,6 +178,11 @@ const PAGES = [
   { out: 'og/editoryal-ilkeler', motif: 'console', tag: 'Editoryal ilkeler', title: 'Yazılarımız nasıl hazırlanır?' },
 ];
 const POST_MOTIF = {
+  'blog-icin-fotograf-ve-gorsel-icerik-plani': 'doc',
+  'sektorel-sozluk-sayfasi-nasil-hazirlanir': 'lens',
+  'yerel-etkinlik-sponsorlugu-ve-baglanti-nasil-yaklasilir': 'linkgraph',
+  'okul-universite-ve-kurum-baglantilari-gercek-is-birligi': 'linkgraph',
+  'marka-anmalari-ve-taninirlik-baglantisiz-da-degerli-mi': 'pins',
   'tiklanabilir-ama-durust-basliklar-nasil-yazilir': 'doc',
   'icerik-denetimi-hangi-sayfa-guncellenmeli-hangisi-silinmeli': 'console',
   'rehber-yazidan-hizmete-yaziyi-iletisime-nasil-baglarsiniz': 'doc',

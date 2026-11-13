@@ -240,15 +240,15 @@ Biçim, uzunluk (gövde 1.300–1.500 kelime), ara çağrı kutuları ve doğrul
 - [x] 147. İçerik Denetimi: Hangi Sayfa Güncellenmeli? — `icerik-seo` — içerik denetimi — `icerik-denetimi-hangi-sayfa-guncellenmeli-hangisi-silinmeli` — not: Satış odaklı: içerik denetimi hizmeti
 - [x] 148. Rehber Yazıyı İletişime Nasıl Bağlarsınız? — `icerik-seo` — yazıyı satışa bağlama — `rehber-yazidan-hizmete-yaziyi-iletisime-nasil-baglarsiniz` — not: Satış odaklı
 - [x] 149. İşletme Blogunda Yazar ve Editör Süreci — `icerik-seo` — blog editör süreci — `isletme-blogunda-yazar-ve-editor-sureci` — not: Yazar kutusu yazısıyla çakışmasın
-- [ ] 150. Blog İçin Fotoğraf ve Görsel İçerik Planı — `icerik-seo` — blog görselleri — `blog-icin-fotograf-ve-gorsel-icerik-plani` — not: Resim SEO ledger’da
-- [ ] 151. Sektörel Sözlük Sayfası Nasıl Hazırlanır? — `icerik-seo` — sözlük sayfası — `sektorel-sozluk-sayfasi-nasil-hazirlanir` — not: SEO sözlüğünden bağlan; resmî terim iddiası yok
+- [x] 150. Blog İçin Fotoğraf ve Görsel İçerik Planı — `icerik-seo` — blog görselleri — `blog-icin-fotograf-ve-gorsel-icerik-plani` — not: Resim SEO ledger’da
+- [x] 151. Sektörel Sözlük Sayfası Nasıl Hazırlanır? — `icerik-seo` — sözlük sayfası — `sektorel-sozluk-sayfasi-nasil-hazirlanir` — not: SEO sözlüğünden bağlan; resmî terim iddiası yok
 
 ### Backlink
 
-- [ ] 152. Yerel Etkinlik Sponsorluğu ve Bağlantı — `backlink-hizmeti` — etkinlik sponsorluğu — `yerel-etkinlik-sponsorlugu-ve-baglanti-nasil-yaklasilir` — not: sponsored kuralı ledger’da
-- [ ] 153. Okul, Üniversite ve Kurum Bağlantıları — `backlink-hizmeti` — kurum bağlantıları — `okul-universite-ve-kurum-baglantilari-gercek-is-birligi` — not: Gerçek ilişki, takas değil
+- [x] 152. Yerel Etkinlik Sponsorluğu ve Bağlantı — `backlink-hizmeti` — etkinlik sponsorluğu — `yerel-etkinlik-sponsorlugu-ve-baglanti-nasil-yaklasilir` — not: sponsored kuralı ledger’da
+- [x] 153. Okul, Üniversite ve Kurum Bağlantıları — `backlink-hizmeti` — kurum bağlantıları — `okul-universite-ve-kurum-baglantilari-gercek-is-birligi` — not: Gerçek ilişki, takas değil
 - [x] 154. Backlink Raporu Search Console’da Nasıl Okunur? — `backlink-hizmeti` — bağlantılar raporu — `backlink-raporu-search-consolda-nasil-okunur` — not: Bağlantılar raporu ledger’da
-- [ ] 155. Marka Anmaları ve Tanınırlık: Bağlantısız da Değerli mi? — `backlink-hizmeti` — marka anmaları — `marka-anmalari-ve-taninirlik-baglantisiz-da-degerli-mi` — not: Kesin sıralama iddiası yok; belirginlik (yerel) ledger’da
+- [x] 155. Marka Anmaları ve Tanınırlık: Bağlantısız da Değerli mi? — `backlink-hizmeti` — marka anmaları — `marka-anmalari-ve-taninirlik-baglantisiz-da-degerli-mi` — not: Kesin sıralama iddiası yok; belirginlik (yerel) ledger’da
 
 ### Web tasarım
 
