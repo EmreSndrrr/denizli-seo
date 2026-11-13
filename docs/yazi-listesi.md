@@ -209,6 +209,55 @@ Biçim: Venti blog düzeni (`docs/seo-yazi-talimati.md`): cevap-önce giriş, 7�
 - [x] 129. Web Tasarım Fiyatları Neye Göre Değişir? — `web-tasarim` — web tasarım fiyatları — `web-tasarim-fiyatlari-neye-gore-degisir` — not: Satış odaklı; fiyat rakamı yok
 - [x] 130. Hosting Seçimi: Nelere Bakılır? — `web-tasarim` — hosting seçimi — `hosting-secimi-nelere-bakilir` — not: Barındırma değişikliği Google belgesi doğrulanacak
 
+## Yazılacak: 3. tur (30 başlık, Kasım 2026)
+
+Biçim, uzunluk (gövde 1.300–1.500 kelime), ara çağrı kutuları ve doğrulama kuralları 2. turdaki gibidir (`docs/seo-yazi-talimati.md`). ‘not’ sütununda yeni doğrulama gerekiyorsa yazılmadan önce `docs/kaynaklar.md`’ye satır eklenir.
+
+### Yerel SEO
+
+- [ ] 131. Google İşletme Profili Nasıl Açılır? Adım Adım — `yerel-seo` — profil açma — `google-isletme-profili-nasil-acilir` — not: Doğrulama ve kural sayfaları ledger’da; ‘doldurulur’ yazısıyla çakışmasın (burada açma ve doğrulama)
+- [ ] 132. Nakliyat ve Taşımacılık Firmaları İçin Yerel SEO — `yerel-seo` — nakliyat seo — `nakliyat-ve-tasimacilik-firmalari-icin-yerel-seo` — not: Hizmet bölgesi, fiyat şeffaflığı, yorum; sigorta/yetki iddiası yazma
+- [ ] 133. Spor Salonları ve Fitness Merkezleri İçin Yerel SEO — `yerel-seo` — spor salonu seo — `spor-salonlari-ve-fitness-merkezleri-icin-yerel-seo` — not: Üyelik bilgisi, fotoğraf izni, sağlık iddiası yok
+- [ ] 134. Düğün Salonları ve Organizasyon Firmaları İçin SEO — `yerel-seo` — düğün salonu seo — `dugun-salonlari-ve-organizasyon-firmalari-icin-seo` — not: Galeri, mevsimsellik, teklif formu
+- [ ] 135. Veteriner ve Evcil Hayvan İşletmeleri İçin Yerel SEO — `yerel-seo` — veteriner seo — `veteriner-ve-evcil-hayvan-isletmeleri-icin-yerel-seo` — not: Acil saat bilgisi, tıbbi iddia yok
+- [ ] 136. Tadilat, Boya ve Usta Hizmetleri İçin Yerel SEO — `yerel-seo` — tadilat seo — `tadilat-boya-ve-usta-hizmetleri-icin-yerel-seo` — not: Öncesi-sonrası izni, teklif süreci
+- [ ] 137. Profilde Çalışma Saatleri ve Özel Günler Nasıl Yönetilir? — `yerel-seo` — çalışma saatleri — `profilde-calisma-saatleri-ve-ozel-gunler-nasil-yonetilir` — not: Google yardım sayfası doğrulanacak
+- [ ] 138. Yerel Profil İçin Haftalık Bakım Rutini — `yerel-seo` — profil bakımı — `yerel-profil-icin-haftalik-bakim-rutini` — not: Uygulama odaklı; yeni Google iddiası yok
+
+### Teknik SEO
+
+- [ ] 139. Sayfa Hızı İçin Görsel Optimizasyonu: Boyut ve Biçim — `teknik-seo` — görsel optimizasyonu — `sayfa-hizi-icin-gorsel-optimizasyonu-boyut-ve-bicim` — not: web.dev LCP + resim SEO ledger’da
+- [ ] 140. Google Sayfanızı Nasıl Bulur? Tarama ve Dizine Ekleme — `teknik-seo` — tarama dizine ekleme — `google-sayfanizi-nasil-bulur-tarama-ve-dizine-ekleme` — not: how-search-works doğrulandı
+- [ ] 141. Kategori ve Liste Sayfalarında Sayfalama SEO’su — `teknik-seo` — sayfalama seo — `kategori-ve-liste-sayfalarinda-sayfalama-seo-su` — not: Google sayfalama belgesi doğrulanacak
+- [ ] 142. 404 Sayfası Nasıl Tasarlanır? Kullanıcıyı Kaybetmeyin — `teknik-seo` — 404 sayfası tasarımı — `404-sayfasi-nasil-tasarlanir` — not: 404 ve soft 404 yazılarına bağla
+- [ ] 143. Teknik SEO Denetimi: Neler Kontrol Edilir? — `teknik-seo` — teknik seo denetimi — `teknik-seo-denetimi-neler-kontrol-edilir` — not: Satış odaklı: denetim hizmeti
+- [ ] 144. HTTP Durum Kodları: 200, 301, 404, 500 Ne Anlama Gelir? — `teknik-seo` — durum kodları — `http-durum-kodlari-200-301-404-500-ne-anlama-gelir` — not: Yönlendirme belgesi ledger’da
+- [ ] 145. Site Hızı: Laboratuvar ve Gerçek Kullanıcı Verisi — `teknik-seo` — hız ölçümü — `site-hizi-olcumu-laboratuvar-ve-gercek-kullanici-verisi` — not: web.dev vitals ledger’da
+
+### İçerik SEO
+
+- [ ] 146. Tıklanabilir ama Dürüst Başlıklar Nasıl Yazılır? — `icerik-seo` — başlık yazımı — `tiklanabilir-ama-durust-basliklar-nasil-yazilir` — not: title-link belgesi ledger’da
+- [ ] 147. İçerik Denetimi: Hangi Sayfa Güncellenmeli? — `icerik-seo` — içerik denetimi — `icerik-denetimi-hangi-sayfa-guncellenmeli-hangisi-silinmeli` — not: Satış odaklı: içerik denetimi hizmeti
+- [ ] 148. Rehber Yazıyı İletişime Nasıl Bağlarsınız? — `icerik-seo` — yazıyı satışa bağlama — `rehber-yazidan-hizmete-yaziyi-iletisime-nasil-baglarsiniz` — not: Satış odaklı
+- [ ] 149. İşletme Blogunda Yazar ve Editör Süreci — `icerik-seo` — blog editör süreci — `isletme-blogunda-yazar-ve-editor-sureci` — not: Yazar kutusu yazısıyla çakışmasın
+- [ ] 150. Blog İçin Fotoğraf ve Görsel İçerik Planı — `icerik-seo` — blog görselleri — `blog-icin-fotograf-ve-gorsel-icerik-plani` — not: Resim SEO ledger’da
+- [ ] 151. Sektörel Sözlük Sayfası Nasıl Hazırlanır? — `icerik-seo` — sözlük sayfası — `sektorel-sozluk-sayfasi-nasil-hazirlanir` — not: SEO sözlüğünden bağlan; resmî terim iddiası yok
+
+### Backlink
+
+- [ ] 152. Yerel Etkinlik Sponsorluğu ve Bağlantı — `backlink-hizmeti` — etkinlik sponsorluğu — `yerel-etkinlik-sponsorlugu-ve-baglanti-nasil-yaklasilir` — not: sponsored kuralı ledger’da
+- [ ] 153. Okul, Üniversite ve Kurum Bağlantıları — `backlink-hizmeti` — kurum bağlantıları — `okul-universite-ve-kurum-baglantilari-gercek-is-birligi` — not: Gerçek ilişki, takas değil
+- [ ] 154. Backlink Raporu Search Console’da Nasıl Okunur? — `backlink-hizmeti` — bağlantılar raporu — `backlink-raporu-search-consolda-nasil-okunur` — not: Bağlantılar raporu ledger’da
+- [ ] 155. Marka Anmaları ve Tanınırlık: Bağlantısız da Değerli mi? — `backlink-hizmeti` — marka anmaları — `marka-anmalari-ve-taninirlik-baglantisiz-da-degerli-mi` — not: Kesin sıralama iddiası yok; belirginlik (yerel) ledger’da
+
+### Web tasarım
+
+- [ ] 156. Web Sitesi Erişilebilirliği: Temel Kurallar — `web-tasarim` — erişilebilirlik — `web-sitesi-erisilebilirligi-temel-kurallar` — not: Genel iyi uygulama; hukuki iddia yok
+- [ ] 157. Renk ve Yazı Tipi Seçimi: Okunurluk ve Marka — `web-tasarim` — renk ve yazı tipi — `renk-ve-yazi-tipi-secimi-okunurluk-ve-marka` — not: Genel iyi uygulama
+- [ ] 158. Web Sitesi Bakım Planı: Aylık Kontrol Listesi — `web-tasarim` — web sitesi bakımı — `web-sitesi-bakim-plani-aylik-kontrol-listesi` — not: Satış odaklı: bakım hizmeti
+- [ ] 159. Kurumsal Web Sitesinde Fotoğraf: Çekim ve Kullanım — `web-tasarim` — kurumsal fotoğraf — `kurumsal-web-sitesinde-fotograf-cekim-ve-kullanim` — not: Resim SEO ledger’da; izin/lisans
+- [ ] 160. Çok Dilli Web Sitesi Kurmak: Teknik Seçenekler — `web-tasarim` — çok dilli site — `cok-dilli-web-sitesi-kurmak-teknik-secenekler` — not: hreflang belgesi ledger’da
+
 ## Notlar
 
 - Doktor, diş hekimi ve avukat başlıkları yazılmadan önce ilgili reklam yasaklarını resmî kaynaktan (.gov.tr) doğrulayın.
