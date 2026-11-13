@@ -160,6 +160,55 @@ Biçim: kutu, sıra no, H1 başlığı, hizmet, ana kelime.
 - [x] 099. Eğitim Kurumları ve Kurslar İçin SEO — `teknik-seo` — kurs seo — `egitim-kurumlari-ve-kurslar-icin-seo`
 - [x] 100. Halı Yıkama ve Temizlik Firmaları İçin SEO — `teknik-seo` — halı yıkama seo — `hali-yikama-ve-temizlik-firmalari-icin-seo`
 
+## Yazılacak: 2. tur (30 başlık, Kasım 2026)
+
+Biçim: Venti blog düzeni (`docs/seo-yazi-talimati.md`): cevap-önce giriş, 7–8 soru H2, 5 soruluk SSS, 1.300–1.600 kelime; sayfa şablonu hizmet çağrısını ekler, metne iki ara çağrı kutusu (`> **Hizmet almak için iletişime geçin.** …`) ve kapanışta “Denizli SEO bu konuda nasıl yardımcı olur?” bölümü yazılır. Yeni Google iddiası gerekiyorsa önce `docs/kaynaklar.md`’ye doğrulanmış satır eklenir (not sütununa bak).
+
+### Yerel SEO
+
+- [ ] 101. Google İşletme Profili Kategorisi Nasıl Seçilir? — `yerel-seo` — profil kategorisi — `google-isletme-profili-kategorisi-nasil-secilir` — not: Birincil/ikincil kategori; Google kural sayfası doğrulanacak
+- [ ] 102. Haritalarda Rakipleri Nasıl İncelersiniz? 5 Adım — `yerel-seo` — google haritalar rakip analizi — `google-haritalarda-rakip-isletmeleri-nasil-incelersiniz` — not: Rakip profil karşılaştırma tablosu; kopyalama değil fırsat bulma
+- [ ] 103. Profilde Hizmetler ve Ürünler Bölümü Nasıl Doldurulur? — `yerel-seo` — işletme profili hizmetler — `google-isletme-profili-hizmetler-bolumu-nasil-doldurulur` — not: Google yardım sayfası doğrulanacak
+- [ ] 104. Kuaför ve Güzellik Salonları İçin Yerel SEO — `yerel-seo` — kuaför seo — `kuaforler-ve-guzellik-salonlari-icin-yerel-seo` — not: Önce-sonra fotoğraf izni, randevu yolu, yorum
+- [ ] 105. Oto Servis ve Lastikçiler İçin Yerel SEO — `yerel-seo` — oto servis seo — `oto-servis-ve-lastikcilar-icin-yerel-seo` — not: Acil arama, hizmet bölgesi, fiyat şeffaflığı
+- [ ] 106. Avukat ve Hukuk Büroları İçin SEO — `yerel-seo` — avukat seo — `avukat-ve-hukuk-burolari-icin-seo` — not: Baro reklam kurallarına atıf yok; “hukuki danışmanlık değildir” notu, sonuç vaadi yok
+- [ ] 107. İnşaat ve Gayrimenkul Firmaları İçin SEO — `yerel-seo` — inşaat firması seo — `insaat-ve-gayrimenkul-firmalari-icin-seo` — not: Proje sayfaları, galeri, ilçe aramaları; emlakçılar yazısıyla çakışmasın
+
+### Teknik SEO
+
+- [ ] 108. SEO Çalışması Neleri Kapsar? Kalem Kalem Anlatım — `teknik-seo` — seo çalışması — `seo-calismasi-neleri-kapsar` — not: Satış odaklı: hizmet kapsamı; vaat yok
+- [ ] 109. SEO Paketleri: Pakette Neler Olmalı? — `teknik-seo` — seo paketleri — `seo-paketleri-neler-dahil-olmali` — not: Satış odaklı: paket karşılaştırma ölçütleri; fiyat rakamı yok
+- [ ] 110. Aylık SEO Çalışması Nasıl İşler? Süreç ve Rapor — `teknik-seo` — aylık seo — `aylik-seo-calismasi-nasil-isler` — not: Satış odaklı: ay ay iş akışı
+- [ ] 111. SEO Danışmanlığı Nedir? Ne Zaman Gerekir? — `teknik-seo` — seo danışmanlığı — `seo-danismanligi-nedir-ne-zaman-gerekir` — not: Satış odaklı: danışmanlık ve uygulama farkı
+- [ ] 112. Google Sıralama Faktörleri: Yanlış Bilinenler — `teknik-seo` — google sıralama — `google-siralama-faktorleri-yanlis-bilinenler` — not: Yalnızca Google’ın doğruladığı cümleler (how-search-works, spam, sayfa deneyimi)
+- [ ] 113. SEO Analiz Araçları: Ücretsiz mi, Ücretli mi? — `teknik-seo` — seo analiz aracı — `seo-analiz-araclari-ucretsiz-ve-ucretli` — not: Search Console öncelikli; üçüncü taraf puanlar Google ölçüsü değil
+- [ ] 114. Google Analytics 4: İşletmeler İçin Temel Raporlar — `teknik-seo` — ga4 raporları — `google-analytics-4-temel-raporlar-isletmeler-icin` — not: support.google.com/analytics sayfası doğrulanacak
+- [ ] 115. İhracatçılar İçin Uluslararası SEO ve Hreflang — `teknik-seo` — uluslararası seo — `uluslararasi-seo-ve-hreflang-ihracatcilar-icin` — not: Doğrulanmış hreflang belgesi var; tekstil/mermer yazılarına bağlan
+
+### İçerik SEO
+
+- [ ] 116. İçerik Pazarlaması Nedir? İşletmeler İçin Rehber — `icerik-seo` — içerik pazarlaması — `icerik-pazarlamasi-nedir-isletmeler-icin` — not: Satış hunisi değil; müşteri soruları
+- [ ] 117. Blog Yazısı Fikri Nasıl Bulunur? 10 Kaynak — `icerik-seo` — blog yazısı fikirleri — `blog-yazisi-fikri-nasil-bulunur` — not: Telefon, mesaj, Search Console, rakip, mevsim
+- [ ] 118. Mevsimsel İçerik Takvimi: Denizli İşletmeleri İçin — `icerik-seo` — içerik takvimi — `mevsimsel-icerik-takvimi-denizli-isletmeleri` — not: Klima, tekstil, turizm, tarım örnekleri; rakam yok
+- [ ] 119. YouTube ve Video SEO: Küçük İşletmeler İçin — `icerik-seo` — youtube seo — `youtube-ve-video-seo-kucuk-isletmeler` — not: Google video belgeleri doğrulanacak
+- [ ] 120. Türkçe SEO İçeriğinde Okunabilirlik Nasıl Sağlanır? — `icerik-seo` — okunabilir içerik — `turkce-seo-icerigi-okunabilirlik` — not: SEO başlangıç kılavuzu; kısa cümle, başlık, liste
+- [ ] 121. Semantik SEO Nedir? Konu Bütünlüğü Nasıl Kurulur? — `icerik-seo` — semantik seo — `semantik-seo-nedir-konu-butunlugu` — not: Resmî terim değil; konu kümesi yazısına bağla; sıralama iddiası yok
+
+### Backlink
+
+- [ ] 122. Backlink Paketleri ve Fiyatları: Nelere Dikkat Edilmeli? — `backlink-hizmeti` — backlink paketleri — `backlink-paketleri-ve-fiyatlari-nelere-dikkat` — not: Mevcut “satın alma riskleri” yazısı genişletilmeden önce bunu yaz; rakam yok
+- [ ] 123. Hacklink Nedir? Neden Tehlikelidir? — `backlink-hizmeti` — hacklink — `hacklink-nedir-neden-tehlikelidir` — not: Spam politikası + güvenlik; hizmetimizin reddettiği yöntem
+- [ ] 124. Backlink Kalitesi Nasıl Değerlendirilir? 8 Soru — `backlink-hizmeti` — backlink kalitesi — `backlink-kalitesi-nasil-degerlendirilir` — not: Alan otoritesi Google ölçüsü değil uyarısı
+- [ ] 125. Backlink Hizmeti Nasıl Çalışır? Süreç ve Rapor — `backlink-hizmeti` — backlink hizmeti — `backlink-hizmeti-nasil-calisir-surec-ve-rapor` — not: Satış odaklı: yöntemlerimiz ve yapmadıklarımız
+
+### Web tasarım
+
+- [ ] 126. E-Ticaret Web Sitesi Tasarımında Nelere Dikkat Edilir? — `web-tasarim` — e-ticaret web sitesi — `e-ticaret-web-sitesi-tasarimi-nelere-dikkat` — not: URL yapısı belgesi doğrulandı; ürün veri belgesi var
+- [ ] 127. WordPress mi, Özel Yazılım mı? SEO Açısından — `web-tasarim` — wordpress mi özel yazılım mı — `wordpress-mi-ozel-yazilim-mi` — not: Hazır tema yazısıyla çakışmasın; bakım ve güvenlik odağı
+- [ ] 128. Web Sitesi Hazırlanma Süreci: Adım Adım — `web-tasarim` — web sitesi hazırlanma süreci — `web-sitesi-hazirlanma-sureci-adim-adim` — not: Satış odaklı: bizim süreç adımlarımız; süre sözü yok
+- [ ] 129. Web Tasarım Fiyatları Neye Göre Değişir? — `web-tasarim` — web tasarım fiyatları — `web-tasarim-fiyatlari-neye-gore-degisir` — not: Satış odaklı; fiyat rakamı yok
+- [ ] 130. Hosting Seçimi: Nelere Bakılır? — `web-tasarim` — hosting seçimi — `hosting-secimi-nelere-bakilir` — not: Barındırma değişikliği Google belgesi doğrulanacak
+
 ## Notlar
 
 - Doktor, diş hekimi ve avukat başlıkları yazılmadan önce ilgili reklam yasaklarını resmî kaynaktan (.gov.tr) doğrulayın.
