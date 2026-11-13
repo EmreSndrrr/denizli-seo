@@ -50,6 +50,44 @@ Bazı yayınlar reklam/sponsorlu içerik satar. Google, reklam ve sponsorluk ba�
 
 Örnek (hayalî bir işletme için): Pamukkale’de açılan yeni bir fizyoterapi kliniği, açılışı yerel bir haber sitesine fotoğraf ve doğru adres bilgisiyle bildiriyor; ayrıca “kış aylarında sırt ağrısına karşı ofis çalışanları için hareket önerileri” konusunda uzman görüşü sunuyor (tıbbi iddia olmadan, genel bilgi). Haberde web adresi kaynak olarak yer alabilir; bu bir garanti değil, makul bir olasılıktır.
 
+## Editör sizi neden dinler?
+
+Yerel bir haber sitesinin editörü günde çok sayıda mesaj alır. Mesajınızın dikkat çekmesi için konunun yerel okuyucuya bir şey söylemesi gerekir. “Yeni açıldık” tek başına yeterli bir haber değildir; ama “Pamukkale’de kış turizminde yeni bir ulaşım rehberi” ya da “Merkezefendi’deki esnaf için yeni bir ücretsiz eğitim” bir okuyucunun işine yarar. Kendinize şunu sorun: bu haberi okuyan biri, ne öğrenir ya da ne yapabilir?
+
+## İyi bir haber notu nasıl yazılır?
+
+Editöre göndereceğiniz not kısa, doğrudan ve doğrulanabilir olmalıdır. İlk cümlede haberi söyleyin, ikinci cümlede neden yerel okuyucu için önemli olduğunu belirtin. Sonra kim, ne, nerede, ne zaman bilgilerini verin. Örnek (hayalî bir işletme için):
+
+“Merhaba, Merkezefendi’de yeni açılan bir fizyoterapi kliniğinden yazıyorum. Masa başında çalışanlar için kısa bir hareket rehberi hazırladık; rehberde ofiste yapılabilecek beş basit egzersiz ve ne zaman uzmana başvurulması gerektiği anlatılıyor (genel bilgidir, tedavi vaadi içermez). Okuyucularınız için ilginç olabileceğini düşündüm. Metni ve fotoğrafları ekledim; isterseniz uzmanımızla kısa bir görüşme de ayarlayabilirim.”
+
+Bu notta reklam dili yok, rakam uydurulmamış ve bağlantı istenmemiş. Bağlantı gerekliyse “daha fazla bilgi için” sayfa adresini vermek yeterlidir; vermek ya da vermemek editörün kararıdır.
+
+## Fotoğraf ve alıntı neden önemlidir?
+
+Haber siteleri görselle çalışır. Gerçek ve izinli bir fotoğraf, haberin yayımlanma şansını artırır. Fotoğrafta kişiler varsa onların iznini alın; çocukların görüntüsü için ayrıca dikkat edin. Haberde ismi geçecek kişiden de kısa bir alıntı isteyin; editör konuşabilecek bir uzman görmek ister. Uydurma alıntı ya da kendi kendinize yazdığınız “müşteri yorumu” kullanmayın.
+
+## Haber yayımlandıktan sonra ne yapmalı?
+
+- **Teşekkür edin.** Kısa bir not, ilişkiyi sürdürür.
+- **Bağlantıyı kontrol edin.** Yayında site adresiniz varsa bağlantıya tıklayıp doğru sayfaya gittiğini doğrulayın.
+- **Kaydedin.** Yayın adresi, tarih ve bağlantı bilgisini bir tabloya yazın.
+- **Kendi sitenizde paylaşın.** “Basında biz” gibi bir bölüm hazırlayacaksanız yalnızca gerçek yayınları ekleyin.
+- **Ölçün.** Search Console’un Bağlantılar raporu, yeni bağlantı veren siteleri gösterir ([bağlantılar raporu](https://support.google.com/webmasters/answer/9049606?hl=tr)).
+
+Haber yayımlanmazsa vazgeçmeyin; aynı içeriği kendi sitenizde kalıcı bir rehber olarak yayımlayabilirsiniz. İçerik değerliyse başka bir zaman başka bir yayında yer bulabilir.
+
+## Yerel basında kaçınılacak hatalar
+
+Sık görülen hatalar arasında haber değeri olmayan reklam metinleri göndermek, aynı mesajı onlarca editöre toplu yollamak, bağlantıyı şart koşmak ve yayımlanan habere teşekkür etmeyi unutmak var. Bir de ücretli içeriği haber gibi göstermek: ücret karşılığı yayımlanan bir içerikteki bağlantı, Google’ın giden bağlantı rehberine göre `sponsored` ile işaretlenmelidir ([giden bağlantılar](https://developers.google.com/search/docs/crawling-indexing/qualify-outbound-links?hl=tr)). Bu ayrımı yayıncıyla baştan konuşun.
+
+## Küçük bir işletme için gerçekçi hedef nedir?
+
+Hedefi “her ay bağlantı almak” olarak koymayın. Daha gerçekçi hedef, üç ayda bir gerçekten ilginç bir konu bulmak ve bunu doğru editöre doğru biçimde iletmektir. Bu sayede hem bölgesel tanınırlık artar hem de zamanla editörlerle bir ilişki oluşur. Bağlantı, bu ilişkinin bazen gelen, bazen gelmeyen yan ürünüdür; sizin kontrol edebildiğiniz şey haberin kalitesidir.
+
+## Yerel haber çalışmasında hangi araçlar işe yarar?
+
+Karmaşık araçlara gerek yoktur. Bir tablo, bir e-posta hesabı ve bir fotoğraf klasörü yeterlidir. Tabloya yayın adı, editör adı, gönderdiğiniz konu, gönderim tarihi, cevap ve sonuç sütunlarını koyun. Fotoğrafları konu başına klasörleyin ve her fotoğrafın kullanım iznini not edin. Haberin metnini bir belgede saklayın; aynı bilgiyi başka yayınlara uyarlayarak değil, her yayına uygun biçimde yeniden yazarak gönderin. Yerel yayınların takvimine de bakın: bayram, sezon başı, okul dönemi gibi dönemlerde belirli konular daha çok ilgi görür.
+
 ## Denizli SEO bu konuda nasıl yardımcı olur?
 
 [Backlink hizmetimizde](/backlink-hizmeti/):
@@ -74,6 +112,14 @@ Bu bir reklam kararıdır; bağlantı `sponsored` ile nitelenmelidir ve sıralam
 ### Kaç haber yeterli?
 
 Sayı yok; gerçek haber değeri olduğunda yazın.
+
+### Haber vermek için bir ajansa ihtiyacım var mı?
+
+Zorunlu değil. Doğru ve ilginç bir konunuz varsa küçük bir işletme de editöre doğrudan yazabilir. Ajans, ilişki kurma ve metin hazırlama konusunda destek olabilir; ama yayım garantisi veremez.
+
+### Haberim yayımlanmazsa ne yapmalıyım?
+
+Aynı içeriği kendi sitenizde rehber olarak yayımlayın ve bir sonraki güçlü konuyu bekleyin. Her konu haber olmaz.
 
 ## Kaynaklar
 

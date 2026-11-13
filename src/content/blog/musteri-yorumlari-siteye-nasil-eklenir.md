@@ -57,6 +57,34 @@ Yorum ve puan verisini işaretlemek istiyorsanız Google’ın ilgili dokümanı
 
 Örnek (hayalî bir işletme için): Merkezefendi’de bir kuaför, hizmet sonrası müşterilerine “Google’da yorum bırakır mısınız?” mesajı gönderiyor; yorum yazan üç müşteriden sitede alıntı için izin alıyor, her alıntıyı ad baş harfi, tarih ve “Google yorumu” kaynağıyla ilgili hizmet sayfasında gösteriyor. Hiçbir yorum yazılmıyor, düzeltilmiyor ya da karşılık vaadiyle istenmiyor.
 
+## Yorumu sitenizde yayımlamadan önce nasıl izin alırsınız?
+
+Müşteriden izin almak karmaşık olmak zorunda değildir. Yorumu Google’da ya da mesajla yazan müşteriye kısa bir not gönderin: “Yorumunuz için teşekkürler. Sitemizde alıntı olarak paylaşmak isteriz; adınızı baş harfleriyle yazabiliriz. Uygun mu?” Cevabı kaydedin. Yorum bir mesajdan ya da e-postadan geliyorsa, yazılı izin özellikle önemlidir. Müşteri adını yazdırmak istemezse “Merkezefendi’den bir müşterimiz” gibi bir ifade kullanın. Çocuk ya da üçüncü kişi bilgisi içeren yorumları paylaşmayın.
+
+## Yorumu nasıl biçimlendirmelisiniz?
+
+Yorumu olduğu gibi yayımlayın; anlamını değiştirmeyin, cümleleri kendi lehinize düzeltmeyin. Yazım hatalarını düzeltmek mümkün, ama bir cümleyi çıkarıp anlamı değiştirmek değil. Her alıntının yanında kaynağı (Google yorumu, e-posta, yüz yüze) ve ay/yıl bilgisini belirtin. Bu, yorumun gerçekliğini gösterir. Kısa alıntılar ana sayfada, ayrıntılı yorumlar ilgili hizmet sayfasında daha iyi çalışır.
+
+## Google puanınızı sitede göstermek doğru mudur?
+
+Google İşletme Profili’ndeki puanınızı ve yorum sayınızı sitede göstermek mümkündür; ama sayıları güncel ve doğru yazın. Eski bir puanı gösterip artık değişmiş olması müşteriyi yanıltır. Puanın tarihini ya da “Google’da” kaynağını belirtin. Sayıları uydurmayın; yalnızca gerçekten yayında olan puanı ve yorum sayısını yazın. Google yorum karşılığında ücretsiz ürün ya da indirim sunmayı sahte etkileşim sayar ve yasaklar ([yorum ipuçları](https://support.google.com/business/answer/3474122?hl=tr)); yorumları karşılıksız isteyin.
+
+## Olumsuz yorumlar sitede nasıl ele alınır?
+
+Sitenizde yalnızca olumlu yorumları göstermek mümkündür; çünkü sitenizde neyi göstereceğinize siz karar verirsiniz. Ama aşırı iyimser, hiç eleştirisi olmayan bir yorum duvarı inandırıcılığı azaltabilir. Dengeli bir yaklaşım, Google’daki gerçek yorum dağılımını yansıtan bir seçki hazırlamaktır. Olumsuz bir yoruma verdiğiniz sakin ve çözüm odaklı cevap, bazen olumlu yorumdan daha güven verir. Cevap yazımı için [olumsuz yoruma nasıl cevap verilir?](/blog/olumsuz-google-yorumuna-nasil-cevap-verilir/) yazısına bakın.
+
+## Yorum bölümünü sayfaya nasıl yerleştirirsiniz?
+
+Yorumlar en çok karar anında işe yarar. Hizmet sayfasında fiyat ya da randevu çağrısının hemen yakınında iki üç kısa alıntı yeterlidir. Ana sayfada genel güven için birkaç alıntı ve Google puanı iyidir. İletişim sayfasında tek bir güçlü alıntı yeterli. Çok sayıda yorumunuz varsa ayrı bir “Yorumlar” sayfası hazırlayın ve oraya ana sayfadan bağlantı verin. Yorum kartlarının mobilde okunur olduğunu ve sayfayı yavaşlatmadığını kontrol edin.
+
+## Yorum işaretlemesinde nelere dikkat edilir?
+
+Sitede yorum gösteriyorsanız yapılandırılmış veriyle işaretlemek istersiniz. Bu durumda Google’ın ilgili belgelerindeki kurallara uyun; işaretlenen veri sayfada görünen içerikle uyuşmalıdır ([ürün snippet’i](https://developers.google.com/search/docs/appearance/structured-data/product-snippet?hl=tr)). Hangi tür sayfalarda ve hangi türde yorumun zengin sonuç olarak gösterilebileceği değişebilir; işaretlemeyi yapmadan önce güncel dokümanı kontrol edin. Yorum işaretlemesi bir sıralama garantisi değildir; asıl amaç müşteriye gerçek bilgi sunmaktır.
+
+## Yorumları yönetmek için basit bir düzen
+
+Haftada bir Google yorumlarına bakın ve cevapsız olanlara dönün. Ayda bir sitedeki yorum alıntılarını güncelleyin: yeni ve anlamlı bir yorum eklediyseniz eskilerden birini çıkarın. Üç ayda bir tüm kaynakları kontrol edin. Müşteri yorumun kaldırılmasını isterse hemen kaldırın.
+
 ## Denizli SEO bu konuda nasıl yardımcı olur?
 
 Yorumlar sitenin güvenini belirler. [İçerik SEO hizmetimizde](/icerik-seo/):
@@ -81,6 +109,14 @@ Karşılığı olan yorum talebi platform kurallarına aykırı olabilir; yorumu
 ### Olumsuz yorumu silebilir miyim?
 
 Kendi sitenizdeki alıntılarda seçiminiz sizin; ama dengeli ve dürüst olmak güvenin temelidir.
+
+### Müşteri adını yayımlamak ister mi diye nasıl bilirim?
+
+Sorun; izin isteyen kısa bir not göndermek yeterli. İzin yoksa anonim yazın.
+
+### Sitede kaç yorum göstermeliyim?
+
+Sayı yok. Hizmet başına iki üç alıntı çoğu işletme için yeterlidir.
 
 ## Kaynaklar
 

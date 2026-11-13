@@ -55,6 +55,30 @@ Bir sayfa, genellikle bir konuyu iyi anlatır. Üç farklı hizmeti tek sayfada 
 
 Örnek (hayalî bir işletme için): Pamukkale’de tek hizmet veren (ör. ev temizliği) bir işletme önce tek sayfalık bir siteyle başlıyor: hizmet, süreç, iletişim ve harita. Altı ay sonra ikinci ve üçüncü hizmeti eklediğinde her hizmet için ayrı sayfa açıyor ve eski sayfayı ana sayfa olarak koruyor.
 
+## Tek sayfalık site hangi işletmeler için uygundur?
+
+Tek sayfalık site, ziyaretçiye yalnızca birkaç bilgi vermesi gereken işletmeler için mantıklıdır: tek hizmeti olan bir usta, yeni açılan ve henüz ürün yelpazesi dar olan bir işletme, bir etkinlik ya da kampanya. Müşterinin bilmek istediği bilgiler (ne yapıyorsunuz, nerede, nasıl ulaşırım, fiyat nasıl belirlenir) tek sayfada rahatça sığıyorsa tek sayfa uygundur. Aynı işletme büyüdüğünde ve hizmet sayısı artınca çok sayfalıya geçmek gerekir.
+
+## Çok sayfalı siteyi daha güçlü yapan nedir?
+
+Çok sayfalı sitenin farkı, her konuya kendi sayfasını verebilmesidir. “Klima bakımı”, “klima montajı” ve “klima tamiri” farklı aramalardır; her biri için ayrı bir sayfa, o aramaya doğrudan cevap verir. Her sayfa kendi başlığına, açıklamasına, sık sorulan sorularına ve iletişim çağrısına sahip olur. Ayrıca blog yazıları, ilçe bilgileri ve referanslar için yer açılır. Google’ın SEO başlangıç kılavuzu, düzenli ve anlaşılır site yapısını önerir ([SEO başlangıç kılavuzu](https://developers.google.com/search/docs/fundamentals/seo-starter-guide?hl=tr)); çok sayfalı yapı bunu daha kolay sağlar.
+
+## Tek sayfada başlık ve bölüm yapısı nasıl kurulur?
+
+Tek sayfa kullanacaksanız sayfayı bölümlere ayırın ve her bölümü anlamlı bir başlıkla (H2) başlatın: “Hizmetlerimiz”, “Nasıl çalışıyoruz?”, “Sık sorulan sorular”, “İletişim”. Sayfanın tek bir H1’i olsun ve işletmenin ne yaptığını söylesin. Menüde bölümlere atlayan bağlantılar kullanın. Sayfanın çok uzayıp yavaşlamamasına dikkat edin; görselleri sıkıştırın. Google’ın sayfa deneyimi yaklaşımı, iyi sayfa deneyimi sunan içeriği ödüllendirmeyi amaçlar; yalnızca bir iki ölçüye odaklanmayın ([sayfa deneyimi](https://developers.google.com/search/docs/appearance/page-experience?hl=tr)).
+
+## Sonradan çok sayfalıya geçerken nelere dikkat edilir?
+
+Tek sayfadan çok sayfalıya geçişi en baştan düşünün. Ana sayfa adresini değiştirmeyin; yeni sayfaları ayrı adreslerde açın. Mevcut bölümlerin bağlantılarını (örneğin `/#hizmetler`) kullanıyorsanız, bunları yeni hizmet sayfalarına yönlendirin. Başlık ve açıklamaları sayfa başına yeniden yazın. Siteyi büyütürken iç bağlantıları ve menüyü gözden geçirin. Adres değişikliği gerekiyorsa 301 yönlendirmeleri kurun; bkz. [web sitesi yenileme](/blog/web-sitesi-yenileme-seo-kaybetmeden-nasil-yapilir/).
+
+## Reklam ve kampanya için tek sayfa nasıl işe yarar?
+
+Kısa süreli kampanyalar ve reklamlar için tek sayfalık sayfa, ziyaretçiyi tek eyleme odaklar. Bu tür sayfalara açılış sayfası denir; hazırlama ayrıntıları [açılış sayfası nasıl hazırlanır?](/blog/acilis-sayfasi-landing-page-nasil-hazirlanir/) yazısında anlatılıyor. Önemli olan, kampanya sayfasının sitenizin kalıcı hizmet sayfalarının yerine geçmemesidir. Kampanya bitince sayfayı kaldırın ya da ilgili hizmet sayfasına yönlendirin.
+
+## Karar için kısa bir yol haritası
+
+Önce hizmetlerinizi sayın: tek hizmet varsa tek sayfa, birden fazlaysa çok sayfalı. Sonra müşterinin ne kadar ayrıntı istediğine bakın: kısa bilgi yeterliyse tek sayfa, güven ve ayrıntı gerekiyorsa çok sayfalı. Son olarak büyüme planınızı düşünün: bir yıl içinde yeni hizmet ya da bölge eklemeyi düşünüyorsanız çok sayfalı yapıyla başlamak daha az sorun yaratır.
+
 ## Denizli SEO bu konuda nasıl yardımcı olur?
 
 [SEO uyumlu web tasarım hizmetimizde](/web-tasarim/):
@@ -79,6 +103,14 @@ Evet; adres yapısını planlarsanız geçiş kolay olur.
 ### Reklam için tek sayfa uygun mu?
 
 Tek eyleme odaklı kampanyalar için uygun olabilir.
+
+### Tek sayfalık site hız açısından avantajlı mı?
+
+Genelde daha az içerik olduğu için hafif olabilir; ama çok sayıda ağır görsel içeren uzun bir tek sayfa da yavaşlayabilir. Ölçüp karar verin.
+
+### Tek sayfalık site yerel aramalarda görünebilir mi?
+
+Görünebilir; ama yerel görünürlük için Google İşletme Profili’nin güçlü olması daha belirleyicidir.
 
 ## Kaynaklar
 

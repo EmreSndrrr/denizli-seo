@@ -50,6 +50,30 @@ Spam politikalarına göre para karşılığı sağlanan bağlantılar, aşırı
 
 Örnek (hayalî bir işletme için): Merkezefendi’de bir diş kliniği altı ayda şunları yapıyor: hizmet sayfalarını güncelliyor, hastaların sorularına dayalı beş rehber yazıyor, profilini ve çalışma saatlerini güncelliyor, memnun hastalardan karşılıksız yorum rica ediyor, yerel bir meslek derneğinin bülteninde bilgi yazısı yayımlıyor. Bağlantı satın almıyor; sonucu izliyor ve garanti beklemiyor.
 
+## Otoriteyi ölçmek mümkün mü?
+
+“Otorite” tek bir sayıyla ölçülen bir şey değildir. Bazı üçüncü taraf araçlar “domain otoritesi” gibi puanlar üretir; ancak bu puanlar kendi hesaplarıdır ve Google’ın ölçüsü değildir. Google, üçüncü taraf araçları değerlendirmez ya da desteklemez ([SEO uzmanı işe alma](https://developers.google.com/search/docs/fundamentals/do-i-need-seo?hl=tr)). Bu yüzden otoriteyi bir puanla değil, dolaylı göstergelerle izleyin: marka adınızla yapılan aramaların artışı, yerel kuruluşlarda anılmanız, Google İşletme Profili’ndeki yorum ve etkileşimler, doğrudan gelen ziyaretçi ve müşterilerin “sizi duymuştum” demesi.
+
+## Hizmet sayfalarını nasıl otorite sayfasına çevirirsiniz?
+
+Otoritenin temeli, konunuzda net ve doğru bilgi veren sayfalardır. Hizmet sayfanızda şunları cevaplayın: bu hizmet nedir, kime uygundur, nasıl yapılır, ne kadar sürer, nasıl ücretlendirilir, hangi bölgelere verilir? Gerçek fotoğraf, süreç anlatımı ve sık sorulan sorularla destekleyin. Sayfada yazarın ya da firmanın kim olduğu, nasıl ulaşılacağı belli olsun. Google’ın yardımcı içerik rehberi, kim, nasıl ve neden sorularının cevaplanmasını ve birinci elden deneyimi önerir ([yardımcı içerik rehberi](https://developers.google.com/search/docs/fundamentals/creating-helpful-content?hl=tr)). Bu çerçeve, bağlantı satın almadan güven kurmanın zeminidir.
+
+## Müşteri sorularını rehberlere nasıl çevirirsiniz?
+
+Telefonda ve mesajlarda sık gelen sorular, rehber yazılarının ham maddesidir. Her ay en sık gelen üç soruyu seçin ve her birini ayrı bir yazıda cevaplayın. Yazılarda genel bilgiyi kendi gözleminizle birleştirin ve doğrulanamayan iddiaları dışarıda bırakın. Bu yazıları hizmet sayfalarınıza bağlayın; böylece hem okuyucu hem arama sistemi konunuzun derinliğini görür. Yazı planı için [içerik planı nasıl yapılır?](/blog/icerik-plani-nasil-yapilir-aylik-takvim-ornegi/) yazısına bakın.
+
+## Yerel ilişkiler otoriteyi nasıl besler?
+
+Yerel işletmeler için otoritenin önemli bir kısmı yerel tanınırlıktır. Odalar, dernekler, esnaf birlikleri, okullar ve yerel etkinlikler ilişki kurulabilecek yerlerdir. Gerçekten üyesi olduğunuz bir kuruluşun üye listesinde yer almak, bir etkinliğe sponsor olmak ya da bölgeye yararlı bir eğitim vermek hem tanınırlık hem doğal anılma getirir. Google’ın yerel sıralama yardımı, belirginliğin işletmenin ne kadar iyi bilindiğiyle ilgili olduğunu, web’de bağlantı paylaşan site sayısı ve yorum sayısı gibi bilgilerden etkilenebileceğini söyler ([yerel sıralama](https://support.google.com/business/answer/7091?hl=tr)). Bu etkileşimler satın alınarak değil, işin kalitesiyle kazanılır.
+
+## Satın almak yerine neye yatırım yaparsınız?
+
+Aynı bütçeyi, satın alınmış bağlantılar yerine şunlara harcamak çoğu işletme için daha kalıcıdır: iyi bir fotoğraf çekimi, hizmet sayfalarının yeniden yazımı, hız ve mobil iyileştirme, müşteri yorumu isteme düzeni, yerel etkinlik katılımı, bir basın kiti ve uzman yazısı hazırlığı. Bu yatırımların hiçbiri bir “bağlantı sipariş etmek” kadar hızlı görünmez; ama hepsi yarın da bugün de işe yarar ve Google’ın politikalarıyla çatışmaz.
+
+## Sabır ve ölçüm: ilk altı ayda ne beklenir?
+
+Otorite hızlı oluşmaz. İlk aylarda sayfalar düzelir, yorumlar birikir, marka aramaları yavaş yavaş görünür. Altı ay sonra bile kesin bir sonuç vaat etmiyoruz; ama düzenli çalışan bir işletme, aynı işi bırakanlara göre daha güçlü bir temele sahip olur. Aylık bir tablo tutun: yeni yorum sayısı, yeni içerik, yeni yerel kayıt, marka aramaları ve talepler. Sayıya değil eğilime bakın.
+
 ## Denizli SEO bu konuda nasıl yardımcı olur?
 
 [Backlink hizmetimizde](/backlink-hizmeti/):
@@ -74,6 +98,14 @@ Aramaya göre değişir; bağlantı tek faktör değildir. Garanti veremeyiz.
 ### Hangisinden başlamalıyım?
 
 Hizmet sayfalarınız ve Google İşletme Profili’nizden.
+
+### Domain otoritesi puanını yükseltmek hedef olmalı mı?
+
+Hayır. Bu puan Google’ın ölçüsü değil; üçüncü taraf bir tahmindir. Hedefiniz müşteriye güven vermek olmalı.
+
+### Bütçem çok sınırlıysa ne yapmalıyım?
+
+Ücretsiz olanları yapın: Google İşletme Profili, müşteri yorumları, hizmet sayfalarının iyileştirilmesi, yerel dernek üyelikleri.
 
 ## Kaynaklar
 

@@ -54,6 +54,30 @@ Bunlar örnek planlardır, kural değildir.
 
 Örnek (hayalî bir işletme için): Merkezefendi’de üç hizmet veren bir klima servisi, sitesini şu şekilde planlıyor: ana sayfa, bakım, montaj, tamir, hakkımızda, iletişim, gizlilik bilgisi (7 sayfa). İlk üç ayda müşteri sorularına dayalı beş blog yazısı ekleniyor; ilçe sayfaları, her ilçe için gerçek bilgi hazır olunca açılacak.
 
+## Sayfa sayısı yerine soruları sayın
+
+Bir kurumsal sitenin kaç sayfa olacağından önce müşterinin kaç farklı soru soracağını düşünün. Müşteri “ne yapıyorsunuz?”, “bunu bana nasıl yaparsınız?”, “ne kadar sürer?”, “size nasıl ulaşırım?”, “size güvenebilir miyim?” diye sorar. Her sorunun yeri sitenizde belli olmalı. Soruların çoğu birkaç sayfada toplanabilir; bazıları ise kendi sayfasını hak eder. Bir hizmet, ayrı bir arama niyetiyse ayrı sayfa açın; sadece bir alt başlıksa mevcut sayfada anlatın.
+
+## İşletme türüne göre başlangıç planı nasıl olur?
+
+Küçük bir esnaf için ana sayfa, hizmet sayfası, hakkımızda ve iletişim yeterlidir; bu dört sayfa müşterinin temel sorularını cevaplar. Üç hizmeti olan bir servis için ana sayfa, üç hizmet sayfası, hakkımızda, iletişim ve sık sorulan sorular tabloya girer. Bir klinik ya da büro, ekip ve uzmanlık sayfalarını da ekleyebilir. Üretici bir firma ürün grupları, üretim süreci, referanslar, katalog ve teklif sayfalarına ihtiyaç duyar. Bu planlar bir başlangıçtır; her biri gerçek içerik hazır oldukça genişletilir.
+
+## Blog ve ek sayfalar ne zaman eklenir?
+
+Blog, müşteri sorularını cevaplamak için güçlü bir araçtır; ama ilk gün gerekmez. Temel sayfalar yayına çıktıktan sonra ilk beş soruyu beş yazıya dönüştürün. İlçe sayfaları, her biri için gerçek ve özgün bilgi yazabildiğinizde anlamlıdır. Referans ve vaka sayfaları, izinli gerçek işleriniz oluştuğunda eklenir. Boş ya da “yakında” sayfaları yayımlamayın. Google’ın SEO başlangıç kılavuzu, kullanıcıya yararlı ve düzenli içeriği önerir; sayfa sayısını hedef olarak vermez ([SEO başlangıç kılavuzu](https://developers.google.com/search/docs/fundamentals/seo-starter-guide?hl=tr)).
+
+## Sayfa sayısını artırmak için çoğaltmak neden zararlıdır?
+
+Daha çok sayfa olsun diye aynı metni farklı şehir ya da ilçe adıyla çoğaltmak, Google’ın spam politikasındaki anahtar kelime doldurma ve kopyalama örneklerine yaklaşır. Spam politikası, sıralama almaya çalışılan şehir ve bölgelerin listelendiği metin bloklarını anahtar kelime doldurma örnekleri arasında sayar ([spam politikaları](https://developers.google.com/search/docs/essentials/spam-policies?hl=tr)). Bunun yerine az sayıda ama güçlü sayfa kurun. Bir sayfa açacaksanız “bu sayfa müşteriye ne yararı sağlıyor?” sorusuna net bir cevabınız olsun.
+
+## Menü ve yapı sayfa sayısıyla nasıl uyumlu olur?
+
+Sayfa sayısı arttıkça menü karışabilir. Ana menüde beş altı öğe tutun; hizmetleri bir alt menüde toplayın. Her sayfaya en az bir başka sayfadan bağlantı verin; Google, önemsediğiniz her sayfaya sitenizdeki en az bir başka sayfadan bağlantı verilmesini önerir. Ayrıntı için [menü ve site yapısı nasıl planlanır?](/blog/menu-ve-site-yapisi-nasil-planlanir/) yazısına bakın.
+
+## Büyüyen bir site için sürdürülebilir plan
+
+Sitenizin büyümesini üç aylık dönemlere bölün. İlk dönemde temel sayfalar ve iletişim; ikinci dönemde müşteri sorularından beş rehber; üçüncü dönemde güçlü hizmet sayfalarının ayrıntılandırılması ve yorum ile referans ekleme; dördüncü dönemde yeni hizmet ya da bölge sayfaları. Her dönemin sonunda mevcut sayfaları gözden geçirin: hangisi ziyaret alıyor, hangisi boş kalıyor? Boş kalan, güncellenmeyen ya da birbirini tekrar eden sayfaları birleştirin ya da kaldırın.
+
 ## Denizli SEO bu konuda nasıl yardımcı olur?
 
 [SEO uyumlu web tasarım hizmetimizde](/web-tasarim/):
@@ -78,6 +102,14 @@ Zorunlu değil; müşteri sorularını cevaplamak için faydalıdır.
 ### Tek sayfalık site yeterli mi?
 
 Küçük ve tek hizmetli işler için olabilir; bkz. [tek sayfalık site mi, çok sayfalı site mi?](/blog/tek-sayfalik-site-mi-cok-sayfali-site-mi/)
+
+### Üç sayfalık site yeterli olabilir mi?
+
+Çok basit bir işletme için başlangıç olarak olabilir; ama müşteriye güven ve ayrıntı vermek için genelde hizmet, hakkımızda ve iletişim sayfaları gerekir.
+
+### Sayfa sayısı arttıkça sıralamam yükselir mi?
+
+Hayır, doğrudan bir ilişki yok. Önemli olan sayfaların yararlı ve özgün olmasıdır.
 
 ## Kaynaklar
 

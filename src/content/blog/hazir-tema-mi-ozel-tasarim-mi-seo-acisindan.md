@@ -53,6 +53,51 @@ Google, bir sitenin hangi araçla yapıldığına göre değil, kullanıcı dene
 
 Örnek (hayalî bir işletme için): Pamukkale’de küçük bir butik otel, sınırlı bütçeyle hazır bir tema seçiyor; ama önce demo sayfasının mobil görünümünü ve hızını test ediyor, gereksiz animasyon ve eklentileri kapatıyor, başlık yapısını düzeltiyor. Büyüyen bir üretici firma ise ürün kataloğu ve çoklu dil gerektiği için özel tasarım tercih ediyor.
 
+## Hazır tema seçerken nelere bakılmalı?
+
+Hazır tema satın almadan önce bir “vitrin” demosu yerine gerçek bir kullanım düşünün. Temanın tanıtım sayfası çoğu zaman hızlı ve güzel görünür; çünkü içinde yalnızca birkaç görsel ve kısa metin vardır. Sizin siteniz ise gerçek içerik, fotoğraf, form ve eklentilerle çok daha ağır olacaktır. Bu yüzden temayı kendi içeriğinizle bir test ortamında denemek en doğru yoldur. Birçok tema sağlayıcısı demo kurulumu sunar; bunu kullanıp kendi fotoğraflarınızı ve metinlerinizi yerleştirin, sonra hızı ve mobil görünümü ölçün.
+
+Seçim sırasında şu soruları sorun:
+
+- Tema, kullanmayacağım onlarca özelliği de yüklüyor mu? Gereksiz özellik, sayfayı ağırlaştırır.
+- Başlık yapısı (H1, H2) ve sayfa başına tek bir ana başlık düzgün kurulabiliyor mu?
+- Her sayfa için ayrı başlık ve açıklama yazabiliyor muyum?
+- Adres (URL) yapısını ben belirleyebiliyor muyum?
+- Tema düzenli güncelleniyor mu ve geliştiricisi destek veriyor mu?
+- Mobilde menü ve düğmeler rahat kullanılıyor mu?
+
+Bu soruların çoğuna “hayır” cevabı alıyorsanız, tema güzel görünse de uzun vadede sizi yorar.
+
+## Özel tasarım ne zaman gerçekten gerekir?
+
+Özel tasarım, her işletme için şart değildir. Ama bazı durumlarda tek akılcı seçimdir: markanızın hazır temalarla anlatılamayacak kadar özel bir görsel diline ihtiyacı varsa, çoklu dil ya da ürün kataloğu gibi karmaşık bir yapınız varsa, site hızınız çok kritikse ve sade bir kod tabanı istiyorsanız ya da büyümeyi önceden planladığınız bir yapı kuruyorsanız. Özel tasarımda sizi ağırlaştıran, geliştiriciye bağımlılıktır. Bu riski azaltmak için sözleşmede yönetim paneli erişimini, kaynak dosyaların teslimini ve belgelendirmeyi yazdırın.
+
+## Hız ve kullanıcı deneyimi açısından fark nedir?
+
+Hazır tema da özel tasarım da hızlı olabilir; fark, kontrolün kimde olduğudur. Hazır temada tema sağlayıcısının koyduğu betikleri ve stil dosyalarını çoğu zaman kaldıramazsınız. Özel tasarımda ise yalnızca gerekeni yüklersiniz. Google, Core Web Vitals’ı sayfa deneyiminin ölçülebilir parçası olarak tarif eder: LCP ilk 2,5 saniye, INP 200 milisaniyenin altı ve CLS 0,1’in altı iyi kabul edilir ([Core Web Vitals](https://developers.google.com/search/docs/appearance/core-web-vitals?hl=tr)). Google ayrıca tek bir “sayfa deneyimi sinyali” olmadığını, sıralama sistemlerinin genel olarak iyi sayfa deneyimi sunan içeriği ödüllendirmeyi amaçladığını söyler ([sayfa deneyimi](https://developers.google.com/search/docs/appearance/page-experience?hl=tr)). Yani hız bir sıralama kozu olarak değil, müşterinin sayfada kalma kararını etkileyen bir unsur olarak ele alınmalıdır.
+
+## Hazır temayı SEO için nasıl iyileştirirsiniz?
+
+Hazır tema tercih ettiyseniz şu adımlar işinizi görür:
+
+1. Kullanmadığınız özellikleri, eklentileri ve yazı tiplerini kapatın.
+2. Görselleri yüklemeden önce boyutlandırıp sıkıştırın.
+3. Her sayfa için özgün başlık ve açıklama yazın.
+4. Hizmet başına ayrı sayfa açın ve başlık yapısını (tek H1) kontrol edin.
+5. Temanın otomatik ürettiği gereksiz arşiv ve etiket sayfalarını gözden geçirin; boş ya da kopya sayfaların dizine girmemesine dikkat edin.
+6. Mobil ve masaüstünde aynı içeriğin göründüğünü doğrulayın.
+7. Güncellemeleri düzenli yapın; önce yedek alın.
+
+Bu işlerin çoğu temadan bağımsızdır; bir temayı “SEO uyumlu” yapan şey, kullanım biçimidir.
+
+## Yanlış temayla başladıysanız ne olur?
+
+Temayı sonradan değiştirmek mümkündür ama dikkat ister. Adresler (URL) değişirse yönlendirme gerekir; başlıklar, açıklamalar ve iç bağlantılar taşınmalıdır. Bu yüzden tema değişikliğini bir site yenileme gibi planlayın; ayrıntı için [web sitesi yenileme](/blog/web-sitesi-yenileme-seo-kaybetmeden-nasil-yapilir/) yazısına bakın. Gelecekteki geçişleri kolaylaştırmak için içeriği tema bağımlı kısa kodlara (shortcode) gömmemeye ve mümkün olduğunca standart içerik bloklarını kullanmaya çalışın.
+
+## Bütçeye göre nasıl karar verirsiniz?
+
+Bütçe sınırlıysa iyi seçilmiş ve sadeleştirilmiş bir hazır tema, kötü planlanmış bir özel tasarımdan daha iyidir. Bütçe uygunsa ve sitenizin işinizin merkezinde olacağını biliyorsanız özel tasarıma yatırım yapmak mantıklıdır. Kararınızı verirken şunu hesaplayın: siteniz ayda kaç müşteriyle temas kuruyor ve bu müşterilerin değeri ne kadar? Rakamlar küçükse hazır temayla başlayıp büyüdükçe yenilemek akılcıdır.
+
 ## Denizli SEO bu konuda nasıl yardımcı olur?
 
 [SEO uyumlu web tasarım hizmetimizde](/web-tasarim/):
@@ -77,6 +122,14 @@ Hayır; ihtiyaç ve bütçeye bağlı.
 ### Temayı sonradan değiştirebilir miyim?
 
 Evet; ama adresleri ve içeriği korumak için plan yapın; bkz. [web sitesi yenileme](/blog/web-sitesi-yenileme-seo-kaybetmeden-nasil-yapilir/).
+
+### Hazır tema satın alırken en önemli ölçüt nedir?
+
+Kendi içeriğinizle test edildiğinde hızlı, mobilde rahat ve başlık yapısını kurmaya izin veren olması. Görünüş ikinci sıradadır.
+
+### Özel tasarımda hız garantisi var mıdır?
+
+Hayır; özel tasarım hızlı olabilir ama otomatik değildir. Sözleşmede ölçülecek hız hedeflerini ve ölçüm yöntemini yazdırın.
 
 ## Kaynaklar
 
