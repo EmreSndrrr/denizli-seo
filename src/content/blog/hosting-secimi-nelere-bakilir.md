@@ -60,6 +60,10 @@ Bu işlemler, adresleri değiştirmeden sunucuyu değiştirir; adresler de deği
 
 Seçtiğiniz hostingin adını, paketini, yenileme tarihini, yönetim paneli adresini, destek iletişimini ve hesap sahibini bir belgede tutun. Parolaları güvenli bir parola yöneticisinde saklayın. Hosting ile alan adının farklı yerlerden alınması durumunda DNS yönetiminin nerede yapıldığını not edin. Bu kayıt, bir sorun çıktığında ya da ajans değiştiğinizde saatler kazandırır.
 
+## Hosting değişimi için zamanlama
+
+Yoğun dönemlerde (sezon başı, kampanya, bayram öncesi) hosting taşımaktan kaçının; bir aksaklık en pahalı olduğu anda yaşanabilir. Taşımayı talebin düşük olduğu bir döneme ve haftanın sakin bir gününe planlayın. Taşımadan önce siteyi tam yedekleyin, DNS kayıtlarının eski değerlerini not alın ve geri dönüş planınızı hazırlayın. Taşımadan sonraki ilk gün formları, ödeme akışını ve e-postaları test edin.
+
 ## Denizli SEO bu konuda nasıl yardımcı olur?
 
 Biz hosting seçiminde hız, güvenlik, yedek, destek ve sahiplik ölçütlerini sizin sitenize göre değerlendirmenize yardımcı oluruz; hesap ve alan adının sizin adınıza olmasını esas alırız. Hosting değişimi gerektiğinde Google’ın barındırma değişikliği rehberine uygun bir plan hazırlar, taşımayı test ve izleme adımlarıyla yürütürüz. Hız ve sıralama garantisi vermeyiz; yaptığımız işi yazılı raporlarız. Örnek (hayalî bir işletme için): Merkezefendi’de bir klinik, yavaş açılan sitesi için hosting değiştirmek istiyor; yeni sunucuda test ediliyor, DNS değişikliği planlı yapılıyor ve ilk haftalar izleniyor.
@@ -89,6 +93,14 @@ E-posta hosting’e bağlıysa taşıma planına dahil edilmelidir; aksi hâlde 
 ### Hosting yenilemesini kaçırırsam ne olur?
 
 Site kapanabilir ve e-postalar çalışmayabilir. Otomatik yenilemeyi açın ve uyarı e-postalarının güncel bir adrese gittiğinden emin olun.
+
+### Hosting seçerken yorumlara güvenmeli miyim?
+
+Yorumlar bir fikir verir; ama tek başına karar vermeyin. Kendi sitenizle deneme yapın, destek kalitesini bir soruyla test edin ve sözleşme koşullarını okuyun. Yorumların gerçekliğini değerlendirmeyi unutmayın.
+
+### Hosting paketini ne zaman yükseltmeliyim?
+
+Sayfalar yavaşladığında, sık kesinti yaşadığınızda ya da trafik arttığında; kararı ölçüme dayandırın ve önce gereksiz yükleri (ağır görsel, eklenti) temizleyin.
 
 ## Kaynaklar
 

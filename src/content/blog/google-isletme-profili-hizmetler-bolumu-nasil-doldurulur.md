@@ -60,6 +60,22 @@ Hizmet bölümü, işi gerçekten yapan kişinin bilgisiyle yazıldığında en 
 
 İlk on dakikada sunduğunuz tüm hizmetleri kâğıda yazın. Sonraki on dakikada benzerleri gruplayın ve dört beş ana hizmete indirin. Son on dakikada her ana hizmete bir iki cümlelik açıklama yazın ve profilinize girin. Sonra sitenizdeki hizmet sayfalarıyla karşılaştırın; adlar aynı mı? Bu otuz dakika, çoğu işletmenin profilindeki en büyük boşluğu kapatır. Sonrasında üç ayda bir listeyi gözden geçirmek yeterlidir.
 
+## Hizmet bölümünde sık yapılan hatalar
+
+Birinci hata, aynı hizmeti çok farklı adlarla tekrar tekrar eklemektir; liste şişer ve okunmaz. İkinci hata, hizmet adlarına şehir ve ilçe listesi sıkıştırmaktır; bu hem doğal görünmez hem de anahtar kelime doldurma izlenimi verir. Üçüncü hata, açıklamalara başka sitelerden kopyalanan metin koymaktır. Dördüncü hata, hizmet bölümünü bir kez doldurup yıllarca güncellememektir; bıraktığınız bir hizmeti listede tutmak müşteriyi yanıltır. Beşinci hata, profil ile sitedeki hizmet adlarının farklı olmasıdır.
+
+## Hizmet bölümünü müşteri sorularıyla besleyin
+
+Hizmet açıklamalarını müşterinin gerçek sorularına göre yazın: “Bakım ne kadar sürer?”, “Evde mi yapılır?”, “Fiyat neye göre değişir?” gibi. Bu sorulara kısa ve dürüst cevaplar vermek, hem müşterinin kararını kolaylaştırır hem de açıklamaya özgünlük katar. Aynı soruları sitenizdeki sık sorulan sorular bölümünde ayrıntılandırabilirsiniz. Profilde kısa, sitede ayrıntılı anlatmak, iki alanın birbirini tamamlamasını sağlar.
+
+## Güncelleme düzeni
+
+Yeni bir hizmet başlattığınızda ya da bıraktığınızda profili aynı gün güncelleyin. Fiyat ya da süreç değişirse açıklamayı yenileyin. Üç ayda bir hizmet listesini bir müşteri gözüyle okuyun: her satır doğru mu, anlaşılır mı, sitedeki karşılığıyla uyumlu mu? Yılda bir de müşteri sorularını yeniden toplayıp açıklamaları buna göre iyileştirin. Küçük ama düzenli bakım, bu bölümü canlı ve güvenilir tutar.
+
+## Hizmet bölümü için kontrol soruları
+
+Bölümü her güncellediğinizde şu soruları sorun: Her hizmet gerçekten sunuluyor mu? Adlar müşterinin kullandığı kelimeler mi? Açıklamalar kısa ve doğru mu? Fiyat ya da fiyat mantığı güncel mi? Sitedeki karşılığıyla uyumlu mu? Bu beş soru, bölümü sağlıklı tutmanın en kısa yoludur.
+
 ## Denizli SEO bu konuda nasıl yardımcı olur?
 
 Biz profilinizin hizmet ve ürün bölümlerini müşterinizin aramalarına ve işletmenizin gerçeğine göre hazırlar, hizmet adlarını ve açıklamalarını yazarız. Profil ile site arasındaki tutarlılığı kontrol eder, güncel tutmanız için basit bir takvim kurarız. Abartılı ifade ve doğrulanamayan iddia yazmayız; sıralama garantisi vermeyiz. Örnek (hayalî bir işletme için): Pamukkale’de bir otel için oda tipleri, kahvaltı ve transfer gibi gerçek hizmetler net adlar ve kısa açıklamalarla eklenir; sitedeki sayfa başlıklarıyla birebir uyumlu hâle getirilir.

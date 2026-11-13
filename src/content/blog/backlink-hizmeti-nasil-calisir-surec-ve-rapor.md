@@ -62,6 +62,22 @@ Bağlantı çalışması işbirliği ister. Bizim sizden istediklerimiz: gerçek
 
 Her kaynak için bir kayıt açarız: kaynağın adı ve adresi, kimle iletişim kurulduğu, ne önerildiği, tarih, cevap, yayın adresi ve bağlantının `rel` durumu. Bu kayıt tablosu hem raporun kaynağıdır hem de ileride bir bağlantı kaybolduğunda nedenini aramamıza yarar. Kayıtlara sizin de erişmeniz mümkündür; çalışmanın şeffaf olması gerekir.
 
+## Bağlantı çalışmasında gerçekçi beklenti
+
+Backlink çalışmasında ilk aylar, sonuçtan çok temel kurma dönemidir: profil denetlenir, kaynaklar belirlenir, ilk iletişimler yapılır. Bazı kaynaklar cevap vermez, bazıları reddeder, bazıları ise zaman alır. Bu nedenle ilk üç ayın raporunda bağlantı sayısından çok yürütülen denemeleri, öğrenilenleri ve ilişkilerin durumunu görmeniz normaldir. Sonuç garanti edilemez; çünkü her bağlantı başka bir sitenin kararıdır. Kısa vadede “şu kadar bağlantı” beklentisi, kalitesiz yöntemlere yönelme riskini artırır.
+
+## Bağlantı çalışmasının diğer işlerle ilişkisi
+
+Bağlantı çalışması tek başına çalışmaz; sitenizin teknik olarak sağlam, içeriğinin yararlı ve profilinizin doğru olmasına dayanır. Bağlantıyla gelen ziyaretçi, zayıf bir siteyle karşılaşırsa talebe dönüşmez. Bu yüzden çoğu işletmede önce teknik ve içerik tabanı güçlendirilir, sonra bağlantı çalışması yoğunlaştırılır. İki iş paralel de yürütülebilir; ama öncelik sırası sitenizin durumuna göre belirlenir.
+
+## Çalışmayı sonlandırırken ne teslim edilir?
+
+Çalışma bittiğinde size kaynak tablosunun tamamı, her bağlantının yayın adresi ve tarihi, kullanılan yöntemlerin özeti, hesap ve erişimler ve önerilen devam planı teslim edilmelidir. Bu belgeler, bağlantı geçmişinizi izlemenizi ve ileride başka biriyle çalışırsanız bilgiyi aktarmanızı sağlar. Teslim edilecekleri çalışmaya başlamadan yazılı belirleyin.
+
+## Sık sorulan ek konu: bağlantıların işaretlenmesi
+
+Çalışmada kazanılan bağlantıların çoğu editoryal olduğundan işaretleme gerektirmez; ücretli yerleşim ya da reklam niteliğindeki bağlantılar ise `sponsored` ile işaretlenir. Hangi bağlantının hangi durumda olduğunu raporda ayrı sütunla gösteririz; böylece şeffaflık korunur ve ileride bağlantı profilinizi değerlendirirken yanılmazsınız.
+
 ## Denizli SEO bu konuda nasıl yardımcı olur?
 
 Yukarıdaki altı adımı sizin adınıza yürütürüz: denetim, rakip analizi, kaynak seçimi, bağlantıyı hak etme, doğru nitelendirme ve aylık rapor. Satın alınmış bağlantı kullanmaz, sıralama garantisi vermeyiz. Örnek (hayalî bir işletme için): Merkezefendi’de bir muhasebe bürosu için ilk ay bağlantı profili ve rakip incelemesi, ikinci ay oda ve dernek kayıtları ile bir uzman yazısı hazırlığı, üçüncü ay yerel basına konu önerisi ve ilk rapor planlanır.

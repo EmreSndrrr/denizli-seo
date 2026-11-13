@@ -59,6 +59,18 @@ Bütçe sınırlıysa kapsamı akıllıca daraltın: önce temel sayfalarla (ana
 
 Teklifle birlikte yazılı bir kapsam belgesi, süre planı, ödeme takvimi, revizyon sayısı, yayın sonrası destek koşulları ve hesap sahipliği bilgisi isteyin. Ajansın önceki çalışmalarından doğrulanabilir örnekler görmek de makuldür. Bu belgeler, fiyatı sözlü anlatılanlardan bağımsız bir zemine oturtur. Teklifin en önemli satırı, fiyat değil, “neler dahil, neler hariç” satırıdır.
 
+## Fiyat teklifi aldıktan sonra nasıl müzakere edilir?
+
+Pazarlıkta fiyat yerine kapsamı konuşun. “Bu fiyata şunu da ekler misiniz?” demek yerine “şu iki özelliği ikinci aşamaya bıraksak fiyat nasıl değişir?” diye sorun. Böylece hem fiyat düşer hem de sahip olmanız gereken temel özellikler korunur. Ödeme planını aşamalara bağlamayı önerin: tasarım onayında, içerik tesliminde ve yayında. Her aşamada neyi teslim alacağınızı yazılı belirleyin. Yazılı olmayan her söz, sonradan tartışma konusu olur; kapsamı ve ödeme koşullarını netleştirmek, iki tarafı da korur.
+
+## Yenileme ve bakım maliyetlerini önceden hesaplayın
+
+Site yayına çıktıktan sonra da maliyet devam eder: alan adı, hosting, SSL, güncelleme, yedek, güvenlik ve içerik değişiklikleri. Bu kalemleri yıllık bir tabloya yazın ve ilk yıl toplam maliyeti (site bedeli ile birlikte) hesaplayın. Bakım hizmetini aylık ya da yıllık bir paket hâlinde mi, yoksa ihtiyaç anında mı alacağınızı baştan belirleyin. Düzenli bakımı atlayan site, bir sorun çıktığında çok daha pahalıya mal olur; bu yüzden bakım bütçesini projenin bir parçası olarak görün.
+
+## Fiyat kararında son kontrol
+
+İmzalamadan önce şu soruları cevaplayın: Kapsam yazılı mı? İçerik kim tarafından hazırlanıyor? Alan adı ve hosting kimin adına? Yayın sonrası destek süresi ve değişiklik fiyatı belli mi? Hız ve SEO işleri teklifte yazılı mı? Eski site varsa yönlendirme planı var mı? Bu altı sorunun hepsine net cevap alamıyorsanız teklifi netleştirmeden ilerlemeyin.
+
 ## Denizli SEO bu konuda nasıl yardımcı olur?
 
 Biz teklifi kapsamı kalem kalem yazarak hazırlarız: sayfalar, tasarım, içerik, teknik SEO, ölçüm kurulumu, eski siteden geçiş ve yayın sonrası destek. Alan adı ve hosting sahipliği sizde kalır; sıralama garantisi vermeyiz. Fiyat, ihtiyacınızı görüp kapsamı netleştirdikten sonra yazılı olarak sunulur. Örnek (hayalî bir işletme için): Merkezefendi’de bir klinik için önce temel sayfalar, ölçüm ve teknik SEO ile başlayan; blog ve ek özellikleri ikinci aşamaya bırakan bir kapsam yazılır.
@@ -84,6 +96,10 @@ Alan adı, hosting, SSL ve varsa lisans ücretleri. Teklifte bunların yenileme 
 ### Fiyatı ödemeden önce neyi görmeliyim?
 
 Yazılı bir kapsam, süre planı ve tasarım örnekleri; ayrıca ajansın önceki çalışmalarından doğrulanabilir örnekler.
+
+### Fiyat teklifinde KDV ve ek masraflar nasıl yazılmalı?
+
+Teklifte KDV’nin dahil olup olmadığını, alan adı ve hosting gibi yıllık kalemleri ve olası ek masrafları açıkça yazdırın. Belirsiz bırakılan kalemler sonradan tartışma yaratır.
 
 ## Kaynaklar
 

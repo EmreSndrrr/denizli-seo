@@ -46,6 +46,22 @@ Sitede şunlar bulunmalı: ana sayfa, uzmanlık alanı sayfaları, avukat ve eki
 
 Her avukat için ad, bürodaki görevi, çalıştığı hukuk alanları, eğitim ve kayıtlı olduğu baro bilgisi (doğruysa ve paylaşılmasında sakınca yoksa), yayımladığı makaleler ve iletişim yolu yazılabilir. Fotoğraf kullanacaksanız kişinin izni olsun. Başarı hikâyesi yazmak yerine çalışma biçimini anlatın: ilk görüşme nasıl yapılır, süreç nasıl bilgilendirilir, ücretlendirme nasıl belirlenir (rakam yazmak zorunda değilsiniz). Bu bilgilerin hepsi doğru ve güncel olmalı; meslek kuralları açısından belirsizlik varsa bir uzmana danışın.
 
+## Hukuk bürosu sitesinde sık yapılan hatalar
+
+Birinci hata, sonuç vaadi içeren ifadeler yazmaktır; hukuki sonuçlar garanti edilemez ve bu tür ifadeler meslek kuralları açısından sorun yaratabilir. İkinci hata, avukat bilgilerini eksik ya da güncel olmayan bırakmaktır. Üçüncü hata, genel bilgi yazılarında eski mevzuatı güncellememektir. Dördüncü hata, müşteri gizliliğini gözetmeden dosya ya da kişi bilgisi içeren örnekler vermektir. Beşinci hata, iletişim yollarını belirsiz bırakmaktır; ilk görüşme nasıl planlanır, nasıl ulaşılır, açıkça yazılmalıdır.
+
+## İlk görüşme sürecini anlatmak
+
+Hukuki desteğe ihtiyaç duyan kişi, ilk adımda ne olacağını bilmek ister. Sitede ilk görüşmenin nasıl yapıldığını, hangi belgelerin getirilmesi gerektiğini ve görüşmenin nasıl ücretlendirildiğini (rakam yazmak zorunda değilsiniz) kısaca anlatın. Gizlilik taahhüdünü kısa ve net belirtin. Bu bilgi, ilk adımı atmaktan çekinen kişiyi rahatlatır ve gereksiz telefon trafiğini azaltır.
+
+## Yazıların güncelliğini korumak
+
+Hukuki içerik zamanla eskir. Her yazının yayın ve güncelleme tarihini görünür tutun, yılda bir mevzuat değişikliklerine göre gözden geçirin ve eskiyen yazıları güncelleyin ya da kaldırın. Güncellenen yazılarda tarihi yalnızca gerçekten değiştirdiğinizde yenileyin. Bu düzen hem okuyucuyu yanlış bilgiden korur hem de büronun güvenilirliğini sürdürür; güncelleme düzeni için eski blog yazılarını yenileme rehberimize başvurabilirsiniz.
+
+## Bilgi yazısı için kontrol listesi
+
+Genel bilgi yazısı yayımlamadan önce şunları kontrol edin: bilgi güncel mi, resmî kaynak gösterildi mi, “genel bilgidir, durumunuz için avukata danışın” notu var mı, müşteri ya da dosya bilgisi içermiyor mu, yazar adı ve tarih görünür mü? Bu beş kontrol, hassas bir alanda güvenilirliği korur.
+
 ## Denizli SEO bu konuda nasıl yardımcı olur?
 
 Biz hukuk bürosunun sitesini ve profilini, bürodan aldığımız doğrulanmış bilgilerle kurarız: uzmanlık alanı sayfaları, avukat ve ekip bilgisi, iletişim, hız ve mobil uyum, Google İşletme Profili ve ölçüm. Sonuç vaadi, uydurma unvan ya da doğrulanamayan iddia yazmayız; reklam ve tanıtım kurallarının yorumunu büronuza ve ilgili kuruluşa bırakırız. Sıralama garantisi vermeyiz. Örnek (hayalî bir işletme için): Merkezefendi’de bir aile ve iş hukuku bürosu için iki uzmanlık alanı sayfası, avukat sayfası, genel bilgi içerikli üç yazı ve doğrulanmış bir işletme profili hazırlanır; yazılara “genel bilgi içindir” notu eklenir.

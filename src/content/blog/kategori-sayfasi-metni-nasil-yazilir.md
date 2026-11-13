@@ -103,6 +103,10 @@ Search Console’da kategori sayfalarınızın hangi sorgularla gösterildiğine
 
 Önce en çok ziyaret alan üç kategoriyi seçin. Her biri için ürünlerin üstüne iki cümlelik bir giriş, altına “nasıl seçilir?” bölümü ve üç sık sorulan soru yazın. Alt kategorilere bağlantı verin ve ilgili rehber yazısına yönlendirin. Başlık ve açıklamayı kategoriye özel yapın. Bir ay sonra Search Console’da gösterim ve tıklamayı karşılaştırın. İşe yarayan düzeni diğer kategorilere uyarlayın. Her kategoriye aynı metni kopyalamayın; her sayfanın kendi müşteri sorusu vardır.
 
+## Kategori metni için örnek yapı
+
+Örnek (hayalî bir işletme için) “Havlu” kategorisi: ürün listesinin üstünde iki cümlelik giriş (“Pamuklu banyo ve el havluları; ölçü ve gramaj bilgisi ürün sayfalarındadır”), altında “Havlu nasıl seçilir?” bölümü (kullanım alanı, gramaj, yıkama), üç sık sorulan soru (renk solar mı, kaç derecede yıkanır, toptan alım var mı) ve ilgili rehber yazısına bağlantı. Bu yapı kısa, taranabilir ve ürünleri engellemeyen bir metin sağlar.
+
 ## Denizli SEO bu konuda nasıl yardımcı olur?
 
 Kategori sayfaları satış ve arama kesişimindedir. [İçerik SEO hizmetimizde](/icerik-seo/):
@@ -143,6 +147,14 @@ Sabit bir sayı yok; müşterinin rahat gezebileceği, hızlı yüklenen bir lis
 ### Kategori metnini kimler okur?
 
 Çoğu ziyaretçi ürünlere bakar; metni daha çok seçim konusunda tereddüt edenler ve arama sistemleri okur. Bu yüzden metni kısa, net ve gerçekten yararlı tutun; ürün listesini engellemesin.
+
+### Kategori başlığında şehir adı yazmalı mıyım?
+
+Hizmet verdiğiniz bölge aramanın önemli bir parçasıysa doğal bir biçimde yazabilirsiniz; ama başlığı şehir listeleriyle doldurmayın. Okunur ve doğru bir başlık, yığın başlıktan daha iyidir.
+
+### Kategori sayfasında görsel kullanmalı mıyım?
+
+Ürün görselleri zaten ana içeriktir; ek olarak seçim rehberini destekleyen bir iki görsel yeterlidir. Hepsinde alt metin yazın ve sayfa hızını koruyun.
 
 ## Kaynaklar
 

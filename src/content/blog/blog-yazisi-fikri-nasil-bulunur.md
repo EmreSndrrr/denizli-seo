@@ -66,6 +66,18 @@ Basit bir tablo yeterlidir: fikir, kaynak, arama niyeti, hangi hizmete bağlanac
 
 Örnek (hayalî bir işletme için): Merkezefendi’de bir klima servisi bir haftalık kayıttan şu fikirleri çıkarıyor: klima neden su damlatır, bakım yılda kaç kez yapılmalı, klima hangi odaya uygun, servis çağırmadan önce neler kontrol edilir, montaj sonrası ne beklenir. Beş fikri müşteri sorusu, hizmetle ilgisi ve özgün bilgi katkısı ölçütleriyle eliyor; üçünü seçiyor ve ilk ay yazıyor. Kalan ikisi bir sonraki ayın listesine geçiyor.
 
+## Fikri yazıya dönüştürmeden önce kısa bir ön araştırma
+
+Seçtiğiniz fikir için yazıya başlamadan yirmi dakikalık bir ön araştırma yapın. Konuyu Google’da arayıp ilk sonuçları açın: hangi türde sayfalar çıkıyor, hangi sorular cevaplanmış, neler eksik? Kendi bilginizle ekleyebileceğiniz özgün bir bakış var mı? Müşterinin sorusunun tek cümlelik cevabını yazabiliyor musunuz? Bu üç soruya olumlu cevap veremiyorsanız fikir henüz yazıya hazır değildir. Ön araştırma, ilk taslağı yazarken yaşanan takılmaları azaltır ve yazının gerçekten bir ihtiyaca cevap verdiğini kontrol etmenizi sağlar.
+
+## Fikir kaynaklarını düzenli alışkanlığa çevirmek
+
+Fikir bulmak, yazı yazacağınız gün yapılan bir iş değil, sürekli yapılan bir alışkanlık olmalıdır. Telefonunuza “müşteri soruları” adlı bir not açın ve gün içinde duyduğunuz soruları anında yazın. Haftada bir beş dakika bu notu gözden geçirip aynı soruları işaretleyin. Ayda bir Search Console’daki yeni sorgulara bakın. Üç ayda bir mevsimsel takvimi yenileyin. Bu küçük alışkanlıklar, “ne yazsak?” stresini ortadan kaldırır ve içeriğinizi müşterinin gerçek ihtiyaçlarına bağlı tutar.
+
+## Fikirden yayına küçük bir iş akışı
+
+Seçilen fikir için bir sayfalık plan yazın: soru, tek cümlelik cevap, üç dört alt başlık, bağlanacak hizmet sayfası, kullanılacak kaynaklar. Planı bir başkasına gösterip onay alın, sonra taslağı yazın. Yayımlamadan önce kontrol listesinden geçirin ve yayın tarihini takvime yazın. Yayından bir ay sonra yazının aramadaki durumuna bakın ve gerekirse başlığını iyileştirin. Bu akış, fikri tutarlı biçimde işe dönüştürür.
+
 ## Denizli SEO bu konuda nasıl yardımcı olur?
 
 Biz müşteri sorularınızı, Search Console verinizi ve rakip boşluklarını birleştirip size öncelikli bir fikir listesi hazırlarız; seçilen fikirleri sizin gerçek bilginizle yazar, hizmet sayfalarına bağlar ve sonuçları raporlarız. Kopya, doğrulanamayan iddia ve uydurma kanıt yazmayız; sıralama garantisi vermeyiz. Örnek (hayalî bir işletme için): Merkezefendi’de bir diş kliniği için telefon notlarından ve Search Console’dan çıkan on fikir arasından “implant sonrası nelere dikkat edilir?” ve “diş beyazlatma kimlere uygun?” gibi üç yazı seçilir.
@@ -95,6 +107,10 @@ Aynı soruya iki yazı birbirinin önüne geçebilir; farklı arama niyetleri ya
 ### Fikir bulmak için ücretli araç gerekir mi?
 
 Zorunlu değil; müşteri soruları, Search Console ve Google’ın arama önerileri başlangıç için yeterlidir.
+
+### Fikir toplamak için bir araç şart mı?
+
+Hayır; telefonunuzdaki bir not ve haftalık bir tablo çoğu işletme için yeterlidir. Araçlar sonradan gelir; önce müşteri soruları toplanır.
 
 ## Kaynaklar
 

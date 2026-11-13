@@ -50,6 +50,18 @@ Haritada çıkan rakibin sitesine de göz atın: hizmet sayfaları var mı, ilç
 
 Notlarınızı üç sütuna ayırın: hemen yapabileceğiniz işler (eksik bilgi, çalışma saatleri, hizmet listesi), birkaç haftada tamamlanacak işler (fotoğraf çekimi, yorum isteme düzeni, hizmet sayfası yazımı) ve uzun vadeli işler (yerel kayıtlar, rehber içerikler). Her iş için bir sorumlu ve bir tarih yazın. Aynı aramaları üç ay sonra tekrarlayıp kendi profilinizin durumuna bakın: eksikler kapandı mı, yorumlar ve etkileşim değişti mi? Bu kısa döngü, rakip analizini tek seferlik bir rapordan sürekli bir iyileştirme alışkanlığına çevirir.
 
+## Rakip incelemesinde kaçınılacak hatalar
+
+İlk hata, rakibi kopyalamaya çalışmaktır: aynı hizmet adlarını, aynı açıklamayı ve aynı fotoğraf tarzını kullanmak sizi öne çıkarmaz. İkinci hata, yalnızca puanlara bakmaktır; puan tek başına bilgi vermez, yorumların içeriği ve cevap alışkanlığı daha öğreticidir. Üçüncü hata, farklı bir ölçekteki işletmeleri (ulusal zincirler gibi) kendinize rakip saymaktır; gerçek rakipleriniz aynı bölgede aynı müşteri için yarışan işletmelerdir. Dördüncü hata, analizi bir kez yapıp bırakmaktır. Beşinci hata, rakibin profilini şikâyet ya da sahte yorumla zayıflatmaya çalışmaktır; bu hem etik dışıdır hem de kural ihlalidir.
+
+## Rakip incelemesini işletmenizin günlük işine bağlamak
+
+İncelemeden çıkan her bulguyu somut bir işe çevirin: “rakibin fotoğrafları gerçek ve güncel” bulgusu “bu ay beş yeni fotoğraf çek” işine dönüşsün; “hiçbir rakip fiyat mantığını anlatmıyor” bulgusu “hizmet sayfasına fiyat belirleme bölümü ekle” işine dönüşsün. Her işe sorumlu ve tarih atayın, üç ay sonra aynı aramayı tekrarlayın. Bu döngü, rakip analizini bir rapordan çıkarıp işletmenin alışkanlığına çevirir ve müşteri gözüyle sürekli iyileşmenizi sağlar.
+
+## Rakip incelemesini belgelemek
+
+İncelemenin sonuçlarını bir belgeye yazın: tarih, arama, çıkan işletmeler, her birinin güçlü ve zayıf yanları, sizin için fırsatlar. Ekran görüntüsü yerine kısa notlar yeterlidir. Belge, üç ay sonra değişimi görmenizi ve ekip içinde ortak bir resim paylaşmanızı sağlar.
+
 ## Denizli SEO bu konuda nasıl yardımcı olur?
 
 Biz yerel rakip incelemesini sizin adınıza yaparız: hedef aramalarda çıkan profilleri kategori, hizmet, bilgi, fotoğraf ve yorum açısından karşılaştırır, sizin için fırsatları ve eksikleri yazılı raporlarız. Sonrasında profilinizi ve sitenizi bu bulgulara göre düzenleriz. Rakiplerin metinlerini kopyalamayız, sahte yorum önermeyiz; sıralama garantisi vermeyiz. Örnek (hayalî bir işletme için): Merkezefendi’de bir klima servisi için üç hedef aramada ilk beş profil incelenir; hiçbirinde hizmet bölgesinin net yazılmadığı ve fiyatın nasıl belirlendiğinin anlatılmadığı görülür; bu iki konu servisin profilinde ve sitesinde öne çıkarılır.
@@ -79,6 +91,10 @@ En kolay ve etkili boşluğu seçin: genellikle eksik bilgi, eski fotoğraf ya d
 ### Rakibi incelemek etik mi?
 
 Evet; herkese açık profilleri müşteri gibi incelemek meşrudur. Etik olmayan, rakibin içeriğini kopyalamak, sahte yorumla kötülemek ya da profilini şikâyet kampanyalarıyla hedef almaktır.
+
+### Rakibimin profilinde kural ihlali görürsem ne yapmalıyım?
+
+Google’ın yardım sayfalarındaki bildirim yollarını kullanabilirsiniz; ama bunu bir strateji olarak değil, gerçek bir ihlal durumunda yapın. Asıl odak kendi profilinizi güçlendirmek olmalı.
 
 ## Kaynaklar
 

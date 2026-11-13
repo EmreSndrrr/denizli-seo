@@ -46,6 +46,18 @@ Denizli’de müşteri çoğunlukla bulunduğu ilçeyle arar: Merkezefendi, Pamu
 
 Gelin hazırlığı, bayram öncesi, yaz ve kış başı gibi dönemlerde talep artar. Bu dönemlerden önce profildeki saatleri ve hizmetleri güncelleyin, yeni fotoğraflar ekleyin ve randevu kapasitenizi duyurun. Profildeki gönderiler (kampanya duyurusu, yeni hizmet) bu dönemde kullanışlıdır; ayrıntı için işletme profili gönderileri nasıl paylaşılır? yazısına bakın.
 
+## Kuaför ve güzellik salonlarında sık yapılan hatalar
+
+Birinci hata, profil adına “en iyi”, “ucuz” ya da bölge listesi gibi ifadeler eklemektir; Google’ın kuralları bunu askıya alma sebebi sayar. İkinci hata, fotoğrafları yıllarca güncellememektir; müşteri salonun şimdiki hâlini görmek ister. Üçüncü hata, müşteri fotoğrafını izinsiz paylaşmaktır. Dördüncü hata, yorumlara hiç cevap vermemektir; cevapsız yorum, ilgisiz bir işletme izlenimi verir. Beşinci hata, çalışma saatlerini bayram ve tatillerde güncellememektir. Altıncı hata, randevu yolunu zorlaştırmaktır: telefonu açmayan ya da mesajlara günlerce dönmeyen bir salon, harita sonucunda ne kadar önde olursa olsun müşteri kaybeder.
+
+## Sezonluk yoğunlukta salon nasıl hazırlanır?
+
+Gelin hazırlığı, bayram öncesi ve yaz başı gibi dönemlerde randevu yoğunlaşır. Bu dönemlerden iki üç hafta önce profildeki saatleri, hizmet listesini ve fotoğrafları güncelleyin, randevu kapasitenizi netleştirin ve dolduğunda bunu duyurun. Bir profil gönderisiyle “bayram öncesi randevular için ilk gün şu tarih” gibi net bir bilgi paylaşabilirsiniz. Yoğun dönemde mesaj dönüş süresi uzayacaksa otomatik bir karşılama mesajı kullanın. Hazırlıklı bir salon, aynı talebi daha az gerilimle karşılar ve olumsuz yorum riskini azaltır.
+
+## Müşteri sadakati ve yorum döngüsü
+
+Memnun müşteri en iyi tanıtımdır. İşlem bitiminde teşekkür edin, profil bağlantısını paylaşın ve yorum rica edin; ama baskı yapmayın. Bir sonraki randevuyu planlarken müşteriye hatırlatma mesajı göndermek, tekrar gelen müşteri oranını artırır. Düzenli müşterilerinizden aldığınız yorumlar zamanla profilinizin en güçlü kanıtına dönüşür. Her yoruma kısa ve kişisel bir cevap yazın; kalıp cevap yerine müşterinin söylediği bir ayrıntıya değinmek samimiyeti artırır.
+
 ## Denizli SEO bu konuda nasıl yardımcı olur?
 
 Biz salonunuzun Google İşletme Profili’ni kategori, hizmet, fotoğraf ve bilgi açısından düzenler, yorum isteme ve cevaplama düzenini kurar, sitenizi ya da randevu yolunuzu telefona uygun hâle getirir ve ayda bir yazılı rapor veririz. Sahte yorum, karşılıklı yorum ya da izinsiz fotoğraf önermeyiz; sıralama garantisi vermeyiz. Örnek (hayalî bir işletme için): Merkezefendi’de bir kuaför salonu için profil hizmetleri yeniden yazılır, izinli yeni fotoğraflar eklenir, memnun müşterilerden karşılıksız yorum istenir ve WhatsApp randevu bağlantısı kurulur.
@@ -75,6 +87,14 @@ Sosyal medya tanınırlık için değerlidir; ama arama ve harita sonuçlarında
 ### Çalışma saatlerini hafta sonuna göre nasıl yazmalıyım?
 
 Gerçek saatlerinizi yazın ve özel günlerde (bayram, tatil) profilde özel saat tanımlayın. Müşterinin kapalı bir salona gelmesi olumsuz yoruma dönüşebilir; bu yüzden saat bilgisini her değişiklikte aynı gün güncelleyin.
+
+### Salon için Google gönderileri işe yarar mı?
+
+Duyuru, kampanya ve yeni hizmet paylaşımları müşteriye güncel bilgi verir. Sıralama etkisi için kesin bir söz vermiyoruz; ama profilin canlı ve ilgili görünmesine yardımcı olur.
+
+### Erkek berberi için de aynı yöntem geçerli mi?
+
+Evet; kategori, hizmet, fotoğraf, yorum ve randevu mantığı aynıdır. Hizmet adlarını ve fotoğrafları kendi işinize göre belirleyin.
 
 ## Kaynaklar
 

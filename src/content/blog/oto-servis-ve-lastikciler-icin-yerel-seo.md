@@ -50,6 +50,18 @@ Profil çoğu zaman yeterli başlangıçtır; ama kısa bir site hizmetleri ve g
 
 Oto servis için en anlamlı veriler: profil üzerinden gelen aramalar, yol tarifi istekleri, WhatsApp ve telefon tıklamaları, gelen müşteri sayısı ve müşteriye “bizi nasıl buldunuz?” sorusunun cevabı. Google İşletme Profili’nin performans raporu aramaları, yol tarifi ve arama eylemlerini gösterir; bunları kendi kayıt tablonuzla birleştirin. Acil aramaların yoğun olduğu dönemleri (kış başı, tatil öncesi) not edin ve o dönemlerde saat, kapasite ve hizmet bilgisini güncelleyin. Ölçüm için [yerel SEO sonuçları nasıl ölçülür?](/blog/yerel-seo-sonuclari-nasil-olculur/) yazısına bakabilirsiniz.
 
+## Oto serviste sık yapılan hatalar
+
+En sık hata, çalışma saatini gerçeğe uygun yazmamaktır; acil arayan müşteri kapalı bir yere gittiğinde hem müşteriyi hem yorumu kaybedersiniz. İkinci hata, her marka ve her işi yapıyormuş gibi görünmektir; “yalnızca şu markalar” ya da “ticari araçlar” gibi gerçek sınırları yazmak güveni artırır. Üçüncü hata, fiyatı hiç anlatmamaktır; müşteri, beklenmedik bir fatura korkusuyla başka bir servise gider. Dördüncü hata, olumsuz yorumlara tartışmaya girerek cevap vermektir. Beşinci hata, telefonun cevapsız kalmasıdır; yoğun saatlerde kimin açacağını ve açamazsa nasıl geri döneceğinizi önceden belirleyin.
+
+## Yağışlı ve soğuk dönemlerde hazırlık
+
+Kış başında lastik, akü ve fren bakımına ilgi artar; yaz öncesinde klima ve soğutma bakımı gündeme gelir. Bu dönemlerden iki üç hafta önce profilde saatleri, hizmetleri ve fotoğrafları güncelleyin; “kış lastiği değişimi için randevu” gibi net bir gönderi paylaşın. Yoğunlukta bekleme süresini önceden duyurun ve randevu sistemini sade tutun. Dönem sonunda hangi hizmetlerin en çok talep gördüğünü kaydedin ve bir sonraki yıl için kapasite planı yapın.
+
+## Müşteriye güven veren küçük ayrıntılar
+
+Değiştirilen parçayı müşteriye göstermek, işlem öncesi ve sonrası fotoğraf paylaşmak (izinle), yapılan işlerin kısa bir listesini yazılı vermek ve garanti koşullarını açık anlatmak, aracını emanet eden müşterinin içini rahatlatır. Bu davranışları profilde ve sitede kısa cümlelerle anlatın: “Önce arıza tespiti yapılır, onayınız olmadan işlem başlamaz.” Yalnızca uygulayabileceğiniz sözleri yazın; tutulmayan bir söz, tek bir yorumla tüm emeği sıfırlayabilir.
+
 ## Denizli SEO bu konuda nasıl yardımcı olur?
 
 Biz oto servisinizin Google İşletme Profili’ni kategori, hizmet, saat ve fotoğraf açısından düzenler, yorum isteme ve cevaplama düzenini kurar, sitenizi ya da iletişim yollarınızı telefona uygun hâle getirir ve ayda bir yazılı rapor veririz. Sahte yorum önermeyiz, doğrulanamayan vaat yazmayız; sıralama garantisi vermeyiz. Örnek (hayalî bir işletme için): Merkezefendi’de bir lastikçi için profil saatleri ve özel gün düzeni yeniden kurulur, hizmet listesi lastik, rot balans ve akü olarak netleştirilir, yol tarifi ve WhatsApp bağlantısı eklenir.

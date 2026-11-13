@@ -54,6 +54,18 @@ Yapılandırılmış veri, sayfadaki bilgiyi (işletme, hizmet, ürün, makale) 
 
 En çok talep getiren hizmet sayfanızı açın. Müşterinin bu hizmetle ilgili sorabileceği beş soruyu yazın. Sayfada hangileri cevaplanmış? Cevapsız olanları ya sayfaya bölüm olarak ekleyin ya da ayrı bir yazıya çevirip sayfaya bağlayın. Sonra sayfanın başlığını ve ana başlığını müşterinin ana aramasıyla uyumlu tutun. Bu işlem bir saatte yapılabilir ve çoğu zaman sayfanın müşteriye yararını gözle görülür biçimde artırır.
 
+## Konu bütünlüğünde derinlik ile uzunluk farkı
+
+Konuyu bütün olarak ele almak, yazıyı uzatmak anlamına gelmez. Derinlik, müşterinin sorularını eksiksiz ve net cevaplamaktır; uzunluk ise sadece kelime sayısıdır. Bir sayfa kısa ama eksiksiz olabilir; uzun ama dağınık da olabilir. Her bölümün tek bir soruya cevap verdiğinden ve gereksiz tekrarın olmadığından emin olun. Bir bölümü çıkardığınızda sayfanın değeri azalmıyorsa o bölüm gereksizdir. Okuyucuyu dolgu metinle oyalamak yerine bir sonraki adıma (ilgili yazı ya da iletişim) yönlendirmek daha etkilidir.
+
+## Konu bütünlüğünü zamanla sürdürmek
+
+Bir konu bir kez yazılıp bırakılmaz. Müşteri sorularında, mevzuatta ya da piyasada değişiklik olduğunda ilgili sayfaları güncelleyin. Üç ayda bir ana sayfanızın ve destek yazılarının hâlâ doğru ve eksiksiz olup olmadığına bakın. Search Console’da hangi sorguların yeni göründüğünü izleyin; yeni bir soru çıkmışsa kümeye yeni bir yazı ekleyin. Konu bütünlüğü bir kurulum değil, düzenli bir bakımdır; bu bakım, içeriğinizin güncel ve güvenilir kalmasını sağlar.
+
+## Anlamı bozmadan sadeleşmek
+
+Semantik yaklaşım, metni karmaşıklaştırmak değil, anlamı netleştirmektir. Bir sayfada ana konuyu ilk paragrafta söyleyin, ilişkili soruları ayrı başlıklarla cevaplayın ve her başlığın altında yalnızca o soruya ait bilgiyi verin. Sayfayı bir yabancıya okutup “bu sayfa ne anlatıyor?” diye sorun; cevabı tek cümleyle verebiliyorsa konu bütünlüğü sağlanmıştır.
+
 ## Denizli SEO bu konuda nasıl yardımcı olur?
 
 Biz içeriğinizi müşterinin sorularına göre bütün olarak planlarız: ana hizmet sayfası, destek yazıları, iç bağlantılar ve çakışma kontrolü. Kelime yığınından değil, gerçek bilgi ve net cevaptan yola çıkarız. Resmî bir Google terimi olmayan kavramları kesin sıralama yöntemi gibi sunmayız; sıralama garantisi vermeyiz. Örnek (hayalî bir işletme için): Pamukkale’de bir otel için “konaklama” ana sayfası etrafında beş soru yazısı planlanır; her biri ilgili hizmet sayfasına ve birbirine bağlanır.
@@ -83,6 +95,14 @@ Kesin süre veremeyiz; dizine ekleme bir haftayı bulabilir, sıralamaya yansım
 ### Semantik SEO için ayrı bir araç gerekir mi?
 
 Zorunlu değil; müşteri soruları, Search Console sorguları ve bir tablo çoğu işletme için yeterlidir.
+
+### Küçük bir işletme semantik SEO’ya zaman ayırmalı mı?
+
+Terime takılmadan, müşteri sorularını sayfalarınızda eksiksiz cevaplamak zaten bu yaklaşımın özüdür. Ayrı bir çalışma gerektirmez; mevcut içeriğinizi sorularla kontrol etmek yeterlidir.
+
+### Konu bütünlüğünü nasıl kontrol ederim?
+
+Ana konunuzla ilgili beş müşteri sorusu yazın ve sayfalarınızın bunların kaçını cevapladığına bakın; eksikler yeni bölüm ya da yazı adayıdır.
 
 ## Kaynaklar
 

@@ -50,6 +50,18 @@ Sitenizde yalnızca satış değil, süreç bilgisi de olsun: kat karşılığı
 
 Bir proje sayfası yayımlandığı gün değil, teslim edildiği güne kadar canlı bir belgedir. Durum (planlama, inşaat, teslime hazır), satış ve daire bilgisi, fotoğraflar ve teslim tarihi değiştikçe sayfayı güncelleyin. Eski projeleri silmeyin; “tamamlandı” diye işaretleyip referans olarak bırakın, çünkü tamamlanmış projeler güveni artırır. Sayfadaki tarihleri doğru tutun; Google’ın tarih belgesi, görünür tarihlerin doğru ve tutarlı olmasını önerir. Güncelleme alışkanlığı için [eski blog yazıları ne zaman ve nasıl güncellenir?](/blog/eski-blog-yazilari-ne-zaman-ve-nasil-guncellenir/) yazısına bakın.
 
+## İnşaat sitesinde sık yapılan hatalar
+
+Birinci hata, proje sayfalarını yalnızca tasarım görselleriyle doldurmaktır; müşteri gerçek ilerleme fotoğrafı görmek ister. İkinci hata, fiyat ve durum bilgisini güncellememektir. Üçüncü hata, “son daireler” gibi baskı kuran ifadeler kullanmaktır. Dördüncü hata, her mahalle için kopya sayfa üretmektir. Beşinci hata, iletişim yollarını zorlaştırmaktır; ilgilenen müşteri hemen arayabilmeli ya da yazabilmelidir. Altıncı hata, tamamlanmış projeleri sitede göstermemektir; teslim edilmiş işler en güçlü referanstır.
+
+## Satış sürecinde içeriğin rolü
+
+Konut ya da arsa kararı aylarca sürebilir. Bu süreçte müşteri birçok kez siteye döner. İlk ziyarette proje bilgisi, ikinci ziyarette kat planları ve süreç bilgisi, üçüncü ziyarette firma güveni ve referanslar önem kazanır. Sitenizi bu yolculuğa göre düzenleyin: proje sayfasından firma ve referans sayfasına, oradan iletişime kolay geçiş olsun. Gelen talepleri aşamalarıyla (ilk temas, görüşme, teklif, sonuç) kaydedin; hangi sayfanın hangi aşamada işe yaradığını anlarsınız.
+
+## Referans ve tamamlanmış proje sayfaları
+
+Tamamlanan her projeyi “tamamlandı” etiketiyle sitede tutun: konum, teslim yılı, daire sayısı ve gerçek fotoğraflar. Sakinlerden izinle alınmış kısa ve gerçek görüşler güven verir; uydurma yorum ya da satış rakamı yazmayın. Bu sayfalar, yeni projelerinize ilgi duyan müşteriye firmanın söz verdiğini yaptığını gösterir.
+
 ## Denizli SEO bu konuda nasıl yardımcı olur?
 
 Biz inşaat ve gayrimenkul firmasının sitesini projeler, ilçe aramaları ve güven bilgisi üzerine kurarız: proje sayfası şablonu, galeri ve görsel SEO, hız ve mobil uyum, Google İşletme Profili ve talep ölçümü. Doğrulanamayan satış vaadi, uydurma belge ya da baskı kuran ifadeler yazmayız; sıralama garantisi vermeyiz. Örnek (hayalî bir işletme için): Pamukkale’de çalışan bir inşaat firması için her proje için ayrı sayfa, gerçek ilerleme fotoğrafları, ilçe bilgisi ve her sayfada net bir randevu çağrısı hazırlanır; talepler kaynakla kaydedilir.

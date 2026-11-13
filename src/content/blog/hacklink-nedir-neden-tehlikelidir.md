@@ -56,6 +56,18 @@ Bazen sorun eski bir çalışmadan kalır: sitenize yıllar önce satın alınm�
 
 Gerçek bağlantı, gerçek değerle kazanılır. Yerel kurum üyelikleri, iş ortakları, yerel haber değeri taşıyan konular, kırık bağlantı fırsatları ve bağlantı verilmeye değer rehber içerikler daha yavaş ama güvenli yollardır. Hiçbiri anında sonuç vermez; çünkü her bağlantı başka birinin kararına bağlıdır. Kısa yolların bedelini genellikle sonradan ödersiniz. Alternatifler için [backlink satın almadan otorite nasıl artar?](/blog/backlink-satin-almadan-otorite-nasil-artar/) yazısına bakın.
 
+## Hacklink’e yönelten yanılgılar
+
+İnsanlar genellikle üç yanılgıyla hacklink teklifine kapılır. Birincisi, “herkes yapıyor” düşüncesidir; oysa bu yöntemi kullanan sitelerin sonradan görünürlük kaybettiği örnekler bilinir. İkincisi, “bağlantı gizli olduğu için fark edilmez” düşüncesidir; Google’ın spam politikası gizli bağlantıları ayrı bir başlıkta ele alır. Üçüncüsü, “bağlantıyı ben koymuyorum, satıcı koyuyor” düşüncesidir; ama bağlantının faydasını gören sitedir ve sorumluluk tartışması çıkabilir. Bu yanılgıları bilmek, teklif geldiğinde doğru karar vermenizi kolaylaştırır.
+
+## Siteniz hedef olmasın diye
+
+Hacklink satıcıları ele geçirilmiş siteler kullanır; bu yüzden sitenizin kendisi de hedef olabilir. Yazılımları güncel tutun, güçlü ve benzersiz parolalar kullanın, kullanılmayan eklenti ve kullanıcıları kaldırın, düzenli yedek alın ve iki aşamalı doğrulamayı açın. Search Console’da güvenlik bildirimlerini izleyin ve sitenizde tanımadığınız sayfa ya da bağlantı fark ederseniz hemen inceleyin. Önlem, müdahaleden çok daha ucuzdur.
+
+## Karar anında üç soru
+
+Bir bağlantı teklifi aldığınızda üç soru sorun: Bağlantı nasıl ve nerede yer alacak? Bunu siteyi yöneten kişi biliyor ve onaylıyor mu? Ücret karşılığıysa `sponsored` ile işaretlenecek mi? Cevaplar net ve şeffaf değilse teklifi reddedin. Şüphede kalmak, riske girmekten iyidir.
+
 ## Denizli SEO bu konuda nasıl yardımcı olur?
 
 Biz hacklink, satın alınmış toplu bağlantı ya da özel blog ağı kullanmıyoruz. Sitenizin bağlantı profilini inceler, şüpheli kaynakları tek tek değerlendirir, gerçekten gerekliyse Google’ın reddetme aracını kullanırız. Sonrasında yerel kurum, iş ortağı, haber ve içerik yoluyla hak edilmiş bağlantılar için çalışır, her ay yazılı rapor veririz. Sıralama garantisi vermeyiz. Örnek (hayalî bir işletme için): Pamukkale’de bir otelin sitesinde eski bir ajanstan kalan tuhaf bağlantılar fark ediliyor; bağlantılar tek tek incelenip nedenleri araştırılıyor ve gerekli olanlar için bir plan çıkarılıyor.

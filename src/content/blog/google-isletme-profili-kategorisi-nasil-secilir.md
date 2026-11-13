@@ -59,6 +59,12 @@ Profilinizi yılda bir kez bir denetimden geçirin. Önce müşterilerinizin siz
 
 Birden fazla şubeniz varsa her şube kendi profilini ve kendi kategorilerini taşır. Şubelerin hizmetleri farklıysa kategoriler de farklı olabilir; ama aynı hizmeti sunan şubelerde tutarlı kategori seçmek müşteri için net bir deneyim sağlar. Her şubenin birincil kategorisini o şubenin ana işine göre belirleyin. Ayrıntı için [birden fazla şubeli işletmeler için yerel SEO](/blog/birden-fazla-subeli-isletmeler-icin-yerel-seo/) yazısına bakın.
 
+## Kategori seçerken sık sorulan karar anları
+
+İki kategori arasında kaldığınızda şu üç soruyla karar verin. Müşteri beni ararken hangi kelimeyi kullanıyor? Gelirimin büyük kısmı hangi işten geliyor? Hangisini daha belirli bir tarifle yazabiliyorum? Cevap çoğu zaman birincil kategoriyi netleştirir. Kararı verdikten sonra seçtiğiniz kategoriyi bir not olarak saklayın ve nedenini yazın; böylece bir yıl sonra neden o kategoriyi seçtiğinizi hatırlarsınız.
+
+Yeni bir hizmet eklediğinizde hemen yeni kategori eklemeyin. Önce hizmet listesine ekleyin ve müşteri talebini birkaç ay izleyin. Talep kalıcıysa ve hizmet ana işinizin parçası hâline geldiyse ek kategori düşünün. Bu sabır, gereksiz doğrulama ve odak kaybını önler.
+
 ## Denizli SEO bu konuda nasıl yardımcı olur?
 
 Biz profilinizin kategori, hizmet ve açıklama alanlarını işletmenizin gerçeğine ve müşterinizin aramalarına göre gözden geçiririz. Kategorinin sıralamaya etkisini Google’ın yardım sayfasındaki ilkelere göre yönetir, gereksiz değişikliklerden kaçınır, doğrulama gerektiren değişiklikleri sizinle planlarız. Profil adına pazarlama ifadesi eklemeyiz; sıralama garantisi vermeyiz. Örnek (hayalî bir işletme için): Pamukkale’de bir otel için birincil ve ek kategori, müşteri aramaları ve profil kuralları birlikte değerlendirilerek yeniden belirlenir ve değişiklik raporlanır.
@@ -88,6 +94,14 @@ Hayır; Google’ın kurallarına göre işletme adına pazarlama etiketi ekleme
 ### Kategorileri ne sıklıkla gözden geçirmeliyim?
 
 Yılda bir kez ve yeni bir hizmet eklediğinizde ya da bıraktığınızda. Google, mevcut bir kategoriyi eklemenin ya da düzenlemenin yeniden doğrulama gerektirebileceğini söylediği için gereksiz sık değişiklikten kaçının.
+
+### Kategori yüzünden profilim kapanır mı?
+
+Kategori tek başına kapanma sebebi değildir; ama yanıltıcı ya da gerçeğe aykırı bilgi, Google’ın kurallarına aykırı olup profil sorunlarına yol açabilir. Kategorilerinizi işinizin gerçeğine göre seçin.
+
+### Hizmet bölgesi kategoriyi etkiler mi?
+
+Hizmet bölgesi ile kategori ayrı alanlardır; ikisini de gerçeğe uygun ve tutarlı doldurun. Ayrıntı için hizmet bölgesi rehberimize bakın.
 
 ## Kaynaklar
 

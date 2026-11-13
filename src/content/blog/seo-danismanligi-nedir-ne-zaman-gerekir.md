@@ -64,6 +64,22 @@ Danışmanlık fiyatı çoğunlukla işin kapsamına ve harcanacak emeğe bağl�
 
 Bu belgeler yoksa danışmanlığın değeri belirsizdir; sadece konuşma yapılmış olur. İlk görüşmede çıktıların neler olacağını yazılı isteyin. Google’ın SEO uzmanı rehberi de başarının nasıl ölçüleceğini sormayı önerir ([SEO uzmanı işe alma](https://developers.google.com/search/docs/fundamentals/do-i-need-seo?hl=tr)); ölçüm planı bu sorunun yazılı cevabıdır.
 
+## Danışmanlıkta sık yapılan hatalar
+
+İlk hata, danışmandan “sihirli” bir çözüm beklemektir; danışman yol gösterir ama uygulamayı kimin yapacağı belli olmazsa rapor rafta kalır. İkinci hata, danışmanlığı hiçbir ölçüm kurmadan almaktır; başlangıç verisi olmadan ilerleme değerlendirilemez. Üçüncü hata, danışmana erişim verirken sahipliği bırakmaktır; hesaplar sizde kalmalı. Dördüncü hata, birden çok kişinin çelişen önerilerini dinlemektir; yol haritasını tek bir sorumluya bağlayın. Beşinci hata, danışmanlığı bitirip izlemeyi bırakmaktır.
+
+## Danışmanlık ilişkisini nasıl yönetirsiniz?
+
+Başlangıçta hedefleri, görüşme sıklığını, çıktıları ve iletişim kanalını yazılı belirleyin. Her görüşmeden sonra kısa bir aksiyon listesi isteyin. Danışmanın önerilerini ekibinize ya da uygulayıcıya anlaşılır biçimde aktarmasını isteyin; teknik terimler açıklanmalı. Önerilerin hangisinin uygulandığını, hangisinin neden uygulanmadığını bir tabloda tutun. Üç ayda bir danışmanlığın işe yarayıp yaramadığını birlikte değerlendirin: yol haritası net mi, ilerleme ölçülebiliyor mu, ihtiyaç değişti mi?
+
+## Danışmanlıktan uygulamaya geçiş
+
+Danışmanlık raporundaki işleri kendi başınıza yapamıyorsanız uygulamaya geçiş planı yapın: hangi işler ekibinizde, hangileri bir ajansta ya da uzmanda yapılacak? Önceliklendirilmiş iş listesi, uygulayıcıya devredilebilecek kadar net olmalı. Geçiş sırasında danışmanın raporunu uygulayıcıyla paylaşın ve bir kısa devir görüşmesi isteyin. Bu devir, bilgi kaybını önler ve işin hızlı başlamasını sağlar.
+
+## Danışmanlık sonrası ilk 30 gün
+
+Danışmanlık raporunu aldıktan sonraki otuz gün kritiktir. İlk hafta öncelikli üç işi seçip sorumlularını belirleyin. İkinci haftada ilk düzeltmeleri uygulayın. Üçüncü haftada sonuçları doğrulayın (dizine ekleme, hız, profil). Dördüncü haftada ilk ilerleme değerlendirmesini yapıp danışmanla kısa bir görüşme planlayın. Bu otuz günlük ritim, raporun rafta kalmasını önler.
+
 ## Denizli SEO bu konuda nasıl yardımcı olur?
 
 Biz hem danışmanlık hem uygulama sunuyoruz. İsterseniz yalnızca sitenizin ve profilinizin durumunu inceleyip yazılı bir yol haritası veririz; isterseniz bu haritadaki işleri bizzat uygularız. Her iki durumda da bulguları ve öncelikleri yazılı olarak sunarız, hesap ve alan adı sahipliği sizde kalır, sıralama ya da sonuç garantisi vermeyiz. Örnek (hayalî bir işletme için): Pamukkale’deki bir otel, önce tek seferlik bir denetim ve yol haritası alıyor; ilk iki ayın işlerini kendi ekibiyle yapıyor, içerik ve yorum çalışmasını ise bizimle sürdürüyor.

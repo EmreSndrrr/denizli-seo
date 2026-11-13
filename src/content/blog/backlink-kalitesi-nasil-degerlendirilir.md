@@ -58,6 +58,18 @@ Sekiz sorudan altısına ya da yedisine “evet” diyebiliyorsanız bağlantı 
 
 Önemli bir bağlantıyı değerlendirirken sekiz soruyu bir not tablosuna yazın: bağlantının adresi, veren site, konu uyumu, okuyucu varlığı, yerleşim, bağlantı metni, neden verildiği, nitelendirme durumu ve getirdiği ziyaretçi. Her satıra “evet”, “hayır” ya da “belirsiz” yazın. Belirsizlerin yanına araştırma notu ekleyin. Bu tablo, üç ay sonra aynı bağlantıya baktığınızda neden öyle düşündüğünüzü hatırlamanızı sağlar; ajansla çalışıyorsanız rapordaki bağlantıları da aynı çizelgeyle denetleyebilirsiniz.
 
+## Kalite değerlendirmesinde sık yapılan hatalar
+
+En yaygın hata, puana bakıp karar vermektir: yüksek puanlı bir site konunuzla ilgisizse değeri düşüktür. İkinci hata, tek bir bağlantıya aşırı anlam yüklemektir; bağlantı profili bir bütün olarak okunmalıdır. Üçüncü hata, her şüpheli görünen bağlantıyı hemen reddetmeye kalkmaktır; Google çoğu zaman bağlantıları kendisi değerlendirir ve reddetme aracı ileri düzeydir. Dördüncü hata, kalitesiz bağlantıyı yalnızca “yabancı site” olduğu için kötü saymaktır; yabancı dilde de gerçek ve ilgili kaynaklar olabilir. Beşinci hata, değerlendirmeyi bir kez yapıp bırakmaktır.
+
+## Yerel bir işletme için gerçekçi bağlantı profili nasıl görünür?
+
+Yerel bir işletmenin sağlıklı bağlantı profili genellikle az sayıda ama anlamlı kaynaktan oluşur: oda ve dernek üye listeleri, yerel haber siteleri, iş ortakları, birkaç rehber ve zamanla kendiliğinden gelen anmalar. Yüzlerce bağlantı beklemeyin; çoğu işletme için on yirmi gerçek ve ilgili bağlantı, güçlü bir temeldir. Bu profilin değeri sayıdan değil, her bağlantının bir gerçek ilişkiye ya da değere dayanmasından gelir.
+
+## Bağlantı kalitesini ölçmek için üç aylık kontrol
+
+Üç ayda bir Search Console’un Bağlantılar raporunu açın, yeni bağlantı veren siteleri listeleyin ve sekiz soruyla hızlıca değerlendirin. Şüpheli ya da beklenmedik bir kaynak görürseniz nedenini araştırın: bir ajans, eski bir çalışma ya da doğal bir anma olabilir. Önemli bağlantıların hâlâ yayında olup olmadığını kontrol edin. Sonuçları kısa bir nota yazın; böylece yıllar sonra bile bağlantı geçmişinizi izleyebilirsiniz.
+
 ## Denizli SEO bu konuda nasıl yardımcı olur?
 
 Bağlantı profilinizi bu sekiz soru çerçevesinde inceler, şüpheli bağlantıları ve nedenlerini listeler, gerçekten gerekliyse reddetme sürecini yürütürüz. Sonrasında yeni bağlantıları yalnızca hak edilmiş yollarla (kurum, ortak, haber, içerik) kazanmak için çalışırız ve her ay yazılı rapor veririz. Satın alınmış bağlantı kullanmayız; sıralama garantisi vermeyiz. Örnek (hayalî bir işletme için): Merkezefendi’de bir muhasebe bürosunun profilinde otuz bağlantı var; yirmisi yerel kurum ve haber sitelerinden, onu ise tanımadığı yabancı bloglardan. İkinci grubun nedenleri araştırılıyor.

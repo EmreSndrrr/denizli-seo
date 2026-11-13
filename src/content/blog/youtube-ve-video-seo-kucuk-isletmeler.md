@@ -50,6 +50,18 @@ Google’ın belgesi, Search Console ile videoları izlemeyi de anlatır. Videol
 
 Telefonla çekim yeterlidir; ama ışığı, sesi ve görüntüyü ihmal etmeyin. Doğal ışıkta ya da iyi aydınlatılmış bir ortamda çekin, telefonu sabitleyin, sesi net alın (gürültülü ortamdan kaçının) ve ilk beş saniyede videonun neyi anlattığını söyleyin. Kısa tutun ve tek bir soruyu cevaplayın. Müşteri ya da çalışan görüntüsü varsa izin alın. Videoyu yayımlamadan önce telefonda izleyip sesin anlaşılır olduğunu kontrol edin.
 
+## Video SEO’da sık yapılan hatalar
+
+İlk hata, videoyu sayfanın görünmeyen bir yerine ya da başka öğelerin arkasına yerleştirmektir; Google’ın belgesi videonun gizlenmemesini ister. İkinci hata, küçük resim adresini sık değiştirmektir. Üçüncü hata, her videoyu aynı sayfada toplamaktır; önemli videolar için ayrı izleme sayfası daha anlaşılırdır. Dördüncü hata, videoyu yalnızca YouTube’da bırakıp sitenizde hiç değerlendirmemektir. Beşinci hata, video açıklamasını boş bırakmaktır; metin hem izleyiciye hem arama sistemlerine konuyu anlatır.
+
+## Video içerik planı
+
+İlk üç ayda üç video yeterlidir: hizmetin nasıl yapıldığını gösteren bir süreç videosu, sık sorulan bir soruyu cevaplayan bir kısa video ve işletmenin tanıtımı. Her video için bir izleme sayfası, başlık, kısa metin özeti ve ilgili hizmet sayfasına bağlantı hazırlayın. Yayından sonra sayfaların aramadaki görünürlüğünü ve videodan gelen talepleri izleyin. İşe yarayan türü çoğaltın, yaramayanı bırakın.
+
+## Videonun diğer kanallarda kullanımı
+
+Bir videoyu farklı kanallara uyarlayabilirsiniz: Google İşletme Profili gönderisi, sosyal medya, müşteri bülteni ve WhatsApp. Her kanal için kısa bir uyarlama yazın ve asıl içeriğe bağlantı verin. Aynı videoyu her yere aynı biçimde yüklemek yerine, kanalın izleyicisine uygun kısa bir kesit paylaşın. Bu, tek bir yatırımla daha çok kişiye ulaşmanızı sağlar.
+
 ## Denizli SEO bu konuda nasıl yardımcı olur?
 
 Biz hangi videoların işletmeniz için anlamlı olduğunu belirlemenize, izleme sayfalarının hazırlanmasına, videonun sayfaya doğru yerleştirilmesine, küçük resim ve meta verinin kurulmasına ve ölçüme yardımcı oluruz. Video çekimi ya da kurgusu ayrı bir iştir; bu yazıda bunu bir hizmet olarak vaat etmiyoruz. Sıralama ya da izlenme garantisi vermeyiz. Örnek (hayalî bir işletme için): Merkezefendi’de bir klima servisi için “Klima filtresi nasıl temizlenir?” videosunun izleme sayfası hazırlanır, video sayfaya gömülür, küçük resim ve açıklama yazılır, sayfa hizmet sayfasına bağlanır.

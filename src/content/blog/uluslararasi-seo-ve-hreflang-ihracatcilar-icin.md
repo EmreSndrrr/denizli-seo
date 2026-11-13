@@ -59,6 +59,18 @@ Otomatik çeviri tek başına güven vermez; teknik terimleri yanlış çevirmek
 
 Her dil sürümünün performansını ayrı izleyin: hangi dilde ziyaret ve talep geliyor, hangi ülkelerden? Search Console’da dil ve ülke kırılımlarına bakın; analiz aracında kaynak ve ülke verilerine bakın. Gelen teklif taleplerini dil ve ülke bilgisiyle kaydedin. Yeni bir dil sürümünün sonucunu görmek zaman alır; hızlı sonuç beklemeyin. Google, yeni bir sayfanın dizine eklenmesinin bir haftayı bulabileceğini söyler ([dizine ekleme raporu](https://support.google.com/webmasters/answer/7440203?hl=tr)).
 
+## Yabancı alıcı sitede ne kadar kalır, ne arar?
+
+Yabancı alıcı sitenizi genellikle bir tedarikçi doğrulama noktası olarak kullanır: firma gerçek mi, ürünleri ne, üretim nasıl, nasıl ulaşılır? Bu soruların cevabını ilk bir iki dakikada bulamazsa başka tedarikçiye geçer. Bu yüzden ana sayfanın ilk ekranında firmanın ne ürettiği, hangi pazarlara satış yaptığı ve nasıl ulaşılacağı hedef dilde net yazılmalıdır. Katalog indirme bağlantısı ve teklif formu görünür olsun. Alıcıya hızlı cevap vermek, sitedeki bilgi kadar önemlidir; teklif taleplerine hangi sürede dönebileceğinizi baştan netleştirin.
+
+## Çok dilli sitede sürdürülebilirlik
+
+Her dil sürümü bir bakım yükü getirir: ürün eklediğinizde ya da fiyat, katalog ve iletişim bilgisi değiştiğinde bütün dillerde güncelleme gerekir. Bu yükü karşılayamayacağınız bir dili açmak, eski ve çelişkili bilgiye yol açar. Dil sayısını kapasitenize göre belirleyin; her dil için bir sorumlu atayın ve içerik güncelleme sırasını belirleyin. Yeni ürün ya da değişiklikte önce ana dilde güncelleyip ardından diğer dillere yansıtan basit bir kontrol listesi kullanın.
+
+## Pazar araştırması ve kanal çeşitliliği
+
+Sitenizin hangi ülkelerden ziyaret aldığını Search Console ve analiz aracından izleyin; hangi ülkelerden teklif geldiğini kendi kaydınızla karşılaştırın. Bu veri, hangi dile öncelik vereceğinizi gösterir. Unutmayın ki ihracat alıcıları yalnızca arama motoruyla gelmez: fuarlar, referanslar, ticaret odası listeleri ve doğrudan iletişim önemli kanallardır. Site bu kanalların destekleyicisi olmalı; gelen bir alıcı sitenizi açtığında firmanızı güvenilir ve anlaşılır bulmalıdır.
+
 ## Denizli SEO bu konuda nasıl yardımcı olur?
 
 Biz ihracatçı üreticinin sitesini çok dilli yapıya göre planlarız: hangi dillerde hangi sayfalar, adres yapısı, hreflang kurulumu, kopya sayfa kontrolü, hız ve mobil uyum ve ölçüm. Çeviri ve içerik için işletmenizin doğrulanmış bilgisini kullanır, uydurma sertifika ya da referans yazmayız. Sıralama garantisi vermeyiz; yaptığımız işi yazılı raporlarız. Örnek (hayalî bir işletme için): Merkezefendi’de bir ev tekstili üreticisi için Türkçe ve İngilizce ürün ve firma sayfaları hreflang ile bağlanır; indirilebilir katalog ve teklif formu İngilizce sürümde de bulunur.

@@ -65,6 +65,18 @@ Denizli turizm, tekstil, mermer ve traverten gibi sektörlerle anılan bir şehi
 
 On iki sütunluk bir tablo hazırlayın: ay, talep durumu (düşük/orta/yüksek), o ay için içerik, güncellenecek sayfa, profil işi, sorumlu kişi. Her satırı bir ay önceden doldurun. Tabloyu ay başında açın ve o ayın işlerini kontrol edin; yıl sonunda hangi içeriklerin talep getirdiğini yanına yazın. Bu basit tablo, sezonu kaçırmamanızı ve bir sonraki yıl için öğrendiklerinizi saklamanızı sağlar. Mevsimsel konularda kesin tarih bilgisi yazmadan önce resmî kaynaklardan doğrulayın; yanlış tarih, müşteriyi yanıltır.
 
+## Mevsimsel içerikte sık yapılan hatalar
+
+En sık hata, mevsim başladıktan sonra yazı yazmaktır; o zaman rakipler çoktan görünür olmuştur. İkinci hata, her yıl aynı sayfayı silip yenisini açmaktır; bu, sayfanın birikmiş görünürlüğünü ve bağlantılarını kaybettirir. Üçüncü hata, eski sezonun fiyat ve tarih bilgisini sayfada bırakmaktır; müşteri yanlış bilgiyle gelir. Dördüncü hata, takvimi kendi verinize değil tahmine dayandırmaktır. Beşinci hata, yalnızca yoğun dönemi düşünüp sezon dışını boş bırakmaktır; oysa hazırlığın büyük kısmı bu dönemde yapılır. Bu hataların hepsi, ay başında açılan basit bir kontrol tablosuyla önlenebilir.
+
+## Takvimi ekibinize nasıl benimsetirsiniz?
+
+Takvim yalnızca yazı yazan kişinin değil, işi yapan herkesin bilmesi gereken bir plandır. Satış ya da servis ekibine her dönem başında “önümüzdeki iki ay müşteri en çok neyi soracak?” diye sorun ve cevapları takvime ekleyin. Sezon öncesi kapasite, stok ve randevu planını içerikle birlikte konuşun: müşteri içerik üzerinden gelir ama işletme hazır değilse deneyim bozulur. Takvimi herkesin görebildiği bir yerde tutun ve her ayın sonunda “ne işe yaradı, ne yaramadı?” sorusunu kısa bir toplantıda cevaplayın.
+
+## Mevsimsel takvimde ölçüm ve öğrenme
+
+Her sezonun sonunda üç soruyu cevaplayın: hangi içerik talep getirdi, hangisi hiç görünmedi, hangi soru içeriğimizde cevapsız kaldı? Cevapları bir sonraki yıl için takvim notlarına yazın. Aynı sayfanın önceki yıl ve bu yıl performansını (gösterim, tıklama, talep) karşılaştırın; artışı yalnızca içeriğe bağlamayın, sezon etkisini ve başka etkenleri de not edin. Bu kayıt, birkaç yıl içinde kendi sektörünüzün gerçek talep eğrisini ortaya çıkarır.
+
 ## Denizli SEO bu konuda nasıl yardımcı olur?
 
 Biz işletmenizin geçmiş verisinden bir talep takvimi çıkarır, her dönem için içerik ve profil hazırlığını planlar, sezon öncesi yazıları yayımlar, dönemsel sayfaları aynı adreste güncelleriz ve sonuçları raporlarız. Talep tahmini ya da sıralama garantisi vermeyiz. Örnek (hayalî bir işletme için): Merkezefendi’de bir klima servisi için nisan ayında başlayan talebe göre, şubat ayında bakım rehberi ve hizmet sayfası güncellemesi hazırlanır; profil saatleri ve fotoğrafları yenilenir.
@@ -94,6 +106,14 @@ Garanti yok; zamanında yayımlanan yararlı içerik, müşterinin sizi bulma ih
 ### Mevsimsel içeriği sosyal medyada da paylaşmalı mıyım?
 
 İsterseniz kısa bir uyarlamayla paylaşabilirsiniz; ana içerik sitenizde kalmalı ve paylaşım oraya bağlanmalıdır.
+
+### Sezon bittikten sonra içeriğe ne yapmalıyım?
+
+Sezon bilgilerini (tarih, fiyat, duyuru) çıkarın, kalıcı bilgiyi koruyun ve sayfayı bir sonraki yıl için hazır bırakın. Sayfayı silmeyin; aynı adreste güncellemek birikmiş görünürlüğü korur.
+
+### Takvimi kimler hazırlamalı?
+
+İşi sahada yapan kişilerle içeriği yazan kişi birlikte hazırlamalı; talebi en iyi bilen ekip, içeriği en iyi planlayan kişiyle buluşunca takvim gerçekçi olur.
 
 ## Kaynaklar
 

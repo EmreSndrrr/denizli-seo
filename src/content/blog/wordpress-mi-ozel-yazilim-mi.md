@@ -61,6 +61,18 @@ Mümkündür ama bir site taşımasıdır. Adresler, içerik ve yönlendirmeler 
 
 Karar vermeden önce ihtiyaçlarınızı yazın: kaç sayfa, hangi özellikler, içeriği kim güncelleyecek, hız ve güvenlik beklentisi, bütçe ve büyüme planı. Sonra her altyapı seçeneğine aynı listeyle bakın. Bu liste, satıcının sunumundan bağımsız bir ölçü sağlar; “güzel görünüyor” kararını “ihtiyacımı karşılıyor” kararına çevirir. Teklifleri bu listeyle okuduğunuzda hangi seçeneğin neyi eksik bıraktığını görürsünüz.
 
+## Yanlış seçimin bedeli ve geri dönüş
+
+Yanlış altyapı seçimi, çoğu zaman bir iki yıl sonra fark edilir: site yavaşlamıştır, güncelleme zorlaşmıştır ya da yeni özellik eklenemiyordur. Bu noktada yeniden yapım gündeme gelir ve bu bir site taşıma sürecidir: adresler, içerik ve yönlendirmeler planlı taşınmalıdır. Bedeli azaltmak için en baştan içeriği standart biçimlerde tutun, adres yapısını sabit planlayın ve ajans ya da geliştiriciyle yapılan sözleşmede kaynak dosyaların teslimini yazdırın. Böylece ileride geçiş yapmanız gerekirse elinizde taşınabilir bir temel olur.
+
+## Karar toplantısına hazırlık
+
+Altyapı kararını verirken üç şey hazırlayın: ihtiyaç listesi, bütçe aralığı ve bakım kapasitesi. İhtiyaç listesinde mutlaka olması gerekenleri ve sonraya bırakılabilecekleri ayırın. Bakım kapasitesinde kimin güncelleme, yedek ve güvenlik işlerini yapacağını yazın. Satıcıdan her seçenek için aynı soruların cevaplarını isteyin: ilk yıl toplam maliyet, bakım, güvenlik, hız hedefi, taşınabilirlik. Cevapları yan yana koyduğunuzda karar çoğu zaman netleşir.
+
+## Hız hedefini sözleşmeye yazın
+
+İki yaklaşımda da hızı garanti eden otomatik bir yapı yoktur. Bu yüzden teslim öncesinde ölçülecek bir hız hedefi belirleyin: ana sayfa ve bir hizmet sayfası için gerçek bir telefonda açılış süresi ve Core Web Vitals değerleri. Hedefin hangi araçla, hangi koşulda ölçüleceğini yazın. Teslimde ölçüm yapın ve hedefin altında kalırsa düzeltme yükümlülüğünü sözleşmeye ekleyin. Bu, “hızlı olacak” sözünü ölçülebilir bir taahhüde çevirir.
+
 ## Denizli SEO bu konuda nasıl yardımcı olur?
 
 Biz web tasarımı aramaya göre ve markaya özel kurarız; altyapıyı ihtiyacınıza göre sizinle birlikte seçeriz. Hangi yaklaşım seçilirse seçilsin başlık, açıklama, adres düzeni, site haritası, yapılandırılmış veri, hız ve ölçüm yayından önce hazırlanır; kaynak dosya ve hesap sahipliği sizde kalır. Sıralama garantisi vermeyiz. Örnek (hayalî bir işletme için): Merkezefendi’de bir klinik, sınırlı bütçesi ve kendi içeriğini yönetme isteği nedeniyle sade bir altyapıyla başlıyor; hizmet sayısı ve çoklu dil ihtiyacı artınca özel bir yapıya geçiş planlanıyor.

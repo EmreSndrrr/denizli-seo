@@ -50,6 +50,18 @@ Sitenin zamanında hazırlanması işletmenin katkısına da bağlıdır: ihtiya
 
 Her aşamanın sonunda yazılı bir onay alın: ihtiyaç belgesi, site planı, tasarım, içerik, test sonucu. Onay noktaları, sürecin ileri geri gitmesini önler; çünkü bir aşama onaylandıktan sonra değişiklik yapmak hem zaman hem maliyet demektir. Onayların tarihi ve kapsamı yazılı tutulursa, sonradan “bunu böyle istememiştik” tartışması azalır. Küçük işlerde bile bir e-posta onayı yeterlidir.
 
+## Süreçte sık yapılan hatalar
+
+İlk hata, içerik hazırlığını sona bırakmaktır; tasarım bitmiş ama metin yokken proje durur. İkinci hata, kapsamın sürekli genişlemesidir; her yeni istek zamanı ve maliyeti artırır. Üçüncü hata, onay noktalarını yazılı tutmamaktır. Dördüncü hata, test aşamasını atlayıp doğrudan yayına almaktır. Beşinci hata, yayından sonra izleme yapmamaktır; kırık bir form ya da yanlış bir yönlendirme haftalarca fark edilmeyebilir.
+
+## Yayına hazırlık için son hafta
+
+Yayından önceki son hafta, yeni özellik eklenmeyen bir doğrulama haftası olmalıdır. İçerik ve görseller son kez okunur, tüm formlar ve iletişim yolları gerçek cihazlarda denenir, hız ölçülür, başlık ve açıklamalar kontrol edilir, test ortamından kalan engeller temizlenir ve yönlendirme listesi doğrulanır. Yayın günü için kimin ne yapacağını ve bir sorun çıkarsa kimi arayacağınızı yazın. Hazırlıklı bir yayın, sakin geçer.
+
+## Yayından sonraki ilk üç ay
+
+Yayın sonrası ilk üç ay, sitenin gerçek davranışını gösterir. İlk ay hata ve ölçüm doğrulamasına, ikinci ay içeriğin ve sayfaların iyileştirilmesine, üçüncü ay ilk performans değerlendirmesine ayrılır. Gelen talepleri kaynakla kaydedin ve ay sonunda yazılı bir değerlendirme yapın. Bu dönemde yapılan küçük düzeltmeler, çoğu zaman büyük yenilemelerden daha çok fark yaratır.
+
 ## Denizli SEO bu konuda nasıl yardımcı olur?
 
 Biz siteyi aramaya göre planlayarak başlarız: önce müşterinizin aramalarını çıkarır, her aramanın karşılığı olan sayfaları planlar, sonra markanıza özel tasarlar ve kodlarız. Teknik SEO temeli, ölçüm altyapısı ve eski siteden yönlendirmeler yayından önce hazırlanır; yayından sonra ilk aydan itibaren rakamla rapor veririz. Sıralama garantisi vermeyiz. Örnek (hayalî bir işletme için): Pamukkale’de bir termal otel için ilk hafta ihtiyaç ve arama analizi, ikinci hafta site planı, sonraki haftalarda tasarım, içerik ve teknik kurulum, ardından test ve yayın planlanır; süre kapsama göre teklifte yazılır.

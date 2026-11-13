@@ -67,6 +67,10 @@ Analytics gibi araçlar ziyaretçi verisi toplar; bu da gizlilik ve çerez gerek
 
 Analytics eylemleri sayar; müşteriye dönüşmeyi söylemez. Bu yüzden analiz aracındaki telefon, WhatsApp ve form eylemlerini kendi talep kayıt tablonuzla birlikte okuyun: gelen taleplerin kaçı müşteri oldu? Bu kayıtla analiz verisi birleştiğinde, hangi sayfaların ve kaynakların işe yaradığı netleşir. Kayıt tablosunu ayda bir güncelleyin ve “bizi nereden buldunuz?” cevabını ekleyin.
 
+## Raporu başkasına devrederken
+
+Raporları ajans ya da ekip arkadaşıyla paylaşıyorsanız erişim yetkisini en düşük gerekli düzeyde verin ve hesabın sahipliğini kendinizde tutun. Hangi raporlara ve hangi sıklıkla bakılacağını yazılı belirleyin. Ayrılan biri olursa erişimini hemen kapatın. Kurulumda yapılan özel ayarları (eylem tanımları, filtreler) bir belgeye yazın; kurulumu yapan kişi ayrıldığında bilgi kaybolmasın.
+
 ## Denizli SEO bu konuda nasıl yardımcı olur?
 
 Biz ölçüm altyapısını sitenizin kurulumuyla birlikte hazırlarız: Search Console, analiz aracı, telefon, WhatsApp ve form eylemlerinin ölçümü. Raporları işletmeniz için anlamlı birkaç soruya indirger, aylık yazılı raporda yorumlarız. Veri toplama ve izin konularında ilgili gerekliliklere göre hareket etmenizi öneririz; sıralama ya da talep garantisi vermeyiz. Örnek (hayalî bir işletme için): Merkezefendi’de bir klinik, randevu formu ve WhatsApp tıklamalarını ölçüyor; aylık raporda hangi sayfanın daha çok randevu getirdiğine bakıyor.
@@ -96,6 +100,14 @@ Genel bakış raporları ve edinme (kaynak), sayfa ve eylem raporları çoğu i�
 ### Analytics verisi neden gerçek müşteri sayısıyla uyuşmaz?
 
 Analytics ziyaret ve eylemleri ölçer; müşteriye dönüşme, telefon görüşmesi ya da satışla sonuçlanır ve çoğu zaman sizin kaydınızdadır. Bu yüzden ikisi birebir uyuşmaz.
+
+### Analytics’i hangi sıklıkla açmalıyım?
+
+Ayda bir düzenli bakış çoğu küçük işletme için yeterlidir; kampanya ya da sezon dönemlerinde haftalık bakabilirsiniz. Her açışta aynı beş soruya bakmak, tutarlı bir okuma alışkanlığı sağlar ve değişimleri fark etmenizi kolaylaştırır.
+
+### Analytics’te hangi ayarlar önce yapılmalı?
+
+Önce veri akışının doğru çalıştığını, sonra telefon, WhatsApp ve form eylemlerinin ölçüldüğünü doğrulayın; ayrıntıları kurulumu yapan kişiyle netleştirin.
 
 ## Kaynaklar
 
