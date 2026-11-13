@@ -306,6 +306,10 @@ const POST_MOTIF = {
   'olumsuz-google-yorumuna-nasil-cevap-verilir': 'pins',
   'hizmet-bolgesi-nasil-belirlenir': 'pins',
   'yakinimda-aramalarinda-gorunmek': 'pins',
+  'seo-calismasi-neleri-kapsar': 'gauge',
+  'seo-paketleri-neler-dahil-olmali': 'doc',
+  'aylik-seo-calismasi-nasil-isler': 'chart',
+  'seo-danismanligi-nedir-ne-zaman-gerekir': 'lens',
 };
 
 function posts() {

@@ -176,10 +176,10 @@ Biçim: Venti blog düzeni (`docs/seo-yazi-talimati.md`): cevap-önce giriş, 7�
 
 ### Teknik SEO
 
-- [ ] 108. SEO Çalışması Neleri Kapsar? Kalem Kalem Anlatım — `teknik-seo` — seo çalışması — `seo-calismasi-neleri-kapsar` — not: Satış odaklı: hizmet kapsamı; vaat yok
-- [ ] 109. SEO Paketleri: Pakette Neler Olmalı? — `teknik-seo` — seo paketleri — `seo-paketleri-neler-dahil-olmali` — not: Satış odaklı: paket karşılaştırma ölçütleri; fiyat rakamı yok
-- [ ] 110. Aylık SEO Çalışması Nasıl İşler? Süreç ve Rapor — `teknik-seo` — aylık seo — `aylik-seo-calismasi-nasil-isler` — not: Satış odaklı: ay ay iş akışı
-- [ ] 111. SEO Danışmanlığı Nedir? Ne Zaman Gerekir? — `teknik-seo` — seo danışmanlığı — `seo-danismanligi-nedir-ne-zaman-gerekir` — not: Satış odaklı: danışmanlık ve uygulama farkı
+- [x] 108. SEO Çalışması Neleri Kapsar? Kalem Kalem Anlatım — `teknik-seo` — seo çalışması — `seo-calismasi-neleri-kapsar` — not: Satış odaklı: hizmet kapsamı; vaat yok
+- [x] 109. SEO Paketleri: Pakette Neler Olmalı? — `teknik-seo` — seo paketleri — `seo-paketleri-neler-dahil-olmali` — not: Satış odaklı: paket karşılaştırma ölçütleri; fiyat rakamı yok
+- [x] 110. Aylık SEO Çalışması Nasıl İşler? Süreç ve Rapor — `teknik-seo` — aylık seo — `aylik-seo-calismasi-nasil-isler` — not: Satış odaklı: ay ay iş akışı
+- [x] 111. SEO Danışmanlığı Nedir? Ne Zaman Gerekir? — `teknik-seo` — seo danışmanlığı — `seo-danismanligi-nedir-ne-zaman-gerekir` — not: Satış odaklı: danışmanlık ve uygulama farkı
 - [ ] 112. Google Sıralama Faktörleri: Yanlış Bilinenler — `teknik-seo` — google sıralama — `google-siralama-faktorleri-yanlis-bilinenler` — not: Yalnızca Google’ın doğruladığı cümleler (how-search-works, spam, sayfa deneyimi)
 - [ ] 113. SEO Analiz Araçları: Ücretsiz mi, Ücretli mi? — `teknik-seo` — seo analiz aracı — `seo-analiz-araclari-ucretsiz-ve-ucretli` — not: Search Console öncelikli; üçüncü taraf puanlar Google ölçüsü değil
 - [ ] 114. Google Analytics 4: İşletmeler İçin Temel Raporlar — `teknik-seo` — ga4 raporları — `google-analytics-4-temel-raporlar-isletmeler-icin` — not: support.google.com/analytics sayfası doğrulanacak
