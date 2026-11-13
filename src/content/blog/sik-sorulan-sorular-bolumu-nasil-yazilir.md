@@ -112,6 +112,18 @@ Müşteriyle konuşan kişi ilk taslağı çıkarmalıdır; çünkü sorular ve 
 
 Müşteri mesajlarından en sık gelen beş soruyu seçin. Her birini bir H3 başlığı olarak yazın ve cevabı iki üç cümleyle verin; ilk cümle doğrudan cevap olsun. Sayfada görünür olmayan sorular eklemeyin. Cevapları yılda bir güncelleyin.
 
+## SSS bölümünü satışa nasıl bağlarsınız?
+
+Sık sorulan sorular, müşterinin karar anında yaşadığı tereddütleri giderir: fiyat, süre, güvence, süreç. Her cevabın sonunda doğal bir sonraki adım önerin: “Fiyat için fotoğraf göndererek WhatsApp’tan teklif alabilirsiniz.” Cevapları abartmadan ve doğrulanabilir biçimde yazın; garanti ve sonuç vaadi vermeyin. Bölümün sonuna kısa bir iletişim çağrısı ekleyin ama soruları reklam metnine çevirmeyin.
+
+### SSS bölümünde kaç soru olmalı?
+
+Sayı yok; gerçekten sorulan soruları cevaplayın. Beş altı soru çoğu sayfa için yeterlidir.
+
+## SSS’yi müşteri mesajlarıyla yenilemek
+
+Üç ayda bir WhatsApp ve telefon kayıtlarına bakıp yeni sorular çıkarın; cevabı değişen soruları güncelleyin, artık sorulmayanları kaldırın. Canlı bir SSS, güven verir.
+
 ## Denizli SEO bu konuda nasıl yardımcı olur?
 
 SSS yazmak, müşterinin dilini bilmeyi gerektirir. [İçerik SEO hizmetimizde](/icerik-seo/):

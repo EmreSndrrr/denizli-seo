@@ -92,6 +92,10 @@ Hedefi “her ay bağlantı almak” olarak koymayın. Daha gerçekçi hedef, ü
 
 Karmaşık araçlara gerek yoktur. Bir tablo, bir e-posta hesabı ve bir fotoğraf klasörü yeterlidir. Tabloya yayın adı, editör adı, gönderdiğiniz konu, gönderim tarihi, cevap ve sonuç sütunlarını koyun. Fotoğrafları konu başına klasörleyin ve her fotoğrafın kullanım iznini not edin. Haberin metnini bir belgede saklayın; aynı bilgiyi başka yayınlara uyarlayarak değil, her yayına uygun biçimde yeniden yazarak gönderin. Yerel yayınların takvimine de bakın: bayram, sezon başı, okul dönemi gibi dönemlerde belirli konular daha çok ilgi görür.
 
+## Yerel basında ilişki kurmak
+
+Editörlere yalnızca bir şey istediğinizde yazmayın; yararlı bilgi, doğru bir veri ya da bölgesel bir gelişme paylaştığınızda da iletişim kurun. Zamanla sizi güvenilir bir kaynak olarak tanırlar. Bu küçük alışkanlık, çalışmanın zamanla daha net ve ölçülebilir hâle gelmesini sağlar.
+
 ## Denizli SEO bu konuda nasıl yardımcı olur?
 
 [Backlink hizmetimizde](/backlink-hizmeti/):
@@ -124,6 +128,14 @@ Zorunlu değil. Doğru ve ilginç bir konunuz varsa küçük bir işletme de edi
 ### Haberim yayımlanmazsa ne yapmalıyım?
 
 Aynı içeriği kendi sitenizde rehber olarak yayımlayın ve bir sonraki güçlü konuyu bekleyin. Her konu haber olmaz.
+
+### Yerel haberde fotoğraf kime ait olmalı?
+
+Kendi çektiğiniz ya da kullanım hakkına sahip olduğunuz fotoğrafları gönderin; kişi ve çocuk görüntüleri için izin alın.
+
+### Haberde fiyat ya da kampanya yazılabilir mi?
+
+Reklam niteliği taşıyan içerikler editoryal habere benzemez; ücretli yayın gerekiyorsa bunu açıkça konuşun ve bağlantının `sponsored` ile işaretleneceğini unutmayın.
 
 ## Kaynaklar
 

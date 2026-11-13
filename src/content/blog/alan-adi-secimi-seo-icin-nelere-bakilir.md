@@ -80,6 +80,18 @@ Marka değişimi ya da yanlış seçim nedeniyle alan adını değiştirmeniz ge
 
 Alan adı seçerken sırayla şunları yapın: kısa, yazması kolay ve markanızla uyumlu birkaç aday yazın; telefonda birine söyleyip doğru yazıp yazamadığını deneyin; uygunluğu ve geçmişini kontrol edin; kendi adınıza kaydedin; yenilemeyi otomatik hâle getirin. Anahtar kelime tek başına sizi sıralamaya taşımaz; sayfa içeriğiniz ve işletmenizin tanınırlığı daha belirleyicidir. Seçiminiz uzun yıllar sizinle kalacağı için acele etmeyin.
 
+## Alan adı seçiminde örnek bir değerlendirme
+
+Örnek (hayalî bir işletme için): Merkezefendi’de yeni açılacak bir klima servisi üç aday yazıyor: kısa marka adı, hizmet+şehir birleşimi ve iki kelimelik bir marka. Telefonda üç kişiye söyletiyor; kısa marka adını herkes doğru yazıyor, uzun olanı yanlış yazıyor. Alan boşluğunu ve geçmişini kontrol ediyor, marka çakışmasına bakıyor ve kısa marka adını kendi adına kaydediyor. Anahtar kelimeyi sayfa başlıklarında kullanıyor.
+
+### Alan adını sosyal medya ile uyumlu seçmeli miyim?
+
+Evet; aynı marka adını kullanmak tanınırlığı kolaylaştırır.
+
+## Alan adı kayıtlarını saklayın
+
+Alan adının kayıt tarihi, yenileme tarihi, kayıt firması ve yönetim bilgilerini güvenli bir belgede tutun.
+
 ## Denizli SEO bu konuda nasıl yardımcı olur?
 
 [SEO uyumlu web tasarım hizmetimizde](/web-tasarim/):

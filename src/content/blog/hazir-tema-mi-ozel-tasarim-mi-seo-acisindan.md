@@ -102,6 +102,10 @@ Temayı sonradan değiştirmek mümkündür ama dikkat ister. Adresler (URL) de�
 
 Bütçe sınırlıysa iyi seçilmiş ve sadeleştirilmiş bir hazır tema, kötü planlanmış bir özel tasarımdan daha iyidir. Bütçe uygunsa ve sitenizin işinizin merkezinde olacağını biliyorsanız özel tasarıma yatırım yapmak mantıklıdır. Kararınızı verirken şunu hesaplayın: siteniz ayda kaç müşteriyle temas kuruyor ve bu müşterilerin değeri ne kadar? Rakamlar küçükse hazır temayla başlayıp büyüdükçe yenilemek akılcıdır.
 
+## Tema kararını bir yıl sonrasına göre verin
+
+Bugünkü ihtiyaca değil, bir yıl sonraki ihtiyaca da bakın: sayfa sayısı artacak mı, yeni özellik gerekecek mi? Bu bakış, ileride yeniden yapım maliyetini azaltır.
+
 ## Denizli SEO bu konuda nasıl yardımcı olur?
 
 [SEO uyumlu web tasarım hizmetimizde](/web-tasarim/):
@@ -134,6 +138,10 @@ Kendi içeriğinizle test edildiğinde hızlı, mobilde rahat ve başlık yapıs
 ### Özel tasarımda hız garantisi var mıdır?
 
 Hayır; özel tasarım hızlı olabilir ama otomatik değildir. Sözleşmede ölçülecek hız hedeflerini ve ölçüm yöntemini yazdırın.
+
+### Tema satıcısından hangi belgeleri istemeliyim?
+
+Güncelleme politikası, destek süresi ve lisans koşulunu yazılı isteyin.
 
 ## Kaynaklar
 

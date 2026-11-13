@@ -120,6 +120,10 @@ Bu sorulara cevap veremeyen bir rapor, sadece sayı listesidir; sorulara cevap v
 
 Her şubenin raporu ayrıdır. Şubeleri yan yana koyup karşılaştırın: hangi şubenin yol tarifi sayısı yüksek, hangisinin araması düşük? Düşük olan şubede fotoğraf, saat, yorum ya da telefon gibi eksikleri kontrol edin. Şubeleri toplayıp tek rakam olarak okumak, sorunlu şubeyi gizler. Çok şubeli yerel SEO düzeni için [birden fazla şubeli işletmeler](/blog/birden-fazla-subeli-isletmeler-icin-yerel-seo/) yazımıza bakın.
 
+## Raporu aylık notla birleştirin
+
+Her ay rapordan üç sayıyı (arama, yol tarifi, site tıklaması) ve yaptığınız profil değişikliklerini not edin. Üç ay sonra hangi değişikliğin hangi etkileşimle aynı döneme denk geldiğini görürsünüz.
+
 ## Denizli SEO bu konuda nasıl yardımcı olur?
 
 Rakamlara bakmak kolay, anlamlandırmak zordur. [Yerel SEO hizmetimizde](/yerel-seo/):
@@ -156,6 +160,14 @@ Hayır. Performans bölümü yalnızca kendi profilinizin verilerini gösterir.
 ### Performans raporu sıralama garantisi mi verir?
 
 Hayır. Rapor, profilin nasıl kullanıldığını gösterir; sıra için garanti vermez.
+
+### Profil raporunda düşüş görürsem ne yapmalıyım?
+
+Önce mevsimselliği ve profil değişikliklerini kontrol edin; sonra çalışma saatleri, kategori ve yorumlara bakın. Tek aylık dalgalanmaya göre karar vermeyin.
+
+### Rapordaki sayılar gerçek müşteri sayısı mıdır?
+
+Hayır; eylemleri gösterir. Gerçek müşteri sayısını kendi kaydınızdan takip edin.
 
 ## Kaynaklar
 

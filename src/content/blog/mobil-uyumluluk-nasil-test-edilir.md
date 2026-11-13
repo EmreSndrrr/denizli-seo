@@ -92,6 +92,10 @@ Düzeltme sırası: önce telefonda gizlenen içeriğin görünür kılınması,
 
 Her düzeltmeyi tek tek yapın ve sonuçları bir tabloya yazın: tarih, yapılan iş, telefonda açılış süresi, kalan sorun. Birden çok değişikliği aynı anda yaparsanız hangisinin işe yaradığını anlayamazsınız. Telefonla ölçmeyi Core Web Vitals raporu ve PageSpeed Insights ile birleştirin.
 
+## Test sonuçlarını kaydedin
+
+Test ettiğiniz cihaz, tarayıcı ve bulguları bir tabloya yazın; sorun giderildikten sonra aynı testi tekrarlayın. Böylece gerilemeleri fark edersiniz.
+
 ## Denizli SEO bu konuda nasıl yardımcı olur?
 
 Mobil uyumluluk, Google’ın siteyi gördüğü ekran olduğu için teknik SEO’nun merkezindedir. [Teknik SEO hizmetimizde](/teknik-seo/):
@@ -128,6 +132,10 @@ Google, duyarlı tasarımı önerir; ayrı mobil site daha fazla bakım ve hata 
 ### Hangi telefonla test etmeliyim?
 
 Elinizdeki gerçek telefonla; mümkünse hem iPhone hem Android ile ve mobil veriyle deneyin.
+
+### Telefonda test için hangi ağı kullanmalıyım?
+
+Mobil veriyi ve Wi-Fi’yi ayrı deneyin; gerçek müşteri koşullarını yansıtır.
 
 ## Kaynaklar
 

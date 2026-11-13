@@ -100,6 +100,18 @@ Konu kümesi bir sıralama garantisi değildir; Google’ın tek bir resmî “k
 
 En çok gelir getiren hizmetinizi seçin. Müşterilerin bu hizmetle ilgili en sık sorduğu beş soruyu yazın. Her biri için bir yazı planlayın ve merkez sayfaya bağlanacağını not edin. Önce merkez sayfayı güncelleyin, sonra yazıları sırayla yazın. Beş yazı tamamlandığında kümeniz çalışmaya başlar.
 
+## Konu kümesini bir örnekle somutlaştırmak
+
+Örnek (hayalî bir işletme için): Pamukkale’de bir diş kliniği “implant tedavisi” hizmet sayfasını merkez alıyor. Destek yazıları: implant kimler için uygun, tedavi süreci nasıl işler, implant sonrası bakım, implant ile köprü farkı, tedaviye hazırlık için sorulacaklar. Her yazı hizmet sayfasına ve ilgili yazılara bağlanıyor; hizmet sayfası da en önemli üç yazıya bağlanıyor. Tıbbi iddialar uzmanca doğrulanıyor ve sonuç vaadi yazılmıyor.
+
+### Küme tamamlandıktan sonra ne yapılır?
+
+Üç ayda bir ölçün, çakışanları birleştirin, eskiyenleri güncelleyin ve yeni müşteri sorularını kümeye ekleyin.
+
+## Küme için kontrol sorusu
+
+Her destek yazısına bakıp “bu yazı merkez sayfaya bağlanıyor mu, aynı soruyu başka yazı da cevaplıyor mu?” diye sorun.
+
 ## Denizli SEO bu konuda nasıl yardımcı olur?
 
 Konu kümesi, içerik stratejisinin iskeletidir. [İçerik SEO hizmetimizde](/icerik-seo/):

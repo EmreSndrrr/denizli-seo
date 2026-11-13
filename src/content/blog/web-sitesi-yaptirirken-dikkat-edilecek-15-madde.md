@@ -80,6 +80,18 @@ Alan adı, hosting ve yönetim paneli bilgileri sizin adınıza ve sizde olmalı
 
 Teklif veren firmaya şunları sorun: Alan adı ve hosting kimin adına olacak? İçeriği kim hazırlayacak? Yayın sonrası kaç ay destek var? SEO ayarları (başlık, URL, hız, mobil, yönlendirme) teklife dahil mi? Çalışmayı bitirdiğinizde hangi dosya ve erişimleri teslim alacağım? Net cevap alamazsanız kapsamı yazılı hâle getirmeden ilerlemeyin. Bu beş soru, çoğu sonradan çıkan sorunu baştan çözer.
 
+## Yaptırdıktan sonra sitenin sahipliğini koruyun
+
+Site yayına çıktığında şunları teslim alın ve güvenli bir yerde saklayın: alan adı ve hosting hesap bilgileri, yönetim paneli erişimi, kaynak dosyalar ve tasarım dosyaları, kullanılan eklentilerin ve lisansların listesi, Search Console ve analiz hesaplarının yönetici erişimi. Yılda bir bu listeyi kontrol edin ve ayrılan kişilerin erişimini kapatın. Sahiplik, sitenizin gerçek değeridir.
+
+### Yaptırdıktan sonra kimden destek alırım?
+
+Sözleşmede destek süresini ve kapsamını yazdırın; süre bittiğinde bakım için ayrı bir anlaşma yapın.
+
+## Kontrol listesini sözleşmeye eklemek
+
+15 maddelik listeyi sözleşmeye ek olarak imzalatmak, her maddenin teslim edilip edilmediğini kontrol etmenizi kolaylaştırır. Bu küçük alışkanlık, çalışmanın zamanla daha net ve ölçülebilir hâle gelmesini sağlar.
+
 ## Denizli SEO bu konuda nasıl yardımcı olur?
 
 [SEO uyumlu web tasarım hizmetimizde](/web-tasarim/):

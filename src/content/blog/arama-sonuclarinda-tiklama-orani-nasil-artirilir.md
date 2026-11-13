@@ -92,6 +92,10 @@ Bir başlığı değiştirdikten sonra en az dört hafta bekleyin; daha kısa s�
 
 Search Console’da gösterimi yüksek, tıklaması düşük beş sayfayı bulun. Her birinin başlığını arama niyetine göre yeniden yazın. Dört hafta sonra karşılaştırın. Bu küçük döngü, çoğu işletme için tıklamayı artırmanın en düşük maliyetli yoludur.
 
+## Tıklama oranı çalışmasını ayda bir tekrarlamak yeterlidir
+
+Her ay gösterimi yüksek beş sayfayı seçip başlıklarını gözden geçirin; bir önceki ayın değişikliklerinin sonucunu not edin. Böylece hangi başlık biçiminin sizin müşteriniz için işe yaradığını zamanla öğrenirsiniz. Bu küçük alışkanlık, çalışmanın zamanla daha net ve ölçülebilir hâle gelmesini sağlar.
+
 ## Denizli SEO bu konuda nasıl yardımcı olur?
 
 Tıklama oranı, içerik ve ölçümün kesiştiği yerdir. [İçerik SEO hizmetimizde](/icerik-seo/):
@@ -128,6 +132,10 @@ Başlığınızı açık, sayfayla uyumlu ve kısa yazmak en iyi önlemdir; Goog
 ### Başlıkta rakam kullanmak işe yarar mı?
 
 Başlıkta rakam okuyucunun içerik hakkında fikir edinmesini kolaylaştırabilir; ama zorunlu değil ve kesin sonuç garantisi vermez. Başlığın sayfayla uyumlu olması daha önemlidir.
+
+### Tıklama oranı iyileşmezse ne yapmalıyım?
+
+Başlık sorunu olmayabilir: sıralama düşük, arama niyeti uyumsuz ya da sorgu bilgi aramasıdır. Sorguyu ve sayfayı birlikte yeniden değerlendirin; gerekirse sayfanın cevap verdiği soruyu netleştirin.
 
 ## Kaynaklar
 

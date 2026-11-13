@@ -104,6 +104,10 @@ Değişiklik tarihini, yaptığınız işi ve ölçülen etkiyi bir tabloya yaz�
 
 Güncelleme sonrası bir düşüşte ilk tepki sitedeki her şeyi değiştirmek olmamalı. Önce düşüşün hangi sayfa ve aramalarda olduğunu belirleyin; tek bir sayfa mı, tüm site mi? Teknik sorunları dışlayın, sonra içeriği değerlendirin. Güncellemeden hemen sonra yapılan toplu değişiklikler, nedenin anlaşılmasını zorlaştırır.
 
+## Düşüşü kayda geçirin
+
+Düşüş fark ettiğinizde tarih, etkilenen sayfalar, sorgular ve yaptığınız değişiklikleri bir tabloya yazın. Bu kayıt, hem nedeni bulmanızı hem de sonraki güncellemelerde hızlı karar vermenizi sağlar.
+
 ## Denizli SEO bu konuda nasıl yardımcı olur?
 
 Güncelleme sonrası düşüşte asıl iş, panik yerine sistemli değerlendirmedir. [Teknik SEO hizmetimizde](/teknik-seo/):
@@ -140,6 +144,14 @@ Kesin söyleyemeyiz. Sıralamalar dinamiktir; kazancı korumak için içeriği g
 ### Rakibim yükseldi, ben düştüm; neden?
 
 Sistemler o aramada onun sayfasını daha uygun bulmuş olabilir. Sayfanızı yukarıdaki sorularla ve rakibin sayfasıyla (kopyalamadan) karşılaştırın.
+
+### Güncellemeden sonra kaç hafta beklemeliyim?
+
+Google güncellemelerin yayılmasının zaman aldığını söyler; acele değişiklik yapmadan önce verinin oturmasını bekleyip düşüşün hangi sayfa ve sorgularda olduğunu inceleyin.
+
+### Düşüş güncelleme kaynaklı değilse ne olabilir?
+
+Teknik sorun, yönlendirme hatası, güvenlik sorunu ya da mevsimsellik olabilir; önce bunları dışlayın.
 
 ## Kaynaklar
 

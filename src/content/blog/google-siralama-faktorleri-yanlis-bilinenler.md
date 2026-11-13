@@ -50,6 +50,18 @@ Google’ın sıralama sistemleri arasında tekilleştirme sistemleri de vardır
 
 Google’ın belgelerinde tekrar eden ilkeler şunlardır: insanlar için yazılmış, özgün ve güvenilir içerik ([yardımcı içerik rehberi](https://developers.google.com/search/docs/fundamentals/creating-helpful-content?hl=tr)); iyi sayfa deneyimi (hız, mobil, kullanılabilirlik); sitenin taranabilir ve dizine eklenebilir olması; spam politikalarına uyum; yerel işletmeler için doğru ve eksiksiz Google İşletme Profili. Bu ilkelerin hiçbiri kesin bir sıralama garantisi vermez; ama hepsi bir sayfanın hem müşteri hem arama sistemleri için daha anlaşılır ve yararlı olmasını sağlar. Her değişikliği ölçün ve sonuçlara göre ilerleyin.
 
+## Faktör arayışından sistemli çalışmaya
+
+Faktör listeleri yerine sitenizi üç soruyla denetleyin: Google sayfalarımı bulup okuyabiliyor mu? Sayfalarım müşterinin sorusuna cevap veriyor mu? Müşteri sayfada iyi bir deneyim yaşıyor mu? Üç sorunun cevabını tablo hâlinde tutun, zayıf olanı iyileştirin ve sonucu ölçün. Bu sistematik yaklaşım, kimsenin tam olarak bilmediği faktörleri tahmin etmekten çok daha verimlidir.
+
+### Faktör listelerini hiç okumamalı mıyım?
+
+Okuyabilirsiniz; ama bunları kesin kabul etmeyin ve Google’ın resmî belgeleriyle karşılaştırın.
+
+## Bilgi kaynaklarını değerlendirmek
+
+Bir SEO bilgisine inanmadan önce kaynağına bakın: Google’ın resmî belgesi mi, bir tahmin mi, bir satıcı mı? Kaynağı belirsiz iddiaları kesin kabul etmeyin.
+
 ## Denizli SEO bu konuda nasıl yardımcı olur?
 
 Biz “faktör listesi” yerine sitenizi Google’ın belgelerinde yazan ilkelere göre değerlendiririz: dizine ekleme ve tarama, hız ve mobil, içerik ve arama niyeti, yerel profil ve spam riskleri. Bulguları öncelik sırasıyla yazılı sunar, düzeltmeleri uygular ve sonuçları ölçeriz. Tek faktör vaadi ya da sıralama garantisi vermeyiz. Örnek (hayalî bir işletme için): Merkezefendi’de bir klima servisi “şu üç ayarı yapın, birinci olursunuz” diyen bir tavsiye yerine, sitesini tarama, hız ve içerik açısından denetletiyor ve bulguları sırayla çözüyor.

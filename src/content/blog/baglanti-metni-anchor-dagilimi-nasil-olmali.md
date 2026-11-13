@@ -94,6 +94,10 @@ Bir ortaktan ya da yayıncıdan bağlantı isterken “şu metinle bağlantı ve
 
 Kendi bağlantılarınızda açıklayıcı ve çeşitli metin kullanın; dışarıdan gelen bağlantıların metnini siz belirlemeyin. Raporda tuhaf bir desen görürseniz önce nedenini araştırın. Aşırı optimizasyonu önlemenin en iyi yolu, bağlantıları doğal biçimde kazanmaktır.
 
+## Anchor kontrolünü bir alışkanlığa çevirin
+
+Üç ayda bir bağlantı metinlerinize bakmak yeterlidir. Tuhaf bir desen görürseniz önce nedenini araştırın, sonra kendi iç bağlantılarınızı gözden geçirin; dışarıdan gelen metinleri kontrol etmeye çalışmayın. Bu küçük alışkanlık, çalışmanın zamanla daha net ve ölçülebilir hâle gelmesini sağlar.
+
 ## Denizli SEO bu konuda nasıl yardımcı olur?
 
 [Backlink hizmetimizde](/backlink-hizmeti/):
@@ -126,6 +130,14 @@ Google bağlantı metnini bir bilgi olarak kullanabilir ama etkisini sayıyla ya
 ### Görsel bağlantılarda anchor ne olur?
 
 Görsel bağlantılarda alt metin bağlantı metni yerine geçer; bu yüzden alt metni açıklayıcı yazın.
+
+### Menüdeki bağlantı metinleri anchor sayılır mı?
+
+Evet, her bağlantının bir metni vardır; menü ve alt bilgi metinlerini kısa ve açıklayıcı yazın.
+
+### Aynı sayfaya farklı anchor’larla bağlanmak sorun mu?
+
+Doğal çeşitlilik normaldir; her seferinde aynı ticari ifadeyi zorlamamak yeterlidir.
 
 ## Kaynaklar
 

@@ -95,6 +95,14 @@ Geçici kampanya sayfasını süresiz yayında tutarsanız eski fiyat ve tarih b
 
 Başlık tek cümlede ne sunduğunuzu söylüyor mu? Tek bir ana eylem var mı? Form üç dört alandan oluşuyor mu? Telefonda hızlı açılıyor mu? Gerçek iletişim bilgisi görünüyor mu? Gönderim ve tıklamalar ölçülüyor mu? Bu altı soruya “evet” diyorsanız sayfa yayına hazırdır.
 
+## Açılış sayfası için örnek bir akış
+
+Örnek (hayalî bir işletme için): Merkezefendi’de bir klima servisi bahar kampanyası için sayfa hazırlıyor. İlk ekranda “Merkezefendi’de klima bakımı için randevu alın” başlığı ve tek bir “WhatsApp ile randevu iste” düğmesi var. Altında üç fayda (aynı hafta keşif, işlem öncesi bilgilendirme, yazılı iş özeti), üç adımlı süreç, gerçek adres ve çalışma saatleri, üç alanlı bir form ve en sonda aynı eylem çağrısı yer alıyor. Kampanya bitince sayfa hizmet sayfasına yönlendiriliyor. Bu akış kısa, tek hedefli ve ölçülebilir.
+
+### Açılış sayfasını hangi sıklıkla güncellemeliyim?
+
+Kampanya süresince bilgileri doğru tutun; bittiğinde kaldırın ya da yönlendirin. Kalıcı bir sayfaya dönüştürüyorsanız üç ayda bir gözden geçirin.
+
 ## Denizli SEO bu konuda nasıl yardımcı olur?
 
 Açılış sayfası, içerik ve ölçümün birleştiği yerdir. [İçerik SEO hizmetimizde](/icerik-seo/):

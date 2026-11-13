@@ -180,6 +180,10 @@ Takvim esnek bir araçtır. Önemli olan sürekliliktir; bir ay aksarsa ritmi k�
 
 Evet; ama içeriğin sizin gerçek bilginizi ve deneyiminizi yansıtmasına, kaynak ve doğrulamaya dikkat edin. Kopya ya da değer katmayan içerik riskli olabilir.
 
+### Plan bozulursa ne yapmalıyım?
+
+Ertelenen işi bir sonraki aya taşıyın ve nedenini not edin; planı esnek tutun.
+
 ## Kaynaklar
 
 - [Google Search Central: SEO Başlangıç Kılavuzu](https://developers.google.com/search/docs/fundamentals/seo-starter-guide?hl=tr)

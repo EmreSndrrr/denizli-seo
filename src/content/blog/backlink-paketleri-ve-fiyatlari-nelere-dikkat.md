@@ -65,6 +65,10 @@ Güvenli çalışma, bağlantıyı bir sipariş değil bir süreç olarak ele al
 
 Bütçenizi paket yerine şunlara ayırmak daha kalıcıdır: hizmet sayfalarının güçlendirilmesi, Google İşletme Profili’nin eksiksiz doldurulması, müşteri yorumu isteme düzeni, yerel kuruluşlarla üyelik ve etkinlik ilişkileri, haber değeri taşıyan konular için yerel basın çalışması, bağlantı verilmeye değer rehber içerikler. Bunlar sonuç garantisi vermez, ama hem bugün hem yarın işe yarar ve Google’ın politikalarıyla çatışmaz. Yerel fırsatlar için [Denizli yerel backlink kaynakları](/blog/denizli-yerel-backlink-kaynaklari/) yazısına bakabilirsiniz.
 
+## Teklifleri kayıt altına almak
+
+Aldığınız her paket teklifini tarih, firma ve vaatlerle bir tabloda saklayın. Zamanla hangi ifadelerin tekrarlandığını görür, yeni gelen tekliflere daha hızlı ve soğukkanlı karar verirsiniz. Bu küçük alışkanlık, çalışmanın zamanla daha net ve ölçülebilir hâle gelmesini sağlar.
+
 ## Denizli SEO bu konuda nasıl yardımcı olur?
 
 Biz backlink satmıyoruz; satın alınmış bağlantı, özel blog ağı ve hacklink kullanmıyoruz. Önce bağlantı profilinizi inceler, rakiplerinizin kaynaklarına bakar, sonra yerel kurum, iş ortağı, haber ve içerik yoluyla hak edilmiş bağlantılar için çalışırız. Her ay hangi bağlantıların kazanıldığını ve kaybolduğunu kaynağın adıyla yazılı raporlarız; sıralama garantisi vermeyiz. Örnek (hayalî bir işletme için): Merkezefendi’de bir mali müşavir, kendisine gelen “100 backlink paketi” teklifini reddedip bunun yerine oda üyeliği, yerel basın ve bir rehber yazısı çalışması yürütüyor.
@@ -90,6 +94,14 @@ Bağlantıların hangi sitelerden geldiğini rapordan isteyin ve Search Console�
 ### Yeni bir site için backlink şart mı?
 
 Başlangıçta şart değil; önce sitenin teknik olarak sağlam ve içeriğinin yararlı olması gerekir. Doğal bağlantılar zamanla ve çalışmayla gelir.
+
+### Paket teklifini reddettikten sonra ne yapmalıyım?
+
+Nazikçe cevap verip kayıt altına alın; aynı firmadan gelen tekrar eden tekliflere dönmeyin. Bütçenizi içerik, profil ve yerel ilişkilere ayırın.
+
+### Paketle gelen bağlantıları kontrol edebilir miyim?
+
+Adreslerini tarayıcıda açabilir ve Search Console’un Bağlantılar raporuyla karşılaştırabilirsiniz; adres verilmiyorsa bu bir uyarı işaretidir.
 
 ## Kaynaklar
 

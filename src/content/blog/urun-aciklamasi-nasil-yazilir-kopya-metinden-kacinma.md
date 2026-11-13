@@ -107,6 +107,10 @@ Görseller satışın büyük kısmıdır. Kendi çektiğiniz, ürünü farklı 
 
 Ürün sayfalarına gelen sorulara, iadelere ve müşteri yorumlarına bakıp açıklamayı güncelleyin. Çok iade edilen bir ürünün açıklamasında belirsiz bir nokta olabilir; ölçü, renk ya da malzeme bilgisini netleştirin. Search Console’da ürün sayfalarının hangi aramalarla göründüğüne bakıp başlığı iyileştirin.
 
+## Açıklamayı müşteri yorumlarıyla beslemek
+
+İade nedenlerine ve müşteri sorularına bakıp ürün açıklamasındaki eksik bilgiyi bulun; yorumlarda sıkça geçen soruyu açıklamaya ya da sık sorulan sorulara ekleyin. Metni kopyalamadan, kendi müşterinizin dilinden besleyin.
+
 ## Denizli SEO bu konuda nasıl yardımcı olur?
 
 Ürün ve hizmet metinleri satışın ilk yüzüdür. [İçerik SEO hizmetimizde](/icerik-seo/):
@@ -143,6 +147,14 @@ Teknik verileri kendi düzeninizle sunabilirsiniz; açıklama metnini kendi cüm
 ### Ürün sayfasında yorum göstermek şart mı?
 
 Şart değil; ama gerçek yorumlar güven verir. Uydurma yorum kullanmayın.
+
+### Ürün açıklamasını ne sıklıkla güncellemeliyim?
+
+Ürün özellikleri, fiyat ya da iade koşulu değiştiğinde; ayrıca müşteri sorularından yeni bilgi çıktığında. Yılda bir tüm önemli ürünleri gözden geçirin.
+
+### Kısa ürün açıklaması yeterli mi?
+
+Teknik bilgi tablosu, kullanım ve bakım bilgisi varsa kısa açıklama yeterli olabilir; önemli olan müşterinin sorularını cevaplamaktır.
 
 ## Kaynaklar
 

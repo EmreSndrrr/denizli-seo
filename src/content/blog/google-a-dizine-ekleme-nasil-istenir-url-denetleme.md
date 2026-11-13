@@ -94,6 +94,18 @@ Google, siteniz yeni kullanıma sunulduysa ya da yakın zamanda taşındıysa si
 
 Tek tek istek kısa vadelidir. Kalıcı çözümler: iyi iç bağlantı yapısı, güncel site haritası, hızlı ve hatasız sunucu, düzenli yayımlanan özgün içerik ve başka sitelerden gelen gerçek bağlantılar. İstek yalnızca süreci biraz yakınlaştırmak içindir.
 
+## Dizine ekleme isteğini sürece bağlamak
+
+Yeni bir sayfayı yayımladığınızda şu sırayı izleyin: sayfayı yayımlayın, site haritasında yer aldığından emin olun, URL Denetleme ile durumuna bakın, gerekiyorsa dizine ekleme isteyin ve bir hafta sonra durumu yeniden kontrol edin. Sayfa dizine girmezse nedenini dizin raporundan okuyun: engel mi var, içerik mi zayıf, sayfa yeterince bağlanmış mı? İsteği tekrar tekrar göndermek yerine nedeni düzeltin.
+
+### Birden fazla sayfa için toplu istek gerekir mi?
+
+Genelde gerekmez; site haritası ve iç bağlantılar çoğu sayfanın bulunmasını sağlar.
+
+## İstek kotası ve sabır
+
+Aynı adres için peş peşe istek göndermek hızlandırmaz; isteği bir kez gönderin, bir hafta bekleyin ve nedeni dizin raporundan okuyun.
+
 ## Denizli SEO bu konuda nasıl yardımcı olur?
 
 İstek göndermek kolaydır; sayfanın neden dizine girmediğini bulmak uzmanlık ister. [Teknik SEO hizmetimizde](/teknik-seo/):

@@ -93,6 +93,18 @@ Haftada bir Google yorumlarına bakın ve cevapsız olanlara dönün. Ayda bir s
 
 Haftada bir Google yorumlarını açın ve cevapsızları yanıtlayın. Ayda bir sitedeki alıntıları güncelleyin. Memnun müşteriden yorum rica etmeyi alışkanlık edinin; ama indirim ya da hediye karşılığı yorum istemeyin. Bu üç küçük iş, güven tablonuzu düzenli tutar.
 
+## Yorumları sitede düzenli tutmak için örnek bir rutin
+
+Ayın ilk haftasında Google yorumlarını açın, yeni ve anlamlı yorumları not edin, izin için müşteriye kısa bir mesaj gönderin. İzin gelenleri hizmet sayfasındaki seçkiye ekleyin ve en eski alıntıyı çıkarın. Ayın sonunda cevapsız yorum kalmadığını kontrol edin. Bu üç adımlık rutin yarım saat sürer ve yorum bölümünü canlı tutar. Hiçbir adımda yorum metnini düzeltmeyin ya da yorum satın almayın; yalnızca gerçek ve izinli yorumları yayımlayın.
+
+### Yorumları görsel olarak nasıl sunmalıyım?
+
+Kısa alıntıları kartlar hâlinde, ad baş harfi, kaynak ve ay bilgisiyle gösterin; mobilde okunur olmasına ve sayfayı yavaşlatmamasına dikkat edin.
+
+## Yorum bölümünü güncel tutma tarihi
+
+Yorumların yanına ay ve yıl bilgisini yazın ve en eski alıntıları periyodik olarak yenileriyle değiştirin.
+
 ## Denizli SEO bu konuda nasıl yardımcı olur?
 
 Yorumlar sitenin güvenini belirler. [İçerik SEO hizmetimizde](/icerik-seo/):

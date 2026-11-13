@@ -86,6 +86,18 @@ Sitenizin büyümesini üç aylık dönemlere bölün. İlk dönemde temel sayfa
 
 Her sayfa için “bu sayfa hangi soruyu cevaplıyor?” diye sorun. Cevap net değilse sayfayı açmayın. Cevap iki sayfada aynıysa birleştirin. Siteyi bu kuralla büyütürseniz sayfa sayısı doğal olarak işletmenizin ihtiyacına uyar.
 
+## Sayfa planını bir yıllık büyüme tablosuna bağlamak
+
+İlk yayında 7–8 sayfayla başlayıp büyüme planını bir tabloya yazın: hangi çeyrekte hangi sayfa eklenecek, hangi gerekçeyle? Örneğin ikinci çeyrekte üç rehber yazısı, üçüncü çeyrekte iki ilçe sayfası (özgün bilgi hazırsa), dördüncü çeyrekte referans sayfası. Her yeni sayfa için hedef soruyu ve bağlanacağı mevcut sayfayı yazın. Bu tablo, sayfa sayısının rastgele değil, müşteri ihtiyacına göre büyümesini sağlar.
+
+### Sayfa eklemeden önce neye bakmalıyım?
+
+Aynı soruyu cevaplayan başka sayfanız var mı ve sayfayı gerçek bilgiyle doldurabilir misiniz? İkisine de olumlu cevap yoksa sayfayı açmayın.
+
+## Sayfa sayısını izlemek
+
+Her çeyrekte hangi sayfaların ziyaret aldığına bakın; hiç ziyaret almayan sayfaları iyileştirin, birleştirin ya da kaldırın.
+
 ## Denizli SEO bu konuda nasıl yardımcı olur?
 
 [SEO uyumlu web tasarım hizmetimizde](/web-tasarim/):

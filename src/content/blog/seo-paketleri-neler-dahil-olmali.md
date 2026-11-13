@@ -98,6 +98,10 @@ Bu, sözleşmenizdeki fesih maddesine bağlıdır. İçeriklerin, raporların ve
 
 Evet; ne yapılacağını bilip uygulamayı kendiniz ya da başka biri yapacaksanız danışmanlık yeterli olabilir. Farkı [SEO danışmanlığı nedir?](/blog/seo-danismanligi-nedir-ne-zaman-gerekir/) yazısında anlattık.
 
+### Paket teklifinde ek ücret çıkabilir mi?
+
+Kapsam dışı işler için olabilir; bunu teklifte yazdırın.
+
 ## Kaynaklar
 
 - [Google Search Central: SEO’ya mı ihtiyacınız var? SEO uzmanı işe alma ipuçları](https://developers.google.com/search/docs/fundamentals/do-i-need-seo?hl=tr)

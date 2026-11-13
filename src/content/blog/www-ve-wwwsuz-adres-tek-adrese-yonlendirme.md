@@ -141,6 +141,10 @@ Hayır. Google, aynı alan adındaki www ve www’suz adresler arasında geçiş
 
 Tarayıcıda her dört sürümü deneyin ve hepsinin tek adrese gittiğini doğrulayın; Search Console’da URL Denetleme ile Google’ın seçtiği standart sayfaya bakın.
 
+### Yönlendirmeyi test etmek için ne yapmalıyım?
+
+İki sürümü de tarayıcıda açıp tek adrese gittiğini ve HTTPS’in korunduğunu doğrulayın.
+
 ## Kaynaklar
 
 - [Google Search Central: rel=”canonical” ve diğer yöntemlerle standart URL belirtme](https://developers.google.com/search/docs/crawling-indexing/consolidate-duplicate-urls?hl=tr)

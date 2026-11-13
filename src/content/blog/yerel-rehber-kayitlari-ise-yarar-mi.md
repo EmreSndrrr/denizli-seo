@@ -125,6 +125,10 @@ Altı ve üzeri “evet”, kayda değer bir işarettir. Üçten az “evet”, 
 
 Sıralama garantisi ya da “Google’da birinci sayfa” vaat eden teklif, reddedilmesi gereken bir tekliftir. Google’da kimsenin birinci sıra garantisi veremeyeceğini unutmayın.
 
+## Kayıt listesini yılda bir güncelleyin
+
+Her kaydın adres, telefon ve saat bilgisini yılda bir kontrol edin ve kapanmış rehberleri listeden çıkarın.
+
 ## Denizli SEO bu konuda nasıl yardımcı olur?
 
 Hangi rehberin mantıklı, hangisinin zaman kaybı olduğunu ayırmak deneyim ister. [Yerel SEO hizmetimizde](/yerel-seo/):
@@ -161,6 +165,10 @@ Sayı yok. Birkaç gerçek ve ilgili kayıt, çok sayıda rastgele kayıttan iyi
 ### Rehber kaydını nasıl sildiririm?
 
 Rehbere hesap açıp silme ya da düzeltme isteyin; iletişim formu ya da e-posta adresi çoğu rehberde bulunur. Önemsiz bir rehberde hatalı bilgi kalmışsa önce önemli kayıtları düzeltin.
+
+### Eski rehber kayıtlarını silmem gerekir mi?
+
+Yanlış bilgi taşıyanları düzeltin ya da silin; doğru ve gerçek kullanıcılı olanları bırakın.
 
 ## Kaynaklar
 

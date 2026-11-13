@@ -113,6 +113,10 @@ INP, etkileşime yanıt ölçümü için kullanılan güncel göstergedir; bu ya
 
 Görsel sıkıştırma ve eklenti temizliğini çoğu zaman siz yapabilirsiniz; sunucu, JavaScript ve tema düzeltmeleri için web geliştirici desteği gerekir.
 
+### Core Web Vitals değerlerini nereden görürüm?
+
+Search Console’daki Core Web Vitals raporunda ve hız ölçüm araçlarında.
+
 ## Kaynaklar
 
 - [Google Search Central: Core Web Vitals ve Google arama sonuçlarını anlama](https://developers.google.com/search/docs/appearance/core-web-vitals?hl=tr)

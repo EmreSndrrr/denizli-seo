@@ -111,6 +111,10 @@ Bazı faydalar para olarak hemen görünmez ama değerlidir:
 - Mevsimselliği düşündüm mü?
 - İyimser ve kötümser senaryo hazırladım mı?
 
+## Hesabı yılda iki kez tekrarlayın
+
+Altı ayda bir geri dönüş tablosunu güncelleyin: maliyet, talep, kapanış oranı ve müşteri değeri. Değişen girdileri not edin; böylece geri dönüşün nasıl evrildiğini görür, kararlarınızı güncel veriyle verirsiniz.
+
 ## Denizli SEO bu konuda nasıl yardımcı olur?
 
 [Teknik SEO hizmetimizde](/teknik-seo/):
@@ -144,6 +148,14 @@ Kâr daha gerçekçidir; gelir iyimser bir tablo çizer.
 ### Google Analytics olmadan hesaplayabilir miyim?
 
 Evet; basit bir talep kayıt tablosu ve müşteriye sorulan “nereden buldunuz?” sorusu başlangıç için yeterlidir.
+
+### Geri dönüşü hesaplarken hangi dönemi esas almalıyım?
+
+En az altı ay; kısa dönem hesabı, SEO’nun gecikmeli etkisi nedeniyle yanıltıcı olabilir.
+
+### Müşteri değeri bilinmiyorsa nasıl hesaplarım?
+
+Geçmiş siparişlerinizden ortalama kâr hesaplayın; kesin rakam yoksa tahmini aralık yazın ve bunu belirtin.
 
 ## Kaynaklar
 

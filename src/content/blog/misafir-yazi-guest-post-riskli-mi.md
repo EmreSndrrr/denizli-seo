@@ -84,6 +84,18 @@ Yayımlanan her misafir yazıyı bir tabloya kaydedin: yayın adresi, tarih, ba�
 
 Teklif bir yayıncıdan geliyorsa şunu düşünün: bu yazı bağlantı olmasa da yazmak isteyeceğim bir yazı mı? Cevap evetse ve yayın gerçek okuyucuya ulaşıyorsa makul. Cevap hayırsa, bağlantı için yazı yazıyorsunuz demektir ve risk büyür.
 
+## Misafir yazı fırsatlarını düzenli takip etmek
+
+Fırsatları bir tabloya kaydedin: yayın, kişi, konu, teklif tarihi, ücret ya da karşılık, bağlantı koşulu ve sonuç. Her teklifi aynı ölçütlerle değerlendirin; reddettiğiniz teklifin nedenini not edin. Üç ayda bir tabloyu gözden geçirip hangi tür yayınların gerçekten okuyucu getirdiğini görün. Bu kayıt, bir sonraki teklif geldiğinde hızlı ve tutarlı karar vermenizi sağlar.
+
+### Misafir yazı yazmak için hangi yayınlar uygun?
+
+Konunuzla ilgili, gerçek okuyucusu olan ve editoryal denetimi bulunan yayınlar; toplu yazı satan siteler uygun değildir.
+
+## Misafir yazıda sınır koymak
+
+Yazı sayısına, bağlantı sayısına ve ücret koşuluna baştan sınır koyun; sınırı aşan her teklif risk işaretidir.
+
 ## Denizli SEO bu konuda nasıl yardımcı olur?
 
 [Backlink hizmetimizde](/backlink-hizmeti/):

@@ -87,6 +87,10 @@ Kısa süreli kampanyalar ve reklamlar için tek sayfalık sayfa, ziyaretçiyi t
 
 Kendinize iki soru sorun: Müşterim sitede ne kadar ayrıntı arıyor? Bir yıl sonra kaç hizmetim olacak? İlk soruya “az” ve ikinciye “bir” cevabını veriyorsanız tek sayfa yeterli olabilir. Diğer durumlarda çok sayfalı yapıyı seçin; bütçe sınırlıysa az sayıda ama güçlü sayfayla başlayıp büyütün.
 
+## Geçiş zamanını nasıl anlarsınız?
+
+İkinci bir hizmet eklediğinizde, müşteriler tek sayfada bulamadıkları bilgileri sormaya başladığında ya da farklı aramalar için görünmek istediğinizde çok sayfalı yapıya geçme zamanı gelmiştir. Bu küçük alışkanlık, çalışmanın zamanla daha net ve ölçülebilir hâle gelmesini sağlar.
+
 ## Denizli SEO bu konuda nasıl yardımcı olur?
 
 [SEO uyumlu web tasarım hizmetimizde](/web-tasarim/):
@@ -127,6 +131,14 @@ Olmaz; blog yazıları kendi adreslerinde yer almalıdır. Blog gerekiyorsa çok
 ### Tek sayfalık sitemde Google İşletme Profili yeterli olur mu?
 
 Yerel görünürlük için profil çok önemlidir; ama sitenin kendisinin de hızlı, anlaşılır ve iletişim bilgisi doğru olması gerekir.
+
+### Tek sayfalık sitede kaç bölüm olmalı?
+
+Ne yaptığınız, nasıl çalıştığınız, güven bilgisi ve iletişim; dört beş net bölüm yeterlidir.
+
+### Tek sayfalıktan çok sayfalıya geçerken adresler değişir mi?
+
+Ana sayfa adresini korur, yeni sayfaları ayrı adreslerde açarsınız; eski bölüm bağlantıları varsa yönlendirin.
 
 ## Kaynaklar
 

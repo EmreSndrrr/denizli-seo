@@ -83,6 +83,18 @@ Dizine ekleme bir haftayı bulabilir ([dizine ekleme raporu](https://support.goo
 
 Yayından dört hafta önce envanter ve adres eşlemesini hazırlayın. İki hafta önce yeni sitede başlık, açıklama ve iç bağlantıları kontrol edin. Yayın gününde yönlendirmeleri kurun ve site haritasını gönderin. İlk hafta her gün hataları izleyin. İkinci hafta başlangıç kaydıyla karşılaştırın. Bu takvim bir kural değil, düzenli bir çalışma örneğidir; sitenizin büyüklüğüne göre uyarlayın.
 
+## Yenilemede iletişim ve sorumluluk planı
+
+Yenileme sırasında kim neyi yapacak, yazılı belli olmalı: adres eşlemesini kim hazırlıyor, yönlendirmeleri kim kuruyor, yayın günü kim izliyor, sorun çıkarsa kimi arayacaksınız? Müşteriye ve ekibe yayın tarihini önceden duyurun. Yayın sonrasında ilk iki hafta bir sorumlu atayın ve her gün hata raporlarına bakmasını isteyin. Sorumluluğun net olması, hataların hızla düzeltilmesini sağlar.
+
+### Yenileme sırasında blog yazılarını silmeli miyim?
+
+Trafik ya da bağlantı alan yazıları silmeyin; güncelleyin ya da yönlendirin.
+
+## Yenileme sonrası karşılaştırma tablosu
+
+Başlangıç verinizle yayından sonraki dört haftayı bir tabloda karşılaştırın: gösterim, tıklama, dizindeki sayfa, talep. Büyük sapmaları sayfa bazında inceleyin.
+
 ## Denizli SEO bu konuda nasıl yardımcı olur?
 
 [SEO uyumlu web tasarım hizmetimizde](/web-tasarim/):

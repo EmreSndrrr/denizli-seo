@@ -130,6 +130,10 @@ Telefonda uzun başlıklar birkaç satıra yayılır. H1’i kısa tutun (en faz
 - **Ürün:** h1: Ürün adı; h2’ler: Özellikler, ölçüler, bakım, teslimat
 - **İletişim:** h1: İletişim; h2’ler: Adres, saatler, ulaşım
 
+## Başlık yapısını sayfa kaynağında kontrol etmek
+
+Sayfanın görünümü yanıltıcı olabilir; başlık etiketlerinin gerçekten H1, H2 ve H3 olarak işaretlendiğini sayfa kaynağında ya da bir tarayıcı eklentisinde doğrulayın. Büyük yazı tek başına başlık değildir.
+
 ## Denizli SEO bu konuda nasıl yardımcı olur?
 
 Başlık yapısı küçük bir iş gibi görünür; ama sitenin tamamında tutarlılık ister. [İçerik SEO hizmetimizde](/icerik-seo/):
@@ -166,6 +170,10 @@ Google Arama için fark etmez; ekran okuyucu kullanan ziyaretçiler için anlams
 ### Başlıklar sıralamayı yükseltir mi?
 
 Doğrudan sıra garantisi yoktur. Başlıklar, içeriğin anlaşılır olmasına yardımcı olur.
+
+### Başlıklarda şehir adı geçmeli mi?
+
+Bölge aramanın önemli parçasıysa doğal biçimde; başlıkları bölge listeleriyle doldurmayın.
 
 ## Kaynaklar
 

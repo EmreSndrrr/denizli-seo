@@ -113,6 +113,18 @@ Form kısa olmalı: ad, telefon, ilgilenilen kurs, yaş grubu ve kısa not. Kiş
 - Site mobilde ve hızlı mı?
 - Gelen taleplere hızlı dönülüyor mu?
 
+## Kurs sitesinde ölçüm ve kayıt takibi
+
+Kayıt dönemlerinde hangi sayfadan, hangi kaynaktan kaç ön görüşme geldiğini kaydedin. Form, telefon ve WhatsApp taleplerini tek tabloda tutun ve her talebin sonucunu (kayıt oldu, vazgeçti, düşünüyor) not edin. Dönem sonunda hangi program sayfasının talep getirdiğini görün ve içeriği ona göre iyileştirin. Veli ve öğrenci verisini gizlilik kurallarına uygun saklayın; bu konuda bir uzmana danışın.
+
+### Kayıt döneminde profil için ne yapmalıyım?
+
+Saatleri, program duyurularını ve iletişim yollarını güncelleyin; mesajlara hızlı dönün.
+
+## Veli iletişiminde dönüş süresi
+
+Veli aramaları çoğunlukla birkaç kurumu birlikte kapsar; mesajlara aynı gün dönmek fark yaratır. Dönüş süresini baştan belirleyin.
+
 ## Denizli SEO bu konuda nasıl yardımcı olur?
 
 [Teknik SEO hizmetimizde](/teknik-seo/):

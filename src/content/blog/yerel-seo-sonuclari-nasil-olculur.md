@@ -129,6 +129,10 @@ Aylık raporu sahip, ortak ya da ajans ile paylaşırken dört başlık yeterlid
 
 Rapor ne kadar kısaysa o kadar okunur. Uzun grafik tablolarından çok, bir sayfa net yorum işe yarar.
 
+## Ölçümü basit tutun
+
+Üç sayı yeterlidir: profil görüntüleme, arama ve yol tarifi eylemleri ve gerçek talep. Her ay aynı sayılara bakın.
+
 ## Denizli SEO bu konuda nasıl yardımcı olur?
 
 Ölçüm olmadan SEO bir inanç meselesine döner. [Yerel SEO hizmetimizde](/yerel-seo/):
@@ -165,6 +169,10 @@ En basit yol, gelen her yeni müşteriye “bizi nasıl buldunuz?” diye sorup 
 ### SEO çalışmasının geri dönüşünü nasıl anlarım?
 
 Aylık SEO’dan gelen ek talep sayısını, bir yeni müşterinin size ortalama kazandırdığı gelirle çarpın ve harcamanızla kıyaslayın. Talep kaynağını kayda geçirmeden bu hesap yapılamaz.
+
+### Ölçümü ne sıklıkla raporlamalıyım?
+
+Aylık bir özet yeterli; kampanya dönemlerinde haftalık bakabilirsiniz.
 
 ## Kaynaklar
 

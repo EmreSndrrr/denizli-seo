@@ -101,6 +101,18 @@ Aylık raporu aldığınızda kısa bir görüşme isteyin ve şunları sorun: B
 
 Çalışmaya başlarken rapor içeriğini, sıklığını ve teslim günü sözleşmeye yazdırın. İlk ayda örnek bir rapor isteyin ve anlamadığınız her satırı sorun. Rapordaki bağlantıları rastgele kontrol etmeyi alışkanlık hâline getirin. Şeffaf bir ajans bunu rahatlıkla karşılar; kaçınan bir ajans zaten kendini gösterir.
 
+## İlk rapor ile sonraki raporlar arasındaki fark
+
+İlk rapor bir başlangıç fotoğrafıdır: mevcut bağlantı profili, güçlü ve zayıf yanlar, hedef kaynaklar ve plan. Sonraki raporlar ise bu fotoğrafla karşılaştırmadır: yeni kazanılan ve kaybolan bağlantılar, yürütülen girişimler, öğrenilenler. İlk raporu aldığınızda başlangıç değerlerini kendi kayıtlarınızda saklayın; bir yıl sonra ilerlemeyi bu kayıtla değerlendirirsiniz. Her raporun sonunda “bir sonraki ay ne yapılacak” bölümü bulunmalı; yoksa raporun ileriye dönük değeri yoktur.
+
+### Rapor tek başına başarı kanıtı mıdır?
+
+Hayır; rapor yapılan işi gösterir. Başarıyı gerçek ziyaretçi ve talep verisiyle birlikte değerlendirin.
+
+## Raporu ay sonunda zamanında alın
+
+Rapor teslim gününü sözleşmeye yazın ve geciken raporu bir uyarı sayın; düzenli teslim, şeffaflığın ilk işaretidir.
+
 ## Denizli SEO bu konuda nasıl yardımcı olur?
 
 [Backlink hizmetimizde](/backlink-hizmeti/) rapor şeffaflığı varsayılandır:

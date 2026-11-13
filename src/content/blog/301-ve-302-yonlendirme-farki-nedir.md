@@ -150,6 +150,10 @@ Google, yalnızca sunucu tarafı veya meta refresh yönlendirmesi yapamıyorsan�
 
 İçerik yönetim sisteminizin yönlendirme eklentisi ya da paneli çoğu zaman yeterlidir. Sunucu dosyasını düzenlemek yanlış yapılırsa siteyi bozabilir; emin değilseniz teknik destek alın.
 
+### Yönlendirme zinciri sorun yaratır mı?
+
+Zincirleri kısaltmak, hız ve taramayı iyileştirir; mümkünse doğrudan yeni adrese yönlendirin.
+
 ## Kaynaklar
 
 - [Google Search Central: yönlendirmeler ve Google Arama](https://developers.google.com/search/docs/crawling-indexing/301-redirects?hl=tr)

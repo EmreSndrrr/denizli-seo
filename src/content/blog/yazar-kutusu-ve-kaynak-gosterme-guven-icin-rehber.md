@@ -110,6 +110,18 @@ Deneyiminizden gelen bilgi değerlidir; ama “bizim gözlemimiz” diye etiketl
 
 Her yeni yazıya yazar adını ekleyin; önemli iddiaların yanına resmî kaynak bağlantısı koyun; yazının sonunda kaynak listesi bulunsun; tarihi yalnızca gerçek güncellemede yenileyin; yılda bir kaynak bağlantılarını kontrol edin. Bu beş alışkanlık, blogunuzun güvenilirliğini düzenli biçimde korur.
 
+## Yazar bilgisinin yayın sürecine eklenmesi
+
+Her yazının yayın kontrol listesine “yazar adı ve kutusu eklendi mi, kaynaklar kontrol edildi mi, tarih doğru mu?” maddelerini koyun. Yeni yazar geldiğinde kısa bir tanıtım metni ve fotoğraf izni alın. Yazar bilgilerini yılda bir güncelleyin. Bu basit süreç, blogun tutarlı ve güvenilir görünmesini sağlar ve ekip büyüdükçe kalitenin korunmasına yardım eder.
+
+### Yazar değiştiğinde eski yazılar ne olur?
+
+Eski yazıların yazarını doğru bırakın; yazarın ayrıldığını belirtmek gerekmez ama bilgiler güncel kalmalıdır.
+
+## Kaynakların güncelliğini kontrol edin
+
+Yılda bir kaynak bağlantılarını açıp çalıştığını ve içeriğin değişmediğini doğrulayın; güncel olmayan kaynağı yenisiyle değiştirin.
+
 ## Denizli SEO bu konuda nasıl yardımcı olur?
 
 Yazar ve kaynak düzeni, içerik stratejisinin güven katmanıdır. [İçerik SEO hizmetimizde](/icerik-seo/):

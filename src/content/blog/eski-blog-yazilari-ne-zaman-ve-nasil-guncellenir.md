@@ -110,6 +110,10 @@ Bu örnek sonuç vaadi değildir; güncelleme düzenini gösterir.
 
 Bayram, sezon ve kampanya yazıları her yıl yeniden geçerli olur. Bu yazıları silip yeniden yazmak yerine aynı adreste güncelleyin: tarihleri, fiyat çerçevesini ve bilgileri yenileyin. Böylece zamanla biriken bağlantılar ve geçmiş aynı adreste kalır. Sezon dışında yazıyı yayında tutabilir ya da “bu yıl için güncellenecek” notu düşebilirsiniz.
 
+## Güncelleme kaydı tutmak
+
+Her güncellemede yazının adresi, tarih, yapılan değişiklik ve gerekçeyi bir tabloya yazın. Böylece hangi güncellemenin sonuç verdiğini görür, aynı yazıyı bir daha ne zaman gözden geçireceğinizi planlarsınız. Bu küçük alışkanlık, çalışmanın zamanla daha net ve ölçülebilir hâle gelmesini sağlar.
+
 ## Denizli SEO bu konuda nasıl yardımcı olur?
 
 Eski içeriği yönetmek, yeni içerik yazmak kadar önemlidir. [İçerik SEO hizmetimizde](/icerik-seo/):
@@ -146,6 +150,14 @@ Konu aynıysa hayır. Adres değişirse yönlendirme gerekir ve sinyaller yenide
 ### Kaç yazıyı aynı anda güncelleyebilirim?
 
 Sınırı yok; ama tek tek yapın ve tarihleri not alın ki hangi güncellemenin işe yaradığını görebilesiniz.
+
+### Güncelleme tarihini her düzeltmede yenilemeli miyim?
+
+Hayır; yalnızca içeriği anlamlı biçimde değiştirdiğinizde. Küçük yazım düzeltmeleri için tarihi yenilemeyin.
+
+### Eski bir yazıyı silmek yerine ne yapmalıyım?
+
+Güncel değilse güncelleyin; hiç gereği kalmadıysa uygun bir sayfaya yönlendirin ya da kaldırın.
 
 ## Kaynaklar
 

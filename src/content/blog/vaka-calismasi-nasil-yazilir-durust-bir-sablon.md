@@ -97,6 +97,18 @@ Hizmet sayfanızın içinde kısa bir özet, ayrı bir vaka sayfasında ayrınt�
 
 Okuyucu başarı hikâyesinden çok, durumun kendisine benzeyip benzemediğine bakar. “Bizim de aynı sorunumuz var” diyebileceği somut ayrıntılar (işletme türü, bölge, başlangıç sorunu) yazın. Süreci sade anlatın, jargonu açıklayın ve sonuçların sınırlarını belirtin. Dürüst ve sade bir vaka, parlak ama inandırıcı olmayan bir vakadan daha çok iş getirir.
 
+## Vaka çalışmasını kısa bir şablona dökmek
+
+Şablon: başlık (işletme türü ve sorun), başlangıç durumu (ölçülen), hedef, yapılan işler (tarihli), ölçüm yöntemi ve dönemi, sonuç (veriyle), sınırlar ve belirsizlikler, sonraki adımlar. Her başlığın altına en fazla üç dört cümle yazın. Rakamı yoksa yazmayın; “ölçmedik” demek, uydurmaktan iyidir. Yayımlamadan önce müşterinin yazılı iznini alın ve metni ona okutun.
+
+### Vakada hangi dili kullanmalıyım?
+
+Sade, somut ve abartısız; “garantili”, “kesin” ve “rekor” gibi ifadelerden kaçının.
+
+## Vaka yazısını güncel tutmak
+
+Yayımlanan bir vakanın ölçüm dönemini ve tarihini görünür tutun. Yeni veri geldiğinde güncelleyin ya da “bu vaka o tarihteki durumu anlatır” notu ekleyin; eski sonucu güncelmiş gibi göstermeyin.
+
 ## Denizli SEO bu konuda nasıl yardımcı olur?
 
 Dürüst raporlama, hizmetimizin parçasıdır. [İçerik SEO hizmetimizde](/icerik-seo/):

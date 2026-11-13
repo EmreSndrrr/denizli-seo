@@ -57,6 +57,10 @@ Yayına almadan önce şunları kontrol edin:
 
 Eski bir siteniz varsa ve e-ticarete geçiyorsanız bunu bir site taşıma gibi planlayın. Eski adreslerin tamamını listeleyin, her birine yeni karşılığını eşleyin ve 301 ile yönlendirin; Google, URL değişikliği yapan taşımalarda URL eşlemesi hazırlamayı önerir ([site taşıma](https://developers.google.com/search/docs/crawling-indexing/site-move-with-url-changes?hl=tr)). Yayından sonra Search Console’da hataları izleyin. Ayrıntı için [web sitesi yenileme](/blog/web-sitesi-yenileme-seo-kaybetmeden-nasil-yapilir/) yazısına bakın.
 
+## Lansman sonrası ilk ay
+
+Sepet terk oranı, ürün sayfası ziyaretleri ve gelen sorular ilk ayın en değerli verisidir. Müşterinin takıldığı adımı bulun ve düzeltin; ürün açıklamalarını gelen sorulara göre güncelleyin.
+
 ## Denizli SEO bu konuda nasıl yardımcı olur?
 
 Biz e-ticaret sitesini aramaya göre planlayarak kurarız: kategori ve ürün yapısı, adres düzeni, ürün sayfası şablonları, yapılandırılmış veri, hız ve mobil deneyim ve ölçüm kurulumu yayından önce hazırlanır. Eski siteniz varsa taşımayı yönlendirmelerle yönetiriz. Sıralama ya da satış garantisi vermeyiz; yaptığımız işi yazılı raporlarız. Örnek (hayalî bir işletme için): Pamukkale’deki bir ev tekstili üreticisi, doğrudan satış için e-ticaret sitesi kuruyor; kategori yapısı, ürün sayfası şablonu ve filtre kuralı kurulum aşamasında belirleniyor.
@@ -82,6 +86,14 @@ Süre veremeyiz; rekabete, ürün sayısına ve sitenin durumuna bağlıdır. Di
 ### Marketplace’te satış kendi sitemi etkiler mi?
 
 İkisi ayrı kanaldır; kendi siteniz marka ve güven için önemlidir, marketplace hızlı erişim sağlayabilir.
+
+### E-ticarette kategori sayfaları mı yoksa ürün sayfaları mı önemli?
+
+İkisi de; kategori sayfaları genel aramaları, ürün sayfaları belirli ürün aramalarını karşılar. Birini ihmal etmeyin ve her birine özgün içerik hazırlayın.
+
+### Stokta olmayan ürün sayfasını ne yapmalıyım?
+
+Geçici olarak stokta yoksa sayfayı tutup bilgilendirme ve alternatif önerin; kalıcı olarak kalktıysa uygun bir sayfaya yönlendirin.
 
 ## Kaynaklar
 

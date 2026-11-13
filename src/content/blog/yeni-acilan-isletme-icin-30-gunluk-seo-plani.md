@@ -106,6 +106,10 @@ Gerçekçi bir bekleyiş: profilinizin doğrulanmış ve eksiksiz olması, siten
 - 3
 - 4
 
+## Otuzuncu günden sonra
+
+Plan bittiğinde 60 günlük bir sonraki dönem listesi yazın ve ilk raporu inceleyin. Düzenli devam etmek, ilk ayın temelini sürdürülebilir bir büyümeye çevirir.
+
 ## Denizli SEO bu konuda nasıl yardımcı olur?
 
 [Teknik SEO hizmetimizde](/teknik-seo/):
@@ -139,6 +143,10 @@ Profil ile başlayın; ama müşteriye güven ve bilgi veren bir site kurmak uzu
 ### Hangi araçlara ihtiyacım var?
 
 Başlangıçta Search Console, Google İşletme Profili ve basit bir talep kayıt tablosu yeterlidir.
+
+### Planı 30 günde bitiremezsem?
+
+Sorun değil; öncelikli işleri (profil, temel sayfalar, ölçüm) bitirin ve geri kalanını bir sonraki aya taşıyın.
 
 ## Kaynaklar
 

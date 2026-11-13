@@ -113,6 +113,18 @@ Düzeltme: menüye beş hizmet eklenir; her hizmet sayfasından ilgili iki yazı
 
 En çok iş getiren hizmet sayfanızı açın. Bu sayfaya hangi yazılardan ve sayfalardan bağlantı verildiğine bakın. Eksikse ilgili üç yazıdan bu sayfaya doğal bir cümle içinde bağlantı ekleyin. Sonra hizmet sayfasından ilgili iki yazıya bağlantı verin. Bu yarım saatlik çalışma, çoğu küçük sitede en hızlı iyileştirmedir.
 
+## İç bağlantı denetimi için örnek bir tablo
+
+Sayfa, aldığı iç bağlantı sayısı, verdiği iç bağlantı sayısı ve durum sütunlarıyla bir tablo hazırlayın. Hiç bağlantı almayan sayfalar yetimdir; çok bağlantı veren ama hiç almayan sayfalar yapıyı sorgulatır. Önemli hizmet sayfalarının en az üç yerden bağlantı aldığından emin olun. Tabloyu üç ayda bir yenileyin; yeni yazı eklediğinizde ilgili sayfalardan bağlantı vermeyi unutmayın.
+
+### İç bağlantı sayısına üst sınır var mı?
+
+Google bir sayı belirtmiyor; bağlantı okuyucuya yararlıysa verin, yorucu hâle gelmesin.
+
+## Yeni yazıda iç bağlantı alışkanlığı
+
+Her yeni yazıyı yayımlarken ilgili iki eski sayfadan ona, ona da iki sayfaya bağlantı verin; bu alışkanlık sitenin bağlantı yapısını sağlıklı tutar.
+
 ## Denizli SEO bu konuda nasıl yardımcı olur?
 
 İç bağlantı, tüm sitenin görünümünü düzenler. [İçerik SEO hizmetimizde](/icerik-seo/):

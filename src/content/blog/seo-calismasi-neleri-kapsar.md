@@ -58,6 +58,10 @@ Her kalemi aynı anda yapmak yerine, sitenizin durumuna göre sıralayın. Site 
 
 İlk ayda sonuç değil, çalışma görürsünüz: denetim tablosu, öncelik listesi, yapılan düzeltmeler ve başlangıç ölçümü. Google, yeni bir sayfanın dizine eklenmesinin bir haftayı bulabileceğini söylediği için ilk haftalarda dalgalanma normaldir ([dizine ekleme raporu](https://support.google.com/webmasters/answer/7440203?hl=tr)). Aramadaki gösterim ve tıklama değişimi daha sonra, çalışma düzenli sürerse görünür hâle gelir; hızını ve büyüklüğünü önceden söyleyemeyiz. İlk aylık raporda yapılanları, ölçülenleri ve sonraki ayın planını görmelisiniz.
 
+## Kapsamı güncel tutmak
+
+İlk teklifteki kapsam zamanla değişebilir; üç ayda bir hangi kalemlerin devam ettiğini, hangilerinin tamamlandığını ve neyin eklenmesi gerektiğini birlikte gözden geçirin. Bu küçük alışkanlık, çalışmanın zamanla daha net ve ölçülebilir hâle gelmesini sağlar.
+
 ## Denizli SEO bu konuda nasıl yardımcı olur?
 
 Biz teklifi kalem kalem, hangi işin ne amaçla yapılacağını yazarak hazırlarız. Önce sitenizi tarar, bulguları tabloya dökeriz; sonra sorunları etkilerine göre sıralayıp düzeltmeleri uygularız ve Search Console’dan izleriz. Sıralama ya da sonuç garantisi vermeyiz; yaptığımız işleri yazılı raporlarız. Örnek (hayalî bir işletme için): Merkezefendi’de bir klima servisi için ilk ay teknik denetim ve profil düzeltmesi, ikinci ay hizmet sayfaları, üçüncü ay yorum ve yerel kayıt çalışması planlanır; her ay sonunda rapor verilir.
@@ -83,6 +87,10 @@ Teknik kurulumun büyük kısmı tek seferliktir; ama siteye yeni içerik ve ekl
 ### Çalışmanın işe yaradığını nasıl anlarım?
 
 Başlangıç ölçümü alıp aylık raporla karşılaştırırsınız: aramadaki görünürlük, profil etkileşimleri ve gerçek talep sayısı. Garanti verilemez; eğilime bakılır.
+
+### SEO çalışması reklam yönetimini de kapsar mı?
+
+Hayır; reklam ayrı bir iştir. SEO organik görünürlüğü hedefler, Google’ın belgesine göre reklam vermenin organik sıralamaya etkisi yoktur.
 
 ## Kaynaklar
 

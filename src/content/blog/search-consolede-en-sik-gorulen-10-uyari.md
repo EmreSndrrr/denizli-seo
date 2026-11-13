@@ -111,6 +111,10 @@ Google, rapordaki örnek URL listesinin 1.000 öğeyle sınırlı olduğunu beli
 
 Önceliklendirme: önce ana sayfa 5xx (sunucu); sonra iki hizmet sayfası (içerik ve iç bağlantı); noindex ve 404’ler bilinçli olduğu için bırakılıyor. Düzeltme sonrası rapor haftalarca izleniyor. Bu örnek sonuç vaadi değildir; önceliklendirme sırasını gösterir.
 
+## Uyarıları takvime bağlayın
+
+Search Console e-postalarını bir kişiye yönlendirin ve haftada bir uyarılara bakın. Yeni bir uyarı çıktığında tarihini ve çözümünü not edin.
+
 ## Denizli SEO bu konuda nasıl yardımcı olur?
 
 Raporu görmek kolay, hangisinin önemli olduğunu ayırmak deneyim ister. [Teknik SEO hizmetimizde](/teknik-seo/):
@@ -139,6 +143,10 @@ E-postayı okuyun, raporda ilgili durumu bulun ve sayfaların önemli olup olmad
 ### Hangi uyarılar gerçekten acil?
 
 Önemli bir sayfanın sunucu hatası, 403, robots.txt engeli ya da yanlışlıkla kalan noindex gibi durumları. Bunlar görünürlüğü doğrudan keser.
+
+### Uyarıyı düzelttikten sonra doğrulama istemeli miyim?
+
+Search Console’un sunduğu doğrulama seçeneği varsa kullanın; sonra durumu birkaç hafta izleyin.
 
 ## Kaynaklar
 

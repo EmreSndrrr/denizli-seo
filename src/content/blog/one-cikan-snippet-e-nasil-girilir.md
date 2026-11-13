@@ -107,6 +107,10 @@ Kısa cevabı şu yapıyla yazın:
 4. Gerekliyse liste ya da tablo ekleyin.
 5. Birkaç hafta sonra aynı sorgunun gösterim ve tıklamasını karşılaştırın.
 
+## Snippet çalışmasını sınırlı tutun
+
+Her sayfayı bu amaçla yeniden yazmayın; bilgi arayan birkaç önemli sayfada doğrudan cevap paragrafı hazırlamak yeterlidir.
+
 ## Denizli SEO bu konuda nasıl yardımcı olur?
 
 Net cevap yazmak, hem arama hem okuyucu için değerlidir. [İçerik SEO hizmetimizde](/icerik-seo/):
@@ -143,6 +147,10 @@ Aynı soruyu hedefleyen iki sayfanız varsa birbirinizle yarışırsınız. Sayf
 ### Snippet’ten çıkmak istersem ne yapmalıyım?
 
 `nosnippet` meta etiketi kullanabilirsiniz; ama bu sonuçlarda sayfanızın açıklamasını da tamamen kaldırır. Çoğu işletme için önerilmez.
+
+### Soru-cevap biçimi şart mı?
+
+Zorunlu değil; ama doğrudan cevap veren net bir paragraf iyi bir başlangıçtır.
 
 ## Kaynaklar
 

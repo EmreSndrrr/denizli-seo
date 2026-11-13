@@ -95,6 +95,18 @@ Sayfanın ziyaret sayısına, form gönderimlerine, telefon ve WhatsApp tıklama
 
 Sayfayı telefonunuzdan açıp bir müşteri gibi kullanın: adres doğru mu, harita doğru konumu gösteriyor mu, telefon tek dokunuşla aranıyor mu, form mesajı size ulaştırıyor mu, çalışma saatleri güncel mi? Sonra aynı bilgileri Google İşletme Profili’nizle karşılaştırın. Bir fark bulursanız hangisi doğruysa diğerini ona göre düzeltin. İletişim sayfası küçük bir sayfadır ama sitenin en çok iş getiren sayfalarından biri olabilir; bu yüzden ayda bir kontrol etmeye değer. Gelen mesajlara hızlı dönmek, sayfadaki her bilgi kadar önemlidir.
 
+## İletişim sayfasında sık yapılan ek hatalar
+
+Telefon numarasını görsel içinde vermek, çalışma saatlerini yalnızca profilde güncelleyip sitede unutmak, formu test etmemek, haritada yanlış konum göstermek ve gizlilik bilgisini atlamak en sık görülen hatalardır. Ayrıca sayfada yalnızca form bırakıp telefon ve adresi gizlemek, fiziksel bir işletme için güven kaybettirir. Ayda bir sayfayı müşteri gibi kullanın: ara, yaz, formu doldur, yol tarifini aç.
+
+### İletişim sayfasında birden fazla telefon olabilir mi?
+
+Olabilir; ama ana numarayı belirleyin ve profildeki numarayla tutarlı tutun.
+
+## Çok şubeli işletmelerde iletişim
+
+Her şube için ayrı bilgi bloğu, harita ve çalışma saati yazın; şubeleri bir tabloya sıkıştırmayın. Her şubenin bilgisi profilindeki ile aynı olmalı.
+
 ## Denizli SEO bu konuda nasıl yardımcı olur?
 
 İletişim sayfası, yerel görünürlüğün ve dönüşümün ortasında durur. [İçerik SEO hizmetimizde](/icerik-seo/):

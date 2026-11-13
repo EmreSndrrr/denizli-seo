@@ -91,6 +91,10 @@ Karar: sunucu ve eklenti yükü azaltılıyor, yeni sayfalar ilgili sayfalardan 
 - **Önemsiz ya da kopya sayfalar çok:** Yapıyı sadeleştir (canonical, noindex, birleştir)
 - **Tüm sayfalar bulundu ama taranmadı:** Sunucu ve site yapısını gözden geçir
 
+## Önce hangi sayfalara bakılır?
+
+Durumdaki sayfaların önemlilerini ayırın: gelir getiren hizmet sayfaları ve rehberler. Önce onların iç bağlantısını ve içeriğini güçlendirin.
+
 ## Denizli SEO bu konuda nasıl yardımcı olur?
 
 “Bulundu ama taranmadı” durumu çoğu zaman bir yapı ve sunucu sorunudur. [Teknik SEO hizmetimizde](/teknik-seo/):
@@ -127,6 +131,10 @@ Google, isteğin dizine eklenmeyi garanti etmediğini söyler. Önce sunucu, ba�
 ### Ne kadar beklemeliyim?
 
 Kesin süre veremeyiz. Yeni sayfalar için bir hafta ya da daha uzun beklemek normal olabilir; haftalarca değişmiyorsa nedenleri araştırın.
+
+### Bu durum geçici mi?
+
+Bazen geçicidir; ama haftalarca sürüyorsa sayfanın değerini, bağlantılarını ve sitenin genel durumunu inceleyin.
 
 ## Kaynaklar
 

@@ -82,6 +82,18 @@ Otorite hızlı oluşmaz. İlk aylarda sayfalar düzelir, yorumlar birikir, mark
 
 İlk ay hizmet sayfalarınızı ve işletme profilinizi güçlendirin. İkinci ay müşteri sorularından üç rehber yazın. Üçüncü ay yerel kuruluşlarla ilişki kurun ve yorum isteme düzenini oturtun. Satın alınmış bağlantıya harcayacağınız bütçeyi bu işlere ayırmak, kalıcı bir temel kurar.
 
+## Otorite çalışmasını aylık bir takvime bağlamak
+
+Her aya küçük ve ölçülebilir bir iş yazın: ocakta profil ve hizmet sayfaları, şubatta üç rehber, martta yerel kuruluş üyelikleri, nisanda yorum düzeni, mayısta uzman yazısı. Her işin yanına sorumlu ve bitiş tarihi koyun. Ay sonunda tamamlananları işaretleyin ve ertelenenleri nedenleriyle yazın. Küçük ve düzenli adımlar, birkaç büyük ama yarım kalan girişimden çok daha değerli bir birikim oluşturur.
+
+### Otorite çalışmasında en büyük engel nedir?
+
+Sabırsızlıktır; kısa yola sapmadan düzenli çalışmaya devam etmek gerekir.
+
+## Otorite çalışmasında hedef nedir?
+
+Hedef, başkalarının sizi tavsiye etmesi için gerçek bir neden üretmektir: iyi hizmet, yararlı içerik ve düzenli ilişki. Bağlantı bunun doğal sonucudur.
+
 ## Denizli SEO bu konuda nasıl yardımcı olur?
 
 [Backlink hizmetimizde](/backlink-hizmeti/):

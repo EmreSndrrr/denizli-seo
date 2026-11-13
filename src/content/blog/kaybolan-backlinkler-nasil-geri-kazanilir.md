@@ -99,6 +99,10 @@ Bağlantı geri geldiyse teşekkür edin, kaydı güncelleyin ve karşı tarafta
 
 Üç ayda bir yirmi dakikalık bir kontrol yeterlidir. Search Console’da Bağlantılar raporunu açın, önemli bağlantı veren birkaç siteyi not edin ve bir sonraki kontrolde onların hâlâ listede olup olmadığına bakın. Bir de sitenizde silinen ya da taşınan sayfaların listesini tutun; “şu tarihte şu sayfayı şuraya taşıdık” gibi basit bir günlük, yıllar sonra bile hangi bağlantının neden kaybolduğunu anlamanızı sağlar. Bu küçük alışkanlık, büyük kayıpları erkenden fark etmenin en ucuz yoludur.
 
+## Bağlantı kaybını önlemenin en ucuz yolu
+
+Adres değiştirmemek, değiştirirken yönlendirme kurmak ve silinecek sayfaların bağlantı alıp almadığını önceden kontrol etmek, kaybı baştan önler. Önlem, sonradan geri kazanma çabasından çok daha ucuzdur.
+
 ## Denizli SEO bu konuda nasıl yardımcı olur?
 
 [Backlink hizmetimizde](/backlink-hizmeti/):
@@ -131,6 +135,10 @@ Her kayıp aynı etkiyi yapmaz ve etkisini önceden söyleyemeyiz. Önemli ve il
 ### Bağlantı kaybı için ajansa ihtiyacım var mı?
 
 Kendi sitenizdeki kayıpları siz de düzeltebilirsiniz. Karşı taraftaki kayıplar için yazışma gerekir; bunu ajans ya da siz yapabilirsiniz, sonuç garanti edilemez.
+
+### Bağlantı kaybı için ne zaman vazgeçmeliyim?
+
+Bir nazik hatırlatmaya cevap gelmediyse ve bağlantı önemli değilse bırakın; ilişkiyi zorlamayın.
 
 ## Kaynaklar
 

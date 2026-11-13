@@ -89,6 +89,10 @@ Sayfa gerçekten işlevsiz ve içeriksizse Google’ın “soft 404” kararı y
 
 Ayda bir Sayfa dizine ekleme raporuna bakın; yeni soft 404 var mı? Siteyi yeniledikten, kategori sildikten ya da ürün kataloğunu güncelledikten sonra haftalık kontrol yapın. Her uyarı için “bu sayfa gerçekten yok mu, yoksa yetersiz mi?” sorusunu sorun.
 
+## Soft 404’leri önlemek için şablon kuralı
+
+Boş sonuç, stokta olmayan ürün ya da kaldırılmış sayfa şablonlarının doğru durum koduyla çalıştığından emin olun. Geliştiriciden bu şablonlar için hata sayfasını doğru kodla döndürmesini isteyin.
+
 ## Denizli SEO bu konuda nasıl yardımcı olur?
 
 Soft 404’ü bulmak ve kökünü çözmek teknik inceleme ister. [Teknik SEO hizmetimizde](/teknik-seo/):
@@ -125,6 +129,14 @@ Alakasız yönlendirme kullanıcıyı yanıltır ve soft 404 gibi görülebilir.
 ### Soft 404 uyarısı yanlış olabilir mi?
 
 Olabilir; sayfanız gerçekten yararlı içeriğe sahipse, Google’ın önerisi sayfaya daha fazla bilgi eklemektir.
+
+### Soft 404’ü düzelttikten sonra ne kadar beklemeliyim?
+
+Google’ın yeniden taraması zaman alabilir; dizin raporunda durumu birkaç hafta izleyin ve gerekirse URL Denetleme ile kontrol edin.
+
+### Boş kategori sayfaları soft 404 olur mu?
+
+Çoğu zaman benzer şekilde değerlendirilebilir; boş kategorileri birleştirin, yönlendirin ya da içerik ekleyin.
 
 ## Kaynaklar
 

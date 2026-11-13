@@ -74,6 +74,10 @@ Tek seferlik proje, belirli bir sorunu ya da hedefi çözer: site taşıma, bir 
 - **Sonuç kısa vadede değerlendirilir.** Tek aylık dalgalanmaya göre karar vermeyin.
 - **Talepler kaydedilmez.** Gerçek müşteri sayısı olmadan çalışmanın değeri ölçülemez.
 
+## Aylık sürecin iletişim düzeni
+
+Ay başında kısa bir plan mesajı, ay ortasında bir durum notu ve ay sonunda rapor ile görüşme çoğu işletme için yeterli bir ritimdir. Acil sorunlar için ayrıca hızlı bir iletişim kanalı belirleyin.
+
 ## Denizli SEO bu konuda nasıl yardımcı olur?
 
 Aylık çalışmamızda her ay aynı sırayı izleriz: veriye bakar, öncelikleri belirler, teknik ve içerik işlerini uygular, yerel profili ve yorumları takip eder, ay sonunda yazılı rapor veririz. Raporda yapılan işleri, ölçülenleri ve ölçemediklerimizi yazarız. Sıralama ya da sonuç garantisi vermeyiz. Örnek (hayalî bir işletme için): Merkezefendi’de bir klima servisi için ilk ay denetim ve profil, ikinci ay hizmet sayfaları, üçüncü ay rehber yazılar ve yorum düzeni; her ay sonunda toplantı ve rapor.
@@ -99,6 +103,14 @@ Kendi yaptığınız değişiklikleri ekibe bildirin; özellikle adres, başlık
 ### Aylık çalışma bittiğinde ne olur?
 
 Yapılan düzeltmeler ve içerikler sitenizde kalır; ama izleme ve güncelleme durduğunda yeni sorunlar fark edilmeyebilir. Bu yüzden çalışmayı bitirmeden önce bir devir ve izleme planı hazırlayın.
+
+### Aylık çalışmada hangi veriler bana açık olmalı?
+
+Search Console, analiz aracı ve Google İşletme Profili raporu sizin sahipliğinizde olmalı; ajans yönetici olarak eklenmeli. Her ay raporun dayandığı verileri kendiniz de açıp görebilmelisiniz.
+
+### Aylık çalışmayı ne zaman gözden geçirmeliyim?
+
+Üç ayda bir, hedefleri ve ilerlemeyi birlikte değerlendirin; gerekiyorsa kapsamı ya da önceliği değiştirin. Gözden geçirme tarihlerini baştan takvime yazın.
 
 ## Kaynaklar
 

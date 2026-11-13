@@ -89,6 +89,18 @@ Siteyi bir ajans ya da yazılımcı yönetiyorsa kimin neyi yaptığını yazıl
 
 Yönetici parolalarını yenileyin ve iki aşamalı doğrulamayı açın. Son yedeği bir kez geri yüklemeyi deneyin. Kullanmadığınız eklenti ve temaları silin. Bu üç iş bir öğleden sonra sürer ve çoğu temel riski ortadan kaldırır.
 
+## Güvenlik için küçük bir olay planı
+
+Sorun çıktığında paniğe kapılmamak için yazılı bir plan hazırlayın: siteye kim müdahale eder, hosting ve ajans iletişim bilgileri neler, son temiz yedek nerede, parolalar hangi sırayla değiştirilir, müşteriye ne söylenir? Planı basılı ve dijital olarak saklayın. Yılda bir kez planı gözden geçirip iletişim bilgilerini güncelleyin. Hazırlıklı olmak, bir saldırıyı saatler içinde, hazırlıksızlık ise günlerce sürebilecek bir krize çevirir.
+
+### Güvenlik sigortası ya da hizmeti gerekli mi?
+
+Zorunlu değil; ama düzenli yedek, güncelleme ve izleme hizmeti çoğu işletme için akıllıca bir yatırımdır.
+
+## Güvenlik kaydı tutmak
+
+Yaptığınız güncelleme, yedek ve parola değişikliklerini tarihle bir dosyaya yazın; bir sorun çıktığında neyin ne zaman değiştiği görünür.
+
 ## Denizli SEO bu konuda nasıl yardımcı olur?
 
 [SEO uyumlu web tasarım hizmetimizde](/web-tasarim/):

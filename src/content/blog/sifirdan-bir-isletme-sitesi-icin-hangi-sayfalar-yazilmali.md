@@ -95,6 +95,10 @@ Birincisi, test sırasında konan `noindex` etiketini yayında bırakmaktır; si
 
 İlk sürümde mükemmel olmaya çalışmayın; müşterinin temel sorularını cevaplayan sade bir site, yarım kalmış büyük bir siteden iyidir. Yayına alın, ölçün, müşteri sorularına göre genişletin. Her yeni sayfanın bir amacı olsun: müşteriye bir soruyu cevaplamak ya da bir eyleme götürmek.
 
+## Yayından sonra ilk eklenecek sayfalar
+
+İlk ay sonunda müşteri sorularına bakıp ilk ek sayfayı seçin: genellikle en çok sorulan bir hizmetin ayrıntı sayfası ya da bir rehber yazısı olur. Sayfa planınızı müşteri geri bildirimiyle büyütün.
+
 ## Denizli SEO bu konuda nasıl yardımcı olur?
 
 Doğru sayfa planı, sonradan düzeltme maliyetini azaltır. [İçerik SEO hizmetimizde](/icerik-seo/):
@@ -135,6 +139,14 @@ Ana sayfa, ana hizmet sayfaları, iletişim ve hakkımızda. Blog ve ilçe sayfa
 ### Siteyi kendim mi yapmalıyım, yaptırmalı mıyım?
 
 Zamanınız ve teknik bilginiz varsa temel bir siteyi kendiniz kurabilirsiniz; hız, güvenlik ve SEO ayarları için uzman desteği almak uzun vadede zaman kazandırır.
+
+### Fiyat sayfası açmalı mıyım?
+
+Fiyat sayfası işletmeye göre değişir; kesin fiyat vermiyorsanız fiyatın neye göre belirlendiğini hizmet sayfasında anlatmak ve teklif yolunu kolaylaştırmak yeterlidir.
+
+### Ana sayfada blog yazılarını göstermeli miyim?
+
+Blog varsa son birkaç yazıyı göstermek, sitenin canlı olduğunu anlatır; ama ana sayfanın ilk görevi hizmetleri ve iletişimi öne çıkarmaktır.
 
 ## Kaynaklar
 

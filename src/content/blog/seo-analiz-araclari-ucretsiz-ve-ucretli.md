@@ -50,6 +50,10 @@ Başlangıç düzeni basittir: Search Console, Google İşletme Profili raporu, 
 
 Her araç çıktısını üç soruyla değerlendirin: bu veri Google’ın kendi verisi mi yoksa tahmin mi? Bulgu gerçek bir müşteri sorununa mı işaret ediyor? Düzeltmenin maliyeti ve faydası nedir? Araç çıktısındaki “kritik hata” etiketi her zaman gerçekten kritik olmayabilir; öncelik sırasını işletmenizin etkisine göre siz belirleyin. Bulguları bir tabloya dökün: sorun, etkilenen sayfa, etkisi, çözüm, sorumlu.
 
+## Araç çıktısını kayda geçirmek
+
+Aldığınız her tarama raporunu tarih ve ana bulgularıyla saklayın. Üç ay sonra aynı aracı çalıştırıp bulguların azalıp azalmadığına bakın; sayıdan çok, çözülen sorunlar ilerlemeyi gösterir.
+
 ## Denizli SEO bu konuda nasıl yardımcı olur?
 
 Biz araç çıktılarını size ham veri olarak değil, öncelik sırasına konmuş bir yol haritası olarak sunarız. Search Console ve profil verisini esas alır, gerektiğinde üçüncü taraf araçları ipucu olarak kullanır ve bulguları yazılı raporlarız. Araçlardaki puanları hedef yapmayız; sıralama garantisi vermeyiz. Örnek (hayalî bir işletme için): Pamukkale’de bir otel, ücretli bir araçtan gelen “SEO skoru 62” çıktısını değil, aynı araçtaki yavaş sayfa ve kırık bağlantı listesini ele alıyor; sonuçları Search Console’la doğruluyor.
@@ -75,6 +79,14 @@ Aracın kendi hesabıdır; Google’ın ölçüsü değildir. Puan yerine listel
 ### Araç aboneliğini ne zaman iptal etmeliyim?
 
 Aracı üç ay boyunca bir kararı değiştirmek için kullanmadıysanız gereksiz olabilir.
+
+### Araç çıktısındaki öneriler hepsi uygulanmalı mı?
+
+Hayır; etki ve emek açısından önceliklendirin. Bazı öneriler küçük işletme için anlamsız olabilir.
+
+### Araçları ne sıklıkla çalıştırmalıyım?
+
+Ayda bir genel tarama, önemli değişikliklerden sonra ek kontrol çoğu site için yeterlidir.
 
 ## Kaynaklar
 

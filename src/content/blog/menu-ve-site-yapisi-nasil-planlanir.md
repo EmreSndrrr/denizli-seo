@@ -100,6 +100,10 @@ Site büyüdükçe menüye yeni öğe eklemek cazip gelir. Bunun yerine şu üç
 
 Menünüzü bir müşteri gözüyle yeniden okuyun: ana hizmetleriniz ilk bakışta görünüyor mu, iletişim her sayfada bir tık uzaklıkta mı, mobilde tek elle kullanılabiliyor mu, hiçbir önemli sayfa yalnızca menü dışı bağlantıyla mı ulaşılıyor? Bu dört soruya “evet” diyorsanız menünüz iş görüyor demektir.
 
+## Yapıyı yayın öncesi birine göstermek
+
+Menü taslağını işletmenizi tanımayan birine gösterip iki üç görev verin: “fiyat bilgisi nerede?”, “randevu nasıl alınır?”. Tereddüt ettiği yer, menüde düzeltilmesi gereken yerdir.
+
 ## Denizli SEO bu konuda nasıl yardımcı olur?
 
 [SEO uyumlu web tasarım hizmetimizde](/web-tasarim/):
@@ -136,6 +140,14 @@ Müşteri alışkanlığını bozmamak için sık değiştirmeyin; değişiklik 
 ### Menüde açılır alt menü kullanmalı mıyım?
 
 Hizmet sayısı çoksa evet; ama alt menüyü mobilde kolay açılır tutun ve bağlantıların gerçek bağlantı olduğundan emin olun.
+
+### Menüde hizmet sayfalarının sırası nasıl belirlenir?
+
+En çok talep gören ve gelir getiren hizmeti öne alın; müşterinin kafasında doğal bir sıra varsa ona uyun.
+
+### Menüyü ne zaman değiştirmeliyim?
+
+Yeni bir ana hizmet eklendiğinde ya da bir sayfa ziyaret almıyorsa; sık değişiklikten kaçının.
 
 ## Kaynaklar
 

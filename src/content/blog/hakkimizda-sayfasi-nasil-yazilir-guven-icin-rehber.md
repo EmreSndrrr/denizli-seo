@@ -107,6 +107,10 @@ Yerel aramalarda Google, işletmenin ne kadar iyi bilindiğine (belirginlik) de 
 
 En sık hata, sayfayı yalnızca “biz” üzerine kurmaktır. Müşteri “bana ne faydası var?” diye sorar. Her cümlede kendinizi değil, müşteriye ne sağladığınızı düşünün: “Yirmi yıllık tecrübemizle…” yerine “Siz telefonla anlatırsınız, biz aynı gün keşif yaparız” gibi somut bir söz verin; ama tutamayacağınız vaadi yazmayın. Sayfanın sonunda iletişim çağrısını açık bırakın.
 
+## Sayfayı yayımlamadan önce bir okuyucu testi yapın
+
+Sayfayı işletmenizi tanımayan birine okutun ve “bu firma ne yapıyor, kim yönetiyor, nasıl ulaşırım?” diye sorun. Cevapları ilk bir dakikada bulabiliyorsa sayfa görevini yapıyor demektir; bulamıyorsa ilk paragrafı yeniden yazın. Bu küçük alışkanlık, çalışmanın zamanla daha net ve ölçülebilir hâle gelmesini sağlar.
+
 ## Denizli SEO bu konuda nasıl yardımcı olur?
 
 Hakkımızda sayfası, ziyaretçinin “bu firmaya güvenebilir miyim?” sorusunun cevabıdır. [İçerik SEO hizmetimizde](/icerik-seo/):
@@ -147,6 +151,14 @@ Gerçek ve izinli birkaç alıntı güven verir; ama ana yer ayrıntılı yoruml
 ### Hakkımızda sayfasını yenilemek ne zaman gerekir?
 
 Ekip, adres, hizmet ya da çalışma saatleri değiştiğinde; ayrıca yılda bir genel bir okuma yapın.
+
+### Hakkımızda sayfasında kuruluş yılı yazmalı mıyım?
+
+Doğruysa ve ispat edebiliyorsanız yazın; deneyim süresi güven verir. Abartmayın ve belgelerinizle uyumlu olun.
+
+### Hakkımızda sayfası ne kadar uzun olmalı?
+
+Sabit uzunluk yok; kim olduğunuzu, nasıl çalıştığınızı ve nasıl ulaşılacağınızı net anlatacak kadar. Okunur ve doğru olması, uzun olmasından önemlidir.
 
 ## Kaynaklar
 
