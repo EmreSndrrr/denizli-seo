@@ -170,7 +170,7 @@ Biçim: Venti blog düzeni (`docs/seo-yazi-talimati.md`): cevap-önce giriş, 7�
 - [x] 102. Haritalarda Rakipleri Nasıl İncelersiniz? 5 Adım — `yerel-seo` — google haritalar rakip analizi — `google-haritalarda-rakip-isletmeleri-nasil-incelersiniz` — not: Rakip profil karşılaştırma tablosu; kopyalama değil fırsat bulma
 - [x] 103. Profilde Hizmetler ve Ürünler Bölümü Nasıl Doldurulur? — `yerel-seo` — işletme profili hizmetler — `google-isletme-profili-hizmetler-bolumu-nasil-doldurulur` — not: Google yardım sayfası doğrulanacak
 - [x] 104. Kuaför ve Güzellik Salonları İçin Yerel SEO — `yerel-seo` — kuaför seo — `kuaforler-ve-guzellik-salonlari-icin-yerel-seo` — not: Önce-sonra fotoğraf izni, randevu yolu, yorum
-- [ ] 105. Oto Servis ve Lastikçiler İçin Yerel SEO — `yerel-seo` — oto servis seo — `oto-servis-ve-lastikcilar-icin-yerel-seo` — not: Acil arama, hizmet bölgesi, fiyat şeffaflığı
+- [x] 105. Oto Servis ve Lastikçiler İçin Yerel SEO — `yerel-seo` — oto servis seo — `oto-servis-ve-lastikciler-icin-yerel-seo` — not: Acil arama, hizmet bölgesi, fiyat şeffaflığı
 - [x] 106. Avukat ve Hukuk Büroları İçin SEO — `yerel-seo` — avukat seo — `avukat-ve-hukuk-burolari-icin-seo` — not: Baro reklam kurallarına atıf yok; “hukuki danışmanlık değildir” notu, sonuç vaadi yok
 - [x] 107. İnşaat ve Gayrimenkul Firmaları İçin SEO — `yerel-seo` — inşaat firması seo — `insaat-ve-gayrimenkul-firmalari-icin-seo` — not: Proje sayfaları, galeri, ilçe aramaları; emlakçılar yazısıyla çakışmasın
 
@@ -187,12 +187,12 @@ Biçim: Venti blog düzeni (`docs/seo-yazi-talimati.md`): cevap-önce giriş, 7�
 
 ### İçerik SEO
 
-- [ ] 116. İçerik Pazarlaması Nedir? İşletmeler İçin Rehber — `icerik-seo` — içerik pazarlaması — `icerik-pazarlamasi-nedir-isletmeler-icin` — not: Satış hunisi değil; müşteri soruları
-- [ ] 117. Blog Yazısı Fikri Nasıl Bulunur? 10 Kaynak — `icerik-seo` — blog yazısı fikirleri — `blog-yazisi-fikri-nasil-bulunur` — not: Telefon, mesaj, Search Console, rakip, mevsim
-- [ ] 118. Mevsimsel İçerik Takvimi: Denizli İşletmeleri İçin — `icerik-seo` — içerik takvimi — `mevsimsel-icerik-takvimi-denizli-isletmeleri` — not: Klima, tekstil, turizm, tarım örnekleri; rakam yok
-- [ ] 119. YouTube ve Video SEO: Küçük İşletmeler İçin — `icerik-seo` — youtube seo — `youtube-ve-video-seo-kucuk-isletmeler` — not: Google video belgeleri doğrulanacak
-- [ ] 120. Türkçe SEO İçeriğinde Okunabilirlik Nasıl Sağlanır? — `icerik-seo` — okunabilir içerik — `turkce-seo-icerigi-okunabilirlik` — not: SEO başlangıç kılavuzu; kısa cümle, başlık, liste
-- [ ] 121. Semantik SEO Nedir? Konu Bütünlüğü Nasıl Kurulur? — `icerik-seo` — semantik seo — `semantik-seo-nedir-konu-butunlugu` — not: Resmî terim değil; konu kümesi yazısına bağla; sıralama iddiası yok
+- [x] 116. İçerik Pazarlaması Nedir? İşletmeler İçin Rehber — `icerik-seo` — içerik pazarlaması — `icerik-pazarlamasi-nedir-isletmeler-icin` — not: Satış hunisi değil; müşteri soruları
+- [x] 117. Blog Yazısı Fikri Nasıl Bulunur? 10 Kaynak — `icerik-seo` — blog yazısı fikirleri — `blog-yazisi-fikri-nasil-bulunur` — not: Telefon, mesaj, Search Console, rakip, mevsim
+- [x] 118. Mevsimsel İçerik Takvimi: Denizli İşletmeleri İçin — `icerik-seo` — içerik takvimi — `mevsimsel-icerik-takvimi-denizli-isletmeleri` — not: Klima, tekstil, turizm, tarım örnekleri; rakam yok
+- [x] 119. YouTube ve Video SEO: Küçük İşletmeler İçin — `icerik-seo` — youtube seo — `youtube-ve-video-seo-kucuk-isletmeler` — not: Google video belgeleri doğrulanacak
+- [x] 120. Türkçe SEO İçeriğinde Okunabilirlik Nasıl Sağlanır? — `icerik-seo` — okunabilir içerik — `turkce-seo-icerigi-okunabilirlik` — not: SEO başlangıç kılavuzu; kısa cümle, başlık, liste
+- [x] 121. Semantik SEO Nedir? Konu Bütünlüğü Nasıl Kurulur? — `icerik-seo` — semantik seo — `semantik-seo-nedir-konu-butunlugu` — not: Resmî terim değil; konu kümesi yazısına bağla; sıralama iddiası yok
 
 ### Backlink
 
@@ -207,7 +207,7 @@ Biçim: Venti blog düzeni (`docs/seo-yazi-talimati.md`): cevap-önce giriş, 7�
 - [x] 127. WordPress mi, Özel Yazılım mı? SEO Açısından — `web-tasarim` — wordpress mi özel yazılım mı — `wordpress-mi-ozel-yazilim-mi` — not: Hazır tema yazısıyla çakışmasın; bakım ve güvenlik odağı
 - [x] 128. Web Sitesi Hazırlanma Süreci: Adım Adım — `web-tasarim` — web sitesi hazırlanma süreci — `web-sitesi-hazirlanma-sureci-adim-adim` — not: Satış odaklı: bizim süreç adımlarımız; süre sözü yok
 - [x] 129. Web Tasarım Fiyatları Neye Göre Değişir? — `web-tasarim` — web tasarım fiyatları — `web-tasarim-fiyatlari-neye-gore-degisir` — not: Satış odaklı; fiyat rakamı yok
-- [ ] 130. Hosting Seçimi: Nelere Bakılır? — `web-tasarim` — hosting seçimi — `hosting-secimi-nelere-bakilir` — not: Barındırma değişikliği Google belgesi doğrulanacak
+- [x] 130. Hosting Seçimi: Nelere Bakılır? — `web-tasarim` — hosting seçimi — `hosting-secimi-nelere-bakilir` — not: Barındırma değişikliği Google belgesi doğrulanacak
 
 ## Notlar
 

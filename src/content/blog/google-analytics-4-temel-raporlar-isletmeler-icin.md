@@ -63,6 +63,10 @@ Ayda bir yarım saat ayırın. Önce genel eğilime bakın: ziyaret arttı mı a
 
 Analytics gibi araçlar ziyaretçi verisi toplar; bu da gizlilik ve çerez gerekliliklerini gündeme getirir. Sitenizde ziyaretçiye ne tür veri toplandığını anlatan bir gizlilik bilgisi bulundurun ve izin gereken durumlarda izin mekanizmasını kurun. Bu konularda hukuki gereklilikler değişebilir; bir hukuk uzmanına danışın. Bu yazı hukuki danışmanlık değildir; amaç, ölçümün güvenilir ve sorumlu yapılması gerektiğini hatırlatmaktır.
 
+## Analytics ile talep kaydını birleştirmek
+
+Analytics eylemleri sayar; müşteriye dönüşmeyi söylemez. Bu yüzden analiz aracındaki telefon, WhatsApp ve form eylemlerini kendi talep kayıt tablonuzla birlikte okuyun: gelen taleplerin kaçı müşteri oldu? Bu kayıtla analiz verisi birleştiğinde, hangi sayfaların ve kaynakların işe yaradığı netleşir. Kayıt tablosunu ayda bir güncelleyin ve “bizi nereden buldunuz?” cevabını ekleyin.
+
 ## Denizli SEO bu konuda nasıl yardımcı olur?
 
 Biz ölçüm altyapısını sitenizin kurulumuyla birlikte hazırlarız: Search Console, analiz aracı, telefon, WhatsApp ve form eylemlerinin ölçümü. Raporları işletmeniz için anlamlı birkaç soruya indirger, aylık yazılı raporda yorumlarız. Veri toplama ve izin konularında ilgili gerekliliklere göre hareket etmenizi öneririz; sıralama ya da talep garantisi vermeyiz. Örnek (hayalî bir işletme için): Merkezefendi’de bir klinik, randevu formu ve WhatsApp tıklamalarını ölçüyor; aylık raporda hangi sayfanın daha çok randevu getirdiğine bakıyor.
@@ -88,6 +92,10 @@ Genel bakış raporları ve edinme (kaynak), sayfa ve eylem raporları çoğu i�
 ### Analytics ile Search Console verileri neden uyuşmuyor?
 
 İkisi farklı şeyleri farklı yöntemlerle ölçer: biri aramadaki görünürlüğü, diğeri siteye gelen ziyareti. Birebir aynı olmaları beklenmez.
+
+### Analytics verisi neden gerçek müşteri sayısıyla uyuşmaz?
+
+Analytics ziyaret ve eylemleri ölçer; müşteriye dönüşme, telefon görüşmesi ya da satışla sonuçlanır ve çoğu zaman sizin kaydınızdadır. Bu yüzden ikisi birebir uyuşmaz.
 
 ## Kaynaklar
 

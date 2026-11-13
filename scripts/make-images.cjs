@@ -329,6 +329,13 @@ const POST_MOTIF = {
   'seo-analiz-araclari-ucretsiz-ve-ucretli': 'console',
   'google-analytics-4-temel-raporlar-isletmeler-icin': 'chart',
   'uluslararasi-seo-ve-hreflang-ihracatcilar-icin': 'layout',
+  'hosting-secimi-nelere-bakilir': 'layout',
+  'youtube-ve-video-seo-kucuk-isletmeler': 'lens',
+  'icerik-pazarlamasi-nedir-isletmeler-icin': 'doc',
+  'blog-yazisi-fikri-nasil-bulunur': 'doc',
+  'mevsimsel-icerik-takvimi-denizli-isletmeleri': 'doc',
+  'turkce-seo-icerigi-okunabilirlik': 'doc',
+  'semantik-seo-nedir-konu-butunlugu': 'linkgraph',
 };
 
 function posts() {
