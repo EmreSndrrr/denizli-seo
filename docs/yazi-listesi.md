@@ -216,13 +216,13 @@ Biçim, uzunluk (gövde 1.300–1.500 kelime), ara çağrı kutuları ve doğrul
 ### Yerel SEO
 
 - [x] 131. Google İşletme Profili Nasıl Açılır? Adım Adım — `yerel-seo` — profil açma — `google-isletme-profili-nasil-acilir` — not: Doğrulama ve kural sayfaları ledger’da; ‘doldurulur’ yazısıyla çakışmasın (burada açma ve doğrulama)
-- [ ] 132. Nakliyat ve Taşımacılık Firmaları İçin Yerel SEO — `yerel-seo` — nakliyat seo — `nakliyat-ve-tasimacilik-firmalari-icin-yerel-seo` — not: Hizmet bölgesi, fiyat şeffaflığı, yorum; sigorta/yetki iddiası yazma
-- [ ] 133. Spor Salonları ve Fitness Merkezleri İçin Yerel SEO — `yerel-seo` — spor salonu seo — `spor-salonlari-ve-fitness-merkezleri-icin-yerel-seo` — not: Üyelik bilgisi, fotoğraf izni, sağlık iddiası yok
+- [x] 132. Nakliyat ve Taşımacılık Firmaları İçin Yerel SEO — `yerel-seo` — nakliyat seo — `nakliyat-ve-tasimacilik-firmalari-icin-yerel-seo` — not: Hizmet bölgesi, fiyat şeffaflığı, yorum; sigorta/yetki iddiası yazma
+- [x] 133. Spor Salonları ve Fitness Merkezleri İçin Yerel SEO — `yerel-seo` — spor salonu seo — `spor-salonlari-ve-fitness-merkezleri-icin-yerel-seo` — not: Üyelik bilgisi, fotoğraf izni, sağlık iddiası yok
 - [ ] 134. Düğün Salonları ve Organizasyon Firmaları İçin SEO — `yerel-seo` — düğün salonu seo — `dugun-salonlari-ve-organizasyon-firmalari-icin-seo` — not: Galeri, mevsimsellik, teklif formu
 - [ ] 135. Veteriner ve Evcil Hayvan İşletmeleri İçin Yerel SEO — `yerel-seo` — veteriner seo — `veteriner-ve-evcil-hayvan-isletmeleri-icin-yerel-seo` — not: Acil saat bilgisi, tıbbi iddia yok
 - [ ] 136. Tadilat, Boya ve Usta Hizmetleri İçin Yerel SEO — `yerel-seo` — tadilat seo — `tadilat-boya-ve-usta-hizmetleri-icin-yerel-seo` — not: Öncesi-sonrası izni, teklif süreci
-- [ ] 137. Profilde Çalışma Saatleri ve Özel Günler Nasıl Yönetilir? — `yerel-seo` — çalışma saatleri — `profilde-calisma-saatleri-ve-ozel-gunler-nasil-yonetilir` — not: Google yardım sayfası doğrulanacak
-- [ ] 138. Yerel Profil İçin Haftalık Bakım Rutini — `yerel-seo` — profil bakımı — `yerel-profil-icin-haftalik-bakim-rutini` — not: Uygulama odaklı; yeni Google iddiası yok
+- [x] 137. Profilde Çalışma Saatleri ve Özel Günler Nasıl Yönetilir? — `yerel-seo` — çalışma saatleri — `profilde-calisma-saatleri-ve-ozel-gunler-nasil-yonetilir` — not: Google yardım sayfası doğrulanacak
+- [x] 138. Yerel Profil İçin Haftalık Bakım Rutini — `yerel-seo` — profil bakımı — `yerel-profil-icin-haftalik-bakim-rutini` — not: Uygulama odaklı; yeni Google iddiası yok
 
 ### Teknik SEO
 

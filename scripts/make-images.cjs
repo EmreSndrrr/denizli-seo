@@ -178,6 +178,10 @@ const PAGES = [
   { out: 'og/editoryal-ilkeler', motif: 'console', tag: 'Editoryal ilkeler', title: 'Yazılarımız nasıl hazırlanır?' },
 ];
 const POST_MOTIF = {
+  'profilde-calisma-saatleri-ve-ozel-gunler-nasil-yonetilir': 'profile',
+  'yerel-profil-icin-haftalik-bakim-rutini': 'pins',
+  'nakliyat-ve-tasimacilik-firmalari-icin-yerel-seo': 'districts',
+  'spor-salonlari-ve-fitness-merkezleri-icin-yerel-seo': 'pins',
   'http-durum-kodlari-200-301-404-500-ne-anlama-gelir': 'redirect',
   '404-sayfasi-nasil-tasarlanir': 'broken',
   'site-hizi-olcumu-laboratuvar-ve-gercek-kullanici-verisi': 'gauge',
