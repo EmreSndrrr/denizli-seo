@@ -215,7 +215,7 @@ Biçim, uzunluk (gövde 1.300–1.500 kelime), ara çağrı kutuları ve doğrul
 
 ### Yerel SEO
 
-- [ ] 131. Google İşletme Profili Nasıl Açılır? Adım Adım — `yerel-seo` — profil açma — `google-isletme-profili-nasil-acilir` — not: Doğrulama ve kural sayfaları ledger’da; ‘doldurulur’ yazısıyla çakışmasın (burada açma ve doğrulama)
+- [x] 131. Google İşletme Profili Nasıl Açılır? Adım Adım — `yerel-seo` — profil açma — `google-isletme-profili-nasil-acilir` — not: Doğrulama ve kural sayfaları ledger’da; ‘doldurulur’ yazısıyla çakışmasın (burada açma ve doğrulama)
 - [ ] 132. Nakliyat ve Taşımacılık Firmaları İçin Yerel SEO — `yerel-seo` — nakliyat seo — `nakliyat-ve-tasimacilik-firmalari-icin-yerel-seo` — not: Hizmet bölgesi, fiyat şeffaflığı, yorum; sigorta/yetki iddiası yazma
 - [ ] 133. Spor Salonları ve Fitness Merkezleri İçin Yerel SEO — `yerel-seo` — spor salonu seo — `spor-salonlari-ve-fitness-merkezleri-icin-yerel-seo` — not: Üyelik bilgisi, fotoğraf izni, sağlık iddiası yok
 - [ ] 134. Düğün Salonları ve Organizasyon Firmaları İçin SEO — `yerel-seo` — düğün salonu seo — `dugun-salonlari-ve-organizasyon-firmalari-icin-seo` — not: Galeri, mevsimsellik, teklif formu
@@ -226,8 +226,8 @@ Biçim, uzunluk (gövde 1.300–1.500 kelime), ara çağrı kutuları ve doğrul
 
 ### Teknik SEO
 
-- [ ] 139. Sayfa Hızı İçin Görsel Optimizasyonu: Boyut ve Biçim — `teknik-seo` — görsel optimizasyonu — `sayfa-hizi-icin-gorsel-optimizasyonu-boyut-ve-bicim` — not: web.dev LCP + resim SEO ledger’da
-- [ ] 140. Google Sayfanızı Nasıl Bulur? Tarama ve Dizine Ekleme — `teknik-seo` — tarama dizine ekleme — `google-sayfanizi-nasil-bulur-tarama-ve-dizine-ekleme` — not: how-search-works doğrulandı
+- [x] 139. Sayfa Hızı İçin Görsel Optimizasyonu: Boyut ve Biçim — `teknik-seo` — görsel optimizasyonu — `sayfa-hizi-icin-gorsel-optimizasyonu-boyut-ve-bicim` — not: web.dev LCP + resim SEO ledger’da
+- [x] 140. Google Sayfanızı Nasıl Bulur? Tarama ve Dizine Ekleme — `teknik-seo` — tarama dizine ekleme — `google-sayfanizi-nasil-bulur-tarama-ve-dizine-ekleme` — not: how-search-works doğrulandı
 - [ ] 141. Kategori ve Liste Sayfalarında Sayfalama SEO’su — `teknik-seo` — sayfalama seo — `kategori-ve-liste-sayfalarinda-sayfalama-seo-su` — not: Google sayfalama belgesi doğrulanacak
 - [ ] 142. 404 Sayfası Nasıl Tasarlanır? Kullanıcıyı Kaybetmeyin — `teknik-seo` — 404 sayfası tasarımı — `404-sayfasi-nasil-tasarlanir` — not: 404 ve soft 404 yazılarına bağla
 - [ ] 143. Teknik SEO Denetimi: Neler Kontrol Edilir? — `teknik-seo` — teknik seo denetimi — `teknik-seo-denetimi-neler-kontrol-edilir` — not: Satış odaklı: denetim hizmeti
@@ -247,7 +247,7 @@ Biçim, uzunluk (gövde 1.300–1.500 kelime), ara çağrı kutuları ve doğrul
 
 - [ ] 152. Yerel Etkinlik Sponsorluğu ve Bağlantı — `backlink-hizmeti` — etkinlik sponsorluğu — `yerel-etkinlik-sponsorlugu-ve-baglanti-nasil-yaklasilir` — not: sponsored kuralı ledger’da
 - [ ] 153. Okul, Üniversite ve Kurum Bağlantıları — `backlink-hizmeti` — kurum bağlantıları — `okul-universite-ve-kurum-baglantilari-gercek-is-birligi` — not: Gerçek ilişki, takas değil
-- [ ] 154. Backlink Raporu Search Console’da Nasıl Okunur? — `backlink-hizmeti` — bağlantılar raporu — `backlink-raporu-search-consolda-nasil-okunur` — not: Bağlantılar raporu ledger’da
+- [x] 154. Backlink Raporu Search Console’da Nasıl Okunur? — `backlink-hizmeti` — bağlantılar raporu — `backlink-raporu-search-consolda-nasil-okunur` — not: Bağlantılar raporu ledger’da
 - [ ] 155. Marka Anmaları ve Tanınırlık: Bağlantısız da Değerli mi? — `backlink-hizmeti` — marka anmaları — `marka-anmalari-ve-taninirlik-baglantisiz-da-degerli-mi` — not: Kesin sıralama iddiası yok; belirginlik (yerel) ledger’da
 
 ### Web tasarım
