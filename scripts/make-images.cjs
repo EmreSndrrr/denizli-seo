@@ -318,6 +318,10 @@ const POST_MOTIF = {
   'wordpress-mi-ozel-yazilim-mi': 'layout',
   'web-sitesi-hazirlanma-sureci-adim-adim': 'layout',
   'web-tasarim-fiyatlari-neye-gore-degisir': 'layout',
+  'google-isletme-profili-kategorisi-nasil-secilir': 'profile',
+  'google-haritalarda-rakip-isletmeleri-nasil-incelersiniz': 'pins',
+  'google-isletme-profili-hizmetler-bolumu-nasil-doldurulur': 'profile',
+  'kuaforler-ve-guzellik-salonlari-icin-yerel-seo': 'pins',
 };
 
 function posts() {

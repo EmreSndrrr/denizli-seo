@@ -166,10 +166,10 @@ Biçim: Venti blog düzeni (`docs/seo-yazi-talimati.md`): cevap-önce giriş, 7�
 
 ### Yerel SEO
 
-- [ ] 101. Google İşletme Profili Kategorisi Nasıl Seçilir? — `yerel-seo` — profil kategorisi — `google-isletme-profili-kategorisi-nasil-secilir` — not: Birincil/ikincil kategori; Google kural sayfası doğrulanacak
-- [ ] 102. Haritalarda Rakipleri Nasıl İncelersiniz? 5 Adım — `yerel-seo` — google haritalar rakip analizi — `google-haritalarda-rakip-isletmeleri-nasil-incelersiniz` — not: Rakip profil karşılaştırma tablosu; kopyalama değil fırsat bulma
-- [ ] 103. Profilde Hizmetler ve Ürünler Bölümü Nasıl Doldurulur? — `yerel-seo` — işletme profili hizmetler — `google-isletme-profili-hizmetler-bolumu-nasil-doldurulur` — not: Google yardım sayfası doğrulanacak
-- [ ] 104. Kuaför ve Güzellik Salonları İçin Yerel SEO — `yerel-seo` — kuaför seo — `kuaforler-ve-guzellik-salonlari-icin-yerel-seo` — not: Önce-sonra fotoğraf izni, randevu yolu, yorum
+- [x] 101. Google İşletme Profili Kategorisi Nasıl Seçilir? — `yerel-seo` — profil kategorisi — `google-isletme-profili-kategorisi-nasil-secilir` — not: Birincil/ikincil kategori; Google kural sayfası doğrulanacak
+- [x] 102. Haritalarda Rakipleri Nasıl İncelersiniz? 5 Adım — `yerel-seo` — google haritalar rakip analizi — `google-haritalarda-rakip-isletmeleri-nasil-incelersiniz` — not: Rakip profil karşılaştırma tablosu; kopyalama değil fırsat bulma
+- [x] 103. Profilde Hizmetler ve Ürünler Bölümü Nasıl Doldurulur? — `yerel-seo` — işletme profili hizmetler — `google-isletme-profili-hizmetler-bolumu-nasil-doldurulur` — not: Google yardım sayfası doğrulanacak
+- [x] 104. Kuaför ve Güzellik Salonları İçin Yerel SEO — `yerel-seo` — kuaför seo — `kuaforler-ve-guzellik-salonlari-icin-yerel-seo` — not: Önce-sonra fotoğraf izni, randevu yolu, yorum
 - [ ] 105. Oto Servis ve Lastikçiler İçin Yerel SEO — `yerel-seo` — oto servis seo — `oto-servis-ve-lastikcilar-icin-yerel-seo` — not: Acil arama, hizmet bölgesi, fiyat şeffaflığı
 - [ ] 106. Avukat ve Hukuk Büroları İçin SEO — `yerel-seo` — avukat seo — `avukat-ve-hukuk-burolari-icin-seo` — not: Baro reklam kurallarına atıf yok; “hukuki danışmanlık değildir” notu, sonuç vaadi yok
 - [ ] 107. İnşaat ve Gayrimenkul Firmaları İçin SEO — `yerel-seo` — inşaat firması seo — `insaat-ve-gayrimenkul-firmalari-icin-seo` — not: Proje sayfaları, galeri, ilçe aramaları; emlakçılar yazısıyla çakışmasın
