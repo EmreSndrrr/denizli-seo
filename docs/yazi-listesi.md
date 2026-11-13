@@ -229,10 +229,10 @@ Biçim, uzunluk (gövde 1.300–1.500 kelime), ara çağrı kutuları ve doğrul
 - [x] 139. Sayfa Hızı İçin Görsel Optimizasyonu: Boyut ve Biçim — `teknik-seo` — görsel optimizasyonu — `sayfa-hizi-icin-gorsel-optimizasyonu-boyut-ve-bicim` — not: web.dev LCP + resim SEO ledger’da
 - [x] 140. Google Sayfanızı Nasıl Bulur? Tarama ve Dizine Ekleme — `teknik-seo` — tarama dizine ekleme — `google-sayfanizi-nasil-bulur-tarama-ve-dizine-ekleme` — not: how-search-works doğrulandı
 - [ ] 141. Kategori ve Liste Sayfalarında Sayfalama SEO’su — `teknik-seo` — sayfalama seo — `kategori-ve-liste-sayfalarinda-sayfalama-seo-su` — not: Google sayfalama belgesi doğrulanacak
-- [ ] 142. 404 Sayfası Nasıl Tasarlanır? Kullanıcıyı Kaybetmeyin — `teknik-seo` — 404 sayfası tasarımı — `404-sayfasi-nasil-tasarlanir` — not: 404 ve soft 404 yazılarına bağla
-- [ ] 143. Teknik SEO Denetimi: Neler Kontrol Edilir? — `teknik-seo` — teknik seo denetimi — `teknik-seo-denetimi-neler-kontrol-edilir` — not: Satış odaklı: denetim hizmeti
-- [ ] 144. HTTP Durum Kodları: 200, 301, 404, 500 Ne Anlama Gelir? — `teknik-seo` — durum kodları — `http-durum-kodlari-200-301-404-500-ne-anlama-gelir` — not: Yönlendirme belgesi ledger’da
-- [ ] 145. Site Hızı: Laboratuvar ve Gerçek Kullanıcı Verisi — `teknik-seo` — hız ölçümü — `site-hizi-olcumu-laboratuvar-ve-gercek-kullanici-verisi` — not: web.dev vitals ledger’da
+- [x] 142. 404 Sayfası Nasıl Tasarlanır? Kullanıcıyı Kaybetmeyin — `teknik-seo` — 404 sayfası tasarımı — `404-sayfasi-nasil-tasarlanir` — not: 404 ve soft 404 yazılarına bağla
+- [x] 143. Teknik SEO Denetimi: Neler Kontrol Edilir? — `teknik-seo` — teknik seo denetimi — `teknik-seo-denetimi-neler-kontrol-edilir` — not: Satış odaklı: denetim hizmeti
+- [x] 144. HTTP Durum Kodları: 200, 301, 404, 500 Ne Anlama Gelir? — `teknik-seo` — durum kodları — `http-durum-kodlari-200-301-404-500-ne-anlama-gelir` — not: Yönlendirme belgesi ledger’da
+- [x] 145. Site Hızı: Laboratuvar ve Gerçek Kullanıcı Verisi — `teknik-seo` — hız ölçümü — `site-hizi-olcumu-laboratuvar-ve-gercek-kullanici-verisi` — not: web.dev vitals ledger’da
 
 ### İçerik SEO
 
