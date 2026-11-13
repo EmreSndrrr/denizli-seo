@@ -236,3 +236,12 @@
 .prose pre code { padding: 0; border: 0; background: none; font-weight: 500; }
 .prose code { font-family: inherit; font-size: 0.95em; font-weight: 600; padding: 0.1em 0.4em; border-radius: 6px; background: var(--card-2); border: 1px solid var(--line); color: #fff; }
 .banner .article-meta { margin-top: 0.25rem; }
+
+/* article header: author line + call to action (mirrors the Venti blog) */
+.banner .article-meta a { color: inherit; text-decoration: underline; text-underline-offset: 3px; }
+.banner-cta { margin-top: 1.25rem; }
+.post-cta { display: grid; gap: 0.9rem; justify-items: start; width: min(100% - 2 * max(16px, 4vw), 42rem); margin: 2rem auto 0; padding: 1.5rem 1.6rem; border-radius: 14px; background: var(--card); border: 1px solid var(--line); }
+.post-cta h2 { margin: 0; font-size: var(--t-h3); font-weight: 740; text-transform: none; letter-spacing: -0.01em; max-width: none; }
+.post-cta p { margin: 0; color: var(--muted); }
+.post-cta a:not(.btn) { color: var(--pink-text); }
+.post-cta-btns { display: flex; flex-wrap: wrap; gap: 10px; }

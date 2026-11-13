@@ -11,6 +11,8 @@ interface Props {
   noindex?: boolean;
   published?: string;
   modified?: string;
+  section?: string;          // article category
+  authorUrl?: string;        // article author page
   themeColor?: string;
   preload?: string[];        // font files to preload
 }
@@ -25,6 +27,8 @@ const {
   noindex = false,
   published,
   modified,
+  section,
+  authorUrl,
   themeColor = '#0b0e13',
   preload = ['/fonts/archivo-latin.woff2'],
 } = Astro.props;
@@ -119,6 +123,8 @@ const graph = { '@context': 'https://schema.org', '@graph': [business, parent, p
 <meta property="og:image:alt" content={imageAlt} />
 {published && <meta property="article:published_time" content={published} />}
 {modified && <meta property="article:modified_time" content={modified} />}
+{section && <meta property="article:section" content={section} />}
+{authorUrl && <meta property="article:author" content={authorUrl} />}
 <meta name="twitter:card" content="summary_large_image" />
 <meta name="twitter:title" content={title} />
 <meta name="twitter:description" content={description} />

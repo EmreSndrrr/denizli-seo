@@ -3,7 +3,7 @@ import { getCollection, render } from 'astro:content';
 import Page from '../../layouts/Page.astro';
 import Chat from '../../components/home/Chat.astro';
 import Icon from '../../components/Icon.astro';
-import { SITE } from '../../data/site';
+import { SITE, WA_ANALYSIS, CTA_LABEL } from '../../data/site';
 import { serviceBySlug } from '../../data/services';
 
 export async function getStaticPaths() {
@@ -14,19 +14,19 @@ export async function getStaticPaths() {
 const { post } = Astro.props;
 const byDate = (a: typeof post, b: typeof post) => b.data.date.valueOf() - a.data.date.valueOf();
 const all = (await getCollection('blog')).filter((p) => p.id !== post.id);
-// two more reads: same topic first, then the newest
-const others = [...all.filter((p) => p.data.service === post.data.service).sort(byDate), ...all.filter((p) => p.data.service !== post.data.service).sort(byDate)].slice(0, 2);
+// four more reads: same topic first, then the newest
+const others = [...all.filter((p) => p.data.service === post.data.service).sort(byDate), ...all.filter((p) => p.data.service !== post.data.service).sort(byDate)].slice(0, 4);
 const { Content } = await render(post);
 const url = `${SITE.url}/blog/${post.id}/`;
 const fmt = new Intl.DateTimeFormat('tr-TR', { day: 'numeric', month: 'long', year: 'numeric' });
 const words = (post.body ?? '').split(/\s+/).filter(Boolean).length;
-const minutes = Math.max(1, Math.round(words / 200));
 const service = post.data.service ? serviceBySlug(post.data.service) : undefined;
 const published = post.data.date.toISOString();
 const updated = post.data.updated;
 const modified = (updated ?? post.data.date).toISOString();
 // the brand follows the title only while the whole <title> stays within what a results page shows (about 60 characters)
 const pageTitle = `${post.data.title} | ${SITE.name}`.length <= 60 ? `${post.data.title} | ${SITE.name}` : post.data.title;
+const category = service?.short ?? 'SEO';
 const cover = `/blog/${post.id}.jpg`;
 const share = `/og/blog-${post.id}.jpg`;
 
@@ -42,7 +42,8 @@ const jsonld = [
     dateModified: modified,
     inLanguage: 'tr-TR',
     image: [{ '@type': 'ImageObject', url: `${SITE.url}${share}`, width: 1200, height: 630, caption: post.data.imageAlt }],
-    author: { '@id': `${SITE.url}/#isletme` },
+    author: { '@id': SITE.personId },
+    articleSection: category,
     publisher: { '@id': `${SITE.url}/#isletme` },
     isPartOf: { '@type': 'Blog', '@id': `${SITE.url}/blog/#blog` },
     wordCount: words,
@@ -53,57 +54,61 @@ const jsonld = [
     itemListElement: [
       { '@type': 'ListItem', position: 1, name: 'Ana sayfa', item: `${SITE.url}/` },
       { '@type': 'ListItem', position: 2, name: 'Blog', item: `${SITE.url}/blog/` },
-      { '@type': 'ListItem', position: 3, name: post.data.title, item: url },
+      { '@type': 'ListItem', position: 3, name: category },
     ],
   },
 ];
 ---
-<Page title={pageTitle} description={post.data.description} jsonld={jsonld} type="article" published={published} modified={modified} image={share} imageAlt={post.data.imageAlt}>
+<Page title={pageTitle} description={post.data.description} jsonld={jsonld} type="article" published={published} modified={modified} section={category} authorUrl={`${SITE.url}/hakkimizda/`} image={share} imageAlt={post.data.imageAlt}>
   <section class="banner-sec">
     <div class="wrap">
       <div class="banner">
-        <nav class="crumbs" aria-label="Sayfa yolu"><a href="/">Ana sayfa</a><span aria-hidden="true">/</span><a href="/blog/">Blog</a><span aria-hidden="true">/</span><span aria-current="page">Yazı</span></nav>
+        <nav class="crumbs" aria-label="Sayfa yolu"><a href="/">Ana sayfa</a><span aria-hidden="true">/</span><a href="/blog/">Blog</a><span aria-hidden="true">/</span><span aria-current="page">{category}</span></nav>
         <h1 class="article-title">{post.data.title}</h1>
-        <p class="lede">{post.data.description}</p>
         <p class="article-meta">
+          <span><Icon name="user" size={16} /><span>Yazan: <a href="/hakkimizda/">{SITE.person}</a>, Kurucu</span></span>
           <span><Icon name="plan" size={16} />Yayın: <time datetime={published}>{fmt.format(post.data.date)}</time></span>
           {updated && <span>Güncellendi: <time datetime={modified}>{fmt.format(updated)}</time></span>}
-          <span>{minutes} dakikalık okuma</span>
         </p>
+        <div class="banner-cta"><a class="btn btn-solid" href="/iletisim/">{category} için bize ulaşın<Icon name="arrow" size={20} /></a></div>
       </div>
     </div>
   </section>
 
   <figure class="article-visual wrap">
     <img class="article-cover" src={cover} width="1200" height="630" alt={post.data.imageAlt} fetchpriority="high" decoding="async" />
-    <figcaption>Denizli SEO için çizilmiş özgün görsel.</figcaption>
   </figure>
 
   <article class="article-body" aria-label={post.data.title}>
     <div class="prose">
       <Content />
     </div>
-    <aside class="byline" aria-label="Yazı hakkında">
+    <aside class="byline" aria-label="Yazar">
       <span class="byline-mark" aria-hidden="true"><Icon name="user" size={22} /></span>
       <p>
-        <b>Denizli SEO</b>, <a href={SITE.parent.url} rel="noopener">{SITE.parent.name}</a>’ın SEO markasıdır; içeriklerden kurucu <a href="/hakkimizda/">{SITE.person}</a> sorumludur.
-        Yazıların kaynakları sayfanın sonunda verilir; ayrıntı için <a href="/editoryal-ilkeler/">editoryal ilkelerimize</a> bakın.
+        <b>Yazar: <a href="/hakkimizda/">{SITE.person}</a></b>, Kurucu, <a href={SITE.parent.url} rel="noopener">{SITE.parent.name}</a>.
+        Denizli’de web tasarım, SEO ve reklam çalışmalarını tek ekipte yürüten ajansın kurucusu; Denizli SEO bu ajansın SEO markasıdır. Yazıların kaynakları sayfanın sonunda verilir; ayrıntı için <a href="/editoryal-ilkeler/">editoryal ilkelerimize</a> bakın.
       </p>
     </aside>
+    <section class="post-cta" aria-labelledby="yazi-cta">
+      <h2 id="yazi-cta">{category} için bize ulaşın</h2>
+      <p>Sorunuzu ya da ihtiyacınızı yazın; ne yapılması gerektiğini ve ne kadar süreceğini kalem kalem söyleyelim.{service && <> Ayrıntıyı <a href={`/${service.slug}/`}>{service.name}</a> sayfasında bulabilirsiniz.</>}</p>
+      <div class="post-cta-btns">
+        <a class="btn btn-solid" href={WA_ANALYSIS} rel="noopener">{CTA_LABEL}<Icon name="arrow" size={20} /></a>
+        <a class="btn btn-outline" href="/iletisim/">İletişim</a>
+      </div>
+    </section>
   </article>
 
   <section class="rel-sec" aria-labelledby="devami">
     <div class="wrap">
       <div class="sec-head reveal">
-        <h2 class="h2" id="devami">Devamını <em>okuyun</em></h2>
+        <h2 class="h2" id="devami">Diğer <em>yazılar</em></h2>
       </div>
       <div class="rel-grid">
         {others.map((o) => (
           <a class="rel-card reveal" href={`/blog/${o.id}/`}><h3>{o.data.title}</h3><p>{o.data.description}</p><span class="go">Okuyun<Icon name="arrow" size={16} /></span></a>
         ))}
-        {service && (
-          <a class="rel-card reveal" href={`/${service.slug}/`} style="--tone:var(--orange);--tone-text:var(--orange-text)"><h3>İlgili hizmet: {service.name}</h3><p>{service.lead}</p><span class="go">İnceleyin<Icon name="arrow" size={16} /></span></a>
-        )}
       </div>
     </div>
   </section>
