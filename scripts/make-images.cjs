@@ -314,6 +314,10 @@ const POST_MOTIF = {
   'hacklink-nedir-neden-tehlikelidir': 'broken',
   'backlink-kalitesi-nasil-degerlendirilir': 'linkgraph',
   'backlink-hizmeti-nasil-calisir-surec-ve-rapor': 'linkgraph',
+  'e-ticaret-web-sitesi-tasarimi-nelere-dikkat': 'layout',
+  'wordpress-mi-ozel-yazilim-mi': 'layout',
+  'web-sitesi-hazirlanma-sureci-adim-adim': 'layout',
+  'web-tasarim-fiyatlari-neye-gore-degisir': 'layout',
 };
 
 function posts() {

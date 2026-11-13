@@ -203,10 +203,10 @@ Biçim: Venti blog düzeni (`docs/seo-yazi-talimati.md`): cevap-önce giriş, 7�
 
 ### Web tasarım
 
-- [ ] 126. E-Ticaret Web Sitesi Tasarımında Nelere Dikkat Edilir? — `web-tasarim` — e-ticaret web sitesi — `e-ticaret-web-sitesi-tasarimi-nelere-dikkat` — not: URL yapısı belgesi doğrulandı; ürün veri belgesi var
-- [ ] 127. WordPress mi, Özel Yazılım mı? SEO Açısından — `web-tasarim` — wordpress mi özel yazılım mı — `wordpress-mi-ozel-yazilim-mi` — not: Hazır tema yazısıyla çakışmasın; bakım ve güvenlik odağı
-- [ ] 128. Web Sitesi Hazırlanma Süreci: Adım Adım — `web-tasarim` — web sitesi hazırlanma süreci — `web-sitesi-hazirlanma-sureci-adim-adim` — not: Satış odaklı: bizim süreç adımlarımız; süre sözü yok
-- [ ] 129. Web Tasarım Fiyatları Neye Göre Değişir? — `web-tasarim` — web tasarım fiyatları — `web-tasarim-fiyatlari-neye-gore-degisir` — not: Satış odaklı; fiyat rakamı yok
+- [x] 126. E-Ticaret Web Sitesi Tasarımında Nelere Dikkat Edilir? — `web-tasarim` — e-ticaret web sitesi — `e-ticaret-web-sitesi-tasarimi-nelere-dikkat` — not: URL yapısı belgesi doğrulandı; ürün veri belgesi var
+- [x] 127. WordPress mi, Özel Yazılım mı? SEO Açısından — `web-tasarim` — wordpress mi özel yazılım mı — `wordpress-mi-ozel-yazilim-mi` — not: Hazır tema yazısıyla çakışmasın; bakım ve güvenlik odağı
+- [x] 128. Web Sitesi Hazırlanma Süreci: Adım Adım — `web-tasarim` — web sitesi hazırlanma süreci — `web-sitesi-hazirlanma-sureci-adim-adim` — not: Satış odaklı: bizim süreç adımlarımız; süre sözü yok
+- [x] 129. Web Tasarım Fiyatları Neye Göre Değişir? — `web-tasarim` — web tasarım fiyatları — `web-tasarim-fiyatlari-neye-gore-degisir` — not: Satış odaklı; fiyat rakamı yok
 - [ ] 130. Hosting Seçimi: Nelere Bakılır? — `web-tasarim` — hosting seçimi — `hosting-secimi-nelere-bakilir` — not: Barındırma değişikliği Google belgesi doğrulanacak
 
 ## Notlar
