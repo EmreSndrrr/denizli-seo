@@ -91,6 +91,22 @@ Binlerce ürün varsa hepsini aynı özenle yazamazsınız. Öncelik verin:
 
 Görsel tarafı için [görsel SEO](/blog/gorsel-seo/) yazımıza bakabilirsiniz. Bu listeyi her yeni ürün eklendiğinde kullanın; hızlı ama düzenli bir alışkanlık, yüzlerce ürünlü sitede bile özgünlüğü korur.
 
+## Ürün açıklamasında yapay zekâ kullanılır mı?
+
+Yüzlerce ürününüz varsa yapay zekâ yardımcı olabilir; ama çıktıyı mutlaka gerçek bilgiyle kontrol edin. Google’ın üretken yapay zekâ içeriği rehberi, otomasyonun içerik üretiminde kullanılabileceğini ama kullanıcıya özgün değer sunmayan ölçekli içeriğin spam politikasına aykırı olabileceğini anlatır. Bu yüzden yapay zekâyı bir ilk taslak aracı olarak kullanın; teknik bilgileri, ölçüleri ve iddiaları kendiniz doğrulayın. Ayrıntı için [yapay zekâ ile içerik yazmak](/blog/yapay-zeka-ile-icerik-yazmak-google-ne-diyor/) yazısına bakın.
+
+## Ürün sayfasında müşteri soruları
+
+Müşterinin sıkça sorduğu soruları ürün sayfasına koyun: ölçü tablosu nasıl okunur, yıkama nasıl yapılır, teslim kaç günde olur, iade nasıl işler? Bu sorular, hem satın alma kararını kolaylaştırır hem de açıklamaya özgünlük katar. Soruları gerçek müşteri mesajlarından toplayın; uydurma soru yazmayın.
+
+## Ürün görselleri ve alt metin
+
+Görseller satışın büyük kısmıdır. Kendi çektiğiniz, ürünü farklı açılardan gösteren fotoğraflar kullanın. Alt metinde ürünü tarif edin; dosya adını anlamlı yazın. Görselleri sıkıştırın ki sayfa hızlı açılsın. Ayrıntı için [görsel SEO](/blog/gorsel-seo/) yazısına bakın.
+
+## Açıklamayı sürekli iyileştirmek
+
+Ürün sayfalarına gelen sorulara, iadelere ve müşteri yorumlarına bakıp açıklamayı güncelleyin. Çok iade edilen bir ürünün açıklamasında belirsiz bir nokta olabilir; ölçü, renk ya da malzeme bilgisini netleştirin. Search Console’da ürün sayfalarının hangi aramalarla göründüğüne bakıp başlığı iyileştirin.
+
 ## Denizli SEO bu konuda nasıl yardımcı olur?
 
 Ürün ve hizmet metinleri satışın ilk yüzüdür. [İçerik SEO hizmetimizde](/icerik-seo/):
@@ -119,6 +135,14 @@ Kontrol edip gerçek bilgiyle düzeltirseniz yardımcı olabilir; ayrıntı içi
 ### Varyantlar için ayrı sayfa mı açmalıyım?
 
 Çoğu durumda tek sayfada seçenek sunmak daha temizdir.
+
+### Üretici açıklamasını hiç kullanmayabilir miyim?
+
+Teknik verileri kendi düzeninizle sunabilirsiniz; açıklama metnini kendi cümlelerinizle yazın.
+
+### Ürün sayfasında yorum göstermek şart mı?
+
+Şart değil; ama gerçek yorumlar güven verir. Uydurma yorum kullanmayın.
 
 ## Kaynaklar
 

@@ -89,6 +89,10 @@ Sitede yorum gösteriyorsanız yapılandırılmış veriyle işaretlemek istersi
 
 Haftada bir Google yorumlarına bakın ve cevapsız olanlara dönün. Ayda bir sitedeki yorum alıntılarını güncelleyin: yeni ve anlamlı bir yorum eklediyseniz eskilerden birini çıkarın. Üç ayda bir tüm kaynakları kontrol edin. Müşteri yorumun kaldırılmasını isterse hemen kaldırın.
 
+## Yorumlar için haftalık düzen
+
+Haftada bir Google yorumlarını açın ve cevapsızları yanıtlayın. Ayda bir sitedeki alıntıları güncelleyin. Memnun müşteriden yorum rica etmeyi alışkanlık edinin; ama indirim ya da hediye karşılığı yorum istemeyin. Bu üç küçük iş, güven tablonuzu düzenli tutar.
+
 ## Denizli SEO bu konuda nasıl yardımcı olur?
 
 Yorumlar sitenin güvenini belirler. [İçerik SEO hizmetimizde](/icerik-seo/):
@@ -121,6 +125,10 @@ Sorun; izin isteyen kısa bir not göndermek yeterli. İzin yoksa anonim yazın.
 ### Sitede kaç yorum göstermeliyim?
 
 Sayı yok. Hizmet başına iki üç alıntı çoğu işletme için yeterlidir.
+
+### Eski yorumları silmeli miyim?
+
+Yorumu yayımlama izni geri çekilmediyse silmek zorunda değilsiniz; ama çok eski yorumları güncel bir seçkiyle dengeleyin.
 
 ## Kaynaklar
 

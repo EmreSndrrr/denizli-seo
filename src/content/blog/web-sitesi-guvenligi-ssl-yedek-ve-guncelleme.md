@@ -54,6 +54,41 @@ Küçük işletmelerin siteleri de saldırı ya da ele geçirilme riskine sahipt
 
 Örnek (hayalî bir işletme için): Pamukkale’de bir otelin sitesi, eski bir eklenti yüzünden ele geçiriliyor ve sayfalara istenmeyen bağlantılar ekleniyor. Otelin düzenli yedeği olduğu için site hızla geri yükleniyor; eklenti kaldırılıyor, parolalar değiştiriliyor, Search Console’daki bildirimler kontrol ediliyor. Yedeği olmayan bir sitede aynı olay çok daha zahmetli olurdu.
 
+## Parola ve erişim yönetimi nasıl yapılır?
+
+Siteler çoğu zaman karmaşık saldırılarla değil, zayıf ya da yeniden kullanılan parolalarla ele geçirilir. Her yönetim hesabı için benzersiz ve uzun bir parola kullanın; parola yöneticisi bu işi kolaylaştırır. Mümkünse iki aşamalı doğrulamayı açın. Siteye erişimi olan kişilerin listesini tutun ve ayrılan çalışan, eski ajans ya da eski freelancer’ın erişimini hemen kapatın. Yönetici yetkisini yalnızca gerçekten ihtiyacı olanlara verin; içerik girişi yapan biri için tam yönetici yetkisi gerekmez.
+
+## Yedekleme nasıl planlanır?
+
+İyi bir yedek üç özellik taşır: düzenlidir, sunucudan bağımsız bir yerde saklanır ve geri yüklenebildiği denenmiştir. Siteniz sık güncelleniyorsa günlük, az değişiyorsa haftalık yedek yeterlidir. Hem dosyaları hem veritabanını yedekleyin. Yedeği yalnızca site sunucusunda tutmayın; sunucu bozulursa yedek de gider. Yılda bir kez, yedeği bir test ortamına geri yükleyerek denemeyi unutmayın; geri yüklenemeyen yedek, yedek sayılmaz.
+
+## Güncellemeler nasıl yönetilir?
+
+Yazılım, tema ve eklenti güncellemelerinin önemli bir kısmı güvenlik açıklarını kapatır. Güncellemeleri aylarca ertelemek, siteyi bilinen açıklara açık bırakır. Önce yedek alın, sonra güncelleyin; güncelleme sonrası siteyi gözden geçirin (form, ödeme, menü). Kullanmadığınız eklenti ve temaları silin; yalnızca pasif bırakmak yetmez. Terk edilmiş, uzun süredir güncellenmeyen eklentilerden uzak durun.
+
+## HTTPS’te sık görülen sorunlar
+
+SSL sertifikası kurmak yarım iştir. Sertifika dolduğunda tarayıcı uyarı verir ve ziyaretçi kaybolur; bitiş tarihini takip edin ya da otomatik yenileme kullanın. Sayfa HTTPS’le açılıp içinde HTTP görsel ya da betik varsa tarayıcı “karışık içerik” uyarısı verebilir; bunları da HTTPS adreslerine çevirin. HTTP sürümünün HTTPS’e kalıcı yönlendirildiğinden emin olun. Geçiş adımları için [HTTPS’e geçiş SEO kontrol listesi](/blog/https-e-gecis-seo-kontrol-listesi/) yazısına bakın.
+
+## Site ele geçirilirse ne yapmalısınız?
+
+Önce sakin kalın ve sırayla ilerleyin. Siteye erişimi kısıtlayın ya da bakım moduna alın. Parolaları değiştirin. Temiz bir yedeğe dönün. Açığın nasıl oluştuğunu bulup kapatın (eski eklenti, zayıf parola). Search Console’da güvenlikle ilgili bir bildirim varsa okuyun ve belirtilen adımları izleyin. Ele geçirilmiş siteler aramada olumsuz etkilenebilir; Google’ın trafik düşüşü rehberi de güvenlik sorunlarını kontrol edilecek nedenler arasında sayar ([trafik düşüşü hata ayıklama](https://developers.google.com/search/docs/monitor-debug/debugging-search-traffic-drops?hl=tr)). Durumun ciddiyetine göre bir uzmandan destek alın.
+
+## Basit bir yıllık güvenlik takvimi
+
+- **Her ay:** güncellemeleri uygulayın, yedeğin alındığını doğrulayın.
+- **Üç ayda bir:** kullanıcı listesini ve yetkileri gözden geçirin, kullanılmayan eklentileri silin.
+- **Yılda bir:** yedeği geri yüklemeyi deneyin, SSL bitiş tarihini ve hosting sözleşmesini kontrol edin.
+- **Her yeni kişi ya da ajansla:** erişim vermeden önce yazılı kural belirleyin; çalışma bitince erişimi kapatın.
+
+## Güvenlik için sorumlulukları paylaşmak
+
+Siteyi bir ajans ya da yazılımcı yönetiyorsa kimin neyi yaptığını yazılı belirleyin: yedeği kim alıyor, güncellemeleri kim yapıyor, sorun çıkarsa kimi arayacaksınız? Hosting firmasının kapsamı ile sizin sorumluluğunuzu ayırın. Bu netlik, bir sorun yaşandığında zaman kazandırır.
+
+## Bu ay yapılacak üç güvenlik işi
+
+Yönetici parolalarını yenileyin ve iki aşamalı doğrulamayı açın. Son yedeği bir kez geri yüklemeyi deneyin. Kullanmadığınız eklenti ve temaları silin. Bu üç iş bir öğleden sonra sürer ve çoğu temel riski ortadan kaldırır.
+
 ## Denizli SEO bu konuda nasıl yardımcı olur?
 
 [SEO uyumlu web tasarım hizmetimizde](/web-tasarim/):
@@ -78,6 +113,18 @@ Bu yazıda sıralama etkisi iddia etmiyoruz; HTTPS güvenlik ve güven için ger
 ### Siteme saldırı olursa ne yapmalıyım?
 
 Yedeğe dönün, parolaları değiştirin, açığı kapatın ve Search Console’daki bildirimleri kontrol edin.
+
+### Hosting firması güvenliği sağlar mı?
+
+Altyapı güvenliğinin bir kısmını sağlar; sitenizdeki yazılımın, parolaların ve eklentilerin güvenliği sizin sorumluluğunuzdadır.
+
+### Küçük bir sitem de hedef olur mu?
+
+Evet; saldırılar çoğu zaman otomatik taramalarla yapılır ve site büyüklüğüne bakmaz.
+
+### Güvenlik eklentisi yeterli mi?
+
+Tek başına yeterli değildir; güncelleme, parola ve yedek disiplini eklentiden daha belirleyicidir.
 
 ## Kaynaklar
 

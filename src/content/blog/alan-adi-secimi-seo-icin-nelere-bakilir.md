@@ -56,6 +56,30 @@ Alan adı bir kez seçilir ve değiştirilmesi zordur. Bu yüzden baştan düş�
 
 Örnek (hayalî bir işletme için): Merkezefendi’de yeni bir klima servisi “denizli-en-ucuz-klima-servisi-7-24.com” ile “firmaadi.com” arasında kalıyor. Birincisi uzun, tireli ve iddialı (“en ucuz”); ikincisi kısa, markayla uyumlu. İşletme ikincisini kendi adına kaydediyor, hizmet bilgilerini sayfa başlıklarında ve içerikte yazıyor.
 
+## Alan adının uzantısı seçimde ne fark yaratır?
+
+Türkiye’de çalışan bir işletme için `.com` ve `.com.tr` tanıdık ve güven veren uzantılardır; müşteri bunlara alışkındır. Daha az bilinen uzantılar akılda kalmayabilir ve adresi yanlış yazılma ihtimalini artırır. Google, farklı uzantıların sıralama etkisi konusunda bir tercih sunduğunu belirtmiyor; bu yüzden kararı müşterinin alışkanlığına ve marka bütünlüğüne göre verin. İşletmeniz yurt dışına da satış yapıyorsa uluslararası bir uzantıyı ve hedef dilde sayfaları birlikte düşünün; bkz. [uluslararası yapı için hreflang](https://developers.google.com/search/docs/specialty/international/localized-versions?hl=tr).
+
+## Alan adı kaydında sık yapılan hatalar nelerdir?
+
+En pahalı hata, alan adını başkasının adına kaydettirmektir: ajans, yazılımcı ya da bir arkadaşın adına açılan alan adı, ayrılırken rehine olabilir. Alan adını kendi adınıza ve kendi e-posta adresinizle kaydedin, yönetim bilgilerini güvenli bir yerde saklayın. İkinci hata, yenileme tarihini takip etmemektir; süresi dolan alan adı site ve e-postanın kapanmasına yol açar, bir başkası tarafından satın alınabilir. Otomatik yenilemeyi açın ve uyarı e-postalarının güncel bir adrese gitmesini sağlayın. Üçüncü hata, benzer yazılışlı alan adlarını hiç düşünmemektir; tek harf farkıyla yazılan adresler müşteriyi başka siteye götürebilir.
+
+## Daha önce kullanılmış bir alan adı alırken nelere bakılır?
+
+İkinci el bir alan adı almadan önce geçmişini araştırın. Alan adı daha önce spam, kopya içerik ya da kötü amaçlı yazılım için kullanıldıysa itibarı zedelenmiş olabilir. Alan adının eski sayfalarına, aldığı bağlantılara ve arama sonuçlarındaki durumuna bakın. Şüpheniz varsa temiz, hiç kullanılmamış bir alan adı almak daha güvenlidir. Google’ın spam politikaları, ihlal eden sitelerin sonuçlarda daha alt sıralarda yer alabileceğini veya hiç görünmeyebileceğini söyler ([spam politikaları](https://developers.google.com/search/docs/essentials/spam-policies?hl=tr)); geçmişi şüpheli bir alan adını devralmak bu riski size taşıyabilir.
+
+## www’lu ve www’suz adres nasıl yönetilir?
+
+Siteniz hem `www.ornek.com` hem `ornek.com` ile açılıyorsa, biri asıl adres olmalı, diğeri ona kalıcı olarak yönlendirilmelidir. Aksi hâlde aynı içerik iki adreste görünür ve karışıklık yaratır. Ayrıntı için [www ve www’suz adresi tek adrese yönlendirme](/blog/www-ve-wwwsuz-adres-tek-adrese-yonlendirme/) yazısına bakın.
+
+## Alan adını değiştirmek zorunda kalırsanız
+
+Marka değişimi ya da yanlış seçim nedeniyle alan adını değiştirmeniz gerekebilir. Bu bir site taşımadır; eski adreslerden yenilerine bire bir 301 yönlendirmesi, Search Console’da adres değişikliği ve izleme gerekir. Google, alan adı ve URL değişikliklerini site taşıma örnekleri olarak ele alır ([site taşıma](https://developers.google.com/search/docs/crawling-indexing/site-move-with-url-changes?hl=tr)). Planı için [alan adı değiştirirken SEO kaybı nasıl önlenir?](/blog/alan-adi-degistirirken-seo-kaybi-nasil-onlenir/) yazısına bakın.
+
+## Karar vermeden önce kısa bir özet
+
+Alan adı seçerken sırayla şunları yapın: kısa, yazması kolay ve markanızla uyumlu birkaç aday yazın; telefonda birine söyleyip doğru yazıp yazamadığını deneyin; uygunluğu ve geçmişini kontrol edin; kendi adınıza kaydedin; yenilemeyi otomatik hâle getirin. Anahtar kelime tek başına sizi sıralamaya taşımaz; sayfa içeriğiniz ve işletmenizin tanınırlığı daha belirleyicidir. Seçiminiz uzun yıllar sizinle kalacağı için acele etmeyin.
+
 ## Denizli SEO bu konuda nasıl yardımcı olur?
 
 [SEO uyumlu web tasarım hizmetimizde](/web-tasarim/):
@@ -80,6 +104,14 @@ Zorunlu değil; marka adı çoğu işletme için daha kalıcı bir seçimdir.
 ### Alan adının yaşı sıralamayı etkiler mi?
 
 Bu konuda kesin bir iddia yazmıyoruz.
+
+### Alan adı ile hosting aynı yerden alınmalı mı?
+
+Zorunlu değil; önemli olan alan adının kendi adınıza kayıtlı olması ve yönetim bilgilerinin sizde olmasıdır.
+
+### Birden fazla alan adı almalı mıyım?
+
+Marka adının yazım varyasyonlarını almak koruyucu olabilir; ama hepsini aynı içerikle yayımlamayın, birini asıl yapıp diğerlerini ona yönlendirin.
 
 ## Kaynaklar
 

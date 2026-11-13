@@ -72,6 +72,34 @@ Adresleri sonradan değiştirmek yönlendirme gerektirir; baştan doğru planlay
 
 Örnek (hayalî bir işletme için): Merkezefendi’de bir klinik, sitesinde on iki öğeli bir menüyle başlıyor. Planlamayla menü beş öğeye iniyor: Tedaviler (alt menüde dört ana tedavi), Ekibimiz, Blog, Hakkımızda, İletişim. URL’ler kısa ve tutarlı hâle getiriliyor; her tedavi sayfasından ilgili blog yazılarına ve iletişime bağlantı veriliyor.
 
+## Menü etiketleri nasıl seçilir?
+
+Menüde kullandığınız kelimeler, müşterinin aklındaki kelimelerle örtüşmelidir. “Çözümlerimiz”, “Yaklaşımımız” gibi kurumsal ama belirsiz etiketler yerine “Klima bakımı”, “Fiyat teklifi”, “İletişim” gibi net adlar kullanın. İyi bir sınama yöntemi, birine sitenizin menüsünü gösterip “şunu bulmak için nereye tıklarsın?” diye sormaktır. Tereddüt ediyorsa etiket zayıftır. Google’ın bağlantı rehberi, bağlantı metninin açıklayıcı ve kısa olmasını önerir; menü etiketleri de birer bağlantı metnidir ([bağlantı en iyi uygulamaları](https://developers.google.com/search/docs/crawling-indexing/links-crawlable?hl=tr)).
+
+## Mobil menü neden ayrı düşünülmelidir?
+
+Çoğu ziyaretçi sitenize telefondan gelir; menü de orada çoğunlukla bir “hamburger” simgesinin arkasına saklanır. Bu yüzden en önemli eylemi (ara, WhatsApp, iletişim) menüden bağımsız ve görünür bir düğme olarak tutun. Menü açıldığında öğeler parmakla rahat basılacak büyüklükte olmalı, alt menüler tek dokunuşla açılıp kapanmalı. Google mobil sürümü esas aldığı için mobil menüde eksik kalan bağlantılar, Google’ın gördüğü yapıda da eksik kalır ([mobil öncelikli dizine ekleme](https://developers.google.com/search/docs/crawling-indexing/mobile/mobile-sites-mobile-first-indexing?hl=tr)). Masaüstü menüsündeki her önemli bağlantı mobilde de bulunmalıdır.
+
+## Alt bilgi (footer) bağlantıları nasıl düzenlenir?
+
+Alt bilgi, menüde yer vermediğiniz ama müşterinin aradığı sayfalar için güvenli bir yerdir: hakkımızda, iletişim, gizlilik, çalışma saatleri, hizmet bölgeleri. Ancak her sayfaya yüzlerce bağlantı yığmayın; Google’ın spam politikası, çeşitli sitelerin alt bilgilerinde ya da şablonlarında yaygın biçimde dağıtılan bağlantıları bağlantı spam’i örnekleri arasında sayar ([spam politikaları](https://developers.google.com/search/docs/essentials/spam-policies?hl=tr)). Kendi sitenizin alt bilgisi bu kapsamda değildir; ama sayı makul tutulmalı ve bağlantılar müşteriye yarar sağlamalıdır.
+
+## Yapıyı kâğıt üzerinde nasıl test edersiniz?
+
+Siteyi yapmadan önce basit bir test yapın. Beş altı müşteri sorusunu kâğıda yazın (“fiyat nedir?”, “nerede bulunuyorsunuz?”, “şu hizmeti veriyor musunuz?”). Sonra menü taslağınıza bakıp her sorunun cevabına kaç tıklamada ulaşılacağını sayın. Hedef, önemli sorular için en fazla üç tıklamadır. Üçten fazlaysa menüyü ya da sayfa hiyerarşisini sadeleştirin. Bu test, tasarım başlamadan hataları ucuza yakalar.
+
+## Büyüyen sitede menü nasıl yönetilir?
+
+Site büyüdükçe menüye yeni öğe eklemek cazip gelir. Bunun yerine şu üç kuralı uygulayın. Önce, yeni sayfayı menüye eklemeden mevcut bir üst başlığın altına yerleştirin. Sonra, ana menüde yedi öğeyi geçmemeye çalışın. Son olarak, yılda bir menüyü gözden geçirin: hangi bağlantılar hiç tıklanmıyor? Tıklanmayanları alt menüye taşıyın ya da kaldırın. Google, önemsediğiniz her sayfaya sitenizdeki en az bir başka sayfadan bağlantı verilmesini önerir; menüde yer almayan önemli sayfalara iç bağlantılarla ulaşılabilir olmalıdır.
+
+## Örnek: bir klinik sitesinin yapısı
+
+Örnek (hayalî bir işletme için): Pamukkale’de bir diş kliniği ilk sitesini on iki öğeli bir menüyle hazırlıyor. Planlama sonrasında menü beş öğeye iniyor: Tedaviler (alt menüde dört ana tedavi), Ekibimiz, Hakkımızda, Blog ve İletişim. Randevu ve telefon her sayfada ayrı bir düğme olarak duruyor. Her tedavi sayfasına ilgili blog yazılarından ve hakkımızda sayfasından bağlantı veriliyor. Telefonda yapılan testte, bir hasta “implant fiyatı” sorusunun cevabına iki tıklamada ulaşıyor.
+
+## Menü planında hızlı kontrol
+
+Menünüzü bir müşteri gözüyle yeniden okuyun: ana hizmetleriniz ilk bakışta görünüyor mu, iletişim her sayfada bir tık uzaklıkta mı, mobilde tek elle kullanılabiliyor mu, hiçbir önemli sayfa yalnızca menü dışı bağlantıyla mı ulaşılıyor? Bu dört soruya “evet” diyorsanız menünüz iş görüyor demektir.
+
 ## Denizli SEO bu konuda nasıl yardımcı olur?
 
 [SEO uyumlu web tasarım hizmetimizde](/web-tasarim/):
@@ -96,6 +124,18 @@ Alt menüdeki bağlantılar gerçek bağlantıysa sayfaların bulunmasına yard�
 ### Breadcrumb şart mı?
 
 Şart değil; çok sayfalı sitelerde yol göstermek için faydalıdır.
+
+### Menüde “Ana sayfa” öğesi gerekli mi?
+
+Logo ana sayfaya bağlanıyorsa zorunlu değil; ama birçok ziyaretçi için açık bir “Ana sayfa” bağlantısı rahatlık sağlar.
+
+### Menüyü sık sık değiştirmek sorun olur mu?
+
+Müşteri alışkanlığını bozmamak için sık değiştirmeyin; değişiklik gerekiyorsa sayfa adreslerini koruyun.
+
+### Menüde açılır alt menü kullanmalı mıyım?
+
+Hizmet sayısı çoksa evet; ama alt menüyü mobilde kolay açılır tutun ve bağlantıların gerçek bağlantı olduğundan emin olun.
 
 ## Kaynaklar
 

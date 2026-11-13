@@ -67,6 +67,34 @@ Yeni bir site açan işletmeler genellikle iki hataya düşer: ya tek sayfalık 
 
 Örnek (hayalî bir işletme için): Pamukkale’de yeni açılan bir klima servisi üç ana hizmetle (bakım, montaj, tamir) başlıyor. Site planı: ana sayfa, üç hizmet sayfası, hakkımızda, iletişim, gizlilik bilgisi ve ilk ay beş blog yazısı. İlçe sayfaları, her ilçe için gerçek ve özgün bilgi hazır olduğunda eklenecek; yorum ve vaka sayfaları gerçek içerik oluştuktan sonra.
 
+## Ana sayfa nasıl yazılır?
+
+Ana sayfa, siteyi bilmeyen birinin ilk karşılaştığı sayfadır. İlk ekranda şunları söyleyin: ne yapıyorsunuz, hangi bölgeye hizmet veriyorsunuz, nasıl ulaşılır? Altında ana hizmetlerinizi kısa kartlarla gösterip her birini kendi sayfasına bağlayın. Ardından güven veren bilgilere yer verin: gerçek adres, çalışma saatleri, varsa gerçek yorumlar ve Google puanı. En altta tek bir eylem çağrısı bırakın. Ana sayfaya her şeyi yığmayın; görevi yönlendirmektir, her konuyu ayrıntılı anlatmak değil.
+
+## Hizmet sayfası nasıl yazılır?
+
+Her ana hizmetin kendi sayfası olmalıdır. Sayfada hizmetin ne olduğunu, kime uygun olduğunu, nasıl yapıldığını, süreci, fiyatın nasıl belirlendiğini ve sık sorulan soruları anlatın. Gerçek fotoğraflar ve kısa süreç adımları ekleyin. Hizmet sayfası, aramada “klima bakımı Denizli” gibi bir ifadeyle gelen kişinin aradığı sayfadır; sorusunu ilk ekranda cevaplayın. Ayrıntı için [hizmet sayfası nasıl yazılır?](/blog/hizmet-sayfasi-nasil-yazilir/) yazısına bakın.
+
+## Güven sayfaları: hakkımızda ve iletişim
+
+Yeni bir işletme için en çok eksik bırakılan sayfalar bunlardır. Hakkımızda sayfasında işletmenin kim olduğunu, kimlerin çalıştığını ve nasıl çalıştığınızı anlatın. İletişim sayfasında adres, telefon, çalışma saatleri, harita ve kısa bir form bulunsun. Bu bilgiler Google İşletme Profili’nizle birebir aynı olmalıdır. Detaylar için [Hakkımızda sayfası](/blog/hakkimizda-sayfasi-nasil-yazilir-guven-icin-rehber/) ve [iletişim sayfası SEO’su](/blog/iletisim-sayfasi-seo-su-adres-telefon-ve-harita/) yazılarına bakın.
+
+## Gizlilik ve yasal sayfalar
+
+Formla kişisel veri topluyorsanız ve çerez kullanıyorsanız gizlilik ve kişisel veri bilgilendirmesi sayfası gerekir. Bu metinleri bir hukukçuya hazırlatmanız önerilir; bu yazı hukuki danışmanlık değildir. Sayfaya alt bilgiden bağlantı verin ve formun yanında kısa bir bilgilendirme ekleyin.
+
+## İlk üç ayda içerik planı nasıl olmalı?
+
+İlk ay temel sayfaları yayınlayın ve Google İşletme Profili’ni doğrulayın. İkinci ay, müşterilerin en çok sorduğu üç soruyu üç yazıya çevirin ve hizmet sayfalarına bağlayın. Üçüncü ay, yorum isteme düzenini kurun, yerel kayıtları tamamlayın ve ilk ölçümü yapın. Sayfa sayısını artırmak için hız yapmayın: Google’ın SEO başlangıç kılavuzu, kullanıcıya yararlı ve düzenli içeriği önerir ([SEO başlangıç kılavuzu](https://developers.google.com/search/docs/fundamentals/seo-starter-guide?hl=tr)).
+
+## Yeni sitede en sık görülen hatalar
+
+Birincisi, test sırasında konan `noindex` etiketini yayında bırakmaktır; site Google’da hiç görünmez. İkincisi, hizmetleri tek sayfaya sığdırmaktır. Üçüncüsü, iletişim bilgisini yalnızca görsel içine koymaktır. Dördüncüsü, yayına aldıktan sonra Search Console’u kurmamaktır. Beşincisi, aynı metni birkaç sayfada tekrarlamaktır. Bunların her biri yayından önce on dakikalık bir kontrolle yakalanabilir; yayın öncesi kontrol için [SEO uyumlu web sitesi](/blog/seo-uyumlu-web-sitesi/) yazısındaki adımlara bakabilirsiniz.
+
+## Sayfa planı için son söz
+
+İlk sürümde mükemmel olmaya çalışmayın; müşterinin temel sorularını cevaplayan sade bir site, yarım kalmış büyük bir siteden iyidir. Yayına alın, ölçün, müşteri sorularına göre genişletin. Her yeni sayfanın bir amacı olsun: müşteriye bir soruyu cevaplamak ya da bir eyleme götürmek.
+
 ## Denizli SEO bu konuda nasıl yardımcı olur?
 
 Doğru sayfa planı, sonradan düzeltme maliyetini azaltır. [İçerik SEO hizmetimizde](/icerik-seo/):
@@ -91,6 +119,22 @@ Yalnızca gerçekten hizmet verdiğiniz ve özgün bilgi yazabildiğiniz ilçele
 ### Kaç sayfa yeterli?
 
 Sayı yok; müşterinin sorularını cevaplayacak ve işinizi anlatacak kadar.
+
+### Kaç sayfayla başlamalıyım?
+
+Sayı yok; ana sayfa, hizmet sayfaları, hakkımızda ve iletişim çoğu yerel işletme için güçlü bir başlangıçtır.
+
+### Blog olmadan da başlayabilir miyim?
+
+Evet. Önce temel sayfaları ve profilinizi hazırlayın; müşteri soruları netleştikçe blog yazıları ekleyin.
+
+### Yayın tarihinden önce hangi sayfalar mutlaka hazır olmalı?
+
+Ana sayfa, ana hizmet sayfaları, iletişim ve hakkımızda. Blog ve ilçe sayfaları sonra eklenebilir.
+
+### Siteyi kendim mi yapmalıyım, yaptırmalı mıyım?
+
+Zamanınız ve teknik bilginiz varsa temel bir siteyi kendiniz kurabilirsiniz; hız, güvenlik ve SEO ayarları için uzman desteği almak uzun vadede zaman kazandırır.
 
 ## Kaynaklar
 

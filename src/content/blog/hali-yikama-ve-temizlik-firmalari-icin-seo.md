@@ -1,6 +1,6 @@
 ---
 title: "Halı Yıkama ve Temizlik Firmaları İçin SEO"
-description: "Halı yıkama ve temizlik firmaları için SEO: yakınımda aramaları, hizmet bölgesi, hizmet ve ilçe sayfaları, öncesi–sonrası fotoğraf, yorumlar ve profil kuralları."
+description: "Halı yıkama ve temizlik firmaları için SEO: yakınımda aramaları, hizmet bölgesi, hizmet ve ilçe sayfaları, öncesi–sonrası fotoğraf, yorumlar ve profil."
 date: 2026-11-12
 service: teknik-seo
 imageAlt: "Halı yıkama hizmeti için hizmet bölgesi haritası, öncesi sonrası fotoğraf ve yorum kartları"

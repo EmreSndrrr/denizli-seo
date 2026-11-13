@@ -1,6 +1,6 @@
 ---
 title: "Yeni Siteye Geçerken Sıralamayı Korumak: 301 Listesi"
-description: "Siteyi yenilerken ya da alan adı değiştirirken sıralamayı korumak için 301 yönlendirme, URL eşleme tablosu, Adres değişikliği aracı ve yayın sonrası kontrol listesi."
+description: "Siteyi yenilerken ya da alan adı değiştirirken sıralamayı korumak için 301 yönlendirme, URL eşleme tablosu, Adres değişikliği aracı ve yayın sonrası."
 date: 2026-10-29
 updated: 2026-11-06
 service: web-tasarim

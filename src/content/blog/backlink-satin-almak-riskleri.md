@@ -1,6 +1,6 @@
 ---
 title: "Backlink Satın Almak: Google’ın Spam Politikası Ne Diyor?"
-description: "Backlink satın almak neden risklidir? Google’ın bağlantı spam’i politikası, hacklink ve PBN, manuel işlem, reddetme aracı ve ajans teklifindeki kırmızı bayraklar."
+description: "Backlink satın almak neden risklidir? Google’ın bağlantı spam’i politikası, hacklink ve PBN, manuel işlem, reddetme aracı ve ajans teklifindeki kırmızı."
 date: 2026-11-03
 updated: 2026-11-06
 service: backlink-hizmeti

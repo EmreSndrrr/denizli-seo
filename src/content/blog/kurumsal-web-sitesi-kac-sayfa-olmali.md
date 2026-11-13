@@ -82,6 +82,10 @@ Sayfa sayısı arttıkça menü karışabilir. Ana menüde beş altı öğe tutu
 
 Sitenizin büyümesini üç aylık dönemlere bölün. İlk dönemde temel sayfalar ve iletişim; ikinci dönemde müşteri sorularından beş rehber; üçüncü dönemde güçlü hizmet sayfalarının ayrıntılandırılması ve yorum ile referans ekleme; dördüncü dönemde yeni hizmet ya da bölge sayfaları. Her dönemin sonunda mevcut sayfaları gözden geçirin: hangisi ziyaret alıyor, hangisi boş kalıyor? Boş kalan, güncellenmeyen ya da birbirini tekrar eden sayfaları birleştirin ya da kaldırın.
 
+## Sayfa planı için pratik bir kural
+
+Her sayfa için “bu sayfa hangi soruyu cevaplıyor?” diye sorun. Cevap net değilse sayfayı açmayın. Cevap iki sayfada aynıysa birleştirin. Siteyi bu kuralla büyütürseniz sayfa sayısı doğal olarak işletmenizin ihtiyacına uyar.
+
 ## Denizli SEO bu konuda nasıl yardımcı olur?
 
 [SEO uyumlu web tasarım hizmetimizde](/web-tasarim/):
@@ -114,6 +118,10 @@ Küçük ve tek hizmetli işler için olabilir; bkz. [tek sayfalık site mi, ço
 ### Sayfa sayısı arttıkça sıralamam yükselir mi?
 
 Hayır, doğrudan bir ilişki yok. Önemli olan sayfaların yararlı ve özgün olmasıdır.
+
+### Hizmetler tek sayfada mı, ayrı sayfalarda mı olmalı?
+
+Birden fazla ana hizmetiniz varsa her biri için ayrı sayfa açın; her hizmet ayrı bir arama niyetidir.
 
 ## Kaynaklar
 

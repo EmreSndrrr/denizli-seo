@@ -68,6 +68,38 @@ Aynı aramayı hedefleyen iki yazı birbirinin önüne geçebilir. Her yazının
 
 Örnek (hayalî bir işletme için): Pamukkale’de bir diş kliniği “implant” hizmeti için bir ana sayfa yazıyor; ardından müşterinin sorduğu beş soruyu ayrı yazılarla cevaplıyor, hepsini hizmet sayfasına ve birbirine bağlıyor. Tıbbi iddialar uzmana kontrol ettiriliyor; sonuç vaadi yazılmıyor.
 
+## Konu kümesi için ana sayfa nasıl seçilir?
+
+Kümenin merkezinde, işletmenin gelir getiren hizmetini ya da konusunu anlatan bir sayfa durur. Bu sayfa genelde bir hizmet sayfası ya da kapsamlı bir rehberdir. Seçerken şunu sorun: müşteri bu konuda önce hangi sayfaya inmeli? “Klima bakımı” hizmet sayfası, bakımla ilgili tüm sorular için merkezdir. Merkez sayfa yoksa önce onu yazın; destek yazılarını ancak bağlanacakları bir merkez olunca yazın.
+
+## Destek yazılarının fikirleri nereden gelir?
+
+En güvenilir kaynak müşteri soruları. Telefonda, WhatsApp’ta ve yüz yüze sorulan soruları bir listeye yazın. Her soru bir destek yazısı adayıdır. Search Console’un Performans raporu da hangi sorgularda göründüğünüzü gösterir ([Performans raporu](https://support.google.com/webmasters/answer/7576553?hl=tr)); gösterimi olan ama sayfası zayıf olan sorular için yeni yazı yazılabilir. Ayrıca rakiplerin cevapsız bıraktığı soruları not edin; bkz. [rakip içerik analizi](/blog/rakip-icerik-analizi-nasil-yapilir/).
+
+## Kümeyi iç bağlantılarla nasıl örersiniz?
+
+Kümenin gücü, parçaların birbirine bağlı olmasından gelir. Üç kural yeterlidir: Her destek yazısı merkez sayfaya bağlansın. Merkez sayfa, en önemli destek yazılarına bağlansın. İlişkili destek yazıları birbirine bağlansın. Bağlantı metinlerini açıklayıcı ve doğal yazın. Google, önemsediğiniz her sayfaya sitenizdeki en az bir başka sayfadan bağlantı verilmesini önerir; küme yapısı bunu kendiliğinden sağlar. Ayrıntı için [iç bağlantı stratejisi](/blog/ic-baglanti-stratejisi-kucuk-siteler-icin-rehber/) yazısına bakın.
+
+## Kümeyi nasıl ölçersiniz?
+
+Üç ayda bir şunlara bakın: kümedeki sayfaların aramadaki gösterim ve tıklaması, merkez sayfanın talep getirip getirmediği, hangi destek yazılarının merkez sayfaya ziyaretçi gönderdiği. Hiç gösterim almayan destek yazıları için nedenini araştırın: dizinde mi, başlığı sorguya uyuyor mu, içeriği yeterli mi? Gerçek talep kaydınız (telefon, form, WhatsApp) en önemli ölçüdür; tıklama sayısı müşteri sayısı değildir.
+
+## Küme ne zaman büyütülür, ne zaman budanır?
+
+Bir küme beş yazıyla başlayıp düzenli büyüyebilir. Ancak aynı soruyu cevaplayan iki yazı birbirinin önüne geçebilir; bunları birleştirin. Eski ve güncelliğini yitirmiş yazıları güncelleyin ya da kaldırın; bkz. [eski blog yazıları ne zaman güncellenir?](/blog/eski-blog-yazilari-ne-zaman-ve-nasil-guncellenir/). Kümeyi büyütürken yeni bir alt konu açmadan önce mevcut yazıların işe yarayıp yaramadığına bakın.
+
+## Küçük işletmelerde sık görülen hatalar
+
+En sık hata, çok geniş bir kümeyle başlamaktır. Bir hizmetle başlayın, tamamlayın, sonra diğerine geçin. İkinci hata, destek yazılarını merkez sayfaya bağlamamaktır; bağlantısız yazılar kümeyi oluşturmaz. Üçüncü hata, yalnızca anahtar kelime için yazı yazmaktır; müşterinin gerçek sorusu olmayan yazı, hiçbir kümeye yarar sağlamaz. Dördüncüsü, kümeyi tek seferde yazıp bırakmaktır; küme canlı bir yapıdır.
+
+## Küme yaklaşımının sınırı
+
+Konu kümesi bir sıralama garantisi değildir; Google’ın tek bir resmî “küme” kuralı da yok. Bu, müşterinin sorularını düzenli cevaplamak ve sayfalarınızı anlamlı biçimde bağlamak için kullanılan pratik bir düzendir. Sonuç, içeriğin kalitesine, rekabete ve zamana bağlıdır. Kümeyi kurmak için yazının doğruluğundan ödün vermeyin.
+
+## İlk kümenizi bu hafta nasıl başlatırsınız?
+
+En çok gelir getiren hizmetinizi seçin. Müşterilerin bu hizmetle ilgili en sık sorduğu beş soruyu yazın. Her biri için bir yazı planlayın ve merkez sayfaya bağlanacağını not edin. Önce merkez sayfayı güncelleyin, sonra yazıları sırayla yazın. Beş yazı tamamlandığında kümeniz çalışmaya başlar.
+
 ## Denizli SEO bu konuda nasıl yardımcı olur?
 
 Konu kümesi, içerik stratejisinin iskeletidir. [İçerik SEO hizmetimizde](/icerik-seo/):
@@ -92,6 +124,18 @@ Sayı yok; müşterinin gerçek sorularını cevaplayacak kadar.
 ### Küçük site için uygun mu?
 
 Evet; tek bir hizmetle başlayıp beş yazılık bir küme yapmak yeterli bir başlangıçtır.
+
+### Bir kümede kaç yazı olmalı?
+
+Sayı yok. Beş altı güçlü destek yazısı, bir hizmet için çoğu zaman iyi bir başlangıçtır.
+
+### Her hizmete ayrı küme gerekir mi?
+
+Evet, ama sırayla. Önce en çok gelir getiren hizmeti tamamlayın.
+
+### Küme için ayrı bir yazılım gerekir mi?
+
+Hayır; bir tablo, basit bir iç bağlantı planı ve düzenli yazı yeterlidir.
 
 ## Kaynaklar
 

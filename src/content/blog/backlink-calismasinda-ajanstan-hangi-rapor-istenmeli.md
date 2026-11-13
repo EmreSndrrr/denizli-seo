@@ -97,6 +97,10 @@ Alan otoritesi gibi üçüncü taraf puanlar bir ipucu olabilir ama Google’ın
 
 Aylık raporu aldığınızda kısa bir görüşme isteyin ve şunları sorun: Bu ay en çok hangi yöntem işe yaradı? Reddedilen ya da cevap gelmeyenlerin nedeni ne? Gelecek ay hangi yeni fırsatlara bakıyoruz? Bağlantılardan gelen gerçek bir ziyaretçi ya da talep oldu mu? Sizin sitenizde düzeltmemiz gereken bir şey var mı? Bu soruların cevabı net değilse çalışma da net değildir.
 
+## Rapor isterken yazılı bir çerçeve kurun
+
+Çalışmaya başlarken rapor içeriğini, sıklığını ve teslim günü sözleşmeye yazdırın. İlk ayda örnek bir rapor isteyin ve anlamadığınız her satırı sorun. Rapordaki bağlantıları rastgele kontrol etmeyi alışkanlık hâline getirin. Şeffaf bir ajans bunu rahatlıkla karşılar; kaçınan bir ajans zaten kendini gösterir.
+
 ## Denizli SEO bu konuda nasıl yardımcı olur?
 
 [Backlink hizmetimizde](/backlink-hizmeti/) rapor şeffaflığı varsayılandır:
@@ -129,6 +133,10 @@ Adresi açın ve Search Console Bağlantılar raporuyla karşılaştırın.
 ### Raporu kendi başıma anlayamazsam?
 
 Ajanstan bir sayfalık özet isteyin ve bilmediğiniz her terimi açıklamalarını rica edin. Açıklayamayan bir ajans, şeffaf değildir.
+
+### Ajans raporu kendi araçlarıyla hazırlıyorsa?
+
+Kaynak adreslerini doğrulamak için bağlantıların tarayıcıda açılabilir olması yeterlidir; araç çıktısı ile Search Console verisini karşılaştırın.
 
 ## Kaynaklar
 

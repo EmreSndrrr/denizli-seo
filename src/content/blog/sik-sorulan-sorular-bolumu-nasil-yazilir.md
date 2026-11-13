@@ -108,6 +108,10 @@ Soruları kendi müşterilerinizin sorularıyla değiştirin; liste yalnızca fi
 
 Müşteriyle konuşan kişi ilk taslağı çıkarmalıdır; çünkü sorular ve doğru cevaplar onda. Sonra yazıya dökülür, bilgiler gözden geçirilir. Mevzuat ya da sağlık gibi hassas konularda hukuki ya da mesleki doğrulama gerekir.
 
+## SSS bölümü için kısa bir uygulama
+
+Müşteri mesajlarından en sık gelen beş soruyu seçin. Her birini bir H3 başlığı olarak yazın ve cevabı iki üç cümleyle verin; ilk cümle doğrudan cevap olsun. Sayfada görünür olmayan sorular eklemeyin. Cevapları yılda bir güncelleyin.
+
 ## Denizli SEO bu konuda nasıl yardımcı olur?
 
 SSS yazmak, müşterinin dilini bilmeyi gerektirir. [İçerik SEO hizmetimizde](/icerik-seo/):

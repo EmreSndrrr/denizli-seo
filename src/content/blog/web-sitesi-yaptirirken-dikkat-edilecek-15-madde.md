@@ -60,6 +60,26 @@ Google, dizine ekleme ve sıralama için sitenin mobil sürümünü kullanır ([
 
 Örnek (hayalî bir işletme için): Merkezefendi’de bir klinik yeni site için iki teklif alıyor. Birinde alan adı ajansın hesabında, “ilk sayfa garantisi” ve belirsiz kapsam var; diğerinde alan adı klinik adına, kapsam ve revizyon sayısı yazılı, eski siteden yönlendirme planı var. Klinik ikincisini seçiyor.
 
+## Teklifleri nasıl karşılaştırırsınız?
+
+İki üç teklif alın ve kapsamı kalem kalem karşılaştırın: kaç sayfa, hangi özellikler, kim metin yazacak, kim görsel hazırlayacak, kaç revizyon hakkı var, yayın sonrası destek süresi ne kadar? Aynı kapsam için çok farklı fiyatlar görürseniz fark nedeni sorulmalıdır. En ucuz teklif, eksik kapsamla ya da hazır bir şablonla gelebilir; en pahalı olan da gereksiz özellikler içerebilir. Teklifte “SEO uyumlu” ifadesi geçiyorsa bunun neleri kapsadığını sorun: başlık yapısı, URL, hız, mobil, site haritası, yönlendirme. Sıralama garantisi veren tekliflere dikkat edin; Google kimsenin birinci sıra garantisi veremeyeceğini söyler ([SEO uzmanı işe alma](https://developers.google.com/search/docs/fundamentals/do-i-need-seo?hl=tr)).
+
+## İçeriği kim hazırlayacak?
+
+Site yaptırırken en çok ihmal edilen konu içeriktir. Metinleri kim yazacak, fotoğrafları kim çekecek, hizmet bilgilerini kim onaylayacak? Çoğu proje, içerik hazır olmadığı için gecikir. Ajans metin yazıyorsa sizden hangi bilgileri isteyeceğini ve onay sürecini yazılı belirleyin. Kendiniz yazacaksanız bir teslim tarihi koyun. İçeriğin özgün olması önemlidir; başka sitelerden kopyalanan ya da şablon metinler hem güven hem arama açısından sorun yaratır; bkz. [kopya içerik](/blog/kopya-icerik-nedir-nasil-onlenir/).
+
+## Yayın günü ve sonrasında neler olmalı?
+
+Yayına çıkmadan önce bir kontrol yapın: test ortamında kalan `noindex` etiketi kaldırıldı mı, formlar çalışıyor mu, HTTPS ve yönlendirmeler doğru mu, Search Console kuruldu mu, analiz aracı çalışıyor mu? Eski bir siteniz varsa adres eşlemesi ve yönlendirmeler hazır olmalı. Yayından sonraki ilk haftalarda Search Console’daki dizine ekleme durumunu, 404 hatalarını ve sayfa hızını izleyin. Bunlar sözleşmede de yazılı olmalıdır; aksi hâlde yayın günü sorumluluk belirsiz kalır.
+
+## Sahiplik ve erişim neden bu kadar önemli?
+
+Alan adı, hosting ve yönetim paneli bilgileri sizin adınıza ve sizde olmalıdır. Ajansın kendi hesabında açtığı bir alan adı ya da paneli, ayrılırken sorun çıkarır. Sözleşmede kaynak dosyaların, tasarım dosyalarının ve içeriğin telif haklarının kime ait olduğunu yazdırın. Çalışma bittiğinde ajansın erişimlerini kapatın ve parolaları yenileyin. Bu basit önlemler, yıllar sonra bile sitenizin kontrolünü sizde tutar.
+
+## Karar vermeden önce sorulacak beş soru
+
+Teklif veren firmaya şunları sorun: Alan adı ve hosting kimin adına olacak? İçeriği kim hazırlayacak? Yayın sonrası kaç ay destek var? SEO ayarları (başlık, URL, hız, mobil, yönlendirme) teklife dahil mi? Çalışmayı bitirdiğinizde hangi dosya ve erişimleri teslim alacağım? Net cevap alamazsanız kapsamı yazılı hâle getirmeden ilerlemeyin. Bu beş soru, çoğu sonradan çıkan sorunu baştan çözer.
+
 ## Denizli SEO bu konuda nasıl yardımcı olur?
 
 [SEO uyumlu web tasarım hizmetimizde](/web-tasarim/):
@@ -84,6 +104,22 @@ Evet; ama SEO ve hız açısından kontrol edin; bkz. [hazır tema mı, özel ta
 ### Yayın sonrası destek gerekli mi?
 
 Güncelleme, yedek ve güvenlik için bir plan olmalı.
+
+### Web sitesi yaptırmanın en riskli yanı nedir?
+
+Sahiplik ve erişim belirsizliği ile kapsamın yazılı olmaması. İkisini de baştan çözün.
+
+### Hazır site paketi almak mantıklı mı?
+
+Bütçe ve ihtiyaç basitse olabilir; ama kapsamı, hızı ve SEO ayarlarını teslimden önce kontrol edin.
+
+### Ajans mı freelancer mı?
+
+İkisinin de artı ve eksisi var: kapsam, sürekliliğe ve destek süresi. Hangisini seçerseniz seçin sahipliği, kapsamı ve teslimi yazılı belirleyin; seçim için [SEO ajansı mı, uzman mı?](/blog/seo-ajansi-mi-uzmani-mi/) yazısına da bakabilirsiniz.
+
+### Yayın sonrası değişiklik hakkım olmalı mı?
+
+Evet; küçük düzeltmeler için belirli bir süre ücretsiz destek ve sonraki işler için net bir fiyatlandırma yöntemi sözleşmede yazılı olmalıdır.
 
 ## Kaynaklar
 

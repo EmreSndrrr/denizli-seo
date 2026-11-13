@@ -90,6 +90,10 @@ Bir ortaktan ya da yayıncıdan bağlantı isterken “şu metinle bağlantı ve
 
 Örnek (hayalî bir işletme için): Merkezefendi’de bir klima servisinin Bağlantılar raporunda, bağlantıların büyük kısmı “Firma Adı” ve site adresiyle geliyor; yalnızca bir blogdan gelen tek bağlantının metni “Denizli ucuz klima servisi”. Servis bu bağlantıyı kimin eklediğini araştırıyor; kendi çabasıyla alınmadığını görüyor ve ek bir işlem yapmıyor. İç bağlantılarında ise “buraya tıklayın” yazan üç bağlantıyı “klima bakım hizmetimiz” gibi açıklayıcı metinlerle değiştiriyor.
 
+## Anchor konusunda kısa bir kural
+
+Kendi bağlantılarınızda açıklayıcı ve çeşitli metin kullanın; dışarıdan gelen bağlantıların metnini siz belirlemeyin. Raporda tuhaf bir desen görürseniz önce nedenini araştırın. Aşırı optimizasyonu önlemenin en iyi yolu, bağlantıları doğal biçimde kazanmaktır.
+
 ## Denizli SEO bu konuda nasıl yardımcı olur?
 
 [Backlink hizmetimizde](/backlink-hizmeti/):

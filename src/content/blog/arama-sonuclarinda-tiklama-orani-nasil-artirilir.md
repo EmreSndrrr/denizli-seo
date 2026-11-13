@@ -64,6 +64,34 @@ Başlıkta doğrulayamadığınız “en iyi” gibi iddialardan kaçının.
 
 Örnek (hayalî bir işletme için): Merkezefendi’de bir klima servisinin “klima bakımı” sayfası çok gösterim alıyor ama az tıklanıyor. Başlık yalnızca “Klima Bakımı | Firma” idi. Yeni başlık hizmeti, bölgeyi ve soruyu birlikte söylüyor; açıklama süreç ve randevu bilgisini veriyor. Dört hafta sonra Search Console’da aynı sorgu için gösterim ve tıklama karşılaştırılıyor; sonuç beklenen yönde olmayabilir ve bu durumda yeni bir deneme yapılır.
 
+## Düşük tıklama oranı her zaman sorun mudur?
+
+Hayır. Bir sorguda sonucunuz sıra olarak aşağıdaysa tıklama oranı doğal olarak düşer. Bilgi arayan biri sonuç sayfasında cevabı doğrudan görüp tıklamayabilir. Bu yüzden düşük oranı tek başına kötü saymayın; aynı sıradaki benzer sayfalarla ve kendi geçmişinizle karşılaştırın. Search Console’un Performans raporu gösterim, tıklama, tıklama oranı ve ortalama konumu verir ([Performans raporu](https://support.google.com/webmasters/answer/7576553?hl=tr)). Önce hangi sayfaların çok gösterim alıp az tıklandığına bakın; sorun orada aranır.
+
+## Başlığınız aramanın niyetini karşılıyor mu?
+
+Müşteri “klima bakımı fiyatı” arıyorsa başlıkta fiyatı nasıl öğreneceğine dair bir ipucu görmek ister. Genel bir “Klima Servisi – Firma Adı” başlığı bu niyeti karşılamaz. Başlığı sayfanın gerçekte cevapladığı soruya göre yazın; ancak içeriği aşan vaatler vermeyin. Google’ın başlık bağlantısı belgesi, her sayfanın açıklayıcı ve özgün bir `<title>` taşımasını, “Ana Sayfa” gibi belirsiz başlıklardan kaçınmayı önerir ([başlık bağlantıları](https://developers.google.com/search/docs/appearance/title-link?hl=tr)). Google başlığı sayfa içeriğinden farklı oluşturabilir; bu yüzden hem başlığı hem ilk başlık etiketini (H1) tutarlı yazın.
+
+## Meta açıklama gerçekten işe yarar mı?
+
+Google, snippet’i çoğunlukla sayfa içeriğinden üretir; ama meta açıklama sayfayı daha iyi anlatıyorsa kullanabilir ([meta tanımlar](https://developers.google.com/search/docs/appearance/snippet?hl=tr)). Bu yüzden her önemli sayfa için sayfaya özel, kısa ve dürüst bir açıklama yazın: sayfanın ne sunduğunu, kime uygun olduğunu ve varsa bir sonraki adımı anlatın. Aynı açıklamayı tüm sayfalara kopyalamayın.
+
+## Güncel ve doğru bilgi tıklamayı nasıl etkiler?
+
+Arama sonucunda eski bir yıl, güncel olmayan bir fiyat ya da kapanmış bir şube görmek ziyaretçiyi caydırır. Sayfadaki tarihleri ve bilgileri güncel tutun. Google’ın tarih belgesi, görünür tarihlerin doğru ve tutarlı olmasını önerir; tarihi yalnızca içeriği gerçekten değiştirdiğinizde yenileyin. Bkz. [eski blog yazıları ne zaman ve nasıl güncellenir?](/blog/eski-blog-yazilari-ne-zaman-ve-nasil-guncellenir/).
+
+## Zengin sonuçlar tıklamayı artırır mı?
+
+Uygun yapılandırılmış veri bazı sayfalarda ek bilgilerle gösterilebilir; ancak Google, gösterimin garanti edilmediğini belirtir. Yapılandırılmış veriyi yalnızca sayfadaki bilgiyi doğru yansıttığında ekleyin; yanıltıcı işaretlemeden kaçının. Ayrıntı için [yapılandırılmış veri rehberi](/blog/yapilandirilmis-veri-nedir-isletmeler-icin-rehber/) yazısına bakın.
+
+## Test ederek nasıl öğrenirsiniz?
+
+Bir başlığı değiştirdikten sonra en az dört hafta bekleyin; daha kısa sürede sonuç yorumlamak zor. Tek seferde tek değişiklik yapın; aksi hâlde neyin işe yaradığını bilemezsiniz. Değişikliği tarih, sayfa, eski ve yeni başlıkla bir tabloya kaydedin. Sonuç beklediğiniz yönde değilse eski başlığa dönmek ya da yeni bir deneme yapmak serbesttir. Tıklama oranını tek hedef yapmayın: asıl amaç doğru kişinin sayfaya gelmesi ve talep bırakmasıdır.
+
+## Tıklama oranı çalışmasında ilk üç adım
+
+Search Console’da gösterimi yüksek, tıklaması düşük beş sayfayı bulun. Her birinin başlığını arama niyetine göre yeniden yazın. Dört hafta sonra karşılaştırın. Bu küçük döngü, çoğu işletme için tıklamayı artırmanın en düşük maliyetli yoludur.
+
 ## Denizli SEO bu konuda nasıl yardımcı olur?
 
 Tıklama oranı, içerik ve ölçümün kesiştiği yerdir. [İçerik SEO hizmetimizde](/icerik-seo/):
@@ -88,6 +116,18 @@ Google başlığı çeşitli kaynaklardan oluşturabilir; sayfa başlığınız�
 ### TO sıralamayı etkiler mi?
 
 Bu konuda kesin bir iddia yazmıyoruz; odak noktanız müşteriye en doğru vaadi vermek olsun.
+
+### Rakibin başlığını kopyalayabilir miyim?
+
+Hayır; kendi sayfanızın gerçek içeriğini anlatan, özgün bir başlık yazın. Kopya başlık kullanıcıya fark sunmaz.
+
+### Google başlığı kendisi değiştirirse ne yapmalıyım?
+
+Başlığınızı açık, sayfayla uyumlu ve kısa yazmak en iyi önlemdir; Google başlığı farklı üretebilir, bunu kontrol edemeyiz.
+
+### Başlıkta rakam kullanmak işe yarar mı?
+
+Başlıkta rakam okuyucunun içerik hakkında fikir edinmesini kolaylaştırabilir; ama zorunlu değil ve kesin sonuç garantisi vermez. Başlığın sayfayla uyumlu olması daha önemlidir.
 
 ## Kaynaklar
 

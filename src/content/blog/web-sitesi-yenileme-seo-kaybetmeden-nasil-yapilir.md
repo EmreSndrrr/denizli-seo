@@ -59,6 +59,30 @@ Search Console’da yayından sonraki günlerde dizin kapsamı ve tarama hatalar
 
 Örnek (hayalî bir işletme için): Pamukkale’de bir otelin eski sitesinde 60 sayfa var. Yenilemeden önce tüm adresler listeleniyor, 18 önemli sayfa için yeni adres eşleniyor, birleştirilen sayfalar uygun yeni sayfaya 301’leniyor; karşılığı kalmayan 12 eski kampanya sayfası 404 bırakılıyor. Yayından sonra Search Console’da iki hafta boyunca hatalar izleniyor.
 
+## Yenileme öncesi hangi veriler kaydedilmelidir?
+
+Yenileme sonrası sonuçları değerlendirebilmek için bugünün resmini kaydedin: Search Console’daki son altı aylık gösterim ve tıklama, en çok trafik alan sayfalar, en çok bağlantı alan sayfalar, mevcut sıralamalar, hız ölçümleri ve gelen talep sayıları. Eski sitenin tüm adreslerini (site haritası, tarama aracı, Search Console) bir listede toplayın. Bu kayıt, yenileme sonrası bir düşüş olursa nedenini aramanız için tek dayanaktır; bkz. [trafik düşüşü nasıl teşhis edilir?](/blog/trafik-dususu-nasil-teshis-edilir/).
+
+## İçerik nasıl taşınır?
+
+İyi çalışan sayfaların metnini tamamen yeniden yazmak risklidir. Önce hangi sayfaların aramada görünüp talep getirdiğini belirleyin; bu sayfaları mümkün olduğunca koruyun ve gerekirse iyileştirin. Başlık, açıklama, ana başlık (H1), iç bağlantılar ve görsel alt metinlerini yeni siteye taşıyın. Ürün ya da hizmet adlarını değiştiriyorsanız eski adlarla gelen aramaları da düşünün. Birleştirilen sayfalar için en güçlü olanı koruyup diğerlerini ona yönlendirin.
+
+## Test ortamında nelere dikkat edilir?
+
+Yeni siteyi yayından önce bir test ortamında hazırlıyorsunuz. Bu ortamın arama motorları tarafından taranmaması gerekir; erişimi parolayla korumak en güvenli yoldur. Yayına çıkarken test ortamından kalan `noindex` etiketini, robots.txt engelini ve test adreslerini temizlediğinizden emin olun. Yeni sitede eski sitenin tüm önemli adresleri için karşılık olup olmadığını bir tabloyla kontrol edin.
+
+## Yayın gününde yapılacaklar
+
+Yayın günü sırayla: yönlendirmeleri kurun, site haritasını güncelleyin ve Search Console’da gönderin, robots.txt’yi kontrol edin, HTTPS ve www yönlendirmelerini doğrulayın, formları ve iletişim yollarını test edin, hız ve mobil görünümü ölçün. Google, URL değişikliği yapan taşımalarda URL eşlemesi hazırlamayı önerir ([site taşıma](https://developers.google.com/search/docs/crawling-indexing/site-move-with-url-changes?hl=tr)). Aynı gün eski adreslerden birkaçını açıp yeni adrese yönlendiğini elle doğrulayın.
+
+## Yayından sonra ilk haftalar
+
+Dizine ekleme bir haftayı bulabilir ([dizine ekleme raporu](https://support.google.com/webmasters/answer/7440203?hl=tr)); bu yüzden ilk günlerde dalgalanma normaldir. Her gün Search Console’daki tarama hatalarına, 404’lere ve dizin kapsamına bakın; unutulan adresler için hemen yönlendirme ekleyin. İki hafta sonra gösterim ve tıklamayı başlangıç kaydıyla karşılaştırın. Büyük sapma varsa önce teknik nedenleri (engel, yönlendirme, hız) kontrol edin; sonra içerik farklarına bakın.
+
+## Yenileme için kısa bir takvim
+
+Yayından dört hafta önce envanter ve adres eşlemesini hazırlayın. İki hafta önce yeni sitede başlık, açıklama ve iç bağlantıları kontrol edin. Yayın gününde yönlendirmeleri kurun ve site haritasını gönderin. İlk hafta her gün hataları izleyin. İkinci hafta başlangıç kaydıyla karşılaştırın. Bu takvim bir kural değil, düzenli bir çalışma örneğidir; sitenizin büyüklüğüne göre uyarlayın.
+
 ## Denizli SEO bu konuda nasıl yardımcı olur?
 
 [SEO uyumlu web tasarım hizmetimizde](/web-tasarim/):
@@ -83,6 +107,22 @@ Eski adresler bağlantı alıyorsa uzun süre; kesin süre için genel bir kural
 ### Test sitesini nasıl kapatırım?
 
 Erişimi parola ya da erişim kısıtıyla korumak en güvenlisidir.
+
+### Yenileme sırasında tasarımı tamamen değiştirmek sorun mu?
+
+Tasarım tek başına sorun değildir; adres, içerik ve yönlendirme değişiklikleri riskin asıl kaynağıdır.
+
+### Yenileme sonrası trafiğim düşerse ne yapmalıyım?
+
+Önce teknik sebepleri kontrol edin; ardından başlangıç kaydınızla karşılaştırıp hangi sayfaların etkilendiğini bulun.
+
+### Yenileme sırasında içeriği güncellemek doğru mu?
+
+Evet, ama aynı anda çok şeyi değiştirmeyin; adres ve yapı değişikliğiyle içerik değişikliğini mümkünse ayrı zamanlara yayın ki sonuçları ayırabilesiniz.
+
+### Yenileme ne kadar sürer?
+
+Kapsama bağlıdır; envanter, eşleme ve test aşamalarını sürece dahil edin ve kesin süreyi teklif aşamasında yazılı isteyin.
 
 ## Kaynaklar
 

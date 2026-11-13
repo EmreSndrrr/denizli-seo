@@ -66,6 +66,50 @@ Yapay zekâ ile taslak yazdıysanız, kaynakları ve bilgileri insan olarak doğ
 
 Örnek (hayalî bir işletme için): Merkezefendi’de bir mali müşavirlik bürosunun bloğunda yazılar “Admin” adıyla yayımlanıyor. Düzenleme: her yazıya gerçek yazar adı ve kısa tanıtım eklenir, vergi ve mevzuat içeriği ilgili uzmana kontrol ettirilir, yazı sonunda resmî kaynaklar listelenir, yazar adı Hakkımızda sayfasına bağlanır, güncelleme tarihi yalnızca içerik değiştiğinde yenilenir.
 
+## Yazar bilgisi neden güven kurar?
+
+Okuyucu bir sağlık, hukuk, para ya da güvenlik konusunda bilgi okuduğunda, bilginin kimden geldiğini bilmek ister. Google’ın yardımcı içerik rehberi de içeriğin kim tarafından yazıldığının okuyucuya açık olmasını önerir. Yazarın adı, görevi ve konuyla ilişkisi görünürse okuyucu bilginin ağırlığını değerlendirebilir. Anonim “Admin” imzalı bir yazı, bilginin sorumluluğunu kimseye yüklemez. Küçük işletmelerde bile yazının bir sahibi olmalıdır.
+
+## Yazar sayfası ve yazar kutusu ayrımı
+
+Yazar kutusu, yazının altında görünen kısa tanıtımdır: ad, görev, bir iki cümlelik uzmanlık ve bağlantı. Yazar sayfası ise yazarın daha ayrıntılı anlatıldığı sayfadır: deneyimi, çalıştığı alanlar, yazdığı diğer içerikler. Küçük bir işletmede ayrı yazar sayfasına gerek olmayabilir; Hakkımızda sayfasında ekibi tanıtıp yazar kutusunu oraya bağlamak yeterlidir. Büyüyen bir blogda her yazar için ayrı sayfa açmak mantıklıdır.
+
+## Yazar kutusunu yazarken nelere dikkat edilir?
+
+Kutudaki her bilgi doğru olmalıdır. Uydurma unvan, olmayan diploma ya da şişirilmiş deneyim, bir kez ortaya çıktığında tüm yazılara olan güveni zedeler. Kısa ve somut yazın: “Merkezefendi’de on yıldır ev tipi klima servisi yapıyor” (gerçekse). Fotoğraf kullanacaksanız kişinin izni olsun. Yazar kutusunu şablonla otomatik ekleyin ki her yazıda tutarlı görünsün. Tek bir kişinin yazmadığı içeriklerde “ekip” imzası yerine editör ve yazar ayrımı yapabilirsiniz.
+
+### Yazar kutusunda fotoğraf şart mı?
+
+Şart değil; ama gerçek bir fotoğraf güven verebilir. Kişinin izni olmadan fotoğraf kullanmayın.
+
+#### Yazar kutusu tüm yazılarda aynı mı olmalı?
+
+Tek yazar varsa aynı olabilir; birden fazla yazar varsa her yazı için doğru kişiyi gösterin. İçerik yazarla uzman kontrol edenin farklı olduğu yazılarda ikisini de belirtin.
+
+### Yazar kutusu için şema (yapılandırılmış veri) gerekir mi?
+
+Zorunlu değil; görünür ve doğru bir yazar bilgisi öncelikli. İşaretleme yapacaksanız sayfadaki bilgiyle uyumlu olmasına dikkat edin.
+
+## Kaynakları yazının sonunda mı, içinde mi vermeliyim?
+
+İkisi de: önemli iddianın yanında bağlantı, sonda toplu bir kaynak listesi güvenilirlik açısından en iyi dengedir.
+
+## Kaynakları iddiaya nasıl yaklaştırırsınız?
+
+Önemli bir iddianın yanında kaynağını gösterin; yazının en sonuna toplu bir liste koymak yeterli değildir. Cümle içinde “Google’ın bağlantı rehberine göre…” gibi bir ifadeyle bağlantıyı yerleştirin. Kaynağın resmî ve güncel olduğundan emin olun. Bağlantı metnini açıklayıcı yazın: “şurayı tıklayın” yerine kaynağın adı. Kaynağı artık yayında olmayan ya da içeriği değişmiş bir bağlantıyı düzenli olarak kontrol edin; yılda bir kez kaynak listenizi gözden geçirin.
+
+## Kendi gözleminizi kanıt gibi sunmayın
+
+Deneyiminizden gelen bilgi değerlidir; ama “bizim gözlemimiz” diye etiketlenmelidir. “Müşterilerimizin çoğu…” demek yerine “bizim gözlemimize göre bu soruyu en sık şu müşteriler soruyor” deyin ve sayı vermeyin. Doğrulanamayan istatistik, uydurma yüzde ya da “araştırmalara göre” gibi kaynaksız ifadeler kullanmayın. Bu, hem okuyucuyu korur hem de sitenizin güvenilirliğini sürdürür.
+
+## Küçük bir işletme için uygulama örneği
+
+Örnek (hayalî bir işletme için): Merkezefendi’de bir mali müşavirlik bürosu bloglarını “Admin” imzasıyla yayımlıyor. Düzenleme: her yazıya gerçek yazar adı ve görev bilgisi ekleniyor; vergi ve mevzuat içeren yazılar bir uzman tarafından kontrol ediliyor; her önemli iddianın yanına resmî kaynak bağlantısı veriliyor; yazının sonunda yazar kutusu ve Hakkımızda bağlantısı yer alıyor; güncelleme tarihi yalnızca yazı gerçekten değiştiğinde yenileniyor.
+
+## Kaynak ve yazar uygulaması için hızlı liste
+
+Her yeni yazıya yazar adını ekleyin; önemli iddiaların yanına resmî kaynak bağlantısı koyun; yazının sonunda kaynak listesi bulunsun; tarihi yalnızca gerçek güncellemede yenileyin; yılda bir kaynak bağlantılarını kontrol edin. Bu beş alışkanlık, blogunuzun güvenilirliğini düzenli biçimde korur.
+
 ## Denizli SEO bu konuda nasıl yardımcı olur?
 
 Yazar ve kaynak düzeni, içerik stratejisinin güven katmanıdır. [İçerik SEO hizmetimizde](/icerik-seo/):

@@ -56,6 +56,34 @@ Spam politikalarına göre bağlantı spam’i, temel olarak arama sıralamalar�
 
 Örnek (hayalî bir işletme için): Merkezefendi’de bir mali müşavir, Denizli’deki esnaf derneğinin bülteninde “yeni açılan işletme için ilk yıl takvimi” yazısı yazıyor. Bağlantı metni marka adı, yazı özgün, ücret yok. Bir başka teklifte, yüzlerce siteye giden “paket guest post” satan bir aracı, yazı başına anahtar kelimeli bağlantı vaat ediyor; müşavir teklifi reddediyor.
 
+## Misafir yazı teklifi gelirse ne yaparsınız?
+
+Önce teklifin kimden ve neden geldiğine bakın. Bir site size “misafir yazar olun, bağlantı verelim” diyorsa kendinize şu soruları sorun: Bu sitenin gerçek bir okuyucu kitlesi var mı? Konu sizin işinizle ilgili mi? Yazı karşılığında ücret ya da karşılık isteniyor mu? Yazıya bağlantı ve hangi metinle konacak? Aynı yazı başka sitelerde de yayımlanacak mı? Cevaplardan biri sizi rahatsız ediyorsa teklifi nazikçe reddedin. Google’ın spam politikası, para karşılığı bağlantıları ve başka sayfalarda dağıtılan makalelerdeki, misafir yayınlarındaki optimize bağlantı metinlerini bağlantı spam’i örnekleri arasında sayar ([spam politikaları](https://developers.google.com/search/docs/essentials/spam-policies?hl=tr)).
+
+## Güvenli bir misafir yazı nasıl hazırlanır?
+
+Yazıyı okuyucu için yazın, bağlantı için değil. Konuyu yayının okuyucusunun gerçekten merak ettiği bir soru olarak seçin ve kendi uzmanlığınızı gösteren somut bilgiler verin. Yazı özgün olsun; aynı metni kendi blogunuzda ya da başka bir sitede yayımlamayın. Yazarın kim olduğu belli olsun (adınız, unvanınız, kısa tanıtım). Bağlantıyı yazının doğal bir yerinde, marka adınızla ya da kaynak göstererek verin; “Denizli en iyi …” gibi anahtar kelimeli metinlerden kaçının. Ücretli bir yerleşimse bağlantının `sponsored` ile işaretlenmesini şart koşun; ayrıntı için [sponsorluk bağlantıları](/blog/sponsorluk-baglantilari-sponsored-nasil-isaretlenir/) yazısına bakın.
+
+## Kendi blogunuzda misafir yazı kabul ederken
+
+Tersi de geçerlidir: sitenize misafir yazı gönderen kişiler olacaktır. Her yazıyı bir editör gibi okuyun. Konuyla ilgisiz, kopyalanmış, yalnızca bağlantı barındırmak için yazılmış metinleri reddedin. Yazarın kimliğini doğrulayın; kabul ettiğiniz yazının doğruluğundan siz sorumlusunuz. Ücret karşılığı yazıları yayımlıyorsanız, içindeki bağlantıları `sponsored` ile işaretleyin. Gelen teklifleri toplu ve aynı kalıpla geliyorsa spam olarak değerlendirin. Bu özen, sitenizin güvenini korur.
+
+## Misafir yazı yerine hangi yollar daha güvenlidir?
+
+Bağlantı kazanmak için tek yol misafir yazı değildir. Meslek odası ve dernek bültenlerinde bilgi yazısı yazmak, yerel bir habere uzman görüşü vermek, ortak bir etkinlik düzenlemek ya da kendi sitenizde başkalarının kaynak göstereceği değerde bir rehber hazırlamak daha sağlıklı yollardır. Bu yolların ortak özelliği, bağlantının bir pazarlık değil, değerin doğal bir sonucu olmasıdır. Yerel fırsatlar için [Denizli yerel backlink kaynakları](/blog/denizli-yerel-backlink-kaynaklari/) yazısına bakabilirsiniz.
+
+## Yazı yayımlandıktan sonra nasıl takip edilir?
+
+Yayımlanan her misafir yazıyı bir tabloya kaydedin: yayın adresi, tarih, bağlantı metni, ücret ya da karşılık olup olmadığı. Yayından sonra sayfayı açıp bağlantının doğru çalıştığını ve `rel` özelliğinin beklediğiniz gibi olduğunu kontrol edin. Search Console’un Bağlantılar raporu yeni bağlantıları gösterebilir ([bağlantılar raporu](https://support.google.com/webmasters/answer/9049606?hl=tr)). Yazıdan gelen ziyaretçi ve talepleri analiz aracında kaynak olarak ayırın.
+
+## Örnek bir değerlendirme
+
+Örnek (hayalî bir işletme için): Merkezefendi’de bir mali müşavir, bir iş dünyası blogundan “vergi takvimi” konulu misafir yazı teklifi alıyor. Blogun okuyucusu gerçek, konu işiyle ilgili, ücret yok. Müşavir özgün bir yazı hazırlıyor, yazının sonunda kısa bir yazar notu ve marka adıyla tek bir bağlantı veriyor. Aynı hafta “yirmi sitede aynı yazıyı yayımlayalım” diyen bir aracı firmanın teklifini reddediyor.
+
+## Karar vermek için son bir süzgeç
+
+Teklif bir yayıncıdan geliyorsa şunu düşünün: bu yazı bağlantı olmasa da yazmak isteyeceğim bir yazı mı? Cevap evetse ve yayın gerçek okuyucuya ulaşıyorsa makul. Cevap hayırsa, bağlantı için yazı yazıyorsunuz demektir ve risk büyür.
+
 ## Denizli SEO bu konuda nasıl yardımcı olur?
 
 [Backlink hizmetimizde](/backlink-hizmeti/):
@@ -80,6 +108,14 @@ Okuyucuya yararlıysa doğal bir bağlantı sorun değildir; amaç yalnızca ba�
 ### Ücretli yayında bağlantı nasıl işaretlenir?
 
 `rel="sponsored"` ile; bkz. [sponsorluk bağlantıları](/blog/sponsorluk-baglantilari-sponsored-nasil-isaretlenir/).
+
+### Misafir yazıda kendi sitemden kaç bağlantı verebilirim?
+
+Sayı kuralı yok; doğal olan, okuyucuya yararlı bir ya da iki bağlantıdır.
+
+### Misafir yazıyı kendi sitemde de yayımlayabilir miyim?
+
+Aynı metni iki yerde yayımlamak kopya içerik sorunu yaratır; kendi sitenizde farklı ve özgün bir yazı yayımlayın.
 
 ## Kaynaklar
 

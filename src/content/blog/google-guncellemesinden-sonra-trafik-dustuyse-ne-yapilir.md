@@ -100,6 +100,10 @@ Kartları sayfa başına bir iyileştirme önceliğiyle tamamlayın; hepsini ayn
 
 Değişiklik tarihini, yaptığınız işi ve ölçülen etkiyi bir tabloya yazın. Üç ay sonra hangi iyileştirmenin işe yaradığını görebilirsiniz. Birden çok sayfayı aynı anda değiştirirseniz hangisinin işe yaradığını anlayamazsınız; mümkünse sayfaları gruplar halinde ve tarihleri not alarak değiştirin.
 
+## Acele karar vermemek
+
+Güncelleme sonrası bir düşüşte ilk tepki sitedeki her şeyi değiştirmek olmamalı. Önce düşüşün hangi sayfa ve aramalarda olduğunu belirleyin; tek bir sayfa mı, tüm site mi? Teknik sorunları dışlayın, sonra içeriği değerlendirin. Güncellemeden hemen sonra yapılan toplu değişiklikler, nedenin anlaşılmasını zorlaştırır.
+
 ## Denizli SEO bu konuda nasıl yardımcı olur?
 
 Güncelleme sonrası düşüşte asıl iş, panik yerine sistemli değerlendirmedir. [Teknik SEO hizmetimizde](/teknik-seo/):

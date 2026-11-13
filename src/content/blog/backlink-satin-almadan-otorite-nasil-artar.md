@@ -78,6 +78,10 @@ Aynı bütçeyi, satın alınmış bağlantılar yerine şunlara harcamak çoğu
 
 Otorite hızlı oluşmaz. İlk aylarda sayfalar düzelir, yorumlar birikir, marka aramaları yavaş yavaş görünür. Altı ay sonra bile kesin bir sonuç vaat etmiyoruz; ama düzenli çalışan bir işletme, aynı işi bırakanlara göre daha güçlü bir temele sahip olur. Aylık bir tablo tutun: yeni yorum sayısı, yeni içerik, yeni yerel kayıt, marka aramaları ve talepler. Sayıya değil eğilime bakın.
 
+## Otorite için ilk üç ay
+
+İlk ay hizmet sayfalarınızı ve işletme profilinizi güçlendirin. İkinci ay müşteri sorularından üç rehber yazın. Üçüncü ay yerel kuruluşlarla ilişki kurun ve yorum isteme düzenini oturtun. Satın alınmış bağlantıya harcayacağınız bütçeyi bu işlere ayırmak, kalıcı bir temel kurar.
+
 ## Denizli SEO bu konuda nasıl yardımcı olur?
 
 [Backlink hizmetimizde](/backlink-hizmeti/):

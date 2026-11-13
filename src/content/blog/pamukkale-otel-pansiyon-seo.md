@@ -1,6 +1,6 @@
 ---
 title: "Pamukkale’de Otel ve Pansiyon İçin SEO: Doğrudan Rezervasyon"
-description: "Pamukkale ve Karahayıt’taki otel ve pansiyonlar için İşletme Profili, ücretsiz rezervasyon bağlantısı, oda sayfaları ve çok dilli siteyle doğrudan rezervasyon rehberi."
+description: "Pamukkale ve Karahayıt’taki otel ve pansiyonlar için İşletme Profili, ücretsiz rezervasyon bağlantısı, oda sayfaları ve çok dilli siteyle doğrudan."
 date: 2026-11-02
 updated: 2026-11-06
 service: yerel-seo

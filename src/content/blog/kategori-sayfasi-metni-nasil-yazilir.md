@@ -83,6 +83,26 @@ Filtre ve sıralama kombinasyonları çok sayıda benzer URL üretebilir. Google
 
 Başlık ve açıklama için [başlık etiketi ve meta açıklama](/blog/baslik-etiketi-ve-meta-aciklama-nasil-yazilir/) yazımıza bakın. Kategori sayfalarını üç ayda bir gözden geçirmek; stok, fiyat ve rehber bilgisinin güncel kalmasını sağlar.
 
+## Kategori sayfasında filtre ve sıralama nasıl yönetilir?
+
+Müşteri ürünleri daraltmak için filtre ve sıralama kullanır; bu işlem çok sayıda benzer adres üretebilir. Google’ın e-ticaret URL rehberi, oturum kimliği ve izleme kodu gibi gereksiz parametrelerden kaçınmayı ve aynı parametreyi iki kez kullanmamayı önerir ([e-ticaret URL yapısı](https://developers.google.com/search/docs/specialty/ecommerce/designing-a-url-structure-for-ecommerce-sites?hl=tr)). Her filtre kombinasyonunu ayrı bir arama sayfası olarak düşünmeyin; yalnızca gerçekten aranan ve özgün içerik sunabileceğiniz kombinasyonlar için ayrı sayfa açın.
+
+## Kategori başlığı ve açıklaması nasıl yazılır?
+
+Başlığınız (H1) müşterinin aradığı kategori adını taşımalı: “Koltuk takımları”. Sayfanın `<title>` etiketi ve meta açıklaması da kategoriye özel olmalı. Kategori adını gereksiz kelimelerle şişirmeyin. Açıklamada kategorinin ne sunduğunu ve kime uygun olduğunu kısaca anlatın.
+
+## Boş ve zayıf kategori sayfaları
+
+Hiç ürünü olmayan ya da tek ürünlü kategoriler kullanıcıya bir şey sunmaz. Bunları birleştirin ya da kaldırın. Stokta olmayan ürünlerin kategorisinde müşteriye alternatif öneri sunun. Sayfanın yalnızca metinden oluşmasından kaçının; ürünler ilk ekranda görünmelidir.
+
+## Kategori sayfasını iyileştirme
+
+Search Console’da kategori sayfalarınızın hangi sorgularla gösterildiğine bakın. Gösterimi yüksek ama tıklaması düşük olanların başlığını ve açıklamasını gözden geçirin. Müşteri sorularından sık sorulan sorular bölümü ekleyin. İlgili rehber yazılarına bağlantı verin.
+
+## Kategori sayfası için kısa bir uygulama planı
+
+Önce en çok ziyaret alan üç kategoriyi seçin. Her biri için ürünlerin üstüne iki cümlelik bir giriş, altına “nasıl seçilir?” bölümü ve üç sık sorulan soru yazın. Alt kategorilere bağlantı verin ve ilgili rehber yazısına yönlendirin. Başlık ve açıklamayı kategoriye özel yapın. Bir ay sonra Search Console’da gösterim ve tıklamayı karşılaştırın. İşe yarayan düzeni diğer kategorilere uyarlayın. Her kategoriye aynı metni kopyalamayın; her sayfanın kendi müşteri sorusu vardır.
+
 ## Denizli SEO bu konuda nasıl yardımcı olur?
 
 Kategori sayfaları satış ve arama kesişimindedir. [İçerik SEO hizmetimizde](/icerik-seo/):
@@ -107,6 +127,22 @@ Google sayı belirtmiyor; müşterinin sorularını cevaplayacak kadar yazın.
 ### Hizmet işletmesinde de kategori sayfası olur mu?
 
 Evet; hizmet gruplarını (ör. “klima hizmetleri”) kategori gibi düşünebilirsiniz.
+
+### Kategori metni alt kısımda mı olmalı?
+
+Kısa giriş üstte, ayrıntılı rehber altta iyi bir dengedir; ürünler ilk ekranda görünsün.
+
+### Her kategori için blog yazısı yazmalı mıyım?
+
+Hayır; yalnızca müşterinin gerçek sorusu olan kategorilerde.
+
+### Kategori sayfasında kaç ürün göstermeliyim?
+
+Sabit bir sayı yok; müşterinin rahat gezebileceği, hızlı yüklenen bir liste yeterlidir. Çok uzun listeleri sayfalara bölün ve her sayfanın hızlı açıldığını kontrol edin.
+
+### Kategori metnini kimler okur?
+
+Çoğu ziyaretçi ürünlere bakar; metni daha çok seçim konusunda tereddüt edenler ve arama sistemleri okur. Bu yüzden metni kısa, net ve gerçekten yararlı tutun; ürün listesini engellemesin.
 
 ## Kaynaklar
 

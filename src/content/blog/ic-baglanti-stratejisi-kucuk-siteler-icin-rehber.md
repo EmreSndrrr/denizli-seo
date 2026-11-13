@@ -109,6 +109,10 @@ Search Console’daki Bağlantılar raporunun dahili bağlantılar bölümü, en
 
 Düzeltme: menüye beş hizmet eklenir; her hizmet sayfasından ilgili iki yazıya bağlantı verilir; her yazıdan ilgili hizmete bağlantı eklenir; “buraya tıklayın” bağlantıları hizmet adlarıyla değiştirilir; yetim kalan üç yazı ilgili sayfalardan bağlanır. Sonuç haftalarca Search Console’da izlenir. Bu örnek sonuç vaadi değildir; bağlantı planını gösterir.
 
+## İç bağlantıyı bugün nasıl başlatırsınız?
+
+En çok iş getiren hizmet sayfanızı açın. Bu sayfaya hangi yazılardan ve sayfalardan bağlantı verildiğine bakın. Eksikse ilgili üç yazıdan bu sayfaya doğal bir cümle içinde bağlantı ekleyin. Sonra hizmet sayfasından ilgili iki yazıya bağlantı verin. Bu yarım saatlik çalışma, çoğu küçük sitede en hızlı iyileştirmedir.
+
 ## Denizli SEO bu konuda nasıl yardımcı olur?
 
 İç bağlantı, tüm sitenin görünümünü düzenler. [İçerik SEO hizmetimizde](/icerik-seo/):
@@ -137,6 +141,10 @@ Kendi sayfalarınıza verdiğiniz iç bağlantılarda genellikle gerekmez.
 ### Eski yazılara yeni yazılardan bağlantı vermeli miyim?
 
 Evet; ilgili olduğunda hem eski hem yeni yazıları birbirine bağlayın.
+
+### İç bağlantı eklentisi kullanmalı mıyım?
+
+Otomatik bağlantı eklentilerine dikkat edin; bağlantılar bağlama uygun ve açıklayıcı olmalı. Elle, ilgili yerlerde eklemek çoğu küçük site için daha güvenlidir.
 
 ## Kaynaklar
 
