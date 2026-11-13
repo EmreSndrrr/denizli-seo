@@ -252,11 +252,11 @@ Biçim, uzunluk (gövde 1.300–1.500 kelime), ara çağrı kutuları ve doğrul
 
 ### Web tasarım
 
-- [ ] 156. Web Sitesi Erişilebilirliği: Temel Kurallar — `web-tasarim` — erişilebilirlik — `web-sitesi-erisilebilirligi-temel-kurallar` — not: Genel iyi uygulama; hukuki iddia yok
-- [ ] 157. Renk ve Yazı Tipi Seçimi: Okunurluk ve Marka — `web-tasarim` — renk ve yazı tipi — `renk-ve-yazi-tipi-secimi-okunurluk-ve-marka` — not: Genel iyi uygulama
-- [ ] 158. Web Sitesi Bakım Planı: Aylık Kontrol Listesi — `web-tasarim` — web sitesi bakımı — `web-sitesi-bakim-plani-aylik-kontrol-listesi` — not: Satış odaklı: bakım hizmeti
-- [ ] 159. Kurumsal Web Sitesinde Fotoğraf: Çekim ve Kullanım — `web-tasarim` — kurumsal fotoğraf — `kurumsal-web-sitesinde-fotograf-cekim-ve-kullanim` — not: Resim SEO ledger’da; izin/lisans
-- [ ] 160. Çok Dilli Web Sitesi Kurmak: Teknik Seçenekler — `web-tasarim` — çok dilli site — `cok-dilli-web-sitesi-kurmak-teknik-secenekler` — not: hreflang belgesi ledger’da
+- [x] 156. Web Sitesi Erişilebilirliği: Temel Kurallar — `web-tasarim` — erişilebilirlik — `web-sitesi-erisilebilirligi-temel-kurallar` — not: Genel iyi uygulama; hukuki iddia yok
+- [x] 157. Renk ve Yazı Tipi Seçimi: Okunurluk ve Marka — `web-tasarim` — renk ve yazı tipi — `renk-ve-yazi-tipi-secimi-okunurluk-ve-marka` — not: Genel iyi uygulama
+- [x] 158. Web Sitesi Bakım Planı: Aylık Kontrol Listesi — `web-tasarim` — web sitesi bakımı — `web-sitesi-bakim-plani-aylik-kontrol-listesi` — not: Satış odaklı: bakım hizmeti
+- [x] 159. Kurumsal Web Sitesinde Fotoğraf: Çekim ve Kullanım — `web-tasarim` — kurumsal fotoğraf — `kurumsal-web-sitesinde-fotograf-cekim-ve-kullanim` — not: Resim SEO ledger’da; izin/lisans
+- [x] 160. Çok Dilli Web Sitesi Kurmak: Teknik Seçenekler — `web-tasarim` — çok dilli site — `cok-dilli-web-sitesi-kurmak-teknik-secenekler` — not: hreflang belgesi ledger’da
 
 ## Notlar
 

@@ -178,6 +178,11 @@ const PAGES = [
   { out: 'og/editoryal-ilkeler', motif: 'console', tag: 'Editoryal ilkeler', title: 'Yazılarımız nasıl hazırlanır?' },
 ];
 const POST_MOTIF = {
+  'web-sitesi-erisilebilirligi-temel-kurallar': 'console',
+  'renk-ve-yazi-tipi-secimi-okunurluk-ve-marka': 'layout',
+  'web-sitesi-bakim-plani-aylik-kontrol-listesi': 'gauge',
+  'kurumsal-web-sitesinde-fotograf-cekim-ve-kullanim': 'doc',
+  'cok-dilli-web-sitesi-kurmak-teknik-secenekler': 'redirect',
   'blog-icin-fotograf-ve-gorsel-icerik-plani': 'doc',
   'sektorel-sozluk-sayfasi-nasil-hazirlanir': 'lens',
   'yerel-etkinlik-sponsorlugu-ve-baglanti-nasil-yaklasilir': 'linkgraph',
