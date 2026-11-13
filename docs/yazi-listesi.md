@@ -236,10 +236,10 @@ Biçim, uzunluk (gövde 1.300–1.500 kelime), ara çağrı kutuları ve doğrul
 
 ### İçerik SEO
 
-- [ ] 146. Tıklanabilir ama Dürüst Başlıklar Nasıl Yazılır? — `icerik-seo` — başlık yazımı — `tiklanabilir-ama-durust-basliklar-nasil-yazilir` — not: title-link belgesi ledger’da
-- [ ] 147. İçerik Denetimi: Hangi Sayfa Güncellenmeli? — `icerik-seo` — içerik denetimi — `icerik-denetimi-hangi-sayfa-guncellenmeli-hangisi-silinmeli` — not: Satış odaklı: içerik denetimi hizmeti
-- [ ] 148. Rehber Yazıyı İletişime Nasıl Bağlarsınız? — `icerik-seo` — yazıyı satışa bağlama — `rehber-yazidan-hizmete-yaziyi-iletisime-nasil-baglarsiniz` — not: Satış odaklı
-- [ ] 149. İşletme Blogunda Yazar ve Editör Süreci — `icerik-seo` — blog editör süreci — `isletme-blogunda-yazar-ve-editor-sureci` — not: Yazar kutusu yazısıyla çakışmasın
+- [x] 146. Tıklanabilir ama Dürüst Başlıklar Nasıl Yazılır? — `icerik-seo` — başlık yazımı — `tiklanabilir-ama-durust-basliklar-nasil-yazilir` — not: title-link belgesi ledger’da
+- [x] 147. İçerik Denetimi: Hangi Sayfa Güncellenmeli? — `icerik-seo` — içerik denetimi — `icerik-denetimi-hangi-sayfa-guncellenmeli-hangisi-silinmeli` — not: Satış odaklı: içerik denetimi hizmeti
+- [x] 148. Rehber Yazıyı İletişime Nasıl Bağlarsınız? — `icerik-seo` — yazıyı satışa bağlama — `rehber-yazidan-hizmete-yaziyi-iletisime-nasil-baglarsiniz` — not: Satış odaklı
+- [x] 149. İşletme Blogunda Yazar ve Editör Süreci — `icerik-seo` — blog editör süreci — `isletme-blogunda-yazar-ve-editor-sureci` — not: Yazar kutusu yazısıyla çakışmasın
 - [ ] 150. Blog İçin Fotoğraf ve Görsel İçerik Planı — `icerik-seo` — blog görselleri — `blog-icin-fotograf-ve-gorsel-icerik-plani` — not: Resim SEO ledger’da
 - [ ] 151. Sektörel Sözlük Sayfası Nasıl Hazırlanır? — `icerik-seo` — sözlük sayfası — `sektorel-sozluk-sayfasi-nasil-hazirlanir` — not: SEO sözlüğünden bağlan; resmî terim iddiası yok
 

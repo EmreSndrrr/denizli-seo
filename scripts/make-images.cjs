@@ -178,6 +178,10 @@ const PAGES = [
   { out: 'og/editoryal-ilkeler', motif: 'console', tag: 'Editoryal ilkeler', title: 'Yazılarımız nasıl hazırlanır?' },
 ];
 const POST_MOTIF = {
+  'tiklanabilir-ama-durust-basliklar-nasil-yazilir': 'doc',
+  'icerik-denetimi-hangi-sayfa-guncellenmeli-hangisi-silinmeli': 'console',
+  'rehber-yazidan-hizmete-yaziyi-iletisime-nasil-baglarsiniz': 'doc',
+  'isletme-blogunda-yazar-ve-editor-sureci': 'profile',
   'kategori-ve-liste-sayfalarinda-sayfalama-seo-su': 'layout',
   'dugun-salonlari-ve-organizasyon-firmalari-icin-seo': 'hotel',
   'veteriner-ve-evcil-hayvan-isletmeleri-icin-yerel-seo': 'pins',
