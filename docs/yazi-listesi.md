@@ -258,6 +258,21 @@ Biçim, uzunluk (gövde 1.300–1.500 kelime), ara çağrı kutuları ve doğrul
 - [x] 159. Kurumsal Web Sitesinde Fotoğraf: Çekim ve Kullanım — `web-tasarim` — kurumsal fotoğraf — `kurumsal-web-sitesinde-fotograf-cekim-ve-kullanim` — not: Resim SEO ledger’da; izin/lisans
 - [x] 160. Çok Dilli Web Sitesi Kurmak: Teknik Seçenekler — `web-tasarim` — çok dilli site — `cok-dilli-web-sitesi-kurmak-teknik-secenekler` — not: hreflang belgesi ledger’da
 
+## Yazılacak: 4. tur (10 başlık, Kasım 2026)
+
+Amaç: çoğu backlink; her yazı aranan soruyu önce yanıtlar, ortada ve sonda hizmete (backlink-hizmeti) bağlanır. Çakışma notu: mevcut backlink yazılarına (nedir, kalite, riskler, paketler, rapor, anchor, PR, misafir yazı, kırık bağlantı, yerel kaynaklar) yalnızca bağlantı verilir; aynı içerik tekrarlanmaz.
+
+- [ ] 161. Backlink Nasıl Alınır? Küçük İşletmeler İçin 8 Dürüst Yöntem — `backlink-hizmeti` — backlink nasıl alınır — `backlink-nasil-alinir-kucuk-isletmeler-icin-yontemler` — not: spam politikası + qualify-outbound ledger’da; satın alma/takas yok
+- [ ] 162. Dofollow ve Nofollow Farkı: Google Ne Diyor? — `backlink-hizmeti` — dofollow nofollow — `dofollow-nofollow-farki-nedir-google-ne-diyor` — not: Google belgesinde “dofollow” terimi geçmez; sponsored/ugc/nofollow ledger’da
+- [ ] 163. Spam Backlink Nasıl Anlaşılır, Reddetmek Gerekir mi? — `backlink-hizmeti` — spam backlink — `spam-backlink-nasil-anlasilir-reddetme-gerekli-mi` — not: reddetme aracı ledger’da (çoğu sitede gerekmez)
+- [ ] 164. Backlink Ajansı Seçerken Sorulacak 12 Soru — `backlink-hizmeti` — backlink ajansı seçimi — `backlink-ajansi-secerken-sorulacak-sorular` — not: SEO uzmanı işe alma belgesi ledger’da; garanti vaadine dikkat
+- [ ] 165. Backlink Çalışması Ne Kadar Sürede Sonuç Verir? — `backlink-hizmeti` — backlink süre — `backlink-calismasi-ne-kadar-surede-sonuc-verir` — not: kesin süre yok; ölçüm planı; seo-ne-kadar-surede-sonuc-verir yazısına bağla
+- [ ] 166. Yeni Site İçin Backlink Stratejisi: İlk 90 Gün — `backlink-hizmeti` — yeni site backlink — `yeni-site-icin-backlink-stratejisi-ilk-90-gun` — not: sandbox iddiası yok; site haritası/keşif belgesi ledger’da
+- [ ] 167. Yerel İşletme İçin 12 Aylık Backlink Planı — `backlink-hizmeti` — backlink planı — `yerel-isletme-icin-12-aylik-backlink-plani` — not: takvim formatı; Denizli kaynakları yazısına bağla
+- [ ] 168. Bağlantı Çeken İçerik Nasıl Üretilir? — `backlink-hizmeti` — linkable asset — `baglanti-cekecek-icerik-nasil-uretilir` — not: uydurma istatistik yok; yalnızca gerçek veri/örnek
+- [ ] 169. Kendi Sitenizin Backlink Denetimi: Adım Adım — `backlink-hizmeti` — backlink denetimi — `kendi-sitenizin-backlink-denetimi-adim-adim` — not: Bağlantılar raporu ledger’da; rapor yazısıyla çakışmasın (burada aksiyon ve önceliklendirme)
+- [ ] 170. Backlink mi İçerik mi? Hangisine Önce Yatırım Yapmalı? — `icerik-seo` — backlink mi içerik mi — `backlink-mi-icerik-mi-hangisi-once` — not: sıralama garantisi yok; sıralama sistemleri kılavuzu ledger’da
+
 ## Notlar
 
 - Doktor, diş hekimi ve avukat başlıkları yazılmadan önce ilgili reklam yasaklarını resmî kaynaktan (.gov.tr) doğrulayın.
