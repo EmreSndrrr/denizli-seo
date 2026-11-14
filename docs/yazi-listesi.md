@@ -327,8 +327,8 @@ Yazılmadı (ürün/pazaryeri arayüzü doğrulanamadığı için, uydurma talim
 - [x] 210. Markalı ve Markasız Organik Trafik Nasıl Ayrılır? — `icerik-seo` — — `markali-ve-markasiz-organik-trafik-nasil-ayrilir` — (liste No. 94)
 - [x] 211. SEO’dan Gelen Form ve Telefon Talepleri Nasıl Ölçülür? — `icerik-seo` — — `seodan-gelen-form-ve-telefon-talepleri-nasil-olculur` — (liste No. 95)
 - [x] 212. Looker Studio ile SEO Paneli Nasıl Hazırlanır? — `icerik-seo` — — `looker-studio-ile-seo-paneli-nasil-hazirlanir` — (liste No. 96)
-- [ ] 213. Search Console’da Regex Filtreleri: Örnek Sorgular — `icerik-seo` — — `search-consolda-regex-filtreleri-ornek-sorgular` — (liste No. 97)
-- [ ] 214. Google Trends ile Sezonluk Kelimeler Nasıl Bulunur? — `icerik-seo` — — `google-trends-ile-sezonluk-kelimeler-nasil-bulunur` — (liste No. 99)
+- [-] 213. Search Console’da Regex Filtreleri: Örnek Sorgular — `icerik-seo` — — `search-consolda-regex-filtreleri-ornek-sorgular` — (liste No. 97) — ATLANDI: Search Console regex filtresi arayüzü resmî kaynaktan doğrulanamadı
+- [-] 214. Google Trends ile Sezonluk Kelimeler Nasıl Bulunur? — `icerik-seo` — — `google-trends-ile-sezonluk-kelimeler-nasil-bulunur` — (liste No. 99) — ATLANDI: Google Trends yardım sayfası doğrulanamadı
 - [x] 215. Google Sıralaması Nasıl Takip Edilir? Konum ve Cihaza Göre — `icerik-seo` — — `google-siralamasi-nasil-takip-edilir-konum-ve-cihaza-gore` — (liste No. 100)
 - [x] 216. INP Değeri Neden Yüksek Çıkar? Nasıl Azaltılır? — `teknik-seo` — — `inp-degeri-neden-yuksek-cikar-nasil-azaltilir` — (liste No. 106)
 - [x] 217. Sayfa Yüklenirken İçerik Neden Kayar? CLS Düzeltme — `teknik-seo` — — `sayfa-yuklenirken-icerik-neden-kayar-cls-duzeltme` — (liste No. 107)
@@ -347,10 +347,10 @@ Yazılmadı (ürün/pazaryeri arayüzü doğrulanamadığı için, uydurma talim
 - [x] 230. Süresi Dolmuş Domain Alırken SEO Geçmişi Kontrolü — `backlink-hizmeti` — — `suresi-dolmus-domain-alirken-seo-gecmisi-kontrolu` — (liste No. 136)
 - [x] 231. Search Console’da Manuel İşlem Bildirimi: Ne Yapılmalı? — `teknik-seo` — — `search-consolda-manuel-islem-bildirimi-ne-yapilmali` — (liste No. 137)
 - [x] 232. SEO Ajansı Değiştirirken Hangi Hesaplar Teslim Alınmalı? — `icerik-seo` — — `seo-ajansi-degistirirken-hangi-hesaplar-teslim-alinmali` — (liste No. 139)
-- [ ] 233. Üretici Firmalar İçin Teknik Ürün Sayfası Nasıl Hazırlanır? — `icerik-seo` — — `uretici-firmalar-icin-teknik-urun-sayfasi-nasil-hazirlanir` — (liste No. 143)
-- [ ] 234. Restoran Menüsü Google’da Nasıl Görünür? — `yerel-seo` — — `restoran-menusu-googleda-nasil-gorunur` — (liste No. 146)
-- [ ] 235. Emlak Sitelerinde Süresi Dolan İlanlar Nasıl Yönetilir? — `teknik-seo` — — `emlak-sitelerinde-suresi-dolan-ilanlar-nasil-yonetilir` — (liste No. 149)
-- [ ] 236. Mobilya Ürün Sayfalarında Ölçü ve Malzeme Nasıl Sunulur? — `icerik-seo` — — `mobilya-urun-sayfalarinda-olcu-ve-malzeme-nasil-sunulur` — (liste No. 150)
+- [x] 233. Üretici Firmalar İçin Teknik Ürün Sayfası Nasıl Hazırlanır? — `icerik-seo` — — `uretici-firmalar-icin-teknik-urun-sayfasi-nasil-hazirlanir` — (liste No. 143)
+- [x] 234. Restoran Menüsü Google’da Nasıl Görünür? — `yerel-seo` — — `restoran-menusu-googleda-nasil-gorunur` — (liste No. 146)
+- [x] 235. Emlak Sitelerinde Süresi Dolan İlanlar Nasıl Yönetilir? — `teknik-seo` — — `emlak-sitelerinde-suresi-dolan-ilanlar-nasil-yonetilir` — (liste No. 149)
+- [x] 236. Mobilya Ürün Sayfalarında Ölçü ve Malzeme Nasıl Sunulur? — `icerik-seo` — — `mobilya-urun-sayfalarinda-olcu-ve-malzeme-nasil-sunulur` — (liste No. 150)
 
 ## Notlar
 

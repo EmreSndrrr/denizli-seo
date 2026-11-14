@@ -59,7 +59,7 @@ WordPress’te en kolay yollar:
 - Etiket Yöneticisi kuruluysa o yöntemle doğrulamak,
 - HTML dosyasını sunucuya yüklemek.
 
-Eklenti ya da tema değiştirirseniz etiketin kalıp kalmadığını kontrol edin; kaldıysa sahiplik kaybolabilir ([WordPress SEO eklentisi seçimi](/blog/wordpress-seo-eklentisi-secimi-ve-dogru-ayarlar/)).
+Eklenti ya da tema değiştirirseniz etiketin kalıp kalmadığını kontrol edin; kaldıysa sahiplik kaybolabilir ([WordPress SEO eklentisi seçimi](/blog/wordpress-seo-eklentisi-secerken-nelere-bakilmali/)).
 
 ## Doğrulama yöntemlerinin artı ve eksileri
 

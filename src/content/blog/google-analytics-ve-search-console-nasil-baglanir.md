@@ -71,7 +71,7 @@ Bağlantı yapıldığında iki rapor otomatik görünmez; Google’a göre:
 Okuma örnekleri:
 
 - Gösterimi yüksek, tıklaması düşük sayfa: başlık ve açıklama zayıf olabilir ([tıklanabilir başlıklar](/blog/tiklanabilir-ama-durust-basliklar-nasil-yazilir/)).
-- Tıklaması yüksek, dönüşümü düşük sayfa: içerik ya da çağrı arama niyetiyle uyuşmuyor olabilir ([arama niyeti](/blog/arama-niyeti-nedir-dort-tur-ve-icerige-etkisi/)).
+- Tıklaması yüksek, dönüşümü düşük sayfa: içerik ya da çağrı arama niyetiyle uyuşmuyor olabilir ([arama niyeti](/blog/arama-niyeti-nasil-belirlenir-ornek-sorgularla/)).
 
 ## Bağlantı olmadan da veri kullanılabilir
 

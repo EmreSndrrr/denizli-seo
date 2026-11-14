@@ -79,7 +79,7 @@ Google’ın trafik düşüşü rehberi, nedenleri teknik sorun, güvenlik sorun
 
 Markasız trafik, “hizmet + şehir”, “nasıl yapılır” ve “fiyat” gibi aramalardan gelir. Büyütmek için:
 
-1. Hizmet sayfalarını arama niyetine göre netleştirin ([arama niyeti](/blog/arama-niyeti-nedir-dort-tur-ve-icerige-etkisi/)).
+1. Hizmet sayfalarını arama niyetine göre netleştirin ([arama niyeti](/blog/arama-niyeti-nasil-belirlenir-ornek-sorgularla/)).
 2. Soru bazlı rehber içerikleri yazın.
 3. Yerel sinyalleri (profil, yorum, NAP) düzenleyin.
 4. İç bağlantılarla önemli sayfaları öne çıkarın.

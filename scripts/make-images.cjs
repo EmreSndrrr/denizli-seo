@@ -178,6 +178,10 @@ const PAGES = [
   { out: 'og/editoryal-ilkeler', motif: 'console', tag: 'Editoryal ilkeler', title: 'Yazılarımız nasıl hazırlanır?' },
 ];
 const POST_MOTIF = {
+  'uretici-firmalar-icin-teknik-urun-sayfasi-nasil-hazirlanir': 'doc',
+  'restoran-menusu-googleda-nasil-gorunur': 'pins',
+  'emlak-sitelerinde-suresi-dolan-ilanlar-nasil-yonetilir': 'redirect',
+  'mobilya-urun-sayfalarinda-olcu-ve-malzeme-nasil-sunulur': 'layout',
   'google-siralamasi-nasil-takip-edilir-konum-ve-cihaza-gore': 'gauge',
   'urun-yorumlari-e-ticaret-seosunda-nasil-kullanilir': 'profile',
   'e-ticaret-sitelerinde-marka-sayfalari-nasil-hazirlanir': 'layout',

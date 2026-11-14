@@ -39,7 +39,7 @@ Pratik öneri: arama sonuç adres kalıbını (örneğin `?s=` ya da `/ara`) rob
 
 1. Search Console’da Sayfa dizine ekleme raporuna bakın; `?s=` ya da `/ara` içeren adresleri arayın.
 2. Arama motorunda `site:` aramasıyla sitenizdeki arama adresi kalıbını sorgulayın.
-3. WordPress’te varsayılan arama adresi `?s=` biçimidir; bunun dizinde olup olmadığına bakın ([WordPress SEO eklentisi ayarları](/blog/wordpress-seo-eklentisi-secimi-ve-dogru-ayarlar/)).
+3. WordPress’te varsayılan arama adresi `?s=` biçimidir; bunun dizinde olup olmadığına bakın ([WordPress SEO eklentisi ayarları](/blog/wordpress-seo-eklentisi-secerken-nelere-bakilmali/)).
 4. Site haritasında arama adreslerinin olmadığından emin olun.
 5. İç bağlantılarda arama sonuç adreslerine bağlantı verilmediğini kontrol edin.
 
