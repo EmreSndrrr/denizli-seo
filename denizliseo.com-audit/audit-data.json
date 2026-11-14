@@ -1,0 +1,36 @@
+{
+  "summary": {
+    "health_score": 85,
+    "business_type": "Local service / agency with blog (pre-launch, local build)",
+    "top_findings": [
+      "91 posts not fully owner-reviewed before launch (E-E-A-T claim in editorial page)",
+      "7 post slugs/topics overlap with ventiajans.com (no text duplication, cannibalization risk)",
+      "/blog/ is one page with 91 cards, no pagination or topic hubs",
+      "Some posts have only one internal inlink",
+      "New domain has no backlinks; header config untestable locally"
+    ],
+    "quick_wins": [
+      "Add Denizli angle to the 7 shared-topic titles",
+      "Link ventiajans.com and GBP to denizliseo.com",
+      "Add related-posts block to posts",
+      "Trim meta descriptions over 160 chars",
+      "Drop areaServed list from post JSON-LD"
+    ]
+  },
+  "categories": [
+    {"name": "Technical SEO", "score": 88, "what_works": ["Sitemap 102 URLs", "robots.txt", "canonicals", "no broken links"], "findings": [{"title": "Server headers untested", "severity": "Medium", "description": ".htaccess cannot be tested locally", "recommendation": "Run curl tests from docs/yayin-kontrol-listesi.md after upload"}]},
+    {"name": "Content Quality", "score": 76, "what_works": ["700-2300 words per post", "no text overlap with Venti posts"], "findings": [{"title": "Posts not fully reviewed", "severity": "High", "description": "Editorial page claims every text is checked", "recommendation": "Review and verify before launch"}, {"title": "Topic overlap with ventiajans.com", "severity": "Medium", "description": "7 shared slugs, 0-5 shared 6-word phrases", "recommendation": "Differentiate with Denizli angle, cross-link"}]},
+    {"name": "On-Page SEO", "score": 88, "what_works": ["unique titles/descriptions", "single h1"], "findings": [{"title": "Weak internal linking", "severity": "Medium", "description": "Some posts have one inlink", "recommendation": "Related posts, category hubs, pagination"}, {"title": "Long meta descriptions", "severity": "Low", "description": "A few exceed 160 chars", "recommendation": "Shorten"}]},
+    {"name": "Schema", "score": 90, "what_works": ["ProfessionalService, Organization, Person, BlogPosting, Service, BreadcrumbList"], "findings": [{"title": "FAQPage no rich result", "severity": "Info", "description": "Retired May 2026", "recommendation": "Leave as is"}, {"title": "areaServed repeated", "severity": "Low", "description": "19 entries on every page", "recommendation": "Keep on home/service only"}]},
+    {"name": "Performance", "score": 90, "what_works": ["LCP 1.1s desktop, 0.56s phone (lab)", "CLS 0"], "findings": []},
+    {"name": "AI Search Readiness", "score": 85, "what_works": ["AI bots allowed", "llms.txt", "clear entity graph"], "findings": []},
+    {"name": "Images", "score": 90, "what_works": ["alt text complete", "webp variants", "lazy loading"], "findings": []}
+  ],
+  "action_plan": {"phases": [
+    {"name": "Phase 1: Critical Fixes", "timeframe": "Week 1", "items": ["Review posts", "Differentiate shared topics", "Upload and run curl tests"]},
+    {"name": "Phase 2: High-Impact Improvements", "timeframe": "Weeks 2-3", "items": ["Submit sitemap", "Backlink from Venti and GBP", "Blog categories and pagination"]},
+    {"name": "Phase 3: Content & Authority", "timeframe": "Month 2", "items": ["Trim areaServed", "Review GSC and CWV"]},
+    {"name": "Phase 4: Monitoring & Iteration", "timeframe": "Ongoing", "items": ["2-4 posts per month"]}
+  ]},
+  "artifacts": {"findings_dir": "findings/", "screenshots_dir": "screenshots/"}
+}
