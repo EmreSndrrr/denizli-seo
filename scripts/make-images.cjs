@@ -178,6 +178,13 @@ const PAGES = [
   { out: 'og/editoryal-ilkeler', motif: 'console', tag: 'Editoryal ilkeler', title: 'Yazılarımız nasıl hazırlanır?' },
 ];
 const POST_MOTIF = {
+  'mobil-ve-masaustu-siralamalari-neden-farkli-cikiyor': 'gauge',
+  'e-e-a-t-icin-yazar-sayfasi-nasil-hazirlanir': 'profile',
+  'seo-icerik-briefi-nasil-hazirlanir-ornek-sablon': 'doc',
+  'zayif-icerik-thin-content-nasil-tespit-edilir': 'broken',
+  'pdf-dosyalari-icin-seo-nasil-yapilir': 'doc',
+  'icerigim-baska-sitelerde-kopyalaniyor-ne-yapmaliyim': 'linkgraph',
+  'anahtar-kelime-doldurma-nasil-anlasilir-ve-onlenir': 'lens',
   'noindex-ve-nofollow-meta-etiketleri-arasindaki-fark': 'broken',
   'ssr-ve-csr-farki-seo-icin-render-yontemi-secimi': 'layout',
   'seo-uyumlu-url-nasil-yazilir-turkce-karakter-ve-uzunluk': 'redirect',
