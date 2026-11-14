@@ -178,6 +178,11 @@ const PAGES = [
   { out: 'og/editoryal-ilkeler', motif: 'console', tag: 'Editoryal ilkeler', title: 'Yazılarımız nasıl hazırlanır?' },
 ];
 const POST_MOTIF = {
+  'inp-degeri-neden-yuksek-cikar-nasil-azaltilir': 'gauge',
+  'sayfa-yuklenirken-icerik-neden-kayar-cls-duzeltme': 'layout',
+  'sunucu-yanit-suresi-ttfb-nasil-iyilestirilir': 'gauge',
+  'lazy-loading-nasil-kullanilir-sik-yapilan-hatalar': 'layout',
+  'web-fontlari-site-hizini-nasil-etkiler': 'doc',
   'markali-ve-markasiz-organik-trafik-nasil-ayrilir': 'chart',
   'seodan-gelen-form-ve-telefon-talepleri-nasil-olculur': 'pins',
   'looker-studio-ile-seo-paneli-nasil-hazirlanir': 'gauge',
