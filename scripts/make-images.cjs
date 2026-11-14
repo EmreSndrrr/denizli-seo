@@ -178,6 +178,9 @@ const PAGES = [
   { out: 'og/editoryal-ilkeler', motif: 'console', tag: 'Editoryal ilkeler', title: 'Yazılarımız nasıl hazırlanır?' },
 ];
 const POST_MOTIF = {
+  'google-search-console-nasil-kurulur-dogrulama-yontemleri': 'console',
+  'google-analytics-ve-search-console-nasil-baglanir': 'chart',
+  'search-console-tiklamalari-ga4-oturumlariyla-neden-eslesmez': 'gauge',
   'breadcrumb-nedir-ve-nasil-eklenir': 'layout',
   'seo-icin-ozgun-arastirma-icerigi-nasil-hazirlanir': 'doc',
   'black-friday-seosu-calismaya-ne-zaman-baslanmali': 'chart',
