@@ -291,11 +291,11 @@ Mevcut yazılarla karşılanan konular (No → slug): 1 → `ucretsiz-seo-analiz
 - [x] 180. WordPress SEO Eklentisi Seçerken Nelere Bakılmalı? — `web-tasarim` — wordpress seo eklentisi — `wordpress-seo-eklentisi-secerken-nelere-bakilmali` — (22)
 - [x] 181. WordPress Sitem Yavaş Açılıyor: Nereleri Kontrol Etmeli? — `web-tasarim` — wordpress hız — `wordpress-sitem-yavas-aciliyor-nereleri-kontrol-etmeli` — (23)
 - [x] 182. WordPress Kategori ve Etiket Sayfaları SEO’su — `web-tasarim` — wordpress kategori etiket seo — `wordpress-kategori-ve-etiket-sayfalari-seo-su` — (24)
-- [ ] 183. E-Ticarette Filtreli Sayfalar SEO İçin Nasıl Yönetilir? — `teknik-seo` — filtreli sayfalar seo — `e-ticarette-filtreli-sayfalar-seo-icin-nasil-yonetilir` — (27)
-- [ ] 184. Stokta Olmayan Ürün Sayfaları Nasıl Yönetilmeli? — `teknik-seo` — stokta olmayan ürün seo — `stokta-olmayan-urun-sayfalari-nasil-yonetilmeli` — (28)
-- [ ] 185. Yerel SEO İçin Anahtar Kelime Araştırması Nasıl Yapılır? — `yerel-seo` — yerel anahtar kelime — `yerel-seo-icin-anahtar-kelime-arastirmasi-nasil-yapilir` — (37)
-- [ ] 186. Organik Trafik Var Satış Yok: Hangi Veriler İncelenmeli? — `icerik-seo` — organik trafik var satış yok — `organik-trafik-var-satis-yok-hangi-veriler-incelenmeli` — (45)
-- [ ] 187. Kurumsal SEO Stratejisi Nasıl Hazırlanır? Yol Haritası — `icerik-seo` — kurumsal seo stratejisi — `kurumsal-seo-stratejisi-nasil-hazirlanir-yol-haritasi` — (49)
+- [x] 183. E-Ticarette Filtreli Sayfalar SEO İçin Nasıl Yönetilir? — `teknik-seo` — filtreli sayfalar seo — `e-ticarette-filtreli-sayfalar-seo-icin-nasil-yonetilir` — (27)
+- [x] 184. Stokta Olmayan Ürün Sayfaları Nasıl Yönetilmeli? — `teknik-seo` — stokta olmayan ürün seo — `stokta-olmayan-urun-sayfalari-nasil-yonetilmeli` — (28)
+- [x] 185. Yerel SEO İçin Anahtar Kelime Araştırması Nasıl Yapılır? — `yerel-seo` — yerel anahtar kelime — `yerel-seo-icin-anahtar-kelime-arastirmasi-nasil-yapilir` — (37)
+- [x] 186. Organik Trafik Var Satış Yok: Hangi Veriler İncelenmeli? — `icerik-seo` — organik trafik var satış yok — `organik-trafik-var-satis-yok-hangi-veriler-incelenmeli` — (45)
+- [x] 187. Kurumsal SEO Stratejisi Nasıl Hazırlanır? Yol Haritası — `icerik-seo` — kurumsal seo stratejisi — `kurumsal-seo-stratejisi-nasil-hazirlanir-yol-haritasi` — (49)
 
 ## Notlar
 
