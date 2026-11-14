@@ -1,6 +1,6 @@
 ---
 title: "Zayıf İçerik (Thin Content) Nasıl Tespit Edilir?"
-description: "Zayıf içerik (thin content) nasıl anlaşılır? Kelime sayısına değil değere bakın; Search Console verisiyle tespit edip genişletme, birleştirme ya da silme kararı verin."
+description: "Zayıf içerik (thin content) nasıl anlaşılır? Kelime sayısına değil değere bakın; veriyle tespit edip genişletme, birleştirme ya da silme kararı verin."
 date: 2026-11-14
 service: icerik-seo
 imageAlt: "Gösterimi ve etkileşimi düşük sayfaların listelendiği içerik denetim tablosu"

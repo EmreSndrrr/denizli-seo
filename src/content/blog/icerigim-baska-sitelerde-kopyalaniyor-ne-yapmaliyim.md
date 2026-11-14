@@ -1,6 +1,6 @@
 ---
 title: "İçeriğim Başka Sitelerde Kopyalanıyor: Ne Yapmalıyım?"
-description: "İçeriğiniz başka sitelerde kopyalanıyorsa ne yapmalı? Tespit edin, kendi sayfanızı güçlendirin, kopyalayana başvurun; Google’ın kazıma politikası ve resmî yollar."
+description: "İçeriğiniz başka sitelerde kopyalanıyorsa ne yapmalı? Kopyayı tespit edin, kendi sayfanızı güçlendirin, kopyalayana başvurun; Google’ın kazıma politikası."
 date: 2026-11-14
 service: icerik-seo
 imageAlt: "Orijinal sayfa ve başka sitedeki kopya arasındaki ilişkiyi gösteren karşılaştırma"

@@ -178,6 +178,9 @@ const PAGES = [
   { out: 'og/editoryal-ilkeler', motif: 'console', tag: 'Editoryal ilkeler', title: 'Yazılarımız nasıl hazırlanır?' },
 ];
 const POST_MOTIF = {
+  'breadcrumb-nedir-ve-nasil-eklenir': 'layout',
+  'seo-icin-ozgun-arastirma-icerigi-nasil-hazirlanir': 'doc',
+  'black-friday-seosu-calismaya-ne-zaman-baslanmali': 'chart',
   'mobil-ve-masaustu-siralamalari-neden-farkli-cikiyor': 'gauge',
   'e-e-a-t-icin-yazar-sayfasi-nasil-hazirlanir': 'profile',
   'seo-icerik-briefi-nasil-hazirlanir-ornek-sablon': 'doc',
