@@ -273,6 +273,30 @@ Amaç: çoğu backlink; her yazı aranan soruyu önce yanıtlar, ortada ve sonda
 - [x] 169. Kendi Sitenizin Backlink Denetimi: Adım Adım — `backlink-hizmeti` — backlink denetimi — `kendi-sitenizin-backlink-denetimi-adim-adim` — not: Bağlantılar raporu ledger’da; rapor yazısıyla çakışmasın (burada aksiyon ve önceliklendirme)
 - [x] 170. Backlink mi İçerik mi? Hangisine Önce Yatırım Yapmalı? — `icerik-seo` — backlink mi içerik mi — `backlink-mi-icerik-mi-hangisi-once` — not: sıralama garantisi yok; sıralama sistemleri kılavuzu ledger’da
 
+## Yazılacak: 5. tur (17 yazı, kullanıcının 50 H1’lik listesinden, Kasım 2026)
+
+Kural: listedeki 50 başlığın 33’ü sitede zaten bir yazıyla karşılanıyor; yenisini açmak kendi listesindeki “anahtar kelime yamyamlığı”nı yaratırdı. Bu yüzden yalnızca karşılanmayan 17 konu yeni yazı oldu. Başlıklar title ≤60 kuralı için kısaltıldı (anahtar kelime korundu).
+
+Mevcut yazılarla karşılanan konular (No → slug): 1 → `ucretsiz-seo-analizi-nasil-yapilir`; 9 → `baslik-etiketi-ve-meta-aciklama-nasil-yazilir`, `tiklanabilir-ama-durust-basliklar-nasil-yazilir`; 10 → `blog-yazisi-nasil-yazilir-seo-uyumlu-8-adim`; 12 → `ic-baglanti-stratejisi-kucuk-siteler-icin-rehber`; 13 → `eski-blog-yazilari-ne-zaman-ve-nasil-guncellenir`; 14 → `arama-sonuclarinda-tiklama-orani-nasil-artirilir`; 15 → `gorsel-seo`; 16 → `teknik-seo-denetimi-neler-kontrol-edilir`; 18 → `301-ve-302-yonlendirme-farki-nedir`; 19 → `404-hatasi-duzeltmeli-mi-yonlendirmeli-mi`; 20 → `site-hizi-olcumu-laboratuvar-ve-gercek-kullanici-verisi`; 21 → `wordpress-seo`; 25 → `e-ticaret-seo`, `kategori-sayfasi-metni-nasil-yazilir`; 26 → `urun-aciklamasi-nasil-yazilir-kopya-metinden-kacinma`; 29 → `backlink-sorgulama`; 30 → `backlink-kalitesi-nasil-degerlendirilir`; 31 → `dofollow-nofollow-farki-nedir-google-ne-diyor`; 32 → `rakip-backlink-analizi-nasil-yapilir`; 33 → `spam-backlink-nasil-anlasilir-reddetme-gerekli-mi`; 34 → `kaybolan-backlinkler-nasil-geri-kazanilir`; 35 → `backlink-nasil-alinir-kucuk-isletmeler-icin-yontemler`; 36 → `backlink-paketleri-ve-fiyatlari-nelere-dikkat`; 38 → `google-haritalarda-ust-siralara-cikmak`; 39 → `google-isletme-profili-kategorisi-nasil-secilir`; 40 → `haritada-gorunmuyorum`; 41 → `birden-fazla-subeli-isletmeler-icin-yerel-seo`; 42 → `google-yorumlari-nasil-artirilir`; 43 → `seo-raporu-nasil-okunur-aylik-rapor-sablonu`; 44 → `trafik-dususu-nasil-teshis-edilir`, `google-guncellemesinden-sonra-trafik-dustuyse-ne-yapilir`; 46 → `seo-mu-google-ads-mi-hangisi-size-uygun`; 47 → `seo-ne-kadar-surede-sonuc-verir`; 48 → `seo-fiyatlari`; 50 → `seo-ajansi-mi-uzmani-mi`.
+
+- [ ] 171. Rakip SEO Analizi Nasıl Yapılır? Kelime, İçerik, Backlink — `icerik-seo` — rakip seo analizi — `rakip-seo-analizi-nasil-yapilir-kelime-icerik-backlink` — (liste No. 2)
+- [ ] 172. Bir Sitenin Anahtar Kelimeleri Nasıl Bulunur? — `icerik-seo` — sitenin anahtar kelimelerini bulma — `sitenin-anahtar-kelimeleri-nasil-bulunur` — (3)
+- [ ] 173. Düşük Rekabetli Anahtar Kelimeler Nasıl Bulunur? — `icerik-seo` — düşük rekabetli anahtar kelimeler — `dusuk-rekabetli-anahtar-kelimeler-nasil-bulunur` — (4)
+- [ ] 174. Uzun Kuyruklu Anahtar Kelimeler Nasıl Bulunur ve Gruplanır? — `icerik-seo` — uzun kuyruklu anahtar kelimeler — `uzun-kuyruklu-anahtar-kelimeler-nasil-bulunur-ve-gruplanir` — (5)
+- [ ] 175. SEO İçin Arama Niyeti Nasıl Belirlenir? Örnek Sorgularla — `icerik-seo` — arama niyeti — `arama-niyeti-nasil-belirlenir-ornek-sorgularla` — (6)
+- [ ] 176. Anahtar Kelimeler Sayfalara Nasıl Dağıtılır? Eşleştirme Rehberi — `icerik-seo` — anahtar kelime eşleştirme — `anahtar-kelimeler-sayfalara-nasil-dagitilir-eslestirme-rehberi` — (7)
+- [ ] 177. Aynı Anahtar Kelimeyi Hedefleyen Sayfalar Nasıl Bulunur? — `icerik-seo` — anahtar kelime yamyamlığı — `ayni-anahtar-kelimeyi-hedefleyen-sayfalar-nasil-bulunur` — (8)
+- [ ] 178. Site İçi SEO Kontrol Listesi: Bir Sayfada Neler Optimize Edilir? — `icerik-seo` — site içi seo, on page seo — `site-ici-seo-kontrol-listesi-bir-sayfada-neler-optimize-edilir` — (11)
+- [ ] 179. Web Sitem Google’da Neden Görünmüyor? İndeksleme Rehberi — `teknik-seo` — web sitem google’da çıkmıyor — `web-sitem-googleda-neden-gorunmuyor-indeksleme-rehberi` — (17)
+- [ ] 180. WordPress SEO Eklentisi Seçerken Nelere Bakılmalı? — `web-tasarim` — wordpress seo eklentisi — `wordpress-seo-eklentisi-secerken-nelere-bakilmali` — (22)
+- [ ] 181. WordPress Sitem Yavaş Açılıyor: Nereleri Kontrol Etmeli? — `web-tasarim` — wordpress hız — `wordpress-sitem-yavas-aciliyor-nereleri-kontrol-etmeli` — (23)
+- [ ] 182. WordPress Kategori ve Etiket Sayfaları SEO’su — `web-tasarim` — wordpress kategori etiket seo — `wordpress-kategori-ve-etiket-sayfalari-seo-su` — (24)
+- [ ] 183. E-Ticarette Filtreli Sayfalar SEO İçin Nasıl Yönetilir? — `teknik-seo` — filtreli sayfalar seo — `e-ticarette-filtreli-sayfalar-seo-icin-nasil-yonetilir` — (27)
+- [ ] 184. Stokta Olmayan Ürün Sayfaları Nasıl Yönetilmeli? — `teknik-seo` — stokta olmayan ürün seo — `stokta-olmayan-urun-sayfalari-nasil-yonetilmeli` — (28)
+- [ ] 185. Yerel SEO İçin Anahtar Kelime Araştırması Nasıl Yapılır? — `yerel-seo` — yerel anahtar kelime — `yerel-seo-icin-anahtar-kelime-arastirmasi-nasil-yapilir` — (37)
+- [ ] 186. Organik Trafik Var Satış Yok: Hangi Veriler İncelenmeli? — `icerik-seo` — organik trafik var satış yok — `organik-trafik-var-satis-yok-hangi-veriler-incelenmeli` — (45)
+- [ ] 187. Kurumsal SEO Stratejisi Nasıl Hazırlanır? Yol Haritası — `icerik-seo` — kurumsal seo stratejisi — `kurumsal-seo-stratejisi-nasil-hazirlanir-yol-haritasi` — (49)
+
 ## Notlar
 
 - Doktor, diş hekimi ve avukat başlıkları yazılmadan önce ilgili reklam yasaklarını resmî kaynaktan (.gov.tr) doğrulayın.
