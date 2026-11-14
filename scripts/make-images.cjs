@@ -178,6 +178,11 @@ const PAGES = [
   { out: 'og/editoryal-ilkeler', motif: 'console', tag: 'Editoryal ilkeler', title: 'Yazılarımız nasıl hazırlanır?' },
 ];
 const POST_MOTIF = {
+  'haritalarda-yinelenen-isletme-kaydi-nasil-duzeltilir': 'pins',
+  'google-isletme-profili-sahipligi-nasil-devredilir': 'profile',
+  'isletme-adresi-degisince-haritalarda-neler-guncellenmeli': 'pins',
+  'sahte-google-yorumlari-nasil-bildirilir': 'profile',
+  'google-haritalarda-hatali-bilgi-nasil-bildirilir': 'pins',
   'inp-degeri-neden-yuksek-cikar-nasil-azaltilir': 'gauge',
   'sayfa-yuklenirken-icerik-neden-kayar-cls-duzeltme': 'layout',
   'sunucu-yanit-suresi-ttfb-nasil-iyilestirilir': 'gauge',
