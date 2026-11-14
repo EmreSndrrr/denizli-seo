@@ -178,6 +178,10 @@ const PAGES = [
   { out: 'og/editoryal-ilkeler', motif: 'console', tag: 'Editoryal ilkeler', title: 'Yazılarımız nasıl hazırlanır?' },
 ];
 const POST_MOTIF = {
+  'seo-ajansi-degistirirken-hangi-hesaplar-teslim-alinmali': 'profile',
+  'katmanli-backlink-nedir-riskleri-nasil-degerlendirilir': 'linkgraph',
+  'suresi-dolmus-domain-alirken-seo-gecmisi-kontrolu': 'linkgraph',
+  'search-consolda-manuel-islem-bildirimi-ne-yapilmali': 'broken',
   'haritalarda-yinelenen-isletme-kaydi-nasil-duzeltilir': 'pins',
   'google-isletme-profili-sahipligi-nasil-devredilir': 'profile',
   'isletme-adresi-degisince-haritalarda-neler-guncellenmeli': 'pins',
