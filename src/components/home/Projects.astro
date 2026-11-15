@@ -11,10 +11,10 @@ const shown = (names ? names.map((n) => PROJECTS.find((p) => p.name === n)!) : P
 const tagsOf = (work: string) => work.split(' · ');
 const cats = (work: string) => PROJECT_TABS.filter((t) => t.key !== 'hepsi' && tagsOf(work).some((x) => t.tags.includes(x))).map((t) => t.key).join(' ');
 ---
-<section class="projects" id="isler" aria-labelledby="isler-baslik">
+<section class="projects" id="projeler" aria-labelledby="projeler-baslik">
   <div class="wrap">
     <div class="sec-head reveal">
-      <h2 class="h2" id="isler-baslik">{title ?? 'Tasarımdan gerçeğe: '}{title ? '' : <em>projelerimiz</em>}</h2>
+      <h2 class="h2" id="projeler-baslik">{title ?? 'Tasarımdan gerçeğe: '}{title ? '' : <em>projelerimiz</em>}</h2>
       <p class="lede">{intro ?? 'Venti Dijital Ajans’ın kurduğu ya da SEO’sunu yürüttüğü sitelerden bazıları. Hepsi yayında; dokunup açabilirsiniz.'}</p>
     </div>
     {tabs && <div class="ptabs" role="group" aria-label="Proje kategorisi">
@@ -35,7 +35,7 @@ const cats = (work: string) => PROJECT_TABS.filter((t) => t.key !== 'hepsi' && t
   </div>
   <div class="wrap pcontrols">
     <button type="button" class="reel-btn" data-pprev aria-label="Önceki proje"><Icon name="arrow" size={18} class="flip" /></button>
-    <a class="btn btn-orange" href="https://www.ventiajans.com/projeler/" rel="noopener">Tümünü gör<Icon name="arrow" size={18} /></a>
+    <a class="btn btn-orange" href="/projeler/">Tüm projeleri gör<Icon name="arrow" size={18} /></a>
     <button type="button" class="reel-btn" data-pnext aria-label="Sonraki proje"><Icon name="arrow" size={18} /></button>
   </div>
 </section>

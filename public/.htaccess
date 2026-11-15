@@ -9,6 +9,9 @@ Options -Indexes
 <IfModule mod_rewrite.c>
   RewriteEngine On
 
+  # /sitemap.xml is the first address people and tools try; the real index is sitemap-index.xml.
+  RewriteRule ^sitemap\.xml$ https://denizliseo.com/sitemap-index.xml [R=301,L]
+
   # Folder pages always end with a slash: /yerel-seo -> /yerel-seo/
   # This rule comes first and writes the final address itself, so http://www.denizliseo.com/yerel-seo
   # reaches https://denizliseo.com/yerel-seo/ in one redirect instead of two.

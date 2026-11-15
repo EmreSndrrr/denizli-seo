@@ -1,0 +1,58 @@
+---
+// Projects: every live site Venti Dijital Ajans built or runs the SEO for, on its own page.
+import { Image } from 'astro:assets';
+import Page from '../layouts/Page.astro';
+import Banner from '../components/home/Banner.astro';
+import Chat from '../components/home/Chat.astro';
+import Icon from '../components/Icon.astro';
+import { PROJECTS } from '../data/projects';
+import { SITE, WA_ANALYSIS, CTA_LABEL } from '../data/site';
+
+const title = 'Projelerimiz: Yayındaki Siteler | Denizli SEO';
+const description = 'Venti Dijital Ajans’ın kurduğu ya da SEO’sunu yürüttüğü yayındaki siteler: web tasarım, SEO ve içerik çalışmaları. Hepsini açıp inceleyebilirsiniz.';
+const url = `${SITE.url}/projeler/`;
+const shown = PROJECTS.filter((p) => p.shot);
+
+const jsonld = [
+  {
+    '@type': 'CollectionPage',
+    '@id': `${url}#sayfa`,
+    url,
+    name: 'Denizli SEO projeleri',
+    description,
+    inLanguage: 'tr-TR',
+    isPartOf: { '@id': `${SITE.url}/#website` },
+    mainEntity: { '@type': 'ItemList', itemListElement: shown.map((p, i) => ({ '@type': 'ListItem', position: i + 1, name: p.name, url: p.url })) },
+  },
+  {
+    '@type': 'BreadcrumbList',
+    itemListElement: [
+      { '@type': 'ListItem', position: 1, name: 'Ana sayfa', item: `${SITE.url}/` },
+      { '@type': 'ListItem', position: 2, name: 'Projeler', item: url },
+    ],
+  },
+];
+---
+<Page title={title} description={description} jsonld={jsonld}>
+  <Banner crumbs={[{ href: '/', label: 'Ana sayfa' }, { label: 'Projeler' }]} h1={['Yayındaki', 'projelerimiz.']} lead="Venti Dijital Ajans’ın kurduğu ya da SEO’sunu yürüttüğü sitelerden bazıları. Hepsi yayında; dokunup açabilir, kendiniz inceleyebilirsiniz.">
+    <a class="btn btn-solid" href={WA_ANALYSIS} rel="noopener">{CTA_LABEL}<Icon name="arrow" size={20} /></a>
+    <a class="btn btn-outline" href="/iletisim/">İletişim</a>
+  </Banner>
+
+  <section class="proj-sec" aria-label="Proje listesi">
+    <div class="wrap">
+      <ul class="proj-grid">
+        {shown.map((p, i) => (
+          <li class="reveal">
+            <a class="proj-card" href={p.url} rel="noopener" target="_blank">
+              <span class="proj-pic"><Image src={p.shot!} alt={`${p.name} sitesinin ana sayfası`} widths={[360, 560, 800]} sizes="(max-width: 639px) 92vw, (max-width: 1023px) 46vw, 30vw" loading={i < 3 ? 'eager' : 'lazy'} /></span>
+              <span class="proj-cap"><b>{p.name}</b><span>{p.work}</span><span class="proj-go">Siteyi aç<Icon name="arrow" size={16} /></span></span>
+            </a>
+          </li>
+        ))}
+      </ul>
+    </div>
+  </section>
+
+  <Chat />
+</Page>
