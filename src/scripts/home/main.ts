@@ -58,7 +58,18 @@ const nav = $('.nav')!;
 const navLinks = $$<HTMLAnchorElement>('.nav-links a[data-section]');
 const SECTION_BOX = { hizmetler: 'services', surec: 'process', isler: 'work' } as const;
 
+// software-only WebGL (no graphics chip: SwiftShader, llvmpipe) renders the scene at a few frames a second and blocks the page, so the static layout is used there
+function softwareGL() {
+  try {
+    const gl = document.createElement('canvas').getContext('webgl');
+    const info = gl && gl.getExtension('WEBGL_debug_renderer_info');
+    const name = gl && info ? String(gl.getParameter(info.UNMASKED_RENDERER_WEBGL)) : '';
+    return /swiftshader|llvmpipe|software/i.test(name);
+  } catch { return false; }
+}
+
 function startStage() {
+  if (softwareGL()) { canvas.remove(); frontCanvas?.remove(); return; }
   import('./stage').then(({ createStage }) => {
     try {
       stage = createStage(canvas, frontCanvas, () => innerWidth < 768);
@@ -102,6 +113,7 @@ function updateNav(y: number) {
 function tick(now: number) {
   requestAnimationFrame(tick);
   if (document.hidden) { prev = now; return; }
+  if (innerWidth < 768 && now - prev < 30) return;       // phones: about 30 frames a second is enough and halves the work
   const dt = Math.min(0.05, (now - prev) / 1000);
   prev = now;
   const t = now / 1000, y = scrollY;
@@ -159,7 +171,7 @@ function runPreloader() {
   const o = { v: 0 };
   let dx = 0, dy = 0, sc = 0.25;
   const tl = gsap.timeline({ onComplete() { pl.remove(); lenis?.start(); } });
-  tl.to(o, { v: 1, duration: 0.85, ease: 'power2.inOut', onUpdate() {
+  tl.to(o, { v: 1, duration: 0.55, ease: 'power2.inOut', onUpdate() {
       num.textContent = '#' + Math.max(1, Math.round(100 - 99 * o.v));
       arc.style.strokeDashoffset = (C * (1 - o.v)).toFixed(2);
     } })
@@ -170,8 +182,8 @@ function runPreloader() {
       sc = (l.width * 0.62) / r.width;
     }, '+=0.05')
     .to(num, { autoAlpha: 0, duration: 0.2 })
-    .to(wrap, { x: () => dx, y: () => dy, scale: () => sc, duration: 0.7, ease: 'expo.inOut' }, '<')
-    .to(pl, { backgroundColor: 'rgba(11,14,19,0)', duration: 0.65, ease: 'power2.inOut' }, '<0.15')
+    .to(wrap, { x: () => dx, y: () => dy, scale: () => sc, duration: 0.5, ease: 'expo.inOut' }, '<')
+    .to(pl, { backgroundColor: 'rgba(11,14,19,0)', duration: 0.45, ease: 'power2.inOut' }, '<0.15')
     .to('.pl-cap', { autoAlpha: 0, duration: 0.3 }, '<')
     .add(intro, '<0.2')
     .to(wrap, { autoAlpha: 0, duration: 0.25 }, '>-0.1');
@@ -180,7 +192,8 @@ function runPreloader() {
 /* ---------- boot ---------- */
 resize();
 if (fx) { setupScroll(); runPreloader(); requestAnimationFrame(tick); }
-const boot = () => setTimeout(startStage, 100);
+// the 3D layer is decoration: it starts when the browser is idle, so the page is usable first
+const boot = () => { if ('requestIdleCallback' in window) requestIdleCallback(startStage, { timeout: 2500 }); else setTimeout(startStage, 600); };
 if (document.readyState === 'complete') boot(); else addEventListener('load', boot, { once: true });
 
 let rT = 0;

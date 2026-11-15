@@ -18,7 +18,7 @@ export function initProjects() {
       const r = c.getBoundingClientRect();
       const d = (r.left + r.width / 2 - mid) / r.width;
       c.style.setProperty('--s', (1.07 - 0.22 * Math.min(1, Math.abs(d))).toFixed(3));
-      c.style.setProperty('--o', (1 - 0.5 * Math.min(1, Math.abs(d))).toFixed(3));
+      c.style.setProperty('--o', (1 - 0.25 * Math.min(1, Math.abs(d))).toFixed(3));
       if (Math.abs(d) < bestD) { bestD = Math.abs(d); best = c; }
     }
     cards.forEach((c) => c.classList.toggle('is-center', c === best));
