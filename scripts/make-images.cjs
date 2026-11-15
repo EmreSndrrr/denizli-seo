@@ -178,6 +178,11 @@ const PAGES = [
   { out: 'og/editoryal-ilkeler', motif: 'console', tag: 'Editoryal ilkeler', title: 'Yazılarımız nasıl hazırlanır?' },
 ];
 const POST_MOTIF = {
+  'yeni-sitede-once-blog-mu-hizmet-sayfalari-mi': 'layout',
+  'google-bilgi-paneli-nasil-olusur': 'profile',
+  'seonun-satisa-katkisi-nasil-izlenir': 'chart',
+  'seo-trafik-tahmini-nasil-yapilir': 'gauge',
+  'seo-isleri-etki-ve-efora-gore-nasil-onceliklendirilir': 'doc',
   'ai-overviewsta-kaynak-olarak-gorunmek-icin-ne-yapilir': 'lens',
   'google-discoverda-gorunmek-icin-site-nasil-hazirlanir': 'layout',
   'google-news-icin-site-nasil-hazirlanir': 'doc',
