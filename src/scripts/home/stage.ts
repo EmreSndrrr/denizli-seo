@@ -317,7 +317,7 @@ export function createStage(canvas: HTMLCanvasElement, frontCanvas: HTMLCanvasEl
 
   function resize() {
     const w = canvas.clientWidth || innerWidth, h = canvas.clientHeight || innerHeight;
-    renderer.setPixelRatio(Math.min(window.devicePixelRatio || 1, mobile() ? 1.1 : 1.3));
+    renderer.setPixelRatio(Math.min(window.devicePixelRatio || 1, mobile() ? 1 : 1.3));
     renderer.setSize(w, h, false);
     camera.aspect = w / h;
     camera.updateProjectionMatrix();
@@ -327,7 +327,7 @@ export function createStage(canvas: HTMLCanvasElement, frontCanvas: HTMLCanvasEl
     const halfH = 8.5 * Math.tan(THREE.MathUtils.degToRad(camera.fov / 2));
     for (const m of pointMats) m.uniforms.uHalf.value.set(halfH * camera.aspect, halfH);
     if (front && frontCanvas) {
-      front.renderer.setPixelRatio(Math.min(window.devicePixelRatio || 1, mobile() ? 1.5 : 1.75));
+      front.renderer.setPixelRatio(Math.min(window.devicePixelRatio || 1, mobile() ? 1.25 : 1.75));
       front.renderer.setSize(frontCanvas.clientWidth || w, frontCanvas.clientHeight || h, false);
       front.camera.aspect = (frontCanvas.clientWidth || w) / (frontCanvas.clientHeight || h);
       front.camera.updateProjectionMatrix();
