@@ -172,6 +172,7 @@ Not: Bulut oturumunda `developers.google.com`, `support.google.com` ve `web.dev`
 | [Üretken yapay zekâ ile oluşturulan içerikleri kullanma kılavuzu](https://developers.google.com/search/docs/fundamentals/using-gen-ai-content?hl=tr) | Kullanıcıya değer katmayan çok sayıda sayfa üretmek için üretken yapay zekâ ya da benzeri araçlar kullanmak ölçeklendirilmiş içeriği kötüye kullanma spam politikasını ihlal edebilir; doğruluk, kalite, alaka düzeyi; üretken modeller olası kelime dizisi tahmin eder, halüsinasyon olabilir; yayından önce manuel doğruluk kontrolü çok önemli. | 2026-11-15 |
 | [Standartlaştırma sorunlarını düzeltme: ortak kullanılan içerik (aynı sayfa, yeniden okundu)](https://developers.google.com/search/docs/crawling-indexing/canonicalization-troubleshooting?hl=tr) | Ortak kullanılan içerikte canonical, ortakların yinelemesini önlemek isteyenler için önerilmez; en etkili çözüm iş ortaklarının içeriğin dizine eklenmesini engellemesidir; kopya web sitesi durumunda barındırıcıya başvuru ve DMCA. | 2026-11-15 |
 | [Başlık bağlantıları: og:title kaynağı (aynı sayfa)](https://developers.google.com/search/docs/appearance/title-link?hl=tr) | Başlık bağlantısı kaynaklarından biri og:title meta etiketidir. | 2026-11-15 |
+| [Çok bölgeli ve çok dilli siteler](https://developers.google.com/search/docs/specialty/international/managing-multi-regional-sites?hl=tr) | Sayfa dili görünür içerikten belirlenir; tek dil/sayfa; otomatik dil yönlendirmesinden kaçın; ayrı adres + hreflang | 2026-11-15 |
 
 ## web.dev
 

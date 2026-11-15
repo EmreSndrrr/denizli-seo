@@ -178,6 +178,11 @@ const PAGES = [
   { out: 'og/editoryal-ilkeler', motif: 'console', tag: 'Editoryal ilkeler', title: 'Yazılarımız nasıl hazırlanır?' },
 ];
 const POST_MOTIF = {
+  'yabanci-dilde-anahtar-kelime-arastirmasi-nasil-yapilir': 'lens',
+  'seo-icin-ceviri-mi-yerellestirme-mi': 'doc',
+  'astro-sitelerde-seo-ayarlari-nasil-yapilir': 'layout',
+  'headless-cms-kullanilan-sitelerde-seo-kontrolleri': 'linkgraph',
+  'sirket-ici-seo-ekibi-nasil-kurulur': 'chart',
   'fiyatlandirma-sayfasi-seo-icin-nasil-duzenlenir': 'doc',
   'rakip-alternatifi-sayfalari-nasil-hazirlanir': 'layout',
   'icerigi-farkli-kanallarda-yeniden-kullanmak-ve-seo': 'linkgraph',

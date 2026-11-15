@@ -411,7 +411,7 @@ Atlanan (resmî kaynak doğrulanamadı / üçüncü taraf arayüzü): 157 (alan 
 - [ ] 288. Yapay Zekâ Yanıtlarında Marka Bahsi ve Kaynak Bağlantısı — `icerik-seo` — — `yapay-zeka-yanitlarinda-marka-bahsi-ve-kaynak-baglantisi` — (liste No. 175)
 - [x] 289. SEO’nun Satışa Katkısı Nasıl İzlenir? — `icerik-seo` — — `seonun-satisa-katkisi-nasil-izlenir` — (liste No. 244)
 - [x] 290. SEO Trafik Tahmini Nasıl Yapılır? — `icerik-seo` — — `seo-trafik-tahmini-nasil-yapilir` — (liste No. 247)
-- [ ] 291. Şirket İçi SEO Ekibi Nasıl Kurulur? — `icerik-seo` — — `sirket-ici-seo-ekibi-nasil-kurulur` — (liste No. 219)
+- [x] 291. Şirket İçi SEO Ekibi Nasıl Kurulur? — `icerik-seo` — — `sirket-ici-seo-ekibi-nasil-kurulur` — (liste No. 219)
 - [x] 292. SEO Uzmanı ile Web Geliştirici Hangi İşlerden Sorumlu? — `teknik-seo` — — `seo-uzmani-ile-web-gelistirici-hangi-islerden-sorumlu` — (liste No. 221)
 - [x] 293. SEO Önerileri Yazılım Ekibine Nasıl Aktarılır? — `teknik-seo` — — `seo-onerileri-yazilim-ekibine-nasil-aktarilir` — (liste No. 222)
 - [x] 294. SEO Değişiklikleri Nasıl Kaydedilir? Yayın ve Sonuç Takibi — `teknik-seo` — — `seo-degisiklikleri-nasil-kaydedilir` — (liste No. 223)
@@ -422,13 +422,13 @@ Atlanan (resmî kaynak doğrulanamadı / üçüncü taraf arayüzü): 157 (alan 
 - [x] 299. Kullanıcıların Oluşturduğu İçerik SEO İçin Nasıl Yönetilir? — `teknik-seo` — — `kullanicilarin-olusturdugu-icerik-seo-icin-nasil-yonetilir` — (liste No. 228)
 - [x] 300. İçeriği Farklı Kanallarda Yeniden Kullanmak ve SEO — `icerik-seo` — — `icerigi-farkli-kanallarda-yeniden-kullanmak-ve-seo` — (liste No. 229)
 - [x] 301. Sosyal Medya Paylaşımları SEO’yu Nasıl Destekler? — `icerik-seo` — — `sosyal-medya-paylasimlari-seoyu-nasil-destekler` — (liste No. 230)
-- [ ] 302. Yabancı Dilde Anahtar Kelime Araştırması Nasıl Yapılır? — `icerik-seo` — — `yabanci-dilde-anahtar-kelime-arastirmasi-nasil-yapilir` — (liste No. 217)
-- [ ] 303. SEO İçin Çeviri mi, Yerelleştirme mi? — `icerik-seo` — — `seo-icin-ceviri-mi-yerellestirme-mi` — (liste No. 218)
+- [x] 302. Yabancı Dilde Anahtar Kelime Araştırması Nasıl Yapılır? — `icerik-seo` — — `yabanci-dilde-anahtar-kelime-arastirmasi-nasil-yapilir` — (liste No. 217)
+- [x] 303. SEO İçin Çeviri mi, Yerelleştirme mi? — `icerik-seo` — — `seo-icin-ceviri-mi-yerellestirme-mi` — (liste No. 218)
 - [x] 304. Open Graph Etiketleri Nasıl Eklenir? — `web-tasarim` — — `open-graph-etiketleri-nasil-eklenir` — (liste No. 183)
 - [x] 305. Mobil Pop-Up’lar SEO’yu Nasıl Etkiler? — `web-tasarim` — — `mobil-pop-uplar-seoyu-nasil-etkiler` — (liste No. 237)
 - [x] 306. Sekme ve Akordeon İçindeki Metinleri Google Görür mü? — `web-tasarim` — — `sekme-ve-akordeon-icindeki-metinleri-google-gorur-mu` — (liste No. 238)
-- [ ] 307. Astro Sitelerde SEO Ayarları Nasıl Yapılır? — `web-tasarim` — — `astro-sitelerde-seo-ayarlari-nasil-yapilir` — (liste No. 210)
-- [ ] 308. Headless CMS Kullanılan Sitelerde SEO Kontrolleri — `web-tasarim` — — `headless-cms-kullanilan-sitelerde-seo-kontrolleri` — (liste No. 214)
+- [x] 307. Astro Sitelerde SEO Ayarları Nasıl Yapılır? — `web-tasarim` — — `astro-sitelerde-seo-ayarlari-nasil-yapilir` — (liste No. 210)
+- [x] 308. Headless CMS Kullanılan Sitelerde SEO Kontrolleri — `web-tasarim` — — `headless-cms-kullanilan-sitelerde-seo-kontrolleri` — (liste No. 214)
 
 ## Notlar
 
