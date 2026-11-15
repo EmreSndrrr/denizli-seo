@@ -56,7 +56,7 @@ const jsonld = [
 ];
 ---
 <Page title={title} description={description} jsonld={jsonld} image="/og/hizmetler.jpg" imageAlt="Denizli SEO hizmetleri: beş hizmet, tek ekip">
-  <Banner crumbs={[{ href: '/', label: 'Ana sayfa' }, { label: 'Hizmetler' }]} h1={['Beş hizmet,', 'tek ekip.']} lead="Denizli’de sizi arayan müşterinin sizi bulması için gereken işler: harita, teknik altyapı, içerik, bağlantı ve site. Birini seçin ya da birlikte planlayalım.">
+  <Banner crumbs={[{ href: '/', label: 'Ana sayfa' }, { label: 'Hizmetler' }]} h1={['Beş hizmet,', 'tek ekip.']} lead="Yerel SEO, teknik SEO, içerik, bağlantı ve web tasarım hizmetlerini Denizli’deki işletmeler için tek ekipte yürütürüz. İhtiyacınıza uygun hizmeti seçebilir ya da ücretsiz ön analizin ardından birlikte bir plan oluşturabilirsiniz.">
     <a class="btn btn-solid" href={WA_ANALYSIS} rel="noopener">{CTA_LABEL}<Icon name="arrow" size={20} /></a>
     <a class="btn btn-outline" href="/iletisim/">İletişim</a>
   </Banner>
@@ -64,8 +64,8 @@ const jsonld = [
   <section class="svc-list" aria-labelledby="hizmet-listesi">
     <div class="wrap">
       <div class="sec-head reveal">
-        <h2 class="h2" id="hizmet-listesi">Ne <em>yapıyoruz</em>?</h2>
-        <p class="lede">Her hizmetin kendi sayfası var: ne yaptığımız, nasıl ilerlediği, sık sorulan sorular ve sonucu nasıl göreceğiniz.</p>
+        <h2 class="h2" id="hizmet-listesi">Hizmet <em>kapsamımız</em></h2>
+        <p class="lede">Her hizmetin ayrı bir sayfası vardır: kapsam, çalışma yöntemi, teslim edilen çıktılar, takip edilen göstergeler ve sık sorulan sorular.</p>
       </div>
       <div class="svc-grid">
         {SERVICES.map((s, i) => (
@@ -74,7 +74,7 @@ const jsonld = [
             <h3>{s.name}</h3>
             <p>{s.lead}</p>
             <ul>{s.items.slice(0, 3).map((it) => <li><Icon name="check" size={14} />{it.name}</li>)}</ul>
-            <span class="go">Sayfayı inceleyin<Icon name="arrow" size={16} /></span>
+            <span class="go">Hizmet kapsamını inceleyin<Icon name="arrow" size={16} /></span>
           </a>
         ))}
       </div>
@@ -85,21 +85,21 @@ const jsonld = [
     <div class="wrap">
       <div class="sec-head reveal">
         <h2 class="h2" id="hangisi">Hangi hizmet <em>size uygun</em>?</h2>
-        <p class="lede">Başlangıç noktanız belli değilse durumunuza en yakın satırdan başlayın; gerekirse birkaç hizmeti birlikte kurarız.</p>
+        <p class="lede">Başlangıç noktanız net değilse mevcut durumunuza en yakın satırı inceleyin. Gerektiğinde birkaç hizmeti birlikte planlarız.</p>
       </div>
       <div class="fit">
         {SERVICES.map((s, i) => (
           <div class="fit-row reveal" style={`--tone:var(--${tones[i % tones.length]});--tone-text:var(--${tones[i % tones.length]}-text)`}>
             <h3><a href={`/${s.slug}/`}>{s.short}</a></h3>
             <p><b>Kime uygun</b>{s.fit}</p>
-            <p><b>Sonucu nasıl görürsünüz</b>{s.measure}</p>
+            <p><b>Takip edilen göstergeler</b>{s.measure}</p>
           </div>
         ))}
       </div>
     </div>
   </section>
 
-  <Cycle steps={PROCESS.map((p) => ({ title: p.title, text: p.text, tag: p.when }))} title="Hizmetler <em>nasıl ilerler</em>" intro="Hangi hizmeti seçerseniz seçin iş aynı sırayla yürür; ne yapılacağı ve ne zaman yapılacağı baştan yazılıdır." id="surec" />
+  <Cycle steps={PROCESS.map((p) => ({ title: p.title, text: p.text, tag: p.when }))} title="Hizmetler <em>nasıl ilerler</em>" intro="Hangi hizmeti seçerseniz seçin çalışma aynı çerçevede ilerler: analiz, strateji, uygulama ve ölçüm. Yapılacak işler ve takvim baştan yazılı olarak paylaşılır." id="surec" />
 
   <Faq items={faq} title="Sorular" />
 
