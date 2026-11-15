@@ -7,7 +7,7 @@ export const HOME_FAQ: Qa[] = [
   },
   {
     q: 'İlk sırayı garanti ediyor musunuz?',
-    a: "Hayır. Google’da organik sıra satın alınmaz ve kimse garanti edemez. Garanti ettiğimiz şey, yapılacak işin yazılı listesi ve her ay rakamlı rapordur.",
+    a: "Hayır. Google’da organik sıra satın alınmaz ve kimse garanti edemez. Garanti ettiğimiz şey, yapılacak işin yazılı listesi ve her ay ölçülebilir göstergelerle hazırlanan rapordur.",
   },
   {
     q: 'Yerel SEO ile SEO arasındaki fark ne?',
