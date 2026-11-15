@@ -178,6 +178,8 @@ const PAGES = [
   { out: 'og/editoryal-ilkeler', motif: 'console', tag: 'Editoryal ilkeler', title: 'Yazılarımız nasıl hazırlanır?' },
 ];
 const POST_MOTIF = {
+  'anahtar-kelime-iceren-alan-adi-avantaj-saglar-mi': 'doc',
+  'com-ve-com-tr-alan-adlari-seo-acisindan-fark-var-mi': 'lens',
   'urun-paketleri-icin-ayri-sayfa-acilmali-mi': 'layout',
   'toptan-satis-sitesinde-fiyatsiz-urun-sayfasi-hazirlamak': 'doc',
   'da-ve-dr-puanlari-ne-anlama-gelir': 'linkgraph',
