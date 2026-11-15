@@ -151,10 +151,10 @@
 
 /* ---------- blog ---------- */
 .blog-sec .wrap { padding-block: 2vh 8vh; }
+.filters a.ptab, .pager a.ptab { display: inline-flex; align-items: center; text-decoration: none; }
 .filters { display: flex; flex-wrap: wrap; gap: 8px; padding-bottom: 1.25rem; margin-bottom: 2rem; border-bottom: 1px solid var(--line); }
 .ptab.pink-all.active { background: var(--pink); color: #fff; border-color: var(--pink); }
 .post-grid { display: grid; grid-template-columns: repeat(auto-fill, minmax(min(100%, 22rem), 1fr)); gap: 22px; }
-.post-card[hidden] { display: none; }
 .post-card a { position: relative; display: grid; gap: 0.9rem; align-content: start; height: 100%; padding: 0.8rem 0.8rem 2.4rem; text-decoration: none; border-radius: 14px; background: var(--card); border: 1px solid var(--line); transition: border-color 0.25s, transform 0.25s var(--ease); }
 .post-card a:hover { border-color: var(--pink); transform: translateY(-3px); }
 .post-card a::after { content: ''; position: absolute; left: 50%; bottom: 0; width: 8rem; height: 6px; margin-left: -4rem; border-radius: 6px 6px 0 0; background: var(--pink); }
@@ -166,7 +166,7 @@
 .post-card h2::after, .post-card h3::after { display: none; }
 .post-card p { padding-inline: 0.5rem; color: var(--muted); font-size: 1rem; padding-right: 3.5rem; }
 .post-go { position: absolute; right: 1rem; bottom: 2.2rem; display: grid; place-items: center; width: 2.5rem; height: 2.5rem; border-radius: 50%; background: #fff; color: var(--pink); }
-.empty { color: var(--soft); text-align: center; padding: 2rem; }
+.pager { display: flex; flex-wrap: wrap; justify-content: center; gap: 8px; margin-top: 2.5rem; }
 
 /* one article */
 .article-head .wrap { display: grid; gap: 1rem; max-width: 56rem; padding-block: 1rem 2rem; }

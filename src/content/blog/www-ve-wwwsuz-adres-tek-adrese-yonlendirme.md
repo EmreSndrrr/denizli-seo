@@ -6,7 +6,7 @@ service: teknik-seo
 imageAlt: "İki adres varyantının tek bir ana adrese yönlendirilmesi"
 ---
 
-`www.alanadiniz.com` ve `alanadiniz.com` aynı siteye gidiyorsa Google bunları ayrı adresler olarak görebilir. Birini asıl adres olarak seçin (hangisi olduğu fark etmez, önemli olan tutarlılıktır) ve diğerini 301 ile ona yönlendirin; canonical, site haritası, iç bağlantılar ve profildeki adres de aynı sürümü kullansın. Google, yönlendirmeyi ve rel=canonical’ı standart URL için güçlü sinyaller sayar. Aynı alan adındaki www ve www’suz geçişi için Adres değişikliği aracına gerek yoktur.
+**Kısa cevap:** `www.alanadiniz.com` ve `alanadiniz.com` aynı siteye gidiyorsa Google bunları ayrı adresler olarak görebilir. Birini asıl adres olarak seçin (hangisi olduğu fark etmez, önemli olan tutarlılıktır) ve diğerini 301 ile ona yönlendirin; canonical, site haritası, iç bağlantılar ve profildeki adres de aynı sürümü kullansın. Google, yönlendirmeyi ve rel=canonical’ı standart URL için güçlü sinyaller sayar. Aynı alan adındaki www ve www’suz geçişi için Adres değişikliği aracına gerek yoktur.
 
 “www” ya da “www’suz” seçimi bir sıralama kararı değildir; bir tutarlılık kararıdır. Sorun, sitenin iki adreste birden açık kalmasıdır: aynı içerik iki adreste yayımlanır, bağlantılar ikiye bölünür ve Google hangisini dizine ekleyeceğine kendi karar verir. Bu yazıda tek adres seçmeyi ve diğerini doğru yönlendirmeyi anlatıyoruz. Aynı mantık `http` ve `https` için de geçerlidir; bkz. [HTTPS’e geçiş](/blog/https-e-gecis-seo-kontrol-listesi/).
 
@@ -45,8 +45,6 @@ Seçtikten sonra değiştirmeyin. Değiştirirseniz bu, URL değişikliği olur 
 7. **Profil ve sosyal hesaplardaki adresi güncelleyin.**
 8. **Search Console’da mülkü kontrol edin.** Alan adı mülkü kullanıyorsanız tüm sürümler tek mülkte toplanır.
 
-> **Hizmet almak için iletişime geçin.** Sitenizin dizine eklenme, hız ve mobil durumunu birlikte tarayalım; bulguları öncelik sırasıyla yazılı verelim. [Teknik SEO hizmetimizi](/teknik-seo/) inceleyin ya da [bize yazın](/iletisim/).
-
 ## Google’ın rehberi ne diyor?
 
 Google’ın standart URL rehberi bu en iyi uygulamaları sıralar:
@@ -60,13 +58,15 @@ Google ayrıca site taşıma rehberinde HTTPS geçişi, aynı alan adında www v
 
 ## Nasıl kontrol edersiniz?
 
-- **http ve www’suz:** nasıl?: Tarayıcıya `http://alanadiniz.com` yazın; beklenen: Asıl sürüme gitmeli
-- **http ve www:** nasıl?: `http://www.alanadiniz.com`; beklenen: Asıl sürüme gitmeli
-- **https ve www:** nasıl?: `https://www.alanadiniz.com`; beklenen: Asıl sürüme gitmeli
-- **Zincir:** nasıl?: Kaç adımda ulaşıyor?; beklenen: Tek adım
-- **Canonical:** nasıl?: Sayfa kaynağında; beklenen: Asıl sürüm
-- **Site haritası:** nasıl?: Dosyayı açın; beklenen: Yalnızca asıl sürüm
-- **Search Console:** nasıl?: URL Denetleme; beklenen: Google’ın seçtiği standart sayfa = asıl sürüm
+| Kontrol | Nasıl? | Beklenen |
+| --- | --- | --- |
+| http ve www’suz | Tarayıcıya `http://alanadiniz.com` yazın | Asıl sürüme gitmeli |
+| http ve www | `http://www.alanadiniz.com` | Asıl sürüme gitmeli |
+| https ve www | `https://www.alanadiniz.com` | Asıl sürüme gitmeli |
+| Zincir | Kaç adımda ulaşıyor? | Tek adım |
+| Canonical | Sayfa kaynağında | Asıl sürüm |
+| Site haritası | Dosyayı açın | Yalnızca asıl sürüm |
+| Search Console | URL Denetleme | Google’ın seçtiği standart sayfa = asıl sürüm |
 
 ## Sık yapılan hatalar
 
@@ -84,15 +84,15 @@ Google ayrıca site taşıma rehberinde HTTPS geçişi, aynı alan adında www v
 
 Düzeltme: asıl sürüm olarak `https://alanadi.com/` seçiliyor; diğer üç sürüm 301 ile ona yönlendiriliyor; sertifika iki sürümü de kapsıyor; canonical, site haritası ve iç bağlantılar güncelleniyor; Search Console’da standart sayfa seçimi haftalarca izleniyor. Bu örnek sonuç vaadi değildir; kontrol sırasını gösterir.
 
-> **Sizin için de yapalım mı?** Sitenizde teknik bir sorun şüpheniz varsa nedenini sırayla teşhis edelim. [Hizmet almak için iletişime geçin](/iletisim/); çalışmanın kapsamı [teknik SEO sayfamızda](/teknik-seo/) anlatılıyor.
-
 ## Hangi yönlendirme senaryosu hangi kuralı gerektirir?
 
-- **http://alanadi.com:** hedef (örnek: https, www’suz): https://alanadi.com; yönlendirme: 301
-- **http://www.alanadi.com:** hedef (örnek: https, www’suz): https://alanadi.com; yönlendirme: 301 (tek adımda)
-- **https://www.alanadi.com:** hedef (örnek: https, www’suz): https://alanadi.com; yönlendirme: 301
-- **https://alanadi.com:** hedef (örnek: https, www’suz): https://alanadi.com; yönlendirme: Yönlendirme yok
-- **Alt sayfa (ör. http://www.alanadi.com/iletisim):** hedef (örnek: https, www’suz): https://alanadi.com/iletisim; yönlendirme: 301, yol korunur
+| Gelen adres | Hedef (örnek: https, www’suz) | Yönlendirme |
+| --- | --- | --- |
+| `http://alanadi.com` | `https://alanadi.com` | 301 |
+| `http://www.alanadi.com` | `https://alanadi.com` | 301 (tek adımda) |
+| `https://www.alanadi.com` | `https://alanadi.com` | 301 |
+| `https://alanadi.com` | `https://alanadi.com` | Yönlendirme yok |
+| Alt sayfa (ör. `http://www.alanadi.com/iletisim`) | `https://alanadi.com/iletisim` | 301, yol korunur |
 
 Önemli: yönlendirme yolu korumalı; ana sayfaya toplu gönderme değil, her sayfa kendi karşılığına gitmeli.
 
@@ -140,10 +140,6 @@ Hayır. Google, aynı alan adındaki www ve www’suz adresler arasında geçiş
 ### Hangi sürümü seçtiğimi nasıl öğrenirim?
 
 Tarayıcıda her dört sürümü deneyin ve hepsinin tek adrese gittiğini doğrulayın; Search Console’da URL Denetleme ile Google’ın seçtiği standart sayfaya bakın.
-
-### Yönlendirmeyi test etmek için ne yapmalıyım?
-
-İki sürümü de tarayıcıda açıp tek adrese gittiğini ve HTTPS’in korunduğunu doğrulayın.
 
 ## Kaynaklar
 
