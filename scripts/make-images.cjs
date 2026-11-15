@@ -178,6 +178,10 @@ const PAGES = [
   { out: 'og/editoryal-ilkeler', motif: 'console', tag: 'Editoryal ilkeler', title: 'Yazılarımız nasıl hazırlanır?' },
 ];
 const POST_MOTIF = {
+  'merchant-center-ucretsiz-listelemeler-icin-urun-hazirligi': 'layout',
+  'e-ticaret-urun-feedi-nasil-hazirlanir': 'doc',
+  'merchant-centerda-fiyat-uyusmazligi-nasil-arastirilir': 'broken',
+  'gtin-mpn-ve-marka-bilgileri-urun-feedine-nasil-eklenir': 'doc',
   'mobil-pop-uplar-seoyu-nasil-etkiler': 'layout',
   'sekme-ve-akordeon-icindeki-metinleri-google-gorur-mu': 'layout',
   'seo-degisiklikleri-nasil-kaydedilir': 'doc',
