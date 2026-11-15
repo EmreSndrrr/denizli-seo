@@ -394,21 +394,21 @@ Atlanan (resmî kaynak doğrulanamadı / üçüncü taraf arayüzü): 157 (alan 
 - [x] 271. .com ve .com.tr Alan Adları: SEO Açısından Fark Var mı? — `teknik-seo` — — `com-ve-com-tr-alan-adlari-seo-acisindan-fark-var-mi` — (liste No. 158)
 - [x] 272. Programatik SEO Hangi Sitelerde Kullanılır? — `icerik-seo` — — `programatik-seo-hangi-sitelerde-kullanilir` — (liste No. 159)
 - [x] 273. Yeni Sitede Önce Blog mu, Hizmet Sayfaları mı? — `icerik-seo` — — `yeni-sitede-once-blog-mu-hizmet-sayfalari-mi` — (liste No. 160)
-- [ ] 274. Entity SEO Nedir? Marka ve Konu İlişkileri — `icerik-seo` — — `entity-seo-nedir-marka-ve-konu-iliskileri` — (liste No. 173)
+- [-] 274. Entity SEO Nedir? Marka ve Konu İlişkileri — `icerik-seo` — — `entity-seo-nedir-marka-ve-konu-iliskileri` — (liste No. 173) — ATLANDI: resmî kaynakla doğrulanamadı (üçüncü taraf/yapay zekâ sohbet davranışı); uydurma iddia yazılmadı
 - [x] 275. Google Bilgi Paneli Nasıl Oluşur? — `icerik-seo` — — `google-bilgi-paneli-nasil-olusur` — (liste No. 174)
-- [ ] 276. Sesli Arama İçin SEO Nasıl Yapılır? — `icerik-seo` — — `sesli-arama-icin-seo-nasil-yapilir` — (liste No. 171)
-- [ ] 277. Ürünler Google Lens’te Nasıl Bulunur? — `icerik-seo` — — `urunler-google-lenste-nasil-bulunur` — (liste No. 172)
+- [-] 276. Sesli Arama İçin SEO Nasıl Yapılır? — `icerik-seo` — — `sesli-arama-icin-seo-nasil-yapilir` — (liste No. 171) — ATLANDI: resmî kaynakla doğrulanamadı (üçüncü taraf/yapay zekâ sohbet davranışı); uydurma iddia yazılmadı
+- [-] 277. Ürünler Google Lens’te Nasıl Bulunur? — `icerik-seo` — — `urunler-google-lenste-nasil-bulunur` — (liste No. 172) — ATLANDI: resmî kaynakla doğrulanamadı (üçüncü taraf/yapay zekâ sohbet davranışı); uydurma iddia yazılmadı
 - [x] 278. Google Discover’da Görünmek İçin Site Nasıl Hazırlanır? — `icerik-seo` — — `google-discoverda-gorunmek-icin-site-nasil-hazirlanir` — (liste No. 177)
 - [x] 279. Google News İçin Site Nasıl Hazırlanır? — `icerik-seo` — — `google-news-icin-site-nasil-hazirlanir` — (liste No. 178)
 - [x] 280. Sıfır Tıklamalı Aramalar Nedir? Başarı Nasıl Ölçülür? — `icerik-seo` — — `sifir-tiklamali-aramalar-nedir-basari-nasil-olculur` — (liste No. 170)
 - [x] 281. AI Overviews’ta Kaynak Olarak Görünmek İçin Ne Yapılır? — `icerik-seo` — — `ai-overviewsta-kaynak-olarak-gorunmek-icin-ne-yapilir` — (liste No. 162)
-- [ ] 282. ChatGPT İşletmemi Öneriyor mu? Nasıl Kontrol Ederim? — `icerik-seo` — — `chatgpt-isletmemi-oneriyor-mu-nasil-kontrol-ederim` — (liste No. 163)
+- [-] 282. ChatGPT İşletmemi Öneriyor mu? Nasıl Kontrol Ederim? — `icerik-seo` — — `chatgpt-isletmemi-oneriyor-mu-nasil-kontrol-ederim` — (liste No. 163) — ATLANDI: resmî kaynakla doğrulanamadı (üçüncü taraf/yapay zekâ sohbet davranışı); uydurma iddia yazılmadı
 - [x] 283. Yapay Zekâ Araçlarından Gelen Trafik Nasıl Ölçülür? — `teknik-seo` — — `yapay-zeka-araclarindan-gelen-trafik-nasil-olculur` — (liste No. 164)
-- [ ] 284. Yapay Zekâ Aramalarında Hangi Veriler Takip Edilmeli? — `icerik-seo` — — `yapay-zeka-aramalarinda-hangi-veriler-takip-edilmeli` — (liste No. 165)
-- [ ] 285. Prompt Araştırması: Yapay Zekâ Sorguları Nasıl Bulunur? — `icerik-seo` — — `prompt-arastirmasi-yapay-zeka-sorgulari-nasil-bulunur` — (liste No. 166)
-- [ ] 286. Yapay Zekâ İşletmem Hakkında Yanlış Bilgi Veriyorsa — `icerik-seo` — — `yapay-zeka-isletmem-hakkinda-yanlis-bilgi-veriyorsa` — (liste No. 167)
+- [-] 284. Yapay Zekâ Aramalarında Hangi Veriler Takip Edilmeli? — `icerik-seo` — — `yapay-zeka-aramalarinda-hangi-veriler-takip-edilmeli` — (liste No. 165) — ATLANDI: resmî kaynakla doğrulanamadı (üçüncü taraf/yapay zekâ sohbet davranışı); uydurma iddia yazılmadı
+- [-] 285. Prompt Araştırması: Yapay Zekâ Sorguları Nasıl Bulunur? — `icerik-seo` — — `prompt-arastirmasi-yapay-zeka-sorgulari-nasil-bulunur` — (liste No. 166) — ATLANDI: resmî kaynakla doğrulanamadı (üçüncü taraf/yapay zekâ sohbet davranışı); uydurma iddia yazılmadı
+- [-] 286. Yapay Zekâ İşletmem Hakkında Yanlış Bilgi Veriyorsa — `icerik-seo` — — `yapay-zeka-isletmem-hakkinda-yanlis-bilgi-veriyorsa` — (liste No. 167) — ATLANDI: resmî kaynakla doğrulanamadı (üçüncü taraf/yapay zekâ sohbet davranışı); uydurma iddia yazılmadı
 - [x] 287. llms.txt Dosyası SEO İçin Gerekli mi? — `teknik-seo` — — `llms-txt-dosyasi-seo-icin-gerekli-mi` — (liste No. 169)
-- [ ] 288. Yapay Zekâ Yanıtlarında Marka Bahsi ve Kaynak Bağlantısı — `icerik-seo` — — `yapay-zeka-yanitlarinda-marka-bahsi-ve-kaynak-baglantisi` — (liste No. 175)
+- [-] 288. Yapay Zekâ Yanıtlarında Marka Bahsi ve Kaynak Bağlantısı — `icerik-seo` — — `yapay-zeka-yanitlarinda-marka-bahsi-ve-kaynak-baglantisi` — (liste No. 175) — ATLANDI: resmî kaynakla doğrulanamadı (üçüncü taraf/yapay zekâ sohbet davranışı); uydurma iddia yazılmadı
 - [x] 289. SEO’nun Satışa Katkısı Nasıl İzlenir? — `icerik-seo` — — `seonun-satisa-katkisi-nasil-izlenir` — (liste No. 244)
 - [x] 290. SEO Trafik Tahmini Nasıl Yapılır? — `icerik-seo` — — `seo-trafik-tahmini-nasil-yapilir` — (liste No. 247)
 - [x] 291. Şirket İçi SEO Ekibi Nasıl Kurulur? — `icerik-seo` — — `sirket-ici-seo-ekibi-nasil-kurulur` — (liste No. 219)
