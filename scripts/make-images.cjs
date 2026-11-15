@@ -178,6 +178,10 @@ const PAGES = [
   { out: 'og/editoryal-ilkeler', motif: 'console', tag: 'Editoryal ilkeler', title: 'Yazılarımız nasıl hazırlanır?' },
 ];
 const POST_MOTIF = {
+  'nosnippet-ve-data-nosnippet-nasil-kullanilir': 'console',
+  'gorsellerim-google-gorsellerde-neden-cikmiyor': 'lens',
+  'schema-var-ama-zengin-sonuc-neden-gorunmuyor': 'console',
+  'google-farkli-bir-standart-sayfa-sectiyse-ne-yapilmali': 'redirect',
   'google-site-baglantilari-sitelinks-nasil-olusur': 'layout',
   'google-sayfa-basligimi-neden-degistiriyor': 'doc',
   'googleda-site-adi-yanlis-gorunuyorsa-ne-yapilmali': 'lens',
