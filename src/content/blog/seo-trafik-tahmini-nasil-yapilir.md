@@ -1,6 +1,6 @@
 ---
 title: "SEO Trafik Tahmini Nasıl Yapılır?"
-description: "SEO trafik tahmini nasıl yapılır? Mevcut Search Console verisinden başlama, tıklama oranı varsayımları, senaryolar, mevsim etkisi ve tahminlerin dürüstçe sunulması."
+description: "SEO trafik tahmini nasıl yapılır? Search Console verisinden başlama, tıklama oranı varsayımları, senaryolar, mevsim etkisi ve dürüst sunum."
 date: 2026-11-15
 service: icerik-seo
 imageAlt: "Muhafazakâr, orta ve iyimser senaryolarla hazırlanmış SEO trafik tahmini grafiği"

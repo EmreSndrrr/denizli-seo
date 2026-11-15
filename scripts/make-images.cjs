@@ -178,6 +178,9 @@ const PAGES = [
   { out: 'og/editoryal-ilkeler', motif: 'console', tag: 'Editoryal ilkeler', title: 'Yazılarımız nasıl hazırlanır?' },
 ];
 const POST_MOTIF = {
+  'seoya-baslarken-musteriden-hangi-bilgiler-istenmeli': 'doc',
+  'seo-uzmani-ile-web-gelistirici-hangi-islerden-sorumlu': 'layout',
+  'seo-onerileri-yazilim-ekibine-nasil-aktarilir': 'broken',
   'yeni-sitede-once-blog-mu-hizmet-sayfalari-mi': 'layout',
   'google-bilgi-paneli-nasil-olusur': 'profile',
   'seonun-satisa-katkisi-nasil-izlenir': 'chart',
