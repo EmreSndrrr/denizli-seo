@@ -28,7 +28,7 @@ Google’ın tarifine göre iyi bağlantı metni açıklayıcı, kısa ve öz, b
 | --- | --- |
 | Buraya tıklayın | Klima bakım hizmetimiz |
 | Daha fazla | Merkezefendi’de klima montajı |
-| https://ornek.com/hizmetler/montaj | Klima montajı hakkında ayrıntılı bilgi |
+| `https://ornek.com/hizmetler/montaj` | Klima montajı hakkında ayrıntılı bilgi |
 | Tıklayın | Randevu için iletişim sayfası |
 
 Kurallar:

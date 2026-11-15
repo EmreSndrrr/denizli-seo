@@ -88,11 +88,11 @@ Düzeltme: asıl sürüm olarak `https://alanadi.com/` seçiliyor; diğer üç s
 
 | Gelen adres | Hedef (örnek: https, www’suz) | Yönlendirme |
 | --- | --- | --- |
-| http://alanadi.com | https://alanadi.com | 301 |
-| http://www.alanadi.com | https://alanadi.com | 301 (tek adımda) |
-| https://www.alanadi.com | https://alanadi.com | 301 |
-| https://alanadi.com | https://alanadi.com | Yönlendirme yok |
-| Alt sayfa (ör. http://www.alanadi.com/iletisim) | https://alanadi.com/iletisim | 301, yol korunur |
+| `http://alanadi.com` | `https://alanadi.com` | 301 |
+| `http://www.alanadi.com` | `https://alanadi.com` | 301 (tek adımda) |
+| `https://www.alanadi.com` | `https://alanadi.com` | 301 |
+| `https://alanadi.com` | `https://alanadi.com` | Yönlendirme yok |
+| Alt sayfa (ör. `http://www.alanadi.com/iletisim`) | `https://alanadi.com/iletisim` | 301, yol korunur |
 
 Önemli: yönlendirme yolu korumalı; ana sayfaya toplu gönderme değil, her sayfa kendi karşılığına gitmeli.
 

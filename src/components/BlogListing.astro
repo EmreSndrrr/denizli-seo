@@ -32,12 +32,15 @@ const crumbs = url === blogUrl
   ? [{ href: '/', label: 'Ana sayfa' }, { label: 'Blog' }]
   : [{ href: '/', label: 'Ana sayfa' }, { href: '/blog/', label: 'Blog' }, { label: here }];
 
+// the same node as on the post's own page (same @id), with the author a results page expects of an article
 const items = posts.map((p) => ({
   '@type': 'BlogPosting',
+  '@id': `${SITE.url}/blog/${p.id}/#yazi`,
   headline: p.data.title,
   url: `${SITE.url}/blog/${p.id}/`,
   datePublished: p.data.date.toISOString(),
   image: `${SITE.url}/og/blog-${p.id}.jpg`,
+  author: { '@id': `${SITE.url}/#isletme` },
 }));
 const jsonld = [
   url === blogUrl
