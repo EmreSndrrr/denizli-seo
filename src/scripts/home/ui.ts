@@ -54,7 +54,9 @@ export function initForm() {
     const text = `Merhaba, ücretsiz SEO analizi istiyorum. ${goal.value.trim().replace(/[.!]+$/, '')}.${s ? ` Sitemiz: ${s}.` : ''} Aramamızda nerede çıktığımızı öğrenmek istiyoruz.`;
     const url = waLink(text);
     status.textContent = 'WhatsApp açılıyor. Mesajınız yazılı gelecek; göndermeden önce görebilirsiniz.';
-    const w = window.open(url, '_blank', 'noopener');
-    if (!w) location.href = url;
+    // one tab only: a noopener window.open() returns null, which used to trigger the fallback as well
+    const a = document.createElement('a');
+    a.href = url; a.target = '_blank'; a.rel = 'noopener';
+    document.body.appendChild(a); a.click(); a.remove();
   });
 }

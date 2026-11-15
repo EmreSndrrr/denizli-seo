@@ -5,12 +5,12 @@ import { SERVICES } from '../../data/services';
 interface Props { home?: boolean }
 const { home = false } = Astro.props;
 const path = Astro.url.pathname;
-const pre = home ? '' : '/';
+const analysis = home ? '#analiz' : '/iletisim/#analiz';
 const onService = path.startsWith('/hizmetler') || SERVICES.some((s) => path.startsWith(`/${s.slug}/`));
 const links = [
   { href: '/hizmetler/', label: 'Hizmetler', section: 'hizmetler', current: onService },
   { href: '/hakkimizda/', label: 'Hakkımızda', current: path.startsWith('/hakkimizda') },
-  { href: `${pre}#isler`, label: 'İşler', section: 'isler' },
+  { href: '/projeler/', label: 'Projeler', current: path.startsWith('/projeler') },
   { href: '/blog/', label: 'Blog', current: path.startsWith('/blog') },
   { href: '/iletisim/', label: 'İletişim', current: path.startsWith('/iletisim') },
 ];
@@ -25,12 +25,12 @@ const links = [
       {links.map((l) => <a href={l.href} data-section={l.section} class:list={[{ active: l.current }]} aria-current={l.current ? 'page' : undefined}>{l.label}</a>)}
     </nav>
     <div class="nav-actions">
-      <a class="btn btn-outline btn-sm" href={`${pre}#analiz`}>{CTA_LABEL}</a>
+      <a class="btn btn-outline btn-sm" href={analysis}>{CTA_LABEL}</a>
       <button class="nav-toggle" id="mobile-menu-btn" type="button" aria-label="Menüyü aç veya kapat" aria-expanded="false" aria-controls="mobile-drawer"><Icon name="menu" size={20} /></button>
     </div>
   </div>
 </header>
 <nav class="mobile-drawer" id="mobile-drawer" aria-label="Mobil menü">
   {links.map((l) => <a href={l.href}><span>{l.label}</span><Icon name="arrow" size={18} /></a>)}
-  <a class="btn btn-solid" href={`${pre}#analiz`}>{CTA_LABEL}</a>
+  <a class="btn btn-solid" href={analysis}>{CTA_LABEL}</a>
 </nav>
