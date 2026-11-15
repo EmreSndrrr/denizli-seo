@@ -6,7 +6,7 @@ service: icerik-seo
 imageAlt: "İletişim sayfası: adres, telefon, harita ve form blokları"
 ---
 
-**Kısa cevap:** İletişim sayfası, müşterinin sizi bulup ulaşabileceği en kritik sayfadır. İşletme adı, açık adres, telefon, çalışma saatleri, harita ve kısa bir form tek sayfada, metin olarak (görsele gömülmeden) yer almalı; bu bilgiler Google İşletme Profili ve diğer kayıtlarla birebir aynı olmalıdır. İsterseniz LocalBusiness yapılandırılmış verisi ekleyebilirsiniz; veri sayfadaki bilgiyle uyuşmalıdır.
+İletişim sayfası, müşterinin sizi bulup ulaşabileceği en kritik sayfadır. İşletme adı, açık adres, telefon, çalışma saatleri, harita ve kısa bir form tek sayfada, metin olarak (görsele gömülmeden) yer almalı; bu bilgiler Google İşletme Profili ve diğer kayıtlarla birebir aynı olmalıdır. İsterseniz LocalBusiness yapılandırılmış verisi ekleyebilirsiniz; veri sayfadaki bilgiyle uyuşmalıdır.
 
 Birçok sitede iletişim sayfası yalnızca bir form ya da tek satır telefondur. Oysa yerel işletmeler için bu sayfa hem müşteri hem arama sistemleri açısından işletmenin gerçek olduğunu gösteren yerdir. Tutarlılık için [ad, adres, telefon tutarlılığı](/blog/ad-adres-telefon-tutarliligi/), güven için [Hakkımızda sayfası](/blog/hakkimizda-sayfasi-nasil-yazilir-guven-icin-rehber/) yazılarına bakabilirsiniz.
 
@@ -38,6 +38,8 @@ Birçok sitede iletişim sayfası yalnızca bir form ya da tek satır telefondur
 
 Google, yerel işletme bilgisini LocalBusiness yapılandırılmış verisiyle makine okunur hâle getirmeyi anlatır ([LocalBusiness](https://developers.google.com/search/docs/appearance/structured-data/local-business?hl=tr)). Kural: veri, sayfada görünen bilgiyle uyuşmalı. Çok şubeli işletmelerde her şube için ayrı sayfa ve ayrı bilgi kullanın; bkz. [birden fazla şubeli işletmeler](/blog/birden-fazla-subeli-isletmeler-icin-yerel-seo/).
 
+> **Hizmet almak için iletişime geçin.** Müşterilerinizin sorduğu sorulardan bir içerik planı çıkaralım ve sayfalarınızı birlikte yazalım. [İçerik SEO hizmetimizi](/icerik-seo/) inceleyin ya da [bize yazın](/iletisim/).
+
 ## Harita ve profil bağlantısı
 
 Gömülü harita müşteriye yol tarifi verir; ama sayfanın tek içeriği harita olmamalı. Google İşletme Profili’ndeki bilgilerle sayfa aynı olmalı; farklıysa müşteri kafası karışır. Profil için [Google haritalarda üst sıralara çıkmak](/blog/google-haritalarda-ust-siralara-cikmak/) yazımıza bakın.
@@ -48,15 +50,15 @@ Form toplayacağınız kişisel veriyi (ad, telefon) gerekli olanla sınırlayı
 
 ## Sık yapılan hatalar
 
-| Hata | Çözüm |
-| --- | --- |
-| Adres ve telefon görsel içinde | Metin olarak yazın |
-| Profil ile farklı bilgi | Tek doğru bilgiye eşitleyin |
-| Telefon tıklanamıyor | `tel:` bağlantısı kullanın |
-| Haritasız sayfa | Harita ve yol tarifi ekleyin |
-| Çok uzun form | Üç dört alana indirin |
-| Eski çalışma saatleri | Düzenli güncelleyin |
-| Sayfa menüde yok | Menü ve alt bilgiden bağlayın |
+- **Adres ve telefon görsel içinde:** Metin olarak yazın
+- **Profil ile farklı bilgi:** Tek doğru bilgiye eşitleyin
+- **Telefon tıklanamıyor:** `tel:` bağlantısı kullanın
+- **Haritasız sayfa:** Harita ve yol tarifi ekleyin
+- **Çok uzun form:** Üç dört alana indirin
+- **Eski çalışma saatleri:** Düzenli güncelleyin
+- **Sayfa menüde yok:** Menü ve alt bilgiden bağlayın
+
+> **Sizin için de yapalım mı?** Sayfalarınızın ve yazılarınızın neden yeterince işe yaramadığına birlikte bakalım. [Hizmet almak için iletişime geçin](/iletisim/); yöntemimiz [içerik SEO sayfamızda](/icerik-seo/) yazılı.
 
 ## Denizli’den bir örnek
 
@@ -64,14 +66,46 @@ Form toplayacağınız kişisel veriyi (ad, telefon) gerekli olanla sınırlayı
 
 ## Yayın öncesi kontrol listesi
 
-| Kontrol | Evet / Hayır |
-| --- | --- |
-| Ad, adres, telefon profille aynı mı? | |
-| Telefon mobilde tek dokunuşla aranıyor mu? | |
-| Harita doğru konumu gösteriyor mu? | |
-| Form çalışıyor ve cevap veriliyor mu? | |
-| Çalışma saatleri güncel mi? | |
-| Yapılandırılmış veri sayfayla uyumlu mu? | |
+Şunları tek tek kontrol edin:
+
+- Ad, adres, telefon profille aynı mı?
+- Telefon mobilde tek dokunuşla aranıyor mu?
+- Harita doğru konumu gösteriyor mu?
+- Form çalışıyor ve cevap veriliyor mu?
+- Çalışma saatleri güncel mi?
+- Yapılandırılmış veri sayfayla uyumlu mu?
+
+## İletişim sayfasında güven nasıl kurulur?
+
+İletişim sayfası, işletmenin gerçekten var olduğunu ve ulaşılabilir olduğunu gösterir. Adresi tam yazın (mahalle, cadde, kapı numarası, ilçe, il), telefon ve e-postayı metin olarak verin, çalışma saatlerini belirtin. Mümkünse işletmenin dış görünüşünün ya da girişin bir fotoğrafını ekleyin; müşteri yeri bulduğunda rahatlar. Birden fazla şubeniz varsa her şube için ayrı bölüm ya da sayfa hazırlayın ve her birinin bilgisini ayrı yazın; bkz. [birden fazla şubeli işletmeler](/blog/birden-fazla-subeli-isletmeler-icin-yerel-seo/).
+
+## Ulaşım notu ve yol tarifi
+
+Harita yetmez; kısa bir ulaşım notu müşteriye çok yardımcı olur: “Pamukkale Bulvarı üzerinde, X markete karşı. Önünde ücretsiz park yeri var. Otobüs durağı iki dakika yürüme mesafesinde.” Bilgilerin doğru ve güncel olduğundan emin olun. Haritayı gömerken sayfa hızını etkilemesin; ağır harita betikleri yavaşlatabilir. “Yol tarifi al” bağlantısı da ekleyin.
+
+## Telefon ve WhatsApp bağlantıları
+
+Telefon numarasını tıklanabilir yapın (`tel:` bağlantısı); mobilde tek dokunuşla arama büyük kolaylıktır. WhatsApp kullanıyorsanız bağlantıyı işletme hattıyla yapın ve hazır bir mesaj tanımlayın. Kurulum ayrıntıları için [iletişim formu ve WhatsApp butonu](/blog/iletisim-formu-ve-whatsapp-butonu-nasil-kurulur/) yazısına bakın. Her iletişim yolunu yayın öncesinde telefonda deneyin.
+
+## İletişim sayfasının performansı nasıl ölçülür?
+
+Sayfanın ziyaret sayısına, form gönderimlerine, telefon ve WhatsApp tıklamalarına bakın. Google İşletme Profili raporunda yol tarifi ve arama eylemlerini görürsünüz. Müşteriye “bizi nasıl buldunuz?” sorusunu sorun. Bu bilgiler, iletişim sayfasının işe yarayıp yaramadığını anlamanızın en dürüst yoludur. Ölçüm yaklaşımı için [yerel SEO sonuçları nasıl ölçülür?](/blog/yerel-seo-sonuclari-nasil-olculur/) yazısına bakabilirsiniz.
+
+## İletişim sayfasını yayına almadan önceki son kontrol
+
+Sayfayı telefonunuzdan açıp bir müşteri gibi kullanın: adres doğru mu, harita doğru konumu gösteriyor mu, telefon tek dokunuşla aranıyor mu, form mesajı size ulaştırıyor mu, çalışma saatleri güncel mi? Sonra aynı bilgileri Google İşletme Profili’nizle karşılaştırın. Bir fark bulursanız hangisi doğruysa diğerini ona göre düzeltin. İletişim sayfası küçük bir sayfadır ama sitenin en çok iş getiren sayfalarından biri olabilir; bu yüzden ayda bir kontrol etmeye değer. Gelen mesajlara hızlı dönmek, sayfadaki her bilgi kadar önemlidir.
+
+## İletişim sayfasında sık yapılan ek hatalar
+
+Telefon numarasını görsel içinde vermek, çalışma saatlerini yalnızca profilde güncelleyip sitede unutmak, formu test etmemek, haritada yanlış konum göstermek ve gizlilik bilgisini atlamak en sık görülen hatalardır. Ayrıca sayfada yalnızca form bırakıp telefon ve adresi gizlemek, fiziksel bir işletme için güven kaybettirir. Ayda bir sayfayı müşteri gibi kullanın: ara, yaz, formu doldur, yol tarifini aç.
+
+### İletişim sayfasında birden fazla telefon olabilir mi?
+
+Olabilir; ama ana numarayı belirleyin ve profildeki numarayla tutarlı tutun.
+
+## Çok şubeli işletmelerde iletişim
+
+Her şube için ayrı bilgi bloğu, harita ve çalışma saati yazın; şubeleri bir tabloya sıkıştırmayın. Her şubenin bilgisi profilindeki ile aynı olmalı.
 
 ## Denizli SEO bu konuda nasıl yardımcı olur?
 
@@ -97,6 +131,26 @@ Evet; ama profildeki ana numarayla tutarlı olun.
 ### Yalnızca form yeterli mi?
 
 Fiziksel işletmelerde açık adres ve telefon müşteri güveni için önemlidir.
+
+### İletişim sayfasında e-posta adresini açık yazmak spam getirir mi?
+
+Spam riski olabilir; formu birincil yol yapıp e-postayı görsel olmayan ama kısa tutulmuş bir adresle verebilirsiniz.
+
+### Çalışma saatleri mevsime göre değişiyorsa?
+
+Hem sitede hem Google İşletme Profili’nde güncelleyin; tutarsız saat müşteriyi bekletir.
+
+### Sanal ofis adresi yazabilir miyim?
+
+Müşterinin gelebileceği gerçek bir adres yoksa adresi gösterme kararınızı Google İşletme Profili kurallarına göre verin; kiralanmış posta adresleri profil kurallarında sorun yaratabilir. Emin değilseniz önce yerel kurallara ve Google’ın yardım sayfasına bakın.
+
+### Harita yerine sadece adres yazsam olur mu?
+
+Olur, ama harita ve yol tarifi bağlantısı müşteriye büyük kolaylık sağlar; ikisini birlikte verin.
+
+### İletişim formu yerine yalnızca WhatsApp koyabilir miyim?
+
+Koyabilirsiniz; ama bazı müşteriler form ya da telefon tercih eder. Mümkünse en az iki yol sunun ve hepsinin çalıştığını düzenli test edin.
 
 ## Kaynaklar
 

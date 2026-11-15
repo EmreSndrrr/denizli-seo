@@ -6,7 +6,7 @@ service: icerik-seo
 imageAlt: "Bir taslak metin, insan eli ve onay işareti"
 ---
 
-**Kısa cevap:** Yapay zekâ ile içerik yazmak tek başına Google’ın kurallarına aykırı değildir. Google’ın rehberi, üretken yapay zekânın özellikle bir konuyu araştırırken ve özgün içeriğe yapı eklerken faydalı olabileceğini söyler; ancak kullanıcılara değer katmayan çok sayıda sayfa oluşturmak için yapay zekâ araçlarını kullanmanın ölçeklendirilmiş içeriği kötüye kullanma spam politikasını ihlal edebileceğini belirtir. Ölçüt, içeriğin nasıl üretildiği değil, okuyana değer katıp katmadığıdır.
+Yapay zekâ ile içerik yazmak tek başına Google’ın kurallarına aykırı değildir. Google’ın rehberi, üretken yapay zekânın özellikle bir konuyu araştırırken ve özgün içeriğe yapı eklerken faydalı olabileceğini söyler; ancak kullanıcılara değer katmayan çok sayıda sayfa oluşturmak için yapay zekâ araçlarını kullanmanın ölçeklendirilmiş içeriği kötüye kullanma spam politikasını ihlal edebileceğini belirtir. Ölçüt, içeriğin nasıl üretildiği değil, okuyana değer katıp katmadığıdır.
 
 Yapay zekâ araçları içerik üretimini hızlandırdı; bu da “Google bunu cezalandırır mı?” sorusunu getirdi. Cevap, daha önce görmediğimiz bir kuraldan değil, bildiğimiz ilkelerden çıkıyor: faydalı, özgün, doğru ve okuyan için yazılmış içerik. Bu yazıda Google’ın rehberini, riskli ve güvenli kullanımları ve küçük bir işletme için pratik bir iş akışını anlatıyoruz. Yapay zekâ aramalarında görünmek ayrı bir konu; bunun için [yapay zekâ aramalarında görünmek](/blog/yapay-zeka-aramalarinda-gorunmek/) yazımıza bakın.
 
@@ -42,6 +42,8 @@ Spam politikası da ölçeklendirilmiş içeriği, kullanıcıya yardımcı olma
 4. **Güncel olmayan bilgi.** Araç, Google sayfalarının ya da mevzuatın son hâlini bilmeyebilir.
 5. **Tekrar eden kalıplar.** Aynı yapıdaki yüzlerce sayfa.
 
+> **Hizmet almak için iletişime geçin.** Müşterilerinizin sorduğu sorulardan bir içerik planı çıkaralım ve sayfalarınızı birlikte yazalım. [İçerik SEO hizmetimizi](/icerik-seo/) inceleyin ya da [bize yazın](/iletisim/).
+
 ## Güvenli bir iş akışı: 7 adım
 
 1. **Konuyu siz seçin.** Müşteri sorularından; bkz. [içerik planı](/blog/icerik-plani-nasil-yapilir-aylik-takvim-ornegi/).
@@ -70,6 +72,8 @@ Google’ın bu yazıda kullandığımız kılavuzu, ayrı bir etiketleme zorunl
 6. Metin başka bir sayfanın kopyası ya da benzeri mi?
 7. Yazar ve gözden geçiren belli mi?
 8. Yayın sonrası güncelleme planı var mı?
+
+> **Sizin için de yapalım mı?** Sayfalarınızın ve yazılarınızın neden yeterince işe yaramadığına birlikte bakalım. [Hizmet almak için iletişime geçin](/iletisim/); yöntemimiz [içerik SEO sayfamızda](/icerik-seo/) yazılı.
 
 ## Denizli’den bir örnek
 

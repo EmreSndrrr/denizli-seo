@@ -7,7 +7,7 @@ service: yerel-seo
 imageAlt: "Denizli’nin 19 ilçesini temsil eden altıgen petek; üç ilçe renkli işaretli"
 ---
 
-**Kısa cevap:** İlçe adını yalnızca gerçekten hizmet verdiğiniz ilçeler için ve gerçek bilgiyle kullanın. Adresinizi ve hizmet bölgenizi İşletme Profili’ne ve iletişim sayfasına yazın, hizmet sayfalarında ilçeleri tek bir doğal cümlede belirtin. Ayrı ilçe sayfasını yalnızca o ilçeye özgü bir şube, iş ya da bilgi varsa açın. Yalnızca ilçe adı değişen kopya sayfalar Google’ın spam politikalarına aykırıdır.
+İlçe adını yalnızca gerçekten hizmet verdiğiniz ilçeler için ve gerçek bilgiyle kullanın. Adresinizi ve hizmet bölgenizi İşletme Profili’ne ve iletişim sayfasına yazın, hizmet sayfalarında ilçeleri tek bir doğal cümlede belirtin. Ayrı ilçe sayfasını yalnızca o ilçeye özgü bir şube, iş ya da bilgi varsa açın. Yalnızca ilçe adı değişen kopya sayfalar Google’ın spam politikalarına aykırıdır.
 
 Denizli’de aynı arama, arayanın bulunduğu ilçeye göre farklı sonuç gösterebilir. Bu yüzden ilçe adı, yerel SEO’nun en çok yanlış kullanılan parçasıdır: ya hiç yazılmaz ya da her sayfaya, hizmet verilmeyen yerler dahil, topluca eklenir. Bu yazıda Google’ın konumu nasıl kullandığını, ilçe adının sitede ve profilde nereye yazılacağını, ayrı ilçe sayfasının ne zaman mantıklı olduğunu ve ilçe bazında görünürlüğün nasıl ölçüleceğini anlatıyoruz.
 
@@ -52,6 +52,8 @@ Arayan kişi “Tavas oto tamircisi” gibi bir sorguya ilçe adını yazdığı
 Bu cümle müşteriye neyi nerede yaptığınızı söyler. İl genelinde 19 ilçeyi tek tek sıralayan, ama hepsine gitmeyen bir liste ise söylemez.
 
 İşletme adına ilçe eklemeyin. Google’ın kuralları, işletme adına konum bilgisi eklemeye izin vermez; ada gereksiz bilgi eklemenin profilin askıya alınmasına yol açabileceğini belirtir ([işletmenizin Google’da gösterilmesiyle ilgili kurallar](https://support.google.com/business/answer/3038177?hl=tr)).
+
+> **Hizmet almak için iletişime geçin.** Google İşletme Profili’nizi ve harita görünürlüğünüzü birlikte inceleyelim; ne eksik, neyin düzeltileceğini yazılı söyleyelim. [Yerel SEO hizmetimizi](/yerel-seo/) inceleyin ya da [bize yazın](/iletisim/).
 
 ## İşletme Profili’nde hizmet bölgesi nasıl belirlenir?
 
@@ -111,12 +113,12 @@ Google’ın [spam politikaları](https://developers.google.com/search/docs/esse
 
 Google’ın faydalı içerik rehberindeki uyarı sorularından biri de şudur: “İçeriğin amacı öncelikli olarak arama motorlarından gelen ziyaretçileri çekmek mi?” ([faydalı ve güvenilir içerik oluşturma](https://developers.google.com/search/docs/fundamentals/creating-helpful-content?hl=tr)). Kopya ilçe sayfaları bu soruya çoğu zaman “evet” cevabı verir.
 
-| Kopya ilçe sayfası | Gerçek ilçe sayfası |
-| --- | --- |
-| Metin her ilçede aynı, yalnızca ad değişiyor | O ilçeye özgü servis, şube ya da iş bilgisi var |
-| Gidilmeyen ilçeler de listede | Yalnızca hizmet verilen ilçeler |
-| Müşterinin sorusunu yanıtlamıyor | “Gelir misiniz, ne zaman?” sorusunu yanıtlıyor |
-| Amaç arama motoru | Amaç o ilçedeki müşteri |
+- **Metin her ilçede aynı, yalnızca ad değişiyor:** O ilçeye özgü servis, şube ya da iş bilgisi var
+- **Gidilmeyen ilçeler de listede:** Yalnızca hizmet verilen ilçeler
+- **Müşterinin sorusunu yanıtlamıyor:** “Gelir misiniz, ne zaman?” sorusunu yanıtlıyor
+- **Amaç arama motoru:** Amaç o ilçedeki müşteri
+
+> **Sizin için de yapalım mı?** Haritada daha görünür olmak istiyorsanız profilinize ve yerel kayıtlarınıza bakıp yapılacakları kalem kalem çıkaralım. [Hizmet almak için iletişime geçin](/iletisim/); ayrıntı için [yerel SEO sayfamıza](/yerel-seo/) göz atabilirsiniz.
 
 ## Birden fazla şubeniz varsa ne yapmalısınız?
 

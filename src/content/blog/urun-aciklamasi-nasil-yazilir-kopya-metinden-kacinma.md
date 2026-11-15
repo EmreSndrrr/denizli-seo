@@ -6,7 +6,7 @@ service: icerik-seo
 imageAlt: "Ürün kartı ve yanında özgün açıklama metni satırları"
 ---
 
-**Kısa cevap:** İyi bir ürün açıklaması, ürünü alacak kişinin sorularını cevaplar: ne işe yarar, kime uygun, ölçüsü ve malzemesi nedir, nasıl kullanılır, teslimat ve iade nasıl işler. Üreticinin ya da başka sitenin metnini olduğu gibi kopyalamak, hem müşteriye yeni bir şey söylemez hem de Google’ın spam politikalarındaki kopyalanmış içerik başlığına yaklaşır. Her ürün için kendi cümlelerinizle, gerçek bilgiyle yazın.
+İyi bir ürün açıklaması, ürünü alacak kişinin sorularını cevaplar: ne işe yarar, kime uygun, ölçüsü ve malzemesi nedir, nasıl kullanılır, teslimat ve iade nasıl işler. Üreticinin ya da başka sitenin metnini olduğu gibi kopyalamak, hem müşteriye yeni bir şey söylemez hem de Google’ın spam politikalarındaki kopyalanmış içerik başlığına yaklaşır. Her ürün için kendi cümlelerinizle, gerçek bilgiyle yazın.
 
 E-ticarette yüzlerce ürün olduğunda en kolay yol üretici metnini yapıştırmaktır; aynı metin yüzlerce sitede durur. Bu yazıda ürün açıklamasını hızlı ama özgün yazmanın yolunu anlatıyoruz. Genel kopya içerik sorunu için [kopya içerik nedir?](/blog/kopya-icerik-nedir-nasil-onlenir/) yazımıza, e-ticaretin geneli için [e-ticaret SEO](/blog/e-ticaret-seo/) yazımıza bakabilirsiniz.
 
@@ -36,6 +36,8 @@ Google’ın spam politikaları, başka sitelerden içeriği özgün bir değer 
 6. **Doğruluğu kontrol edin.** Üretici bilgisini, kendi ölçtüğünüzle karşılaştırın.
 7. **Aynı ürün varyantlarını tek sayfada toplayın.** Renk ve beden için ayrı ayrı kopya sayfa üretmeyin.
 
+> **Hizmet almak için iletişime geçin.** Müşterilerinizin sorduğu sorulardan bir içerik planı çıkaralım ve sayfalarınızı birlikte yazalım. [İçerik SEO hizmetimizi](/icerik-seo/) inceleyin ya da [bize yazın](/iletisim/).
+
 ## Şablon
 
 - **Başlık:** Ürün adı + ayırt edici özellik.
@@ -49,11 +51,9 @@ Google’ın spam politikaları, başka sitelerden içeriği özgün bir değer 
 
 Binlerce ürün varsa hepsini aynı özenle yazamazsınız. Öncelik verin:
 
-| Öncelik | Ürün grubu | Yaklaşım |
-| --- | --- | --- |
-| 1 | En çok satan ve en çok kâr getirenler | Tamamen özgün, ayrıntılı |
-| 2 | Orta grup | Özgün giriş + teknik tablo |
-| 3 | Uzun kuyruk | Kısa özgün giriş, doğru teknik bilgi |
+- **1:** ürün grubu: En çok satan ve en çok kâr getirenler; yaklaşım: Tamamen özgün, ayrıntılı
+- **2:** ürün grubu: Orta grup; yaklaşım: Özgün giriş + teknik tablo
+- **3:** ürün grubu: Uzun kuyruk; yaklaşım: Kısa özgün giriş, doğru teknik bilgi
 
 Şablon doldurma tek başına özgün sayılmaz: yalnızca ürün adını değiştirdiğiniz metinler de aynı sorunu yaratır. Google’ın yardımcı içerik rehberi, okuyucuya ek değer sunan, özgün bilgi ve analiz içeren içeriği öne çıkarır ([yardımcı içerik rehberi](https://developers.google.com/search/docs/fundamentals/creating-helpful-content?hl=tr)).
 
@@ -61,17 +61,17 @@ Binlerce ürün varsa hepsini aynı özenle yazamazsınız. Öncelik verin:
 
 Ürün sayfalarında fiyat, stok ve puan gibi bilgiler için Product yapılandırılmış verisi kullanılabilir; Google’ın dokümanı bunun için gereksinimleri açıklar ([ürün snippet’i](https://developers.google.com/search/docs/appearance/structured-data/product-snippet?hl=tr)). Veri, sayfada görünen bilgiyle uyuşmalıdır. Yapı için [yapılandırılmış veri rehberimize](/blog/yapilandirilmis-veri-nedir-isletmeler-icin-rehber/) bakın.
 
+> **Sizin için de yapalım mı?** Sayfalarınızın ve yazılarınızın neden yeterince işe yaramadığına birlikte bakalım. [Hizmet almak için iletişime geçin](/iletisim/); yöntemimiz [içerik SEO sayfamızda](/icerik-seo/) yazılı.
+
 ## Sık yapılan hatalar
 
-| Hata | Çözüm |
-| --- | --- |
-| Üretici metnini aynen yapıştırmak | Kendi cümlelerinizle yazın |
-| “En iyi, eşsiz, kaliteli” gibi boş sözler | Somut özellik yazın |
-| Anahtar kelimeyi tekrar tekrar sıkıştırmak | Doğal yazın |
-| Yalnızca ürün adı değişen şablon | Ürüne özgü bilgi ekleyin |
-| Teslimat ve iade bilgisi eksik | Kısa, net bölüm ekleyin |
-| Doğrulanmamış üstünlük iddiaları | Kanıtlayamıyorsanız yazmayın |
-| Her varyant için ayrı kopya sayfa | Tek sayfada seçenek sunun |
+- **Üretici metnini aynen yapıştırmak:** Kendi cümlelerinizle yazın
+- **“En iyi, eşsiz, kaliteli” gibi boş sözler:** Somut özellik yazın
+- **Anahtar kelimeyi tekrar tekrar sıkıştırmak:** Doğal yazın
+- **Yalnızca ürün adı değişen şablon:** Ürüne özgü bilgi ekleyin
+- **Teslimat ve iade bilgisi eksik:** Kısa, net bölüm ekleyin
+- **Doğrulanmamış üstünlük iddiaları:** Kanıtlayamıyorsanız yazmayın
+- **Her varyant için ayrı kopya sayfa:** Tek sayfada seçenek sunun
 
 ## Denizli’den bir örnek
 
@@ -79,17 +79,37 @@ Binlerce ürün varsa hepsini aynı özenle yazamazsınız. Öncelik verin:
 
 ## Yayın öncesi kontrol listesi
 
-| Kontrol | Evet / Hayır |
-| --- | --- |
-| Metin başka bir sitedeki metinle aynı değil mi? | |
-| İlk iki cümle ürünün ne işe yaradığını söylüyor mu? | |
-| Ölçü, malzeme ve içerik bilgisi doğru ve tabloda mı? | |
-| Teslimat, iade ve garanti koşulları yazılı mı? | |
-| Doğrulayamadığınız bir üstünlük iddiası var mı? | |
-| Görsellerin alt metni ürünü tarif ediyor mu? | |
-| Sayfa ilgili kategoriye ve iletişim sayfasına bağlanıyor mu? | |
+Şunları tek tek kontrol edin:
+
+- Metin başka bir sitedeki metinle aynı değil mi?
+- İlk iki cümle ürünün ne işe yaradığını söylüyor mu?
+- Ölçü, malzeme ve içerik bilgisi doğru ve tabloda mı?
+- Teslimat, iade ve garanti koşulları yazılı mı?
+- Doğrulayamadığınız bir üstünlük iddiası var mı?
+- Görsellerin alt metni ürünü tarif ediyor mu?
+- Sayfa ilgili kategoriye ve iletişim sayfasına bağlanıyor mu?
 
 Görsel tarafı için [görsel SEO](/blog/gorsel-seo/) yazımıza bakabilirsiniz. Bu listeyi her yeni ürün eklendiğinde kullanın; hızlı ama düzenli bir alışkanlık, yüzlerce ürünlü sitede bile özgünlüğü korur.
+
+## Ürün açıklamasında yapay zekâ kullanılır mı?
+
+Yüzlerce ürününüz varsa yapay zekâ yardımcı olabilir; ama çıktıyı mutlaka gerçek bilgiyle kontrol edin. Google’ın üretken yapay zekâ içeriği rehberi, otomasyonun içerik üretiminde kullanılabileceğini ama kullanıcıya özgün değer sunmayan ölçekli içeriğin spam politikasına aykırı olabileceğini anlatır. Bu yüzden yapay zekâyı bir ilk taslak aracı olarak kullanın; teknik bilgileri, ölçüleri ve iddiaları kendiniz doğrulayın. Ayrıntı için [yapay zekâ ile içerik yazmak](/blog/yapay-zeka-ile-icerik-yazmak-google-ne-diyor/) yazısına bakın.
+
+## Ürün sayfasında müşteri soruları
+
+Müşterinin sıkça sorduğu soruları ürün sayfasına koyun: ölçü tablosu nasıl okunur, yıkama nasıl yapılır, teslim kaç günde olur, iade nasıl işler? Bu sorular, hem satın alma kararını kolaylaştırır hem de açıklamaya özgünlük katar. Soruları gerçek müşteri mesajlarından toplayın; uydurma soru yazmayın.
+
+## Ürün görselleri ve alt metin
+
+Görseller satışın büyük kısmıdır. Kendi çektiğiniz, ürünü farklı açılardan gösteren fotoğraflar kullanın. Alt metinde ürünü tarif edin; dosya adını anlamlı yazın. Görselleri sıkıştırın ki sayfa hızlı açılsın. Ayrıntı için [görsel SEO](/blog/gorsel-seo/) yazısına bakın.
+
+## Açıklamayı sürekli iyileştirmek
+
+Ürün sayfalarına gelen sorulara, iadelere ve müşteri yorumlarına bakıp açıklamayı güncelleyin. Çok iade edilen bir ürünün açıklamasında belirsiz bir nokta olabilir; ölçü, renk ya da malzeme bilgisini netleştirin. Search Console’da ürün sayfalarının hangi aramalarla göründüğüne bakıp başlığı iyileştirin.
+
+## Açıklamayı müşteri yorumlarıyla beslemek
+
+İade nedenlerine ve müşteri sorularına bakıp ürün açıklamasındaki eksik bilgiyi bulun; yorumlarda sıkça geçen soruyu açıklamaya ya da sık sorulan sorulara ekleyin. Metni kopyalamadan, kendi müşterinizin dilinden besleyin.
 
 ## Denizli SEO bu konuda nasıl yardımcı olur?
 
@@ -119,6 +139,22 @@ Kontrol edip gerçek bilgiyle düzeltirseniz yardımcı olabilir; ayrıntı içi
 ### Varyantlar için ayrı sayfa mı açmalıyım?
 
 Çoğu durumda tek sayfada seçenek sunmak daha temizdir.
+
+### Üretici açıklamasını hiç kullanmayabilir miyim?
+
+Teknik verileri kendi düzeninizle sunabilirsiniz; açıklama metnini kendi cümlelerinizle yazın.
+
+### Ürün sayfasında yorum göstermek şart mı?
+
+Şart değil; ama gerçek yorumlar güven verir. Uydurma yorum kullanmayın.
+
+### Ürün açıklamasını ne sıklıkla güncellemeliyim?
+
+Ürün özellikleri, fiyat ya da iade koşulu değiştiğinde; ayrıca müşteri sorularından yeni bilgi çıktığında. Yılda bir tüm önemli ürünleri gözden geçirin.
+
+### Kısa ürün açıklaması yeterli mi?
+
+Teknik bilgi tablosu, kullanım ve bakım bilgisi varsa kısa açıklama yeterli olabilir; önemli olan müşterinin sorularını cevaplamaktır.
 
 ## Kaynaklar
 

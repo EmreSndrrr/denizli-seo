@@ -6,7 +6,7 @@ service: teknik-seo
 imageAlt: "Bir fotoğraf, dosya adı etiketi ve alt metin kutusu"
 ---
 
-**Kısa cevap:** Görsel SEO, fotoğraflarınızın hem Google tarafından anlaşılmasını hem de siteyi yavaşlatmamasını sağlamaktır. Görseli sayfada gerçek bir `<img>` öğesiyle ve açıklayıcı alt metinle verin, dosyaya anlamlı bir ad verin, görseli alakalı metnin yakınına koyun, boyutunu küçültün ve WebP gibi modern bir biçim kullanın. CSS ile arka plan olarak verilen görselleri Google dizine eklemez.
+Görsel SEO, fotoğraflarınızın hem Google tarafından anlaşılmasını hem de siteyi yavaşlatmamasını sağlamaktır. Görseli sayfada gerçek bir `<img>` öğesiyle ve açıklayıcı alt metinle verin, dosyaya anlamlı bir ad verin, görseli alakalı metnin yakınına koyun, boyutunu küçültün ve WebP gibi modern bir biçim kullanın. CSS ile arka plan olarak verilen görselleri Google dizine eklemez.
 
 Mağazalarda ürün fotoğrafı daha da kritiktir; ayrıntı için [e-ticaret SEO](/blog/e-ticaret-seo/) yazımıza bakın. Görseller bir sitenin en ağır parçalarıdır ve çoğu zaman en az özen gösterilen parçalarıdır. Fotoğrafı telefondan yükleyip bırakmak, hem sayfayı yavaşlatır hem de Google’a görselin ne olduğunu söylemez. Bu yazıda görsel SEO’nun on kontrolünü ve Denizli’den bir örneği veriyoruz. Hız yönünü [telefonda yavaş site](/blog/telefonda-hizli-acilan-site/) yazımızda da bulabilirsiniz.
 
@@ -49,6 +49,8 @@ Anahtar kelimeleri alt metne doldurmak (“mutfak dolabı, ucuz mutfak dolabı, 
 
 Google, görselin konusuyla ilgili bilgiyi altyazılar ve görsel başlıkları dahil olmak üzere sayfanın içeriğinden çıkarır. Bu yüzden görseli, onu anlatan metnin yakınına yerleştirin. Pansiyon odasının fotoğrafı, oda anlatımının yanında olmalıdır; sayfanın en altındaki rastgele bir galeride değil. Mümkün olduğunda görseli konusuyla ilgili sayfaya koyun: Honaz’daki bir atölyenin fotoğrafı iletişim sayfasında değil, atölyeyi anlatan sayfada anlamlıdır.
 
+> **Hizmet almak için iletişime geçin.** Sitenizin dizine eklenme, hız ve mobil durumunu birlikte tarayalım; bulguları öncelik sırasıyla yazılı verelim. [Teknik SEO hizmetimizi](/teknik-seo/) inceleyin ya da [bize yazın](/iletisim/).
+
 ## 5. Boyutu küçültün
 
 Telefon kamerasından çıkan bir fotoğraf onlarca megabayt olabilir; bir sayfada görünen boyutu ise çok daha küçüktür. Yüklemeden önce görseli sitede gösterileceği en büyük boyuta indirin ve sıkıştırın. Bu, çoğu sitede hıza en çok katkı yapan düzeltmelerden biridir. Hızı ölçmek için PageSpeed Insights gibi araçlardan yararlanabilirsiniz; Google görsel rehberinde de site hızını bu araçla analiz etmeyi önerir.
@@ -59,13 +61,11 @@ web.dev’e göre en büyük içeriğin yüklenmesi (LCP) 2,5 saniye içinde olm
 
 Google, şu görsel biçimlerini destekler: BMP, GIF, JPEG, PNG, WebP, SVG ve AVIF. Dosya türüyle eşleşen bir uzantı kullanmak da iyi bir fikirdir.
 
-| Biçim | Ne zaman? |
-| --- | --- |
-| JPEG | Fotoğraflar için yaygın, evrensel |
-| WebP | Fotoğraf ve grafikler için genellikle daha küçük dosya |
-| AVIF | Daha da küçük dosya; destek önce test edilmeli |
-| PNG | Şeffaflık gereken grafikler |
-| SVG | Logo ve basit çizimler |
+- **JPEG:** Fotoğraflar için yaygın, evrensel
+- **WebP:** Fotoğraf ve grafikler için genellikle daha küçük dosya
+- **AVIF:** Daha da küçük dosya; destek önce test edilmeli
+- **PNG:** Şeffaflık gereken grafikler
+- **SVG:** Logo ve basit çizimler
 
 Küçük işletme siteleri için pratik öneri: fotoğraflar için WebP (gerekirse JPEG yedeğiyle) ve logo için SVG.
 
@@ -85,17 +85,17 @@ Stok fotoğraf, hizmetinizi ya da ürününüzü göstermez. Google’ın içeri
 
 Her görsele şu soruyu sorun: bu fotoğraf sayfanın konusunu destekliyor mu? İlgisiz bir fotoğraf ne ziyaretçiye ne Google’a yardım eder; yalnızca sayfayı ağırlaştırır.
 
+> **Sizin için de yapalım mı?** Sitenizde teknik bir sorun şüpheniz varsa nedenini sırayla teşhis edelim. [Hizmet almak için iletişime geçin](/iletisim/); çalışmanın kapsamı [teknik SEO sayfamızda](/teknik-seo/) anlatılıyor.
+
 ## Denizli’den bir örnek
 
 Örnek (hayalî bir işletme için): Pamukkale’de 12 odalı bir pansiyon, siteyi yeni yaptırmış. Oda fotoğrafları telefondan çekilmiş, adları `IMG_*.jpg` ve toplam sayfa çok yavaş.
 
-| Sorun | Çözüm |
-| --- | --- |
-| Dosya adları anlamsız | `pamukkale-pansiyon-deluxe-oda.jpg` gibi yeniden adlandır |
-| Alt metin yok | Her odaya kısa ve doğru tarif: “Balkonlu iki kişilik oda, sabah ışığı” |
-| Büyük dosyalar | Sitede gösterilen boyuta küçült, WebP’ye çevir |
-| Kahraman görseli CSS arka planı | Kritik görselleri `<img>` ile ver |
-| Galeri sayfanın en altında | Oda fotoğraflarını oda anlatımının yanına taşı |
+- **Dosya adları anlamsız:** `pamukkale-pansiyon-deluxe-oda.jpg` gibi yeniden adlandır
+- **Alt metin yok:** Her odaya kısa ve doğru tarif: “Balkonlu iki kişilik oda, sabah ışığı”
+- **Büyük dosyalar:** Sitede gösterilen boyuta küçült, WebP’ye çevir
+- **Kahraman görseli CSS arka planı:** Kritik görselleri `<img>` ile ver
+- **Galeri sayfanın en altında:** Oda fotoğraflarını oda anlatımının yanına taşı
 
 Pansiyonlar için daha geniş bir yol haritası [Pamukkale’de otel ve pansiyon için SEO](/blog/pamukkale-otel-pansiyon-seo/) yazımızda.
 
@@ -116,13 +116,11 @@ Pansiyonlar için daha geniş bir yol haritası [Pamukkale’de otel ve pansiyon
 
 Alt metnin sihirli bir formülü yok, ama iyi örnekler fikir verir. Hepsi hayalî işletmeler içindir:
 
-| Sektör | Zayıf alt metin | İyi alt metin |
-| --- | --- | --- |
-| Pansiyon | “oda” | “Balkonlu iki kişilik oda, Pamukkale manzaralı” |
-| Mobilya atölyesi | “dolap, mutfak dolabı, ucuz” | “Honaz’da yapılmış ahşap mutfak dolabı” |
-| Klima servisi | “servis” | “Teknisyen split klima bakımı yapıyor” |
-| Kuyumcu | “yüzük yüzük yüzük” | “Altın alyans çifti, mat yüzey” |
-| Dokuma atölyesi | “peştemal” | “Buldan dokuması mavi çizgili peştemal” |
+- **Pansiyon:** zayıf alt metin: “oda”; i̇yi alt metin: “Balkonlu iki kişilik oda, Pamukkale manzaralı”
+- **Mobilya atölyesi:** zayıf alt metin: “dolap, mutfak dolabı, ucuz”; i̇yi alt metin: “Honaz’da yapılmış ahşap mutfak dolabı”
+- **Klima servisi:** zayıf alt metin: “servis”; i̇yi alt metin: “Teknisyen split klima bakımı yapıyor”
+- **Kuyumcu:** zayıf alt metin: “yüzük yüzük yüzük”; i̇yi alt metin: “Altın alyans çifti, mat yüzey”
+- **Dokuma atölyesi:** zayıf alt metin: “peştemal”; i̇yi alt metin: “Buldan dokuması mavi çizgili peştemal”
 
 Ortak nokta: görseli görmeyen birine tarif eder gibi yazın; reklam cümlesi ya da kelime listesi yazmayın.
 

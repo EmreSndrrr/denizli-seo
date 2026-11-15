@@ -6,7 +6,7 @@ service: icerik-seo
 imageAlt: "Kategori sayfası düzeni: başlık, kısa metin, ürün kartları"
 ---
 
-**Kısa cevap:** Kategori sayfası metni, ürün listesini engellemeden ziyaretçiye “bu kategoride ne var, nasıl seçilir?” sorusunu cevaplayan kısa bir bölümdür. Üstte bir iki cümlelik giriş, ürün listesi, altta seçim rehberi ve birkaç sık sorulan soru çoğu site için yeterlidir. Metni yalnızca arama için uzatmayın; okuyucuya yardım etmiyorsa kısaltın.
+Kategori sayfası metni, ürün listesini engellemeden ziyaretçiye “bu kategoride ne var, nasıl seçilir?” sorusunu cevaplayan kısa bir bölümdür. Üstte bir iki cümlelik giriş, ürün listesi, altta seçim rehberi ve birkaç sık sorulan soru çoğu site için yeterlidir. Metni yalnızca arama için uzatmayın; okuyucuya yardım etmiyorsa kısaltın.
 
 Kategori sayfaları çoğu işletme sitesinde en çok arama alan sayfalardır; ama çoğunda ya hiç metin yoktur ya da ürünlerin üstüne yığılmış, kimsenin okumadığı bir paragraf. Bu yazıda dengeli bir düzen öneriyoruz. Ürün sayfaları için [ürün açıklaması nasıl yazılır?](/blog/urun-aciklamasi-nasil-yazilir-kopya-metinden-kacinma/), genel e-ticaret için [e-ticaret SEO](/blog/e-ticaret-seo/) yazılarımıza bakın.
 
@@ -34,6 +34,8 @@ Müşteriler çoğu zaman tek bir ürün değil, bir grup arar: “koltuk takım
 6. **İlgili rehber yazılara bağlayın.** Bilgi arayan müşteriyi doğru yere yönlendirin.
 7. **Boş kategori bırakmayın.** Ürünü olmayan kategoriyi birleştirin ya da kaldırın.
 
+> **Hizmet almak için iletişime geçin.** Müşterilerinizin sorduğu sorulardan bir içerik planı çıkaralım ve sayfalarınızı birlikte yazalım. [İçerik SEO hizmetimizi](/icerik-seo/) inceleyin ya da [bize yazın](/iletisim/).
+
 ## Örnek şablon (hayalî bir işletme için)
 
 **Başlık:** Koltuk takımları
@@ -42,12 +44,10 @@ Müşteriler çoğu zaman tek bir ürün değil, bir grup arar: “koltuk takım
 
 **Seçim rehberi (tablo):**
 
-| Ölçüt | Neye bakmalı? |
-| --- | --- |
-| Oda ölçüsü | Koltuğun ölçüsünü odaya göre planlayın |
-| Kumaş | Kullanım yoğunluğuna göre seçin |
-| İskelet | Üreticinin verdiği bilgiyi okuyun |
-| Teslimat | Kapı ve asansör ölçüsüne bakın |
+- **Oda ölçüsü:** Koltuğun ölçüsünü odaya göre planlayın
+- **Kumaş:** Kullanım yoğunluğuna göre seçin
+- **İskelet:** Üreticinin verdiği bilgiyi okuyun
+- **Teslimat:** Kapı ve asansör ölçüsüne bakın
 
 ## Filtre ve sıralama sayfaları
 
@@ -55,15 +55,15 @@ Filtre ve sıralama kombinasyonları çok sayıda benzer URL üretebilir. Google
 
 ## Sık yapılan hatalar
 
-| Hata | Çözüm |
-| --- | --- |
-| Ürünlerin üstüne uzun metin yığmak | Kısa giriş, geri kalanı altta |
-| Hiç metin olmaması | Kısa giriş ve rehber ekleyin |
-| Tüm kategorilerde aynı metin | Kategoriye özel yazın |
-| Anahtar kelime tekrarı | Doğal yazın |
-| Alt kategori bağlantısı yok | Bağlantı ekleyin |
-| Boş ya da tek ürünlü kategori | Birleştirin |
-| Yanıltıcı üstünlük iddiaları | Doğrulanabilir bilgi yazın |
+- **Ürünlerin üstüne uzun metin yığmak:** Kısa giriş, geri kalanı altta
+- **Hiç metin olmaması:** Kısa giriş ve rehber ekleyin
+- **Tüm kategorilerde aynı metin:** Kategoriye özel yazın
+- **Anahtar kelime tekrarı:** Doğal yazın
+- **Alt kategori bağlantısı yok:** Bağlantı ekleyin
+- **Boş ya da tek ürünlü kategori:** Birleştirin
+- **Yanıltıcı üstünlük iddiaları:** Doğrulanabilir bilgi yazın
+
+> **Sizin için de yapalım mı?** Sayfalarınızın ve yazılarınızın neden yeterince işe yaramadığına birlikte bakalım. [Hizmet almak için iletişime geçin](/iletisim/); yöntemimiz [içerik SEO sayfamızda](/icerik-seo/) yazılı.
 
 ## Denizli’den bir örnek
 
@@ -71,17 +71,41 @@ Filtre ve sıralama kombinasyonları çok sayıda benzer URL üretebilir. Google
 
 ## Yayın öncesi kontrol listesi
 
-| Kontrol | Evet / Hayır |
-| --- | --- |
-| H1, müşterinin aradığı kategori adını taşıyor mu? | |
-| Ürünler ilk ekranda görünüyor mu? | |
-| Giriş metni bir üç cümleyi geçmiyor mu? | |
-| Seçim rehberi gerçek ölçütler içeriyor mu? | |
-| Alt kategorilere ve ilgili rehber yazılara bağlantı var mı? | |
-| Başlık etiketi ve meta açıklama kategoriye özel mi? | |
-| Filtre kombinasyonları gereksiz kopya sayfa üretiyor mu? | |
+Şunları tek tek kontrol edin:
+
+- H1, müşterinin aradığı kategori adını taşıyor mu?
+- Ürünler ilk ekranda görünüyor mu?
+- Giriş metni bir üç cümleyi geçmiyor mu?
+- Seçim rehberi gerçek ölçütler içeriyor mu?
+- Alt kategorilere ve ilgili rehber yazılara bağlantı var mı?
+- Başlık etiketi ve meta açıklama kategoriye özel mi?
+- Filtre kombinasyonları gereksiz kopya sayfa üretiyor mu?
 
 Başlık ve açıklama için [başlık etiketi ve meta açıklama](/blog/baslik-etiketi-ve-meta-aciklama-nasil-yazilir/) yazımıza bakın. Kategori sayfalarını üç ayda bir gözden geçirmek; stok, fiyat ve rehber bilgisinin güncel kalmasını sağlar.
+
+## Kategori sayfasında filtre ve sıralama nasıl yönetilir?
+
+Müşteri ürünleri daraltmak için filtre ve sıralama kullanır; bu işlem çok sayıda benzer adres üretebilir. Google’ın e-ticaret URL rehberi, oturum kimliği ve izleme kodu gibi gereksiz parametrelerden kaçınmayı ve aynı parametreyi iki kez kullanmamayı önerir ([e-ticaret URL yapısı](https://developers.google.com/search/docs/specialty/ecommerce/designing-a-url-structure-for-ecommerce-sites?hl=tr)). Her filtre kombinasyonunu ayrı bir arama sayfası olarak düşünmeyin; yalnızca gerçekten aranan ve özgün içerik sunabileceğiniz kombinasyonlar için ayrı sayfa açın.
+
+## Kategori başlığı ve açıklaması nasıl yazılır?
+
+Başlığınız (H1) müşterinin aradığı kategori adını taşımalı: “Koltuk takımları”. Sayfanın `<title>` etiketi ve meta açıklaması da kategoriye özel olmalı. Kategori adını gereksiz kelimelerle şişirmeyin. Açıklamada kategorinin ne sunduğunu ve kime uygun olduğunu kısaca anlatın.
+
+## Boş ve zayıf kategori sayfaları
+
+Hiç ürünü olmayan ya da tek ürünlü kategoriler kullanıcıya bir şey sunmaz. Bunları birleştirin ya da kaldırın. Stokta olmayan ürünlerin kategorisinde müşteriye alternatif öneri sunun. Sayfanın yalnızca metinden oluşmasından kaçının; ürünler ilk ekranda görünmelidir.
+
+## Kategori sayfasını iyileştirme
+
+Search Console’da kategori sayfalarınızın hangi sorgularla gösterildiğine bakın. Gösterimi yüksek ama tıklaması düşük olanların başlığını ve açıklamasını gözden geçirin. Müşteri sorularından sık sorulan sorular bölümü ekleyin. İlgili rehber yazılarına bağlantı verin.
+
+## Kategori sayfası için kısa bir uygulama planı
+
+Önce en çok ziyaret alan üç kategoriyi seçin. Her biri için ürünlerin üstüne iki cümlelik bir giriş, altına “nasıl seçilir?” bölümü ve üç sık sorulan soru yazın. Alt kategorilere bağlantı verin ve ilgili rehber yazısına yönlendirin. Başlık ve açıklamayı kategoriye özel yapın. Bir ay sonra Search Console’da gösterim ve tıklamayı karşılaştırın. İşe yarayan düzeni diğer kategorilere uyarlayın. Her kategoriye aynı metni kopyalamayın; her sayfanın kendi müşteri sorusu vardır.
+
+## Kategori metni için örnek yapı
+
+Örnek (hayalî bir işletme için) “Havlu” kategorisi: ürün listesinin üstünde iki cümlelik giriş (“Pamuklu banyo ve el havluları; ölçü ve gramaj bilgisi ürün sayfalarındadır”), altında “Havlu nasıl seçilir?” bölümü (kullanım alanı, gramaj, yıkama), üç sık sorulan soru (renk solar mı, kaç derecede yıkanır, toptan alım var mı) ve ilgili rehber yazısına bağlantı. Bu yapı kısa, taranabilir ve ürünleri engellemeyen bir metin sağlar.
 
 ## Denizli SEO bu konuda nasıl yardımcı olur?
 
@@ -107,6 +131,30 @@ Google sayı belirtmiyor; müşterinin sorularını cevaplayacak kadar yazın.
 ### Hizmet işletmesinde de kategori sayfası olur mu?
 
 Evet; hizmet gruplarını (ör. “klima hizmetleri”) kategori gibi düşünebilirsiniz.
+
+### Kategori metni alt kısımda mı olmalı?
+
+Kısa giriş üstte, ayrıntılı rehber altta iyi bir dengedir; ürünler ilk ekranda görünsün.
+
+### Her kategori için blog yazısı yazmalı mıyım?
+
+Hayır; yalnızca müşterinin gerçek sorusu olan kategorilerde.
+
+### Kategori sayfasında kaç ürün göstermeliyim?
+
+Sabit bir sayı yok; müşterinin rahat gezebileceği, hızlı yüklenen bir liste yeterlidir. Çok uzun listeleri sayfalara bölün ve her sayfanın hızlı açıldığını kontrol edin.
+
+### Kategori metnini kimler okur?
+
+Çoğu ziyaretçi ürünlere bakar; metni daha çok seçim konusunda tereddüt edenler ve arama sistemleri okur. Bu yüzden metni kısa, net ve gerçekten yararlı tutun; ürün listesini engellemesin.
+
+### Kategori başlığında şehir adı yazmalı mıyım?
+
+Hizmet verdiğiniz bölge aramanın önemli bir parçasıysa doğal bir biçimde yazabilirsiniz; ama başlığı şehir listeleriyle doldurmayın. Okunur ve doğru bir başlık, yığın başlıktan daha iyidir.
+
+### Kategori sayfasında görsel kullanmalı mıyım?
+
+Ürün görselleri zaten ana içeriktir; ek olarak seçim rehberini destekleyen bir iki görsel yeterlidir. Hepsinde alt metin yazın ve sayfa hızını koruyun.
 
 ## Kaynaklar
 

@@ -6,7 +6,7 @@ service: teknik-seo
 imageAlt: "Bir XML dosyası ve sitenin sayfalarını gösteren harita"
 ---
 
-**Kısa cevap:** Site haritası, sitenizde önemsediğiniz URL’leri içeren ve Google’a sayfalarınızı bildiren bir dosyadır. WordPress, Wix gibi sistemler çoğunlukla otomatik üretir. Dosyanın adresini bulun (genellikle `/sitemap.xml`), `robots.txt` dosyanıza `Sitemap:` satırı olarak ekleyin ve Search Console’dan gönderin. Tek bir dosya en fazla 50 MB ya da 50.000 URL içerebilir. Küçük ve iyi bağlanmış sitelerde zorunlu değildir.
+Site haritası, sitenizde önemsediğiniz URL’leri içeren ve Google’a sayfalarınızı bildiren bir dosyadır. WordPress, Wix gibi sistemler çoğunlukla otomatik üretir. Dosyanın adresini bulun (genellikle `/sitemap.xml`), `robots.txt` dosyanıza `Sitemap:` satırı olarak ekleyin ve Search Console’dan gönderin. Tek bir dosya en fazla 50 MB ya da 50.000 URL içerebilir. Küçük ve iyi bağlanmış sitelerde zorunlu değildir.
 
 Site haritası, teknik SEO’nun en bilinen ama en çok yanlış anlaşılan parçasıdır: çoğu işletme sahibi onu sıralamayı yükselten bir araç sanır. Oysa görevi, Google’ın sayfalarınızı **bulmasına** yardımcı olmaktır. Bu yazı, site haritasının ne olduğunu, kimler için gerektiğini ve nasıl oluşturulup gönderileceğini anlatıyor. Sitenizin genel durumu için [Search Console’da ilk kontrol](/blog/search-console-ilk-kontrol/) yazımıza da bakabilirsiniz.
 
@@ -53,6 +53,8 @@ En sade bir XML örneği:
 - **`priority` ve `changefreq`:** Google ikisini de yok sayar; bu alanlara emek harcamayın.
 - **`lastmod`:** Doğruysa işe yarar. Google, tutarlı ve doğrulanabilir biçimde (örneğin sayfanın gerçek son değişikliğiyle karşılaştırarak) doğru olduğundan emin olduğunda bu değeri kullanır; her güncellemede rastgele tarih değiştirmeyin.
 
+> **Hizmet almak için iletişime geçin.** Sitenizin dizine eklenme, hız ve mobil durumunu birlikte tarayalım; bulguları öncelik sırasıyla yazılı verelim. [Teknik SEO hizmetimizi](/teknik-seo/) inceleyin ya da [bize yazın](/iletisim/).
+
 ## Site haritası nasıl oluşturulur?
 
 Üç yol var:
@@ -88,6 +90,8 @@ Google’a iki yolla bildirebilirsiniz:
 5. **Haritanın robots.txt tarafından engellenmesi.**
 6. **Gönderip bir daha bakmamak.**
 
+> **Sizin için de yapalım mı?** Sitenizde teknik bir sorun şüpheniz varsa nedenini sırayla teşhis edelim. [Hizmet almak için iletişime geçin](/iletisim/); çalışmanın kapsamı [teknik SEO sayfamızda](/teknik-seo/) anlatılıyor.
+
 ## Denizli’den bir örnek
 
 Örnek (hayalî bir işletme için): Pamukkale’de 12 sayfalık yeni bir pansiyon sitesi, WordPress ile kurulu. Site haritası eklentisi otomatik `/sitemap.xml` üretmiş. Kontrol: tarayıcıda açılıyor; içinde ana sayfa, oda sayfaları, iletişim ve blog yazıları var; ama “teşekkür” sayfası ve eski deneme sayfaları da listelenmiş. Çözüm: gereksiz sayfalar noindex yapılıp haritadan çıkarılıyor, `robots.txt` dosyasına site haritası satırı ekleniyor ve Search Console’dan gönderiliyor. Bir hafta sonra rapordaki bulunan URL sayısı gerçek sayfa sayısıyla karşılaştırılıyor.
@@ -98,13 +102,11 @@ Bu örnek sonuç vaadi değildir; kontrol sırasını gösterir.
 
 Haritaya yalnızca Google’ın dizine eklemesini istediğiniz, standart ve erişilebilir sayfaları koyun:
 
-| Olmalı | Olmamalı |
-| --- | --- |
-| Ana sayfa, hizmet sayfaları, iletişim | Teşekkür ve giriş sayfaları |
-| Önemli blog yazıları | noindex verilmiş sayfalar |
-| Ürün ve kategori sayfaları | Başka adrese yönlendirilen sayfalar |
-| Gerçek, özgün ilçe ve şube sayfaları | 404 veren sayfalar |
-| Standart (canonical) adresler | Parametreli kopya adresler |
+- **Ana sayfa, hizmet sayfaları, iletişim:** Teşekkür ve giriş sayfaları
+- **Önemli blog yazıları:** noindex verilmiş sayfalar
+- **Ürün ve kategori sayfaları:** Başka adrese yönlendirilen sayfalar
+- **Gerçek, özgün ilçe ve şube sayfaları:** 404 veren sayfalar
+- **Standart (canonical) adresler:** Parametreli kopya adresler
 
 ## Site yenilerken ya da büyütürken harita
 

@@ -6,7 +6,7 @@ service: yerel-seo
 imageAlt: "Bir kuyumcu vitrini, harita pini ve yıldızlı yorum kartı"
 ---
 
-**Kısa cevap:** Kuyumcular için yerel SEO’nun temeli doğru kategori, ayrı ayrı yazılmış hizmetler (alım satım, ölçü değişimi, tamir), tabelayı ve vitrini gösteren gerçek fotoğraflar, gerçek yorumlar ve tutarlı adres bilgisidir. Müşteri güven arar; bu yüzden uydurma iddia ya da ödül yerine açık hizmet bilgisi ve gerçek fotoğraf kullanın. Sıra garantisi yoktur.
+Kuyumcular için yerel SEO’nun temeli doğru kategori, ayrı ayrı yazılmış hizmetler (alım satım, ölçü değişimi, tamir), tabelayı ve vitrini gösteren gerçek fotoğraflar, gerçek yorumlar ve tutarlı adres bilgisidir. Müşteri güven arar; bu yüzden uydurma iddia ya da ödül yerine açık hizmet bilgisi ve gerçek fotoğraf kullanın. Sıra garantisi yoktur.
 
 Kuyumculuk, güvenin satın alındığı bir sektördür: müşteri değerli bir ürünü, çoğu zaman bir kutlama ya da yatırım için alır. Bu yüzden aramadan sonra profilde ve sitede gördüğü her şey kararını etkiler. Bu yazı, bir kuyumcunun yerel görünürlüğünü nasıl kuracağını Denizli örneğiyle anlatıyor. Haritada sıralama mantığını [Google Haritalar’da üst sıralara nasıl çıkılır?](/blog/google-haritalarda-ust-siralara-cikmak/) yazımızda bulabilirsiniz.
 
@@ -56,6 +56,8 @@ Kuyumcuda fotoğraf hem güven hem ürün tanıtımıdır. Google, fotoğraflar�
 
 Stok takı fotoğrafı kullanmayın; müşteri aynı ürünü dükkânda göremezse güven zedelenir. Ayrıntılar: [profil fotoğrafları](/blog/google-isletme-profili-fotograflari-neler-eklenmeli/).
 
+> **Hizmet almak için iletişime geçin.** Google İşletme Profili’nizi ve harita görünürlüğünüzü birlikte inceleyelim; ne eksik, neyin düzeltileceğini yazılı söyleyelim. [Yerel SEO hizmetimizi](/yerel-seo/) inceleyin ya da [bize yazın](/iletisim/).
+
 ## 4. Fiyat ve altın fiyatları konusunda dikkat
 
 Altın fiyatı gün içinde değiştiği için sitede ya da profilde eski fiyat yayımlamak yanıltıcıdır. İki güvenli yol:
@@ -75,12 +77,10 @@ Sitede “binlerce mutlu müşteri” gibi doğrulanamayan rakamlar, uydurma yor
 
 Kuyumcu aramaları özel günlere ve mevsime göre değişebilir: bayram, nişan ve düğün dönemleri, yılbaşı, anneler günü. Takvimi önceden planlayın:
 
-| Dönem | Hazırlık |
-| --- | --- |
-| Bayramlardan önce | Çalışma saatlerini ve özel günleri profilde güncelleyin; hediyelik ürünleri öne çıkarın |
-| Düğün ve nişan sezonu | Alyans, setler ve özel tasarım hizmetini anlatan gönderi ve sayfa |
-| Yılbaşı ve sevgililer günü | Hediyelik ürün gönderileri |
-| Yıl boyu | Alım satım, tamir ve ölçü değişimi hizmetleri |
+- **Bayramlardan önce:** Çalışma saatlerini ve özel günleri profilde güncelleyin; hediyelik ürünleri öne çıkarın
+- **Düğün ve nişan sezonu:** Alyans, setler ve özel tasarım hizmetini anlatan gönderi ve sayfa
+- **Yılbaşı ve sevgililer günü:** Hediyelik ürün gönderileri
+- **Yıl boyu:** Alım satım, tamir ve ölçü değişimi hizmetleri
 
 Bu dönemlerde duyuru (gönderi) özelliğini kullanın.
 
@@ -97,6 +97,8 @@ Siteniz küçük de olsa şu sayfalar işe yarar:
 
 Sayfa yazım adımları için “Hizmet sayfası nasıl yazılır?” yazımıza bakın.
 
+> **Sizin için de yapalım mı?** Haritada daha görünür olmak istiyorsanız profilinize ve yerel kayıtlarınıza bakıp yapılacakları kalem kalem çıkaralım. [Hizmet almak için iletişime geçin](/iletisim/); ayrıntı için [yerel SEO sayfamıza](/yerel-seo/) göz atabilirsiniz.
+
 ## 8. Tutarlı bilgi ve rehber kayıtları
 
 Adres, telefon ve saatler profilde, sitede, sosyal medyada ve rehberlerde aynı olmalı. Kuyumcular çarşılarında dükkân ve kat numarası da sık karışır; bunları her yerde aynı yazın. Ayrıntılar için ad, adres, telefon tutarlılığı yazımıza bakın.
@@ -105,14 +107,12 @@ Adres, telefon ve saatler profilde, sitede, sosyal medyada ve rehberlerde aynı 
 
 Örnek (hayalî bir işletme için): Merkezefendi’de bir kuyumcu. Durum: kategori “Mağaza”, hizmet satırı yok, vitrin fotoğrafı eski, yorumlar yanıtsız, altın fiyatı sitede iki hafta önceki değerle yazılı.
 
-| Alan | Yapılacak |
-| --- | --- |
-| Kategori | “Kuyumcu” ana kategori; tamir ve alım satım ek hizmet |
-| Hizmetler | Ölçü değişimi, zincir tamiri, alım satım ayrı satırlar |
-| Fotoğraf | Tabela, vitrin, tezgâh, atölye; gerçek ürünler |
-| Fiyat | Eski fiyat kaldırıldı; “güncel fiyat için arayın” |
-| Yorum | Teslimde WhatsApp ile yorum bağlantısı; her yoruma yanıt |
-| Özel gün | Bayram saatleri ve hediyelik ürün gönderisi |
+- **Kategori:** “Kuyumcu” ana kategori; tamir ve alım satım ek hizmet
+- **Hizmetler:** Ölçü değişimi, zincir tamiri, alım satım ayrı satırlar
+- **Fotoğraf:** Tabela, vitrin, tezgâh, atölye; gerçek ürünler
+- **Fiyat:** Eski fiyat kaldırıldı; “güncel fiyat için arayın”
+- **Yorum:** Teslimde WhatsApp ile yorum bağlantısı; her yoruma yanıt
+- **Özel gün:** Bayram saatleri ve hediyelik ürün gönderisi
 
 Bu örnek sonuç vaadi değildir; işlerin sırasını gösterir.
 

@@ -6,7 +6,7 @@ service: yerel-seo
 imageAlt: "Bir muayenehane profil kartı, randevu düğmesi ve gizlilik simgesi"
 ---
 
-**Kısa cevap:** Doktorlar ve diş hekimleri için SEO, doğru kategori ve bilgi, kolay randevu, açık ve doğrulanabilir hizmet sayfaları, hasta gizliliğine uygun yorum yanıtı ve gerçek uzmanlık bilgisiyle yapılır. Sağlık hizmetlerinin tanıtımı özel düzenlemelere tabidir; sitede ve profilde yazacaklarınızı yayımlamadan önce ilgili mevzuata ve meslek kuruluşunuzun kurallarına göre kendiniz doğrulayın. Bu yazı hukuki danışmanlık değildir.
+Doktorlar ve diş hekimleri için SEO, doğru kategori ve bilgi, kolay randevu, açık ve doğrulanabilir hizmet sayfaları, hasta gizliliğine uygun yorum yanıtı ve gerçek uzmanlık bilgisiyle yapılır. Sağlık hizmetlerinin tanıtımı özel düzenlemelere tabidir; sitede ve profilde yazacaklarınızı yayımlamadan önce ilgili mevzuata ve meslek kuruluşunuzun kurallarına göre kendiniz doğrulayın. Bu yazı hukuki danışmanlık değildir.
 
 Sağlık sektöründe arama yapan kişi, karar vermeden önce kimin, nerede, hangi konuda hizmet verdiğini ve ne kadar güvenilir olduğunu araştırır. “Denizli diş hekimi”, “Merkezefendi kadın doğum”, “yakınımda göz doktoru” gibi aramalarda harita ve site birlikte çalışır. Bu yazı, bir muayenehane ya da klinik için neyi nasıl yapacağınızı ve nelere dikkat edeceğinizi anlatıyor.
 
@@ -51,16 +51,16 @@ Sağlık sektöründe yorum yanıtı yazarken tek bir kural geçerlidir: **hasta
 
 Yorum toplama kurallarına uyun: yorum karşılığında indirim, hediye ya da ücretsiz hizmet sunmak yasaktır. Süreç için [Google yorumları nasıl artırılır?](/blog/google-yorumlari-nasil-artirilir/) ve [olumsuz yoruma cevap](/blog/olumsuz-google-yorumuna-nasil-cevap-verilir/) yazılarımıza bakın.
 
+> **Hizmet almak için iletişime geçin.** Google İşletme Profili’nizi ve harita görünürlüğünüzü birlikte inceleyelim; ne eksik, neyin düzeltileceğini yazılı söyleyelim. [Yerel SEO hizmetimizi](/yerel-seo/) inceleyin ya da [bize yazın](/iletisim/).
+
 ## 3. Hizmet ve bilgi sayfaları
 
 Siteniz, müşterinin sorularına doğru ve anlaşılır cevap veren sayfalardan oluşmalı. Her hizmet için ayrı sayfa yazın: ne olduğu, kimler için olduğu, süreç, hazırlık, sık sorulan sorular ve randevu. Dil sade ve doğru olmalı; abartılı vaat ya da garantili sonuç ifadesi yazmayın.
 
-| Sayfa | İçerik | Dikkat |
-| --- | --- | --- |
-| Hizmet sayfası | Hizmetin ne olduğu, süreç, sık sorulan sorular | Tıbbi bilgi güncel ve doğru olmalı |
-| Hakkımda / ekip | Eğitim, uzmanlık alanı, çalışma yılı | Yalnızca doğrulanabilir bilgi |
-| Randevu / iletişim | Telefon, WhatsApp, form, adres, harita | Çalışma saatleri net |
-| Sık sorulan sorular | Hasta sorularına kısa, doğru cevap | Kişiye özel tıbbi tavsiye vermemek |
+- **Hizmet sayfası:** i̇çerik: Hizmetin ne olduğu, süreç, sık sorulan sorular; dikkat: Tıbbi bilgi güncel ve doğru olmalı
+- **Hakkımda / ekip:** i̇çerik: Eğitim, uzmanlık alanı, çalışma yılı; dikkat: Yalnızca doğrulanabilir bilgi
+- **Randevu / iletişim:** i̇çerik: Telefon, WhatsApp, form, adres, harita; dikkat: Çalışma saatleri net
+- **Sık sorulan sorular:** i̇çerik: Hasta sorularına kısa, doğru cevap; dikkat: Kişiye özel tıbbi tavsiye vermemek
 
 Google’ın içerik rehberi, birinci elden uzmanlığın ve kapsamlı bilginin açıkça gösterilmesini ister ([faydalı ve güvenilir içerik](https://developers.google.com/search/docs/fundamentals/creating-helpful-content?hl=tr)). Sağlık içeriğinde bunun karşılığı, bilgiyi alanında yetkin birinin hazırlaması ya da gözden geçirmesidir. İçeriği yazan ve onaylayan kişiyi, eğitimini ve uzmanlık alanını açıkça belirtin.
 
@@ -83,6 +83,8 @@ Doğrulanamayan ödül, sertifika, “binlerce başarılı tedavi” gibi rakaml
 
 Müşteri “yakınımda” aradığında hızlı ulaşmak ister. Telefonun doğru çalıştığından, WhatsApp ve online randevunun çalıştığından ve çalışma saatlerinin güncel olduğundan emin olun. Acil bir durumda hastaya nereye başvuracağını söyleyen bir not (“acil durumlarda en yakın sağlık kuruluşuna başvurun”) siteye eklenebilir; ifade için mevzuatı kontrol edin.
 
+> **Sizin için de yapalım mı?** Haritada daha görünür olmak istiyorsanız profilinize ve yerel kayıtlarınıza bakıp yapılacakları kalem kalem çıkaralım. [Hizmet almak için iletişime geçin](/iletisim/); ayrıntı için [yerel SEO sayfamıza](/yerel-seo/) göz atabilirsiniz.
+
 ## 7. Ölçüm
 
 Aylık şu rakamlara bakın: profilin aramaları ve yol tarifleri, sitenizin Search Console gösterim ve tıklaması, randevu talepleri (telefon, WhatsApp, form). Hastaya “bizi nasıl buldunuz?” diye sormak, hangi kanalın işe yaradığını gösterir. Ayrıntılar: [yerel SEO sonuçları nasıl ölçülür?](/blog/yerel-seo-sonuclari-nasil-olculur/)
@@ -91,14 +93,12 @@ Aylık şu rakamlara bakın: profilin aramaları ve yol tarifleri, sitenizin Sea
 
 Örnek (hayalî bir işletme için): Merkezefendi’de bir diş kliniği. Durum: profilde kategori genel, saatler eski, fotoğraf yok, siteyi tek sayfa; yorumlara yanıt verilmiyor.
 
-| Alan | Yapılacak |
-| --- | --- |
-| Profil | Doğru kategori; saatler, telefon ve randevu bağlantısı; dış cephe ve bekleme salonu fotoğrafı |
-| Yorum | Gizliliğe uygun, genel ve sakin yanıt şablonu; yorum karşılığı teşvik yok |
-| Site | Her hizmet için ayrı sayfa; yazar ve gözden geçiren hekim bilgisi |
-| Güven | Doktor tanıtımı, muayenehane fotoğrafları; doğrulanamayan iddia yok |
-| Mevzuat | Yayımlanacak her ifade, mevzuat ve meslek odası kurallarına göre kontrol ediliyor |
-| Ölçüm | Aylık profil ve Search Console rakamları; “nasıl buldunuz?” kaydı |
+- **Profil:** Doğru kategori; saatler, telefon ve randevu bağlantısı; dış cephe ve bekleme salonu fotoğrafı
+- **Yorum:** Gizliliğe uygun, genel ve sakin yanıt şablonu; yorum karşılığı teşvik yok
+- **Site:** Her hizmet için ayrı sayfa; yazar ve gözden geçiren hekim bilgisi
+- **Güven:** Doktor tanıtımı, muayenehane fotoğrafları; doğrulanamayan iddia yok
+- **Mevzuat:** Yayımlanacak her ifade, mevzuat ve meslek odası kurallarına göre kontrol ediliyor
+- **Ölçüm:** Aylık profil ve Search Console rakamları; “nasıl buldunuz?” kaydı
 
 Bu örnek sonuç vaadi değildir; işlerin sırasını gösterir.
 

@@ -6,7 +6,7 @@ service: yerel-seo
 imageAlt: "Doğrulama kodu giriş ekranı ve tabela gösteren bir telefon"
 ---
 
-**Kısa cevap:** Doğrulama yöntemini işletme türüne ve konuma göre Google belirler; siz seçemezsiniz. Önce profilinizde sunulan seçenekleri deneyin. Telefon ya da SMS için işletme numaranızın aramayı alabilmesi gerekir; sesli yanıt sistemi kodu engeller. Video seçeneği varsa kesintisiz ve en az 30 saniyelik kayıtla konumunuzu, işletmenizi ve yetkinizi gösterin. Olmuyorsa destek ekibine başvurun.
+Doğrulama yöntemini işletme türüne ve konuma göre Google belirler; siz seçemezsiniz. Önce profilinizde sunulan seçenekleri deneyin. Telefon ya da SMS için işletme numaranızın aramayı alabilmesi gerekir; sesli yanıt sistemi kodu engeller. Video seçeneği varsa kesintisiz ve en az 30 saniyelik kayıtla konumunuzu, işletmenizi ve yetkinizi gösterin. Olmuyorsa destek ekibine başvurun.
 
 Doğrulama, Google’ın profilin gerçekten size ait olduğundan emin olma adımıdır. Doğrulanmamış profilde yaptığınız değişiklikler Google’da görünmeyebilir. Bu yüzden haritada görünmeyi planlayan her işletmenin ilk işi budur. Bu yazı, yöntemleri, sık takılınan noktaları ve alternatif yolları anlatıyor. Profilin tamamını doldurmak için [Google İşletme Profili nasıl doldurulur?](/blog/google-isletme-profili-nasil-doldurulur/) yazımıza bakabilirsiniz.
 
@@ -63,6 +63,8 @@ Yüklediğiniz video incelenir. Google, bu işlemin 5 iş gününü bulabildiği
 
 Canlı görüntülü görüşmeler yalnızca bulunduğunuz konumun çalışma saatlerinde yapılabilir ve tüm işletmeler için sunulmayabilir. Görüşme sırasında işletmenizde bulunmalı, konumunuzu ve işletmenin sahibi olduğunuzu gösterebilmelisiniz: dışarıdaki tabelalar, markalı ekipman ve yalnızca çalışanların girebildiği alanlar.
 
+> **Hizmet almak için iletişime geçin.** Google İşletme Profili’nizi ve harita görünürlüğünüzü birlikte inceleyelim; ne eksik, neyin düzeltileceğini yazılı söyleyelim. [Yerel SEO hizmetimizi](/yerel-seo/) inceleyin ya da [bize yazın](/iletisim/).
+
 ## Doğrulama neden başarısız olur? Altı sık sebep
 
 1. **Kimlik uyuşmazlığı:** Tabelada başka ad, profilde başka ad var.
@@ -107,6 +109,8 @@ Sıralama için bu adımların sırası ve etkisi [Google Haritalar’da üst s�
 - **Sonuç:** Video incelemeye gönderiliyor; yanıtı beklerken profil bilgileri hazırlanıyor.
 
 Bu örnek bir sonuç vaadi değil, hazırlığın nasıl yapılacağını gösterir.
+
+> **Sizin için de yapalım mı?** Haritada daha görünür olmak istiyorsanız profilinize ve yerel kayıtlarınıza bakıp yapılacakları kalem kalem çıkaralım. [Hizmet almak için iletişime geçin](/iletisim/); ayrıntı için [yerel SEO sayfamıza](/yerel-seo/) göz atabilirsiniz.
 
 ## Doğrulamadan önce hazırlık listesi
 

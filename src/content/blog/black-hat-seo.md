@@ -6,7 +6,7 @@ service: backlink-hizmeti
 imageAlt: "Siyah bir şapka silueti ve üzerinde uyarı işareti olan bir arama sonucu kartı"
 ---
 
-**Kısa cevap:** Black hat SEO, ziyaretçiyi ve arama motorunu yanıltarak sıralama almaya çalışan tekniklerin genel adıdır. Google’ın kendi belgelerinde bu terim geçmez; bunun yerine bu teknikleri spam politikalarında sayar: gizleme, anahtar kelime doldurma, gizli metin, bağlantı spam’i ve ölçeklendirilmiş içeriği kötüye kullanma gibi. Politikaları ihlal eden siteler sonuçlarda daha alt sıralarda yer alabilir ya da hiç görünmeyebilir.
+Black hat SEO, ziyaretçiyi ve arama motorunu yanıltarak sıralama almaya çalışan tekniklerin genel adıdır. Google’ın kendi belgelerinde bu terim geçmez; bunun yerine bu teknikleri spam politikalarında sayar: gizleme, anahtar kelime doldurma, gizli metin, bağlantı spam’i ve ölçeklendirilmiş içeriği kötüye kullanma gibi. Politikaları ihlal eden siteler sonuçlarda daha alt sıralarda yer alabilir ya da hiç görünmeyebilir.
 
 “Siyah şapka” ve “beyaz şapka” kavramları SEO sektöründe yıllardır kullanılır. Bu yazıda ilk olarak terimin ne anlama geldiğini, ardından Google’ın hangi teknikleri açıkça spam saydığını Denizli’den örneklerle anlatıyoruz. Sonunda bir ajansın ya da kendi sitenizin bu çizgiyi geçip geçmediğini nasıl kontrol edeceğinizi veriyoruz.
 
@@ -64,6 +64,8 @@ Bizim gözlemimiz, yerel aramalarda en sık karşılaşılan hilenin **ilçe ad�
 
 Bu, Google’ın anahtar kelime doldurma örneğiyle birebir örtüşür: sıralama almaya çalışılan bölgelerin listelendiği metin bloğu. Doğrusu, gerçekten hizmet verdiğiniz ilçeler için, o ilçeye özgü bilgi içeren sayfalar açmaktır. Hangi durumda ilçe sayfası açılması gerektiğini ve şablon sayfaların neden zararlı olduğunu [ilçe bazlı arama](/blog/denizli-ilce-bazli-arama/) yazımızda anlattık.
 
+> **Hizmet almak için iletişime geçin.** Satın alınmış bağlantı olmadan, gerçek kaynaklarla bağlantı ve otorite çalışması planlayalım. [Backlink hizmetimizi](/backlink-hizmeti/) inceleyin ya da [bize yazın](/iletisim/).
+
 ## Negatif SEO gerçek mi?
 
 Negatif SEO, birinin rakibinin sitesine zarar vermek için çok sayıda kötü bağlantı göstermesi gibi girişimleri anlatan bir sektör terimidir. Google, üçüncü taraf sitelerindeki işlemlerin bir web sitesini olumsuz yönde etkilememesi için çok yoğun çaba harcadığını ve çoğu sitede bağlantı reddetme aracının kullanılmasına gerek olmadığını belirtir ([bağlantıları reddetme](https://support.google.com/webmasters/answer/2648487?hl=tr)).
@@ -89,6 +91,8 @@ Bilerek hile yapmasanız bile eski bir web tasarımcısının, ajansın ya da ş
 
 Bulduğunuz şeyi silmeden önce yedek alın ve ne olduğundan emin değilseniz sitenizi yapan kişiye danışın.
 
+> **Sizin için de yapalım mı?** Mevcut bağlantı durumunuza birlikte bakıp güvenli bir yol çizelim. [Hizmet almak için iletişime geçin](/iletisim/); hangi yöntemleri kullanmadığımız [backlink sayfamızda](/backlink-hizmeti/) açıkça yazıyor.
+
 ## Beyaz şapka ile gri alan arasındaki çizgi nerede?
 
 Her SEO çalışması ya siyah ya beyaz değildir. İki örnek:
@@ -102,14 +106,12 @@ Her SEO çalışması ya siyah ya beyaz değildir. İki örnek:
 
 Her hilenin karşısında sizi aynı hedefe götüren dürüst bir yol var:
 
-| Hile | Meşru alternatif |
-| --- | --- |
-| Sayfaya ilçe listesi doldurma | Gerçekten hizmet verdiğiniz ilçeler için ayrı, bilgi içeren sayfalar |
-| Anahtar kelimeyi tekrarlama | Müşterinin sorusuna doğru cevap veren, kendi sözlerinizle yazılmış metin |
-| Gizli metin | Görünür, okunabilir ve insanlara yönelik içerik |
-| Gizleme | Herkese aynı içeriği sunan, taranabilir bir site |
-| Bağlantı satın alma | Yerel kurumlardan, iş ortaklarından ve haber sitelerinden gelen bağlantılar |
-| Toplu içerik üretme | Az sayıda, özenli ve güncel tutulan sayfa |
+- **Sayfaya ilçe listesi doldurma:** Gerçekten hizmet verdiğiniz ilçeler için ayrı, bilgi içeren sayfalar
+- **Anahtar kelimeyi tekrarlama:** Müşterinin sorusuna doğru cevap veren, kendi sözlerinizle yazılmış metin
+- **Gizli metin:** Görünür, okunabilir ve insanlara yönelik içerik
+- **Gizleme:** Herkese aynı içeriği sunan, taranabilir bir site
+- **Bağlantı satın alma:** Yerel kurumlardan, iş ortaklarından ve haber sitelerinden gelen bağlantılar
+- **Toplu içerik üretme:** Az sayıda, özenli ve güncel tutulan sayfa
 
 SEO’nun genel yol haritası için [SEO nedir?](/blog/seo-nedir/) yazımıza bakabilirsiniz.
 

@@ -6,7 +6,7 @@ service: teknik-seo
 imageAlt: "Kilit simgeli bir adres çubuğu ve http’den https’e giden ok"
 ---
 
-**Kısa cevap:** HTTP’den HTTPS’e geçiş, Google’ın site taşıma tanımına giren bir değişikliktir; bu yüzden eski adresleri yenilerine 301 ile yönlendirmek, site haritasında ve iç bağlantılarda HTTPS adreslerini kullanmak, canonical’ları güncellemek ve Search Console’da yeni sürümü izlemek gerekir. Google’ın önerisi: HTTP’den HTTPS’e yönlendirin, sertifikayı doğru kullanın ve site haritasında HTTPS sürümlerini tercih edin. Doğru yapıldığında geçiş sıralamanızı kaybettirmez; kontrolsüz yapılırsa kopya adres ve kırık bağlantı sorunları çıkar.
+HTTP’den HTTPS’e geçiş, Google’ın site taşıma tanımına giren bir değişikliktir; bu yüzden eski adresleri yenilerine 301 ile yönlendirmek, site haritasında ve iç bağlantılarda HTTPS adreslerini kullanmak, canonical’ları güncellemek ve Search Console’da yeni sürümü izlemek gerekir. Google’ın önerisi: HTTP’den HTTPS’e yönlendirin, sertifikayı doğru kullanın ve site haritasında HTTPS sürümlerini tercih edin. Doğru yapıldığında geçiş sıralamanızı kaybettirmez; kontrolsüz yapılırsa kopya adres ve kırık bağlantı sorunları çıkar.
 
 Adres çubuğunda kilit simgesi görmek ziyaretçiye güven verir; ama HTTPS geçişi yalnızca bir sertifika kurmak değildir. Site `http://` ile `https://` iki ayrı adreste açılabilir ve Google bunları ayrı URL’ler olarak görür. Bu yazıda geçişin SEO kısmını, sırayla bir kontrol listesi olarak anlatıyoruz. Tek adrese toplama konusu için [www ve www’suz adres](/blog/www-ve-wwwsuz-adres-tek-adrese-yonlendirme/) yazımıza da bakabilirsiniz.
 
@@ -55,6 +55,8 @@ Google, Search Console’da her mülkün verisini ayrı doğrulamanızı önerir
 
 robots.txt’nin HTTPS sürümünde de erişilebilir olduğundan ve engel içermediğinden emin olun.
 
+> **Hizmet almak için iletişime geçin.** Sitenizin dizine eklenme, hız ve mobil durumunu birlikte tarayalım; bulguları öncelik sırasıyla yazılı verelim. [Teknik SEO hizmetimizi](/teknik-seo/) inceleyin ya da [bize yazın](/iletisim/).
+
 ## Geçiş sonrası kontrol listesi
 
 | Kontrol | Nasıl? |
@@ -85,6 +87,8 @@ Google, Search Console’daki Sayfa dizine ekleme ve Site Haritaları raporları
 Örnek (hayalî bir işletme için): Pamukkale’de bir otelin sitesi hâlâ HTTP’de; tarayıcı “güvenli değil” uyarısı veriyor. Barındırma firması sertifikayı kuruyor ama yönlendirme eklenmemiş; site hem `http://` hem `https://` üzerinden açılıyor ve Search Console’da aynı sayfanın iki sürümü görünüyor.
 
 Düzeltme: tüm HTTP adresleri 301 ile HTTPS’e yönlendiriliyor; canonical’lar ve site haritası HTTPS’e çevriliyor; sitedeki HTTP bağlantılar ve görseller güncelleniyor; HTTPS mülkü Search Console’da doğrulanıp harita gönderiliyor; birkaç hafta boyunca dizin raporu izleniyor. Bu örnek sonuç vaadi değildir; kontrol sırasını gösterir.
+
+> **Sizin için de yapalım mı?** Sitenizde teknik bir sorun şüpheniz varsa nedenini sırayla teşhis edelim. [Hizmet almak için iletişime geçin](/iletisim/); çalışmanın kapsamı [teknik SEO sayfamızda](/teknik-seo/) anlatılıyor.
 
 ## Geçiş günü planı
 

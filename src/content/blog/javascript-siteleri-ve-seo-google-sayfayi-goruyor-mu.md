@@ -6,7 +6,7 @@ service: teknik-seo
 imageAlt: "Kod satırları ve bir sayfanın tarayıcıda oluşturulması"
 ---
 
-**Kısa cevap:** Google JavaScript’i işleyebilir: Google’ın rehberine göre JavaScript web uygulamaları tarama, oluşturma ve dizine ekleme olmak üzere üç aşamada işlenir ve oluşturma sırasında Chromium’un güncel bir sürümü JavaScript’i çalıştırır. Yine de içerik, başlıklar, bağlantılar ve durum kodları doğru kurulmazsa sayfa eksik görülebilir. Bu yüzden sayfanızı Google’ın gördüğü hâliyle test edin; önemli içeriği ve bağlantıları gerçek HTML’de tutmak en güvenlisidir.
+Google JavaScript’i işleyebilir: Google’ın rehberine göre JavaScript web uygulamaları tarama, oluşturma ve dizine ekleme olmak üzere üç aşamada işlenir ve oluşturma sırasında Chromium’un güncel bir sürümü JavaScript’i çalıştırır. Yine de içerik, başlıklar, bağlantılar ve durum kodları doğru kurulmazsa sayfa eksik görülebilir. Bu yüzden sayfanızı Google’ın gördüğü hâliyle test edin; önemli içeriği ve bağlantıları gerçek HTML’de tutmak en güvenlisidir.
 
 “Sitem JavaScript ile yapıldı; Google görüyor mu?” sorusu, modern site yaptıran işletmelerin sık sorduğu bir sorudur. Cevap “evet görebilir, ama dikkat edilecek şeyler var” biçimindedir. Bu yazıda Google’ın JavaScript’i nasıl işlediğini, neleri kontrol etmeniz gerektiğini ve küçük bir işletme sitesinde pratik riskleri anlatıyoruz. Genel dizin durumu için [Search Console’da ilk kontrol](/blog/search-console-ilk-kontrol/) yazımıza bakabilirsiniz.
 
@@ -40,6 +40,8 @@ Google, bağlantıyı yalnızca `href` özelliğine sahip bir `<a>` HTML öğesi
 
 Başlık, meta açıklama ve canonical gibi öğeleri JavaScript ile eklemek mümkündür; ama Google, canonical için JavaScript kullanılmasını önermediğini söyler (yine de mümkündür; Google oluşturma sırasında bunu alır). Küçük işletme sitelerinde en güvenli yol, bu öğeleri sunucu tarafında doğrudan HTML’de vermektir. Canonical hakkında [canonical etiketi nedir?](/blog/canonical-etiketi-nedir-kopya-sayfa-sorunu/) yazımıza bakın.
 
+> **Hizmet almak için iletişime geçin.** Sitenizin dizine eklenme, hız ve mobil durumunu birlikte tarayalım; bulguları öncelik sırasıyla yazılı verelim. [Teknik SEO hizmetimizi](/teknik-seo/) inceleyin ya da [bize yazın](/iletisim/).
+
 ## Tek sayfalık uygulamalarda durum kodu
 
 İstemci taraflı oluşturulan tek sayfalık uygulamalarda bulunamayan adres için anlamlı bir HTTP durum kodu dönmek zor olabilir. Google, bu durumda soft 404’ten kaçınmak için sunucunun bulunamayan adres için 404 durum koduyla bir hata sayfası göstermesi gibi stratejileri önerir. Ayrıntı için [soft 404 nedir?](/blog/soft-404-nedir-nasil-duzeltilir/) yazımıza bakın.
@@ -65,6 +67,8 @@ Başlık, meta açıklama ve canonical gibi öğeleri JavaScript ile eklemek mü
 ## Küçük bir sitede JavaScript gerekli mi?
 
 Çoğu küçük işletme sitesi için ağır JavaScript çerçeveleri gerekmez. Statik ya da sunucuda oluşturulan sayfalar hem daha hızlıdır hem de SEO açısından daha öngörülebilirdir. Site yaptırırken “Hizmet ve iletişim sayfaları HTML olarak sunucudan mı geliyor?” diye sorun; tasarımcıya soracağınız diğer sorular için “SEO uyumlu web sitesi” yazımıza bakın.
+
+> **Sizin için de yapalım mı?** Sitenizde teknik bir sorun şüpheniz varsa nedenini sırayla teşhis edelim. [Hizmet almak için iletişime geçin](/iletisim/); çalışmanın kapsamı [teknik SEO sayfamızda](/teknik-seo/) anlatılıyor.
 
 ## Denizli’den bir örnek
 

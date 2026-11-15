@@ -6,7 +6,7 @@ service: yerel-seo
 imageAlt: "Boş bir harita üzerinde soru işaretli bir pin ve kontrol listesi"
 ---
 
-**Kısa cevap:** İşletmeniz haritada görünmüyorsa önce profilin doğrulanmış ve askıya alınmamış olduğunu kontrol edin. Sonra kategorinin, adın ve adresin doğru olduğuna, aramayı yaptığınız konumun işletmenize uzak olmadığına bakın. Çoğu “görünmüyorum” şikâyeti doğrulama eksikliği, askıya alma, yanlış kategori ya da yalnızca arama konumundan kaynaklanır. Google sıralama garantisi vermez.
+İşletmeniz haritada görünmüyorsa önce profilin doğrulanmış ve askıya alınmamış olduğunu kontrol edin. Sonra kategorinin, adın ve adresin doğru olduğuna, aramayı yaptığınız konumun işletmenize uzak olmadığına bakın. Çoğu “görünmüyorum” şikâyeti doğrulama eksikliği, askıya alma, yanlış kategori ya da yalnızca arama konumundan kaynaklanır. Google sıralama garantisi vermez.
 
 “Haritada yokum” şikâyeti aslında üç farklı durumu kapsar: profil hiç yok, profil var ama arama sonucunda çıkmıyor ya da çıkıyor ama çok aşağıda. Bu yazıda sırayla neleri kontrol edeceğinizi veriyoruz. Her adımın sonunda “bu bende var mı?” sorusunu sorun. Sıralamayı yükseltmenin ayrıntıları için [Google Haritalar’da üst sıralara nasıl çıkılır?](/blog/google-haritalarda-ust-siralara-cikmak/) yazımıza bakın.
 
@@ -39,6 +39,8 @@ Google, işletmenin gerçekten faaliyet göstermediği sanal ofis konumlarını 
 ## 5. Kategori yanlış ya da çok genel
 
 Ana kategori, hangi aramalarda göründüğünüzü büyük ölçüde belirler. “Mağaza” gibi genel bir kategori sizi “kuyumcu” ya da “klima servisi” aramalarında göstermez. Google, temel iş sahanızı tanımlamak için mümkün olduğunca az ve spesifik kategori seçmenizi söyler ([kurallar](https://support.google.com/business/answer/3038177?hl=tr)). **Çözüm:** Ana kategoriyi işinizi en iyi anlatan seçenekle değiştirin.
+
+> **Hizmet almak için iletişime geçin.** Google İşletme Profili’nizi ve harita görünürlüğünüzü birlikte inceleyelim; ne eksik, neyin düzeltileceğini yazılı söyleyelim. [Yerel SEO hizmetimizi](/yerel-seo/) inceleyin ya da [bize yazın](/iletisim/).
 
 ## 6. Arama konumu işletmeden uzak
 
@@ -79,6 +81,8 @@ Doğrulama tamamlandıktan sonra bile bilgilerin Google’da yansıması zaman a
 - **Test 3:** Pansiyonun yakınında arayınca ilk sayfalarda, uzak yerden aranınca yok.
 - **Teşhis:** Kategori “Misafirhane” seçilmiş, fotoğraf ve hizmet bilgisi az, yorum yok.
 - **Çözüm:** Kategori güncelleniyor, odalar ve olanaklar giriliyor, gerçek fotoğraflar ekleniyor, misafirlere yorum bağlantısı gönderilmeye başlanıyor.
+
+> **Sizin için de yapalım mı?** Haritada daha görünür olmak istiyorsanız profilinize ve yerel kayıtlarınıza bakıp yapılacakları kalem kalem çıkaralım. [Hizmet almak için iletişime geçin](/iletisim/); ayrıntı için [yerel SEO sayfamıza](/yerel-seo/) göz atabilirsiniz.
 
 ## Sıralama yerine görünürlüğe bakın
 

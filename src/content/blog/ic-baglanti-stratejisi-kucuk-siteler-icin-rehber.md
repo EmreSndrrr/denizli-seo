@@ -6,7 +6,7 @@ service: icerik-seo
 imageAlt: "Birbirine bağlanan sayfa kutuları ve merkezdeki hizmet sayfası"
 ---
 
-**Kısa cevap:** İç bağlantı, sitenizdeki bir sayfadan yine sitenizdeki başka bir sayfaya verdiğiniz bağlantıdır. Google, önemsediğiniz her sayfaya sitenizdeki en az bir başka sayfadan bağlantı verilmesini ve bağlantı metninin açıklayıcı, kısa ve alakalı olmasını önerir. Küçük bir sitede strateji basittir: hizmet sayfalarını ana sayfa ve menüden, blog yazılarını ilgili hizmet sayfasından ve birbirinden bağlayın; “buraya tıklayın” yerine sayfanın adını yazın; hiçbir yerden bağlanmayan (yetim) sayfa bırakmayın.
+İç bağlantı, sitenizdeki bir sayfadan yine sitenizdeki başka bir sayfaya verdiğiniz bağlantıdır. Google, önemsediğiniz her sayfaya sitenizdeki en az bir başka sayfadan bağlantı verilmesini ve bağlantı metninin açıklayıcı, kısa ve alakalı olmasını önerir. Küçük bir sitede strateji basittir: hizmet sayfalarını ana sayfa ve menüden, blog yazılarını ilgili hizmet sayfasından ve birbirinden bağlayın; “buraya tıklayın” yerine sayfanın adını yazın; hiçbir yerden bağlanmayan (yetim) sayfa bırakmayın.
 
 İç bağlantılar, bir SEO çalışmasının en ucuz ve en kontrol edilebilir parçasıdır: başka sitelerin sizi anmasını beklemeden, kendi sayfalarınızı birbirine bağlayarak hem ziyaretçiye yol gösterir hem Google’ın sayfalarınızı bulmasını kolaylaştırırsınız. Bu yazıda iç bağlantının nasıl kurulacağını, bağlantı metninin nasıl yazılacağını ve basit bir bağlantı planını anlatıyoruz. Dışarıdan gelen bağlantılar için [backlink nedir?](/blog/backlink-nedir/) yazımıza bakabilirsiniz.
 
@@ -38,6 +38,8 @@ Kurallar:
 3. **Her bağlantıda aynı kelimeyi tekrarlamayın.** Çeşitlilik doğal görünür.
 4. **Çok uzun olmasın.**
 5. **Görsel bağlantılarda alt metin kullanın.**
+
+> **Hizmet almak için iletişime geçin.** Müşterilerinizin sorduğu sorulardan bir içerik planı çıkaralım ve sayfalarınızı birlikte yazalım. [İçerik SEO hizmetimizi](/icerik-seo/) inceleyin ya da [bize yazın](/iletisim/).
 
 ## Küçük siteler için bağlantı mimarisi
 
@@ -81,6 +83,8 @@ Yetim sayfa, sitenizdeki hiçbir sayfanın bağlantı vermediği sayfadır. Bulm
 
 Search Console’daki Bağlantılar raporunun dahili bağlantılar bölümü, en çok iç bağlantı alan sayfaları gösterir; en az bağlantı alan önemli sayfaları bu rapordan ya da elle kontrol edebilirsiniz. Rapor için [backlink sorgulama](/blog/backlink-sorgulama/) yazımızdaki dahili bağlantılar bölümüne bakın.
 
+> **Sizin için de yapalım mı?** Sayfalarınızın ve yazılarınızın neden yeterince işe yaramadığına birlikte bakalım. [Hizmet almak için iletişime geçin](/iletisim/); yöntemimiz [içerik SEO sayfamızda](/icerik-seo/) yazılı.
+
 ## Navigasyon: menü, alt bilgi, breadcrumb
 
 - **Menü:** En önemli hizmetler ve iletişim; az sayıda, anlaşılır öğe.
@@ -90,22 +94,36 @@ Search Console’daki Bağlantılar raporunun dahili bağlantılar bölümü, en
 
 ## Sık yapılan hatalar
 
-| Hata | Çözüm |
-| --- | --- |
-| “Buraya tıklayın” bağlantıları | Açıklayıcı bağlantı metni |
-| Menüde çok fazla öğe | En önemli beş altı öğe |
-| Yetim sayfalar | Uygun yerden bağlantı |
-| Her bağlantıda aynı anahtar kelime | Doğal çeşitlilik |
-| Kırık iç bağlantılar | Düzeltin ya da kaldırın |
-| Hizmet sayfasına blogdan hiç bağlantı yok | Yazıdan hizmete doğal bağlantı |
-| Aşırı bağlantı | Yalnızca yararlı olanları bırakın |
-| Bağlantının JavaScript ile çizilmesi | Gerçek `<a href>` |
+- **“Buraya tıklayın” bağlantıları:** Açıklayıcı bağlantı metni
+- **Menüde çok fazla öğe:** En önemli beş altı öğe
+- **Yetim sayfalar:** Uygun yerden bağlantı
+- **Her bağlantıda aynı anahtar kelime:** Doğal çeşitlilik
+- **Kırık iç bağlantılar:** Düzeltin ya da kaldırın
+- **Hizmet sayfasına blogdan hiç bağlantı yok:** Yazıdan hizmete doğal bağlantı
+- **Aşırı bağlantı:** Yalnızca yararlı olanları bırakın
+- **Bağlantının JavaScript ile çizilmesi:** Gerçek `<a href>`
 
 ## Denizli’den bir örnek
 
 Örnek (hayalî bir işletme için): Merkezefendi’de bir klima servisinin sitesinde beş hizmet sayfası ve on iki blog yazısı var; ama yazılar birbirine ve hizmet sayfalarına bağlanmamış, menüde yalnızca ana sayfa ve iletişim var, hizmet sayfalarına yalnızca site haritasından ulaşılıyor.
 
 Düzeltme: menüye beş hizmet eklenir; her hizmet sayfasından ilgili iki yazıya bağlantı verilir; her yazıdan ilgili hizmete bağlantı eklenir; “buraya tıklayın” bağlantıları hizmet adlarıyla değiştirilir; yetim kalan üç yazı ilgili sayfalardan bağlanır. Sonuç haftalarca Search Console’da izlenir. Bu örnek sonuç vaadi değildir; bağlantı planını gösterir.
+
+## İç bağlantıyı bugün nasıl başlatırsınız?
+
+En çok iş getiren hizmet sayfanızı açın. Bu sayfaya hangi yazılardan ve sayfalardan bağlantı verildiğine bakın. Eksikse ilgili üç yazıdan bu sayfaya doğal bir cümle içinde bağlantı ekleyin. Sonra hizmet sayfasından ilgili iki yazıya bağlantı verin. Bu yarım saatlik çalışma, çoğu küçük sitede en hızlı iyileştirmedir.
+
+## İç bağlantı denetimi için örnek bir tablo
+
+Sayfa, aldığı iç bağlantı sayısı, verdiği iç bağlantı sayısı ve durum sütunlarıyla bir tablo hazırlayın. Hiç bağlantı almayan sayfalar yetimdir; çok bağlantı veren ama hiç almayan sayfalar yapıyı sorgulatır. Önemli hizmet sayfalarının en az üç yerden bağlantı aldığından emin olun. Tabloyu üç ayda bir yenileyin; yeni yazı eklediğinizde ilgili sayfalardan bağlantı vermeyi unutmayın.
+
+### İç bağlantı sayısına üst sınır var mı?
+
+Google bir sayı belirtmiyor; bağlantı okuyucuya yararlıysa verin, yorucu hâle gelmesin.
+
+## Yeni yazıda iç bağlantı alışkanlığı
+
+Her yeni yazıyı yayımlarken ilgili iki eski sayfadan ona, ona da iki sayfaya bağlantı verin; bu alışkanlık sitenin bağlantı yapısını sağlıklı tutar.
 
 ## Denizli SEO bu konuda nasıl yardımcı olur?
 
@@ -135,6 +153,10 @@ Kendi sayfalarınıza verdiğiniz iç bağlantılarda genellikle gerekmez.
 ### Eski yazılara yeni yazılardan bağlantı vermeli miyim?
 
 Evet; ilgili olduğunda hem eski hem yeni yazıları birbirine bağlayın.
+
+### İç bağlantı eklentisi kullanmalı mıyım?
+
+Otomatik bağlantı eklentilerine dikkat edin; bağlantılar bağlama uygun ve açıklayıcı olmalı. Elle, ilgili yerlerde eklemek çoğu küçük site için daha güvenlidir.
 
 ## Kaynaklar
 

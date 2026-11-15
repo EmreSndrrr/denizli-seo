@@ -6,7 +6,7 @@ service: teknik-seo
 imageAlt: "Search Console raporunda renkli durum satırları ve uyarı simgeleri"
 ---
 
-**Kısa cevap:** Search Console’daki Sayfa dizine ekleme raporunda en sık görülen durumlar şunlardır: sunucu hatası (5xx), yönlendirme hatası, bulunamadı (404), soft 404, robots.txt tarafından engellendi, noindex nedeniyle hariç tutuldu, yetkisiz (401) ya da erişim izni verilmemesi (403) nedeniyle engellendi, “Tarandı: şu anda dizine eklenmiş değil” ve “Bulundu: şu anda dizine eklenmiş değil”. Her durum hata değildir; önce sayfanın dizine girmesi gerekip gerekmediğine bakın.
+Search Console’daki Sayfa dizine ekleme raporunda en sık görülen durumlar şunlardır: sunucu hatası (5xx), yönlendirme hatası, bulunamadı (404), soft 404, robots.txt tarafından engellendi, noindex nedeniyle hariç tutuldu, yetkisiz (401) ya da erişim izni verilmemesi (403) nedeniyle engellendi, “Tarandı: şu anda dizine eklenmiş değil” ve “Bulundu: şu anda dizine eklenmiş değil”. Her durum hata değildir; önce sayfanın dizine girmesi gerekip gerekmediğine bakın.
 
 Search Console’u ilk açtığınızda kırmızı ve gri satırlar görürsünüz ve çoğu işletme sahibi bunları “hata” sanır. Oysa Google’ın kendi rehberi, bazı sayfaların dizine eklenmemesinin geçerli nedenleri olduğunu söyler. Bu yazıda en sık görülen on durumu, anlamlarını ve ne yapacağınızı anlatıyoruz. Raporu kurmak ve okumak için [Search Console’da ilk kontrol](/blog/search-console-ilk-kontrol/) yazımıza da bakabilirsiniz.
 
@@ -40,6 +40,8 @@ Google’ın Sayfa dizine ekleme raporu sayfası, dizine eklenmeyen URL’lerin 
 
 **Ne yapmalı?** Google, gerçekten bulunamayan sayfalar için 404 döndürmenizi ya da sayfaya daha fazla bilgi eklemenizi önerir. Ayrıntı: [soft 404 nedir?](/blog/soft-404-nedir-nasil-duzeltilir/)
 
+> **Hizmet almak için iletişime geçin.** Sitenizin dizine eklenme, hız ve mobil durumunu birlikte tarayalım; bulguları öncelik sırasıyla yazılı verelim. [Teknik SEO hizmetimizi](/teknik-seo/) inceleyin ya da [bize yazın](/iletisim/).
+
 ## 5. robots.txt tarafından engellendi
 
 **Anlamı:** Sayfa robots.txt dosyanızdaki bir kurala takılıyor.
@@ -69,6 +71,8 @@ Google’ın Sayfa dizine ekleme raporu sayfası, dizine eklenmeyen URL’lerin 
 **Anlamı:** Sayfa Google tarafından taranmış ama dizine eklenmemiş. Google, web’deki tüm sayfaları dizine eklemediği için bunun birçok site için yaygın bir mesaj olduğunu ve mutlaka ilgilenilmesi gereken bir sorun anlamına gelmediğini belirtir. Önemli sayfalar için bu mesajı görürseniz sayfaların görünmesini sağlamaya çalışın.
 
 **Ne yapmalı?** İçeriği özgün ve yararlı hale getirin, iç bağlantı verin. Ayrıntı: [Taranan, dizine eklenmeyen sayfalar](/blog/taranan-dizine-eklenmeyen-sayfalar-nedenleri/).
+
+> **Sizin için de yapalım mı?** Sitenizde teknik bir sorun şüpheniz varsa nedenini sırayla teşhis edelim. [Hizmet almak için iletişime geçin](/iletisim/); çalışmanın kapsamı [teknik SEO sayfamızda](/teknik-seo/) anlatılıyor.
 
 ## 10. Bulundu: şu anda dizine eklenmiş değil
 
@@ -107,6 +111,10 @@ Google, rapordaki örnek URL listesinin 1.000 öğeyle sınırlı olduğunu beli
 
 Önceliklendirme: önce ana sayfa 5xx (sunucu); sonra iki hizmet sayfası (içerik ve iç bağlantı); noindex ve 404’ler bilinçli olduğu için bırakılıyor. Düzeltme sonrası rapor haftalarca izleniyor. Bu örnek sonuç vaadi değildir; önceliklendirme sırasını gösterir.
 
+## Uyarıları takvime bağlayın
+
+Search Console e-postalarını bir kişiye yönlendirin ve haftada bir uyarılara bakın. Yeni bir uyarı çıktığında tarihini ve çözümünü not edin.
+
 ## Denizli SEO bu konuda nasıl yardımcı olur?
 
 Raporu görmek kolay, hangisinin önemli olduğunu ayırmak deneyim ister. [Teknik SEO hizmetimizde](/teknik-seo/):
@@ -135,6 +143,10 @@ E-postayı okuyun, raporda ilgili durumu bulun ve sayfaların önemli olup olmad
 ### Hangi uyarılar gerçekten acil?
 
 Önemli bir sayfanın sunucu hatası, 403, robots.txt engeli ya da yanlışlıkla kalan noindex gibi durumları. Bunlar görünürlüğü doğrudan keser.
+
+### Uyarıyı düzelttikten sonra doğrulama istemeli miyim?
+
+Search Console’un sunduğu doğrulama seçeneği varsa kullanın; sonra durumu birkaç hafta izleyin.
 
 ## Kaynaklar
 

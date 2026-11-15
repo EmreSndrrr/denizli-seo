@@ -6,7 +6,7 @@ service: yerel-seo
 imageAlt: "Yıldızlı yorum kartları ve bir QR kod"
 ---
 
-**Kısa cevap:** Google yorumlarını artırmanın kurallara uygun yolu, memnun müşteriden yorum bırakmasını kolaylaştırmaktır: işi teslim ederken yorum bağlantısını ya da QR kodu paylaşın ve her yoruma yanıt verin. Yorum karşılığında indirim ya da hediye vermek, yalnızca olumlu yorum istemek ya da yorum satın almak Google’ın politikasına aykırıdır ve profilinize zarar verebilir.
+Google yorumlarını artırmanın kurallara uygun yolu, memnun müşteriden yorum bırakmasını kolaylaştırmaktır: işi teslim ederken yorum bağlantısını ya da QR kodu paylaşın ve her yoruma yanıt verin. Yorum karşılığında indirim ya da hediye vermek, yalnızca olumlu yorum istemek ya da yorum satın almak Google’ın politikasına aykırıdır ve profilinize zarar verebilir.
 
 Yorumlar, haritada ve aramada profilinizin yanında görünür ve müşterinin sizi seçmesinde belirleyicidir. Google, yerel sıralamada belirginlik etkenini işletmenin ne kadar iyi bilindiğiyle açıklar; yorum sayısı ve puanı bu etkene katkı yapabilir ([yerel sıralama ipuçları](https://support.google.com/business/answer/7091?hl=tr)). Bu yazıda yorumu nasıl isteyeceğinizi, ne zaman isteyeceğinizi ve nelerden kaçınacağınızı anlatıyoruz. Haritada sıralamayı genel olarak anlamak için [Google Haritalar’da üst sıralara nasıl çıkılır?](/blog/google-haritalarda-ust-siralara-cikmak/) yazımıza bakabilirsiniz.
 
@@ -47,16 +47,16 @@ Kısa, kibar ve yönlendirmesiz bir metin yeterlidir:
 
 Mesajda “5 yıldız verirseniz” ya da “olumlu yorum yazarsanız” gibi ifadeler olmasın. Müşteriye ne yazacağını söylemeyin; yalnızca yorum bırakma imkânını hatırlatın.
 
+> **Hizmet almak için iletişime geçin.** Google İşletme Profili’nizi ve harita görünürlüğünüzü birlikte inceleyelim; ne eksik, neyin düzeltileceğini yazılı söyleyelim. [Yerel SEO hizmetimizi](/yerel-seo/) inceleyin ya da [bize yazın](/iletisim/).
+
 ## Hangi yollar yasaktır?
 
 Google’ın yardım sayfası, yorum paylaşmaları, yorumlarını değiştirmeleri ya da olumsuz yorumlarını kaldırmaları karşılığında müşterilere ücretsiz ya da indirimli ürün veya hizmet gibi teşvikler sunmanın sahte etkileşim sayıldığını ve kesinlikle yasak olduğunu söyler. Haritalar içerik politikası da şunları sayar ([yasaklanmış ve kısıtlanmış içerik](https://support.google.com/contributionpolicy/answer/7400114?hl=tr)):
 
-| Yapabilirsiniz | Yapamazsınız |
-| --- | --- |
-| Her müşteriden yorum istemek | Yalnızca olumlu yorum isteyip diğerlerini yönlendirmemek |
-| Yorum bağlantısı ya da QR kod paylaşmak | Yorum karşılığında ödeme, indirim, hediye ya da ücretsiz hizmet sunmak |
-| Olumsuz yoruma sakin cevap yazmak | Olumsuz yorumu değiştirmesi ya da kaldırması için teşvik sunmak |
-| Kural dışı yorumu Google’a bildirmek | Gerçek deneyime dayanmayan yorum yazdırmak, bir kişinin birden fazla hesaptan yorum yapması |
+- **Her müşteriden yorum istemek:** Yalnızca olumlu yorum isteyip diğerlerini yönlendirmemek
+- **Yorum bağlantısı ya da QR kod paylaşmak:** Yorum karşılığında ödeme, indirim, hediye ya da ücretsiz hizmet sunmak
+- **Olumsuz yoruma sakin cevap yazmak:** Olumsuz yorumu değiştirmesi ya da kaldırması için teşvik sunmak
+- **Kural dışı yorumu Google’a bildirmek:** Gerçek deneyime dayanmayan yorum yazdırmak, bir kişinin birden fazla hesaptan yorum yapması
 
 Bu kurallara aykırı yorumlar kaldırılabilir; Google ayrıca politika ihlalleri nedeniyle İşletme Profili kısıtlamaları uygulandığını belirtir. Yani yorum satın almak yalnızca etik değil, risklidir.
 
@@ -97,6 +97,8 @@ Yorum düzenini kurmak küçük bir iştir ama çoğu işletme zaman bulamadığ
 - yorum sayısını ve profil etkileşimini her ay raporlarız.
 
 Yorum satın almayız, yorum karşılığı teşvik önermeyiz; bu, işletmenizi riske atar. Profilinize ve yorum durumunuza bakmamızı isterseniz [bize yazın](/iletisim/); ücretsiz SEO analizi yapıp yazılı olarak sunalım.
+
+> **Sizin için de yapalım mı?** Haritada daha görünür olmak istiyorsanız profilinize ve yerel kayıtlarınıza bakıp yapılacakları kalem kalem çıkaralım. [Hizmet almak için iletişime geçin](/iletisim/); ayrıntı için [yerel SEO sayfamıza](/yerel-seo/) göz atabilirsiniz.
 
 ## Sektöre göre yorum isteme mesajı örnekleri
 

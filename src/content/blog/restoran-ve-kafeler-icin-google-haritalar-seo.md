@@ -6,7 +6,7 @@ service: yerel-seo
 imageAlt: "Bir restoran profili: menü, fotoğraflar, saatler ve yorum kartları"
 ---
 
-**Kısa cevap:** Restoran ve kafeler için Google Haritalar’da öne çıkmanın temeli doğru ana kategori, güncel saatler, gerçek yemek ve mekân fotoğrafları, menü bilgisi, yorumlara yanıt ve paket servis varsa hizmet bölgesidir. Müşteri çoğu zaman “yakınımda kafe” ya da “Denizli kahvaltı” gibi aramayla karar verir; profil, onun gördüğü ilk sayfadır. Sıra garantisi yoktur; eksiksiz ve güncel profil şarttır.
+Restoran ve kafeler için Google Haritalar’da öne çıkmanın temeli doğru ana kategori, güncel saatler, gerçek yemek ve mekân fotoğrafları, menü bilgisi, yorumlara yanıt ve paket servis varsa hizmet bölgesidir. Müşteri çoğu zaman “yakınımda kafe” ya da “Denizli kahvaltı” gibi aramayla karar verir; profil, onun gördüğü ilk sayfadır. Sıra garantisi yoktur; eksiksiz ve güncel profil şarttır.
 
 Yeme içme işletmeleri, yerel aramaların en yoğun olduğu sektörlerden biridir: müşteri çoğunlukla anlık karar verir, harita sonucuna bakar ve fotoğraflara, yorumlara ve saatlere göre seçim yapar. Bu yüzden profil, restoranın dijital vitrinidir. Bu yazı, restoran ve kafelerin profillerini nasıl kuracağını anlatıyor. Haritada sıralama etkenlerini ayrıca [Google Haritalar’da üst sıralara nasıl çıkılır?](/blog/google-haritalarda-ust-siralara-cikmak/) yazımızda ele aldık.
 
@@ -62,6 +62,8 @@ Google, fotoğrafların odaklı, aydınlık ve gerçeği temsil eden nitelikte o
 
 Stok yemek fotoğrafı kullanmayın; müşteri tabağında gördüğünü beklemeli. Ayrıntılar için [profil fotoğrafları](/blog/google-isletme-profili-fotograflari-neler-eklenmeli/) yazımıza bakın.
 
+> **Hizmet almak için iletişime geçin.** Google İşletme Profili’nizi ve harita görünürlüğünüzü birlikte inceleyelim; ne eksik, neyin düzeltileceğini yazılı söyleyelim. [Yerel SEO hizmetimizi](/yerel-seo/) inceleyin ya da [bize yazın](/iletisim/).
+
 ## 4. Menü, hizmetler ve bağlantılar
 
 Profilde hizmetler, ürünler ya da menü bölümü varsa doldurun. Rezervasyon ya da sipariş sayfanız varsa ilgili bağlantı alanına ekleyin. Menüyü sitenizde de gerçek metin olarak yayımlayın; yalnızca fotoğraf olarak yüklenen menü hem Google’ın hem müşterinin işini zorlaştırır. Fiyat yazıyorsanız güncel tutun; eski fiyat, şikâyet kaynağıdır.
@@ -88,6 +90,8 @@ Duyuru özelliğini günün yemeği, yeni menü, bayram saatleri ve etkinlik iç
 6. Paket servis bölgesi doğru mu?
 7. Profildeki telefon ve adres sitedekiyle aynı mı?
 8. Performans bölümünde yol tarifi ve arama sayısı nasıl?
+
+> **Sizin için de yapalım mı?** Haritada daha görünür olmak istiyorsanız profilinize ve yerel kayıtlarınıza bakıp yapılacakları kalem kalem çıkaralım. [Hizmet almak için iletişime geçin](/iletisim/); ayrıntı için [yerel SEO sayfamıza](/yerel-seo/) göz atabilirsiniz.
 
 ## Sık yapılan hatalar
 
@@ -116,14 +120,12 @@ Bu örnek sonuç vaadi değildir; işlerin sırasını gösterir.
 
 Yeme içme aramaları gün, mevsim ve etkinlikle değişir. Takvimi önceden planlayın:
 
-| Dönem | Profil ve gönderi işi |
-| --- | --- |
-| Hafta sonu sabahı | Kahvaltı gönderisi ve saatlerin netliği |
-| Yaz | Teras ve açık alan fotoğrafı; uzatılmış saatler |
-| Kış | Sıcak içecek, çorba, kapalı alan fotoğrafı |
-| Bayram ve özel günler | Çalışma saatleri, özel menü |
-| Okul ve iş dönemi | Öğle menüsü, toplantı ve grup rezervasyonu |
-| Turizm yoğunluğu | Pamukkale ve Karahayıt çevresindeki işletmelerde sezon saatleri |
+- **Hafta sonu sabahı:** Kahvaltı gönderisi ve saatlerin netliği
+- **Yaz:** Teras ve açık alan fotoğrafı; uzatılmış saatler
+- **Kış:** Sıcak içecek, çorba, kapalı alan fotoğrafı
+- **Bayram ve özel günler:** Çalışma saatleri, özel menü
+- **Okul ve iş dönemi:** Öğle menüsü, toplantı ve grup rezervasyonu
+- **Turizm yoğunluğu:** Pamukkale ve Karahayıt çevresindeki işletmelerde sezon saatleri
 
 Her dönem öncesinde profili ve gönderileri güncelleyin; ihtiyaç anında bilgiyi bulamayan müşteri başka işletmeye gider.
 

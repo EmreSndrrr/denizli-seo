@@ -6,7 +6,7 @@ service: yerel-seo
 imageAlt: "Telefonda yakındaki işletmeleri listeleyen bir harita ekranı"
 ---
 
-**Kısa cevap:** “Yakınımda” aramalarında görünmek için doğrulanmış ve eksiksiz bir İşletme Profili, doğru ana kategori, güncel çalışma saatleri, tutarlı adres ve telefon, gerçek fotoğraflar ve yorumlar gerekir. Bu aramalarda mesafe belirleyicidir ve değiştirilemez; ama alaka ve belirginlik etkenlerini güçlendirerek yakın çevrenizde öne çıkabilirsiniz. Sıra garantisi yoktur.
+“Yakınımda” aramalarında görünmek için doğrulanmış ve eksiksiz bir İşletme Profili, doğru ana kategori, güncel çalışma saatleri, tutarlı adres ve telefon, gerçek fotoğraflar ve yorumlar gerekir. Bu aramalarda mesafe belirleyicidir ve değiştirilemez; ama alaka ve belirginlik etkenlerini güçlendirerek yakın çevrenizde öne çıkabilirsiniz. Sıra garantisi yoktur.
 
 “Yakınımdaki eczane”, “yakınımda kuyumcu”, “nöbetçi eczane”, “yakınımda halı yıkama” gibi aramalar, yapan kişinin bulunduğu konuma göre sonuç gösterir. Bu yüzden yerel işletmeler için en kıymetli aramalar arasındadır: arayan kişi çoğu zaman ihtiyacı olan ve hemen harekete geçecek biridir. Bu yazıda bu aramalarda görünmek için on adım anlatıyoruz. Haritada sıralamanın genel mantığı için [Google Haritalar’da üst sıralara nasıl çıkılır?](/blog/google-haritalarda-ust-siralara-cikmak/) yazımıza da bakabilirsiniz.
 
@@ -42,6 +42,8 @@ Müşteri “yakınımda” aradığında çoğu zaman şimdi hizmet almak ister
 
 Telefon numarası, işletmenin doğrudan kontrolünde olmalıdır; ücretli numaralar kabul edilmez. Telefon, “yakınımda” araması yapan kişinin ilk tıkladığı yerdir. Numaranın doğru ve açık olması kritik.
 
+> **Hizmet almak için iletişime geçin.** Google İşletme Profili’nizi ve harita görünürlüğünüzü birlikte inceleyelim; ne eksik, neyin düzeltileceğini yazılı söyleyelim. [Yerel SEO hizmetimizi](/yerel-seo/) inceleyin ya da [bize yazın](/iletisim/).
+
 ## 6. Hizmetleri ve açıklamayı ayrıntılı yazın
 
 Her hizmeti ayrı satır olarak girin ve açıklamada ne yaptığınızı, hangi mahalle ve ilçelere hizmet verdiğinizi söyleyin. “Kuyumcu” yerine “yüzük ölçü değişimi”, “altın alım satımı”, “zincir tamiri” gibi satırlar, profilin ilgili aramalarla eşleşmesine yardımcı olabilir.
@@ -64,13 +66,13 @@ Sitenizin iletişim sayfasında profildekiyle aynı ad, adres ve telefon bulunsu
 
 ## Sektöre göre dikkat edilecekler
 
-| Sektör | “Yakınımda” aramasında öne çıkan |
-| --- | --- |
-| Eczane, klinik | Saatler (nöbet, acil), telefon, kolay yol tarifi |
-| Kuyumcu, mağaza | Dış cephe fotoğrafı, ürün ve hizmet listesi |
-| Restoran, kafe | Menü, fotoğraf, saatler, yorum |
-| Servis (oto, beyaz eşya) | Hizmet listesi, telefon, hızlı yanıt |
-| Pansiyon, otel | Fotoğraf, konum, rezervasyon bağlantısı |
+- **Eczane, klinik:** Saatler (nöbet, acil), telefon, kolay yol tarifi
+- **Kuyumcu, mağaza:** Dış cephe fotoğrafı, ürün ve hizmet listesi
+- **Restoran, kafe:** Menü, fotoğraf, saatler, yorum
+- **Servis (oto, beyaz eşya):** Hizmet listesi, telefon, hızlı yanıt
+- **Pansiyon, otel:** Fotoğraf, konum, rezervasyon bağlantısı
+
+> **Sizin için de yapalım mı?** Haritada daha görünür olmak istiyorsanız profilinize ve yerel kayıtlarınıza bakıp yapılacakları kalem kalem çıkaralım. [Hizmet almak için iletişime geçin](/iletisim/); ayrıntı için [yerel SEO sayfamıza](/yerel-seo/) göz atabilirsiniz.
 
 ## Denizli’den bir örnek
 
@@ -99,13 +101,11 @@ Sonuç garantisi vermeyiz; ne yapacağımızı yazılı söyleriz. Profilinize b
 
 Aynı kalıbın arkasında farklı ihtiyaçlar var. Hangi tür arama sizin işiniz için önemliyse profili ona göre hazırlayın:
 
-| Arama türü | Örnek | Profilde en kritik alan |
-| --- | --- | --- |
-| Acil ihtiyaç | “yakınımda çilingir”, “nöbetçi eczane” | Telefon, saatler, hizmet bölgesi |
-| Karşılaştırma | “yakınımda kuyumcu” | Fotoğraf, yorum, hizmetler |
-| Yer arama | “yakınımda kafe” | Konum, fotoğraf, menü |
-| Randevu | “yakınımda diş hekimi” | Kategori, saatler, randevu bağlantısı |
-| Hizmet bölgesine gelen | “yakınımda nakliyat” | Hizmet bölgesi, telefon |
+- **Acil ihtiyaç:** örnek: “yakınımda çilingir”, “nöbetçi eczane”; profilde en kritik alan: Telefon, saatler, hizmet bölgesi
+- **Karşılaştırma:** örnek: “yakınımda kuyumcu”; profilde en kritik alan: Fotoğraf, yorum, hizmetler
+- **Yer arama:** örnek: “yakınımda kafe”; profilde en kritik alan: Konum, fotoğraf, menü
+- **Randevu:** örnek: “yakınımda diş hekimi”; profilde en kritik alan: Kategori, saatler, randevu bağlantısı
+- **Hizmet bölgesine gelen:** örnek: “yakınımda nakliyat”; profilde en kritik alan: Hizmet bölgesi, telefon
 
 ## Zamana duyarlı aramalar
 

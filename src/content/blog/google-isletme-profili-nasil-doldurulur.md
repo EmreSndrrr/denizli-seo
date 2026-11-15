@@ -7,7 +7,7 @@ service: yerel-seo
 imageAlt: "Google İşletme Profili kartı: işletme adı, işlem düğmeleri ve çalışma bilgileri"
 ---
 
-**Kısa cevap:** Google İşletme Profili’ni doldurmak için önce [business.google.com](https://business.google.com/) adresinde işletmenizi bulup sahipliğini alın ve doğrulayın. Ardından ana kategoriyi, tabeladaki adla aynı işletme adını, adres ya da hizmet bölgesini, telefonu, çalışma ve özel saatleri, en fazla 750 karakterlik açıklamayı, hizmetleri ve gerçek fotoğrafları girin. Son olarak yorum isteme bağlantısını müşterilerinize gönderin ve gelen yorumları yanıtlayın.
+Google İşletme Profili’ni doldurmak için önce [business.google.com](https://business.google.com/) adresinde işletmenizi bulup sahipliğini alın ve doğrulayın. Ardından ana kategoriyi, tabeladaki adla aynı işletme adını, adres ya da hizmet bölgesini, telefonu, çalışma ve özel saatleri, en fazla 750 karakterlik açıklamayı, hizmetleri ve gerçek fotoğrafları girin. Son olarak yorum isteme bağlantısını müşterilerinize gönderin ve gelen yorumları yanıtlayın.
 
 Bu rehber, Denizli’deki bir işletmenin profilini sıfırdan açarken ya da mevcut profilini gözden geçirirken izleyebileceği sırayı veriyor. Her adımda Google’ın kendi yardım sayfasına bağlantı var; kurallar değiştiğinde güncel hâli oradan kontrol edilebilir.
 
@@ -78,6 +78,8 @@ Ana kategori, profilinizin hangi aramalarda gösterileceğini belirleyen en öne
 Pratik bir yöntem: Google Haritalar’da ana hizmetinizi Denizli ile birlikte aratın ve ilk sıralardaki rakiplerin profiline bakın. Kategori, işletme adının altında yazar. Sizin işinizi en dar ve doğru anlatan kategori hangisiyse onu ana kategori yapın.
 
 Ek kategorileri yalnızca gerçekten yaptığınız işler için ekleyin. Örneğin hem satış hem tamir yapan bir telefoncu, satışı ana kategori, tamiri ek kategori olarak seçebilir. Yapmadığınız bir iş için kategori eklemek, sizi ilgisiz aramalarda gösterir ve aradığını bulamayan müşteriyi hayal kırıklığına uğratır.
+
+> **Hizmet almak için iletişime geçin.** Google İşletme Profili’nizi ve harita görünürlüğünüzü birlikte inceleyelim; ne eksik, neyin düzeltileceğini yazılı söyleyelim. [Yerel SEO hizmetimizi](/yerel-seo/) inceleyin ya da [bize yazın](/iletisim/).
 
 ## İşletme adı, adres ve telefon nasıl yazılmalı?
 
@@ -190,6 +192,8 @@ Olumsuz bir yoruma yanıt verirken:
 Örnek: “Yorumunuz için teşekkür ederiz. Teslimatın gecikmesi için özür dileriz. Sizi arayıp konuyu çözmek isteriz; bize profilimizdeki numaradan da ulaşabilirsiniz.”
 
 Hakaret, reklam ya da müşteriniz olmayan birinin yazdığı bir yorum görürseniz yorumu Google’a bildirin. Yanıtınızda tartışmaya girmeyin.
+
+> **Sizin için de yapalım mı?** Haritada daha görünür olmak istiyorsanız profilinize ve yerel kayıtlarınıza bakıp yapılacakları kalem kalem çıkaralım. [Hizmet almak için iletişime geçin](/iletisim/); ayrıntı için [yerel SEO sayfamıza](/yerel-seo/) göz atabilirsiniz.
 
 ## Gönderiler
 

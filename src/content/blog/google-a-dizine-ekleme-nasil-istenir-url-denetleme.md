@@ -6,7 +6,7 @@ service: teknik-seo
 imageAlt: "Bir adres çubuğu, URL Denetleme kutusu ve dizine ekleme isteği düğmesi"
 ---
 
-**Kısa cevap:** Tek bir sayfa için Search Console’daki URL Denetleme aracına adresi yazıp dizine ekleme (tarama) isteği gönderebilirsiniz; bunun için mülkün sahibi ya da tam kullanıcısı olmanız gerekir. Çok sayıda sayfa için site haritası gönderin. Google, tarama isteğinin dizine eklenmeyi garanti etmediğini, tarama işleminin birkaç gün ile birkaç hafta sürebildiğini ve aynı URL için tekrar istek göndermenin işi hızlandırmadığını söyler.
+Tek bir sayfa için Search Console’daki URL Denetleme aracına adresi yazıp dizine ekleme (tarama) isteği gönderebilirsiniz; bunun için mülkün sahibi ya da tam kullanıcısı olmanız gerekir. Çok sayıda sayfa için site haritası gönderin. Google, tarama isteğinin dizine eklenmeyi garanti etmediğini, tarama işleminin birkaç gün ile birkaç hafta sürebildiğini ve aynı URL için tekrar istek göndermenin işi hızlandırmadığını söyler.
 
 Yeni bir sayfa yayımladığınızda ya da önemli bir sayfayı güncellediğinizde “Google ne zaman görecek?” diye merak edersiniz. Google sayfayı kendiliğinden bulur; ama süreyi kısaltmak için istek gönderebilirsiniz. Bu yazıda isteğin nasıl yapılacağını, sınırlarını ve sayfa dizine girmiyorsa neye bakacağınızı anlatıyoruz. Genel dizin kontrolü için [Search Console’da ilk kontrol](/blog/search-console-ilk-kontrol/) yazımıza da bakabilirsiniz.
 
@@ -35,6 +35,8 @@ Google, URL Denetleme’nin yalnızca birkaç URL için uygun olduğunu, çok sa
 ## Kota ve tekrar isteği
 
 Google, tek tek gönderilen URL’ler için bir kota olduğunu ve aynı URL için birden fazla yeniden tarama isteğinde bulunmanın URL’nin daha hızlı taranmasını sağlamayacağını belirtir. Bu yüzden kotayı önemli sayfalara saklayın: yeni hizmet sayfası, güncellenen iletişim sayfası, yeni ürün gibi.
+
+> **Hizmet almak için iletişime geçin.** Sitenizin dizine eklenme, hız ve mobil durumunu birlikte tarayalım; bulguları öncelik sırasıyla yazılı verelim. [Teknik SEO hizmetimizi](/teknik-seo/) inceleyin ya da [bize yazın](/iletisim/).
 
 ## İstek göndermeden önce kontrol listesi
 
@@ -67,6 +69,8 @@ Google, taramanın birkaç gün ile birkaç hafta sürebileceğini söyler. Sab�
 5. **Yeni siteyi yalnızca isteklerle tanıtmaya çalışmak.** Site haritası ve iç bağlantı daha kalıcıdır.
 6. **İsteği gönderip bir daha bakmamak.**
 
+> **Sizin için de yapalım mı?** Sitenizde teknik bir sorun şüpheniz varsa nedenini sırayla teşhis edelim. [Hizmet almak için iletişime geçin](/iletisim/); çalışmanın kapsamı [teknik SEO sayfamızda](/teknik-seo/) anlatılıyor.
+
 ## Denizli’den bir örnek
 
 Örnek (hayalî bir işletme için): Merkezefendi’de bir halı yıkama firması “Evden halı alım” için yeni bir hizmet sayfası yayımlamış. Bir hafta sonra Google’da sayfa çıkmıyor.
@@ -77,20 +81,30 @@ Kontrol: sayfa 200 dönüyor, noindex yok, canonical doğru; ama menüden hiçbi
 
 Yeni bir site yayımladıysanız tek tek istek göndermek yerine şu sırayı izleyin:
 
-| Gün | İş |
-| --- | --- |
-| 1 | Search Console’a siteyi ekleyin ve doğrulayın |
-| 1 | Site haritasını gönderin; robots.txt’ye satırı ekleyin |
-| 1 | Ana sayfa ve en önemli iki hizmet sayfası için URL Denetleme ile istek |
-| 2–3 | Sayfa dizine ekleme raporuna bakın; hata varsa düzeltin |
-| 7 | Dizindeki sayfa sayısını beklentinizle karşılaştırın |
-| 14 | Dizinde olmayan önemli sayfaları ayrı ayrı inceleyin |
+- **1:** Search Console’a siteyi ekleyin ve doğrulayın
+- **1:** Site haritasını gönderin; robots.txt’ye satırı ekleyin
+- **1:** Ana sayfa ve en önemli iki hizmet sayfası için URL Denetleme ile istek
+- **2–3:** Sayfa dizine ekleme raporuna bakın; hata varsa düzeltin
+- **7:** Dizindeki sayfa sayısını beklentinizle karşılaştırın
+- **14:** Dizinde olmayan önemli sayfaları ayrı ayrı inceleyin
 
 Google, siteniz yeni kullanıma sunulduysa ya da yakın zamanda taşındıysa site haritasının özellikle önemli olduğunu belirtir.
 
 ## İstek yerine neler daha kalıcıdır?
 
 Tek tek istek kısa vadelidir. Kalıcı çözümler: iyi iç bağlantı yapısı, güncel site haritası, hızlı ve hatasız sunucu, düzenli yayımlanan özgün içerik ve başka sitelerden gelen gerçek bağlantılar. İstek yalnızca süreci biraz yakınlaştırmak içindir.
+
+## Dizine ekleme isteğini sürece bağlamak
+
+Yeni bir sayfayı yayımladığınızda şu sırayı izleyin: sayfayı yayımlayın, site haritasında yer aldığından emin olun, URL Denetleme ile durumuna bakın, gerekiyorsa dizine ekleme isteyin ve bir hafta sonra durumu yeniden kontrol edin. Sayfa dizine girmezse nedenini dizin raporundan okuyun: engel mi var, içerik mi zayıf, sayfa yeterince bağlanmış mı? İsteği tekrar tekrar göndermek yerine nedeni düzeltin.
+
+### Birden fazla sayfa için toplu istek gerekir mi?
+
+Genelde gerekmez; site haritası ve iç bağlantılar çoğu sayfanın bulunmasını sağlar.
+
+## İstek kotası ve sabır
+
+Aynı adres için peş peşe istek göndermek hızlandırmaz; isteği bir kez gönderin, bir hafta bekleyin ve nedeni dizin raporundan okuyun.
 
 ## Denizli SEO bu konuda nasıl yardımcı olur?
 

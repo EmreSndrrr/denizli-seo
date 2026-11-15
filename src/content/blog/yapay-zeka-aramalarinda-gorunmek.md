@@ -7,7 +7,7 @@ service: icerik-seo
 imageAlt: "Bir yapay zekâ yanıt kartı ve altında kaynak gösteren üç site"
 ---
 
-**Kısa cevap:** Google’a göre yapay zekâ özetlerinde (AI Overviews) ve AI Mode’da görünmek için ek bir koşul ya da özel bir teknik yok; sayfanın dizine alınmış ve arama sonucunda gösterilmeye uygun olması gerekir. ChatGPT, Perplexity ve Claude ise kendi botlarıyla sitenizi okur. Yapabileceğiniz iş, bilginizi net, doğru, tutarlı ve botların erişebileceği biçimde yayınlamaktır. Kimse bu yanıtlarda görünmeyi garanti edemez.
+Google’a göre yapay zekâ özetlerinde (AI Overviews) ve AI Mode’da görünmek için ek bir koşul ya da özel bir teknik yok; sayfanın dizine alınmış ve arama sonucunda gösterilmeye uygun olması gerekir. ChatGPT, Perplexity ve Claude ise kendi botlarıyla sitenizi okur. Yapabileceğiniz iş, bilginizi net, doğru, tutarlı ve botların erişebileceği biçimde yayınlamaktır. Kimse bu yanıtlarda görünmeyi garanti edemez.
 
 Bu yazıda Google’ın yapay zekâ özelliklerinin kaynakları nasıl bulduğunu, sohbet araçlarının sitenizi hangi botlarla okuduğunu, robots.txt’te neye dikkat etmeniz gerektiğini, nelerin işe yaramadığını ve sonucu nasıl ölçebileceğinizi anlatıyoruz. Sonda Denizli’deki bir işletmenin izleyebileceği somut bir sıra var.
 
@@ -35,17 +35,15 @@ Google’ın güncel optimizasyon rehberi, bunlara ek olarak sitenin Search Cons
 
 Bu araçlar sitenizi kendi botlarıyla okur ve her şirket botlarını kendi belgesinde açıklar. Bazı botlar arama yanıtları için, bazıları yapay zekâ modellerini eğitmek için, bazıları ise bir kullanıcının o anki isteği için sayfayı açar. Aşağıdaki tablo, şirketlerin kendi belgelerine göre hazırlandı.
 
-| Bot | Şirket | Ne için kullanılır? |
-| --- | --- | --- |
-| OAI-SearchBot | OpenAI | ChatGPT’nin arama özelliklerinde siteleri göstermek |
-| GPTBot | OpenAI | Yapay zekâ modellerinin eğitiminde kullanılabilecek içeriği taramak |
-| ChatGPT-User | OpenAI | Kullanıcının ChatGPT’deki isteği üzerine sayfayı açmak |
-| PerplexityBot | Perplexity | Perplexity’nin arama sonuçlarında siteleri göstermek ve bağlantı vermek |
-| Perplexity-User | Perplexity | Kullanıcının sorusu üzerine sayfayı açmak |
-| Claude-SearchBot | Anthropic | Arama yanıtlarının kalitesini artırmak için içeriği dizine almak |
-| ClaudeBot | Anthropic | Model eğitimine katkı sağlayabilecek içeriği toplamak |
-| Claude-User | Anthropic | Kullanıcının Claude’a sorduğu soru üzerine sayfayı açmak |
-| Google-Extended | Google | Gemini modellerinin eğitimi ve Gemini uygulamalarında dayanaklandırma için tercih bildirmek |
+- **OAI-SearchBot:** şirket: OpenAI; ne için kullanılır?: ChatGPT’nin arama özelliklerinde siteleri göstermek
+- **GPTBot:** şirket: OpenAI; ne için kullanılır?: Yapay zekâ modellerinin eğitiminde kullanılabilecek içeriği taramak
+- **ChatGPT-User:** şirket: OpenAI; ne için kullanılır?: Kullanıcının ChatGPT’deki isteği üzerine sayfayı açmak
+- **PerplexityBot:** şirket: Perplexity; ne için kullanılır?: Perplexity’nin arama sonuçlarında siteleri göstermek ve bağlantı vermek
+- **Perplexity-User:** şirket: Perplexity; ne için kullanılır?: Kullanıcının sorusu üzerine sayfayı açmak
+- **Claude-SearchBot:** şirket: Anthropic; ne için kullanılır?: Arama yanıtlarının kalitesini artırmak için içeriği dizine almak
+- **ClaudeBot:** şirket: Anthropic; ne için kullanılır?: Model eğitimine katkı sağlayabilecek içeriği toplamak
+- **Claude-User:** şirket: Anthropic; ne için kullanılır?: Kullanıcının Claude’a sorduğu soru üzerine sayfayı açmak
+- **Google-Extended:** şirket: Google; ne için kullanılır?: Gemini modellerinin eğitimi ve Gemini uygulamalarında dayanaklandırma için tercih bildirmek
 
 Bu belgelerdeki önemli ayrıntılar şunlar:
 
@@ -53,6 +51,8 @@ Bu belgelerdeki önemli ayrıntılar şunlar:
 - **Perplexity**, PerplexityBot’un yapay zekâ modellerini eğitmek için kullanılmadığını, sitenin aramalarında görünmesi için bu bota izin verilmesini önerdiğini yazıyor. Perplexity-User ise kullanıcı isteğiyle çalıştığı için genellikle robots.txt kurallarını dikkate almıyor ([Perplexity: tarayıcılar](https://docs.perplexity.ai/docs/resources/perplexity-crawlers)).
 - **Anthropic**, Claude-SearchBot’u ya da Claude-User’ı engellemenin sitenin kullanıcı aramalarındaki görünürlüğünü azaltabileceğini, ClaudeBot’u engellemenin ise sitenin gelecekteki içeriğinin eğitim verisinden çıkarılması isteği olduğunu yazıyor ([Anthropic: tarayıcılar](https://support.claude.com/en/articles/8896518-does-anthropic-crawl-data-from-the-web-and-how-can-site-owners-block-the-crawler)).
 - **Google**, Google-Extended ayarının sitenin Google Arama’ya dahil edilmesini etkilemediğini ve Arama’da sıralama sinyali olarak kullanılmadığını yazıyor ([Google: yaygın tarayıcılar](https://developers.google.com/crawling/docs/crawlers-fetchers/google-common-crawlers?hl=tr)).
+
+> **Hizmet almak için iletişime geçin.** Müşterilerinizin sorduğu sorulardan bir içerik planı çıkaralım ve sayfalarınızı birlikte yazalım. [İçerik SEO hizmetimizi](/icerik-seo/) inceleyin ya da [bize yazın](/iletisim/).
 
 ## robots.txt’te hangi botlara izin vermeliyim?
 
@@ -93,6 +93,8 @@ Google’ın optimizasyon rehberi, internette dolaşan bazı “yapay zekâ takt
 - **Her soru biçimine ayrı sayfa açmak.** Google, aramaların her olası biçimi için ayrı içerik üretmenin, bunu sıralamayı ya da yapay zekâ yanıtlarını etkilemek için yaptığınızda “ölçekli içerik kötüye kullanımı” spam politikasını ihlal ettiğini yazıyor.
 - **Yapay “anılma” kampanyaları.** Google, sahte yollarla web’de adınızın geçmesini sağlamanın sanıldığı kadar faydalı olmadığını belirtiyor. Gerçek itibar, gerçek iş ve gerçek müşteriyle gelir.
 - **İç verilere eriştiğini söyleyen araçlar.** Google, hiçbir üçüncü taraf aracın kendi iç sıralama ya da yapay zekâ sistemlerine erişimi olmadığını yazıyor.
+
+> **Sizin için de yapalım mı?** Sayfalarınızın ve yazılarınızın neden yeterince işe yaramadığına birlikte bakalım. [Hizmet almak için iletişime geçin](/iletisim/); yöntemimiz [içerik SEO sayfamızda](/icerik-seo/) yazılı.
 
 ## Yapay zekâ özetlerinde görünüp görünmediğimi nasıl ölçerim?
 

@@ -6,7 +6,7 @@ service: teknik-seo
 imageAlt: "Düşen bir trafik grafiği ve altında teşhis adımları"
 ---
 
-**Kısa cevap:** Trafik düştüğünde önce düşüşün kalıbına bakın: ne zaman başladı, ani mi kademeli mi, hangi sayfa ve sorgular etkilendi, gösterim mi tıklama mı düştü? Google’ın rehberi başlıca nedenleri şöyle sıralar: teknik sorunlar, güvenlik sorunları, spam sorunları ve manuel işlem, algoritma güncellemeleri, sezona bağlı değişiklikler ve raporlama hataları. Önce raporlama ve mevsim gibi zararsız nedenleri eleyin, sonra teknik ve diğer nedenlere geçin; panikle siteyi değiştirmeyin.
+Trafik düştüğünde önce düşüşün kalıbına bakın: ne zaman başladı, ani mi kademeli mi, hangi sayfa ve sorgular etkilendi, gösterim mi tıklama mı düştü? Google’ın rehberi başlıca nedenleri şöyle sıralar: teknik sorunlar, güvenlik sorunları, spam sorunları ve manuel işlem, algoritma güncellemeleri, sezona bağlı değişiklikler ve raporlama hataları. Önce raporlama ve mevsim gibi zararsız nedenleri eleyin, sonra teknik ve diğer nedenlere geçin; panikle siteyi değiştirmeyin.
 
 “Trafiğim düştü” cümlesi, bir işletme sahibinin en endişeli anıdır; ama tek bir neden yoktur. Google, arama trafiği düşüşlerini ayıklamak için kendi rehberini yayımlar ve Search Console Performans raporunun ana grafiğiyle başlamayı önerir. Bu yazıda o rehberi adım adım, küçük bir işletme için uyarlıyoruz. Search Console’u tanımak için [Search Console’da ilk kontrol](/blog/search-console-ilk-kontrol/) yazımıza bakın.
 
@@ -49,6 +49,8 @@ Google’ın tanımına göre teknik sorunlar, Google’ın sayfalarınızı tar
 
 Google, siteniz kötü amaçlı yazılım ya da kimlik avı gibi bir güvenlik tehdidinden etkilenmişse kullanıcıları sitenize ulaşmadan önce uyarılar ya da ara sayfalarla uyarabileceğini ve bunun arama trafiğini azaltabileceğini belirtir. Search Console’daki Güvenlik Sorunları raporunu kontrol edin. Sitenizde tanımadığınız sayfalar, garip yönlendirmeler ya da arama sonuçlarında ilgisiz başlıklar görüyorsanız barındırma firmanızla hemen görüşün.
 
+> **Hizmet almak için iletişime geçin.** Sitenizin dizine eklenme, hız ve mobil durumunu birlikte tarayalım; bulguları öncelik sırasıyla yazılı verelim. [Teknik SEO hizmetimizi](/teknik-seo/) inceleyin ya da [bize yazın](/iletisim/).
+
 ## 4. Spam sorunları ve manuel işlem
 
 Google, spam politikalarını ihlal eden uygulamaları hem otomatik sistemlerle hem gerektiğinde gerçek kişilerce yapılan incelemelerle tespit ettiğini, bu ihlaller sonucunda manuel işlem uygulanabileceğini ve ihlal eden sitelerin sonuçlarda daha alt sıralarda yer alabileceğini ya da hiç görünmeyebileceğini söyler. Search Console’daki Manuel İşlemler raporunu kontrol edin. Satın alınmış bağlantı gibi bir geçmişiniz varsa bkz. [backlink satın almak](/blog/backlink-satin-almak-riskleri/).
@@ -75,18 +77,20 @@ Google’ın rehberi, en iyi sayfalarınızın sıralamasına bakmanızı öneri
 6. **Güncellemeyle örtüşüyor mu?** Evet → içerik ve kalite değerlendirmesi, aceleyle değişiklik yapmayın.
 7. **Hiçbiri değilse?** Rakipler, içerik eskimesi ve talep değişimi gibi daha yavaş etkenlere bakın.
 
+> **Sizin için de yapalım mı?** Sitenizde teknik bir sorun şüpheniz varsa nedenini sırayla teşhis edelim. [Hizmet almak için iletişime geçin](/iletisim/); çalışmanın kapsamı [teknik SEO sayfamızda](/teknik-seo/) anlatılıyor.
+
 ## Teşhis tablosu şablonu
 
-| Kontrol | Sonuç | Not |
-| --- | --- | --- |
-| Veri anormalliği var mı? | | |
-| Mevsimsel mi? (geçen yıl) | | |
-| Site açılıyor, sunucu hatası yok mu? | | |
-| robots.txt ve noindex doğru mu? | | |
-| Önemli sayfalar dizinde mi? | | |
-| Güvenlik sorunu raporu | | |
-| Manuel işlem raporu | | |
-| Güncelleme tarihleriyle örtüşme | | |
+Şunları tek tek kontrol edin:
+
+- Veri anormalliği var mı?
+- Mevsimsel mi? (geçen yıl)
+- Site açılıyor, sunucu hatası yok mu?
+- robots.txt ve noindex doğru mu?
+- Önemli sayfalar dizinde mi?
+- Güvenlik sorunu raporu
+- Manuel işlem raporu
+- Güncelleme tarihleriyle örtüşme
 
 ## Denizli’den bir örnek
 

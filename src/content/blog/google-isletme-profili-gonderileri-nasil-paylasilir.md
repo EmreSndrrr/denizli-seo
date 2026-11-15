@@ -6,7 +6,7 @@ service: yerel-seo
 imageAlt: "Bir profil kartında duyuru, teklif ve etkinlik gönderisi örnekleri"
 ---
 
-**Kısa cevap:** Gönderiyi, İşletme Profili yönetim ekranında Yayınlar bölümünden Yayın ekle ile paylaşırsınız. Google yardım sayfalarında bu özelliğe “duyuru” der; üç türü vardır: güncelleme, teklif ve etkinlik. Metin, fotoğraf, video ve bir işlem düğmesi ekleyebilir, duyuruyu planlayıp yineletebilirsiniz. Tarih aralığı belirlenmeyen duyurular 6 aydan sonra arşivlenir.
+Gönderiyi, İşletme Profili yönetim ekranında Yayınlar bölümünden Yayın ekle ile paylaşırsınız. Google yardım sayfalarında bu özelliğe “duyuru” der; üç türü vardır: güncelleme, teklif ve etkinlik. Metin, fotoğraf, video ve bir işlem düğmesi ekleyebilir, duyuruyu planlayıp yineletebilirsiniz. Tarih aralığı belirlenmeyen duyurular 6 aydan sonra arşivlenir.
 
 Gönderiler, profilin “canlı” olduğunu gösteren ve müşteriye güncel bilgi veren küçük içeriklerdir: bir kampanya, yeni bir ürün, tatil saati, etkinlik. Bu yazıda gönderi türlerini, nasıl yayımlanacağını, ne yazılacağını ve düzenli paylaşım için basit bir takvimi anlatıyoruz. Profilin geri kalanını tamamlamak için [Google İşletme Profili nasıl doldurulur?](/blog/google-isletme-profili-nasil-doldurulur/) yazımıza bakabilirsiniz.
 
@@ -53,17 +53,17 @@ Birden fazla profiliniz varsa duyuruyu birkaç profilde birden yayımlayabilir y
 
 Google, tarih aralığı belirlenmediği takdirde 6 aydan eski duyuruların arşivlendiğini belirtir. Etkinliğin başlangıç ya da bitiş zamanı yazılmazsa etkinlik, ilgili tarihlerde 24 saat sürecek şekilde gösterilir. Bu yüzden teklif ve etkinlik için tarih aralığını açıkça girin; süresi geçen duyurunun görünür kalması müşteriyi yanıltır.
 
+> **Hizmet almak için iletişime geçin.** Google İşletme Profili’nizi ve harita görünürlüğünüzü birlikte inceleyelim; ne eksik, neyin düzeltileceğini yazılı söyleyelim. [Yerel SEO hizmetimizi](/yerel-seo/) inceleyin ya da [bize yazın](/iletisim/).
+
 ## Ne paylaşılır? Gönderi fikirleri
 
-| Tür | Fikir | Örnek (hayalî) |
-| --- | --- | --- |
-| Güncelleme | Yeni ürün ya da hizmet | “Yeni sezon altın bilezik koleksiyonumuz vitrinde.” |
-| Güncelleme | Çalışma saati değişikliği | “Bayramda 3 gün kapalıyız; 4. gün açılıyoruz.” |
-| Güncelleme | Ekip ya da yenilik | “Servis ekibimize yeni teknisyen katıldı.” |
-| Güncelleme | Sık sorulan soru | “Klima bakımı yılda kaç kez yapılmalı?” kısa cevap |
-| Teklif | Mevsimsel kampanya | “Yaz öncesi klima bakım kampanyası: tarihler” |
-| Etkinlik | Fuar ya da açılış | “Yeni şubemizin açılışı: tarih ve saat” |
-| Güncelleme | İşten örnek | “Bu hafta teslim ettiğimiz bir iş” (izinle fotoğraf) |
+- **Güncelleme:** fikir: Yeni ürün ya da hizmet; örnek (hayalî): “Yeni sezon altın bilezik koleksiyonumuz vitrinde.”
+- **Güncelleme:** fikir: Çalışma saati değişikliği; örnek (hayalî): “Bayramda 3 gün kapalıyız; 4. gün açılıyoruz.”
+- **Güncelleme:** fikir: Ekip ya da yenilik; örnek (hayalî): “Servis ekibimize yeni teknisyen katıldı.”
+- **Güncelleme:** fikir: Sık sorulan soru; örnek (hayalî): “Klima bakımı yılda kaç kez yapılmalı?” kısa cevap
+- **Teklif:** fikir: Mevsimsel kampanya; örnek (hayalî): “Yaz öncesi klima bakım kampanyası: tarihler”
+- **Etkinlik:** fikir: Fuar ya da açılış; örnek (hayalî): “Yeni şubemizin açılışı: tarih ve saat”
+- **Güncelleme:** fikir: İşten örnek; örnek (hayalî): “Bu hafta teslim ettiğimiz bir iş” (izinle fotoğraf)
 
 Gönderi yazarken tek bir fikir, bir fotoğraf ve kısa bir cümle yeter. Uzun metin gerekmez.
 
@@ -84,18 +84,18 @@ Sıklık için Google bir kural koymuyor. Küçük bir işletme için ayda birka
 
 ## Aylık gönderi takvimi örneği
 
-| Hafta | Gönderi |
-| --- | --- |
-| 1. hafta | Güncelleme: yeni ürün ya da hizmet |
-| 2. hafta | Güncelleme: sık sorulan soru ve kısa cevap |
-| 3. hafta | Güncelleme: bir iş örneği (izinle) |
-| 4. hafta | Teklif ya da etkinlik (varsa); yoksa saat ve hatırlatma |
+- **1. hafta:** Güncelleme: yeni ürün ya da hizmet
+- **2. hafta:** Güncelleme: sık sorulan soru ve kısa cevap
+- **3. hafta:** Güncelleme: bir iş örneği (izinle)
+- **4. hafta:** Teklif ya da etkinlik (varsa); yoksa saat ve hatırlatma
 
 Mevsime ve işe göre uyarlayın. Turizm işletmeleri için sezon başı, bayram ve tatil duyuruları; servis işletmeleri için mevsim öncesi bakım hatırlatmaları işe yarar.
 
 ## Gönderi performansı nasıl izlenir?
 
 Gönderinin etkisini profilin Performans bölümündeki genel rakamlarla (görüntüleme, arama, yol tarifi, site tıklaması) birlikte izleyin. Tek bir gönderinin etkisini ayırmak zor olabilir; ama düzenli paylaşım yaptığınız dönemde etkileşimin değişip değişmediğine bakabilirsiniz. İşlem düğmesinin bağlantısına `utm` benzeri bir izleme parametresi ekleyip sitenizde bu tıklamaları ayırabilirsiniz; teknik bilgi gerektirir.
+
+> **Sizin için de yapalım mı?** Haritada daha görünür olmak istiyorsanız profilinize ve yerel kayıtlarınıza bakıp yapılacakları kalem kalem çıkaralım. [Hizmet almak için iletişime geçin](/iletisim/); ayrıntı için [yerel SEO sayfamıza](/yerel-seo/) göz atabilirsiniz.
 
 ## Gönderiler sıralamayı yükseltir mi?
 

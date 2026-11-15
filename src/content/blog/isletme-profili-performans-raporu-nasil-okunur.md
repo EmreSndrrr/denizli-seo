@@ -6,7 +6,7 @@ service: yerel-seo
 imageAlt: "Görüntüleme, arama ve yol tarifi sayılarını gösteren bir rapor paneli"
 ---
 
-**Kısa cevap:** İşletme Profili’nin Performans bölümü, profilinizin kaç kez görüntülendiğini, hangi aramalarda bulunduğunuzu ve kaç kişinin sizi aradığını, yol tarifi istediğini ya da sitenize tıkladığını gösterir. Rakamları tek bir günle değil, aylık olarak ve aynı uzunluktaki dönemlerle karşılaştırın. Görüntülemeden çok, arama ve yol tarifi gibi eylem sayılarına bakın; çünkü işinize yarayan, görüntüleme değil eylemdir.
+İşletme Profili’nin Performans bölümü, profilinizin kaç kez görüntülendiğini, hangi aramalarda bulunduğunuzu ve kaç kişinin sizi aradığını, yol tarifi istediğini ya da sitenize tıkladığını gösterir. Rakamları tek bir günle değil, aylık olarak ve aynı uzunluktaki dönemlerle karşılaştırın. Görüntülemeden çok, arama ve yol tarifi gibi eylem sayılarına bakın; çünkü işinize yarayan, görüntüleme değil eylemdir.
 
 Performans bölümü, yaptığınız profil çalışmasının işe yarayıp yaramadığını görmenin en kolay yoludur. Ama rakamlar yanıltıcı olabilir: sezon, bayram, kampanya ve hava durumu bile sayıları değiştirir. Bu yazıda raporun hangi göstergeleri sunduğunu, nasıl yorumlanacağını ve aylık bir karşılaştırma tablosunu anlatıyoruz. Profil kurulumu için [Google İşletme Profili nasıl doldurulur?](/blog/google-isletme-profili-nasil-doldurulur/) yazımıza bakabilirsiniz.
 
@@ -40,14 +40,14 @@ Rapor size sebep söylemez; yalnızca ne olduğunu gösterir. Sebebi siz araşt�
 
 Her ay sonunda şu tabloyu doldurun:
 
-| Gösterge | Geçen ay | Bu ay | Fark | Not (neden olabilir?) |
-| --- | --- | --- | --- | --- |
-| Profil görüntüleme | | | | |
-| Telefon araması | | | | |
-| Yol tarifi isteği | | | | |
-| Site tıklaması | | | | |
-| Yeni yorum sayısı | | | | |
-| Yorum puanı | | | | |
+Şunları tek tek kontrol edin:
+
+- Profil görüntüleme
+- Telefon araması
+- Yol tarifi isteği
+- Site tıklaması
+- Yeni yorum sayısı
+- Yorum puanı
 
 “Not” sütunu önemlidir: bayram, kampanya, profil değişikliği ya da gönderi gibi etkenleri yazın. Altı ay sonra bu notlar, neyin işe yaradığını gösterir.
 
@@ -59,6 +59,8 @@ Raporun arama sorguları bölümü, profilin hangi aramalarda bulunduğunu göst
 - **Beklemediğiniz aramalar var mı?** İlgisiz bir arama çıkıyorsa kategori ya da hizmet bilgisi yanlış olabilir.
 
 Sorgulara bakarak profilinizin hizmet listesini ve açıklamasını iyileştirebilirsiniz.
+
+> **Hizmet almak için iletişime geçin.** Google İşletme Profili’nizi ve harita görünürlüğünüzü birlikte inceleyelim; ne eksik, neyin düzeltileceğini yazılı söyleyelim. [Yerel SEO hizmetimizi](/yerel-seo/) inceleyin ya da [bize yazın](/iletisim/).
 
 ## Görüntüleme yüksek, arama düşükse ne yapılır?
 
@@ -79,17 +81,17 @@ Her yol tarifi ya da arama satışa dönüşmez; ama güçlü bir niyet işareti
 
 ## Sık yapılan yanılgılar
 
-| Yanılgı | Gerçek |
-| --- | --- |
-| “Görüntüleme arttı, başarılıyız.” | Görüntüleme yetmez; arama ve yol tarifi de artmalı |
-| “Bir gün düştü, sorun var.” | Tek günlük dalgalanma anlamsızdır; trend izleyin |
-| “Bu ay yaz sezonu, geçen ayla kıyaslayayım.” | Mevsim farkı; geçen yılın aynı ayıyla karşılaştırın |
-| “Rakamlar sıramı gösterir.” | Performans bölümü sıra değil, kullanıcı davranışını gösterir |
-| “Reklam verince rakamlar arttı, SEO işe yaradı.” | Reklam rakamları karıştırabilir; dönemleri ayrı not edin |
+- **“Görüntüleme arttı, başarılıyız.”:** Görüntüleme yetmez; arama ve yol tarifi de artmalı
+- **“Bir gün düştü, sorun var.”:** Tek günlük dalgalanma anlamsızdır; trend izleyin
+- **“Bu ay yaz sezonu, geçen ayla kıyaslayayım.”:** Mevsim farkı; geçen yılın aynı ayıyla karşılaştırın
+- **“Rakamlar sıramı gösterir.”:** Performans bölümü sıra değil, kullanıcı davranışını gösterir
+- **“Reklam verince rakamlar arttı, SEO işe yaradı.”:** Reklam rakamları karıştırabilir; dönemleri ayrı not edin
 
 ## Sezon etkisini nasıl ayıklarsınız?
 
 Eğer en az bir yıllık veriniz varsa, geçen yılın aynı ayıyla karşılaştırın. Yeni bir profilseniz, önce kendi “taban çizginizi” oluşturun: üç ay boyunca rakamları not edin ve değişiklik yaptığınız tarihleri işaretleyin. Bayram, okul tatili ve yaz sezonu gibi bilinen dönemleri takvime yazın.
+
+> **Sizin için de yapalım mı?** Haritada daha görünür olmak istiyorsanız profilinize ve yerel kayıtlarınıza bakıp yapılacakları kalem kalem çıkaralım. [Hizmet almak için iletişime geçin](/iletisim/); ayrıntı için [yerel SEO sayfamıza](/yerel-seo/) göz atabilirsiniz.
 
 ## Raporu kimlerle paylaşmalısınız?
 
@@ -117,6 +119,10 @@ Bu sorulara cevap veremeyen bir rapor, sadece sayı listesidir; sorulara cevap v
 ## Çok şubeli işletmelerde rapor
 
 Her şubenin raporu ayrıdır. Şubeleri yan yana koyup karşılaştırın: hangi şubenin yol tarifi sayısı yüksek, hangisinin araması düşük? Düşük olan şubede fotoğraf, saat, yorum ya da telefon gibi eksikleri kontrol edin. Şubeleri toplayıp tek rakam olarak okumak, sorunlu şubeyi gizler. Çok şubeli yerel SEO düzeni için [birden fazla şubeli işletmeler](/blog/birden-fazla-subeli-isletmeler-icin-yerel-seo/) yazımıza bakın.
+
+## Raporu aylık notla birleştirin
+
+Her ay rapordan üç sayıyı (arama, yol tarifi, site tıklaması) ve yaptığınız profil değişikliklerini not edin. Üç ay sonra hangi değişikliğin hangi etkileşimle aynı döneme denk geldiğini görürsünüz.
 
 ## Denizli SEO bu konuda nasıl yardımcı olur?
 
@@ -154,6 +160,14 @@ Hayır. Performans bölümü yalnızca kendi profilinizin verilerini gösterir.
 ### Performans raporu sıralama garantisi mi verir?
 
 Hayır. Rapor, profilin nasıl kullanıldığını gösterir; sıra için garanti vermez.
+
+### Profil raporunda düşüş görürsem ne yapmalıyım?
+
+Önce mevsimselliği ve profil değişikliklerini kontrol edin; sonra çalışma saatleri, kategori ve yorumlara bakın. Tek aylık dalgalanmaya göre karar vermeyin.
+
+### Rapordaki sayılar gerçek müşteri sayısı mıdır?
+
+Hayır; eylemleri gösterir. Gerçek müşteri sayısını kendi kaydınızdan takip edin.
 
 ## Kaynaklar
 

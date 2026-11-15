@@ -6,7 +6,7 @@ service: teknik-seo
 imageAlt: "İki ayrı teklif kartı ve aralarında bir karşılaştırma tablosu"
 ---
 
-**Kısa cevap:** Küçük ve net işler için, örneğin bir site denetimi ya da İşletme Profili düzenlemesi için, bağımsız bir SEO uzmanı yeterli olabilir. Teknik, içerik ve bağlantı işlerinin birlikte yürüdüğü sürekli çalışma için ajans daha uygundur. Hangisini seçerseniz seçin, referans, yazılı kapsam ve ölçüm yöntemi isteyin. Google da birinci sıra garantisi verenlere karşı uyarır.
+Küçük ve net işler için, örneğin bir site denetimi ya da İşletme Profili düzenlemesi için, bağımsız bir SEO uzmanı yeterli olabilir. Teknik, içerik ve bağlantı işlerinin birlikte yürüdüğü sürekli çalışma için ajans daha uygundur. Hangisini seçerseniz seçin, referans, yazılı kapsam ve ölçüm yöntemi isteyin. Google da birinci sıra garantisi verenlere karşı uyarır.
 
 SEO desteği arayan bir işletmenin önünde üç yol var: bağımsız bir uzman, bir ajans ya da şirket içinde bir kişi. Bu yazı, seçeneklerin farkını, görüşmede neye bakacağınızı ve hangi işaretlerde uzak durmanız gerektiğini anlatıyor. Fiyat konusunu ayrı bir yazıda ele aldık: [SEO fiyatları neye göre değişir?](/blog/seo-fiyatlari/)
 
@@ -43,6 +43,8 @@ Google, bu konuda kendi rehberini yayımlıyor ([SEO’ya mı ihtiyacınız var?
 
 Rehber ayrıca uzmana sorulabilecek sorular listeler. Aşağıda onları bir kontrol listesine çevirdik.
 
+> **Hizmet almak için iletişime geçin.** Sitenizin dizine eklenme, hız ve mobil durumunu birlikte tarayalım; bulguları öncelik sırasıyla yazılı verelim. [Teknik SEO hizmetimizi](/teknik-seo/) inceleyin ya da [bize yazın](/iletisim/).
+
 ## SEO uzmanıyla ilk görüşmede neler sorulmalı?
 
 Aşağıdaki sorular, Google’ın önerdiği soruların uyarlamasıdır. Her cevabı yazılı isteyin:
@@ -73,14 +75,12 @@ Aşağıdakilerden biri görüşmede çıkarsa durup düşünün:
 
 İki ya da üç teklif aldığınızda fiyatı değil, aşağıdaki kriterleri yan yana koyun:
 
-| Kriter | İyi işaret | Zayıf işaret |
-| --- | --- | --- |
-| Kapsam | İşler tek tek yazılı | “SEO paketi” gibi tek satır |
-| Ölçüm | Gösterim, tıklama ve talep sayısı | Yalnızca sıra ya da puan |
-| Yöntem | Hangi işin neden yapıldığı açıklanıyor | “Teknik sır” |
-| Erişim | Hesaplar sizde, ajans yönetici | Hesaplar ajansın adına |
-| Süre | Başlangıç ve çıkış şartı açık | Uzun, çıkışı olmayan sözleşme |
-| Referans | Telefonla doğrulanabilir müşteri | Yalnızca ekran görüntüsü |
+- **Kapsam:** i̇yi işaret: İşler tek tek yazılı; zayıf işaret: “SEO paketi” gibi tek satır
+- **Ölçüm:** i̇yi işaret: Gösterim, tıklama ve talep sayısı; zayıf işaret: Yalnızca sıra ya da puan
+- **Yöntem:** i̇yi işaret: Hangi işin neden yapıldığı açıklanıyor; zayıf işaret: “Teknik sır”
+- **Erişim:** i̇yi işaret: Hesaplar sizde, ajans yönetici; zayıf işaret: Hesaplar ajansın adına
+- **Süre:** i̇yi işaret: Başlangıç ve çıkış şartı açık; zayıf işaret: Uzun, çıkışı olmayan sözleşme
+- **Referans:** i̇yi işaret: Telefonla doğrulanabilir müşteri; zayıf işaret: Yalnızca ekran görüntüsü
 
 Bu tabloda en çok “zayıf işaret” alan teklif, en ucuz olsa bile pahalıya gelebilir.
 
@@ -96,6 +96,8 @@ Sözleşme kısa ama net olsun. Şu altı madde çoğu işletme için yeterli bi
 6. **Gizlilik ve veri:** Sitenize ve müşteri verilerinize erişimin nasıl yönetileceği.
 
 Sözleşmede “ilk sayfa” ya da “birinci sıra” gibi bir taahhüt görürseniz imzalamadan önce açıklama isteyin.
+
+> **Sizin için de yapalım mı?** Sitenizde teknik bir sorun şüpheniz varsa nedenini sırayla teşhis edelim. [Hizmet almak için iletişime geçin](/iletisim/); çalışmanın kapsamı [teknik SEO sayfamızda](/teknik-seo/) anlatılıyor.
 
 ## Yerel ajans mı, başka şehirden ajans mı?
 

@@ -6,7 +6,7 @@ service: teknik-seo
 imageAlt: "Bir sayfa kartının üzerinde çizili göz ve noindex etiketi"
 ---
 
-**Kısa cevap:** noindex, arama motorlarına bir sayfayı dizine eklememelerini söyleyen kuraldır. Sayfanın `<head>` bölümüne `<meta name="robots" content="noindex">` etiketi ya da HTTP yanıtına `X-Robots-Tag: noindex` başlığı eklenir. Google bu kuralı gördüğünde sayfayı arama sonuçlarından tamamen çıkarır. Kuralın çalışması için sayfa robots.txt ile engellenmemeli ve taranabilir olmalıdır. Yayında unutulan noindex, bir sitenin aylarca görünmemesine yol açabilir.
+noindex, arama motorlarına bir sayfayı dizine eklememelerini söyleyen kuraldır. Sayfanın `<head>` bölümüne `<meta name="robots" content="noindex">` etiketi ya da HTTP yanıtına `X-Robots-Tag: noindex` başlığı eklenir. Google bu kuralı gördüğünde sayfayı arama sonuçlarından tamamen çıkarır. Kuralın çalışması için sayfa robots.txt ile engellenmemeli ve taranabilir olmalıdır. Yayında unutulan noindex, bir sitenin aylarca görünmemesine yol açabilir.
 
 noindex, doğru kullanıldığında yararlı, yanlış kullanıldığında yıkıcı bir araçtır. Teşekkür sayfası, iç arama sonuçları ya da yönetim sayfaları gibi arama sonuçlarında istemediğiniz sayfalar için kullanılır; ama bir hizmet sayfanızda kalırsa o sayfa Google’da asla çıkmaz. Bu yazıda noindex’in ne olduğunu, nasıl eklendiğini, ne zaman kullanılması gerektiğini ve yanlışlıkla kalanı nasıl bulacağınızı anlatıyoruz. Genel dizin durumu için [Search Console’da ilk kontrol](/blog/search-console-ilk-kontrol/) yazımıza bakabilirsiniz.
 
@@ -61,6 +61,8 @@ Arama sonuçlarında görünmesini istemediğiniz ve müşteriye yararı olmayan
 
 Kural: **Müşterinin bulmasını istediğiniz hiçbir sayfada noindex olmamalı.**
 
+> **Hizmet almak için iletişime geçin.** Sitenizin dizine eklenme, hız ve mobil durumunu birlikte tarayalım; bulguları öncelik sırasıyla yazılı verelim. [Teknik SEO hizmetimizi](/teknik-seo/) inceleyin ya da [bize yazın](/iletisim/).
+
 ## Ne zaman noindex kullanılmaz?
 
 - **Hizmet, ürün ve iletişim sayfalarında.** Bunlar sizi müşteriye getiren sayfalardır.
@@ -90,6 +92,8 @@ Google’ın yardım sayfasına göre URL Denetleme aracı, bir URL’nin Google
 
 Google’ın yeniden taramasına ve dizine eklemesine bağlı; kesin süre veremeyiz. Sayfayı yeniden taramak için Search Console’dan istek gönderebilirsiniz; ama istek garanti vermez. Düzeltmeden sonra birkaç gün ile birkaç hafta arasında takip edin. Süre konusunda genel çerçeve için [SEO ne kadar sürede sonuç verir?](/blog/seo-ne-kadar-surede-sonuc-verir/) yazımıza bakın.
 
+> **Sizin için de yapalım mı?** Sitenizde teknik bir sorun şüpheniz varsa nedenini sırayla teşhis edelim. [Hizmet almak için iletişime geçin](/iletisim/); çalışmanın kapsamı [teknik SEO sayfamızda](/teknik-seo/) anlatılıyor.
+
 ## Denizli’den bir örnek
 
 Örnek (hayalî bir işletme için): Sarayköy’de bir inşaat malzemesi bayisi, yeni sitesini yaptırmış ve altı aydır hiçbir sayfası Google’da çıkmıyor. İnceleme: ana sayfa kaynağında `<meta name="robots" content="noindex">` bulunuyor; sistem ayarlarında “arama motorlarını engelle” seçeneği geliştirme sırasında işaretlenmiş ve yayında kapatılmamış.
@@ -100,13 +104,11 @@ Düzeltme sırası: ayar kapatılıyor, sayfa kaynağında noindex’in kalktı�
 
 Bir sayfa için karar verirken şu soruları sorun:
 
-| Soru | Cevap evet ise | Cevap hayır ise |
-| --- | --- | --- |
-| Müşteri bu sayfayı Google’da bulmalı mı? | noindex kullanmayın | noindex düşünün |
-| Sayfa yalnızca işlem sonrası görüntüleniyor mu? | noindex uygun | — |
-| Sayfa başka bir sayfanın kopyası mı? | noindex yerine canonical ya da yönlendirme | — |
-| Sayfa gizli bilgi içeriyor mu? | Şifre koruması gerekir | — |
-| Sayfayı gelecekte yayınlayacak mıyım? | Geçici noindex; yayında kaldır | — |
+- **Müşteri bu sayfayı Google’da bulmalı mı?:** cevap evet ise: noindex kullanmayın; cevap hayır ise: noindex düşünün
+- **Sayfa yalnızca işlem sonrası görüntüleniyor mu?:** cevap evet ise: noindex uygun; cevap hayır ise: —
+- **Sayfa başka bir sayfanın kopyası mı?:** cevap evet ise: noindex yerine canonical ya da yönlendirme; cevap hayır ise: —
+- **Sayfa gizli bilgi içeriyor mu?:** cevap evet ise: Şifre koruması gerekir; cevap hayır ise: —
+- **Sayfayı gelecekte yayınlayacak mıyım?:** cevap evet ise: Geçici noindex; yayında kaldır; cevap hayır ise: —
 
 Karar kuralı basit: bir sayfanın müşteriye getirisi varsa noindex koymayın; yoksa koyabilirsiniz.
 

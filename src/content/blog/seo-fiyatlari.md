@@ -6,7 +6,7 @@ service: teknik-seo
 imageAlt: "Üç SEO teklifini yan yana karşılaştıran kartlar"
 ---
 
-**Kısa cevap:** SEO fiyatı sabit bir liste değildir; sitenizin bugünkü durumuna, hedeflediğiniz aramaların rekabetine ve işin kapsamına göre değişir. Teklifler genellikle aylık sabit ücret, tek seferlik proje ya da saatlik danışmanlık biçiminde gelir. Rakama değil, kapsama bakın: ne yapılacak, ne zaman, nasıl ölçülecek. Sıralama garantisi veren teklif, fiyatı ne olursa olsun risklidir.
+SEO fiyatı sabit bir liste değildir; sitenizin bugünkü durumuna, hedeflediğiniz aramaların rekabetine ve işin kapsamına göre değişir. Teklifler genellikle aylık sabit ücret, tek seferlik proje ya da saatlik danışmanlık biçiminde gelir. Rakama değil, kapsama bakın: ne yapılacak, ne zaman, nasıl ölçülecek. Sıralama garantisi veren teklif, fiyatı ne olursa olsun risklidir.
 
 “SEO fiyatları” diye aratan biri çoğunlukla tek bir rakam arar. Bu yazıda rakam vermiyoruz, çünkü bir listedeki rakam sizin sitenize uymaz. Onun yerine teklifleri karşılaştırmanızı sağlayacak bir çerçeve veriyoruz: fiyatlandırma modelleri, fiyatı değiştiren etkenler, teklifte olması gerekenler ve bütçeyi belirleme yöntemi.
 
@@ -50,14 +50,14 @@ Teklif aldığınızda aradaki farkın çoğu şu etkenlerden gelir:
 
 ### Yerel işletme ile e-ticaret arasındaki fark
 
-| İşletme türü | İşin ağırlığı | Fiyatı artıran unsurlar |
-| --- | --- | --- |
-| Tek şubeli yerel işletme | İşletme Profili, hizmet sayfaları, yorumlar, ilçe bazlı içerik | Birden çok ilçeye hizmet, çok sayıda hizmet |
-| Hizmet sektörü, birkaç şube | Her şube için ayrı profil ve sayfa | Şube sayısı, rakipli ilçeler |
-| E-ticaret | Kategori ve ürün sayfaları, teknik yapı, ürün verisi | Ürün sayısı, filtreleme yapısı, sürekli yenilenen katalog |
-| Kurumsal ve çok dilli | Teknik düzen, çok dil, içerik planı | Dil ve ülke sayısı, birden çok ekiple çalışma |
+- **Tek şubeli yerel işletme:** i̇şin ağırlığı: İşletme Profili, hizmet sayfaları, yorumlar, ilçe bazlı içerik; fiyatı artıran unsurlar: Birden çok ilçeye hizmet, çok sayıda hizmet
+- **Hizmet sektörü, birkaç şube:** i̇şin ağırlığı: Her şube için ayrı profil ve sayfa; fiyatı artıran unsurlar: Şube sayısı, rakipli ilçeler
+- **E-ticaret:** i̇şin ağırlığı: Kategori ve ürün sayfaları, teknik yapı, ürün verisi; fiyatı artıran unsurlar: Ürün sayısı, filtreleme yapısı, sürekli yenilenen katalog
+- **Kurumsal ve çok dilli:** i̇şin ağırlığı: Teknik düzen, çok dil, içerik planı; fiyatı artıran unsurlar: Dil ve ülke sayısı, birden çok ekiple çalışma
 
 Bu tablo bir fiyat listesi değil, hangi işin neden pahalıya çıkabileceğini gösteren bir haritadır.
+
+> **Hizmet almak için iletişime geçin.** Sitenizin dizine eklenme, hız ve mobil durumunu birlikte tarayalım; bulguları öncelik sırasıyla yazılı verelim. [Teknik SEO hizmetimizi](/teknik-seo/) inceleyin ya da [bize yazın](/iletisim/).
 
 ## SEO teklifinde neler yazmalı?
 
@@ -102,6 +102,8 @@ Ucuz bir teklif her zaman kötü değildir; küçük bir işin kapsamı gerçekt
 - **Sıralama garantisi.** Google bunu vermenin mümkün olmadığını söylüyor.
 
 Rehber ayrıca, SEO uzmanınızın kullandığı üçüncü taraf araçları Google’ın değerlendirmediğini ya da desteklemediğini belirtir. Bir ajansın raporundaki “SEO puanı” Google’dan gelen bir sıralama verisi değildir; yorumlanması gereken bir göstergedir.
+
+> **Sizin için de yapalım mı?** Sitenizde teknik bir sorun şüpheniz varsa nedenini sırayla teşhis edelim. [Hizmet almak için iletişime geçin](/iletisim/); çalışmanın kapsamı [teknik SEO sayfamızda](/teknik-seo/) anlatılıyor.
 
 ## SEO bütçesi nasıl belirlenir?
 

@@ -6,7 +6,7 @@ service: icerik-seo
 imageAlt: "Soru balonları ve altlarında kısa cevap kutuları"
 ---
 
-**Kısa cevap:** SSS bölümü, müşterinin gerçekten sorduğu soruları, kısa ve doğrudan cevaplarla yanıtlayan bölümdür. Soruları müşteri mesajlarından, telefon notlarından ve Search Console sorgularından toplayın; her soruyu müşterinin yazacağı biçimde yazın; cevabın ilk cümlesi soruyu doğrudan karşılasın; sayfa başına üç ile sekiz soru yeterlidir. Bilgi gerçek ve güncel olmalı; yapılandırılmış veri kullanacaksanız Google’ın güncel yönergelerini ayrıca kontrol edin.
+SSS bölümü, müşterinin gerçekten sorduğu soruları, kısa ve doğrudan cevaplarla yanıtlayan bölümdür. Soruları müşteri mesajlarından, telefon notlarından ve Search Console sorgularından toplayın; her soruyu müşterinin yazacağı biçimde yazın; cevabın ilk cümlesi soruyu doğrudan karşılasın; sayfa başına üç ile sekiz soru yeterlidir. Bilgi gerçek ve güncel olmalı; yapılandırılmış veri kullanacaksanız Google’ın güncel yönergelerini ayrıca kontrol edin.
 
 SSS bölümü, hizmet sayfalarının en az emek isteyen ama en çok iş gören parçasıdır: müşteri karar vermeden önce takıldığı soruyu burada bulur. İyi yazılmış bir SSS, telefon trafiğini azaltır, güveni artırır ve sayfanın aramalarda eşleşme alanını genişletir. Bu yazıda soruları nasıl bulacağınızı, nasıl yazacağınızı ve nereye koyacağınızı anlatıyoruz. Hizmet sayfasının bütünü için [hizmet sayfası nasıl yazılır?](/blog/hizmet-sayfasi-nasil-yazilir/) yazımıza bakabilirsiniz.
 
@@ -42,19 +42,19 @@ Kurallar:
 
 ## Cevabı nasıl yazarsınız?
 
-| Kural | Açıklama |
-| --- | --- |
-| İlk cümle soruyu cevaplasın | “Evet”, “Hayır”, “Süre işe göre değişir; çoğu bakım bir saat civarındadır” gibi doğrudan |
-| Kısa tutun | İki üç cümle; gerekirse devamında bir ayrıntı |
-| Doğru ve doğrulanabilir olun | Rakam yalnızca gerçeği yansıtıyorsa |
-| Kesin söz vermeyin | “Garanti” ve “mutlaka” ifadelerinden kaçının |
-| Eylem ekleyin | “Randevu için arayın” gibi bir sonraki adım |
-| İlgili sayfaya bağlayın | Ayrıntı için ilgili hizmet ya da yazıya bağlantı |
+- **İlk cümle soruyu cevaplasın:** “Evet”, “Hayır”, “Süre işe göre değişir; çoğu bakım bir saat civarındadır” gibi doğrudan
+- **Kısa tutun:** İki üç cümle; gerekirse devamında bir ayrıntı
+- **Doğru ve doğrulanabilir olun:** Rakam yalnızca gerçeği yansıtıyorsa
+- **Kesin söz vermeyin:** “Garanti” ve “mutlaka” ifadelerinden kaçının
+- **Eylem ekleyin:** “Randevu için arayın” gibi bir sonraki adım
+- **İlgili sayfaya bağlayın:** Ayrıntı için ilgili hizmet ya da yazıya bağlantı
 
 Zayıf ve iyi örnek (hayalî bir işletme için):
 
 - **Zayıf:** “Fiyatlarımız çok uygun ve kalitelidir. Bizi arayın!”
 - **İyi:** “Fiyat; cihaz sayısına, markaya ve montaj koşullarına göre değişir. Randevuda yazılı olarak bildiririz; işe başlamadan önce onayınızı alırız.”
+
+> **Hizmet almak için iletişime geçin.** Müşterilerinizin sorduğu sorulardan bir içerik planı çıkaralım ve sayfalarınızı birlikte yazalım. [İçerik SEO hizmetimizi](/icerik-seo/) inceleyin ya da [bize yazın](/iletisim/).
 
 ## Kaç soru olmalı?
 
@@ -81,6 +81,8 @@ SSS’yi yapılandırılmış veriyle işaretlemek mümkündür; ancak Google’
 6. **Cevap yok, “bizi arayın” var.** Müşteri aradığı bilgiyi bulamaz.
 7. **Kesin söz ve garanti.**
 
+> **Sizin için de yapalım mı?** Sayfalarınızın ve yazılarınızın neden yeterince işe yaramadığına birlikte bakalım. [Hizmet almak için iletişime geçin](/iletisim/); yöntemimiz [içerik SEO sayfamızda](/icerik-seo/) yazılı.
+
 ## Güncelleme rutini
 
 SSS’yi üç ayda bir gözden geçirin: yeni sorular geldi mi, bilgiler hâlâ doğru mu, hangi sorular artık sorulmuyor? Eski bilgi içeren SSS, hizmet sayfasının güvenini zedeler.
@@ -93,20 +95,34 @@ Bu örnek sonuç vaadi değildir; SSS düzenini gösterir.
 
 ## Sektöre göre örnek SSS konuları
 
-| Sektör | Tipik sorular |
-| --- | --- |
-| Klima ve beyaz eşya servisi | Aynı gün gelir misiniz? Fiyat nasıl belirlenir? Garanti var mı (gerçekse)? |
-| Pansiyon, otel | Kahvaltı dahil mi? Otopark var mı? İptal koşulu nedir? Check-in saati? |
-| Kuyumcu | Ölçü değişimi ne kadar sürer? Alım satımda nasıl işlem yapılır? |
-| Diş kliniği | Randevu nasıl alınır? İlk muayenede ne yapılır? (genel, kişiye özel tıbbi tavsiye değil) |
-| Nakliyat | Keşif ücretli mi? Hangi ilçelere gidiyorsunuz? Sigorta var mı (gerçekse)? |
-| Mağaza | İade ve değişim koşulları? Teslimat süresi? |
+- **Klima ve beyaz eşya servisi:** Aynı gün gelir misiniz? Fiyat nasıl belirlenir? Garanti var mı (gerçekse)?
+- **Pansiyon, otel:** Kahvaltı dahil mi? Otopark var mı? İptal koşulu nedir? Check-in saati?
+- **Kuyumcu:** Ölçü değişimi ne kadar sürer? Alım satımda nasıl işlem yapılır?
+- **Diş kliniği:** Randevu nasıl alınır? İlk muayenede ne yapılır? (genel, kişiye özel tıbbi tavsiye değil)
+- **Nakliyat:** Keşif ücretli mi? Hangi ilçelere gidiyorsunuz? Sigorta var mı (gerçekse)?
+- **Mağaza:** İade ve değişim koşulları? Teslimat süresi?
 
 Soruları kendi müşterilerinizin sorularıyla değiştirin; liste yalnızca fikir verir.
 
 ## SSS’yi kimin yazması gerekir?
 
 Müşteriyle konuşan kişi ilk taslağı çıkarmalıdır; çünkü sorular ve doğru cevaplar onda. Sonra yazıya dökülür, bilgiler gözden geçirilir. Mevzuat ya da sağlık gibi hassas konularda hukuki ya da mesleki doğrulama gerekir.
+
+## SSS bölümü için kısa bir uygulama
+
+Müşteri mesajlarından en sık gelen beş soruyu seçin. Her birini bir H3 başlığı olarak yazın ve cevabı iki üç cümleyle verin; ilk cümle doğrudan cevap olsun. Sayfada görünür olmayan sorular eklemeyin. Cevapları yılda bir güncelleyin.
+
+## SSS bölümünü satışa nasıl bağlarsınız?
+
+Sık sorulan sorular, müşterinin karar anında yaşadığı tereddütleri giderir: fiyat, süre, güvence, süreç. Her cevabın sonunda doğal bir sonraki adım önerin: “Fiyat için fotoğraf göndererek WhatsApp’tan teklif alabilirsiniz.” Cevapları abartmadan ve doğrulanabilir biçimde yazın; garanti ve sonuç vaadi vermeyin. Bölümün sonuna kısa bir iletişim çağrısı ekleyin ama soruları reklam metnine çevirmeyin.
+
+### SSS bölümünde kaç soru olmalı?
+
+Sayı yok; gerçekten sorulan soruları cevaplayın. Beş altı soru çoğu sayfa için yeterlidir.
+
+## SSS’yi müşteri mesajlarıyla yenilemek
+
+Üç ayda bir WhatsApp ve telefon kayıtlarına bakıp yeni sorular çıkarın; cevabı değişen soruları güncelleyin, artık sorulmayanları kaldırın. Canlı bir SSS, güven verir.
 
 ## Denizli SEO bu konuda nasıl yardımcı olur?
 

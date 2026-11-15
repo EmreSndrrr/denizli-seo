@@ -1,13 +1,13 @@
 ---
 title: "Yeni Siteye Geçerken Sıralamayı Korumak: 301 Listesi"
-description: "Siteyi yenilerken ya da alan adı değiştirirken sıralamayı korumak için 301 yönlendirme, URL eşleme tablosu, Adres değişikliği aracı ve yayın sonrası kontrol listesi."
+description: "Siteyi yenilerken ya da alan adı değiştirirken sıralamayı korumak için 301 yönlendirme, URL eşleme tablosu, Adres değişikliği aracı ve yayın sonrası."
 date: 2026-10-29
 updated: 2026-11-06
 service: web-tasarim
 imageAlt: "Eski bir sayfadan yeni bir sayfaya giden ok ve 301 yazısı"
 ---
 
-**Kısa cevap:** Yeni siteye geçerken sıralamayı korumak için, adresi değişen her eski sayfayı yeni sitedeki en yakın karşılığına sunucu tarafında 301 ile yönlendirin. Önce eski adreslerin listesini çıkarıp bir eşleme tablosu hazırlayın, yayın günü yönlendirmeleri test edin, yeni site haritasını gönderin. Yönlendirmeleri en az bir yıl yerinde tutun. Alan adı değişiyorsa Search Console’daki Adres değişikliği aracını da kullanın.
+Yeni siteye geçerken sıralamayı korumak için, adresi değişen her eski sayfayı yeni sitedeki en yakın karşılığına sunucu tarafında 301 ile yönlendirin. Önce eski adreslerin listesini çıkarıp bir eşleme tablosu hazırlayın, yayın günü yönlendirmeleri test edin, yeni site haritasını gönderin. Yönlendirmeleri en az bir yıl yerinde tutun. Alan adı değişiyorsa Search Console’daki Adres değişikliği aracını da kullanın.
 
 Bu yazıda 301’in ne olduğunu, hangi yönlendirmenin ne zaman kullanılacağını, eşleme tablosunun nasıl hazırlanacağını ve geçişten önce, yayın günü ve sonrasında neleri kontrol etmeniz gerektiğini adım adım anlatıyoruz. Google’ın kendi rehberlerine dayanan bir kontrol listesiyle bitiriyoruz.
 
@@ -53,6 +53,8 @@ Aynı alan adı ve aynı adres yapısında yalnızca tasarımı yeniliyorsanız 
 
 Mümkünse hayır. Google, değişiklikleri aynı anda değil arka arkaya yapmanızı önerir: örneğin önce yeni alan adına geçip, ardından sitenin düzenini değiştirmek. Adres değişikliği aracının yardım sayfası da taşımayı yeni tasarım ve yeni URL yapısıyla birleştirmenin büyük olasılıkla trafik kaybına yol açacağını, çünkü Google’ın her sayfayı yeniden öğrenmesi gerekeceğini belirtir ([Adres değişikliği aracı](https://support.google.com/webmasters/answer/9370220?hl=tr)).
 
+> **Hizmet almak için iletişime geçin.** SEO’yu baştan düşünerek tasarlanmış, hızlı ve telefonda rahat bir site kuralım. [Web tasarım hizmetimizi](/web-tasarim/) inceleyin ya da [bize yazın](/iletisim/).
+
 ## Geçişten önce URL eşleme tablosu nasıl hazırlanır?
 
 Eşleme tablosu, eski sitedeki her adresin yeni sitede nereye gideceğini gösteren listedir. Yönlendirmeler bu tabloya göre kurulur, iç bağlantılar bu tabloya göre güncellenir.
@@ -74,12 +76,10 @@ Görselleri ve PDF gibi indirilebilir dosyaları unutmayın. Google, bunların d
 
 Aşağıdaki tablo bir örnektir; adresler gerçek bir siteye ait değildir.
 
-| Eski adres (örnek) | Yeni adres (örnek) | Not |
-| --- | --- | --- |
-| `/hizmetler.php?id=3` | `/hizmetler/klima-montaji/` | Birebir karşılık |
-| `/hakkimizda.html` | `/hakkimizda/` | Yalnızca yazım değişti |
-| `/klima-bakim.html` ve `/klima-temizlik.html` | `/hizmetler/klima-bakimi/` | İki sayfa birleştirildi |
-| `/kampanya-2024.html` | 404 ya da 410 | İçerik kaldırıldı, karşılığı yok |
+- **`/hizmetler.php?id=3`:** yeni adres (örnek): `/hizmetler/klima-montaji/`; not: Birebir karşılık
+- **`/hakkimizda.html`:** yeni adres (örnek): `/hakkimizda/`; not: Yalnızca yazım değişti
+- **`/klima-bakim.html` ve `/klima-temizlik.html`:** yeni adres (örnek): `/hizmetler/klima-bakimi/`; not: İki sayfa birleştirildi
+- **`/kampanya-2024.html`:** yeni adres (örnek): 404 ya da 410; not: İçerik kaldırıldı, karşılığı yok
 
 Karar kuralı şöyle:
 
@@ -146,6 +146,8 @@ Alan adınız ya da alt alan adınız değişiyorsa, yönlendirmeleri kurduktan 
 4. Kritik bir ön kontrol başarısız olursa sorunu düzeltip tekrar deneyin.
 
 Google, taşıma bildiriminin 180 gün boyunca Search Console’da gösterildiğini ve bu süre içinde istek iptal edilebildiğini belirtir. Google ayrıca, bırakılan alan adının başkası tarafından alınıp kötüye kullanılmasını önlemek için eski alan adının ücretini en az bir yıl ödemeye devam etmenizi önerir.
+
+> **Sizin için de yapalım mı?** Mevcut sitenizi yenilemek ya da sıfırdan kurmak istiyorsanız ihtiyacınızı birlikte netleştirelim. [Hizmet almak için iletişime geçin](/iletisim/); ayrıntı [web tasarım sayfamızda](/web-tasarim/).
 
 ## Yönlendirmeler ne kadar süre kalmalı?
 

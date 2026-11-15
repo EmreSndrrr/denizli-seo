@@ -6,7 +6,7 @@ service: teknik-seo
 imageAlt: "Taranmayı bekleyen sayfa kartları ve bir saat simgesi"
 ---
 
-**Kısa cevap:** Google’ın Sayfa dizine ekleme raporundaki “Bulundu: şu anda dizine eklenmiş değil” durumu (İngilizce arayüzde “Discovered – currently not indexed”), sayfanın Google tarafından bulunduğunu ama henüz taranmadığını gösterir. Google’ın açıklamasına göre bu, tipik olarak Google’ın URL’yi taramak istemesine rağmen sitenin aşırı yüklenmesi beklendiği için taramayı başka zamana ertelemesidir; bu yüzden rapordaki son tarama tarihi boştur.
+Google’ın Sayfa dizine ekleme raporundaki “Bulundu: şu anda dizine eklenmiş değil” durumu (İngilizce arayüzde “Discovered – currently not indexed”), sayfanın Google tarafından bulunduğunu ama henüz taranmadığını gösterir. Google’ın açıklamasına göre bu, tipik olarak Google’ın URL’yi taramak istemesine rağmen sitenin aşırı yüklenmesi beklendiği için taramayı başka zamana ertelemesidir; bu yüzden rapordaki son tarama tarihi boştur.
 
 Bu durum, “Tarandı: şu anda dizine eklenmiş değil” ile karıştırılır; ama anlamları farklıdır: birinde sayfa taranmış ve dizine alınmamış, diğerinde sayfa hiç taranmamıştır. Bu yazıda “bulundu ama taranmadı” durumunun ne anlama geldiğini, olası nedenlerini ve neler yapabileceğinizi anlatıyoruz. Diğer durum için [Taranan, dizine eklenmeyen sayfalar](/blog/taranan-dizine-eklenmeyen-sayfalar-nedenleri/) yazımıza bakın.
 
@@ -36,6 +36,8 @@ Google nedenin tamamını sayfa bazında söylemez; aşağıdaki liste genel de�
 4. **Site yeni.** Yeni sitelerin taranması zaman alabilir; Google, yeni bir sayfanın ya da sitenin taranıp dizine eklenmesinin bir haftayı bulabileceğini belirtir.
 5. **Değersiz ya da kopya adres kalabalığı.** Parametreli, filtreli, etiketli yüzlerce adres taranma kapasitesini harcıyor olabilir.
 
+> **Hizmet almak için iletişime geçin.** Sitenizin dizine eklenme, hız ve mobil durumunu birlikte tarayalım; bulguları öncelik sırasıyla yazılı verelim. [Teknik SEO hizmetimizi](/teknik-seo/) inceleyin ya da [bize yazın](/iletisim/).
+
 ## Adım adım ne yapmalısınız?
 
 1. **Sayfanın önemini tartın.** Dizine girmesi gerekiyor mu? Önemsiz ya da kopya ise sorun olmayabilir.
@@ -63,6 +65,8 @@ Binlerce sayfası olan sitelerde “Bulundu” durumu yaygın olabilir; çünkü
 4. URL Denetleme ile sayfayı denetleyin ve dizine ekleme isteyin.
 5. Bir hafta sonra durumu kontrol edin.
 
+> **Sizin için de yapalım mı?** Sitenizde teknik bir sorun şüpheniz varsa nedenini sırayla teşhis edelim. [Hizmet almak için iletişime geçin](/iletisim/); çalışmanın kapsamı [teknik SEO sayfamızda](/teknik-seo/) anlatılıyor.
+
 ## Denizli’den bir örnek
 
 Örnek (hayalî bir işletme için): Pamukkale’de bir pansiyon, bir ay içinde otuz yeni sayfa yayımlamış (oda detayları, yakın gezi rotaları, sık sorulan sorular). Search Console’da çoğu “Bulundu: şu anda dizine eklenmiş değil”. Sunucu yanıt süreleri yüksek ve yeni sayfalar menüden bağlanmamış.
@@ -82,12 +86,14 @@ Karar: sunucu ve eklenti yükü azaltılıyor, yeni sayfalar ilgili sayfalardan 
 
 ## Karar tablosu
 
-| Durum | Karar |
-| --- | --- |
-| Önemli sayfa, site yeni | İç bağlantı ver, haritaya ekle, bekle |
-| Önemli sayfa, site eski, sunucu yavaş | Sunucuyu ve hızı iyileştir |
-| Önemsiz ya da kopya sayfalar çok | Yapıyı sadeleştir (canonical, noindex, birleştir) |
-| Tüm sayfalar bulundu ama taranmadı | Sunucu ve site yapısını gözden geçir |
+- **Önemli sayfa, site yeni:** İç bağlantı ver, haritaya ekle, bekle
+- **Önemli sayfa, site eski, sunucu yavaş:** Sunucuyu ve hızı iyileştir
+- **Önemsiz ya da kopya sayfalar çok:** Yapıyı sadeleştir (canonical, noindex, birleştir)
+- **Tüm sayfalar bulundu ama taranmadı:** Sunucu ve site yapısını gözden geçir
+
+## Önce hangi sayfalara bakılır?
+
+Durumdaki sayfaların önemlilerini ayırın: gelir getiren hizmet sayfaları ve rehberler. Önce onların iç bağlantısını ve içeriğini güçlendirin.
 
 ## Denizli SEO bu konuda nasıl yardımcı olur?
 
@@ -125,6 +131,10 @@ Google, isteğin dizine eklenmeyi garanti etmediğini söyler. Önce sunucu, ba�
 ### Ne kadar beklemeliyim?
 
 Kesin süre veremeyiz. Yeni sayfalar için bir hafta ya da daha uzun beklemek normal olabilir; haftalarca değişmiyorsa nedenleri araştırın.
+
+### Bu durum geçici mi?
+
+Bazen geçicidir; ama haftalarca sürüyorsa sayfanın değerini, bağlantılarını ve sitenin genel durumunu inceleyin.
 
 ## Kaynaklar
 

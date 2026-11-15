@@ -6,7 +6,7 @@ service: icerik-seo
 imageAlt: "Arama sonucunun en üstünde cevap kutusu olarak gösterilen kısa paragraf"
 ---
 
-**Kısa cevap:** Öne çıkan snippet’i siz işaretleyemezsiniz: Google’ın rehberine göre kullanıcının arama isteğinde belirli bir sayfanın iyi bir öne çıkan snippet olup olmayacağını Google sistemleri belirler. Yapabileceğiniz, soruya sayfanın başında net ve kısa cevap vermek, bölümleri açık başlıklarla düzenlemek, liste ve tabloyu gerçekten işe yaradığı yerde kullanmak ve snippet’i kısıtlayan ayarları (`nosnippet`, kısa `max-snippet`) gereksiz yere kullanmamaktır. Garanti yoktur.
+Öne çıkan snippet’i siz işaretleyemezsiniz: Google’ın rehberine göre kullanıcının arama isteğinde belirli bir sayfanın iyi bir öne çıkan snippet olup olmayacağını Google sistemleri belirler. Yapabileceğiniz, soruya sayfanın başında net ve kısa cevap vermek, bölümleri açık başlıklarla düzenlemek, liste ve tabloyu gerçekten işe yaradığı yerde kullanmak ve snippet’i kısıtlayan ayarları (`nosnippet`, kısa `max-snippet`) gereksiz yere kullanmamaktır. Garanti yoktur.
 
 Arama sonuçlarının en üstündeki “cevap kutusu” çoğu işletmenin hedeflediği yerdir; ama Google’ın rehberi bu konuda dürüsttür: bu alan sizin seçiminiz değildir. Bu yazıda öne çıkan snippet’in ne olduğunu, Google’ın söylediklerini ve yazı yazarken şansınızı artıracak pratik adımları anlatıyoruz. İçeriğin genel yazım düzeni için [blog yazısı nasıl yazılır?](/blog/blog-yazisi-nasil-yazilir-seo-uyumlu-8-adim/) yazımıza bakabilirsiniz.
 
@@ -45,6 +45,8 @@ Bunların hiçbiri öne çıkan snippet’i garanti etmez; ama hepsi okuyucu iç
 
 Öne çıkan snippet’ler genellikle kısa bir cevapla karşılanabilecek aramalarda görülür: “nedir”, “nasıl yapılır”, “ne kadar sürer”, “hangisi daha iyi” gibi. Yerel hizmet aramalarında (“Merkezefendi klima servisi”) çoğunlukla harita ve işletme sonuçları öne çıkar. Bu yüzden öne çıkan snippet hedefi, bilgi niyetli blog ve rehber yazıları için anlamlıdır; hizmet sayfası için değil.
 
+> **Hizmet almak için iletişime geçin.** Müşterilerinizin sorduğu sorulardan bir içerik planı çıkaralım ve sayfalarınızı birlikte yazalım. [İçerik SEO hizmetimizi](/icerik-seo/) inceleyin ya da [bize yazın](/iletisim/).
+
 ## Yazı örneği
 
 Örnek (hayalî bir işletme için): “Klima bakımı yılda kaç kez yapılmalı?” sorusu.
@@ -59,11 +61,9 @@ Bu kısa cevap, hem ziyaretçiye hem arama sistemlerine soruya net bir cevap ver
 
 ## Snippet kontrol ayarları: ne zaman kullanılır?
 
-| Ayar | Anlamı | Ne zaman? |
-| --- | --- | --- |
-| `nosnippet` | Snippet gösterilmesini engeller | Sayfanın içeriği arama sonucunda hiç alıntılanmasın istiyorsanız |
-| `max-snippet:[sayı]` | En fazla snippet uzunluğu | Alıntı uzunluğunu sınırlamak istiyorsanız; kısa değer öne çıkan snippet şansını azaltır |
-| Varsayılan | Google karar verir | Çoğu işletme için en uygunu |
+- **`nosnippet`:** anlamı: Snippet gösterilmesini engeller; ne zaman?: Sayfanın içeriği arama sonucunda hiç alıntılanmasın istiyorsanız
+- **`max-snippet:[sayı]`:** anlamı: En fazla snippet uzunluğu; ne zaman?: Alıntı uzunluğunu sınırlamak istiyorsanız; kısa değer öne çıkan snippet şansını azaltır
+- **Varsayılan:** anlamı: Google karar verir; ne zaman?: Çoğu işletme için en uygunu
 
 Yeni başlayan işletmeler için varsayılan ayar en güvenlisidir. Snippet’i kısıtlayan bir ayar eklediyseniz nedenini hatırlayın ve gereksizse kaldırın; eski bir `nosnippet` sayfayı sonuçlarda cazibesiz kılabilir.
 
@@ -80,6 +80,8 @@ Search Console’da sayfanın hangi sorgularda gösterildiğini Performans rapor
 5. **Tabloyu ve listeyi şişirmek.** Sadece gerektiği yerde.
 6. **Hizmet sayfasından snippet beklemek.**
 7. **Sonuç garantisi vermek.**
+
+> **Sizin için de yapalım mı?** Sayfalarınızın ve yazılarınızın neden yeterince işe yaramadığına birlikte bakalım. [Hizmet almak için iletişime geçin](/iletisim/); yöntemimiz [içerik SEO sayfamızda](/icerik-seo/) yazılı.
 
 ## Denizli’den bir örnek
 
@@ -104,6 +106,10 @@ Kısa cevabı şu yapıyla yazın:
 3. Yoksa ilk paragrafı doğrudan cevap olarak yeniden yazın.
 4. Gerekliyse liste ya da tablo ekleyin.
 5. Birkaç hafta sonra aynı sorgunun gösterim ve tıklamasını karşılaştırın.
+
+## Snippet çalışmasını sınırlı tutun
+
+Her sayfayı bu amaçla yeniden yazmayın; bilgi arayan birkaç önemli sayfada doğrudan cevap paragrafı hazırlamak yeterlidir.
 
 ## Denizli SEO bu konuda nasıl yardımcı olur?
 
@@ -141,6 +147,10 @@ Aynı soruyu hedefleyen iki sayfanız varsa birbirinizle yarışırsınız. Sayf
 ### Snippet’ten çıkmak istersem ne yapmalıyım?
 
 `nosnippet` meta etiketi kullanabilirsiniz; ama bu sonuçlarda sayfanızın açıklamasını da tamamen kaldırır. Çoğu işletme için önerilmez.
+
+### Soru-cevap biçimi şart mı?
+
+Zorunlu değil; ama doğrudan cevap veren net bir paragraf iyi bir başlangıçtır.
 
 ## Kaynaklar
 

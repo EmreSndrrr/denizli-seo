@@ -7,7 +7,7 @@ service: icerik-seo
 imageAlt: "Bir hizmet sayfasını temsil eden, başlık ve bölümleri olan belge"
 ---
 
-**Kısa cevap:** İyi bir hizmet sayfası, müşterinin Google’a yazdığı soruyu ilk ekranda yanıtlar. Her hizmete ayrı bir sayfa açın. Sayfada sırasıyla şunlar olsun: hizmetin adı ve bölgesi, kime uygun olduğu, neleri kapsadığı, işin nasıl ilerlediği, fiyatı neyin belirlediği, gerçek iş örnekleri, sık sorulanlar ve tek bir net iletişim adımı. Başlığı ve açıklamayı her sayfaya özel yazın.
+İyi bir hizmet sayfası, müşterinin Google’a yazdığı soruyu ilk ekranda yanıtlar. Her hizmete ayrı bir sayfa açın. Sayfada sırasıyla şunlar olsun: hizmetin adı ve bölgesi, kime uygun olduğu, neleri kapsadığı, işin nasıl ilerlediği, fiyatı neyin belirlediği, gerçek iş örnekleri, sık sorulanlar ve tek bir net iletişim adımı. Başlığı ve açıklamayı her sayfaya özel yazın.
 
 Bu yazıda bir hizmet sayfasını yazmadan önce neleri toplamanız gerektiğini, sayfanın bölümlerini, başlık ve açıklamanın nasıl yazılacağını, ilçe sayfalarında nereye dikkat edileceğini ve hayalî bir işletme için hazırlanmış örnek bir taslağı anlatıyoruz. Sonda yayın öncesi kullanabileceğiniz bir kontrol listesi var.
 
@@ -56,14 +56,12 @@ Bir hizmet sayfası, müşterinin karar verirken sırayla sorduğu soruları yan
 
 Her bölümün hangi soruyu yanıtladığını aklınızda tutmak, gereksiz metni ayıklamayı kolaylaştırır:
 
-| Bölüm | Müşterinin sorusu |
-| --- | --- |
-| Başlık ve ilk paragraf | “Doğru yerde miyim?” |
-| Kime uygun, neleri kapsar | “Bu benim işimi görür mü?” |
-| Nasıl ilerler, süre | “Beni ne bekliyor, ne kadar sürer?” |
-| Fiyat çerçevesi | “Bütçeme uyar mı?” |
-| Gerçek işler | “Bu işi gerçekten yapıyorlar mı?” |
-| Sık sorulanlar, iletişim | “Aklımdaki son soru ne, nasıl ulaşırım?” |
+- **Başlık ve ilk paragraf:** “Doğru yerde miyim?”
+- **Kime uygun, neleri kapsar:** “Bu benim işimi görür mü?”
+- **Nasıl ilerler, süre:** “Beni ne bekliyor, ne kadar sürer?”
+- **Fiyat çerçevesi:** “Bütçeme uyar mı?”
+- **Gerçek işler:** “Bu işi gerçekten yapıyorlar mı?”
+- **Sık sorulanlar, iletişim:** “Aklımdaki son soru ne, nasıl ulaşırım?”
 
 ### İlk paragraf nasıl yazılır?
 
@@ -72,6 +70,8 @@ Her bölümün hangi soruyu yanıtladığını aklınızda tutmak, gereksiz metn
 ### Başlıklar soru gibi olabilir mi?
 
 Olabilir; müşteri gerçekten öyle soruyorsa iyi bir seçimdir. “Montaj kaç saat sürer?” gibi bir ara başlık, okura aradığı yeri hemen gösterir. Google da uzun metni paragraflara ve bölümlere ayırmanızı, okurun sayfada yolunu bulması için başlık kullanmanızı önerir ([SEO başlangıç rehberi](https://developers.google.com/search/docs/fundamentals/seo-starter-guide?hl=tr)).
+
+> **Hizmet almak için iletişime geçin.** Müşterilerinizin sorduğu sorulardan bir içerik planı çıkaralım ve sayfalarınızı birlikte yazalım. [İçerik SEO hizmetimizi](/icerik-seo/) inceleyin ya da [bize yazın](/iletisim/).
 
 ## Başlık ve açıklama nasıl yazılır?
 
@@ -129,6 +129,8 @@ Bu soruların çoğuna “hayır” diyorsanız tek bir hizmet sayfası yazın v
 - **Yapmayın:** Anahtar kelimeyi her cümleye sıkıştırmayın. Okuru önce düşünün; Google’ın kendi rehberi de insanlar için yazılan, yararlı içeriği öne çıkarıyor ve aynı kelimeyi aşırı tekrarlamayı spam politikalarında “anahtar kelime doldurma” olarak tanımlıyor.
 - **Yapmayın:** Belirli bir kelime sayısına ulaşmak için metni şişirmeyin. Google, tercih ettiği bir kelime sayısı olmadığını açıkça yazar.
 - **Yapmayın:** Kanıtı olmayan iddia yazmayın: “1 numara”, “garantili”, uydurma yorum ya da kaynaksız rakam. Bu tür ifadeler müşterinin güvenini sarsar.
+
+> **Sizin için de yapalım mı?** Sayfalarınızın ve yazılarınızın neden yeterince işe yaramadığına birlikte bakalım. [Hizmet almak için iletişime geçin](/iletisim/); yöntemimiz [içerik SEO sayfamızda](/icerik-seo/) yazılı.
 
 ## Yapılandırılmış veri eklemeli miyim?
 

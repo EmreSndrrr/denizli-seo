@@ -6,7 +6,7 @@ service: yerel-seo
 imageAlt: "Bir rehber listesinde işaretli ve çizili kayıtlar"
 ---
 
-**Kısa cevap:** Yerel rehber kayıtları, gerçek müşterinin kullandığı ve işletme bilgisini doğru gösteren rehberlerde işe yarar; sırf bağlantı almak için toplu açılan kayıtlarda işe yaramaz. Google, düşük kaliteli dizinleri ve yer işareti sitelerini bağlantı spam’i örnekleri arasında sayar. Az sayıda, ilgili ve tutarlı kayıt, çok sayıda rastgele kayıttan daha değerlidir.
+Yerel rehber kayıtları, gerçek müşterinin kullandığı ve işletme bilgisini doğru gösteren rehberlerde işe yarar; sırf bağlantı almak için toplu açılan kayıtlarda işe yaramaz. Google, düşük kaliteli dizinleri ve yer işareti sitelerini bağlantı spam’i örnekleri arasında sayar. Az sayıda, ilgili ve tutarlı kayıt, çok sayıda rastgele kayıttan daha değerlidir.
 
 “Rehber kaydı” yıllardır yerel SEO’nun klasik adımı olarak anlatılır. Bugün doğru sorular şunlardır: bu rehberi gerçek müşteri kullanıyor mu? Bilgilerim doğru ve güncel mi? Beni neden anıyor? Bu yazı bu soruları ve Denizli’de hangi tür kaynakların mantıklı olduğunu ele alıyor. Bilgi tutarlılığı için önce [ad, adres, telefon tutarlılığı](/blog/ad-adres-telefon-tutarliligi/) yazımıza bakabilirsiniz.
 
@@ -49,6 +49,8 @@ Aşağıdaki tür kaynaklar, gerçek bir ilişkiye ya da gerçek bir kullanıma 
 
 Bu liste bir “şu sitelere kayıt olun” listesi değildir; kaynak türlerini gösterir. Gerçek kurumları kendi araştırmanızla belirleyin.
 
+> **Hizmet almak için iletişime geçin.** Google İşletme Profili’nizi ve harita görünürlüğünüzü birlikte inceleyelim; ne eksik, neyin düzeltileceğini yazılı söyleyelim. [Yerel SEO hizmetimizi](/yerel-seo/) inceleyin ya da [bize yazın](/iletisim/).
+
 ## Toplu dizin kayıtlarından neden kaçınılır?
 
 Toplu dizinlere kayıt, “bir günde yüz rehbere kayıt” vaadiyle satılır. Bu yaklaşımın sorunları:
@@ -74,15 +76,17 @@ Seçtiğiniz her rehber için şu sıra:
 
 ## Kayıtları takip etmek için tablo
 
-| Rehber | Tür | Kayıt tarihi | Bilgi güncel mi? | Sonraki kontrol |
-| --- | --- | --- | --- | --- |
-| (rehberin adı) | Oda / dernek / bölge rehberi | | | |
+Şunları tek tek kontrol edin:
+
+- (rehberin adı)
 
 Basit bir tablo, yıllar sonra bile hangi bilginin nerede olduğunu hatırlamanızı sağlar.
 
 ## Sponsorlu ya da ücretli kayıtlar
 
 Bazı rehberler ücretli “öne çıkan kayıt” sunar. Reklam niteliğindeki bağlantıların `sponsored` ya da `nofollow` ile işaretlenmesi beklenir; Google’ın spam politikasına göre işaretlenmiş reklam bağlantıları politikaya aykırı sayılmaz. Ücretli kaydı ancak gerçek müşteri getirecekse düşünün; bağlantı değeri için ödeme yapmayın.
+
+> **Sizin için de yapalım mı?** Haritada daha görünür olmak istiyorsanız profilinize ve yerel kayıtlarınıza bakıp yapılacakları kalem kalem çıkaralım. [Hizmet almak için iletişime geçin](/iletisim/); ayrıntı için [yerel SEO sayfamıza](/yerel-seo/) göz atabilirsiniz.
 
 ## Denizli’den bir örnek
 
@@ -121,6 +125,10 @@ Altı ve üzeri “evet”, kayda değer bir işarettir. Üçten az “evet”, 
 
 Sıralama garantisi ya da “Google’da birinci sayfa” vaat eden teklif, reddedilmesi gereken bir tekliftir. Google’da kimsenin birinci sıra garantisi veremeyeceğini unutmayın.
 
+## Kayıt listesini yılda bir güncelleyin
+
+Her kaydın adres, telefon ve saat bilgisini yılda bir kontrol edin ve kapanmış rehberleri listeden çıkarın.
+
 ## Denizli SEO bu konuda nasıl yardımcı olur?
 
 Hangi rehberin mantıklı, hangisinin zaman kaybı olduğunu ayırmak deneyim ister. [Yerel SEO hizmetimizde](/yerel-seo/):
@@ -157,6 +165,10 @@ Sayı yok. Birkaç gerçek ve ilgili kayıt, çok sayıda rastgele kayıttan iyi
 ### Rehber kaydını nasıl sildiririm?
 
 Rehbere hesap açıp silme ya da düzeltme isteyin; iletişim formu ya da e-posta adresi çoğu rehberde bulunur. Önemsiz bir rehberde hatalı bilgi kalmışsa önce önemli kayıtları düzeltin.
+
+### Eski rehber kayıtlarını silmem gerekir mi?
+
+Yanlış bilgi taşıyanları düzeltin ya da silin; doğru ve gerçek kullanıcılı olanları bırakın.
 
 ## Kaynaklar
 

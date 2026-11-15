@@ -6,7 +6,7 @@ service: teknik-seo
 imageAlt: "Bir yönetim paneli ve SEO ayarlarını gösteren onay kutuları"
 ---
 
-**Kısa cevap:** WordPress SEO’da önce ayarlara, sonra eklentiye bakın. Sitenin arama motorlarına açık olduğundan, kalıcı bağlantıların okunabilir olduğundan, her sayfanın kendi başlığı ve açıklaması olduğundan, site haritasının gönderildiğinden, temanın ve eklentilerin siteyi yavaşlatmadığından ve görsellerin düzenlendiğinden emin olun. SEO eklentisi bu işleri kolaylaştırır; ama ayarları yapmadan tek başına sıralama getirmez.
+WordPress SEO’da önce ayarlara, sonra eklentiye bakın. Sitenin arama motorlarına açık olduğundan, kalıcı bağlantıların okunabilir olduğundan, her sayfanın kendi başlığı ve açıklaması olduğundan, site haritasının gönderildiğinden, temanın ve eklentilerin siteyi yavaşlatmadığından ve görsellerin düzenlendiğinden emin olun. SEO eklentisi bu işleri kolaylaştırır; ama ayarları yapmadan tek başına sıralama getirmez.
 
 WordPress, dünyada çok kullanılan bir içerik yönetim sistemidir ve Denizli’deki birçok küçük işletme sitesi de onunla kuruludur. Sistem SEO’ya uygun kurulabilir, ama varsayılan hâlinde birçok şey eksik kalır. Bu yazıda, SEO eklentisi kurmadan önce kontrol edilecek on ayarı sırayla anlatıyoruz. Genel kontrol listesi için [SEO uyumlu web sitesi](/blog/seo-uyumlu-web-sitesi/) yazımıza da bakabilirsiniz.
 
@@ -45,6 +45,8 @@ Eklentiyi kurduğunuzda ilk olarak ana sayfanın, hizmet sayfalarının ve ileti
 
 Site haritası, sitenizdeki önemli adresleri içeren bir dosyadır; bazı içerik yönetim sistemleri bunu sizin yerinize otomatik yapabilir ([site haritası nedir?](https://developers.google.com/search/docs/crawling-indexing/sitemaps/overview?hl=tr)). SEO eklentileri çoğunlukla site haritasını üretir. Siz yalnızca adresini bulun (genellikle sitenizin ana adresinin sonuna bir dosya adı eklenir) ve Search Console’dan gönderin.
 
+> **Hizmet almak için iletişime geçin.** Sitenizin dizine eklenme, hız ve mobil durumunu birlikte tarayalım; bulguları öncelik sırasıyla yazılı verelim. [Teknik SEO hizmetimizi](/teknik-seo/) inceleyin ya da [bize yazın](/iletisim/).
+
 ## 5. Tema ve eklentiler siteyi yavaşlatıyor mu?
 
 Hız, ziyaretçiyi ve Google’ın ölçümlerini etkiler. web.dev, en büyük içeriğin yüklenmesi (LCP) için 2,5 saniye, etkileşime yanıt (INP) için 200 milisaniye ve altını iyi sayar ([Web Vitals](https://web.dev/articles/vitals?hl=tr)).
@@ -78,6 +80,8 @@ SEO ile doğrudan ilgili görünmez, ama güncellenmeyen bir WordPress sitesi g�
 
 Siteyi yayına aldıktan sonra Search Console’da siteyi doğrulayın, site haritasını gönderin ve ilk günlerde Sayfa dizine ekleme raporuna bakın. Aylık kontrol için “Ücretsiz SEO analizi nasıl yapılır?” yazımızdaki on kontrolü kullanabilirsiniz.
 
+> **Sizin için de yapalım mı?** Sitenizde teknik bir sorun şüpheniz varsa nedenini sırayla teşhis edelim. [Hizmet almak için iletişime geçin](/iletisim/); çalışmanın kapsamı [teknik SEO sayfamızda](/teknik-seo/) anlatılıyor.
+
 ## Sayfa oluşturucu (page builder) kullanıyorsanız
 
 Sürükle-bırak sayfa oluşturucular tasarımı kolaylaştırır ama bazen gereksiz kod ve ağır dosyalar ekler. SEO açısından üç şeye bakın:
@@ -90,14 +94,12 @@ Sayfa oluşturucunun sunduğu ek animasyon ve kaydırma efektleri, çoğu küç�
 
 ## WordPress’te en sık yapılan SEO hataları
 
-| Hata | Sonuç | Çözüm |
-| --- | --- | --- |
-| Yayında “arama motorlarından gizle” açık kalmış | Site dizine girmez | Ayarı kapat, URL Denetleme ile doğrula |
-| Tüm sayfalarda aynı başlık | Sonuçlarda ayırt edilemez | Her sayfaya özel başlık |
-| Onlarca kullanılmayan eklenti | Yavaşlık, güvenlik riski | Kullanılmayanları sil |
-| Büyük, sıkıştırılmamış görseller | Yavaş sayfa | Boyutlandır ve sıkıştır |
-| Yorumlarda spam bağlantılar | Düşük kaliteli içerik | Onay ve spam filtresi |
-| Adres yapısını sonradan değiştirmek | Kırık bağlantılar | Eski adresleri yönlendir |
+- **Yayında “arama motorlarından gizle” açık kalmış:** sonuç: Site dizine girmez; çözüm: Ayarı kapat, URL Denetleme ile doğrula
+- **Tüm sayfalarda aynı başlık:** sonuç: Sonuçlarda ayırt edilemez; çözüm: Her sayfaya özel başlık
+- **Onlarca kullanılmayan eklenti:** sonuç: Yavaşlık, güvenlik riski; çözüm: Kullanılmayanları sil
+- **Büyük, sıkıştırılmamış görseller:** sonuç: Yavaş sayfa; çözüm: Boyutlandır ve sıkıştır
+- **Yorumlarda spam bağlantılar:** sonuç: Düşük kaliteli içerik; çözüm: Onay ve spam filtresi
+- **Adres yapısını sonradan değiştirmek:** sonuç: Kırık bağlantılar; çözüm: Eski adresleri yönlendir
 
 ## Eklenti seçerken nelere bakılır?
 
@@ -116,13 +118,11 @@ Aynı anda birden fazla SEO eklentisi çalıştırmayın; ayarlar çakışabilir
 
 Örnek (hayalî bir işletme için): Sarayköy’de bir inşaat malzemesi bayisi, WordPress ile kurulmuş sitesinde Google’da hiç görünmüyor.
 
-| Kontrol | Bulgu | Yapılacak |
-| --- | --- | --- |
-| 1. Arama motoru görünürlüğü | Geliştirme sırasında kapatılmış ayar açılmamış | Ayarı kapat, URL Denetleme ile doğrula |
-| 2. Adres yapısı | Adresler `?p=` biçiminde | Okunabilir yapıya geçir, eski adresleri yönlendir |
-| 3. Başlıklar | Tüm sayfalarda sadece firma adı | Her sayfaya özgü başlık yaz |
-| 5. Hız | Onlarca eklenti, büyük fotoğraflar | Kullanılmayanları sil, görselleri küçült |
-| 7. Arşivler | Kullanılmayan etiket sayfaları | Gerekmeyenleri sil |
+- **1. Arama motoru görünürlüğü:** bulgu: Geliştirme sırasında kapatılmış ayar açılmamış; yapılacak: Ayarı kapat, URL Denetleme ile doğrula
+- **2. Adres yapısı:** bulgu: Adresler `?p=` biçiminde; yapılacak: Okunabilir yapıya geçir, eski adresleri yönlendir
+- **3. Başlıklar:** bulgu: Tüm sayfalarda sadece firma adı; yapılacak: Her sayfaya özgü başlık yaz
+- **5. Hız:** bulgu: Onlarca eklenti, büyük fotoğraflar; yapılacak: Kullanılmayanları sil, görselleri küçült
+- **7. Arşivler:** bulgu: Kullanılmayan etiket sayfaları; yapılacak: Gerekmeyenleri sil
 
 İlk satır tek başına, sitenin neden aylarca görünmediğini açıklayabilir.
 

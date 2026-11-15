@@ -6,7 +6,7 @@ service: yerel-seo
 imageAlt: "Tek yıldızlı bir yorum kartı ve altında sakin bir yanıt balonu"
 ---
 
-**Kısa cevap:** Olumsuz Google yorumuna sakin, kısa ve çözüm odaklı yanıt verin: sorunu kabul edin, ne olduğunu kısaca açıklayın, çözüm için bir iletişim yolu gösterin ve müşterinin kişisel bilgisini yazmayın. Yanıtınız yalnızca yorumcuya değil, profile bakan herkese yazılır. Politikaya aykırı bir yorumsa yanıt yerine yorumu işaretleyip Google’a bildirin.
+Olumsuz Google yorumuna sakin, kısa ve çözüm odaklı yanıt verin: sorunu kabul edin, ne olduğunu kısaca açıklayın, çözüm için bir iletişim yolu gösterin ve müşterinin kişisel bilgisini yazmayın. Yanıtınız yalnızca yorumcuya değil, profile bakan herkese yazılır. Politikaya aykırı bir yorumsa yanıt yerine yorumu işaretleyip Google’a bildirin.
 
 Olumsuz bir yorum görmek rahatsız edicidir, ama doğru yanıtlanırsa işletme lehine çalışabilir. Google, olumlu ve olumsuz geri bildirimin bir arada bulunmasının genellikle daha güvenilir bir izlenim bıraktığını belirtir ([daha fazla yorum almak için ipuçları](https://support.google.com/business/answer/3474122?hl=tr)). Bu yazıda yanıtın nasıl kurulacağını, örnek metinleri ve haksız yorumla ne yapılacağını anlatıyoruz. Yorum sürecinin başı için [Google yorumları nasıl artırılır?](/blog/google-yorumlari-nasil-artirilir/) yazımıza bakabilirsiniz.
 
@@ -63,6 +63,8 @@ Aşağıdaki metinler hayalî işletmeler için örneklerdir; kendi durumunuza g
 
 Her örnekte ortak yapı aynı: özür ya da empati, kısa açıklama, çözüm yolu. Hiçbirinde müşterinin adı ya da özel bilgisi yok.
 
+> **Hizmet almak için iletişime geçin.** Google İşletme Profili’nizi ve harita görünürlüğünüzü birlikte inceleyelim; ne eksik, neyin düzeltileceğini yazılı söyleyelim. [Yerel SEO hizmetimizi](/yerel-seo/) inceleyin ya da [bize yazın](/iletisim/).
+
 ## Yanıt verirken yapılmaması gerekenler
 
 - **Savunmaya geçmek.** “Siz yanlış anlamışsınız” ifadesi müşteriyi karşıt hâle getirir.
@@ -94,6 +96,8 @@ Kurallara aykırı olmayan, yalnızca sert bir yorumu bildirmek işe yaramaz; b�
 - **Kayıt tutun.** Hangi yoruma ne yanıt verdiniz, sorun çözüldü mü?
 - **Aylık değerlendirin.** Tekrarlayan şikâyet varsa işi düzeltin.
 
+> **Sizin için de yapalım mı?** Haritada daha görünür olmak istiyorsanız profilinize ve yerel kayıtlarınıza bakıp yapılacakları kalem kalem çıkaralım. [Hizmet almak için iletişime geçin](/iletisim/); ayrıntı için [yerel SEO sayfamıza](/yerel-seo/) göz atabilirsiniz.
+
 ## Denizli’den bir örnek
 
 Örnek (hayalî bir işletme için): Pamukkale’de bir pansiyon, “Oda soğuktu, kahvaltı geç geldi” diyen tek yıldızlı bir yorum alıyor. Yönetici kayıtları kontrol ediyor; o gün kazan arızası olduğu görülüyor. Yanıt şöyle: sorun kabul ediliyor, arıza kısaca belirtiliyor (“o gün kazanımızda bir arıza yaşandı”), müşteriyi bir sonraki konaklamasına dair bir iletişim yoluyla ilgilenme teklifi yapılıyor. Yanıta müşterinin adı ya da rezervasyon ayrıntısı yazılmıyor. Ardından pansiyon kazan bakımını planlıyor; böylece yorum işin kendisini de iyileştirmiş oluyor.
@@ -115,14 +119,12 @@ Sahte yorum yazmayız, yorum sildirmeyi vaat etmeyiz. Profilinize bakıp ne yap�
 
 Her olumsuz yorum, işinizin neresinde sorun olduğunu gösterebilir. Aşağıdaki tablo, hayalî örneklerle şikâyet türünü ve içeride yapılabilecek düzeltmeyi gösterir:
 
-| Şikâyet türü | Olası kök neden | İçeride yapılacak |
-| --- | --- | --- |
-| “Randevuya geç geldiler” | Saat planlaması, trafik payı | Randevu aralığını gevşet, müşteriyi önceden ara |
-| “Fiyat beklediğimden yüksek” | Fiyat önceden anlatılmadı | Fiyat çerçevesini sitede ve telefonda net söyle |
-| “Telefona çıkmıyorlar” | Çağrılara yetişilemiyor | Telefon vardiyası, geri arama notu |
-| “Ürün anlatılandan farklı” | Fotoğraf ya da açıklama yanıltıcı | Fotoğraf ve açıklamayı gerçeğe uydur |
-| “Temizlik kötüydü” | Kontrol listesi yok | Günlük kontrol listesi |
-| “İade kabul etmediler” | Politika görünür değil | İade koşulunu sitede ve fişte göster |
+- **“Randevuya geç geldiler”:** olası kök neden: Saat planlaması, trafik payı; i̇çeride yapılacak: Randevu aralığını gevşet, müşteriyi önceden ara
+- **“Fiyat beklediğimden yüksek”:** olası kök neden: Fiyat önceden anlatılmadı; i̇çeride yapılacak: Fiyat çerçevesini sitede ve telefonda net söyle
+- **“Telefona çıkmıyorlar”:** olası kök neden: Çağrılara yetişilemiyor; i̇çeride yapılacak: Telefon vardiyası, geri arama notu
+- **“Ürün anlatılandan farklı”:** olası kök neden: Fotoğraf ya da açıklama yanıltıcı; i̇çeride yapılacak: Fotoğraf ve açıklamayı gerçeğe uydur
+- **“Temizlik kötüydü”:** olası kök neden: Kontrol listesi yok; i̇çeride yapılacak: Günlük kontrol listesi
+- **“İade kabul etmediler”:** olası kök neden: Politika görünür değil; i̇çeride yapılacak: İade koşulunu sitede ve fişte göster
 
 Aynı şikâyet birden fazla yorumda geçiyorsa yanıt yazmak yetmez; iş akışını düzeltin.
 

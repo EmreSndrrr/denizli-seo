@@ -6,7 +6,7 @@ service: icerik-seo
 imageAlt: "Basamaklı bir sıralama listesi ve en üste uzanan ok"
 ---
 
-**Kısa cevap:** Bir web sitesi Google’da üst sıralara; önce taranıp dizine girerek, sonra aranan soruya en iyi cevabı veren sayfalara sahip olarak, telefonda hızlı ve düzgün açılarak ve başka kaynaklarca tanınarak çıkar. Yerel işletmelerde Google İşletme Profili de gerekir. Google sıralama için ödeme kabul etmez ve kimse birinci sıra garantisi veremez; ilerleme düzenli işle birikir.
+Bir web sitesi Google’da üst sıralara; önce taranıp dizine girerek, sonra aranan soruya en iyi cevabı veren sayfalara sahip olarak, telefonda hızlı ve düzgün açılarak ve başka kaynaklarca tanınarak çıkar. Yerel işletmelerde Google İşletme Profili de gerekir. Google sıralama için ödeme kabul etmez ve kimse birinci sıra garantisi veremez; ilerleme düzenli işle birikir.
 
 “Sitemi Google’da nasıl üste çıkarırım?” sorusunun tek bir hile cevabı yoktur. Bu yazıda sekiz adımlık bir yol haritası veriyoruz. Her adım, sırayla yapılması gereken bir işi anlatır; önceki adım tamamlanmadan sonrakine geçmek çoğu zaman boşa emektir. Temel kavramlar için önce “SEO nedir?” yazımıza bakabilirsiniz.
 
@@ -31,6 +31,8 @@ Bir aramada sıra almanın ana şartı, o aramaya cevap veren bir sayfanız olma
 ## 4. Başlıkları ve açıklamaları düzeltin
 
 Her sayfanın açıklayıcı, kısa ve benzersiz bir `<title>` başlığı olmalı. “Ana Sayfa” gibi belirsiz başlıklardan ve tüm sayfalarda tekrar eden başlıklardan kaçının ([başlık bağlantıları](https://developers.google.com/search/docs/appearance/title-link?hl=tr)). Başlık, hem Google’ın sayfayı anlamasına hem de arama sonucunda tıklanmanıza yardım eder.
+
+> **Hizmet almak için iletişime geçin.** Müşterilerinizin sorduğu sorulardan bir içerik planı çıkaralım ve sayfalarınızı birlikte yazalım. [İçerik SEO hizmetimizi](/icerik-seo/) inceleyin ya da [bize yazın](/iletisim/).
 
 ## 5. Siteyi telefonda hızlı ve düzgün hale getirin
 
@@ -74,6 +76,8 @@ Süre konusunda ayrıntı için “SEO ne kadar sürede sonuç verir?” yazım�
 
 Bu örnek bir sonuç vaadi değil, işlerin sırasını gösteren bir şemadır.
 
+> **Sizin için de yapalım mı?** Sayfalarınızın ve yazılarınızın neden yeterince işe yaramadığına birlikte bakalım. [Hizmet almak için iletişime geçin](/iletisim/); yöntemimiz [içerik SEO sayfamızda](/icerik-seo/) yazılı.
+
 ## Yapılmaması gerekenler
 
 - **Aynı kelimeyi sayfaya tekrar tekrar yazmak.** Doğal olmayan tekrar, Google’ın anahtar kelime doldurma örneklerindendir.
@@ -96,11 +100,9 @@ Sonra kendi sayfanızı bu bakışla gözden geçirin. Amaç rakipten uzun yazma
 
 Kesin sonuç söz vermeden, işlerin makul bir dağılımı şöyle olabilir:
 
-| Dönem | Odak | Ölçüt |
-| --- | --- | --- |
-| 1. ay | Dizin, mobil, hız, başlıklar, İşletme Profili | Sayfa dizine ekleme raporunda hatalar azalıyor mu? |
-| 2. ay | Hedef aramalar için hizmet sayfaları | Yeni sayfalar dizinde mi, gösterim almaya başladı mı? |
-| 3. ay | Sık sorulan sorular, rehber yazıları, yorum toplama | Gösterim ve tıklama artıyor mu? |
+- **1. ay:** odak: Dizin, mobil, hız, başlıklar, İşletme Profili; ölçüt: Sayfa dizine ekleme raporunda hatalar azalıyor mu?
+- **2. ay:** odak: Hedef aramalar için hizmet sayfaları; ölçüt: Yeni sayfalar dizinde mi, gösterim almaya başladı mı?
+- **3. ay:** odak: Sık sorulan sorular, rehber yazıları, yorum toplama; ölçüt: Gösterim ve tıklama artıyor mu?
 
 Bu takvim bir tahmin değil, işlerin sırasıdır. Rekabetli aramalarda daha uzun sürer; dar yerel aramalarda daha erken hareket görülebilir. Gerçekçi beklenti için süre yazımıza bakın.
 

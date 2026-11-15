@@ -6,7 +6,7 @@ service: web-tasarim
 imageAlt: "Bir web sitesi taslağı ve yanında işaretlenmiş kontrol listesi"
 ---
 
-**Kısa cevap:** SEO uyumlu web sitesi, Google’ın bulup tarayabildiği, telefonda hızlı ve düzgün açılan, her sayfası kendi başlığı ve adresiyle ayrı bir soruya cevap veren sitedir. “SEO uyumlu” bir etiket değil, teslim anında kontrol edilebilecek bir listedir: mobil sürüm, hız, adres yapısı, başlıklar, site haritası ve eski adreslerin yönlendirilmesi. Sıra garantisi ise hiçbir tasarımın parçası olamaz.
+SEO uyumlu web sitesi, Google’ın bulup tarayabildiği, telefonda hızlı ve düzgün açılan, her sayfası kendi başlığı ve adresiyle ayrı bir soruya cevap veren sitedir. “SEO uyumlu” bir etiket değil, teslim anında kontrol edilebilecek bir listedir: mobil sürüm, hız, adres yapısı, başlıklar, site haritası ve eski adreslerin yönlendirilmesi. Sıra garantisi ise hiçbir tasarımın parçası olamaz.
 
 Web siteniz yaptıracaksanız ya da yenileyecekseniz, “SEO uyumlu mu yapıyorsunuz?” sorusuna alacağınız “evet” cevabı tek başına bir şey söylemez. Bu yazı, o cevabı somut kalemlere çevirmenize yardımcı olur: tasarımcıya hangi soruları soracağınızı ve siteyi teslim alırken neye bakacağınızı anlatır.
 
@@ -57,6 +57,8 @@ Her sayfanın açıklayıcı ve kısa bir `<title>` başlığı olmalı; “Ana 
 
 Tasarımcıya sorun: “Başlık ve açıklamaları sayfa sayfa girebilir miyim, yoksa şablondan otomatik mi geliyor?” Otomatik gelen başlıklar çoğu zaman tüm sayfalarda aynıdır.
 
+> **Hizmet almak için iletişime geçin.** SEO’yu baştan düşünerek tasarlanmış, hızlı ve telefonda rahat bir site kuralım. [Web tasarım hizmetimizi](/web-tasarim/) inceleyin ya da [bize yazın](/iletisim/).
+
 ## Site haritası ve robots ayarları var mı?
 
 Site haritası, sitenizdeki önemli adresleri Google’a bildiren bir dosyadır ([site haritası nedir?](https://developers.google.com/search/docs/crawling-indexing/sitemaps/overview?hl=tr)). Bazı içerik yönetim sistemleri bunu otomatik üretir. Teslimde şu iki şeyi sorun:
@@ -82,14 +84,12 @@ Kontrol edin:
 
 ## Web tasarımcıya sorulacak sorular
 
-| Soru | İyi cevap |
-| --- | --- |
-| Telefon sürümü masaüstüyle aynı içeriği taşıyor mu? | Evet, test edilir |
-| Hız ölçümü yapılacak mı? | Yayın öncesi ve sonrası, yazılı |
-| Başlık ve açıklamaları ben girebilir miyim? | Her sayfa için ayrı alan var |
-| Site haritası ve yönlendirmeler hazırlanacak mı? | Evet, eşleme tablosuyla |
-| Yayında “noindex” kaldırıldı mı? | Evet, birlikte kontrol edilir |
-| Siteye erişim ve hesaplar kime ait? | Bana |
+- **Telefon sürümü masaüstüyle aynı içeriği taşıyor mu?:** Evet, test edilir
+- **Hız ölçümü yapılacak mı?:** Yayın öncesi ve sonrası, yazılı
+- **Başlık ve açıklamaları ben girebilir miyim?:** Her sayfa için ayrı alan var
+- **Site haritası ve yönlendirmeler hazırlanacak mı?:** Evet, eşleme tablosuyla
+- **Yayında “noindex” kaldırıldı mı?:** Evet, birlikte kontrol edilir
+- **Siteye erişim ve hesaplar kime ait?:** Bana
 
 “SEO uyumlu yapıyoruz” cevabının yanında bu soruların cevabı yoksa teklif eksiktir.
 
@@ -106,15 +106,15 @@ Kontrol edin:
 
 Bunlar, [ücretsiz SEO analizi](/blog/ucretsiz-seo-analizi-nasil-yapilir/) yazımızdaki kontrollerin teslim anına uyarlanmış hâlidir.
 
+> **Sizin için de yapalım mı?** Mevcut sitenizi yenilemek ya da sıfırdan kurmak istiyorsanız ihtiyacınızı birlikte netleştirelim. [Hizmet almak için iletişime geçin](/iletisim/); ayrıntı [web tasarım sayfamızda](/web-tasarim/).
+
 ## Hazır sistem mi, özel kodlama mı?
 
 Site yaptırırken tasarımcı genellikle üç yoldan birini önerir. SEO açısından her birinin kontrol edilecek noktası farklıdır:
 
-| Yol | Güçlü yanı | SEO için dikkat |
-| --- | --- | --- |
-| Hazır içerik yönetim sistemi ve tema | Hızlı kurulum, başlık ve açıklamayı panelden girme | Tema ağırlığı, gereksiz eklentiler, hız |
-| Site oluşturucu (sürükle-bırak) | Kolay kullanım | Başlık, adres ve yönlendirme ayarlarının ne kadar esnek olduğu |
-| Özel kodlanmış site | Tam kontrol, hafif yapı | Başlık, site haritası ve yönlendirmeler baştan kodlanmalı; dokümantasyon istenmeli |
+- **Hazır içerik yönetim sistemi ve tema:** güçlü yanı: Hızlı kurulum, başlık ve açıklamayı panelden girme; seo için dikkat: Tema ağırlığı, gereksiz eklentiler, hız
+- **Site oluşturucu (sürükle-bırak):** güçlü yanı: Kolay kullanım; seo için dikkat: Başlık, adres ve yönlendirme ayarlarının ne kadar esnek olduğu
+- **Özel kodlanmış site:** güçlü yanı: Tam kontrol, hafif yapı; seo için dikkat: Başlık, site haritası ve yönlendirmeler baştan kodlanmalı; dokümantasyon istenmeli
 
 Hangisini seçerseniz seçin, ayarları kendi panelinizden değiştirip değiştiremeyeceğinizi sorun. Sonradan başlık değiştirmek için her seferinde yazılımcı çağırmak istemezsiniz.
 

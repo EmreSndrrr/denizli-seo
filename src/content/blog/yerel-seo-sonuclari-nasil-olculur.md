@@ -6,7 +6,7 @@ service: yerel-seo
 imageAlt: "Aylık yerel SEO rapor paneli: arama, yol tarifi ve talep sayıları"
 ---
 
-**Kısa cevap:** Yerel SEO sonucunu beş yerden ölçün: İşletme Profili Performans bölümü (görüntüleme, arama, yol tarifi), Search Console (gösterim ve tıklama), telefon ve WhatsApp talepleri, yorum sayısı ile puanı ve belirli aramalardaki harita sırası. Aynı uzunluktaki dönemleri karşılaştırın, mevsimi hesaba katın ve en çok gelen talebe bakın; çünkü asıl sonuç sıra değil, müşteri talebidir.
+Yerel SEO sonucunu beş yerden ölçün: İşletme Profili Performans bölümü (görüntüleme, arama, yol tarifi), Search Console (gösterim ve tıklama), telefon ve WhatsApp talepleri, yorum sayısı ile puanı ve belirli aramalardaki harita sırası. Aynı uzunluktaki dönemleri karşılaştırın, mevsimi hesaba katın ve en çok gelen talebe bakın; çünkü asıl sonuç sıra değil, müşteri talebidir.
 
 Yerel SEO’da “sıram yükseldi mi?” sorusu çoğu zaman tek başına yanıltıcıdır: harita sırası konuma ve cihaza göre değişir. Bu yüzden ölçümü birden fazla gösterge üzerinden yapmak gerekir. Bu yazı, küçük bir işletmenin ayda bir yarım saatte yapabileceği bir ölçüm düzenini anlatıyor. Profil rakamlarını ayrıntılı okumak için [İşletme Profili Performans raporu](/blog/isletme-profili-performans-raporu-nasil-okunur/) yazımıza bakabilirsiniz.
 
@@ -58,20 +58,22 @@ Haritada sıra konuma ve kişiye göre değiştiği için bu rakam kesin değil,
 
 Her ay sonu doldurun. İlk satırlar talep; sıra en sonda:
 
-| Gösterge | Önceki ay | Bu ay | Not |
-| --- | --- | --- | --- |
-| Telefon talebi | | | |
-| WhatsApp talebi | | | |
-| Form ve randevu | | | |
-| Profil: arama | | | |
-| Profil: yol tarifi | | | |
-| Profil: görüntüleme | | | |
-| Site: gösterim (Search Console) | | | |
-| Site: tıklama (Search Console) | | | |
-| Yeni yorum / puan | | | |
-| Harita sırası (3 hedef arama) | | | |
+Şunları tek tek kontrol edin:
+
+- Telefon talebi
+- WhatsApp talebi
+- Form ve randevu
+- Profil: arama
+- Profil: yol tarifi
+- Profil: görüntüleme
+- Site: gösterim (Search Console)
+- Site: tıklama (Search Console)
+- Yeni yorum / puan
+- Harita sırası (3 hedef arama)
 
 “Not” sütununa o ayda yaptığınız işleri yazın (profil düzeltmesi, yeni sayfa, fotoğraf, kampanya, bayram).
+
+> **Hizmet almak için iletişime geçin.** Google İşletme Profili’nizi ve harita görünürlüğünüzü birlikte inceleyelim; ne eksik, neyin düzeltileceğini yazılı söyleyelim. [Yerel SEO hizmetimizi](/yerel-seo/) inceleyin ya da [bize yazın](/iletisim/).
 
 ## Karşılaştırmayı doğru yapın
 
@@ -95,6 +97,8 @@ Aşağıdaki sırayla bakın:
 4. **Mevsim mi?** Geçen yılın aynı dönemiyle kıyaslayın.
 5. **Rakipler mi güçlendi?** Haritada ilk üç işletmenin profilini inceleyin.
 6. **Talep düşük ama görünürlük iyi mi?** Fotoğraf, yorum, telefon ve açıklamayı gözden geçirin.
+
+> **Sizin için de yapalım mı?** Haritada daha görünür olmak istiyorsanız profilinize ve yerel kayıtlarınıza bakıp yapılacakları kalem kalem çıkaralım. [Hizmet almak için iletişime geçin](/iletisim/); ayrıntı için [yerel SEO sayfamıza](/yerel-seo/) göz atabilirsiniz.
 
 ## Denizli’den bir örnek
 
@@ -124,6 +128,10 @@ Aylık raporu sahip, ortak ya da ajans ile paylaşırken dört başlık yeterlid
 4. **Ne yapacağız?** Gelecek ay için üç öncelik.
 
 Rapor ne kadar kısaysa o kadar okunur. Uzun grafik tablolarından çok, bir sayfa net yorum işe yarar.
+
+## Ölçümü basit tutun
+
+Üç sayı yeterlidir: profil görüntüleme, arama ve yol tarifi eylemleri ve gerçek talep. Her ay aynı sayılara bakın.
 
 ## Denizli SEO bu konuda nasıl yardımcı olur?
 
@@ -161,6 +169,10 @@ En basit yol, gelen her yeni müşteriye “bizi nasıl buldunuz?” diye sorup 
 ### SEO çalışmasının geri dönüşünü nasıl anlarım?
 
 Aylık SEO’dan gelen ek talep sayısını, bir yeni müşterinin size ortalama kazandırdığı gelirle çarpın ve harcamanızla kıyaslayın. Talep kaynağını kayda geçirmeden bu hesap yapılamaz.
+
+### Ölçümü ne sıklıkla raporlamalıyım?
+
+Aylık bir özet yeterli; kampanya dönemlerinde haftalık bakabilirsiniz.
 
 ## Kaynaklar
 

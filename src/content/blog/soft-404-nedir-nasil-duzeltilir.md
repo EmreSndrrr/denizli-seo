@@ -6,7 +6,7 @@ service: teknik-seo
 imageAlt: "“Sayfa bulunamadı” yazan ama yeşil onaylı bir sayfa"
 ---
 
-**Kısa cevap:** Soft 404, bir sayfanın “bulunamadı” içeriği gösterirken sunucudan 404 değil 200 (başarılı) durum kodu döndürmesidir. Google’ın Sayfa dizine ekleme raporu bunu şöyle açıklar: sayfa isteği 404 yanıt kodu değil, kullanıcı dostu bir “bulunamadı” mesajı döndürmüştür. Google’ın önerisi: gerçekten bulunamayan sayfalar için 404 yanıt kodu döndürmek ya da sayfanın bir hata olmadığını anlaması için sayfaya daha fazla bilgi eklemek.
+Soft 404, bir sayfanın “bulunamadı” içeriği gösterirken sunucudan 404 değil 200 (başarılı) durum kodu döndürmesidir. Google’ın Sayfa dizine ekleme raporu bunu şöyle açıklar: sayfa isteği 404 yanıt kodu değil, kullanıcı dostu bir “bulunamadı” mesajı döndürmüştür. Google’ın önerisi: gerçekten bulunamayan sayfalar için 404 yanıt kodu döndürmek ya da sayfanın bir hata olmadığını anlaması için sayfaya daha fazla bilgi eklemek.
 
 Soft 404, sinsi bir sorundur: sayfa ziyaretçiye “bulunamadı” der, ama sunucu Google’a “her şey yolunda” der. Google bunu fark eder ve sayfayı dizine eklemeyebilir. Bu yazıda soft 404’ün ne olduğunu, nasıl oluştuğunu ve nasıl düzeltileceğini anlatıyoruz. Normal 404’ler için [404 hatası: düzeltmeli mi, yönlendirmeli mi?](/blog/404-hatasi-duzeltmeli-mi-yonlendirmeli-mi/) yazımıza bakabilirsiniz.
 
@@ -34,6 +34,8 @@ Google, 4xx dönen URL’lerin dizine eklenmediğini ve dizindekilerin kaldırı
 5. **Tek sayfalık uygulamalar (SPA).** İstemci tarafı yönlendirmede anlamlı durum kodu dönmek zor olabilir.
 6. **Stokta olmayan ürün sayfaları.** İçerik kalmamış, sayfa boşalmış.
 
+> **Hizmet almak için iletişime geçin.** Sitenizin dizine eklenme, hız ve mobil durumunu birlikte tarayalım; bulguları öncelik sırasıyla yazılı verelim. [Teknik SEO hizmetimizi](/teknik-seo/) inceleyin ya da [bize yazın](/iletisim/).
+
 ## Soft 404 nasıl bulunur?
 
 1. **Search Console, Sayfa dizine ekleme raporu.** “Soft 404” durumundaki sayfaları listeleyin.
@@ -45,15 +47,13 @@ Google, 4xx dönen URL’lerin dizine eklenmediğini ve dizindekilerin kaldırı
 
 Karar kuralı: **Sayfa gerçekten yoksa 404 dönsün; sayfa varsa içeriği yeterli olsun.**
 
-| Durum | Çözüm |
-| --- | --- |
-| Gerçekten silinmiş sayfa | 404 (ya da 410) durum kodu döndürün |
-| Sayfa taşındı, karşılığı var | 301 ile yeni sayfaya yönlendirin |
-| Özel 404 sayfası 200 dönüyor | Yazılımcıya 404 durum kodu döndürtün |
-| Boş kategori | Kategoriyi 404 yapın ya da gerçek içerik ekleyin (ürünü olmadığında alternatif öneri, açıklama) |
-| İnce içerik sayfası | Özgün ve yararlı içerikle derinleştirin; yoksa kaldırın ya da birleştirin |
-| Stokta olmayan ürün | “Stokta yok” bilgisi ve benzer ürün önerisiyle sayfayı anlamlı tutun; kalıcı kaldırıldıysa 404 ya da yönlendirme |
-| SPA | Aşağıdaki stratejilerden birini uygulayın |
+- **Gerçekten silinmiş sayfa:** 404 (ya da 410) durum kodu döndürün
+- **Sayfa taşındı, karşılığı var:** 301 ile yeni sayfaya yönlendirin
+- **Özel 404 sayfası 200 dönüyor:** Yazılımcıya 404 durum kodu döndürtün
+- **Boş kategori:** Kategoriyi 404 yapın ya da gerçek içerik ekleyin (ürünü olmadığında alternatif öneri, açıklama)
+- **İnce içerik sayfası:** Özgün ve yararlı içerikle derinleştirin; yoksa kaldırın ya da birleştirin
+- **Stokta olmayan ürün:** “Stokta yok” bilgisi ve benzer ürün önerisiyle sayfayı anlamlı tutun; kalıcı kaldırıldıysa 404 ya da yönlendirme
+- **SPA:** Aşağıdaki stratejilerden birini uygulayın
 
 ## Tek sayfalık uygulamalarda soft 404
 
@@ -66,6 +66,8 @@ Google’ın JavaScript rehberi, istemci taraflı oluşturulan tek sayfalık uyg
 3. 404 yaptığınız sayfalar site haritasından çıkarılsın.
 4. Dizine girmesi gereken sayfaları iyileştirdiyseniz yeniden tarama isteyin; bkz. [dizine ekleme isteği](/blog/google-a-dizine-ekleme-nasil-istenir-url-denetleme/).
 
+> **Sizin için de yapalım mı?** Sitenizde teknik bir sorun şüpheniz varsa nedenini sırayla teşhis edelim. [Hizmet almak için iletişime geçin](/iletisim/); çalışmanın kapsamı [teknik SEO sayfamızda](/teknik-seo/) anlatılıyor.
+
 ## Denizli’den bir örnek
 
 Örnek (hayalî bir işletme için): Pamukkale’de bir pansiyonun sitesinde “Aradığınız sayfa bulunamadı” yazan şık bir sayfa var; ama sunucu bu sayfa için 200 dönüyor. Search Console’da yüzlerce “soft 404” görünüyor. Ayrıca eski rezervasyon adresleri bu sayfaya düşüyor.
@@ -76,18 +78,20 @@ Düzeltme: özel 404 sayfasının 404 durum kodu döndürmesi sağlanıyor; eski
 
 E-ticarette soft 404’ün en sık kaynağı budur. Karar tablosu:
 
-| Durum | Önerilen davranış |
-| --- | --- |
-| Kategori geçici olarak boş, dönecek | Sayfayı tutun; açıklama, alternatif kategori ve arama kutusu ekleyin |
-| Kategori kalıcı olarak kapandı | Uygun kategoriye 301; karşılığı yoksa 404 |
-| Ürün geçici stok dışı | Sayfa kalsın; “stokta yok”, haber ver seçeneği, benzer ürünler |
-| Ürün kalıcı kaldırıldı | Benzer ürüne 301 ya da 404 |
+- **Kategori geçici olarak boş, dönecek:** Sayfayı tutun; açıklama, alternatif kategori ve arama kutusu ekleyin
+- **Kategori kalıcı olarak kapandı:** Uygun kategoriye 301; karşılığı yoksa 404
+- **Ürün geçici stok dışı:** Sayfa kalsın; “stokta yok”, haber ver seçeneği, benzer ürünler
+- **Ürün kalıcı kaldırıldı:** Benzer ürüne 301 ya da 404
 
 Sayfa gerçekten işlevsiz ve içeriksizse Google’ın “soft 404” kararı yerinde olabilir.
 
 ## Soft 404 kontrolünü rutin hale getirin
 
 Ayda bir Sayfa dizine ekleme raporuna bakın; yeni soft 404 var mı? Siteyi yeniledikten, kategori sildikten ya da ürün kataloğunu güncelledikten sonra haftalık kontrol yapın. Her uyarı için “bu sayfa gerçekten yok mu, yoksa yetersiz mi?” sorusunu sorun.
+
+## Soft 404’leri önlemek için şablon kuralı
+
+Boş sonuç, stokta olmayan ürün ya da kaldırılmış sayfa şablonlarının doğru durum koduyla çalıştığından emin olun. Geliştiriciden bu şablonlar için hata sayfasını doğru kodla döndürmesini isteyin.
 
 ## Denizli SEO bu konuda nasıl yardımcı olur?
 
@@ -125,6 +129,14 @@ Alakasız yönlendirme kullanıcıyı yanıltır ve soft 404 gibi görülebilir.
 ### Soft 404 uyarısı yanlış olabilir mi?
 
 Olabilir; sayfanız gerçekten yararlı içeriğe sahipse, Google’ın önerisi sayfaya daha fazla bilgi eklemektir.
+
+### Soft 404’ü düzelttikten sonra ne kadar beklemeliyim?
+
+Google’ın yeniden taraması zaman alabilir; dizin raporunda durumu birkaç hafta izleyin ve gerekirse URL Denetleme ile kontrol edin.
+
+### Boş kategori sayfaları soft 404 olur mu?
+
+Çoğu zaman benzer şekilde değerlendirilebilir; boş kategorileri birleştirin, yönlendirin ya da içerik ekleyin.
 
 ## Kaynaklar
 

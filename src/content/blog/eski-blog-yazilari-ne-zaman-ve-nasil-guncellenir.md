@@ -6,7 +6,7 @@ service: icerik-seo
 imageAlt: "Eski bir yazı kartı, takvim ve yenilenmiş sürümü gösteren ok"
 ---
 
-**Kısa cevap:** Eski bir yazıyı, bilgisi eskidiyse, hâlâ arama alıyorsa ya da müşterinin sorusuna artık eksik cevap veriyorsa güncelleyin; aynı soruya cevap veren birden fazla yazı varsa birleştirip eskiyi yönlendirin; artık alakalı değilse ve değeri yoksa kaldırın. Google’ın SEO rehberi, yayınlanmış içeriği kontrol edip gerektiğinde güncellemeyi ya da artık alakalı değilse silmeyi önerir. Güncelleme tarihini yalnızca gerçekten değişiklik yaptığınızda ve doğru olarak gösterin.
+Eski bir yazıyı, bilgisi eskidiyse, hâlâ arama alıyorsa ya da müşterinin sorusuna artık eksik cevap veriyorsa güncelleyin; aynı soruya cevap veren birden fazla yazı varsa birleştirip eskiyi yönlendirin; artık alakalı değilse ve değeri yoksa kaldırın. Google’ın SEO rehberi, yayınlanmış içeriği kontrol edip gerektiğinde güncellemeyi ya da artık alakalı değilse silmeyi önerir. Güncelleme tarihini yalnızca gerçekten değişiklik yaptığınızda ve doğru olarak gösterin.
 
 Bir blog yayımlandıkça çoğu işletme yeni yazı yazmaya odaklanır; eski yazıların eskidiğini fark etmez. Oysa bu yazıların bir kısmı hâlâ arama alıyor olabilir; yanlış ya da eski bilgi hem okuyucuyu hem güveni zedeler. Bu yazıda hangi yazıya ne yapılacağını, güncellemenin nasıl yapılacağını ve tarihin nasıl gösterileceğini anlatıyoruz. Yazı planı için [içerik planı nasıl yapılır?](/blog/icerik-plani-nasil-yapilir-aylik-takvim-ornegi/) yazımıza bakabilirsiniz.
 
@@ -56,6 +56,8 @@ Pratik kurallar:
 - **Yayın tarihini koruyun**, güncelleme tarihini ayrıca yazın.
 - **Metinde “bu yıl” gibi göreceli ifade kullanmayın**; tarih yazın.
 
+> **Hizmet almak için iletişime geçin.** Müşterilerinizin sorduğu sorulardan bir içerik planı çıkaralım ve sayfalarınızı birlikte yazalım. [İçerik SEO hizmetimizi](/icerik-seo/) inceleyin ya da [bize yazın](/iletisim/).
+
 ## Birleştirme: iki yazıyı tek yazı yapmak
 
 1. İki yazıdan daha güçlü olanı (daha çok gösterim ve bağlantı alan) asıl yazı seçin.
@@ -72,9 +74,7 @@ Değeri olmayan, güncel olmayan ve karşılığı bulunmayan bir yazıyı kald�
 
 Yılda bir tüm yazıları tabloya dökün:
 
-| Yazı | Son güncelleme | Aylık gösterim | Doğru mu? | Karar |
-| --- | --- | --- | --- | --- |
-| (başlık) | | | | Güncelle / birleştir / kaldır / bırak |
+- **(başlık):** karar: Güncelle / birleştir / kaldır / bırak
 
 Önce en çok gösterimi olan ve bilgisi eski olan yazılardan başlayın.
 
@@ -86,6 +86,8 @@ Yılda bir tüm yazıları tabloya dökün:
 4. **Kaynakları kontrol etmemek.** Google sayfaları değişir.
 5. **Eski yazıyı yönlendirmeden silmek.** Bağlantı alan adres boşa gider.
 6. **Güncelledikten sonra izlememek.**
+
+> **Sizin için de yapalım mı?** Sayfalarınızın ve yazılarınızın neden yeterince işe yaramadığına birlikte bakalım. [Hizmet almak için iletişime geçin](/iletisim/); yöntemimiz [içerik SEO sayfamızda](/icerik-seo/) yazılı.
 
 ## Denizli’den bir örnek
 
@@ -107,6 +109,10 @@ Bu örnek sonuç vaadi değildir; güncelleme düzenini gösterir.
 ## Mevsimlik içerikleri yönetmek
 
 Bayram, sezon ve kampanya yazıları her yıl yeniden geçerli olur. Bu yazıları silip yeniden yazmak yerine aynı adreste güncelleyin: tarihleri, fiyat çerçevesini ve bilgileri yenileyin. Böylece zamanla biriken bağlantılar ve geçmiş aynı adreste kalır. Sezon dışında yazıyı yayında tutabilir ya da “bu yıl için güncellenecek” notu düşebilirsiniz.
+
+## Güncelleme kaydı tutmak
+
+Her güncellemede yazının adresi, tarih, yapılan değişiklik ve gerekçeyi bir tabloya yazın. Böylece hangi güncellemenin sonuç verdiğini görür, aynı yazıyı bir daha ne zaman gözden geçireceğinizi planlarsınız. Bu küçük alışkanlık, çalışmanın zamanla daha net ve ölçülebilir hâle gelmesini sağlar.
 
 ## Denizli SEO bu konuda nasıl yardımcı olur?
 
@@ -144,6 +150,14 @@ Konu aynıysa hayır. Adres değişirse yönlendirme gerekir ve sinyaller yenide
 ### Kaç yazıyı aynı anda güncelleyebilirim?
 
 Sınırı yok; ama tek tek yapın ve tarihleri not alın ki hangi güncellemenin işe yaradığını görebilesiniz.
+
+### Güncelleme tarihini her düzeltmede yenilemeli miyim?
+
+Hayır; yalnızca içeriği anlamlı biçimde değiştirdiğinizde. Küçük yazım düzeltmeleri için tarihi yenilemeyin.
+
+### Eski bir yazıyı silmek yerine ne yapmalıyım?
+
+Güncel değilse güncelleyin; hiç gereği kalmadıysa uygun bir sayfaya yönlendirin ya da kaldırın.
 
 ## Kaynaklar
 

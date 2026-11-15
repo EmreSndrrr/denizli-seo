@@ -116,49 +116,319 @@ Biçim: kutu, sıra no, H1 başlığı, hizmet, ana kelime.
 
 ### Backlink
 
-- [ ] 064. Misafir Yazı (Guest Post) Riskli mi? — `backlink-hizmeti` — guest post — `misafir-yazi-guest-post-riskli-mi`
-- [ ] 065. Dijital PR ile Doğal Backlink Kazanmak — `backlink-hizmeti` — dijital pr — `dijital-pr-ile-dogal-backlink-kazanmak`
-- [ ] 066. Kırık Bağlantı Yöntemiyle Backlink Kazanmak — `backlink-hizmeti` — kırık bağlantı — `kirik-baglanti-yontemiyle-backlink-kazanmak`
-- [ ] 067. Yerel Haber Sitelerinden Bağlantı Nasıl Alınır? — `backlink-hizmeti` — yerel haber backlink — `yerel-haber-sitelerinden-baglanti-nasil-alinir`
-- [ ] 068. Sponsorluk Bağlantıları: sponsored Nasıl İşaretlenir? — `backlink-hizmeti` — sponsored link — `sponsorluk-baglantilari-sponsored-nasil-isaretlenir`
-- [ ] 069. Kaybolan Backlinkler Nasıl Geri Kazanılır? — `backlink-hizmeti` — backlink kaybı — `kaybolan-backlinkler-nasil-geri-kazanilir`
-- [ ] 070. Bağlantı Metni (Anchor) Dağılımı Nasıl Olmalı? — `backlink-hizmeti` — anchor text — `baglanti-metni-anchor-dagilimi-nasil-olmali`
-- [ ] 071. Rakip Backlink Analizi Nasıl Yapılır? — `backlink-hizmeti` — rakip backlink — `rakip-backlink-analizi-nasil-yapilir`
-- [ ] 072. Backlink Satın Almadan Otorite Nasıl Artar? — `backlink-hizmeti` — otorite artırma — `backlink-satin-almadan-otorite-nasil-artar`
-- [ ] 073. Dizin ve Katalog Kayıtları: Hangileri İşe Yarar? — `backlink-hizmeti` — dizin siteleri — `dizin-ve-katalog-kayitlari-hangileri-ise-yarar`
-- [ ] 074. İş Ortaklığı Sayfalarından Bağlantı Almak — `backlink-hizmeti` — iş ortağı bağlantısı — `is-ortakligi-sayfalarindan-baglanti-almak`
-- [ ] 075. Backlink Çalışmasında Ajanstan Hangi Rapor İstenmeli? — `backlink-hizmeti` — backlink raporu — `backlink-calismasinda-ajanstan-hangi-rapor-istenmeli`
+- [x] 064. Misafir Yazı (Guest Post) Riskli mi? — `backlink-hizmeti` — guest post — `misafir-yazi-guest-post-riskli-mi`
+- [x] 065. Dijital PR ile Doğal Backlink Kazanmak — `backlink-hizmeti` — dijital pr — `dijital-pr-ile-dogal-backlink-kazanmak`
+- [x] 066. Kırık Bağlantı Yöntemiyle Backlink Kazanmak — `backlink-hizmeti` — kırık bağlantı — `kirik-baglanti-yontemiyle-backlink-kazanmak`
+- [x] 067. Yerel Haber Sitelerinden Bağlantı Nasıl Alınır? — `backlink-hizmeti` — yerel haber backlink — `yerel-haber-sitelerinden-baglanti-nasil-alinir`
+- [x] 068. Sponsorluk Bağlantıları: sponsored Nasıl İşaretlenir? — `backlink-hizmeti` — sponsored link — `sponsorluk-baglantilari-sponsored-nasil-isaretlenir`
+- [x] 069. Kaybolan Backlinkler Nasıl Geri Kazanılır? — `backlink-hizmeti` — backlink kaybı — `kaybolan-backlinkler-nasil-geri-kazanilir`
+- [x] 070. Bağlantı Metni (Anchor) Dağılımı Nasıl Olmalı? — `backlink-hizmeti` — anchor text — `baglanti-metni-anchor-dagilimi-nasil-olmali`
+- [x] 071. Rakip Backlink Analizi Nasıl Yapılır? — `backlink-hizmeti` — rakip backlink — `rakip-backlink-analizi-nasil-yapilir`
+- [x] 072. Backlink Satın Almadan Otorite Nasıl Artar? — `backlink-hizmeti` — otorite artırma — `backlink-satin-almadan-otorite-nasil-artar`
+- [x] 073. Dizin ve Katalog Kayıtları: Hangileri İşe Yarar? — `backlink-hizmeti` — dizin siteleri — `dizin-ve-katalog-kayitlari-hangileri-ise-yarar`
+- [x] 074. İş Ortaklığı Sayfalarından Bağlantı Almak — `backlink-hizmeti` — iş ortağı bağlantısı — `is-ortakligi-sayfalarindan-baglanti-almak`
+- [x] 075. Backlink Çalışmasında Ajanstan Hangi Rapor İstenmeli? — `backlink-hizmeti` — backlink raporu — `backlink-calismasinda-ajanstan-hangi-rapor-istenmeli`
 
 ### Web tasarım
 
-- [ ] 076. Kurumsal Web Sitesi Kaç Sayfa Olmalı? — `web-tasarim` — kurumsal web sitesi — `kurumsal-web-sitesi-kac-sayfa-olmali`
-- [ ] 077. Web Sitesi Yaptırırken Dikkat Edilecek 15 Madde — `web-tasarim` — web sitesi yaptırma — `web-sitesi-yaptirirken-dikkat-edilecek-15-madde`
-- [ ] 078. Web Sitesi Yenileme: SEO Kaybetmeden Nasıl Yapılır? — `web-tasarim` — site yenileme — `web-sitesi-yenileme-seo-kaybetmeden-nasil-yapilir`
-- [ ] 079. Tek Sayfalık Site mi, Çok Sayfalı Site mi? — `web-tasarim` — tek sayfa site — `tek-sayfalik-site-mi-cok-sayfali-site-mi`
-- [ ] 080. Menü ve Site Yapısı Nasıl Planlanır? — `web-tasarim` — site yapısı — `menu-ve-site-yapisi-nasil-planlanir`
-- [ ] 081. Hazır Tema mı, Özel Tasarım mı? SEO Açısından — `web-tasarim` — hazır tema — `hazir-tema-mi-ozel-tasarim-mi-seo-acisindan`
-- [ ] 082. Alan Adı Seçimi: SEO İçin Nelere Bakılır? — `web-tasarim` — alan adı seçimi — `alan-adi-secimi-seo-icin-nelere-bakilir`
-- [ ] 083. Web Sitesi Güvenliği: SSL, Yedek ve Güncelleme — `web-tasarim` — site güvenliği — `web-sitesi-guvenligi-ssl-yedek-ve-guncelleme`
-- [ ] 084. İletişim Formu ve WhatsApp Butonu Nasıl Kurulur? — `web-tasarim` — whatsapp butonu — `iletisim-formu-ve-whatsapp-butonu-nasil-kurulur`
-- [ ] 085. Mobil Öncelikli Tasarım Nedir? İşletmeler İçin Rehber — `web-tasarim` — mobil öncelikli tasarım — `mobil-oncelikli-tasarim-nedir-isletmeler-icin-rehber`
+- [x] 076. Kurumsal Web Sitesi Kaç Sayfa Olmalı? — `web-tasarim` — kurumsal web sitesi — `kurumsal-web-sitesi-kac-sayfa-olmali`
+- [x] 077. Web Sitesi Yaptırırken Dikkat Edilecek 15 Madde — `web-tasarim` — web sitesi yaptırma — `web-sitesi-yaptirirken-dikkat-edilecek-15-madde`
+- [x] 078. Web Sitesi Yenileme: SEO Kaybetmeden Nasıl Yapılır? — `web-tasarim` — site yenileme — `web-sitesi-yenileme-seo-kaybetmeden-nasil-yapilir`
+- [x] 079. Tek Sayfalık Site mi, Çok Sayfalı Site mi? — `web-tasarim` — tek sayfa site — `tek-sayfalik-site-mi-cok-sayfali-site-mi`
+- [x] 080. Menü ve Site Yapısı Nasıl Planlanır? — `web-tasarim` — site yapısı — `menu-ve-site-yapisi-nasil-planlanir`
+- [x] 081. Hazır Tema mı, Özel Tasarım mı? SEO Açısından — `web-tasarim` — hazır tema — `hazir-tema-mi-ozel-tasarim-mi-seo-acisindan`
+- [x] 082. Alan Adı Seçimi: SEO İçin Nelere Bakılır? — `web-tasarim` — alan adı seçimi — `alan-adi-secimi-seo-icin-nelere-bakilir`
+- [x] 083. Web Sitesi Güvenliği: SSL, Yedek ve Güncelleme — `web-tasarim` — site güvenliği — `web-sitesi-guvenligi-ssl-yedek-ve-guncelleme`
+- [x] 084. İletişim Formu ve WhatsApp Butonu Nasıl Kurulur? — `web-tasarim` — whatsapp butonu — `iletisim-formu-ve-whatsapp-butonu-nasil-kurulur`
+- [x] 085. Mobil Öncelikli Tasarım Nedir? İşletmeler İçin Rehber — `web-tasarim` — mobil öncelikli tasarım — `mobil-oncelikli-tasarim-nedir-isletmeler-icin-rehber`
 
 ### Genel ve sektör
 
-- [ ] 086. SEO mu, Google Ads mi? Hangisi Size Uygun? — `teknik-seo` — seo mu ads mi — `seo-mu-google-ads-mi-hangisi-size-uygun`
-- [ ] 087. SEO Raporu Nasıl Okunur? Aylık Rapor Şablonu — `teknik-seo` — seo raporu — `seo-raporu-nasil-okunur-aylik-rapor-sablonu`
-- [ ] 088. SEO Sözleşmesinde Bulunması Gereken 8 Madde — `teknik-seo` — seo sözleşmesi — `seo-sozlesmesinde-bulunmasi-gereken-8-madde`
-- [ ] 089. SEO Neden Sonuç Vermez? 12 Olası Neden — `teknik-seo` — seo sonuç vermiyor — `seo-neden-sonuc-vermez-12-olasi-neden`
-- [ ] 090. SEO’da Sık Yapılan 15 Hata — `teknik-seo` — seo hataları — `seo-da-sik-yapilan-15-hata`
-- [ ] 091. SEO Terimleri Sözlüğü: A’dan Z’ye — `teknik-seo` — seo sözlük — `seo-terimleri-sozlugu-a-dan-z-ye`
-- [ ] 092. Yeni Açılan İşletme İçin 30 Günlük SEO Planı — `teknik-seo` — yeni işletme seo — `yeni-acilan-isletme-icin-30-gunluk-seo-plani`
-- [ ] 093. Esnaf İçin SEO Kontrol Listesi: Bugün Yapılacak 10 İş — `teknik-seo` — esnaf seo — `esnaf-icin-seo-kontrol-listesi-bugun-yapilacak-10-is`
-- [ ] 094. SEO Yatırımının Geri Dönüşü Nasıl Hesaplanır? — `teknik-seo` — seo roi — `seo-yatiriminin-geri-donusu-nasil-hesaplanir`
-- [ ] 095. Tekstil ve Ev Tekstili Üreticileri İçin SEO — `teknik-seo` — tekstil seo — `tekstil-ve-ev-tekstili-ureticileri-icin-seo`
-- [ ] 096. Mermer ve Traverten Firmaları İçin SEO — `teknik-seo` — mermer seo — `mermer-ve-traverten-firmalari-icin-seo`
-- [ ] 097. Sanayi Firmaları İçin B2B SEO: Alıcı Nasıl Arar? — `teknik-seo` — b2b seo — `sanayi-firmalari-icin-b2b-seo-alici-nasil-arar`
-- [ ] 098. Zeytinyağı ve Tarım Ürünleri İçin Online Satış SEO’su — `teknik-seo` — tarım ürünleri seo — `zeytinyagi-ve-tarim-urunleri-icin-online-satis-seo-su`
-- [ ] 099. Eğitim Kurumları ve Kurslar İçin SEO — `teknik-seo` — kurs seo — `egitim-kurumlari-ve-kurslar-icin-seo`
-- [ ] 100. Halı Yıkama ve Temizlik Firmaları İçin SEO — `teknik-seo` — halı yıkama seo — `hali-yikama-ve-temizlik-firmalari-icin-seo`
+- [x] 086. SEO mu, Google Ads mi? Hangisi Size Uygun? — `teknik-seo` — seo mu ads mi — `seo-mu-google-ads-mi-hangisi-size-uygun`
+- [x] 087. SEO Raporu Nasıl Okunur? Aylık Rapor Şablonu — `teknik-seo` — seo raporu — `seo-raporu-nasil-okunur-aylik-rapor-sablonu`
+- [x] 088. SEO Sözleşmesinde Bulunması Gereken 8 Madde — `teknik-seo` — seo sözleşmesi — `seo-sozlesmesinde-bulunmasi-gereken-8-madde`
+- [x] 089. SEO Neden Sonuç Vermez? 12 Olası Neden — `teknik-seo` — seo sonuç vermiyor — `seo-neden-sonuc-vermez-12-olasi-neden`
+- [x] 090. SEO’da Sık Yapılan 15 Hata — `teknik-seo` — seo hataları — `seo-da-sik-yapilan-15-hata`
+- [x] 091. SEO Terimleri Sözlüğü: A’dan Z’ye — `teknik-seo` — seo sözlük — `seo-terimleri-sozlugu-a-dan-z-ye`
+- [x] 092. Yeni Açılan İşletme İçin 30 Günlük SEO Planı — `teknik-seo` — yeni işletme seo — `yeni-acilan-isletme-icin-30-gunluk-seo-plani`
+- [x] 093. Esnaf İçin SEO Kontrol Listesi: Bugün Yapılacak 10 İş — `teknik-seo` — esnaf seo — `esnaf-icin-seo-kontrol-listesi-bugun-yapilacak-10-is`
+- [x] 094. SEO Yatırımının Geri Dönüşü Nasıl Hesaplanır? — `teknik-seo` — seo roi — `seo-yatiriminin-geri-donusu-nasil-hesaplanir`
+- [x] 095. Tekstil ve Ev Tekstili Üreticileri İçin SEO — `teknik-seo` — tekstil seo — `tekstil-ve-ev-tekstili-ureticileri-icin-seo`
+- [x] 096. Mermer ve Traverten Firmaları İçin SEO — `teknik-seo` — mermer seo — `mermer-ve-traverten-firmalari-icin-seo`
+- [x] 097. Sanayi Firmaları İçin B2B SEO: Alıcı Nasıl Arar? — `teknik-seo` — b2b seo — `sanayi-firmalari-icin-b2b-seo-alici-nasil-arar`
+- [x] 098. Zeytinyağı ve Tarım Ürünleri İçin Online Satış SEO’su — `teknik-seo` — tarım ürünleri seo — `zeytinyagi-ve-tarim-urunleri-icin-online-satis-seo-su`
+- [x] 099. Eğitim Kurumları ve Kurslar İçin SEO — `teknik-seo` — kurs seo — `egitim-kurumlari-ve-kurslar-icin-seo`
+- [x] 100. Halı Yıkama ve Temizlik Firmaları İçin SEO — `teknik-seo` — halı yıkama seo — `hali-yikama-ve-temizlik-firmalari-icin-seo`
+
+## Yazılacak: 2. tur (30 başlık, Kasım 2026)
+
+Biçim: Venti blog düzeni (`docs/seo-yazi-talimati.md`): cevap-önce giriş, 7–8 soru H2, 5 soruluk SSS, 1.300–1.600 kelime; sayfa şablonu hizmet çağrısını ekler, metne iki ara çağrı kutusu (`> **Hizmet almak için iletişime geçin.** …`) ve kapanışta “Denizli SEO bu konuda nasıl yardımcı olur?” bölümü yazılır. Yeni Google iddiası gerekiyorsa önce `docs/kaynaklar.md`’ye doğrulanmış satır eklenir (not sütununa bak).
+
+### Yerel SEO
+
+- [x] 101. Google İşletme Profili Kategorisi Nasıl Seçilir? — `yerel-seo` — profil kategorisi — `google-isletme-profili-kategorisi-nasil-secilir` — not: Birincil/ikincil kategori; Google kural sayfası doğrulanacak
+- [x] 102. Haritalarda Rakipleri Nasıl İncelersiniz? 5 Adım — `yerel-seo` — google haritalar rakip analizi — `google-haritalarda-rakip-isletmeleri-nasil-incelersiniz` — not: Rakip profil karşılaştırma tablosu; kopyalama değil fırsat bulma
+- [x] 103. Profilde Hizmetler ve Ürünler Bölümü Nasıl Doldurulur? — `yerel-seo` — işletme profili hizmetler — `google-isletme-profili-hizmetler-bolumu-nasil-doldurulur` — not: Google yardım sayfası doğrulanacak
+- [x] 104. Kuaför ve Güzellik Salonları İçin Yerel SEO — `yerel-seo` — kuaför seo — `kuaforler-ve-guzellik-salonlari-icin-yerel-seo` — not: Önce-sonra fotoğraf izni, randevu yolu, yorum
+- [x] 105. Oto Servis ve Lastikçiler İçin Yerel SEO — `yerel-seo` — oto servis seo — `oto-servis-ve-lastikciler-icin-yerel-seo` — not: Acil arama, hizmet bölgesi, fiyat şeffaflığı
+- [x] 106. Avukat ve Hukuk Büroları İçin SEO — `yerel-seo` — avukat seo — `avukat-ve-hukuk-burolari-icin-seo` — not: Baro reklam kurallarına atıf yok; “hukuki danışmanlık değildir” notu, sonuç vaadi yok
+- [x] 107. İnşaat ve Gayrimenkul Firmaları İçin SEO — `yerel-seo` — inşaat firması seo — `insaat-ve-gayrimenkul-firmalari-icin-seo` — not: Proje sayfaları, galeri, ilçe aramaları; emlakçılar yazısıyla çakışmasın
+
+### Teknik SEO
+
+- [x] 108. SEO Çalışması Neleri Kapsar? Kalem Kalem Anlatım — `teknik-seo` — seo çalışması — `seo-calismasi-neleri-kapsar` — not: Satış odaklı: hizmet kapsamı; vaat yok
+- [x] 109. SEO Paketleri: Pakette Neler Olmalı? — `teknik-seo` — seo paketleri — `seo-paketleri-neler-dahil-olmali` — not: Satış odaklı: paket karşılaştırma ölçütleri; fiyat rakamı yok
+- [x] 110. Aylık SEO Çalışması Nasıl İşler? Süreç ve Rapor — `teknik-seo` — aylık seo — `aylik-seo-calismasi-nasil-isler` — not: Satış odaklı: ay ay iş akışı
+- [x] 111. SEO Danışmanlığı Nedir? Ne Zaman Gerekir? — `teknik-seo` — seo danışmanlığı — `seo-danismanligi-nedir-ne-zaman-gerekir` — not: Satış odaklı: danışmanlık ve uygulama farkı
+- [x] 112. Google Sıralama Faktörleri: Yanlış Bilinenler — `teknik-seo` — google sıralama — `google-siralama-faktorleri-yanlis-bilinenler` — not: Yalnızca Google’ın doğruladığı cümleler (how-search-works, spam, sayfa deneyimi)
+- [x] 113. SEO Analiz Araçları: Ücretsiz mi, Ücretli mi? — `teknik-seo` — seo analiz aracı — `seo-analiz-araclari-ucretsiz-ve-ucretli` — not: Search Console öncelikli; üçüncü taraf puanlar Google ölçüsü değil
+- [x] 114. Google Analytics 4: İşletmeler İçin Temel Raporlar — `teknik-seo` — ga4 raporları — `google-analytics-4-temel-raporlar-isletmeler-icin` — not: support.google.com/analytics sayfası doğrulanacak
+- [x] 115. İhracatçılar İçin Uluslararası SEO ve Hreflang — `teknik-seo` — uluslararası seo — `uluslararasi-seo-ve-hreflang-ihracatcilar-icin` — not: Doğrulanmış hreflang belgesi var; tekstil/mermer yazılarına bağlan
+
+### İçerik SEO
+
+- [x] 116. İçerik Pazarlaması Nedir? İşletmeler İçin Rehber — `icerik-seo` — içerik pazarlaması — `icerik-pazarlamasi-nedir-isletmeler-icin` — not: Satış hunisi değil; müşteri soruları
+- [x] 117. Blog Yazısı Fikri Nasıl Bulunur? 10 Kaynak — `icerik-seo` — blog yazısı fikirleri — `blog-yazisi-fikri-nasil-bulunur` — not: Telefon, mesaj, Search Console, rakip, mevsim
+- [x] 118. Mevsimsel İçerik Takvimi: Denizli İşletmeleri İçin — `icerik-seo` — içerik takvimi — `mevsimsel-icerik-takvimi-denizli-isletmeleri` — not: Klima, tekstil, turizm, tarım örnekleri; rakam yok
+- [x] 119. YouTube ve Video SEO: Küçük İşletmeler İçin — `icerik-seo` — youtube seo — `youtube-ve-video-seo-kucuk-isletmeler` — not: Google video belgeleri doğrulanacak
+- [x] 120. Türkçe SEO İçeriğinde Okunabilirlik Nasıl Sağlanır? — `icerik-seo` — okunabilir içerik — `turkce-seo-icerigi-okunabilirlik` — not: SEO başlangıç kılavuzu; kısa cümle, başlık, liste
+- [x] 121. Semantik SEO Nedir? Konu Bütünlüğü Nasıl Kurulur? — `icerik-seo` — semantik seo — `semantik-seo-nedir-konu-butunlugu` — not: Resmî terim değil; konu kümesi yazısına bağla; sıralama iddiası yok
+
+### Backlink
+
+- [x] 122. Backlink Paketleri ve Fiyatları: Nelere Dikkat Edilmeli? — `backlink-hizmeti` — backlink paketleri — `backlink-paketleri-ve-fiyatlari-nelere-dikkat` — not: Mevcut “satın alma riskleri” yazısı genişletilmeden önce bunu yaz; rakam yok
+- [x] 123. Hacklink Nedir? Neden Tehlikelidir? — `backlink-hizmeti` — hacklink — `hacklink-nedir-neden-tehlikelidir` — not: Spam politikası + güvenlik; hizmetimizin reddettiği yöntem
+- [x] 124. Backlink Kalitesi Nasıl Değerlendirilir? 8 Soru — `backlink-hizmeti` — backlink kalitesi — `backlink-kalitesi-nasil-degerlendirilir` — not: Alan otoritesi Google ölçüsü değil uyarısı
+- [x] 125. Backlink Hizmeti Nasıl Çalışır? Süreç ve Rapor — `backlink-hizmeti` — backlink hizmeti — `backlink-hizmeti-nasil-calisir-surec-ve-rapor` — not: Satış odaklı: yöntemlerimiz ve yapmadıklarımız
+
+### Web tasarım
+
+- [x] 126. E-Ticaret Web Sitesi Tasarımında Nelere Dikkat Edilir? — `web-tasarim` — e-ticaret web sitesi — `e-ticaret-web-sitesi-tasarimi-nelere-dikkat` — not: URL yapısı belgesi doğrulandı; ürün veri belgesi var
+- [x] 127. WordPress mi, Özel Yazılım mı? SEO Açısından — `web-tasarim` — wordpress mi özel yazılım mı — `wordpress-mi-ozel-yazilim-mi` — not: Hazır tema yazısıyla çakışmasın; bakım ve güvenlik odağı
+- [x] 128. Web Sitesi Hazırlanma Süreci: Adım Adım — `web-tasarim` — web sitesi hazırlanma süreci — `web-sitesi-hazirlanma-sureci-adim-adim` — not: Satış odaklı: bizim süreç adımlarımız; süre sözü yok
+- [x] 129. Web Tasarım Fiyatları Neye Göre Değişir? — `web-tasarim` — web tasarım fiyatları — `web-tasarim-fiyatlari-neye-gore-degisir` — not: Satış odaklı; fiyat rakamı yok
+- [x] 130. Hosting Seçimi: Nelere Bakılır? — `web-tasarim` — hosting seçimi — `hosting-secimi-nelere-bakilir` — not: Barındırma değişikliği Google belgesi doğrulanacak
+
+## Yazılacak: 3. tur (30 başlık, Kasım 2026)
+
+Biçim, uzunluk (gövde 1.300–1.500 kelime), ara çağrı kutuları ve doğrulama kuralları 2. turdaki gibidir (`docs/seo-yazi-talimati.md`). ‘not’ sütununda yeni doğrulama gerekiyorsa yazılmadan önce `docs/kaynaklar.md`’ye satır eklenir.
+
+### Yerel SEO
+
+- [x] 131. Google İşletme Profili Nasıl Açılır? Adım Adım — `yerel-seo` — profil açma — `google-isletme-profili-nasil-acilir` — not: Doğrulama ve kural sayfaları ledger’da; ‘doldurulur’ yazısıyla çakışmasın (burada açma ve doğrulama)
+- [x] 132. Nakliyat ve Taşımacılık Firmaları İçin Yerel SEO — `yerel-seo` — nakliyat seo — `nakliyat-ve-tasimacilik-firmalari-icin-yerel-seo` — not: Hizmet bölgesi, fiyat şeffaflığı, yorum; sigorta/yetki iddiası yazma
+- [x] 133. Spor Salonları ve Fitness Merkezleri İçin Yerel SEO — `yerel-seo` — spor salonu seo — `spor-salonlari-ve-fitness-merkezleri-icin-yerel-seo` — not: Üyelik bilgisi, fotoğraf izni, sağlık iddiası yok
+- [x] 134. Düğün Salonları ve Organizasyon Firmaları İçin SEO — `yerel-seo` — düğün salonu seo — `dugun-salonlari-ve-organizasyon-firmalari-icin-seo` — not: Galeri, mevsimsellik, teklif formu
+- [x] 135. Veteriner ve Evcil Hayvan İşletmeleri İçin Yerel SEO — `yerel-seo` — veteriner seo — `veteriner-ve-evcil-hayvan-isletmeleri-icin-yerel-seo` — not: Acil saat bilgisi, tıbbi iddia yok
+- [x] 136. Tadilat, Boya ve Usta Hizmetleri İçin Yerel SEO — `yerel-seo` — tadilat seo — `tadilat-boya-ve-usta-hizmetleri-icin-yerel-seo` — not: Öncesi-sonrası izni, teklif süreci
+- [x] 137. Profilde Çalışma Saatleri ve Özel Günler Nasıl Yönetilir? — `yerel-seo` — çalışma saatleri — `profilde-calisma-saatleri-ve-ozel-gunler-nasil-yonetilir` — not: Google yardım sayfası doğrulanacak
+- [x] 138. Yerel Profil İçin Haftalık Bakım Rutini — `yerel-seo` — profil bakımı — `yerel-profil-icin-haftalik-bakim-rutini` — not: Uygulama odaklı; yeni Google iddiası yok
+
+### Teknik SEO
+
+- [x] 139. Sayfa Hızı İçin Görsel Optimizasyonu: Boyut ve Biçim — `teknik-seo` — görsel optimizasyonu — `sayfa-hizi-icin-gorsel-optimizasyonu-boyut-ve-bicim` — not: web.dev LCP + resim SEO ledger’da
+- [x] 140. Google Sayfanızı Nasıl Bulur? Tarama ve Dizine Ekleme — `teknik-seo` — tarama dizine ekleme — `google-sayfanizi-nasil-bulur-tarama-ve-dizine-ekleme` — not: how-search-works doğrulandı
+- [x] 141. Kategori ve Liste Sayfalarında Sayfalama SEO’su — `teknik-seo` — sayfalama seo — `kategori-ve-liste-sayfalarinda-sayfalama-seo-su` — not: Google sayfalama belgesi doğrulanacak
+- [x] 142. 404 Sayfası Nasıl Tasarlanır? Kullanıcıyı Kaybetmeyin — `teknik-seo` — 404 sayfası tasarımı — `404-sayfasi-nasil-tasarlanir` — not: 404 ve soft 404 yazılarına bağla
+- [x] 143. Teknik SEO Denetimi: Neler Kontrol Edilir? — `teknik-seo` — teknik seo denetimi — `teknik-seo-denetimi-neler-kontrol-edilir` — not: Satış odaklı: denetim hizmeti
+- [x] 144. HTTP Durum Kodları: 200, 301, 404, 500 Ne Anlama Gelir? — `teknik-seo` — durum kodları — `http-durum-kodlari-200-301-404-500-ne-anlama-gelir` — not: Yönlendirme belgesi ledger’da
+- [x] 145. Site Hızı: Laboratuvar ve Gerçek Kullanıcı Verisi — `teknik-seo` — hız ölçümü — `site-hizi-olcumu-laboratuvar-ve-gercek-kullanici-verisi` — not: web.dev vitals ledger’da
+
+### İçerik SEO
+
+- [x] 146. Tıklanabilir ama Dürüst Başlıklar Nasıl Yazılır? — `icerik-seo` — başlık yazımı — `tiklanabilir-ama-durust-basliklar-nasil-yazilir` — not: title-link belgesi ledger’da
+- [x] 147. İçerik Denetimi: Hangi Sayfa Güncellenmeli? — `icerik-seo` — içerik denetimi — `icerik-denetimi-hangi-sayfa-guncellenmeli-hangisi-silinmeli` — not: Satış odaklı: içerik denetimi hizmeti
+- [x] 148. Rehber Yazıyı İletişime Nasıl Bağlarsınız? — `icerik-seo` — yazıyı satışa bağlama — `rehber-yazidan-hizmete-yaziyi-iletisime-nasil-baglarsiniz` — not: Satış odaklı
+- [x] 149. İşletme Blogunda Yazar ve Editör Süreci — `icerik-seo` — blog editör süreci — `isletme-blogunda-yazar-ve-editor-sureci` — not: Yazar kutusu yazısıyla çakışmasın
+- [x] 150. Blog İçin Fotoğraf ve Görsel İçerik Planı — `icerik-seo` — blog görselleri — `blog-icin-fotograf-ve-gorsel-icerik-plani` — not: Resim SEO ledger’da
+- [x] 151. Sektörel Sözlük Sayfası Nasıl Hazırlanır? — `icerik-seo` — sözlük sayfası — `sektorel-sozluk-sayfasi-nasil-hazirlanir` — not: SEO sözlüğünden bağlan; resmî terim iddiası yok
+
+### Backlink
+
+- [x] 152. Yerel Etkinlik Sponsorluğu ve Bağlantı — `backlink-hizmeti` — etkinlik sponsorluğu — `yerel-etkinlik-sponsorlugu-ve-baglanti-nasil-yaklasilir` — not: sponsored kuralı ledger’da
+- [x] 153. Okul, Üniversite ve Kurum Bağlantıları — `backlink-hizmeti` — kurum bağlantıları — `okul-universite-ve-kurum-baglantilari-gercek-is-birligi` — not: Gerçek ilişki, takas değil
+- [x] 154. Backlink Raporu Search Console’da Nasıl Okunur? — `backlink-hizmeti` — bağlantılar raporu — `backlink-raporu-search-consolda-nasil-okunur` — not: Bağlantılar raporu ledger’da
+- [x] 155. Marka Anmaları ve Tanınırlık: Bağlantısız da Değerli mi? — `backlink-hizmeti` — marka anmaları — `marka-anmalari-ve-taninirlik-baglantisiz-da-degerli-mi` — not: Kesin sıralama iddiası yok; belirginlik (yerel) ledger’da
+
+### Web tasarım
+
+- [x] 156. Web Sitesi Erişilebilirliği: Temel Kurallar — `web-tasarim` — erişilebilirlik — `web-sitesi-erisilebilirligi-temel-kurallar` — not: Genel iyi uygulama; hukuki iddia yok
+- [x] 157. Renk ve Yazı Tipi Seçimi: Okunurluk ve Marka — `web-tasarim` — renk ve yazı tipi — `renk-ve-yazi-tipi-secimi-okunurluk-ve-marka` — not: Genel iyi uygulama
+- [x] 158. Web Sitesi Bakım Planı: Aylık Kontrol Listesi — `web-tasarim` — web sitesi bakımı — `web-sitesi-bakim-plani-aylik-kontrol-listesi` — not: Satış odaklı: bakım hizmeti
+- [x] 159. Kurumsal Web Sitesinde Fotoğraf: Çekim ve Kullanım — `web-tasarim` — kurumsal fotoğraf — `kurumsal-web-sitesinde-fotograf-cekim-ve-kullanim` — not: Resim SEO ledger’da; izin/lisans
+- [x] 160. Çok Dilli Web Sitesi Kurmak: Teknik Seçenekler — `web-tasarim` — çok dilli site — `cok-dilli-web-sitesi-kurmak-teknik-secenekler` — not: hreflang belgesi ledger’da
+
+## Yazılacak: 4. tur (10 başlık, Kasım 2026)
+
+Amaç: çoğu backlink; her yazı aranan soruyu önce yanıtlar, ortada ve sonda hizmete (backlink-hizmeti) bağlanır. Çakışma notu: mevcut backlink yazılarına (nedir, kalite, riskler, paketler, rapor, anchor, PR, misafir yazı, kırık bağlantı, yerel kaynaklar) yalnızca bağlantı verilir; aynı içerik tekrarlanmaz.
+
+- [x] 161. Backlink Nasıl Alınır? Küçük İşletmeler İçin 8 Dürüst Yöntem — `backlink-hizmeti` — backlink nasıl alınır — `backlink-nasil-alinir-kucuk-isletmeler-icin-yontemler` — not: spam politikası + qualify-outbound ledger’da; satın alma/takas yok
+- [x] 162. Dofollow ve Nofollow Farkı: Google Ne Diyor? — `backlink-hizmeti` — dofollow nofollow — `dofollow-nofollow-farki-nedir-google-ne-diyor` — not: Google belgesinde “dofollow” terimi geçmez; sponsored/ugc/nofollow ledger’da
+- [x] 163. Spam Backlink Nasıl Anlaşılır, Reddetmek Gerekir mi? — `backlink-hizmeti` — spam backlink — `spam-backlink-nasil-anlasilir-reddetme-gerekli-mi` — not: reddetme aracı ledger’da (çoğu sitede gerekmez)
+- [x] 164. Backlink Ajansı Seçerken Sorulacak 12 Soru — `backlink-hizmeti` — backlink ajansı seçimi — `backlink-ajansi-secerken-sorulacak-sorular` — not: SEO uzmanı işe alma belgesi ledger’da; garanti vaadine dikkat
+- [x] 165. Backlink Çalışması Ne Kadar Sürede Sonuç Verir? — `backlink-hizmeti` — backlink süre — `backlink-calismasi-ne-kadar-surede-sonuc-verir` — not: kesin süre yok; ölçüm planı; seo-ne-kadar-surede-sonuc-verir yazısına bağla
+- [x] 166. Yeni Site İçin Backlink Stratejisi: İlk 90 Gün — `backlink-hizmeti` — yeni site backlink — `yeni-site-icin-backlink-stratejisi-ilk-90-gun` — not: sandbox iddiası yok; site haritası/keşif belgesi ledger’da
+- [x] 167. Yerel İşletme İçin 12 Aylık Backlink Planı — `backlink-hizmeti` — backlink planı — `yerel-isletme-icin-12-aylik-backlink-plani` — not: takvim formatı; Denizli kaynakları yazısına bağla
+- [x] 168. Bağlantı Çeken İçerik Nasıl Üretilir? — `backlink-hizmeti` — linkable asset — `baglanti-cekecek-icerik-nasil-uretilir` — not: uydurma istatistik yok; yalnızca gerçek veri/örnek
+- [x] 169. Kendi Sitenizin Backlink Denetimi: Adım Adım — `backlink-hizmeti` — backlink denetimi — `kendi-sitenizin-backlink-denetimi-adim-adim` — not: Bağlantılar raporu ledger’da; rapor yazısıyla çakışmasın (burada aksiyon ve önceliklendirme)
+- [x] 170. Backlink mi İçerik mi? Hangisine Önce Yatırım Yapmalı? — `icerik-seo` — backlink mi içerik mi — `backlink-mi-icerik-mi-hangisi-once` — not: sıralama garantisi yok; sıralama sistemleri kılavuzu ledger’da
+
+## Yazılacak: 5. tur (17 yazı, kullanıcının 50 H1’lik listesinden, Kasım 2026)
+
+Kural: listedeki 50 başlığın 33’ü sitede zaten bir yazıyla karşılanıyor; yenisini açmak kendi listesindeki “anahtar kelime yamyamlığı”nı yaratırdı. Bu yüzden yalnızca karşılanmayan 17 konu yeni yazı oldu. Başlıklar title ≤60 kuralı için kısaltıldı (anahtar kelime korundu).
+
+Mevcut yazılarla karşılanan konular (No → slug): 1 → `ucretsiz-seo-analizi-nasil-yapilir`; 9 → `baslik-etiketi-ve-meta-aciklama-nasil-yazilir`, `tiklanabilir-ama-durust-basliklar-nasil-yazilir`; 10 → `blog-yazisi-nasil-yazilir-seo-uyumlu-8-adim`; 12 → `ic-baglanti-stratejisi-kucuk-siteler-icin-rehber`; 13 → `eski-blog-yazilari-ne-zaman-ve-nasil-guncellenir`; 14 → `arama-sonuclarinda-tiklama-orani-nasil-artirilir`; 15 → `gorsel-seo`; 16 → `teknik-seo-denetimi-neler-kontrol-edilir`; 18 → `301-ve-302-yonlendirme-farki-nedir`; 19 → `404-hatasi-duzeltmeli-mi-yonlendirmeli-mi`; 20 → `site-hizi-olcumu-laboratuvar-ve-gercek-kullanici-verisi`; 21 → `wordpress-seo`; 25 → `e-ticaret-seo`, `kategori-sayfasi-metni-nasil-yazilir`; 26 → `urun-aciklamasi-nasil-yazilir-kopya-metinden-kacinma`; 29 → `backlink-sorgulama`; 30 → `backlink-kalitesi-nasil-degerlendirilir`; 31 → `dofollow-nofollow-farki-nedir-google-ne-diyor`; 32 → `rakip-backlink-analizi-nasil-yapilir`; 33 → `spam-backlink-nasil-anlasilir-reddetme-gerekli-mi`; 34 → `kaybolan-backlinkler-nasil-geri-kazanilir`; 35 → `backlink-nasil-alinir-kucuk-isletmeler-icin-yontemler`; 36 → `backlink-paketleri-ve-fiyatlari-nelere-dikkat`; 38 → `google-haritalarda-ust-siralara-cikmak`; 39 → `google-isletme-profili-kategorisi-nasil-secilir`; 40 → `haritada-gorunmuyorum`; 41 → `birden-fazla-subeli-isletmeler-icin-yerel-seo`; 42 → `google-yorumlari-nasil-artirilir`; 43 → `seo-raporu-nasil-okunur-aylik-rapor-sablonu`; 44 → `trafik-dususu-nasil-teshis-edilir`, `google-guncellemesinden-sonra-trafik-dustuyse-ne-yapilir`; 46 → `seo-mu-google-ads-mi-hangisi-size-uygun`; 47 → `seo-ne-kadar-surede-sonuc-verir`; 48 → `seo-fiyatlari`; 50 → `seo-ajansi-mi-uzmani-mi`.
+
+- [x] 171. Rakip SEO Analizi Nasıl Yapılır? Kelime, İçerik, Backlink — `icerik-seo` — rakip seo analizi — `rakip-seo-analizi-nasil-yapilir-kelime-icerik-backlink` — (liste No. 2)
+- [x] 172. Bir Sitenin Anahtar Kelimeleri Nasıl Bulunur? — `icerik-seo` — sitenin anahtar kelimelerini bulma — `sitenin-anahtar-kelimeleri-nasil-bulunur` — (3)
+- [x] 173. Düşük Rekabetli Anahtar Kelimeler Nasıl Bulunur? — `icerik-seo` — düşük rekabetli anahtar kelimeler — `dusuk-rekabetli-anahtar-kelimeler-nasil-bulunur` — (4)
+- [x] 174. Uzun Kuyruklu Anahtar Kelimeler Nasıl Bulunur ve Gruplanır? — `icerik-seo` — uzun kuyruklu anahtar kelimeler — `uzun-kuyruklu-anahtar-kelimeler-nasil-bulunur-ve-gruplanir` — (5)
+- [x] 175. SEO İçin Arama Niyeti Nasıl Belirlenir? Örnek Sorgularla — `icerik-seo` — arama niyeti — `arama-niyeti-nasil-belirlenir-ornek-sorgularla` — (6)
+- [x] 176. Anahtar Kelimeler Sayfalara Nasıl Dağıtılır? Eşleştirme Rehberi — `icerik-seo` — anahtar kelime eşleştirme — `anahtar-kelimeler-sayfalara-nasil-dagitilir-eslestirme-rehberi` — (7)
+- [x] 177. Aynı Anahtar Kelimeyi Hedefleyen Sayfalar Nasıl Bulunur? — `icerik-seo` — anahtar kelime yamyamlığı — `ayni-anahtar-kelimeyi-hedefleyen-sayfalar-nasil-bulunur` — (8)
+- [x] 178. Site İçi SEO Kontrol Listesi: Bir Sayfada Neler Optimize Edilir? — `icerik-seo` — site içi seo, on page seo — `site-ici-seo-kontrol-listesi-bir-sayfada-neler-optimize-edilir` — (11)
+- [x] 179. Web Sitem Google’da Neden Görünmüyor? İndeksleme Rehberi — `teknik-seo` — web sitem google’da çıkmıyor — `web-sitem-googleda-neden-gorunmuyor-indeksleme-rehberi` — (17)
+- [x] 180. WordPress SEO Eklentisi Seçerken Nelere Bakılmalı? — `web-tasarim` — wordpress seo eklentisi — `wordpress-seo-eklentisi-secerken-nelere-bakilmali` — (22)
+- [x] 181. WordPress Sitem Yavaş Açılıyor: Nereleri Kontrol Etmeli? — `web-tasarim` — wordpress hız — `wordpress-sitem-yavas-aciliyor-nereleri-kontrol-etmeli` — (23)
+- [x] 182. WordPress Kategori ve Etiket Sayfaları SEO’su — `web-tasarim` — wordpress kategori etiket seo — `wordpress-kategori-ve-etiket-sayfalari-seo-su` — (24)
+- [x] 183. E-Ticarette Filtreli Sayfalar SEO İçin Nasıl Yönetilir? — `teknik-seo` — filtreli sayfalar seo — `e-ticarette-filtreli-sayfalar-seo-icin-nasil-yonetilir` — (27)
+- [x] 184. Stokta Olmayan Ürün Sayfaları Nasıl Yönetilmeli? — `teknik-seo` — stokta olmayan ürün seo — `stokta-olmayan-urun-sayfalari-nasil-yonetilmeli` — (28)
+- [x] 185. Yerel SEO İçin Anahtar Kelime Araştırması Nasıl Yapılır? — `yerel-seo` — yerel anahtar kelime — `yerel-seo-icin-anahtar-kelime-arastirmasi-nasil-yapilir` — (37)
+- [x] 186. Organik Trafik Var Satış Yok: Hangi Veriler İncelenmeli? — `icerik-seo` — organik trafik var satış yok — `organik-trafik-var-satis-yok-hangi-veriler-incelenmeli` — (45)
+- [x] 187. Kurumsal SEO Stratejisi Nasıl Hazırlanır? Yol Haritası — `icerik-seo` — kurumsal seo stratejisi — `kurumsal-seo-stratejisi-nasil-hazirlanir-yol-haritasi` — (49)
+
+## Yazılacak: 6. tur (51 yazı, kullanıcının ikinci H1 listesinden, Kasım 2026)
+
+Kural 5. turdaki gibi: sitede zaten karşılığı olan konular yeni URL almaz. Karşılanan: 51 (robots.txt), 52 (site haritası), 53 (canonical), 55 (HTTPS), 56 (JS SEO), 58 (site yapısı), 61 (alan adı değiştirme), 62 (site yenileme), 64 (hreflang), 66 (sayfalama), 71 (meta açıklama), 72 (öne çıkan snippet), 74 (içerik boşluğu), 75 (içerik temizleme), 77 (konu kümesi), 79 (video SEO), 83 (yapay zekâ içerik), 84 (yapılandırılmış veri), 86 (SSS), 87 (H2/H3), 88 (içerik takvimi), 98 (SEO ROI), 104 (PageSpeed/saha verisi), 105 (LCP), 111 (NAP), 112 (hizmet bölgesi), 113 (askıya alma), 118 (dizinler), 119 (profil performansı), 131–134 (dijital PR, kırık link, bağlantısız anma, sponsored/ugc), 138 (SEO sözleşmesi), 140 (hosting), 141 (B2B), 144 (ihracat), 145 (otel), 147 (diş), 148 (avukat).
+Yazılmadı (ürün/pazaryeri arayüzü doğrulanamadığı için, uydurma talimat riski): 101 Semrush/Ahrefs, 102 Screaming Frog, 103 Bing Webmaster, 121 Shopify, 122 ikas, 123 Ticimax, 124 IdeaSoft, 125 Trendyol, 126 Amazon, 127 WooCommerce varyasyonu, 142 SaaS SEO.
+
+- [x] 188. Noindex ve Nofollow Meta Etiketleri Arasındaki Fark — `teknik-seo` — — `noindex-ve-nofollow-meta-etiketleri-arasindaki-fark` — (liste No. 54)
+- [x] 189. SSR ve CSR Farkı: SEO İçin Render Yöntemi Seçimi — `teknik-seo` — — `ssr-ve-csr-farki-seo-icin-render-yontemi-secimi` — (liste No. 57)
+- [x] 190. SEO Uyumlu URL Nasıl Yazılır? Türkçe Karakter ve Uzunluk — `teknik-seo` — — `seo-uyumlu-url-nasil-yazilir-turkce-karakter-ve-uzunluk` — (liste No. 59)
+- [x] 191. 503 Hatası SEO’yu Nasıl Etkiler? Bakım ve Kesintiler — `teknik-seo` — — `503-hatasi-seoyu-nasil-etkiler-bakim-ve-kesintiler` — (liste No. 60)
+- [x] 192. Yönlendirme Zincirleri ve Döngüleri Nasıl Düzeltilir? — `teknik-seo` — — `yonlendirme-zincirleri-ve-donguleri-nasil-duzeltilir` — (liste No. 63)
+- [x] 193. Çok Dilli SEO: Alt Klasör mü Alt Alan Adı mı? — `teknik-seo` — — `cok-dilli-seo-alt-klasor-mu-alt-alan-adi-mi` — (liste No. 65)
+- [x] 194. SEO İçin Log Analizi: Googlebot Hareketlerini İnceleme — `teknik-seo` — — `seo-icin-log-analizi-googlebot-hareketlerini-inceleme` — (liste No. 67)
+- [x] 195. Büyük Sitelerde Tarama Bütçesi Nasıl Yönetilir? — `teknik-seo` — — `buyuk-sitelerde-tarama-butcesi-nasil-yonetilir` — (liste No. 68)
+- [x] 196. Googlebot 403 Hatası Alıyorsa Neler Kontrol Edilmeli? — `teknik-seo` — — `googlebot-403-hatasi-aliyorsa-neler-kontrol-edilmeli` — (liste No. 69)
+- [x] 197. Mobil ve Masaüstü Sıralamaları Neden Farklı Çıkıyor? — `teknik-seo` — — `mobil-ve-masaustu-siralamalari-neden-farkli-cikiyor` — (liste No. 70)
+- [x] 198. E-E-A-T İçin Yazar Sayfası Nasıl Hazırlanır? — `icerik-seo` — — `e-e-a-t-icin-yazar-sayfasi-nasil-hazirlanir` — (liste No. 73)
+- [x] 199. SEO İçerik Brief’i Nasıl Hazırlanır? Örnek Şablon — `icerik-seo` — — `seo-icerik-briefi-nasil-hazirlanir-ornek-sablon` — (liste No. 76)
+- [x] 200. Zayıf İçerik (Thin Content) Nasıl Tespit Edilir? — `icerik-seo` — — `zayif-icerik-thin-content-nasil-tespit-edilir` — (liste No. 78)
+- [x] 201. PDF Dosyaları İçin SEO Nasıl Yapılır? — `icerik-seo` — — `pdf-dosyalari-icin-seo-nasil-yapilir` — (liste No. 80)
+- [x] 202. İçeriğim Başka Sitelerde Kopyalanıyor: Ne Yapmalıyım? — `icerik-seo` — — `icerigim-baska-sitelerde-kopyalaniyor-ne-yapmaliyim` — (liste No. 81)
+- [x] 203. Anahtar Kelime Doldurma Nasıl Anlaşılır ve Önlenir? — `icerik-seo` — — `anahtar-kelime-doldurma-nasil-anlasilir-ve-onlenir` — (liste No. 82)
+- [x] 204. Breadcrumb Nedir ve Nasıl Eklenir? — `teknik-seo` — — `breadcrumb-nedir-ve-nasil-eklenir` — (liste No. 85)
+- [x] 205. SEO İçin Özgün Araştırma İçeriği Nasıl Hazırlanır? — `icerik-seo` — — `seo-icin-ozgun-arastirma-icerigi-nasil-hazirlanir` — (liste No. 89)
+- [x] 206. Black Friday SEO’su: Çalışmaya Ne Zaman Başlanmalı? — `icerik-seo` — — `black-friday-seosu-calismaya-ne-zaman-baslanmali` — (liste No. 90)
+- [x] 207. Google Search Console Nasıl Kurulur? Doğrulama Yöntemleri — `teknik-seo` — — `google-search-console-nasil-kurulur-dogrulama-yontemleri` — (liste No. 91)
+- [x] 208. Google Analytics ve Search Console Nasıl Bağlanır? — `teknik-seo` — — `google-analytics-ve-search-console-nasil-baglanir` — (liste No. 92)
+- [x] 209. Search Console Tıklamaları GA4 Oturumlarıyla Neden Eşleşmez? — `teknik-seo` — — `search-console-tiklamalari-ga4-oturumlariyla-neden-eslesmez` — (liste No. 93)
+- [x] 210. Markalı ve Markasız Organik Trafik Nasıl Ayrılır? — `icerik-seo` — — `markali-ve-markasiz-organik-trafik-nasil-ayrilir` — (liste No. 94)
+- [x] 211. SEO’dan Gelen Form ve Telefon Talepleri Nasıl Ölçülür? — `icerik-seo` — — `seodan-gelen-form-ve-telefon-talepleri-nasil-olculur` — (liste No. 95)
+- [x] 212. Looker Studio ile SEO Paneli Nasıl Hazırlanır? — `icerik-seo` — — `looker-studio-ile-seo-paneli-nasil-hazirlanir` — (liste No. 96)
+- [-] 213. Search Console’da Regex Filtreleri: Örnek Sorgular — `icerik-seo` — — `search-consolda-regex-filtreleri-ornek-sorgular` — (liste No. 97) — ATLANDI: Search Console regex filtresi arayüzü resmî kaynaktan doğrulanamadı
+- [-] 214. Google Trends ile Sezonluk Kelimeler Nasıl Bulunur? — `icerik-seo` — — `google-trends-ile-sezonluk-kelimeler-nasil-bulunur` — (liste No. 99) — ATLANDI: Google Trends yardım sayfası doğrulanamadı
+- [x] 215. Google Sıralaması Nasıl Takip Edilir? Konum ve Cihaza Göre — `icerik-seo` — — `google-siralamasi-nasil-takip-edilir-konum-ve-cihaza-gore` — (liste No. 100)
+- [x] 216. INP Değeri Neden Yüksek Çıkar? Nasıl Azaltılır? — `teknik-seo` — — `inp-degeri-neden-yuksek-cikar-nasil-azaltilir` — (liste No. 106)
+- [x] 217. Sayfa Yüklenirken İçerik Neden Kayar? CLS Düzeltme — `teknik-seo` — — `sayfa-yuklenirken-icerik-neden-kayar-cls-duzeltme` — (liste No. 107)
+- [x] 218. Sunucu Yanıt Süresi (TTFB) Nasıl İyileştirilir? — `teknik-seo` — — `sunucu-yanit-suresi-ttfb-nasil-iyilestirilir` — (liste No. 108)
+- [x] 219. Lazy Loading Nasıl Kullanılır? Sık Yapılan Hatalar — `teknik-seo` — — `lazy-loading-nasil-kullanilir-sik-yapilan-hatalar` — (liste No. 109)
+- [x] 220. Web Fontları Site Hızını Nasıl Etkiler? — `teknik-seo` — — `web-fontlari-site-hizini-nasil-etkiler` — (liste No. 110)
+- [x] 221. Haritalarda Yinelenen İşletme Kaydı Nasıl Düzeltilir? — `yerel-seo` — — `haritalarda-yinelenen-isletme-kaydi-nasil-duzeltilir` — (liste No. 114)
+- [x] 222. İşletme Adresi Değişince Haritalarda Neler Güncellenmeli? — `yerel-seo` — — `isletme-adresi-degisince-haritalarda-neler-guncellenmeli` — (liste No. 115)
+- [x] 223. Google İşletme Profili Sahipliği Nasıl Devredilir? — `yerel-seo` — — `google-isletme-profili-sahipligi-nasil-devredilir` — (liste No. 116)
+- [x] 224. Sahte Google Yorumları Nasıl Bildirilir? — `yerel-seo` — — `sahte-google-yorumlari-nasil-bildirilir` — (liste No. 117)
+- [x] 225. Google Haritalar’da Hatalı Bilgi Nasıl Bildirilir? — `yerel-seo` — — `google-haritalarda-hatali-bilgi-nasil-bildirilir` — (liste No. 120)
+- [x] 226. Ürün Yorumları E-Ticaret SEO’sunda Nasıl Kullanılır? — `teknik-seo` — — `urun-yorumlari-e-ticaret-seosunda-nasil-kullanilir` — (liste No. 128)
+- [x] 227. E-Ticaret Sitelerinde Marka Sayfaları Nasıl Hazırlanır? — `teknik-seo` — — `e-ticaret-sitelerinde-marka-sayfalari-nasil-hazirlanir` — (liste No. 129)
+- [x] 228. Site İçi Arama Sonuçları Google’da İndekslenmeli mi? — `teknik-seo` — — `site-ici-arama-sonuclari-googleda-indekslenmeli-mi` — (liste No. 130)
+- [x] 229. Katmanlı Backlink Nedir? Riskleri Nasıl Değerlendirilir? — `backlink-hizmeti` — — `katmanli-backlink-nedir-riskleri-nasil-degerlendirilir` — (liste No. 135)
+- [x] 230. Süresi Dolmuş Domain Alırken SEO Geçmişi Kontrolü — `backlink-hizmeti` — — `suresi-dolmus-domain-alirken-seo-gecmisi-kontrolu` — (liste No. 136)
+- [x] 231. Search Console’da Manuel İşlem Bildirimi: Ne Yapılmalı? — `teknik-seo` — — `search-consolda-manuel-islem-bildirimi-ne-yapilmali` — (liste No. 137)
+- [x] 232. SEO Ajansı Değiştirirken Hangi Hesaplar Teslim Alınmalı? — `icerik-seo` — — `seo-ajansi-degistirirken-hangi-hesaplar-teslim-alinmali` — (liste No. 139)
+- [x] 233. Üretici Firmalar İçin Teknik Ürün Sayfası Nasıl Hazırlanır? — `icerik-seo` — — `uretici-firmalar-icin-teknik-urun-sayfasi-nasil-hazirlanir` — (liste No. 143)
+- [x] 234. Restoran Menüsü Google’da Nasıl Görünür? — `yerel-seo` — — `restoran-menusu-googleda-nasil-gorunur` — (liste No. 146)
+- [x] 235. Emlak Sitelerinde Süresi Dolan İlanlar Nasıl Yönetilir? — `teknik-seo` — — `emlak-sitelerinde-suresi-dolan-ilanlar-nasil-yonetilir` — (liste No. 149)
+- [x] 236. Mobilya Ürün Sayfalarında Ölçü ve Malzeme Nasıl Sunulur? — `icerik-seo` — — `mobilya-urun-sayfalarinda-olcu-ve-malzeme-nasil-sunulur` — (liste No. 150)
+
+## 7. tur (üçüncü H1 listesi, No. 151–250)
+
+Kapsanmış sayılan (yeni adres açılmadı): 151 seo-nedir, 152 google-sayfanizi-nasil-bulur…, 153 site-ici-site-disi-seo, 154 black-hat-seo, 161 yapay-zeka-aramalarinda-gorunmek, 186 sayfa-hizi-icin-gorsel-optimizasyonu…, 192 urun-aciklamasi-nasil-yazilir…, 193 pdf-dosyalari-icin-seo…, 196 google-a-dizine-ekleme…url-denetleme, 197 kesfedildi-dizine-eklenmedi…, 198 taranan-dizine-eklenmeyen…, 204 www-ve-wwwsuz…, 220 seo-ajansi-mi-uzmani-mi, 224 vaka-calismasi…, 225 hizmet-sayfasi-nasil-yazilir, 232 youtube-ve-video-seo…, 236 web-sitesi-erisilebilirligi…, 239 google-siralamasi-nasil-takip-edilir….
+Atlanan (resmî kaynak doğrulanamadı / üçüncü taraf arayüzü): 157 (alan adı yaşı: resmî belge yok), 168 (OpenAI bot belgesi erişilemedi), 176 (Perplexity), 211 (Next.js belgeleri erişilemedi), 212 Webflow, 213 Wix, 231 Pinterest, 233 LinkedIn, 234 Etsy, 235 ASO.
+
+- [x] 237. Google’da Site Bağlantıları (Sitelinks) Nasıl Oluşur? — `teknik-seo` — — `google-site-baglantilari-sitelinks-nasil-olusur` — (liste No. 179)
+- [x] 238. Google Sayfa Başlığımı Neden Değiştiriyor? — `teknik-seo` — — `google-sayfa-basligimi-neden-degistiriyor` — (liste No. 180)
+- [x] 239. Google’da Site Adı Yanlış Görünüyorsa Ne Yapılmalı? — `teknik-seo` — — `googleda-site-adi-yanlis-gorunuyorsa-ne-yapilmali` — (liste No. 181)
+- [x] 240. Google Arama Sonuçlarında Favicon Nasıl Gösterilir? — `teknik-seo` — — `google-arama-sonuclarinda-favicon-nasil-gosterilir` — (liste No. 182)
+- [x] 241. Nosnippet ve Data-Nosnippet Nasıl Kullanılır? — `teknik-seo` — — `nosnippet-ve-data-nosnippet-nasil-kullanilir` — (liste No. 184)
+- [x] 242. Görsellerim Google Görseller’de Neden Çıkmıyor? — `teknik-seo` — — `gorsellerim-google-gorsellerde-neden-cikmiyor` — (liste No. 185)
+- [x] 243. Schema Var Ama Zengin Sonuç Neden Görünmüyor? — `teknik-seo` — — `schema-var-ama-zengin-sonuc-neden-gorunmuyor` — (liste No. 190)
+- [x] 244. Google Farklı Bir Standart Sayfa Seçtiyse Ne Yapılmalı? — `teknik-seo` — — `google-farkli-bir-standart-sayfa-sectiyse-ne-yapilmali` — (liste No. 199)
+- [x] 245. Search Console URL Kaldırma Aracı Ne Zaman Kullanılır? — `teknik-seo` — — `search-console-url-kaldirma-araci-ne-zaman-kullanilir` — (liste No. 200)
+- [x] 246. X-Robots-Tag Nasıl Kullanılır? Dosya İndekslemesi — `teknik-seo` — — `x-robots-tag-nasil-kullanilir` — (liste No. 201)
+- [x] 247. CDN Kullanımı SEO İçin Nasıl Değerlendirilir? — `teknik-seo` — — `cdn-kullanimi-seo-icin-nasil-degerlendirilir` — (liste No. 202)
+- [x] 248. Siteyi Güncelledim, Google’da Hâlâ Eskisi Görünüyor — `teknik-seo` — — `siteyi-guncelledim-googleda-hala-eskisi-gorunuyor` — (liste No. 203)
+- [x] 249. URL Sonundaki Eğik Çizgi SEO’yu Etkiler mi? — `teknik-seo` — — `url-sonundaki-egik-cizgi-seoyu-etkiler-mi` — (liste No. 205)
+- [x] 250. UTM Parametreli URL’ler SEO İçin Nasıl Yönetilir? — `teknik-seo` — — `utm-parametreli-urller-seo-icin-nasil-yonetilir` — (liste No. 206)
+- [x] 251. Test Sitesinin Google’da İndekslenmesi Nasıl Önlenir? — `teknik-seo` — — `test-sitesinin-googleda-indekslenmesi-nasil-onlenir` — (liste No. 207)
+- [x] 252. Google’da Sitem İçin Japonca Spam Sayfalar Çıkıyor — `teknik-seo` — — `googleda-sitem-icin-japonca-spam-sayfalar-cikiyor` — (liste No. 208)
+- [x] 253. Hosting Taşırken SEO İçin Neler Kontrol Edilmeli? — `teknik-seo` — — `hosting-tasirken-seo-icin-neler-kontrol-edilmeli` — (liste No. 209)
+- [x] 254. AMP Sayfaları Hâlâ Gerekli mi? — `teknik-seo` — — `amp-sayfalari-hala-gerekli-mi` — (liste No. 215)
+- [x] 255. Otomatik Dil Yönlendirmesi SEO’yu Nasıl Etkiler? — `teknik-seo` — — `otomatik-dil-yonlendirmesi-seoyu-nasil-etkiler` — (liste No. 216)
+- [x] 256. SEO A/B Testi Nasıl Yapılır? — `teknik-seo` — — `seo-ab-testi-nasil-yapilir` — (liste No. 245)
+- [x] 257. Çerez İzinleri GA4 Organik Trafik Verisini Nasıl Etkiler? — `teknik-seo` — — `cerez-izinleri-ga4-organik-trafik-verisini-nasil-etkiler` — (liste No. 240)
+- [x] 258. GA4’te Bot Trafiği Nasıl Fark Edilir? — `teknik-seo` — — `ga4te-bot-trafigi-nasil-fark-edilir` — (liste No. 241)
+- [x] 259. Şirket İçi Ziyaretler GA4 Raporlarından Nasıl Ayrılır? — `teknik-seo` — — `sirket-ici-ziyaretler-ga4-raporlarindan-nasil-ayrilir` — (liste No. 242)
+- [x] 260. Ödeme Başka Alan Adındaysa Trafik Nasıl Ölçülür? — `teknik-seo` — — `odeme-baska-alan-adindaysa-trafik-nasil-olculur` — (liste No. 243)
+- [x] 261. SEO Sorunları İçin Otomatik Uyarılar Nasıl Kurulur? — `teknik-seo` — — `seo-sorunlari-icin-otomatik-uyarilar-nasil-kurulur` — (liste No. 246)
+- [x] 262. Merchant Center Ücretsiz Listelemeleri İçin Ürün Hazırlığı — `teknik-seo` — — `merchant-center-ucretsiz-listelemeler-icin-urun-hazirligi` — (liste No. 187)
+- [x] 263. E-Ticaret Ürün Feed’i Nasıl Hazırlanır? — `teknik-seo` — — `e-ticaret-urun-feedi-nasil-hazirlanir` — (liste No. 188)
+- [x] 264. Merchant Center’da Fiyat Uyuşmazlığı Nasıl Araştırılır? — `teknik-seo` — — `merchant-centerda-fiyat-uyusmazligi-nasil-arastirilir` — (liste No. 189)
+- [x] 265. GTIN, MPN ve Marka Bilgileri Ürün Feed’ine Nasıl Eklenir? — `teknik-seo` — — `gtin-mpn-ve-marka-bilgileri-urun-feedine-nasil-eklenir` — (liste No. 191)
+- [x] 266. Ürün Paketleri İçin Ayrı Sayfa Açılmalı mı? — `icerik-seo` — — `urun-paketleri-icin-ayri-sayfa-acilmali-mi` — (liste No. 194)
+- [x] 267. Toptan Satış Sitesinde Fiyatsız Ürün Sayfası Hazırlamak — `icerik-seo` — — `toptan-satis-sitesinde-fiyatsiz-urun-sayfasi-hazirlamak` — (liste No. 195)
+- [x] 268. DA ve DR Puanları Ne Anlama Gelir? — `backlink-hizmeti` — — `da-ve-dr-puanlari-ne-anlama-gelir` — (liste No. 155)
+- [x] 269. Backlink Veren Sayfa İndeksli mi? Nasıl Kontrol Edilir? — `backlink-hizmeti` — — `backlink-veren-sayfa-indeksli-mi-nasil-kontrol-edilir` — (liste No. 250)
+- [x] 270. Anahtar Kelime İçeren Alan Adı Avantaj Sağlar mı? — `icerik-seo` — — `anahtar-kelime-iceren-alan-adi-avantaj-saglar-mi` — (liste No. 156)
+- [x] 271. .com ve .com.tr Alan Adları: SEO Açısından Fark Var mı? — `teknik-seo` — — `com-ve-com-tr-alan-adlari-seo-acisindan-fark-var-mi` — (liste No. 158)
+- [x] 272. Programatik SEO Hangi Sitelerde Kullanılır? — `icerik-seo` — — `programatik-seo-hangi-sitelerde-kullanilir` — (liste No. 159)
+- [x] 273. Yeni Sitede Önce Blog mu, Hizmet Sayfaları mı? — `icerik-seo` — — `yeni-sitede-once-blog-mu-hizmet-sayfalari-mi` — (liste No. 160)
+- [-] 274. Entity SEO Nedir? Marka ve Konu İlişkileri — `icerik-seo` — — `entity-seo-nedir-marka-ve-konu-iliskileri` — (liste No. 173) — ATLANDI: resmî kaynakla doğrulanamadı (üçüncü taraf/yapay zekâ sohbet davranışı); uydurma iddia yazılmadı
+- [x] 275. Google Bilgi Paneli Nasıl Oluşur? — `icerik-seo` — — `google-bilgi-paneli-nasil-olusur` — (liste No. 174)
+- [-] 276. Sesli Arama İçin SEO Nasıl Yapılır? — `icerik-seo` — — `sesli-arama-icin-seo-nasil-yapilir` — (liste No. 171) — ATLANDI: resmî kaynakla doğrulanamadı (üçüncü taraf/yapay zekâ sohbet davranışı); uydurma iddia yazılmadı
+- [-] 277. Ürünler Google Lens’te Nasıl Bulunur? — `icerik-seo` — — `urunler-google-lenste-nasil-bulunur` — (liste No. 172) — ATLANDI: resmî kaynakla doğrulanamadı (üçüncü taraf/yapay zekâ sohbet davranışı); uydurma iddia yazılmadı
+- [x] 278. Google Discover’da Görünmek İçin Site Nasıl Hazırlanır? — `icerik-seo` — — `google-discoverda-gorunmek-icin-site-nasil-hazirlanir` — (liste No. 177)
+- [x] 279. Google News İçin Site Nasıl Hazırlanır? — `icerik-seo` — — `google-news-icin-site-nasil-hazirlanir` — (liste No. 178)
+- [x] 280. Sıfır Tıklamalı Aramalar Nedir? Başarı Nasıl Ölçülür? — `icerik-seo` — — `sifir-tiklamali-aramalar-nedir-basari-nasil-olculur` — (liste No. 170)
+- [x] 281. AI Overviews’ta Kaynak Olarak Görünmek İçin Ne Yapılır? — `icerik-seo` — — `ai-overviewsta-kaynak-olarak-gorunmek-icin-ne-yapilir` — (liste No. 162)
+- [-] 282. ChatGPT İşletmemi Öneriyor mu? Nasıl Kontrol Ederim? — `icerik-seo` — — `chatgpt-isletmemi-oneriyor-mu-nasil-kontrol-ederim` — (liste No. 163) — ATLANDI: resmî kaynakla doğrulanamadı (üçüncü taraf/yapay zekâ sohbet davranışı); uydurma iddia yazılmadı
+- [x] 283. Yapay Zekâ Araçlarından Gelen Trafik Nasıl Ölçülür? — `teknik-seo` — — `yapay-zeka-araclarindan-gelen-trafik-nasil-olculur` — (liste No. 164)
+- [-] 284. Yapay Zekâ Aramalarında Hangi Veriler Takip Edilmeli? — `icerik-seo` — — `yapay-zeka-aramalarinda-hangi-veriler-takip-edilmeli` — (liste No. 165) — ATLANDI: resmî kaynakla doğrulanamadı (üçüncü taraf/yapay zekâ sohbet davranışı); uydurma iddia yazılmadı
+- [-] 285. Prompt Araştırması: Yapay Zekâ Sorguları Nasıl Bulunur? — `icerik-seo` — — `prompt-arastirmasi-yapay-zeka-sorgulari-nasil-bulunur` — (liste No. 166) — ATLANDI: resmî kaynakla doğrulanamadı (üçüncü taraf/yapay zekâ sohbet davranışı); uydurma iddia yazılmadı
+- [-] 286. Yapay Zekâ İşletmem Hakkında Yanlış Bilgi Veriyorsa — `icerik-seo` — — `yapay-zeka-isletmem-hakkinda-yanlis-bilgi-veriyorsa` — (liste No. 167) — ATLANDI: resmî kaynakla doğrulanamadı (üçüncü taraf/yapay zekâ sohbet davranışı); uydurma iddia yazılmadı
+- [x] 287. llms.txt Dosyası SEO İçin Gerekli mi? — `teknik-seo` — — `llms-txt-dosyasi-seo-icin-gerekli-mi` — (liste No. 169)
+- [-] 288. Yapay Zekâ Yanıtlarında Marka Bahsi ve Kaynak Bağlantısı — `icerik-seo` — — `yapay-zeka-yanitlarinda-marka-bahsi-ve-kaynak-baglantisi` — (liste No. 175) — ATLANDI: resmî kaynakla doğrulanamadı (üçüncü taraf/yapay zekâ sohbet davranışı); uydurma iddia yazılmadı
+- [x] 289. SEO’nun Satışa Katkısı Nasıl İzlenir? — `icerik-seo` — — `seonun-satisa-katkisi-nasil-izlenir` — (liste No. 244)
+- [x] 290. SEO Trafik Tahmini Nasıl Yapılır? — `icerik-seo` — — `seo-trafik-tahmini-nasil-yapilir` — (liste No. 247)
+- [x] 291. Şirket İçi SEO Ekibi Nasıl Kurulur? — `icerik-seo` — — `sirket-ici-seo-ekibi-nasil-kurulur` — (liste No. 219)
+- [x] 292. SEO Uzmanı ile Web Geliştirici Hangi İşlerden Sorumlu? — `teknik-seo` — — `seo-uzmani-ile-web-gelistirici-hangi-islerden-sorumlu` — (liste No. 221)
+- [x] 293. SEO Önerileri Yazılım Ekibine Nasıl Aktarılır? — `teknik-seo` — — `seo-onerileri-yazilim-ekibine-nasil-aktarilir` — (liste No. 222)
+- [x] 294. SEO Değişiklikleri Nasıl Kaydedilir? Yayın ve Sonuç Takibi — `teknik-seo` — — `seo-degisiklikleri-nasil-kaydedilir` — (liste No. 223)
+- [x] 295. SEO’ya Başlarken Müşteriden Hangi Bilgiler İstenmeli? — `icerik-seo` — — `seoya-baslarken-musteriden-hangi-bilgiler-istenmeli` — (liste No. 248)
+- [x] 296. SEO İşleri Etki ve Efora Göre Nasıl Önceliklendirilir? — `icerik-seo` — — `seo-isleri-etki-ve-efora-gore-nasil-onceliklendirilir` — (liste No. 249)
+- [x] 297. Fiyatlandırma Sayfası SEO İçin Nasıl Düzenlenir? — `icerik-seo` — — `fiyatlandirma-sayfasi-seo-icin-nasil-duzenlenir` — (liste No. 226)
+- [x] 298. Rakip Alternatifi Sayfaları Nasıl Hazırlanır? — `icerik-seo` — — `rakip-alternatifi-sayfalari-nasil-hazirlanir` — (liste No. 227)
+- [x] 299. Kullanıcıların Oluşturduğu İçerik SEO İçin Nasıl Yönetilir? — `teknik-seo` — — `kullanicilarin-olusturdugu-icerik-seo-icin-nasil-yonetilir` — (liste No. 228)
+- [x] 300. İçeriği Farklı Kanallarda Yeniden Kullanmak ve SEO — `icerik-seo` — — `icerigi-farkli-kanallarda-yeniden-kullanmak-ve-seo` — (liste No. 229)
+- [x] 301. Sosyal Medya Paylaşımları SEO’yu Nasıl Destekler? — `icerik-seo` — — `sosyal-medya-paylasimlari-seoyu-nasil-destekler` — (liste No. 230)
+- [x] 302. Yabancı Dilde Anahtar Kelime Araştırması Nasıl Yapılır? — `icerik-seo` — — `yabanci-dilde-anahtar-kelime-arastirmasi-nasil-yapilir` — (liste No. 217)
+- [x] 303. SEO İçin Çeviri mi, Yerelleştirme mi? — `icerik-seo` — — `seo-icin-ceviri-mi-yerellestirme-mi` — (liste No. 218)
+- [x] 304. Open Graph Etiketleri Nasıl Eklenir? — `web-tasarim` — — `open-graph-etiketleri-nasil-eklenir` — (liste No. 183)
+- [x] 305. Mobil Pop-Up’lar SEO’yu Nasıl Etkiler? — `web-tasarim` — — `mobil-pop-uplar-seoyu-nasil-etkiler` — (liste No. 237)
+- [x] 306. Sekme ve Akordeon İçindeki Metinleri Google Görür mü? — `web-tasarim` — — `sekme-ve-akordeon-icindeki-metinleri-google-gorur-mu` — (liste No. 238)
+- [x] 307. Astro Sitelerde SEO Ayarları Nasıl Yapılır? — `web-tasarim` — — `astro-sitelerde-seo-ayarlari-nasil-yapilir` — (liste No. 210)
+- [x] 308. Headless CMS Kullanılan Sitelerde SEO Kontrolleri — `web-tasarim` — — `headless-cms-kullanilan-sitelerde-seo-kontrolleri` — (liste No. 214)
 
 ## Notlar
 
