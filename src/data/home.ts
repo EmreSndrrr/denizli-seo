@@ -54,14 +54,14 @@ export const SERVICE_NODES: ServiceNode[] = [
   { tone: 'orange', icon: 'gauge', title: 'Teknik SEO ve hız', href: '/teknik-seo/', items: ['Tarama ve dizin denetimi', 'Site hızı', 'Mobil uyum', 'Yapılandırılmış veri'] },
   { tone: 'purple', icon: 'doc', title: 'İçerik SEO', href: '/icerik-seo/', items: ['Anahtar kelime araştırması', 'İçerik planı', 'Hizmet sayfaları', 'Blog yazıları'] },
   { tone: 'pink', icon: 'link', title: 'Backlink ve otorite', href: '/backlink-hizmeti/', items: ['Bağlantı profili denetimi', 'Yerel kurum bağlantıları', 'Bağlantı kazandıran içerik', 'Aylık bağlantı raporu'] },
-  { tone: 'orange', icon: 'layout', title: 'Web tasarım', href: '/web-tasarim/', items: ['Arama odaklı site planı', 'Önce telefon', 'Teknik SEO hazır', 'Ölçüm altyapısı'] },
+  { tone: 'orange', icon: 'layout', title: 'Web tasarım', href: '/web-tasarim/', items: ['Arama odaklı site planı', 'Mobil öncelikli tasarım', 'Teknik SEO hazır', 'Ölçüm altyapısı'] },
 ];
 
 // What sets the team apart: said before the work starts. Facts only.
 export const WHY_CARDS = [
   { tone: 'pink', icon: 'pin', name: 'Denizli’ye odaklı', text: 'Denizli’nin 19 ilçesinde çalışırız; aramalar ilçeye göre değiştiği için her ilçeye ayrı bakarız.' },
   { tone: 'purple', icon: 'team', name: 'Tek elden', text: 'Site, SEO ve reklam aynı ekipte. Bir kanalın verisi diğerini besler; işiniz ajanslar arasında bölünmez.' },
-  { tone: 'orange', icon: 'chart', name: 'Rakamla rapor', text: 'Her ay sıra, ziyaret ve gelen talep rakamla raporlanır. Sonuç vermeyen çalışma da raporda yazar.' },
+  { tone: 'orange', icon: 'chart', name: 'Ölçülebilir performans ve düzenli raporlama', text: 'Her ay sıra, ziyaret ve gelen talep ölçülür ve raporlanır. Sonuç vermeyen çalışma da raporda yazar.' },
   { tone: 'orange', icon: 'user', name: 'Doğrudan iletişim', text: 'İşi yapan kişiyle konuşursunuz. Araya hesap yöneticisi girmez.' },
   { tone: 'pink', icon: 'eye', name: 'Garanti değil, şeffaflık', text: 'Google’da sıra garanti edilemez. Yapılacak işi, süresini ve sonucunu açıkça yazarız.' },
 ] as const;

@@ -15,7 +15,7 @@
 .banner h1 .hot { color: var(--pink-text); }
 .banner .lede { max-width: 58ch; }
 .banner-acts { display: flex; flex-wrap: wrap; gap: 12px; margin-top: 0.5rem; }
-@media (max-width: 560px) { .banner-acts .btn { flex: 1 1 100%; } }
+@media (max-width: 560px) { .banner-acts .btn { flex: 1 1 100%; min-width: 0; padding-inline: 1.1em; font-size: 1rem; } }
 
 /* ---------- service page: introduction with a sample fragment ---------- */
 .svc-intro .wrap { display: grid; grid-template-columns: minmax(0, 1fr) minmax(0, 1fr); gap: 5vw; align-items: center; padding-block: 5vh 8vh; }
@@ -263,3 +263,10 @@
 .proj-go { display: inline-flex; align-items: center; gap: 6px; margin-top: 6px; color: var(--orange-text, var(--pink-text)); font-weight: 650; }
 @media (max-width: 1023px) { .proj-grid { grid-template-columns: repeat(2, minmax(0, 1fr)); } }
 @media (max-width: 639px) { .proj-grid { grid-template-columns: 1fr; } }
+
+/* service page: goal and indicators */
+.svc-goal { display: grid; gap: 14px; margin: 0; max-width: 62ch; }
+.svc-goal div { display: grid; gap: 2px; padding-left: 14px; border-left: 3px solid var(--pink); }
+.svc-goal dt { font-size: var(--t-small); font-weight: 700; color: var(--pink-text); }
+.svc-goal dd { margin: 0; color: var(--muted); line-height: 1.5; }
+.svc-goal-note { max-width: 62ch; color: var(--soft); font-size: var(--t-small); }

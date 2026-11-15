@@ -54,7 +54,7 @@ export function waQueryText(query: string = DEFAULT_QUERY): string {
 export const WA_GENERAL = waLink('Merhaba, Denizli SEO hakkında bilgi almak istiyorum.');
 
 // The primary action on every page. The first analysis is free (confirmed by the owner).
-export const CTA_LABEL = 'Ücretsiz SEO analizi iste';
+export const CTA_LABEL = 'Ücretsiz SEO analizi talep edin';
 export const WA_ANALYSIS = waLink('Merhaba, ücretsiz SEO analizi istiyorum. İşletmemin adı ve ilçesi: ');
 
 // The 19 districts of Denizli, alphabetical (Turkish collation).

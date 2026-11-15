@@ -15,6 +15,7 @@ export interface Service {
   h1: [string, string];   // two authored lines
   queries: string[];      // searches this service answers, shown on the page
   lead: string;
+  goal: string;           // the business goal the service works toward
   statementHead: string;
   statement: string;
   items: { name: string; text: string }[];
@@ -33,10 +34,11 @@ export const SERVICES: Service[] = [
     title: 'Yerel SEO ve Google Haritalar, Denizli | Denizli SEO',
     description:
       "Google Haritalar’da ve “yakınımdaki” aramalarında Denizli’deki müşterinin sizi bulması için İşletme Profili, yorum ve konum çalışması.",
-    h1: ['Haritada', 'öne çıkın.'],
+    h1: ['Google Haritalar’da', 'öne çıkın.'],
     queries: ['denizli kuyumcu', 'yakınımdaki eczane', 'merkezefendi diş hekimi', 'pamukkale pansiyon'],
     lead:
       "Yerel SEO; Google Haritalar’da ve “yakınımdaki” aramalarında, Denizli’de sizi arayan müşterinin karşısına çıkmanız için yapılan çalışmadır.",
+    goal: 'Haritadan gelen arama, yol tarifi ve ziyaret taleplerini artırmak.',
     statementHead: 'Haritadaki ilk üç',
     statement:
       'Google, konum içeren bir aramada haritayı sonuçların en üstüne koyar ve yanına birkaç işletme dizer. Bu listeye girmek için profiliniz, yorumlarınız ve adres bilgileriniz birbirini doğrulamalı.',
@@ -50,10 +52,10 @@ export const SERVICES: Service[] = [
       { name: 'Harita sırası takibi', text: 'Belirlediğimiz aramalarda haritada kaçıncı sırada olduğunuzu her ay ölçer ve raporlarız.' },
     ],
     steps: [
-      { line: 'Önce profili denetleriz.', text: 'Eksik alanları, yanlış kategoriyi ve tutarsız bilgileri çıkarırız.' },
+      { line: 'Önce profili denetleriz.', text: 'Eksik alanları, yanlış kategoriyi ve tutarsız bilgileri çıkarırız; teslim: düzeltme listesi.' },
       { line: 'Eksikleri tamamlarız.', text: 'Profil, site ve rehberler aynı bilgiyi söyler hale gelir.' },
       { line: 'Yorum düzenini kurarız.', text: 'Gerçek müşteriden yorum istemek işin rutini olur.' },
-      { line: 'Her ay sırayı ölçeriz.', text: 'Hangi aramada kaçıncı olduğunuz raporda yazar.' },
+      { line: 'Her ay sırayı ölçeriz.', text: 'Belirlediğimiz aramalarda kaçıncı olduğunuz, arama ve yol tarifi sayısıyla birlikte aylık raporda yer alır.' },
     ],
     faq: [
       { q: 'Haritadaki sırayı ne belirler?', a: 'Google üç şeye baktığını açıklıyor: aramayla ilgililik, arayan kişiye uzaklık ve işletmenin bilinirliği. Uzaklığı değiştiremeyiz; diğer ikisi üzerinde çalışırız.' },
@@ -72,10 +74,11 @@ export const SERVICES: Service[] = [
     title: 'Teknik SEO ve Site Hızı Optimizasyonu | Denizli SEO',
     description:
       'Sitenizin Google tarafından sorunsuz taranması, doğru sayfaların dizine girmesi ve telefonda hızlı açılması için teknik SEO denetimi ve düzeltme.',
-    h1: ['Siteniz', 'hızlı açılsın.'],
+    h1: ['Google sitenizi', 'sorunsuz okusun.'],
     queries: ['site neden açılmıyor', 'google sitemi göstermiyor', 'sayfa dizine eklenmedi', 'mobil uyumlu site'],
     lead:
       'Teknik SEO; sitenizin Google tarafından eksiksiz taranması, doğru sayfaların dizine girmesi ve telefonda hızlı açılması için yapılan altyapı çalışmasıdır.',
+    goal: 'Teknik engelleri kaldırarak doğru sayfaların Google’da görünmesini ve ziyaretçinin siteyi telefonda hızlı kullanmasını sağlamak.',
     statementHead: 'Google önce okur',
     statement:
       'Google bir sayfayı sıralamadan önce onu bulmalı, açabilmeli ve okuyabilmelidir. Bu üç adımdan birinde takılan sayfa, içeriği ne kadar iyi olursa olsun aramada görünmez.',
@@ -89,9 +92,9 @@ export const SERVICES: Service[] = [
       { name: 'Yapılandırılmış veri', text: "İşletme, hizmet, sık sorulan soru ve makale bilgilerini schema.org işaretlemesiyle Google’a okunur hale getiririz." },
     ],
     steps: [
-      { line: 'Önce siteyi tararız.', text: 'Her sayfanın durumu bir tabloda toplanır.' },
-      { line: 'Sorunları sıraya dizeriz.', text: 'Önce sıralamayı en çok etkileyenler düzelir.' },
-      { line: 'Düzeltmeleri uygularız.', text: 'Kodda, sunucuda ve panelde, yapılabilen her yerde.' },
+      { line: 'Önce siteyi tararız.', text: 'Her sayfanın tarama, dizin, hız ve yönlendirme durumu bir tabloda toplanır.' },
+      { line: 'Sorunları önceliklendiririz.', text: 'Her sorunun sayfaya etkisine ve düzeltme emeğine bakarız; teslim: öncelikli iyileştirme planı.' },
+      { line: 'Düzeltmeleri uygularız.', text: 'Kodda, sunucuda ve panelde, erişimin izin verdiği her yerde; yapılamayanları ayrıca yazarız.' },
       { line: "Search Console’dan izleriz.", text: 'Düzelen sayfaların dizine girişini her ay takip ederiz.' },
     ],
     faq: [
@@ -110,10 +113,11 @@ export const SERVICES: Service[] = [
     title: 'İçerik ve Blog SEO, Anahtar Kelime Araştırması | Denizli SEO',
     description:
       "Müşterinizin Google’a sorduğu soruları bulur, bunları yanıtlayan hizmet sayfaları ve blog yazıları hazırlarız. Anahtar kelime araştırması ve içerik planı.",
-    h1: ['İçerikle', 'soruyu yanıtlayın.'],
+    h1: ['Müşterinizin sorusuna', 'içerikle yanıt verin.'],
     queries: ['kuyumcu fiyatları', 'diş beyazlatma ne kadar', 'kombi bakımı ne zaman yapılır', 'düğün salonu fiyatları denizli'],
     lead:
       "İçerik SEO’su; müşterinizin Google’a yazdığı soruları bulup bunları en iyi yanıtlayan sayfaları hazırlamaktır.",
+    goal: 'Satın almaya yakın aramalardan teklif, randevu ya da rezervasyon talebi getirecek sayfalar oluşturmak.',
     statementHead: 'Her arama bir soru',
     statement:
       '“Denizli’de düğün salonu fiyatları”, “pamukkale yakınında pansiyon”, “kombi bakımı ne zaman yapılır”. Müşteriniz satın almadan önce soru sorar; yanıtı veren sayfa onu kazanır.',
@@ -127,10 +131,10 @@ export const SERVICES: Service[] = [
       { name: 'İç bağlantılar', text: 'Yazılardan hizmet sayfalarına giden bağlantılarla ziyaretçiyi ve Google’ı doğru sayfaya yönlendiririz.' },
     ],
     steps: [
-      { line: 'Önce soruları toplarız.', text: 'Arama verisinden ve sizin müşteri deneyiminizden.' },
-      { line: 'Planı çıkarırız.', text: 'Her soru için bir sayfa ve bir tarih.' },
-      { line: 'Yazar, size sorarız.', text: 'Her metin yayından önce sizin onayınızdan geçer.' },
-      { line: 'Her ay sonucu ölçeriz.', text: 'Hangi yazının ziyaret ve talep getirdiği raporda.' },
+      { line: 'Önce soruları araştırırız.', text: 'Arama verisinden, rakip sayfalardan ve sizin müşteri deneyiminizden.' },
+      { line: 'Planı çıkarırız.', text: 'Her soru için bir sayfa ve bir tarih; teslim: aylık içerik planı.' },
+      { line: 'Hazırlar ve kontrol ederiz.', text: 'Metin araştırılır, yazılır, kaynakları ve sektör bilginiz açısından kontrol edilir; sizin onayınızla yayımlanır.' },
+      { line: 'Her ay sonucu ölçeriz.', text: 'Hangi yazının hangi aramada göründüğü, ziyaret ve talep sayısı aylık raporda yer alır.' },
     ],
     faq: [
       { q: 'Yazıları yapay zekâ mı yazıyor?', a: "Araştırmada ve taslakta yapay zekâ araçlarından yararlanabiliriz. Her metin sizin sektör bilginizle kontrol edilir ve onayınızla yayına girer. Google içeriğin nasıl üretildiğine değil, okura faydasına bakar." },
@@ -152,6 +156,7 @@ export const SERVICES: Service[] = [
     queries: ['backlink hizmeti', 'backlink nasıl alınır', 'denizli seo bağlantı çalışması', 'hacklink zararı'],
     lead:
       'Backlink, başka bir sitede yer alan ve sizin sitenize götüren bağlantıdır. Biz bunu satın almayız; yerel kurum, iş ortağı ve içerik yoluyla hak ederek kazanırız.',
+    goal: 'Sektörünüzde ve Denizli’de güvenilir kaynaklardan gerçek bağlantılar kazanarak itibarınızı artırmak.',
     statementHead: 'Bağlantı bir tavsiyedir',
     statement:
       'Google, başka sitelerin size verdiği bağlantıyı bir tavsiye gibi okur. Sayıdan çok kaynağın niteliği önemlidir: sektörünüzdeki bir derneğin ya da yerel bir haber sitesinin bağlantısı çoğu zaman yüzlerce toplu bağlantıdan daha çok iş görür. Satın alınan toplu bağlantılar Google’ın spam politikasına aykırıdır; bu yola girmeyiz.',
@@ -192,13 +197,14 @@ export const SERVICES: Service[] = [
     queries: ['denizli web tasarım', 'kurumsal web sitesi', 'e-ticaret sitesi', 'seo uyumlu site'],
     lead:
       'Sitenizi tasarlarken önce müşterinin Google’da ne aradığına bakarız; sayfaları, başlıkları ve adresleri buna göre kurarız.',
+    goal: 'Telefon, WhatsApp ve form talebi toplayan; aramada bulunabilen ve hızlı açılan bir site kurmak.',
     statementHead: 'Önce aramalar, sonra tasarım',
     statement:
       'Güzel bir site, aranmadıkça ziyaretçi getirmez. Hangi sayfanın olacağına aranan kelimeler, sayfanın nasıl görüneceğine işletmeniz ve müşteriniz karar verir.',
     items: [
       { name: 'Arama odaklı site planı', text: 'Hangi sayfaların olacağını aranan kelimelere ve hizmetlerinize göre baştan planlarız.' },
       { name: 'Markaya özel tasarım', text: 'Hazır şablon kullanmayız; tasarımı işletmenize ve müşterinize göre yaparız.' },
-      { name: 'Önce telefon', text: 'Önce telefon ekranında tasarlar, görselleri ve kodu hız için hazırlarız.' },
+      { name: 'Mobil öncelikli tasarım', text: 'Önce telefon ekranında tasarlar, görselleri ve kodu hız için hazırlarız.' },
       { name: 'Teknik SEO hazır', text: 'Başlık etiketleri, açıklamalar, site haritası ve yapılandırılmış veri yayından önce kurulur.' },
       { name: 'Ölçüm altyapısı', text: 'Search Console, analiz aracı ve telefon ile WhatsApp tıklamalarının ölçümü kurulur.' },
       { name: 'Taşımada sıra koruma', text: 'Eski siteniz varsa her eski adresi yenisine yönlendirir, mevcut sıralamaları korumaya çalışırız.' },
@@ -207,7 +213,7 @@ export const SERVICES: Service[] = [
       { line: 'Önce aramaları çıkarırız.', text: 'Müşteriniz hangi kelimelerle arıyor?' },
       { line: 'Sayfaları planlarız.', text: 'Her aramanın karşılığı olan bir sayfa.' },
       { line: 'Tasarlar, kodlarız.', text: 'Hızlı, telefona uygun, size özel.' },
-      { line: 'Yayına alıp ölçeriz.', text: 'İlk aydan itibaren rakamla rapor.' },
+      { line: 'Yayına alıp ölçeriz.', text: 'Yayından itibaren ölçülebilir göstergelerle düzenli rapor.' },
     ],
     faq: [
       { q: 'Site yenilenirse sıram düşer mi?', a: "Yönlendirmeler doğru kurulmazsa düşebilir. Eski adreslerin tamamını listeler, her birini yeni karşılığına 301 ile yönlendirir ve geçişten sonraki haftalarda Search Console’u izleriz." },

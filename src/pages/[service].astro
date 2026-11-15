@@ -94,6 +94,11 @@ const jsonld = [
       <div class="svc-intro-copy reveal">
         <h2 class="h2" id="ne-yapiyoruz">{service.statementHead}</h2>
         <p class="lede">{service.statement}</p>
+        <dl class="svc-goal">
+          <div><dt>Hedefimiz</dt><dd>{service.goal}</dd></div>
+          <div><dt>Takip ettiğimiz göstergeler</dt><dd>{service.measure}</dd></div>
+        </dl>
+        <p class="svc-goal-note">Ziyaret artışını tek başına satış artışı olarak sunmayız; telefon, WhatsApp ve form taleplerini ayrıca izleriz.</p>
       </div>
       <div class="frag reveal">
         {service.slug === 'teknik-seo' ? (
