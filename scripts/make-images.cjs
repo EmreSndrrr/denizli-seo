@@ -178,6 +178,10 @@ const PAGES = [
   { out: 'og/editoryal-ilkeler', motif: 'console', tag: 'Editoryal ilkeler', title: 'Yazılarımız nasıl hazırlanır?' },
 ];
 const POST_MOTIF = {
+  'googleda-sitem-icin-japonca-spam-sayfalar-cikiyor': 'broken',
+  'amp-sayfalari-hala-gerekli-mi': 'layout',
+  'otomatik-dil-yonlendirmesi-seoyu-nasil-etkiler': 'redirect',
+  'seo-ab-testi-nasil-yapilir': 'chart',
   'cdn-kullanimi-seo-icin-nasil-degerlendirilir': 'gauge',
   'url-sonundaki-egik-cizgi-seoyu-etkiler-mi': 'redirect',
   'utm-parametreli-urller-seo-icin-nasil-yonetilir': 'chart',
