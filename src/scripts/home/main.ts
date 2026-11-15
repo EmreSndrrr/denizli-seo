@@ -4,7 +4,7 @@ import { gsap } from 'gsap';
 import { ScrollTrigger } from 'gsap/ScrollTrigger';
 import Lenis from 'lenis';
 import { $, $$, clamp } from './util';
-import { M, measure, buildKeys, sample, firstKey, lensAnchor, NO_ANCHOR, FIELDS, type Anchor, type StageState } from './choreo';
+import { M, buildKeys, sample, firstKey, lensAnchor, NO_ANCHOR, FIELDS, type Anchor, type StageState } from './choreo';
 import { initSearch, onQuery } from './search';
 import { initProjects } from './projects';
 import { initDrawer, initFaq, initForm } from './ui';
@@ -30,7 +30,6 @@ function scrollToTarget(target: HTMLElement | number) {
   else if (typeof target === 'number') scrollTo({ top: target, behavior: reduce ? 'auto' : 'smooth' });
   else target.scrollIntoView({ behavior: reduce ? 'auto' : 'smooth' });
 }
-const scrollToY = (y: number) => scrollToTarget(y);
 const drawer = initDrawer(() => {});
 $$('a[href^="#"]').forEach((a) => a.addEventListener('click', (e) => {
   const id = a.getAttribute('href') || '';
@@ -44,7 +43,7 @@ $$('a[href^="#"]').forEach((a) => a.addEventListener('click', (e) => {
 initFaq();
 initForm();
 initProjects();
-initSearch(scrollToY, measure, reduce);
+initSearch(reduce);
 
 /* ---------- the 3D stage ---------- */
 const canvas = $<HTMLCanvasElement>('#stage')!;

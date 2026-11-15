@@ -1,7 +1,6 @@
 // The hero search box: the query it holds (typed, picked from the chips, or typed by itself) is what the
 // magnifier's glass shows. Sample data, labelled as such on the page.
 import { $, $$ } from './util';
-import { M } from './choreo';
 import { HERO_CHIPS } from '../../data/home';
 
 let paused = false;
@@ -13,18 +12,17 @@ const searchBtn = $('#hero-search-btn');
 const chips = $$('.chip-btn');
 const FALLBACK = HERO_CHIPS[0];
 
-// a query set by the visitor takes the page to the lens chapter, where the glass shows it
-export function applyQuery(q: string, title: string | null, scrollTo?: (y: number) => void) {
+// the glass of the hero magnifier shows the query in place; the page does not jump anywhere
+export function applyQuery(q: string, title: string | null) {
   const clean = (q || '').trim() || FALLBACK.q;
   if (searchInput && document.activeElement !== searchInput) searchInput.value = clean;
   const t = title || `Siteniz | ${clean.charAt(0).toLocaleUpperCase('tr-TR') + clean.slice(1)}`;
   chips.forEach((b) => b.classList.toggle('active', b.dataset.q === clean));
   listeners.forEach((cb) => cb(clean, t));
-  if (scrollTo) scrollTo(M.lens.t + Math.max(0, (M.lens.h - M.H) * 0.45));
 }
 
-export function initSearch(scrollTo: (y: number) => void, measureNow: () => void, reduce: boolean) {
-  const go = (q: string, t: string | null) => { paused = true; measureNow(); applyQuery(q, t, scrollTo); };
+export function initSearch(reduce: boolean) {
+  const go = (q: string, t: string | null) => { paused = true; applyQuery(q, t); };
   if (searchInput) {
     searchInput.addEventListener('focus', () => { paused = true; });
     searchInput.addEventListener('input', () => { paused = true; applyQuery(searchInput.value, null); });
