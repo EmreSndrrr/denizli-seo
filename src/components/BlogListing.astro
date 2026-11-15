@@ -1,0 +1,92 @@
+---
+// One blog listing page: the index, a later page of it (/blog/sayfa/2/) or one topic (/blog/konu/yerel-seo/).
+// Topics are the services; every listing links to all of them, so each post is two clicks from the home page.
+import type { CollectionEntry } from 'astro:content';
+import Page from '../layouts/Page.astro';
+import Banner from './home/Banner.astro';
+import Chat from './home/Chat.astro';
+import Icon from './Icon.astro';
+import { SITE, WA_ANALYSIS, CTA_LABEL } from '../data/site';
+import { type Service } from '../data/services';
+
+interface Props {
+  title: string;
+  description: string;
+  h1: [string, string];
+  lead: string;
+  posts: CollectionEntry<'blog'>[];
+  topics: Service[];
+  topic?: Service;          // set on a topic page
+  page?: number;            // set on the index and its later pages
+  pages?: number;
+}
+const { title, description, h1, lead, posts, topics, topic, page = 1, pages = 1 } = Astro.props;
+
+const blogUrl = `${SITE.url}/blog/`;
+const url = new URL(Astro.url.pathname, SITE.url).href;
+const pageHref = (n: number) => (n === 1 ? '/blog/' : `/blog/sayfa/${n}/`);
+const fmt = new Intl.DateTimeFormat('tr-TR', { day: 'numeric', month: 'long', year: 'numeric' });
+const minutes = (body: string | undefined) => Math.max(1, Math.round(((body ?? '').split(/\s+/).filter(Boolean).length) / 200));
+const here = topic ? topic.short : `Sayfa ${page}`;
+const crumbs = url === blogUrl
+  ? [{ href: '/', label: 'Ana sayfa' }, { label: 'Blog' }]
+  : [{ href: '/', label: 'Ana sayfa' }, { href: '/blog/', label: 'Blog' }, { label: here }];
+
+const items = posts.map((p) => ({
+  '@type': 'BlogPosting',
+  headline: p.data.title,
+  url: `${SITE.url}/blog/${p.id}/`,
+  datePublished: p.data.date.toISOString(),
+  image: `${SITE.url}/og/blog-${p.id}.jpg`,
+}));
+const jsonld = [
+  url === blogUrl
+    ? { '@type': 'Blog', '@id': `${blogUrl}#blog`, url, name: 'Denizli SEO blog', inLanguage: 'tr-TR', publisher: { '@id': `${SITE.url}/#isletme` }, blogPost: items }
+    : { '@type': 'CollectionPage', '@id': `${url}#liste`, url, name: title, inLanguage: 'tr-TR', isPartOf: { '@type': 'Blog', '@id': `${blogUrl}#blog` }, hasPart: items },
+  {
+    '@type': 'BreadcrumbList',
+    itemListElement: crumbs.map((c, i) => ({ '@type': 'ListItem', position: i + 1, name: c.label, item: c.href ? new URL(c.href, SITE.url).href : url })),
+  },
+];
+---
+<Page title={title} description={description} jsonld={jsonld} image="/og/blog.jpg" imageAlt="Denizli SEO blog: arama üzerine notlar">
+  <Banner crumbs={crumbs} h1={h1} lead={lead}>
+    <a class="btn btn-solid" href={WA_ANALYSIS} rel="noopener">{CTA_LABEL}<Icon name="arrow" size={20} /></a>
+    {topic
+      ? <a class="btn btn-outline" href={`/${topic.slug}/`}>Hizmeti inceleyin</a>
+      : <a class="btn btn-outline" href="/editoryal-ilkeler/">Yazılar nasıl hazırlanır?</a>}
+  </Banner>
+
+  <section class="blog-sec" aria-label="Yazılar">
+    <div class="wrap">
+      <nav class="filters" aria-label="Konuya göre">
+        <a class:list={['ptab', { active: !topic }]} href="/blog/" aria-current={url === blogUrl ? 'page' : undefined}>Tümü</a>
+        {topics.map((s) => <a class:list={['ptab', { active: s.slug === topic?.slug }]} href={`/blog/konu/${s.slug}/`} aria-current={s.slug === topic?.slug ? 'page' : undefined}>{s.short}</a>)}
+      </nav>
+      <ul class="post-grid">
+        {posts.map((post) => (
+          <li class="post-card reveal">
+            <a href={`/blog/${post.id}/`}>
+              <span class="post-pic"><img src={`/blog/${post.id}-640.webp`} width="640" height="336" alt={post.data.imageAlt} loading="lazy" decoding="async" /></span>
+              <span class="post-meta"><span><Icon name="plan" size={14} /><time datetime={post.data.date.toISOString()}>{fmt.format(post.data.date)}</time></span><span>{minutes(post.body)} dakikalık okuma</span></span>
+              <h2>{post.data.title}</h2>
+              <p>{post.data.description}</p>
+              <span class="post-go" aria-hidden="true"><Icon name="arrow" size={18} /></span>
+            </a>
+          </li>
+        ))}
+      </ul>
+      {pages > 1 && (
+        <nav class="pager" aria-label="Sayfalar">
+          {page > 1 && <a class="ptab" href={pageHref(page - 1)} rel="prev">Önceki</a>}
+          {Array.from({ length: pages }, (_, i) => i + 1).map((n) => (
+            <a class:list={['ptab', { active: n === page }]} href={pageHref(n)} aria-current={n === page ? 'page' : undefined} aria-label={`Sayfa ${n}`}>{n}</a>
+          ))}
+          {page < pages && <a class="ptab" href={pageHref(page + 1)} rel="next">Sonraki</a>}
+        </nav>
+      )}
+    </div>
+  </section>
+
+  <Chat />
+</Page>

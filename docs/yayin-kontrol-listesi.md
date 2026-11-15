@@ -4,8 +4,8 @@ Sunucu: Güzel Hosting (cPanel). Site statiktir; yüklenecek olan `dist/` klasö
 
 ## 0. Kod tarafında hazır olanlar (Kasım 2026 itibarıyla)
 
-- 24 sayfa derleniyor; `astro check` 0 hata. Başlık, açıklama, tek `h1`, kanonik adres ve iç bağlantı denetimi temiz.
-- Yalnızca 404 sayfası `noindex`; diğer 23 sayfa indekslenebilir ve sitemap'te (`/sitemap-index.xml`).
+- 111 sayfa derleniyor (91 blog yazısı, 5 konu sayfası, blog arşivinin 4 sayfası dahil); `astro check` 0 hata. Başlık, açıklama, tek `h1`, kanonik adres ve iç bağlantı denetimi temiz.
+- Yalnızca 404 sayfası `noindex`; diğer 110 sayfa indekslenebilir ve sitemap'te (`/sitemap-index.xml`).
 - `robots.txt` her şeye açık ve sitemap adresini veriyor; `llms.txt` ve `rss.xml` var.
 - `public/.htaccess`: https + `www`'suz tek 301, sonu `/` ile biten adresler, 404 sayfası, güvenlik başlıkları (HSTS, nosniff, referrer, çerçeveleme, izinler) ve önbellek.
 - Şema: Venti işletme/kuruluş düğümü, kurucu kişi, hizmet, SSS, blog yazısı; sayfa başına paylaşım görseli.
@@ -13,7 +13,7 @@ Sunucu: Güzel Hosting (cPanel). Site statiktir; yüklenecek olan `dist/` klasö
 
 ## 1. Yüklemeden önce (siz)
 
-- [ ] Örnek blog yazılarını okuyun (yazıların bir kısmı sizin gözünüzden geçmedi). "Editoryal ilkeler" sayfası her metnin kontrol edildiğini söylüyor; bu doğru olsun.
+- [x] Blog yazıları okundu (15 Kasım 2026); 91 yazı birlikte yayınlanıyor.
 - [ ] Telefon (0544 596 56 22), WhatsApp ve adres bilgilerini bir kez gözle doğrulayın.
 - [ ] Google puanı (5,0 · 28 yorum, Ekim 2026) hâlâ güncel mi bakın; değiştiyse `src/data/` içindeki ilgili yerleri güncelleyin.
 
@@ -70,7 +70,7 @@ curl -s  https://denizliseo.com/robots.txt | tail -2                           #
 
 | Ne zaman | Ne bakılır |
 | --- | --- |
-| 1–3 gün | Search Console → Sayfalar raporu: 23 sayfa keşfedildi mi, hata var mı |
+| 1–3 gün | Search Console → Sayfalar raporu: 110 sayfa keşfedildi mi, hata var mı |
 | 1 hafta | Performans raporu: ilk gösterimler; "Bulunamadı (404)" listesi boş mu |
 | 4 hafta | Core Web Vitals (gerçek kullanıcı verisi) ve PageSpeed Insights, telefon |
 | Her ay | Yeni yazı: `docs/seo-yazi-talimati.md` akışı; eski yazıların `updated` tarihi |

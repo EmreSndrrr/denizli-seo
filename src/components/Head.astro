@@ -47,7 +47,8 @@ const business = {
   telephone: SITE.phone,
   areaServed: [
     { '@type': 'City', name: 'Denizli' },
-    ...DISTRICTS.map((d) => ({ '@type': 'AdministrativeArea', name: `${d}, Denizli` })),
+    // the 19 districts are listed on the site's own pages; a post names the city only
+    ...(type === 'article' ? [] : DISTRICTS.map((d) => ({ '@type': 'AdministrativeArea', name: `${d}, Denizli` }))),
   ],
   availableLanguage: 'tr',
   founder: { '@id': SITE.personId },

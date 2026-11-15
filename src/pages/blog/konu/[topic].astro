@@ -1,0 +1,23 @@
+---
+// One topic of the blog: every post written for one service, with a way to the service page.
+import BlogListing from '../../../components/BlogListing.astro';
+import { loadBlog } from '../../../data/blog';
+
+export async function getStaticPaths() {
+  const { topics } = await loadBlog();
+  return topics.map((topic) => ({ params: { topic: topic.slug }, props: { topic } }));
+}
+
+const { topic } = Astro.props;
+const { posts, topics } = await loadBlog();
+const list = posts.filter((p) => p.data.service === topic.slug);
+---
+<BlogListing
+  title={`${topic.short}: blog yazıları | Denizli SEO`}
+  description={`${topic.short} üzerine Denizli SEO blogundaki ${list.length} yazı: Denizli’deki işletmeler için kaynaklı ve uygulanabilir anlatımlar.`}
+  h1={[topic.short, 'yazıları.']}
+  lead={`${topic.name} üzerine ${list.length} yazı. ${topic.lead}`}
+  posts={list}
+  topics={topics}
+  topic={topic}
+/>

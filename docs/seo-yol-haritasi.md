@@ -28,10 +28,10 @@ Harita paketi (Google Haritalar'daki üç sonuç) **Venti Dijital Ajans profilin
 
 | # | İş | Kim | Bitti sayılır |
 | --- | --- | --- | --- |
-| 0.1 | **91 yazıyı tek seferde yayınlama.** En iyi 20–25 yazıyı okuyup onaylayın; kalanlar taslak olsun ve haftada 2–3 tane yayına girsin. Okunmamış toplu içerik hem "Editoryal ilkeler" sayfasıyla çelişir hem de yeni alan adında en büyük kalite riskidir. Sonuç: risk biter, 6 aylık yayın takvimi hazır olur. | Siz (seçim, okuma) + kod (`draft` alanı) | Yayındaki her yazı sizin gözünüzden geçmiş |
+| 0.1 | ~~Yazıların okunması~~ **Tamam (15 Kasım 2026):** sahibi 91 yazının hepsini okudu; hepsi ilk gün birlikte yayınlanıyor. Karşılığında dizine girişi yakından izleyin (1.7). | Siz | Bitti |
 | 0.2 | ventiajans.com ile aynı adresli 7 yazıya Denizli açısı: başlık, giriş ve en az bir yerel örnek. Karşılıklı bağlantı. | Kod + sizin onayınız | 7 başlıkta "Denizli" geçiyor, iki site aynı cümleyi kurmuyor |
-| 0.3 | Blog kategori sayfaları (5 hizmet) + sayfalama; yazı sonunda "ilgili yazılar". Tek bağlantı alan yazı kalmaz. | Kod | Her yazı en az 3 iç bağlantı alıyor |
-| 0.4 | Küçük temizlik: 160 karakteri aşan açıklamalar, yazı sayfalarında 19 ilçelik `areaServed` tekrarı. | Kod | Denetim betiği temiz |
+| 0.3 | ~~Blog kategori sayfaları, sayfalama, ilgili yazılar~~ **Tamam:** `/blog/konu/<hizmet>/` (5 konu), `/blog/sayfa/2/`… (sayfa başına 24 yazı), her yazının sonunda aynı konudan üç yazı ve konu sayfasına giden sayfa yolu. En az bağlantı alan yazı artık 5 sayfadan bağlantı alıyor (önce 1). | Kod | Bitti |
+| 0.4 | ~~Yazı sayfalarında 19 ilçelik `areaServed` tekrarı~~ **Tamam.** 160 karakteri aşan açıklamalara dokunulmadı: metinler onaylı, şema sınırı (170) içinde; Google uzun açıklamayı kendisi kısaltır. | Kod | Bitti |
 | 0.5 | Yükleme, DNS, SSL, curl testleri (`docs/yayin-kontrol-listesi.md`). | Siz | 6 curl testi beklenen sonucu veriyor |
 
 ## Faz 1: İlk 30 gün (indekslenme ve temel sinyaller)
@@ -43,9 +43,10 @@ Harita paketi (Google Haritalar'daki üç sonuç) **Venti Dijital Ajans profilin
 | 1.3 | Venti Google İşletme Profili: hizmetler listesine SEO kalemleri, "Denizli SEO" markasını anlatan bir gönderi (denizliseo.com bağlantılı), haftada bir gönderi. Profilin web sitesi alanı Venti'de kalır. | Siz | Hizmetler dolu, ilk gönderi yayında |
 | 1.4 | Yorum akışı: biten her işten sonra müşteriden Google yorumu isteyin (hizmeti adıyla anması iyi olur). Bugün 5,0 / 28. Yorum satın alınmaz, yazdırılmaz. | Siz | Ayda en az 2 yeni gerçek yorum |
 | 1.5 | Ölçüm: Search Console yeterli. İsterseniz çerezsiz bir analiz aracı (KVKK açısından en sade yol) ya da GA4 + çerez onayı eklenir. WhatsApp tıklamaları olay olarak sayılır. | Karar sizde, kurulum kod | Tıklama sayısı görünüyor |
+| 1.7 | **Dizine girişi izleyin.** 91 yazı aynı gün çıktığı için Google hepsini hemen almaz. Search Console → Sayfalar raporuna haftada bir bakın; en önemli 10 yazı için elle dizine ekleme isteyin. | Siz | Her hafta dizindeki sayfa sayısı artıyor |
 | 1.6 | PageSpeed Insights ile gerçek sunucuda ölçüm (telefon). Sorun çıkarsa three.js yüklemesi daha da ertelenir. | Kod | LCP < 2,5 sn, INP < 200 ms, CLS < 0,1 |
 
-**30. gün kontrolü:** ana sayfa + hizmet sayfaları dizinde; yayındaki yazıların yarısından fazlası dizinde; "Taranmış, dizine eklenmemiş" listesi kısa. Değilse yeni yazı yayınını durdurup dizine girmeyen yazıları güçlendirin ya da kaldırın.
+**30. gün kontrolü:** ana sayfa + hizmet sayfaları dizinde; yayındaki yazıların yarısından fazlası dizinde; "Taranmış, dizine eklenmemiş" listesi kısa. Değilse yeni yazı eklemeyin; dizine girmeyen yazıları güçlendirin, benzerlerini birleştirin ya da kaldırın.
 
 ## Faz 2: 30–90 gün (otorite ve yerel ağ)
 
@@ -76,7 +77,7 @@ Bu faz sıralamayı en çok etkileyen kısımdır ve çoğu kod dışıdır.
 ## Sürekli ritim
 
 - **Haftalık (15 dk):** Search Console → dizin hataları, yeni sorgular. Bir GBP gönderisi.
-- **Aylık:** taslaklardan 8–10 yazı yayını; 2 eski yazının güncellenmesi (`updated`); bağlantı ve yorum sayısı; 3.1 listesi.
+- **Aylık:** 2–4 yeni yazı (`docs/seo-yazi-talimati.md`); 2 eski yazının güncellenmesi (`updated`); bağlantı ve yorum sayısı; 3.1 listesi.
 - **Çeyreklik:** bu denetimin tekrarı (`/claude-seo:seo-audit`, bu kez canlı site ve saha verisiyle); budama; yol haritasının gözden geçirilmesi.
 
 ## Yapılmayacaklar
@@ -91,4 +92,4 @@ Bunlar kısa vadede işe yarar gibi görünür, sitenin kendi anlattığı ilkel
 
 ## Sıradaki adım
 
-Kod tarafındaki işler (0.1'in `draft` alanı, 0.2, 0.3, 0.4) bir oturumda biter. 0.1 için hangi yazıların ilk gün yayında olacağına siz karar verirsiniz.
+Kod tarafında açık kalan tek iş 0.2 (ventiajans.com ile aynı adresli 7 yazıya Denizli açısı); başlık değiştiği için sahibinin onayını bekliyor. Sonra 0.5: yükleme.

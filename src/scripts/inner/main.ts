@@ -1,5 +1,5 @@
 // Behaviour for the inner pages: the bar, the phone menu, questions, the form, the project carousel,
-// the blog filter, the office map and a quiet fade-in. Everything is readable without any of it.
+// the office map and a quiet fade-in. Everything is readable without any of it.
 import { $, $$ } from '../home/util';
 import { initDrawer, initFaq, initForm } from '../home/ui';
 import { initProjects } from '../home/projects';
@@ -14,20 +14,6 @@ initDrawer(() => {});
 initFaq();
 initForm();
 initProjects();
-
-// blog filter: tabs show the posts of one service
-(() => {
-  const tabs = $$<HTMLButtonElement>('[data-filter]');
-  const cards = $$<HTMLElement>('[data-service]');
-  if (!tabs.length) return;
-  tabs.forEach((t) => t.addEventListener('click', () => {
-    const key = t.dataset.filter || '';
-    tabs.forEach((o) => { const on = o === t; o.classList.toggle('active', on); o.setAttribute('aria-pressed', String(on)); });
-    cards.forEach((c) => { c.hidden = key !== '' && c.dataset.service !== key; });
-    const empty = $('[data-empty]');
-    if (empty) empty.hidden = cards.some((c) => !c.hidden);
-  }));
-})();
 
 // the office on the relief map
 (() => {

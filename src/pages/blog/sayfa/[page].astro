@@ -1,0 +1,23 @@
+---
+// Later pages of the blog index: /blog/sayfa/2/ and on. The first page is /blog/.
+import BlogListing from '../../../components/BlogListing.astro';
+import { loadBlog } from '../../../data/blog';
+
+export async function getStaticPaths() {
+  const { pages } = await loadBlog();
+  return Array.from({ length: pages - 1 }, (_, i) => ({ params: { page: String(i + 2) } }));
+}
+
+const page = Number(Astro.params.page);
+const { topics, pages, pageOf } = await loadBlog();
+---
+<BlogListing
+  title={`Blog, sayfa ${page}: SEO ve Haritalar Notları | Denizli SEO`}
+  description={`Denizli SEO blog arşivi, sayfa ${page}/${pages}: SEO, Google İşletme Profili, site hızı ve backlink üzerine önceki yazılar.`}
+  h1={['Arama üzerine notlar,', `sayfa ${page}.`]}
+  lead="Önceki yazılar. Konuya göre bakmak için aşağıdaki başlıklardan birini seçin."
+  posts={pageOf(page)}
+  topics={topics}
+  page={page}
+  pages={pages}
+/>
