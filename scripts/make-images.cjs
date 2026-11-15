@@ -178,6 +178,10 @@ const PAGES = [
   { out: 'og/editoryal-ilkeler', motif: 'console', tag: 'Editoryal ilkeler', title: 'Yazılarımız nasıl hazırlanır?' },
 ];
 const POST_MOTIF = {
+  'search-console-url-kaldirma-araci-ne-zaman-kullanilir': 'console',
+  'x-robots-tag-nasil-kullanilir': 'doc',
+  'siteyi-guncelledim-googleda-hala-eskisi-gorunuyor': 'redirect',
+  'test-sitesinin-googleda-indekslenmesi-nasil-onlenir': 'broken',
   'nosnippet-ve-data-nosnippet-nasil-kullanilir': 'console',
   'gorsellerim-google-gorsellerde-neden-cikmiyor': 'lens',
   'schema-var-ama-zengin-sonuc-neden-gorunmuyor': 'console',
