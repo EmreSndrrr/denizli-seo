@@ -152,7 +152,7 @@ export const SERVICES: Service[] = [
     title: 'Backlink Hizmeti ve Otorite Çalışması, Denizli | Denizli SEO',
     description:
       'Satın alınmış değil, hak edilmiş backlink: yerel kurum, iş ortağı ve içerik bağlantıları, mevcut bağlantı denetimi ve aylık rapor. Denizli işletmeleri için.',
-    h1: ['Başka siteler', 'sizi önersin.'],
+    h1: ['Hak edilmiş bağlantılarla', 'güven kazanın.'],
     queries: ['backlink hizmeti', 'backlink nasıl alınır', 'denizli seo bağlantı çalışması', 'hacklink zararı'],
     lead:
       'Backlink, başka bir sitede yer alan ve sizin sitenize götüren bağlantıdır. Biz bunu satın almayız; yerel kurum, iş ortağı ve içerik yoluyla hak ederek kazanırız.',
@@ -170,8 +170,8 @@ export const SERVICES: Service[] = [
       { name: 'Aylık bağlantı raporu', text: 'Kazanılan ve kaybolan bağlantıları, bağlantı veren kaynağın adı ve bağlantı alan sayfayla birlikte her ay yazılı olarak sunarız.' },
     ],
     steps: [
-      { line: 'Önce profili inceleriz.', text: 'Sitenize bugün kimler bağlanıyor, rakipleriniz hangi kaynaklardan bağlantı alıyor?' },
-      { line: 'Kaynakları seçeriz.', text: 'Sektörünüzle ve Denizli ile gerçekten ilgili siteleri listeleriz.' },
+      { line: 'Önce profili inceleriz.', text: 'Sitenize bugün kimler bağlanıyor, rakipleriniz hangi kaynaklardan bağlantı alıyor? Teslim: bağlantı profili özeti.' },
+      { line: 'Kaynakları seçeriz.', text: 'Sektörünüzle ve Denizli ile gerçekten ilgili siteleri listeleriz; teslim: öncelik sıralı kaynak listesi.' },
       { line: 'Bağlantıyı hak ederiz.', text: 'İçerik, haber ve iş birliğiyle; satın alarak değil.' },
       { line: 'Her ay raporlarız.', text: 'Kazanılan ve kaybolan bağlantı, kaynağın adıyla raporda yazar.' },
     ],
@@ -193,7 +193,7 @@ export const SERVICES: Service[] = [
     title: "SEO Uyumlu Web Tasarım Denizli | Denizli SEO",
     description:
       "Telefonda hızlı açılan, Google’ın sorunsuz okuduğu ve aramaya göre kurulan kurumsal web siteleri. Denizli’de SEO uyumlu web tasarım.",
-    h1: ['Aramaya göre', 'site kuralım.'],
+    h1: ['Aramada bulunan,', 'hızlı açılan site.'],
     queries: ['denizli web tasarım', 'kurumsal web sitesi', 'e-ticaret sitesi', 'seo uyumlu site'],
     lead:
       'Sitenizi tasarlarken önce müşterinin Google’da ne aradığına bakarız; sayfaları, başlıkları ve adresleri buna göre kurarız.',
@@ -210,9 +210,9 @@ export const SERVICES: Service[] = [
       { name: 'Taşımada sıra koruma', text: 'Eski siteniz varsa her eski adresi yenisine yönlendirir, mevcut sıralamaları korumaya çalışırız.' },
     ],
     steps: [
-      { line: 'Önce aramaları çıkarırız.', text: 'Müşteriniz hangi kelimelerle arıyor?' },
-      { line: 'Sayfaları planlarız.', text: 'Her aramanın karşılığı olan bir sayfa.' },
-      { line: 'Tasarlar, kodlarız.', text: 'Hızlı, telefona uygun, size özel.' },
+      { line: 'Önce aramaları çıkarırız.', text: 'Müşteriniz hangi kelimelerle arıyor? Teslim: anahtar kelime listesi.' },
+      { line: 'Sayfaları planlarız.', text: 'Her aramanın karşılığı olan bir sayfa; teslim: site haritası ve sayfa planı, sizin onayınızla.' },
+      { line: 'Tasarlar, kodlarız.', text: 'Hızlı, telefona uygun, size özel; yayından önce teknik SEO kontrol listesi uygulanır.' },
       { line: 'Yayına alıp ölçeriz.', text: 'Yayından itibaren ölçülebilir göstergelerle düzenli rapor.' },
     ],
     faq: [
