@@ -50,7 +50,7 @@
   --t-h2: clamp(1.5rem, 1rem + 2.2vw, 2.625rem);
   --t-h2-sm: clamp(1.5rem, 1rem + 2.2vw, 2.625rem);
   --t-display: clamp(2.25rem, 1.2rem + 4vw, 5rem);
-  --t-hero: clamp(2.6rem, 1.2rem + 5.4vw, 6rem);
+  --t-hero: clamp(2.2rem, 1.2rem + 5.4vw, 6rem);
   --ease: cubic-bezier(0.2, 0.7, 0.2, 1);
 
   --fg: var(--paper);
@@ -168,7 +168,7 @@ em { font-style: normal; color: var(--pink-text); }
 /* ---------- hero ---------- */
 .hero { position: relative; min-height: 100vh; min-height: 100svh; display: flex; flex-direction: column; justify-content: flex-end; }
 .hero::before { content: ''; position: absolute; inset: 0; z-index: 0; pointer-events: none; background: radial-gradient(58% 70% at 82% 26%, rgba(216, 32, 104, 0.34), transparent 70%), radial-gradient(40% 50% at 96% 70%, rgba(138, 31, 224, 0.2), transparent 70%); }
-.hero-inner { display: grid; gap: 22px; padding-top: 18vh; padding-bottom: 4.5vh; position: relative; z-index: 3; }
+.hero-inner { display: grid; grid-template-columns: minmax(0, 1fr); gap: 22px; padding-top: 18vh; padding-bottom: 4.5vh; position: relative; z-index: 3; }
 .hero-title { font-size: var(--t-hero); line-height: 0.98; font-weight: 780; font-stretch: 108%; letter-spacing: -0.035em; max-width: 11em; text-shadow: 0 8px 32px rgba(11, 14, 19, 0.65); }
 .hero-title .ln { display: block; overflow: hidden; padding-bottom: 0.08em; }
 .hero-title .ln > span { display: inline-block; }
@@ -247,3 +247,8 @@ em { font-style: normal; color: var(--pink-text); }
   @keyframes vt-out { to { opacity: 0; } }
   @keyframes vt-in { from { opacity: 0; transform: translateY(6px); } }
 }
+
+/* long button labels wrap instead of running past the screen edge */
+@media (max-width: 480px) { .btn { max-width: 100%; white-space: normal; text-align: center; padding-block: 0.6em; padding-inline: 1.25em; line-height: 1.25; } }
+
+.search-wrap { grid-template-columns: minmax(0, 1fr); }
