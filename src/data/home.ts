@@ -78,7 +78,7 @@ export const PROJECT_TABS = [
 
 export const PROCESS = [
   { n: '01', when: '1. hafta', title: 'Tarama ve teşhis', text: 'Sitenizi bir arama motoru botu gibi baştan sona tarar; dizinleme engellerini, hız kayıplarını ve içerik boşluklarını listeleriz.' },
-  { n: '02', when: '2. hafta', title: 'Strateji ve yol haritası', text: 'Rakip boşluklarını inceler; en hızlı dönüş getirecek anahtar kelimeleri, hedef sayfaları ve öncelik sırasını yazılı plana döker, süreleriyle birlikte veririz.' },
+  { n: '02', when: '2. hafta', title: 'Strateji ve yol haritası', text: 'Rakip boşluklarını inceler; en yüksek etkiyi hedefleyen anahtar kelimeleri, hedef sayfaları ve öncelik sırasını belirler; bunları süreleriyle birlikte yazılı bir plan olarak teslim ederiz.' },
   { n: '03', when: '1–3. ay', title: 'Uygulama ve optimizasyon', text: 'Teknik düzeltmeleri, yerel harita çalışmasını, içerik üretimini ve otorite çalışmalarını hayata geçiririz.' },
-  { n: '04', when: 'Her ay', title: 'Ölçüm ve büyüme', text: 'Sıralamayı, tıklamayı ve gelen talepleri izler, her ay raporlarız. İşe yarayan sayfaları çoğaltır, yaramayanı raporda açıkça yazarız.' },
+  { n: '04', when: 'Her ay', title: 'Ölçüm ve raporlama', text: 'Sıralamayı, tıklamayı ve gelen talepleri izler, her ay raporlarız. Sonuç veren sayfaları geliştirir; sonuç vermeyen çalışmayı raporda açıkça belirtiriz.' },
 ];
