@@ -534,6 +534,16 @@ const POST_MOTIF = {
   'url-kare-isaretinden-sonraki-bolum-ayri-sayfa-sayilir-mi': 'redirect',
   'html-lang-ile-hreflang-arasindaki-fark': 'layout',
   'alan-adinin-suresi-dolarsa-google-gorunurlugu': 'broken',
+  'sonsuz-kaydirma-kullanilan-sayfalar-seo': 'layout',
+  'yetim-sayfalar-nasil-bulunur': 'linkgraph',
+  'googlein-takip-edebilecegi-baglantilar-href-onclick': 'linkgraph',
+  'olusturmayi-engelleyen-css-ve-javascript-dosyalari': 'gauge',
+  'kod-kucultme-ile-sikistirma-farki-minify-gzip-brotli': 'gauge',
+  'css-arka-plan-gorselleri-ile-html-gorselleri-seo': 'layout',
+  'svg-gorseller-seo-icin-nasil-hazirlanir': 'layout',
+  'gorsellerdeki-exif-bilgileri-seo-icin-onemli-mi': 'console',
+  'responsive-web-tasarim-seo-icin-neden-degerlendirilmeli': 'layout',
+  'seo-icin-onemli-icerikler-iframe-icinde-kullanilabilir-mi': 'layout',
 };
 
 function posts() {

@@ -475,16 +475,16 @@ Kullanıcı planı önceden onayladı (“planlayıp hepsini adım adım yaz”)
 
 ### Sayfa yapısı, performans ve görseller (281–290)
 
-- [ ] 281. Sonsuz Kaydırmalı Sayfalar SEO İçin Nasıl Hazırlanır? — `teknik-seo` — `sonsuz-kaydirma-kullanilan-sayfalar-seo`
-- [ ] 282. Yetim Sayfalar Nasıl Bulunur? Bağlantısız URL’ler — `teknik-seo` — `yetim-sayfalar-nasil-bulunur`
-- [ ] 283. Google’ın Takip Edebileceği Bağlantılar: Href ve Onclick — `teknik-seo` — `googlein-takip-edebilecegi-baglantilar-href-onclick`
-- [ ] 284. Oluşturmayı Engelleyen CSS ve JavaScript Nasıl Bulunur? — `teknik-seo` — `olusturmayi-engelleyen-css-ve-javascript-dosyalari`
-- [ ] 285. Kod Küçültme ile Sıkıştırma Farkı: Minify, Gzip, Brotli — `teknik-seo` — `kod-kucultme-ile-sikistirma-farki-minify-gzip-brotli`
-- [ ] 286. CSS Arka Plan Görselleri ile HTML Görselleri: SEO Farkı — `teknik-seo` — `css-arka-plan-gorselleri-ile-html-gorselleri-seo`
-- [ ] 287. SVG Görseller SEO İçin Nasıl Hazırlanır? — `teknik-seo` — `svg-gorseller-seo-icin-nasil-hazirlanir`
-- [ ] 288. Görsellerdeki EXIF Bilgileri SEO İçin Önemli mi? — `teknik-seo` — `gorsellerdeki-exif-bilgileri-seo-icin-onemli-mi`
-- [ ] 289. Responsive Tasarım SEO İçin Neden Değerlendirilmeli? — `web-tasarim` — `responsive-web-tasarim-seo-icin-neden-degerlendirilmeli`
-- [ ] 290. Önemli İçerikler Iframe İçinde Kullanılabilir mi? — `teknik-seo` — `seo-icin-onemli-icerikler-iframe-icinde-kullanilabilir-mi`
+- [x] 281. Sonsuz Kaydırmalı Sayfalar SEO İçin Nasıl Hazırlanır? — `teknik-seo` — `sonsuz-kaydirma-kullanilan-sayfalar-seo`
+- [x] 282. Yetim Sayfalar Nasıl Bulunur? Bağlantısız URL’ler — `teknik-seo` — `yetim-sayfalar-nasil-bulunur`
+- [x] 283. Google’ın Takip Edebileceği Bağlantılar: Href ve Onclick — `teknik-seo` — `googlein-takip-edebilecegi-baglantilar-href-onclick`
+- [x] 284. Oluşturmayı Engelleyen CSS ve JavaScript Nasıl Bulunur? — `teknik-seo` — `olusturmayi-engelleyen-css-ve-javascript-dosyalari`
+- [x] 285. Kod Küçültme ile Sıkıştırma Farkı: Minify, Gzip, Brotli — `teknik-seo` — `kod-kucultme-ile-sikistirma-farki-minify-gzip-brotli`
+- [x] 286. CSS Arka Plan Görselleri ile HTML Görselleri: SEO Farkı — `teknik-seo` — `css-arka-plan-gorselleri-ile-html-gorselleri-seo`
+- [x] 287. SVG Görseller SEO İçin Nasıl Hazırlanır? — `teknik-seo` — `svg-gorseller-seo-icin-nasil-hazirlanir`
+- [x] 288. Görsellerdeki EXIF Bilgileri SEO İçin Önemli mi? — `teknik-seo` — `gorsellerdeki-exif-bilgileri-seo-icin-onemli-mi`
+- [x] 289. Responsive Tasarım SEO İçin Neden Değerlendirilmeli? — `web-tasarim` — `responsive-web-tasarim-seo-icin-neden-degerlendirilmeli`
+- [x] 290. Önemli İçerikler Iframe İçinde Kullanılabilir mi? — `teknik-seo` — `seo-icin-onemli-icerikler-iframe-icinde-kullanilabilir-mi`
 
 ### Backlink türleri ve bağlantı değerlendirmesi (291–300)
 
