@@ -2,6 +2,7 @@
 title: "Profilde Çalışma Saatleri ve Özel Günler Nasıl Yönetilir?"
 description: "Google İşletme Profili’nde çalışma saatleri, mola, özel gün ve diğer saatler nasıl ayarlanır? Bayram ve tatil günleri için adım adım yönetim rehberi."
 date: 2026-11-13
+updated: 2026-11-19
 service: yerel-seo
 imageAlt: "Haftalık çalışma saatleri ve bayram günü özel saati gösteren bir profil ekranı"
 ---
@@ -114,6 +115,20 @@ Yanlış bilgi sunan kayıtlar müşteriyi şaşırtır; yorumlarda “kapalıyd
 4. **Kapalı günü “açık 00:00–00:00” bırakmak.**
 5. **Diğer saatleri normal saatlerden önce ayarlamaya çalışmak.**
 6. **Sitedeki saatle profildeki saati farklı bırakmak.**
+
+## Bayram ve tatil saatleri için hazır takvim şablonu
+
+Google işletme özel çalışma saatlerini yılın başında bir kez planlamak, her bayramda aceleyle düzenleme yapmaktan daha güvenlidir. Aşağıdaki şablonu kendi işletmenize göre doldurun; tarihleri resmî takvimden kontrol edin:
+
+| Dönem | Önceden yapılacak | Profilde ne ayarlanır? |
+| --- | --- | --- |
+| Ramazan Bayramı | Bayramdan 2 hafta önce karar ver | Her gün için açık/kapalı ve saat |
+| Kurban Bayramı | Bayramdan 2 hafta önce karar ver | Arife ve bayram günleri ayrı ayrı |
+| Resmî tatiller (23 Nisan, 1 Mayıs, 19 Mayıs, 15 Temmuz, 30 Ağustos, 29 Ekim) | Yıl başında toplu planla | Açıksanız saatleri onayla, kapalıysanız kapalı yaz |
+| Yılbaşı ve yaz tatili | Karar verilince | Birkaç günlük kapalılıkları özel saat olarak gir |
+| Bakım ya da envanter günleri | Tarih belli olunca | Tek günlük özel saat |
+
+Google’ın özel çalışma saatleri sayfası, resmî tatillerde saatler normalle aynı olsa bile bunların onaylanmasının tavsiye edildiğini ve özel saat grubunun art arda altı gün ya da daha kısa süreli olması gerektiğini belirtir; bu yüzden uzun kapalılıkları gruplara bölün. Ayarladığınız saatleri sitenizde, sosyal medyada ve telefon karşılamada da aynı yazın; tutarsızlık müşteriyi kapalı kapıya getirir. Bayram sonrasında normal saatlere döndüğünüzü profilde kontrol edin; özel saatler bittikten sonra eski düzene dönmesi gerekir.
 
 ## Denizli SEO bu konuda nasıl yardımcı olur?
 

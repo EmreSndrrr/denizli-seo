@@ -553,6 +553,13 @@ const POST_MOTIF = {
   'profil-backlink-nedir': 'profile',
   'pbn-nedir-ozel-blog-aglari-riskleri': 'broken',
   'link-takasi-seo-icin-riskli-mi': 'linkgraph',
+  'google-isletme-profili-aciklamasi-nasil-yazilir': 'profile',
+  'google-isletme-adina-anahtar-kelime-eklemek-dogru-mu': 'profile',
+  'google-isletme-profili-video-dogrulamasina-hazirlik': 'profile',
+  'google-yorumlari-neden-kaybolur-veya-yayinlanmaz': 'pins',
+  'google-isletme-profili-duzenlemesi-incelemede-kaldiysa': 'profile',
+  'google-haritalarda-isletme-pini-yanlis-yerdeyse': 'pins',
+  'google-isletme-profili-web-sitesi-baglantisina-utm-ekleme': 'chart',
 };
 
 function posts() {

@@ -2,6 +2,7 @@
 title: "Profilde Hizmetler ve Ürünler Bölümü Nasıl Doldurulur?"
 description: "Google İşletme Profili’nde hizmetler ve ürünler bölümü nasıl doldurulur? Hizmet adı ve açıklaması yazma, gruplama ve müşteriyi yanıltmayan ifade kuralları."
 date: 2026-11-13
+updated: 2026-11-19
 service: yerel-seo
 imageAlt: "Profil hizmet listesi: hizmet adı, kısa açıklama ve gruplama"
 ---
@@ -75,6 +76,12 @@ Yeni bir hizmet başlattığınızda ya da bıraktığınızda profili aynı gü
 ## Hizmet bölümü için kontrol soruları
 
 Bölümü her güncellediğinizde şu soruları sorun: Her hizmet gerçekten sunuluyor mu? Adlar müşterinin kullandığı kelimeler mi? Açıklamalar kısa ve doğru mu? Fiyat ya da fiyat mantığı güncel mi? Sitedeki karşılığıyla uyumlu mu? Bu beş soru, bölümü sağlıklı tutmanın en kısa yoludur.
+
+## Google işletme profiline ürün ve hizmet ekleme: kısa özet
+
+“Google işletme profiline ürün ve hizmet nasıl eklenir?” sorusunun kısa cevabı şudur: profilinizi düzenleme ekranından hizmetler ve (uygunsa) ürünler bölümünü açın, her öğeye müşterinin kullandığı adı yazın, kısa ve dürüst bir açıklama ekleyin ve fiyatı yalnızca kesin olarak verebiliyorsanız belirtin. Hizmet ile ürün arasındaki ayrım basittir: hizmet bir işi ya da uygulamayı, ürün ise satın alınabilen ve tanımlanabilen bir nesneyi anlatır. Hizmet işletmeleri ağırlıklı olarak hizmetler bölümünü; mağaza ve üreticiler ürünler bölümünü kullanır.
+
+Ekleme sırası için bir öneri: önce en çok kazandıran üç beş hizmeti yazın, sonra yan hizmetleri ekleyin; her hizmet adını sitenizdeki hizmet sayfasının adıyla uyumlu tutun. Ürünlerde güncel fotoğraf ve açıklama kullanın; stokta olmayan ürünü listede bırakmayın. Profildeki bilgi ile siteniz çelişirse güven kaybı doğar. Menü adları ve alan düzeni zamanla değişebileceği için, güncel ekranı Google’ın yardım sayfasından kontrol edin; bu yazıdaki ilkeler ise arayüzden bağımsız geçerlidir. Açıklama alanı için ayrıca [Google İşletme Profili açıklaması nasıl yazılır?](/blog/google-isletme-profili-aciklamasi-nasil-yazilir/) yazısına bakabilirsiniz.
 
 ## Denizli SEO bu konuda nasıl yardımcı olur?
 

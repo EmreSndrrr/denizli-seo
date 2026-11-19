@@ -2,6 +2,7 @@
 title: "Google İşletme Profili Fotoğrafları: Neler Eklenmeli?"
 description: "Google İşletme Profili’ne hangi fotoğraflar eklenmeli? Logo, kapak, dış cephe, iç mekân, ekip, iş örnekleri; Google’ın boyut ve kalite kuralları."
 date: 2026-11-10
+updated: 2026-11-19
 service: yerel-seo
 imageAlt: "Bir profil sayfasında sıralanmış dış cephe, iç mekân ve ekip fotoğrafları"
 ---
@@ -135,6 +136,12 @@ Fotoğrafları yılda bir kez değil, işinizin ritmine göre güncelleyin:
 - **Yenilik:** Yeni ekip, yeni ürün, yenilenen mekân
 
 Her mevsimde beş altı yeni fotoğraf, bir yılda otuz kadar güncel fotoğraf demektir; telefonunuzla bu mümkündür.
+
+## Fotoğrafları seçerken ve güncellerken kısa bir iş akışı
+
+Google işletme fotoğraflarını yönetmek için aylık on beş dakikalık bir akış yeterli olur. Birinci adım: profildeki mevcut fotoğraflara bakın; eskiyen, işletmeyi temsil etmeyen ya da düşük kaliteli olanları belirleyin. İkinci adım: yeni dönemin fotoğraflarını planlayın (yeni ürün, yenilenen mekân, sezonluk çalışma, ekip). Üçüncü adım: yeni fotoğrafları Google’ın boyut ve kalite kurallarına uygun yükleyin. Dördüncü adım: dış cephe ve giriş fotoğrafının güncel olduğunu doğrulayın; müşterilerin işletmeyi tanımasına yardımcı olduğu için en önemli fotoğraflardandır. Beşinci adım: politikaya aykırı ya da işletmenizle ilgisi olmayan bir fotoğraf görürseniz bildirin ve kaydını tutun.
+
+Fotoğraf seçerken tek soru şudur: bu görsel, işletmeye ilk kez gelecek bir müşteriye ne anlatıyor? Her fotoğrafın bir amacı olsun: kim olduğunuzu, ne sunduğunuzu ya da nasıl bir ortam bulacağını göstersin. Yeni fotoğraf yüklerken konum ve cihaz bilgilerinin (EXIF) gizlilik açısından temizlenip temizlenmediğine de bakın ([görsellerdeki EXIF bilgileri SEO için önemli mi?](/blog/gorsellerdeki-exif-bilgileri-seo-icin-onemli-mi/)). Yani fotoğraf yönetimi, bir kez yapılıp bırakılan iş değil, küçük ve düzenli bir bakım işidir.
 
 ## Denizli SEO bu konuda nasıl yardımcı olur?
 

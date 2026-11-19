@@ -501,16 +501,16 @@ Kullanıcı planı önceden onayladı (“planlayıp hepsini adım adım yaz”)
 
 ### Google İşletme Profili yönetimi (301–310)
 
-- [ ] 301. GİP ürün ve hizmet (mevcut yazı genişletilir) — `yerel-seo` — `google-isletme-profili-hizmetler-bolumu-nasil-doldurulur` (genişletme)
-- [ ] 302. Google İşletme Profili Açıklaması Nasıl Yazılır? — `yerel-seo` — `google-isletme-profili-aciklamasi-nasil-yazilir`
-- [ ] 303. GİP fotoğraflar (mevcut yazı genişletilir) — `yerel-seo` — `google-isletme-profili-fotograflari-neler-eklenmeli` (genişletme)
-- [ ] 304. Google İşletme Adına Anahtar Kelime Eklemek Doğru mu? — `yerel-seo` — `google-isletme-adina-anahtar-kelime-eklemek-dogru-mu`
-- [ ] 305. Google İşletme Video Doğrulamasına Nasıl Hazırlanılır? — `yerel-seo` — `google-isletme-profili-video-dogrulamasina-hazirlik`
-- [ ] 306. Google Yorumları Neden Kaybolur veya Yayınlanmaz? — `yerel-seo` — `google-yorumlari-neden-kaybolur-veya-yayinlanmaz`
-- [ ] 307. GİP bayram saatleri (mevcut yazı genişletilir) — `yerel-seo` — `profilde-calisma-saatleri-ve-ozel-gunler-nasil-yonetilir` (genişletme)
-- [ ] 308. Google İşletme Profili Düzenlemesi İncelemede Kaldıysa — `yerel-seo` — `google-isletme-profili-duzenlemesi-incelemede-kaldiysa`
-- [ ] 309. Google Haritalar’da İşletme Pini Yanlış Yerdeyse — `yerel-seo` — `google-haritalarda-isletme-pini-yanlis-yerdeyse`
-- [ ] 310. Google İşletme Profili Web Sitesi Bağlantısına UTM Ekleme — `yerel-seo` — `google-isletme-profili-web-sitesi-baglantisina-utm-ekleme`
+- [+] 301. GİP ürün ve hizmet (mevcut yazı genişletilir) — `yerel-seo` — `google-isletme-profili-hizmetler-bolumu-nasil-doldurulur` (genişletme)
+- [x] 302. Google İşletme Profili Açıklaması Nasıl Yazılır? — `yerel-seo` — `google-isletme-profili-aciklamasi-nasil-yazilir`
+- [+] 303. GİP fotoğraflar (mevcut yazı genişletilir) — `yerel-seo` — `google-isletme-profili-fotograflari-neler-eklenmeli` (genişletme)
+- [x] 304. Google İşletme Adına Anahtar Kelime Eklemek Doğru mu? — `yerel-seo` — `google-isletme-adina-anahtar-kelime-eklemek-dogru-mu`
+- [x] 305. Google İşletme Video Doğrulamasına Nasıl Hazırlanılır? — `yerel-seo` — `google-isletme-profili-video-dogrulamasina-hazirlik`
+- [x] 306. Google Yorumları Neden Kaybolur veya Yayınlanmaz? — `yerel-seo` — `google-yorumlari-neden-kaybolur-veya-yayinlanmaz`
+- [+] 307. GİP bayram saatleri (mevcut yazı genişletilir) — `yerel-seo` — `profilde-calisma-saatleri-ve-ozel-gunler-nasil-yonetilir` (genişletme)
+- [x] 308. Google İşletme Profili Düzenlemesi İncelemede Kaldıysa — `yerel-seo` — `google-isletme-profili-duzenlemesi-incelemede-kaldiysa`
+- [x] 309. Google Haritalar’da İşletme Pini Yanlış Yerdeyse — `yerel-seo` — `google-haritalarda-isletme-pini-yanlis-yerdeyse`
+- [x] 310. Google İşletme Profili Web Sitesi Bağlantısına UTM Ekleme — `yerel-seo` — `google-isletme-profili-web-sitesi-baglantisina-utm-ekleme`
 
 ### Yapılandırılmış veri ve medya içerikleri (311–320)
 
