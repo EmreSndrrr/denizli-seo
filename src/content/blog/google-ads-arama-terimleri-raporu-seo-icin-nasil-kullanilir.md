@@ -71,6 +71,12 @@ Servis şu kararı veriyor: dönüşen üç ifade için hizmet sayfasına “aci
 
 Üç ayda bir rapor-SEO toplantısı yapmak iyi bir alışkanlıktır. Toplantıda üç soru sorun: yeni çıkan ve dönüşen ifade var mı, mevcut sayfalarda bu ifadelerin karşılığı var mı, hangi alakasız aramalar tekrar ediyor? Bulgular sayfa başlığı, açıklama, H2 ve SSS düzeyinde somut işlere dönüştürülür; her iş için sorumlu ve tarih yazılır ([SEO işleri etki ve efora göre nasıl önceliklendirilir?](/blog/seo-isleri-etki-ve-efora-gore-nasil-onceliklendirilir/)).
 
+## Alakasız aramalar organik çalışmada ne anlama gelir?
+
+Raporda alakasız çıkan aramalar yalnızca reklam bütçesini değil, sayfalarınızın dilini de ilgilendirir. Örneğin hizmetinizin “ücretsiz” sürümünü aramayan ama “ücretsiz” kelimesiyle gelen bir kitle reklamınıza tıklıyorsa, sayfanızdaki “ücretsiz analiz” gibi ifadelerin yanlış kitleyi çekip çekmediğini sorgulamanız gerekir. Benzer biçimde, hizmet vermediğiniz bir ürün adı raporda sık çıkıyorsa sayfanızda bu ürünle karıştırılabilecek ifadeler bulunabilir.
+
+Çözüm iki yönlüdür: reklamda bu ifadeleri hariç tutun, organik sayfalarda ise neyi sunup neyi sunmadığınızı açıkça yazın. “Bu hizmeti yalnızca işletmelere veriyoruz”, “ikinci el ürün satışı yapmıyoruz” gibi net cümleler yanlış beklentiyle gelen ziyaretçiyi baştan eler. Bu, hem reklam harcamasını hem de organik trafiğin kalitesini iyileştirir. Rapordaki alakasız ifadeleri aylık olarak gözden geçirin ve yeni çıkanları listeye ekleyin.
+
 ## Denizli SEO bu konuda nasıl yardımcı olur?
 
 [İçerik SEO hizmetimizde](/icerik-seo/):

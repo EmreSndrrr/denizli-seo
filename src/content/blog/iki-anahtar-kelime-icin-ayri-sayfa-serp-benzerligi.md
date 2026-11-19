@@ -85,6 +85,12 @@ SERP benzerliği zamanla değişebilir. Önemli kelime çiftleri için yılda bi
 4. **Başlıkları aynı bırakmak.** İki sayfanın başlığı aynıysa Google hangisini seçeceğini bilemez.
 5. **Kararı yazmamak.** Hangi sayfanın hangi kelimeyi hedeflediği tabloya yazılmazsa aylar sonra çakışma yeniden çıkar.
 
+## Karar tablosu nasıl tutulur?
+
+Her kelime çifti için kısa bir kayıt tutmak, aylar sonra aynı tartışmayı yeniden yapmanızı önler. Şu sütunlar yeterlidir: birinci kelime, ikinci kelime, ölçüm tarihi, ilk on sonuçtaki ortak adres sayısı, sonuç türleri, karar (tek sayfa, iki sayfa, izleme) ve gerekçe. Gerekçe sütununa tek cümle yazın: “Ortak sonuç yüksek, ikisi de hizmet sayfası; tek sayfa.” ya da “Biri rehber, diğeri hizmet; iki sayfa.”
+
+Kararlarınızı sayfa envanterinize de işleyin: her sayfanın yanında hangi kelimelere hizmet ettiği görünsün. Yeni bir kelime geldiğinde önce envantere bakın; kelimenin zaten bir sayfada karşılanıp karşılanmadığını görmek, gereksiz sayfa açmayı engeller. Ekipçe çalışıyorsanız bu tabloyu ortak bir dosyada tutun; içerik yazarı, geliştirici ve ajans aynı kararı görsün.
+
 ## Denizli SEO bu konuda nasıl yardımcı olur?
 
 [İçerik SEO hizmetimizde](/icerik-seo/):

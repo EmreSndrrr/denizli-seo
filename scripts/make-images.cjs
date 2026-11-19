@@ -515,6 +515,16 @@ const POST_MOTIF = {
   'site-ici-arama-verilerinden-icerik-konusu-cikarma': 'chart',
   'iki-anahtar-kelime-icin-ayri-sayfa-serp-benzerligi': 'linkgraph',
   'seo-araclari-neden-farkli-arama-hacmi-gosterir': 'console',
+  'seo-icin-makale-kac-kelime-olmali': 'doc',
+  'blog-yayin-sikligi-nasil-belirlenir': 'doc',
+  'ayni-makale-birden-fazla-sitede-yayimlanabilir-mi': 'doc',
+  'seo-iceriklerinde-karsilastirma-tablosu-nasil-hazirlanir': 'layout',
+  'seo-metni-ile-reklam-metni-arasindaki-fark': 'doc',
+  'icindekiler-tablosu-nasil-hazirlanir': 'layout',
+  'tarih-iceren-urller-blog-seosunu-nasil-etkiler': 'redirect',
+  'blog-yorumlari-seo-icin-acik-tutulmali-mi': 'doc',
+  'eski-icerige-yeni-yayin-tarihi-vermek-dogru-mu': 'doc',
+  'uyelik-arkasindaki-icerikler-googleda-nasil-gorunur': 'console',
 };
 
 function posts() {

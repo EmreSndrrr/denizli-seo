@@ -90,6 +90,18 @@ Bu dört sorunun dördüne de “evet” diyorsanız, araç sıfır gösterse bi
 - **Sonucu çok erken değerlendirmek.** Bu tür kelimelerden gelen trafik haftalar içinde değil, aylar içinde görünür hâle gelir.
 - **Test yapmadan karar vermek.** Önce bir paragrafla deneyin; veri geldikten sonra sayfaya dönüştürün.
 
+## Karar için kısa kontrol listesi
+
+Sıfır hacimli bir kelimeyi listenize almadan önce şunları tek tek kontrol edin:
+
+- Müşterim bu ifadeyi gerçekten yazar ya da söyler mi?
+- Google’da aradığımda ilk sayfada işimle ilgili sonuçlar çıkıyor mu?
+- Bu ifade için mevcut bir sayfama bölüm ekleyebilir miyim?
+- Cevabı özgün bir bilgiyle verebilir miyim, yoksa yalnızca kelimeyi tekrar mı edeceğim?
+- Aynı niyeti taşıyan başka bir sayfam var mı?
+
+Beş sorunun çoğuna “evet” diyorsanız kelime denemeye değerdir. Çoğuna “hayır” diyorsanız zaman ayırmak yerine listeden çıkarın.
+
 ## Denizli SEO bu konuda nasıl yardımcı olur?
 
 [İçerik SEO hizmetimizde](/icerik-seo/):

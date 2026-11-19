@@ -69,6 +69,12 @@ Karar: kelime önceliklendiriliyor, ama hedef trafik sayısı yazılmıyor; çü
 
 Beş sorunun cevabı net değilse, sayıya bakarak karar vermek yerine daha fazla veri toplayın.
 
+## Hacim farkını yönetmek için basit bir çalışma kâğıdı
+
+Farklı araçlarla çalışıyorsanız tek bir kâğıt tutun: her kelime için araç adı, veri tarihi, ülke/dil ayarı ve gösterilen değeri yazın. Yan yana iki üç araç varsa en küçük ve en büyük değeri “aralık” olarak kaydedin. Ardından kelimeyi büyüklük sırasına göre etiketleyin: onlar, yüzler, binler, on binler. Karar verirken yalnızca etiketi kullanın; “yüzler” ile “binler” arasındaki ayrım çoğu zaman bir işletme için yeterli bir çözünürlüktür.
+
+Bu kâğıda bir de “gerçek veri” sütunu ekleyin: Search Console’daki gösterim, reklam hesabınızdaki gösterim ya da müşteri sorularının sıklığı. Zamanla hangi aracın sizin sektörünüzde daha tutarlı davrandığını görürsünüz. Böylece araç seçimi, bir tartışma değil, kendi verinizle doğrulanmış bir tercih olur.
+
 ## Denizli SEO bu konuda nasıl yardımcı olur?
 
 [İçerik SEO hizmetimizde](/icerik-seo/):

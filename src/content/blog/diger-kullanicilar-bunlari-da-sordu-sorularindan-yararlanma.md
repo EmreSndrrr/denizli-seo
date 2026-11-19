@@ -83,6 +83,17 @@ Pansiyon bu sorulardan “kaç gün kalınmalı” ve “gece kalmak gerekir mi�
 4. **Başkasının cevabını kopyalamak.** Kutuda görünen cevabı yeniden yazmak yerine kendi bilginizi katın.
 5. **Uzman kontrolü gereken konularda iddialı olmak.** Sağlık, hukuk ve finans konularında kaynak ve uzman gözü şarttır.
 
+## Soruyu cevaba çevirme örneği
+
+Bir sorunun nasıl cevaplanacağını somut görmek için örnek bir kurgu: soru “Pamukkale’de gece kalmak gerekir mi?”
+
+- **Doğrudan cevap (ilk cümle):** “Gün batımını ve geceyi Pamukkale’de geçirmek istiyorsanız evet; sadece gündüz gezisi planlıyorsanız gerekmez.”
+- **Neden:** Gün içindeki kalabalık, ışık ve sıcaklık farkı; gece sakinlik.
+- **Koşul:** Çocuklu aile, yaşlı yolcu ya da başka şehre ulaşım planı varsa seçenekler değişir.
+- **Sonraki adım:** “Konaklama seçenekleri” sayfasına ve iletişim yoluna bağlantı.
+
+Cevap kısa, ama arkasında gerçek bir deneyim ve koşul var. Aynı kalıbı her soruda tekrarlayın: önce cevap, sonra neden, sonra istisna, sonra eylem yolu. Böylece sayfa hem arama yapan kişiye hem de sayfayı okuyan ziyaretçiye faydalı olur. Yazının sonunda aynı soruları sık sorulan sorular bölümünde bir kez daha özetlemeniz gerekmez; çift tekrar yerine tek ve net bir yer seçin.
+
 ## Denizli SEO bu konuda nasıl yardımcı olur?
 
 [İçerik SEO hizmetimizde](/icerik-seo/):

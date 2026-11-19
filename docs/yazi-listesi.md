@@ -449,16 +449,16 @@ Kullanıcı planı önceden onayladı (“planlayıp hepsini adım adım yaz”)
 
 ### İçerik hazırlama ve yayınlama (261–270)
 
-- [ ] 261. SEO İçin Bir Makale Kaç Kelime Olmalı? — `icerik-seo` — `seo-icin-makale-kac-kelime-olmali`
-- [ ] 262. Blogda Yayın Sıklığı Nasıl Belirlenir? — `icerik-seo` — `blog-yayin-sikligi-nasil-belirlenir`
-- [ ] 263. Aynı Makale Birden Fazla Sitede Yayımlanabilir mi? — `icerik-seo` — `ayni-makale-birden-fazla-sitede-yayimlanabilir-mi`
-- [ ] 264. Karşılaştırma Tabloları SEO İçeriklerinde Nasıl Hazırlanır? — `icerik-seo` — `seo-iceriklerinde-karsilastirma-tablosu-nasil-hazirlanir`
-- [ ] 265. SEO Metni ile Reklam Metni Arasındaki Fark Nedir? — `icerik-seo` — `seo-metni-ile-reklam-metni-arasindaki-fark`
-- [ ] 266. İçindekiler Tablosu Nasıl Hazırlanır? Uzun Sayfa Rehberi — `icerik-seo` — `icindekiler-tablosu-nasil-hazirlanir`
-- [ ] 267. Tarih İçeren URL’ler Blog SEO’sunu Nasıl Etkiler? — `icerik-seo` — `tarih-iceren-urller-blog-seosunu-nasil-etkiler`
-- [ ] 268. Blog Yorumları SEO İçin Açık Tutulmalı mı? — `icerik-seo` — `blog-yorumlari-seo-icin-acik-tutulmali-mi`
-- [ ] 269. Eski İçeriğe Yeni Yayın Tarihi Vermek Doğru mu? — `icerik-seo` — `eski-icerige-yeni-yayin-tarihi-vermek-dogru-mu`
-- [ ] 270. Üyelik Arkasındaki İçerikler Google’da Nasıl Görünür? — `icerik-seo` — `uyelik-arkasindaki-icerikler-googlda-nasil-gorunur`
+- [x] 261. SEO İçin Bir Makale Kaç Kelime Olmalı? — `icerik-seo` — `seo-icin-makale-kac-kelime-olmali`
+- [x] 262. Blogda Yayın Sıklığı Nasıl Belirlenir? — `icerik-seo` — `blog-yayin-sikligi-nasil-belirlenir`
+- [x] 263. Aynı Makale Birden Fazla Sitede Yayımlanabilir mi? — `icerik-seo` — `ayni-makale-birden-fazla-sitede-yayimlanabilir-mi`
+- [x] 264. Karşılaştırma Tabloları SEO İçeriklerinde Nasıl Hazırlanır? — `icerik-seo` — `seo-iceriklerinde-karsilastirma-tablosu-nasil-hazirlanir`
+- [x] 265. SEO Metni ile Reklam Metni Arasındaki Fark Nedir? — `icerik-seo` — `seo-metni-ile-reklam-metni-arasindaki-fark`
+- [x] 266. İçindekiler Tablosu Nasıl Hazırlanır? Uzun Sayfa Rehberi — `icerik-seo` — `icindekiler-tablosu-nasil-hazirlanir`
+- [x] 267. Tarih İçeren URL’ler Blog SEO’sunu Nasıl Etkiler? — `icerik-seo` — `tarih-iceren-urller-blog-seosunu-nasil-etkiler`
+- [x] 268. Blog Yorumları SEO İçin Açık Tutulmalı mı? — `icerik-seo` — `blog-yorumlari-seo-icin-acik-tutulmali-mi`
+- [x] 269. Eski İçeriğe Yeni Yayın Tarihi Vermek Doğru mu? — `icerik-seo` — `eski-icerige-yeni-yayin-tarihi-vermek-dogru-mu`
+- [x] 270. Üyelik Arkasındaki İçerikler Google’da Nasıl Görünür? — `icerik-seo` — `uyelik-arkasindaki-icerikler-googleda-nasil-gorunur`
 
 ### Tarama, durum kodları ve URL yönetimi (271–280)
 

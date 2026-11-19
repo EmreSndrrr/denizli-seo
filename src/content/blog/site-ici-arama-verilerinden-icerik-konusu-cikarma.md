@@ -73,6 +73,18 @@ Firma şu kararları veriyor: “toptan” için toptan satış bilgileri sayfas
 - **Bot ve şirket içi aramaları ayıklayın.** Kendi ekibinizin yaptığı testler listeyi çarpıtabilir ([şirket içi ziyaretler GA4 raporlarından nasıl ayrılır?](/blog/sirket-ici-ziyaretler-ga4-raporlarindan-nasil-ayrilir/)).
 - **Arama sonuç sayfalarını dizine eklemeyin.** Site içi arama sonuç sayfaları genellikle dizine eklenmemelidir ([site içi arama sonuçları Google’da indekslenmeli mi?](/blog/site-ici-arama-sonuclari-googleda-indekslenmeli-mi/)).
 
+## Arama verisini aylık bir rutine nasıl bağlarsınız?
+
+Site içi arama analizi tek seferlik bir iş değil, küçük bir aylık alışkanlık olmalıdır. Yarım saatlik bir rutin şöyle işler:
+
+1. **Veriyi dışa aktarın.** Son otuz günün arama ifadelerini ve sonuç sayılarını alın.
+2. **Yeni ifadeleri işaretleyin.** Geçen ay listede olmayan ifadeler yeni merak konularını gösterir.
+3. **Sonuç çıkmayanları ayırın.** Her biri için “yeni sayfa”, “mevcut sayfaya ek” ya da “menü değişikliği” kararı yazın.
+4. **Kararları işe çevirin.** Her karar için sorumlu kişi ve tarih belirleyin; yoksa liste dosyada kalır.
+5. **Geçen ayın işlerini kontrol edin.** Yayınlanan bölümün ilgili aramayı azaltıp azaltmadığına bakın.
+
+Beşinci adım önemlidir: bir içeriği yayınladıktan sonra o ifadenin site içi aramasında düşüş görmek, ziyaretçinin aradığını artık bulduğunu gösteren somut bir işarettir. Düşüş yoksa içerik ya yanlış yerde ya da yanlış dille yazılmıştır; düzeltme adayı olarak listeye geri dönün.
+
 ## Denizli SEO bu konuda nasıl yardımcı olur?
 
 [İçerik SEO hizmetimizde](/icerik-seo/):

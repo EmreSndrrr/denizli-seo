@@ -79,6 +79,16 @@ Klinik bunları tabloya alıyor: ilk üçünü tek bir rehber yazının başlık
 
 Üç ayda bir yarım saatlik bir tarama yeterlidir. Her turda yeni çıkan öneri var mı, eski öneriler kayboldu mu bakın. Müşteri destek ekibiniz ya da satış personeliniz sık soru alıyorsa onların notlarını tabloya ekleyin. Kendi yazılarınızın başlıklarını da arama kutusuna yazıp önerilerde ne çıktığına bakın; bazen yazınızdan hemen sonra gelen bir soru, bir sonraki yazınızın konusudur.
 
+## Önerileri diğer verilerle nasıl doğrularsınız?
+
+Otomatik tamamlama bir fikir kaynağıdır; kararı vermeden önce üç doğrulama yapın:
+
+1. **Search Console’da kontrol edin.** Önerideki ifadeye yakın sorgularda sitenizin gösterimi var mı? Varsa konu için zaten bir görünürlüğünüz var demektir; yoksa yeni içerik fırsatıdır ([Performans raporu](https://support.google.com/webmasters/answer/7576553?hl=tr)).
+2. **Anahtar Kelime Planlayıcı’ya bakın.** İfade hacim aralığı gösteriyor mu? Göstermese bile yerel ve özel ifadeler için sonuç sayfasına bakmak yeterli olabilir ([Google Anahtar Kelime Planlayıcı SEO için nasıl kullanılır?](/blog/google-anahtar-kelime-planlayici-seo-icin-nasil-kullanilir/)).
+3. **İlk sayfaya bakın.** Önerinin ilk sayfasında işinizi anlatan sayfalar var mı? Yalnızca alakasız sonuçlar çıkıyorsa öneri sizin işinize uymuyordur.
+
+Bu üç kontrolü geçen ifadeleri içerik takviminize alın. Geçmeyenleri ise “izleme listesi” adıyla ayrı bir sayfada tutun; üç ay sonra yeniden bakın, bazıları zamanla değer kazanır. Bu yöntem, her öneriyi yazıya çevirme eğilimini önler ve emeği gerçek fırsatlara yönlendirir.
+
 ## Denizli SEO bu konuda nasıl yardımcı olur?
 
 [İçerik SEO hizmetimizde](/icerik-seo/):

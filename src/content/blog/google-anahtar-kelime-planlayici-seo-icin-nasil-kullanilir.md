@@ -79,6 +79,12 @@ Liste şöyle gruplanıyor: “halı yıkama” ve “halı yıkama Denizli” h
 4. **Yerel kelimeleri yok saymak.** Araç zayıf gösterse bile ilçe adıyla yapılan aramalar yerel işletmeler için kritiktir.
 5. **Sonuç sayfasına bakmamak.** Aracın hiçbir zaman söylemeyeceği şey, ilk sayfada kimlerin olduğudur.
 
+## Dışa aktarılan listeyi tabloya nasıl dökersiniz?
+
+Planlayıcıdan aldığınız listeyi bir çalışma kâğıdına yapıştırın ve şu sütunları ekleyin: kelime, aylık arama tahmini, niyet (bilgi, fiyat, hizmet, yerel), hedef sayfa, mevcut durum (sayfa var, eksik, güncellenecek) ve not. “Mevcut durum” sütunu, listeyi doğrudan işe çevirir: sayfası olan kelimeler için başlık ve açıklama kontrolü, sayfası olmayanlar için yeni içerik planı, sayfası zayıf olanlar için derinleştirme işi çıkar.
+
+Satırları niyete göre sıralayın; aynı niyetteki kelimeler yan yana gelince hangi sayfada birleşeceği kendiliğinden görünür. Tabloyu üç ayda bir Search Console verisiyle karşılaştırın: sayfanızın gerçekte gösterim aldığı kelimeler tabloya “gerçek veri” sütunu olarak eklenir ve tahminle gerçeğin farkı zamanla netleşir. Bu tablo, aynı zamanda ajansla ya da içerik yazarıyla çalışırken ortak bir referans olur; kimin hangi kelimeden sorumlu olduğu yazılı kalır.
+
 ## Denizli SEO bu konuda nasıl yardımcı olur?
 
 [İçerik SEO hizmetimizde](/icerik-seo/):
