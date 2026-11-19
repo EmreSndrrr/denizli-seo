@@ -98,7 +98,7 @@ Hedef, başkalarının sizi tavsiye etmesi için gerçek bir neden üretmektir: 
 
 [Backlink hizmetimizde](/backlink-hizmeti/):
 
-- satın alınmış bağlantı, özel blog ağı ve hacklink önermeyiz,
+- satın alınmış bağlantı ve hacklink önermeyiz,
 - gerçek içerik ve yerel ilişkilerle otorite planı hazırlarız,
 - yerel kurumlar ve yayınlar için uygun fırsatları birlikte buluruz,
 - yapılan işi yazılı raporlarız; sıralama garantisi vermeyiz.

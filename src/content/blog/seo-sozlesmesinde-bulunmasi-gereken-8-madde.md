@@ -148,7 +148,7 @@ Bu madde yazılı olmazsa, ayrılmak istediğinizde elinizde ne olduğunu bileme
 
 - kapsamı iş kalemleriyle yazılı teklif hâlinde sunarız,
 - hesap ve alan adı sahipliğinin sizde kalmasını esas alırız,
-- satın alınmış bağlantı, özel blog ağı ve hacklink kullanmayız,
+- satın alınmış bağlantı ve hacklink kullanmayız,
 - aylık yazılı rapor veririz; sıralama garantisi vermeyiz,
 - sözleşme maddeleri konusunda genel çerçeve sunarız; hukuki kontrol için bir hukukçuya danışmanızı öneririz.
 

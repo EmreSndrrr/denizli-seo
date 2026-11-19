@@ -1,7 +1,8 @@
 ---
 // Manual backlink packages (Gümüş, Altın, VIP). Copy follows the owner's brief of 19 Nov 2026.
-// Not shown until the owner confirms them: prices, delivery times, the indexing method, blog network and
-// promotional posts, DA/PA measurement date, Search Console screenshots.
+// Owner's answers (19 Nov 2026): no prices ("Teklif al"), delivery 7–14 days, premium indexing is named but not described,
+// blog network and promotional posts exist (Altın/VIP), DA/PA from the owner's list, evidence images supplied by the owner.
+import { Image } from 'astro:assets';
 import Page from '../layouts/Page.astro';
 import Banner from '../components/home/Banner.astro';
 import Cycle from '../components/home/Cycle.astro';
@@ -9,14 +10,27 @@ import Faq from '../components/home/Faq.astro';
 import Icon from '../components/Icon.astro';
 import type { Qa } from '../data/services';
 import { SITE, waLink } from '../data/site';
+import scLast28 from '../assets/img/backlink/search-console-son-28-gun.webp';
+import scLinks from '../assets/img/backlink/gercek-backlink-verisi.webp';
+import scLinksSearch from '../assets/img/backlink/baglanti-ve-arama-verisi.webp';
 
 const title = 'Manuel Backlink Paketleri – Yüksek Otoriteli Platformlar';
-const description = '100% manuel, katmanlı backlink paketleri. Global platformlarda 100+, 250 ve 400+ bağlantı; teslimde bağlantı listesi. Teklif alın.';
+const description = '100% manuel, katmanlı backlink paketleri. DA 65–99 aralığındaki global platformlarda 100+, 250 ve 400+ bağlantı. Teklif alın.';
 const url = `${SITE.url}/manuel-backlink-paketleri/`;
 const quote = (pkg?: string) => waLink(`Merhaba, manuel backlink paketleri için teklif almak istiyorum.${pkg ? ` İlgilendiğim paket: ${pkg}.` : ''} Sitemin adresi: `);
 
 const badges = ['100% manuel', 'Katman sistemi', 'Premium indeksleme'];
-const platforms = ['Apple', 'Microsoft', 'Amazon', 'Google', 'Pinterest', 'Medium', 'Trustpilot', 'Gravatar', 'Linktree', 'About.me'];
+// Moz-type DA/PA from the owner's list (November 2026); third-party estimates that change over time.
+const platforms = [
+  { n: 'Apple', da: 99, pa: 91 }, { n: 'Microsoft', da: 98, pa: 86 }, { n: 'Amazon', da: 95, pa: 90 }, { n: 'Google', da: 94, pa: 91 },
+  { n: 'Pinterest', da: 94, pa: 97 }, { n: 'Medium', da: 95, pa: 85 }, { n: 'Trustpilot', da: 93, pa: 73 }, { n: 'Gravatar', da: 96, pa: 100 },
+  { n: 'Linktree', da: 94, pa: 78 }, { n: 'About.me', da: 92, pa: 75 },
+];
+const proofs = [
+  { img: scLast28, alt: 'Search Console son 28 gün tıklama, gösterim ve yapay zekâ özelliği gösterim grafikleri', cap: 'Search Console, son 28 gün: tıklama, gösterim ve yapay zekâ özelliği gösterimleri.' },
+  { img: scLinks, alt: 'Search Console dış bağlantılar raporunda en çok bağlantı veren alan adları', cap: 'Search Console dış bağlantılar: tek bir siteye 1.301 dış bağlantı ve en çok bağlantı veren alan adları.' },
+  { img: scLinksSearch, alt: 'Search Console bağlantı veren alan adları, tıklama ve gösterim grafiği', cap: 'Search Console: bağlantı veren alan adları, tıklama ve gösterim (Ağustos 2025 – Ekim 2026).' },
+];
 const layers = [
   { n: 'Siteniz', text: 'Hedef sayfa ve anahtar kelimeler.' },
   { n: 'Katman 1', text: 'Sitenize doğrudan bağlanan yüksek otoriteli yayın ve profiller.' },
@@ -24,18 +38,19 @@ const layers = [
   { n: 'Katman 3', text: 'Katman 2’yi besleyen ek bağlantılar.' },
 ];
 const packages = [
-  { name: 'Gümüş', count: '100+', kw: '1 anahtar kelime', tone: 'purple', featured: false },
-  { name: 'Altın', count: '250', kw: '3 anahtar kelime', tone: 'orange', featured: true },
-  { name: 'VIP', count: '400+', kw: 'Geniş kapsam (sayı birlikte belirlenir)', tone: 'pink', featured: false },
+  { name: 'Gümüş', count: '100+', kw: '1 anahtar kelime', tone: 'purple', featured: false, extra: [] as string[] },
+  { name: 'Altın', count: '250', kw: '3 anahtar kelime', tone: 'orange', featured: true, extra: ['Blog ağı yayınları ve sosyal paylaşım'] },
+  { name: 'VIP', count: '400+', kw: 'Geniş kapsam (sayı birlikte belirlenir)', tone: 'pink', featured: false, extra: ['Blog ağı yayınları ve sosyal paylaşım', 'Ek tanıtım yayınları'] },
 ];
-const shared = ['100% manuel oluşturma', 'Katman sistemi', 'Premium indeksleme desteği', 'Bağlantı listesiyle teslim raporu'];
+const shared = ['100% manuel oluşturma', 'Katman sistemi', 'Premium indeksleme', 'Bağlantı listesiyle teslim raporu', 'Teslim: 7–14 gün'];
 
 const faq: Qa[] = [
   { q: 'Backlink sıralamayı garanti eder mi?', a: 'Hayır. Hiçbir hizmet sıralama garantisi veremez. Bu hizmet sitenizin bağlantı profilini yüksek otoriteli platformlarla güçlendirmeye odaklanır; sonuç sitenizin durumuna, içeriğine ve rekabete bağlıdır.' },
   { q: '“100% manuel” ne demek?', a: 'Bağlantılar bot ya da toplu yazılımla değil, tek tek insan eliyle oluşturulur.' },
   { q: 'Katman sistemi nedir?', a: 'Ana yayınlara başka bağlantılar verilerek bağlantıların birbirini desteklemesi sağlanır. Sitenize giden bağlantılar tek düz yığın değil, kademeli bir yapı olur. Bu yapı tek başına sıralama sağlamaz.' },
-  { q: 'Premium indeksleme nedir?', a: 'Oluşturulan bağlantıların arama motorları tarafından keşfedilmesini destekleyen ek işlemlerdir. İndekslenme kararı arama motorunundur; bu yüzden garanti verilmez.' },
-  { q: 'Hangi platformlarda bağlantı oluşturuluyor?', a: 'Bağlantılar global platformlardan oluşan bir havuzdan, hedef sitenize uygun olanlar seçilerek oluşturulur. Örnekler: Apple, Microsoft, Amazon, Google, Pinterest, Medium. Her pakette her platformda bağlantı oluşturulacağı söylenmez. Bu markalar hizmetimizi onaylamaz veya önermez.' },
+  { q: 'Teslim süresi ne kadar?', a: 'Paket kapsamına göre 7 ila 14 gün. Süre, site adresi, hedef sayfalar ve anahtar kelimeler eksiksiz alındığı gün başlar.' },
+  { q: 'Bağlantıların indekslenmesi garanti mi?', a: 'Hayır. Bir bağlantının indekslenmesi arama motorunun kararıdır; bu yüzden garanti verilmez.' },
+  { q: 'Hangi platformlarda bağlantı oluşturuluyor?', a: 'Bağlantılar DA 65–99 aralığındaki yüzlerce platformluk bir havuzdan, hedef sitenize uygun olanlar seçilerek oluşturulur. Örnekler: Apple, Microsoft, Amazon, Google, Pinterest, Medium. Her pakette her platformda bağlantı oluşturulacağı söylenmez. Bu markalar hizmetimizi onaylamaz veya önermez.' },
   { q: 'Teslimde ne alıyorum?', a: 'Oluşturulan bağlantıların listesini içeren bir rapor. Listedeki her bağlantıyı tarayıcıda açıp kendiniz kontrol edebilirsiniz.' },
   { q: 'Hangi siteler kabul edilmez?', a: 'Yasa dışı, yetişkin içerikli, kumar ve yanıltıcı siteler.' },
 ];
@@ -83,10 +98,11 @@ const jsonld = [
     <div class="wrap">
       <div class="sec-head reveal">
         <h2 class="h2" id="platformlar">Platformlar</h2>
-        <p class="lede">Bağlantılar global platformlardan oluşan bir havuzdan, sitenize uygun olanlar seçilerek oluşturulur. Havuzdan bazı örnekler:</p>
+        <p class="lede">Bağlantılar DA 65–99 aralığındaki yüzlerce platformluk bir havuzdan, sitenize uygun olanlar seçilerek oluşturulur. Havuzdan bazı örnekler:</p>
       </div>
-      <ul class="mb-chips reveal">{platforms.map((p) => <li>{p}</li>)}</ul>
-      <p class="mb-note reveal">Marka adları ilgili sahiplerine aittir; bu platformlar hizmetimizi onaylamaz, önermez ve hizmetle bağlantılı değildir. Her pakette her platformda bağlantı oluşturulacağı söylenmez. Platformların DA/PA değerleri üçüncü taraf ölçümleridir, zamanla değişir; güncel değerler ölçüm tarihiyle birlikte teklifte paylaşılır.</p>
+      <ul class="mb-plat-grid reveal">{platforms.map((p) => <li><b>{p.n}</b><span>DA {p.da} · PA {p.pa}</span></li>)}</ul>
+      <p class="mb-more reveal">+ yüzlerce platform daha · DA 65–99</p>
+      <p class="mb-note reveal">Bağlantılar profil, topluluk ve içerik alanlarına yerleştirilir. Marka adları ilgili sahiplerine aittir; bu platformlar hizmetimizi onaylamaz, önermez ve hizmetle bağlantılı değildir. Her pakette her platformda bağlantı oluşturulacağı söylenmez. DA (alan adı) ve PA (sayfa) değerleri üçüncü taraf ölçümleridir, Google’ın puanları değildir ve zamanla değişir. Liste tarihi: Kasım 2026.</p>
     </div>
   </section>
 
@@ -99,7 +115,7 @@ const jsonld = [
       <ol class="mb-layer-list reveal" aria-label="Katman sistemi şeması">
         {layers.map((l, i) => <li style={`--i:${i}`}><b>{l.n}</b><span>{l.text}</span></li>)}
       </ol>
-      <p class="mb-note reveal">Katman yapısı tek başına sıralama sağlamaz. Premium indeksleme, oluşturulan bağlantıların arama motorlarınca keşfedilmesini destekleyen ek işlemlerdir; bir bağlantının indekslenmesi arama motorunun kararıdır. Konunun arka planı için <a href="/blog/katmanli-backlink-nedir-riskleri-nasil-degerlendirilir/">katmanlı backlink yazımıza</a> bakabilirsiniz.</p>
+      <p class="mb-note reveal">Katman yapısı tek başına sıralama sağlamaz; bir bağlantının indekslenmesi arama motorunun kararıdır. Konunun arka planı için <a href="/blog/katmanli-backlink-nedir-riskleri-nasil-degerlendirilir/">katmanlı backlink yazımıza</a> bakabilirsiniz.</p>
     </div>
   </section>
 
@@ -107,7 +123,7 @@ const jsonld = [
     <div class="wrap">
       <div class="sec-head reveal">
         <h2 class="h2" id="paketler-baslik">Paketler</h2>
-        <p class="lede">Üç paket aynı yöntemle çalışır; fark hacim ve kapsamdadır. Fiyat ve teslim süresi sitenize ve anahtar kelimelerinize göre teklifte yazılır.</p>
+        <p class="lede">Üç paket aynı yöntemle çalışır; fark hacim ve kapsamdadır. Teslim süresi 7–14 gündür; fiyat sitenize ve anahtar kelimelerinize göre teklifte yazılır.</p>
       </div>
       <div class="mb-pkg-grid">
         {packages.map((p) => (
@@ -116,11 +132,29 @@ const jsonld = [
             <h3>{p.name}</h3>
             <p class="mb-pkg-count"><b>{p.count}</b> backlink</p>
             <p class="mb-pkg-kw">{p.kw}</p>
-            <ul>{shared.map((s) => <li><Icon name="check" size={16} />{s}</li>)}</ul>
+            <ul>{[...shared, ...p.extra].map((s) => <li><Icon name="check" size={16} />{s}</li>)}</ul>
             <a class:list={['btn', p.featured ? 'btn-solid' : 'btn-outline']} href={quote(p.name)} rel="noopener">Teklif al</a>
           </article>
         ))}
       </div>
+    </div>
+  </section>
+
+  <section class="mb-proof" aria-labelledby="kanit">
+    <div class="wrap">
+      <div class="sec-head reveal">
+        <h2 class="h2" id="kanit">Gerçek <em>veri</em></h2>
+        <p class="lede">Çalışma yaptığımız sitelerden Search Console ekran görüntüleri.</p>
+      </div>
+      <div class="mb-proof-grid">
+        {proofs.map((p) => (
+          <figure class="reveal">
+            <a href={p.img.src} target="_blank" rel="noopener" aria-label={`${p.cap} Büyük görseli açın`}><Image src={p.img} alt={p.alt} widths={[640, 1000, 1400]} sizes="(max-width: 900px) 92vw, 46vw" loading="lazy" /></a>
+            <figcaption>{p.cap}</figcaption>
+          </figure>
+        ))}
+      </div>
+      <p class="mb-note reveal">Arama Konsolu arayüzü otomatik çevrilmiştir; grafik eksenlerindeki “B” bin demektir. Sonuçlar sitenin durumuna, içeriğine ve rekabete bağlıdır; başka bir sitede aynı sonuç vaat edilmez.</p>
     </div>
   </section>
 
@@ -136,7 +170,8 @@ const jsonld = [
             <li>Global platformlarda profil, blog, forum ve içerik paylaşım bağlantılarının elle oluşturulması</li>
             <li>Anahtar kelime ve hedef sayfaya göre bağlantı metni dağılımı</li>
             <li>Katman sistemiyle bağlantıların birbirini desteklemesi</li>
-            <li>Bağlantıların keşfini destekleyen premium indeksleme işlemleri</li>
+            <li>Premium indeksleme</li>
+            <li>Altın ve VIP pakette blog ağı yayınları ve sosyal paylaşım; VIP pakette ek tanıtım yayınları</li>
             <li>Teslimde bağlantı listesini içeren rapor</li>
           </ul>
         </div>
@@ -155,8 +190,8 @@ const jsonld = [
 
   <Cycle steps={[
     { title: 'Bilgi paylaşımı', text: 'Site adresi, hedef sayfalar, anahtar kelimeler, ülke ve dil hedefi ile varsa özel kurallarınızı (kullanılmayacak bağlantı metinleri gibi) alırız. Şifre ya da yönetici erişimi istemeyiz.' },
-    { title: 'Kapsam onayı', text: 'Paket, anahtar kelime dağılımı ve teslim süresi yazılı olarak netleşir.' },
-    { title: 'Uygulama', text: 'Yayınlar ve bağlantılar elle oluşturulur, katmanlar kurulur, indeksleme işlemleri yapılır.' },
+    { title: 'Kapsam onayı', text: 'Paket, anahtar kelime dağılımı ve teslim süresi (7–14 gün) yazılı olarak netleşir; süre, bilgilerin eksiksiz alındığı gün başlar.' },
+    { title: 'Uygulama', text: 'Yayınlar ve bağlantılar elle oluşturulur, katmanlar kurulur, premium indeksleme uygulanır.' },
     { title: 'Rapor teslimi', text: 'Oluşturulan bağlantıların listesini içeren rapor size iletilir.' },
   ]} title="Süreç: <em>dört adım</em>" id="surec" />
 

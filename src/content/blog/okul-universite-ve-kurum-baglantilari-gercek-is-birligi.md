@@ -110,7 +110,7 @@ Kurum bağlantıları sabır ve gerçek ilişki ister. [Backlink hizmetimizde](/
 - işletmenizin kurumlara sunabileceği gerçek değerleri belirleriz,
 - ilgili okul, üniversite ve kuruluşları listeler, iletişim metnini hazırlarız,
 - iş birliğini sitenizde dürüst ve izinli biçimde anlatmanıza yardım ederiz,
-- satın alınmış bağlantı, özel blog ağı ve hacklink kullanmayız; sonuçları yazılı raporlarız.
+- satın alınmış bağlantı ve hacklink kullanmayız; sonuçları yazılı raporlarız.
 
 Kurum iş birliği planı çıkarmak isterseniz [bize yazın](/iletisim/).
 

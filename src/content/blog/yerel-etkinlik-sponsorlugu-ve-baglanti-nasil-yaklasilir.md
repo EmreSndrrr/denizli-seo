@@ -112,7 +112,7 @@ Yerel bağlantı çalışması gerçek ilişkilerle büyür. [Backlink hizmetimi
 
 - yerel kuruluşları, dernekleri ve etkinlikleri işletmenizle ilgisine göre listeleriz,
 - sponsorluk ve iş birliği tekliflerini şeffaf ve kurallara uygun hazırlarız,
-- satın alınmış bağlantı, özel blog ağı ve hacklink kullanmayız,
+- satın alınmış bağlantı ve hacklink kullanmayız,
 - kazanılan bağlantıları ve sonuçları yazılı raporlarız.
 
 Yerel bağlantı planı çıkarmak isterseniz [bize yazın](/iletisim/).

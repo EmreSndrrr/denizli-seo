@@ -109,7 +109,7 @@ Ayda bir şu tabloyu doldurun: yeni kazanılan bağlantılar (adres, tarih, kayn
 Süre konusunda dürüst olmak güvenin ilk adımıdır. [Backlink hizmetimizde](/backlink-hizmeti/):
 
 - baştan gerçekçi bir takvim ve ölçüm yöntemi yazılı paylaşırız,
-- fırsatları ilişkiyle kurar; satın alınmış bağlantı, özel blog ağı ve hacklink kullanmayız,
+- fırsatları ilişkiyle kurar; satın alınmış bağlantı ve hacklink kullanmayız,
 - kazanılan her bağlantıyı adres, tarih ve nitelikle aylık raporlarız,
 - etki görünmüyorsa nedenini (içerik, teknik, kaynak kalitesi) analiz eder ve planı güncelleriz.
 

@@ -74,7 +74,7 @@ Sözlü anlatılan hiçbir şey ileride sizi korumaz. Pakete başlamadan önce �
 
 ## Denizli SEO bu konuda nasıl yardımcı olur?
 
-Biz hazır paket yerine önce siteye ve profile bakar, sonra kapsamı kalem kalem yazarız. Teklifte hangi işin ne amaçla yapılacağı, neyin tek seferlik neyin aylık olduğu, rapor içeriği ve sahiplik bilgisi bulunur. Satın alınmış bağlantı, özel blog ağı ve hacklink kullanmayız; sıralama garantisi vermeyiz. Örnek (hayalî bir işletme için): Pamukkale’de yeni bir otelin ilk üç ayı için profil ve site temeli, içerik ve yorum düzeni ile aylık rapor planlanır; kapsam dışı kalanlar teklifte ayrıca yazılır.
+Biz hazır paket yerine önce siteye ve profile bakar, sonra kapsamı kalem kalem yazarız. Teklifte hangi işin ne amaçla yapılacağı, neyin tek seferlik neyin aylık olduğu, rapor içeriği ve sahiplik bilgisi bulunur. Satın alınmış bağlantı ve hacklink kullanmayız; sıralama garantisi vermeyiz. Örnek (hayalî bir işletme için): Pamukkale’de yeni bir otelin ilk üç ayı için profil ve site temeli, içerik ve yorum düzeni ile aylık rapor planlanır; kapsam dışı kalanlar teklifte ayrıca yazılır.
 
 ## Sık sorulan sorular
 
