@@ -252,6 +252,7 @@ const POST_MOTIF = {
   'site-ici-arama-sonuclari-googleda-indekslenmeli-mi': 'lens',
   'seo-ajansi-degistirirken-hangi-hesaplar-teslim-alinmali': 'profile',
   'katmanli-backlink-nedir-riskleri-nasil-degerlendirilir': 'linkgraph',
+  'manuel-backlink-nedir-otomatik-baglantidan-farki': 'linkgraph',
   'suresi-dolmus-domain-alirken-seo-gecmisi-kontrolu': 'linkgraph',
   'search-consolda-manuel-islem-bildirimi-ne-yapilmali': 'broken',
   'haritalarda-yinelenen-isletme-kaydi-nasil-duzeltilir': 'pins',
