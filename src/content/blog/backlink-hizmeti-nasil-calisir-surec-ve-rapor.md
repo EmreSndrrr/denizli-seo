@@ -26,7 +26,7 @@ Hedef kaynakları sektörünüzle ve Denizli ile gerçekten ilgili olanlar aras�
 
 ## Dördüncü adım: bağlantıyı hak etmek
 
-Bağlantıyı satın almayız; hak etmeye çalışırız. Bunun için duruma göre şu yolları kullanırız:
+Bu adımda bağlantıyı hak etmeye çalışırız. Bunun için duruma göre şu yolları kullanırız:
 
 - **Yerel kurum ve dernekler:** üyesi olduğunuz kuruluşların sitelerinde işletmenizin doğru ve güncel yer alması.
 - **Yerel haber:** gerçekten haber değeri taşıyan konular için editörlere hazırlanmış metin ve fotoğraf.
@@ -46,7 +46,7 @@ Her ay yazılı bir bağlantı raporu sunarız. Raporda şunlar yer alır: kazan
 
 ## Neleri yapmayız?
 
-Satın alınmış toplu bağlantı, özel blog ağı (PBN), hacklink, otomatik bağlantı programları, forum ve yorum alanlarına toplu bağlantı bırakma, sahte yorum ve bağlantı takası ağları bizim çalışmamızın dışındadır. Bunlar Google’ın bağlantı spam’i örnekleriyle örtüşür; ihlal eden siteler sonuçlarda daha alt sıralarda yer alabilir ya da hiç görünmeyebilir. Ayrıca sıralama garantisi ya da “şu kadar bağlantı” sözü vermeyiz; Google de kimsenin birinci sıra garantisi veremeyeceğini söyler ([SEO uzmanı işe alma](https://developers.google.com/search/docs/fundamentals/do-i-need-seo?hl=tr)).
+Hacklink, ele geçirilmiş sitelere yerleştirilen bağlantılar, bot ile toplu bağlantı üretimi, sahte yorum ve bağlantı takası ağları çalışmamızın dışındadır. Otomatik programlarla bağlantı oluşturma Google’ın bağlantı spam’i örnekleri arasındadır; ihlal eden siteler sonuçlarda daha alt sıralarda yer alabilir ya da hiç görünmeyebilir. Bağlantı profilini belirli bir hacimde güçlendirmek isteyenler için global platformlarda elle oluşturulan [manuel backlink paketleri](/manuel-backlink-paketleri/) ayrı bir hizmettir; yöntemi ve sınırları o sayfada yazılıdır. Hiçbir çalışmada sıralama garantisi vermeyiz; Google de kimsenin birinci sıra garantisi veremeyeceğini söyler ([SEO uzmanı işe alma](https://developers.google.com/search/docs/fundamentals/do-i-need-seo?hl=tr)).
 
 > **Sizin için de yapalım mı?** Mevcut bağlantı durumunuza birlikte bakıp güvenli bir yol çizelim. [Hizmet almak için iletişime geçin](/iletisim/); hangi yöntemleri kullanmadığımız [backlink sayfamızda](/backlink-hizmeti/) açıkça yazıyor.
 

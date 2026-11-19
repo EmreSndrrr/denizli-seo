@@ -14,6 +14,7 @@ export const GET: APIRoute = async () => {
     '## Hizmetler',
     `- [Tüm hizmetler](${SITE.url}/hizmetler/): beş hizmetin özeti, kime uygun olduğu ve sonucun nasıl ölçüldüğü`,
     ...SERVICES.map((s) => `- [${s.name}](${SITE.url}/${s.slug}/): ${s.lead}`),
+    `- [Manuel backlink paketleri](${SITE.url}/manuel-backlink-paketleri/): Gümüş, Altın ve VIP paketlerinde global platformlarda elle oluşturulan, katmanlı backlink çalışması; sıralama garantisi verilmez`,
     '',
     '## Blog',
     ...posts.map((p) => `- [${p.data.title}](${SITE.url}/blog/${p.id}/): ${p.data.description}`),

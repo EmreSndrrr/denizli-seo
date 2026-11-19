@@ -1,0 +1,197 @@
+---
+// Manual backlink packages (Gümüş, Altın, VIP). Copy follows the owner's brief of 19 Nov 2026.
+// Not shown until the owner confirms them: prices, delivery times, the indexing method, blog network and
+// promotional posts, DA/PA measurement date, Search Console screenshots.
+import Page from '../layouts/Page.astro';
+import Banner from '../components/home/Banner.astro';
+import Cycle from '../components/home/Cycle.astro';
+import Faq from '../components/home/Faq.astro';
+import Icon from '../components/Icon.astro';
+import type { Qa } from '../data/services';
+import { SITE, waLink } from '../data/site';
+
+const title = 'Manuel Backlink Paketleri – Yüksek Otoriteli Platformlar';
+const description = '100% manuel, katmanlı backlink paketleri. Global platformlarda 100+, 250 ve 400+ bağlantı; teslimde bağlantı listesi. Teklif alın.';
+const url = `${SITE.url}/manuel-backlink-paketleri/`;
+const quote = (pkg?: string) => waLink(`Merhaba, manuel backlink paketleri için teklif almak istiyorum.${pkg ? ` İlgilendiğim paket: ${pkg}.` : ''} Sitemin adresi: `);
+
+const badges = ['100% manuel', 'Katman sistemi', 'Premium indeksleme'];
+const platforms = ['Apple', 'Microsoft', 'Amazon', 'Google', 'Pinterest', 'Medium', 'Trustpilot', 'Gravatar', 'Linktree', 'About.me'];
+const layers = [
+  { n: 'Siteniz', text: 'Hedef sayfa ve anahtar kelimeler.' },
+  { n: 'Katman 1', text: 'Sitenize doğrudan bağlanan yüksek otoriteli yayın ve profiller.' },
+  { n: 'Katman 2', text: 'Katman 1 yayınlarına bağlanan destek bağlantıları.' },
+  { n: 'Katman 3', text: 'Katman 2’yi besleyen ek bağlantılar.' },
+];
+const packages = [
+  { name: 'Gümüş', count: '100+', kw: '1 anahtar kelime', tone: 'purple', featured: false },
+  { name: 'Altın', count: '250', kw: '3 anahtar kelime', tone: 'orange', featured: true },
+  { name: 'VIP', count: '400+', kw: 'Geniş kapsam (sayı birlikte belirlenir)', tone: 'pink', featured: false },
+];
+const shared = ['100% manuel oluşturma', 'Katman sistemi', 'Premium indeksleme desteği', 'Bağlantı listesiyle teslim raporu'];
+
+const faq: Qa[] = [
+  { q: 'Backlink sıralamayı garanti eder mi?', a: 'Hayır. Hiçbir hizmet sıralama garantisi veremez. Bu hizmet sitenizin bağlantı profilini yüksek otoriteli platformlarla güçlendirmeye odaklanır; sonuç sitenizin durumuna, içeriğine ve rekabete bağlıdır.' },
+  { q: '“100% manuel” ne demek?', a: 'Bağlantılar bot ya da toplu yazılımla değil, tek tek insan eliyle oluşturulur.' },
+  { q: 'Katman sistemi nedir?', a: 'Ana yayınlara başka bağlantılar verilerek bağlantıların birbirini desteklemesi sağlanır. Sitenize giden bağlantılar tek düz yığın değil, kademeli bir yapı olur. Bu yapı tek başına sıralama sağlamaz.' },
+  { q: 'Premium indeksleme nedir?', a: 'Oluşturulan bağlantıların arama motorları tarafından keşfedilmesini destekleyen ek işlemlerdir. İndekslenme kararı arama motorunundur; bu yüzden garanti verilmez.' },
+  { q: 'Hangi platformlarda bağlantı oluşturuluyor?', a: 'Bağlantılar global platformlardan oluşan bir havuzdan, hedef sitenize uygun olanlar seçilerek oluşturulur. Örnekler: Apple, Microsoft, Amazon, Google, Pinterest, Medium. Her pakette her platformda bağlantı oluşturulacağı söylenmez. Bu markalar hizmetimizi onaylamaz veya önermez.' },
+  { q: 'Teslimde ne alıyorum?', a: 'Oluşturulan bağlantıların listesini içeren bir rapor. Listedeki her bağlantıyı tarayıcıda açıp kendiniz kontrol edebilirsiniz.' },
+  { q: 'Hangi siteler kabul edilmez?', a: 'Yasa dışı, yetişkin içerikli, kumar ve yanıltıcı siteler.' },
+];
+
+const jsonld = [
+  {
+    '@type': 'Service',
+    '@id': `${url}#hizmet`,
+    name: 'Manuel Backlink Paketleri',
+    serviceType: 'Manuel backlink',
+    description,
+    url,
+    provider: { '@id': `${SITE.url}/#isletme` },
+    hasOfferCatalog: {
+      '@type': 'OfferCatalog',
+      name: 'Manuel Backlink Paketleri',
+      itemListElement: packages.map((p) => ({ '@type': 'Offer', itemOffered: { '@type': 'Service', name: `${p.name} paket`, description: `${p.count} manuel backlink, ${p.kw}` } })),
+    },
+  },
+  {
+    '@type': 'BreadcrumbList',
+    itemListElement: [
+      { '@type': 'ListItem', position: 1, name: 'Ana sayfa', item: `${SITE.url}/` },
+      { '@type': 'ListItem', position: 2, name: 'Hizmetler', item: `${SITE.url}/hizmetler/` },
+      { '@type': 'ListItem', position: 3, name: 'Backlink ve otorite çalışması', item: `${SITE.url}/backlink-hizmeti/` },
+      { '@type': 'ListItem', position: 4, name: 'Manuel backlink paketleri', item: url },
+    ],
+  },
+  { '@type': 'FAQPage', '@id': `${url}#sss`, mainEntity: faq.map((item) => ({ '@type': 'Question', name: item.q, acceptedAnswer: { '@type': 'Answer', text: item.a } })) },
+];
+---
+<Page title={title} description={description} jsonld={jsonld} image="/og/backlink-hizmeti.jpg" imageAlt="Manuel backlink paketleri: Gümüş, Altın, VIP">
+  <Banner crumbs={[{ href: '/', label: 'Ana sayfa' }, { href: '/backlink-hizmeti/', label: 'Backlink' }, { label: 'Manuel backlink paketleri' }]} h1={['Yüksek otoriteli platformlardan', 'manuel backlink.']} lead="Yüksek otoriteli global platformlardan, %100 manuel, katmanlı backlink çalışması. Bağlantılar tek tek elle oluşturulur, katmanlarla desteklenir ve teslimde listesiyle raporlanır.">
+    <a class="btn btn-solid" href={quote()} rel="noopener">Teklif al<Icon name="arrow" size={20} /></a>
+    <a class="btn btn-outline" href="#paketler">Paketleri görün</a>
+  </Banner>
+
+  <section class="mb-badges" aria-label="Öne çıkan özellikler">
+    <div class="wrap">
+      <ul class="mb-badge-list">{badges.map((b) => <li><Icon name="check" size={18} />{b}</li>)}</ul>
+    </div>
+  </section>
+
+  <section class="mb-platforms" aria-labelledby="platformlar">
+    <div class="wrap">
+      <div class="sec-head reveal">
+        <h2 class="h2" id="platformlar">Platformlar</h2>
+        <p class="lede">Bağlantılar global platformlardan oluşan bir havuzdan, sitenize uygun olanlar seçilerek oluşturulur. Havuzdan bazı örnekler:</p>
+      </div>
+      <ul class="mb-chips reveal">{platforms.map((p) => <li>{p}</li>)}</ul>
+      <p class="mb-note reveal">Marka adları ilgili sahiplerine aittir; bu platformlar hizmetimizi onaylamaz, önermez ve hizmetle bağlantılı değildir. Her pakette her platformda bağlantı oluşturulacağı söylenmez. Platformların DA/PA değerleri üçüncü taraf ölçümleridir, zamanla değişir; güncel değerler ölçüm tarihiyle birlikte teklifte paylaşılır.</p>
+    </div>
+  </section>
+
+  <section class="mb-layers" aria-labelledby="nasil-calisir">
+    <div class="wrap">
+      <div class="sec-head reveal">
+        <h2 class="h2" id="nasil-calisir">Nasıl <em>çalışır</em></h2>
+        <p class="lede">Bağlantılar tek düz yığın olarak değil, üç kademede kurulur. Amaç, sitenize bağlanan ana yayınların gücünü ve keşfedilebilirliğini artırmaktır.</p>
+      </div>
+      <ol class="mb-layer-list reveal" aria-label="Katman sistemi şeması">
+        {layers.map((l, i) => <li style={`--i:${i}`}><b>{l.n}</b><span>{l.text}</span></li>)}
+      </ol>
+      <p class="mb-note reveal">Katman yapısı tek başına sıralama sağlamaz. Premium indeksleme, oluşturulan bağlantıların arama motorlarınca keşfedilmesini destekleyen ek işlemlerdir; bir bağlantının indekslenmesi arama motorunun kararıdır. Konunun arka planı için <a href="/blog/katmanli-backlink-nedir-riskleri-nasil-degerlendirilir/">katmanlı backlink yazımıza</a> bakabilirsiniz.</p>
+    </div>
+  </section>
+
+  <section class="mb-packages" id="paketler" aria-labelledby="paketler-baslik">
+    <div class="wrap">
+      <div class="sec-head reveal">
+        <h2 class="h2" id="paketler-baslik">Paketler</h2>
+        <p class="lede">Üç paket aynı yöntemle çalışır; fark hacim ve kapsamdadır. Fiyat ve teslim süresi sitenize ve anahtar kelimelerinize göre teklifte yazılır.</p>
+      </div>
+      <div class="mb-pkg-grid">
+        {packages.map((p) => (
+          <article class:list={['mb-pkg reveal', { featured: p.featured }]} style={`--tone:var(--${p.tone});--tone-text:var(--${p.tone}-text)`}>
+            {p.featured && <span class="mb-pkg-flag">En çok tercih edilen</span>}
+            <h3>{p.name}</h3>
+            <p class="mb-pkg-count"><b>{p.count}</b> backlink</p>
+            <p class="mb-pkg-kw">{p.kw}</p>
+            <ul>{shared.map((s) => <li><Icon name="check" size={16} />{s}</li>)}</ul>
+            <a class:list={['btn', p.featured ? 'btn-solid' : 'btn-outline']} href={quote(p.name)} rel="noopener">Teklif al</a>
+          </article>
+        ))}
+      </div>
+    </div>
+  </section>
+
+  <section class="mb-scope" aria-labelledby="kapsam">
+    <div class="wrap">
+      <div class="sec-head reveal">
+        <h2 class="h2" id="kapsam">Kapsam ve <em>sınırlar</em></h2>
+      </div>
+      <div class="mb-scope-grid">
+        <div class="info-card reveal" style="--tone:var(--pink)">
+          <h3>Yapılanlar</h3>
+          <ul>
+            <li>Global platformlarda profil, blog, forum ve içerik paylaşım bağlantılarının elle oluşturulması</li>
+            <li>Anahtar kelime ve hedef sayfaya göre bağlantı metni dağılımı</li>
+            <li>Katman sistemiyle bağlantıların birbirini desteklemesi</li>
+            <li>Bağlantıların keşfini destekleyen premium indeksleme işlemleri</li>
+            <li>Teslimde bağlantı listesini içeren rapor</li>
+          </ul>
+        </div>
+        <div class="info-card reveal" style="--tone:var(--purple)">
+          <h3>Yapılmayanlar</h3>
+          <ul>
+            <li>Otomatik yazılım veya bot ile toplu bağlantı üretimi</li>
+            <li>Sıralama, trafik ya da belirli bir sayfa konumu garantisi</li>
+            <li>Yasa dışı, yetişkin içerikli, kumar ve yanıltıcı sitelerin kabulü</li>
+            <li>Platformlarla ortaklık veya onay iddiası</li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <Cycle steps={[
+    { title: 'Bilgi paylaşımı', text: 'Site adresi, hedef sayfalar, anahtar kelimeler, ülke ve dil hedefi ile varsa özel kurallarınızı (kullanılmayacak bağlantı metinleri gibi) alırız. Şifre ya da yönetici erişimi istemeyiz.' },
+    { title: 'Kapsam onayı', text: 'Paket, anahtar kelime dağılımı ve teslim süresi yazılı olarak netleşir.' },
+    { title: 'Uygulama', text: 'Yayınlar ve bağlantılar elle oluşturulur, katmanlar kurulur, indeksleme işlemleri yapılır.' },
+    { title: 'Rapor teslimi', text: 'Oluşturulan bağlantıların listesini içeren rapor size iletilir.' },
+  ]} title="Süreç: <em>dört adım</em>" id="surec" />
+
+  <section class="mb-risk" aria-labelledby="riskler">
+    <div class="wrap">
+      <div class="mb-risk-card reveal">
+        <h2 id="riskler">Bilmeniz gerekenler</h2>
+        <p>Google’ın spam politikaları, arama sıralamasını etkilemek amacıyla oluşturulan bağlantıları bağlantı spam’i olarak tanımlar; bu tür bağlantılar değerlendirmede dikkate alınmayabilir. Bağlantı çalışmasının sitenize etkisi; sitenizin durumuna, içeriğine, rekabete ve arama motoru güncellemelerine bağlıdır. Kararı vermeden önce <a href="/blog/manuel-backlink-nedir-otomatik-baglantidan-farki/">manuel backlink yazımızı</a> okumanızı ve sorularınızı bize iletmenizi öneririz.</p>
+        <p>Uzun vadeli, içerik ve ilişkiyle kazanılan bağlantı çalışması için <a href="/backlink-hizmeti/">backlink ve otorite hizmetimize</a> bakabilirsiniz; iki hizmet birlikte de planlanabilir.</p>
+      </div>
+    </div>
+  </section>
+
+  <Faq items={faq} title="Sık sorulan sorular" />
+
+  <section class="chat" aria-labelledby="teklif-baslik">
+    <div class="wrap chat-in">
+      <div class="chat-copy reveal">
+        <h2 id="teklif-baslik">Paketiniz için <em>teklif alın</em></h2>
+        <p>Sitenizin adresini, hedef sayfalarınızı ve anahtar kelimelerinizi yazın; paket, kapsam ve süreyi yazılı olarak iletelim.</p>
+      </div>
+      <a class="btn btn-white" href={quote()} rel="noopener">Teklif al</a>
+    </div>
+  </section>
+
+  <section class="mb-legal" aria-label="Sorumluluk reddi">
+    <div class="wrap">
+      <ul>
+        <li>Arama motoru sıralaması, trafik veya dönüşüm artışı garanti edilmez. Sonuçlar sitenin durumuna, içeriğine, rekabete ve arama motoru güncellemelerine bağlıdır.</li>
+        <li>Bir bağlantının indekslenmesi arama motorunun kararıdır.</li>
+        <li>Platform adları ve markalar ilgili sahiplerine aittir; bu platformlar hizmeti onaylamaz, önermez veya hizmetle bağlantılı değildir.</li>
+        <li>DA/PA değerleri üçüncü taraf ölçümleridir ve zamanla değişebilir.</li>
+        <li>Platformlar kendi kullanım şartlarını değiştirebilir; bu durumda bağlantıların kalması platformun kontrolündedir.</li>
+        <li>Yasa dışı, yetişkin içerikli, kumar ve yanıltıcı sitelere hizmet verilmez.</li>
+      </ul>
+    </div>
+  </section>
+</Page>

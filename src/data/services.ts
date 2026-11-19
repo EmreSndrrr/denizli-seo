@@ -155,11 +155,11 @@ export const SERVICES: Service[] = [
     h1: ['Hak edilmiş bağlantılarla', 'güven kazanın.'],
     queries: ['backlink hizmeti', 'backlink nasıl alınır', 'denizli seo bağlantı çalışması', 'hacklink zararı'],
     lead:
-      'Backlink, başka bir sitede yer alan ve sizin sitenize götüren bağlantıdır. Biz bunu satın almayız; yerel kurum, iş ortağı ve içerik yoluyla hak ederek kazanırız.',
+      'Backlink, başka bir sitede yer alan ve sizin sitenize götüren bağlantıdır. İki yolla çalışırız: yerel kurum, iş ortağı ve içerik yoluyla kazanılan bağlantılar ve global platformlarda elle oluşturulan manuel backlink paketleri.',
     goal: 'Sektörünüzde ve Denizli’de güvenilir kaynaklardan gerçek bağlantılar kazanarak itibarınızı artırmak.',
     statementHead: 'Bağlantı bir tavsiyedir',
     statement:
-      'Google, başka sitelerin size verdiği bağlantıyı bir tavsiye gibi okur. Sayıdan çok kaynağın niteliği önemlidir: sektörünüzdeki bir derneğin ya da yerel bir haber sitesinin bağlantısı çoğu zaman yüzlerce toplu bağlantıdan daha çok iş görür. Satın alınan toplu bağlantılar Google’ın spam politikasına aykırıdır; bu yola girmeyiz.',
+      'Google, başka sitelerin size verdiği bağlantıyı bir tavsiye gibi okur; kaynağın niteliği ve konuyla ilgisi önemlidir. Kazanılan bağlantı çalışmasında sektörünüzdeki dernek, yerel haber ve iş ortaklarını önceleriz. Bağlantı profilini belirli bir hacimde güçlendirmek isteyenler için global platformlarda elle oluşturulan manuel paketler sunarız. Bot, hacklink ve ele geçirilmiş site kullanmayız.',
     items: [
       { name: 'Bağlantı profili denetimi', text: 'Search Console’un Bağlantılar raporunda sitenize kimlerin bağlandığını, hangi sayfalarınızın bağlantı aldığını ve şüpheli kaynakları çıkarırız.' },
       { name: 'Rakip bağlantı karşılaştırması', text: 'Aynı aramada üst sıradaki rakiplerinizin hangi kaynaklardan bağlantı aldığına bakar, sizinle de ilişkili olabilecek kaynakları listeleriz.' },
@@ -172,11 +172,11 @@ export const SERVICES: Service[] = [
     steps: [
       { line: 'Önce profili inceleriz.', text: 'Sitenize bugün kimler bağlanıyor, rakipleriniz hangi kaynaklardan bağlantı alıyor? Teslim: bağlantı profili özeti.' },
       { line: 'Kaynakları seçeriz.', text: 'Sektörünüzle ve Denizli ile gerçekten ilgili siteleri listeleriz; teslim: öncelik sıralı kaynak listesi.' },
-      { line: 'Bağlantıyı hak ederiz.', text: 'İçerik, haber ve iş birliğiyle; satın alarak değil.' },
+      { line: 'Bağlantıları kurarız.', text: 'İçerik, haber ve iş birliğiyle kazanır; paket seçtiyseniz platformlarda elle oluştururuz.' },
       { line: 'Her ay raporlarız.', text: 'Kazanılan ve kaybolan bağlantı, kaynağın adıyla raporda yazar.' },
     ],
     faq: [
-      { q: 'Backlink satın alıyor musunuz?', a: 'Hayır. Toplu satın alınan bağlantılar, özel blog ağları (PBN) ve ele geçirilmiş sitelere gizlenen bağlantılar (hacklink) Google’ın spam politikalarına aykırıdır ve siteye zarar verebilir. Yalnızca kaynağını gösterebildiğimiz, gerçek bir ilişkiye ya da gerçek bir içeriğe dayanan bağlantılar için çalışırız.' },
+      { q: 'Manuel backlink paketi nedir, farkı ne?', a: 'Manuel backlink paketlerinde bağlantılar global platformlarda bot kullanılmadan, tek tek elle oluşturulur; katman sistemiyle desteklenir ve teslimde bağlantı listesiyle raporlanır. Kazanılan bağlantı çalışmasından farkı, belirli bir hacimde ve kısa sürede kurulmasıdır. Hacklink, ele geçirilmiş siteler ve bot ile toplu bağlantı kullanmayız; sıralama garantisi vermeyiz. Ayrıntılar manuel backlink paketleri sayfamızda.' },
       { q: 'Kaç backlink gerekir?', a: 'Sabit bir sayı yoktur. Sayıdan çok kaynağın niteliği ve konuyla ilgisi önemlidir. İlk incelemede aynı aramadaki rakiplerinizin durumuna bakar, hedefi ona göre yazarız.' },
       { q: 'Bağlantı kazanmak ne kadar sürer, sıralamaya etkisi ne zaman görülür?', a: 'Bağlantıyı hak etmek zaman alır; sıralamaya etkisi de hemen görülmez. Genellikle aylar içinde ölçülür ve sonuç garanti edilemez. Aylık raporda her yeni bağlantıyı ve bağlantı alan sayfanın sırasını görürsünüz.' },
       { q: 'Bağlantı için ücret ödenir mi?', a: 'Reklam ya da sponsorluk niteliğindeki yerleşimlerde Google, bağlantının rel="sponsored" ile işaretlenmesini ister. Böyle bir yerleşimi sıra kazanma yolu olarak sunmayız; olursa açıkça belirtiriz.' },
