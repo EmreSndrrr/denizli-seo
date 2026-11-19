@@ -560,6 +560,16 @@ const POST_MOTIF = {
   'google-isletme-profili-duzenlemesi-incelemede-kaldiysa': 'profile',
   'google-haritalarda-isletme-pini-yanlis-yerdeyse': 'pins',
   'google-isletme-profili-web-sitesi-baglantisina-utm-ekleme': 'chart',
+  'organization-ve-localbusiness-schema-farki': 'console',
+  'json-ld-ile-microdata-arasindaki-fark': 'console',
+  'review-ve-aggregaterating-schema-farki': 'console',
+  'service-schema-hizmet-sayfalarinda-nasil-kullanilir': 'console',
+  'schema-markup-ile-open-graph-etiketleri-farki': 'console',
+  'podcast-bolumleri-icin-seo': 'doc',
+  'video-youtubedan-gommek-mi-kendi-sitede-barindirmak-mi': 'lens',
+  'video-transkripti-ve-altyazilar-seo-icin-nasil-hazirlanir': 'lens',
+  'google-gorsellerde-fotograf-sahibi-ve-lisans-bilgisi': 'console',
+  'merchant-center-urun-feedi-ile-product-schema-farki': 'console',
 };
 
 function posts() {

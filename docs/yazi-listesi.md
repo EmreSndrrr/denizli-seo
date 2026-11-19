@@ -514,16 +514,16 @@ Kullanıcı planı önceden onayladı (“planlayıp hepsini adım adım yaz”)
 
 ### Yapılandırılmış veri ve medya içerikleri (311–320)
 
-- [ ] 311. Organization ve LocalBusiness Schema Arasındaki Fark — `teknik-seo` — `organization-ve-localbusiness-schema-farki`
-- [ ] 312. JSON-LD ile Microdata Arasındaki Fark Nedir? — `teknik-seo` — `json-ld-ile-microdata-arasindaki-fark`
-- [ ] 313. Review ve AggregateRating Schema Arasındaki Fark — `teknik-seo` — `review-ve-aggregaterating-schema-farki`
-- [ ] 314. Service Schema Hizmet Sayfalarında Nasıl Kullanılır? — `teknik-seo` — `service-schema-hizmet-sayfalarinda-nasil-kullanilir`
-- [ ] 315. Schema Markup ile Open Graph Etiketleri Arasındaki Fark — `teknik-seo` — `schema-markup-ile-open-graph-etiketleri-farki`
-- [ ] 316. Podcast Bölümleri İçin SEO Nasıl Yapılır? — `icerik-seo` — `podcast-bolumleri-icin-seo`
-- [ ] 317. Video: YouTube’dan Gömme mi, Kendi Sitede Barındırma mı? — `icerik-seo` — `video-youtubedan-gommek-mi-kendi-sitede-barindirmak-mi`
-- [ ] 318. Video Transkripti ve Altyazılar SEO İçin Nasıl Hazırlanır? — `icerik-seo` — `video-transkripti-ve-altyazilar-seo-icin-nasil-hazirlanir`
-- [ ] 319. Google Görseller’de Fotoğraf Sahibi ve Lisans Bilgisi — `teknik-seo` — `google-gorsellerde-fotograf-sahibi-ve-lisans-bilgisi`
-- [ ] 320. Merchant Center Ürün Feed’i ile Product Schema Farkı — `teknik-seo` — `merchant-center-urun-feedi-ile-product-schema-farki`
+- [x] 311. Organization ve LocalBusiness Schema Arasındaki Fark — `teknik-seo` — `organization-ve-localbusiness-schema-farki`
+- [x] 312. JSON-LD ile Microdata Arasındaki Fark Nedir? — `teknik-seo` — `json-ld-ile-microdata-arasindaki-fark`
+- [x] 313. Review ve AggregateRating Schema Arasındaki Fark — `teknik-seo` — `review-ve-aggregaterating-schema-farki`
+- [x] 314. Service Schema Hizmet Sayfalarında Nasıl Kullanılır? — `teknik-seo` — `service-schema-hizmet-sayfalarinda-nasil-kullanilir`
+- [x] 315. Schema Markup ile Open Graph Etiketleri Arasındaki Fark — `teknik-seo` — `schema-markup-ile-open-graph-etiketleri-farki`
+- [x] 316. Podcast Bölümleri İçin SEO Nasıl Yapılır? — `icerik-seo` — `podcast-bolumleri-icin-seo`
+- [x] 317. Video: YouTube’dan Gömme mi, Kendi Sitede Barındırma mı? — `icerik-seo` — `video-youtubedan-gommek-mi-kendi-sitede-barindirmak-mi`
+- [x] 318. Video Transkripti ve Altyazılar SEO İçin Nasıl Hazırlanır? — `icerik-seo` — `video-transkripti-ve-altyazilar-seo-icin-nasil-hazirlanir`
+- [x] 319. Google Görseller’de Fotoğraf Sahibi ve Lisans Bilgisi — `teknik-seo` — `google-gorsellerde-fotograf-sahibi-ve-lisans-bilgisi`
+- [x] 320. Merchant Center Ürün Feed’i ile Product Schema Farkı — `teknik-seo` — `merchant-center-urun-feedi-ile-product-schema-farki`
 
 ### Search Console ve GA4 ölçümü (321–330)
 
