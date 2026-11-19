@@ -590,6 +590,16 @@ const POST_MOTIF = {
   'seo-icin-gerekli-yazilim-degisiklikleri-yapilamiyorsa': 'console',
   'birden-fazla-ajans-ayni-sitede-calisirken-seo-sorumluluklari': 'profile',
   'seo-icin-mevcut-site-mi-yeni-site-mi': 'layout',
+  'tek-sayfalik-web-sitelerinde-seo': 'layout',
+  'hazir-site-mi-ozel-yazilim-mi-seo-icin-altyapi': 'layout',
+  'seo-uyumlu-web-sitesi-teklifinde-olmasi-gerekenler': 'layout',
+  'az-urunlu-e-ticaret-sitelerinde-seo': 'layout',
+  'birden-fazla-marka-tek-e-ticaret-sitesinde-mi-ayri-sitelerde-mi': 'layout',
+  'blogu-ayri-alan-adinda-yayinlamak': 'redirect',
+  'marka-aramalarinda-olumsuz-sonuclar': 'lens',
+  'marka-adinin-yanlis-yazimlari-icin-ayri-sayfa': 'lens',
+  'youtube-kanal-adi-ve-aciklamasi-seo': 'lens',
+  'is-ilani-sayfalari-google-islerde-gorunmek-icin': 'profile',
 };
 
 function posts() {

@@ -553,16 +553,16 @@ Kullanıcı planı önceden onayladı (“planlayıp hepsini adım adım yaz”)
 
 ### Web sitesi kararları ve yeni arama ihtiyaçları (341–350)
 
-- [ ] 341. Tek Sayfalık Web Sitelerinde SEO Nasıl Yapılır? — `web-tasarim` — `tek-sayfalik-web-sitelerinde-seo`
-- [ ] 342. Hazır Site mi Özel Yazılım mı? SEO İçin Altyapı Seçimi — `web-tasarim` — `hazir-site-mi-ozel-yazilim-mi-seo-icin-altyapi`
-- [ ] 343. SEO Uyumlu Web Sitesi Teklifinde Hangi Özellikler Olmalı? — `web-tasarim` — `seo-uyumlu-web-sitesi-teklifinde-olmasi-gerekenler`
-- [ ] 344. Az Ürünlü E-Ticaret Sitelerinde SEO Nasıl Planlanır? — `web-tasarim` — `az-urunlu-e-ticaret-sitelerinde-seo`
-- [ ] 345. Birden Fazla Marka Tek Sitede mi, Ayrı Sitelerde mi? — `web-tasarim` — `birden-fazla-marka-tek-e-ticaret-sitesinde-mi-ayri-sitelerde-mi`
-- [ ] 346. Blogu Ayrı Bir Alan Adında Yayınlamak SEO İçin Uygun mu? — `icerik-seo` — `blogu-ayri-alan-adinda-yayinlamak`
-- [ ] 347. Marka Aramalarında Olumsuz Sonuçlar Nasıl İncelenir? — `icerik-seo` — `marka-aramalarinda-olumsuz-sonuclar`
-- [ ] 348. Marka Adının Yanlış Yazımları İçin Ayrı Sayfa Gerekir mi? — `icerik-seo` — `marka-adinin-yanlis-yazimlari-icin-ayri-sayfa`
-- [ ] 349. YouTube Kanal Adı ve Açıklaması SEO İçin Nasıl Düzenlenir? — `icerik-seo` — `youtube-kanal-adi-ve-aciklamasi-seo`
-- [ ] 350. İş İlanı Sayfaları Google İşler İçin Nasıl Hazırlanır? — `teknik-seo` — `is-ilani-sayfalari-google-islerde-gorunmek-icin`
+- [x] 341. Tek Sayfalık Web Sitelerinde SEO Nasıl Yapılır? — `web-tasarim` — `tek-sayfalik-web-sitelerinde-seo`
+- [x] 342. Hazır Site mi Özel Yazılım mı? SEO İçin Altyapı Seçimi — `web-tasarim` — `hazir-site-mi-ozel-yazilim-mi-seo-icin-altyapi`
+- [x] 343. SEO Uyumlu Web Sitesi Teklifinde Hangi Özellikler Olmalı? — `web-tasarim` — `seo-uyumlu-web-sitesi-teklifinde-olmasi-gerekenler`
+- [x] 344. Az Ürünlü E-Ticaret Sitelerinde SEO Nasıl Planlanır? — `web-tasarim` — `az-urunlu-e-ticaret-sitelerinde-seo`
+- [x] 345. Birden Fazla Marka Tek Sitede mi, Ayrı Sitelerde mi? — `web-tasarim` — `birden-fazla-marka-tek-e-ticaret-sitesinde-mi-ayri-sitelerde-mi`
+- [x] 346. Blogu Ayrı Bir Alan Adında Yayınlamak SEO İçin Uygun mu? — `icerik-seo` — `blogu-ayri-alan-adinda-yayinlamak`
+- [x] 347. Marka Aramalarında Olumsuz Sonuçlar Nasıl İncelenir? — `icerik-seo` — `marka-aramalarinda-olumsuz-sonuclar`
+- [x] 348. Marka Adının Yanlış Yazımları İçin Ayrı Sayfa Gerekir mi? — `icerik-seo` — `marka-adinin-yanlis-yazimlari-icin-ayri-sayfa`
+- [x] 349. YouTube Kanal Adı ve Açıklaması SEO İçin Nasıl Düzenlenir? — `icerik-seo` — `youtube-kanal-adi-ve-aciklamasi-seo`
+- [x] 350. İş İlanı Sayfaları Google İşler İçin Nasıl Hazırlanır? — `teknik-seo` — `is-ilani-sayfalari-google-islerde-gorunmek-icin`
 
 ## Notlar
 
