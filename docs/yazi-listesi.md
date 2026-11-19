@@ -430,6 +430,140 @@ Atlanan (resmî kaynak doğrulanamadı / üçüncü taraf arayüzü): 157 (alan 
 - [x] 307. Astro Sitelerde SEO Ayarları Nasıl Yapılır? — `web-tasarim` — — `astro-sitelerde-seo-ayarlari-nasil-yapilir` — (liste No. 210)
 - [x] 308. Headless CMS Kullanılan Sitelerde SEO Kontrolleri — `web-tasarim` — — `headless-cms-kullanilan-sitelerde-seo-kontrolleri` — (liste No. 214)
 
+## 8. tur (dördüncü H1 listesi, No. 251–350, Kasım 2026)
+
+Kullanıcı planı önceden onayladı (“planlayıp hepsini adım adım yaz”). Çakışan beş başlık (273, 299, 301, 303, 307) yeni adres açmadan mevcut yazıya bölüm ekleyerek (`updated` alanıyla) işlendi; aynı arama niyeti iki adreste kanibalize olmasın diye. Kalan 95 başlık yeni yazıdır. Her yazı 1.300+ kelime, 7–8 soru H2, 5 SSS, doğrulanmış kaynaklar. `[ ]` yazılacak, `[x]` yazıldı, `[+]` mevcut yazı genişletildi.
+
+### Anahtar kelime ve arama sonucu araştırması (251–260)
+
+- [x] 251. SEO Kelime Zorluğu ile Google Ads Rekabeti Farkı Nedir? — `icerik-seo` — `seo-kelime-zorlugu-ile-google-ads-rekabeti-farki`
+- [x] 252. Arama Hacmi Sıfır Görünen Kelimeler Hedeflenmeli mi? — `icerik-seo` — `arama-hacmi-sifir-gorunen-anahtar-kelimeler`
+- [x] 253. Google Anahtar Kelime Planlayıcı SEO İçin Nasıl Kullanılır? — `icerik-seo` — `google-anahtar-kelime-planlayici-seo-icin-nasil-kullanilir`
+- [x] 254. SERP Analizi Nasıl Yapılır? İlk Sayfa Değerlendirme Rehberi — `icerik-seo` — `serp-analizi-nasil-yapilir`
+- [x] 255. Google Otomatik Tamamlamadan İçerik Konusu Nasıl Bulunur? — `icerik-seo` — `google-otomatik-tamamlamadan-icerik-konusu-bulma`
+- [x] 256. “Diğer Kullanıcılar Bunları da Sordu” Nasıl Kullanılır? — `icerik-seo` — `diger-kullanicilar-bunlari-da-sordu-sorularindan-yararlanma`
+- [x] 257. Google Ads Arama Terimleri Raporu SEO İçin Nasıl Kullanılır? — `icerik-seo` — `google-ads-arama-terimleri-raporu-seo-icin-nasil-kullanilir`
+- [x] 258. Site İçi Aramalardan Yeni İçerik Konuları Nasıl Çıkarılır? — `icerik-seo` — `site-ici-arama-verilerinden-icerik-konusu-cikarma`
+- [x] 259. İki Anahtar Kelime İçin Ayrı Sayfa Gerekir mi? — `icerik-seo` — `iki-anahtar-kelime-icin-ayri-sayfa-serp-benzerligi`
+- [x] 260. SEO Araçları Aynı Kelime İçin Neden Farklı Hacim Gösterir? — `icerik-seo` — `seo-araclari-neden-farkli-arama-hacmi-gosterir`
+
+### İçerik hazırlama ve yayınlama (261–270)
+
+- [ ] 261. SEO İçin Bir Makale Kaç Kelime Olmalı? — `icerik-seo` — `seo-icin-makale-kac-kelime-olmali`
+- [ ] 262. Blogda Yayın Sıklığı Nasıl Belirlenir? — `icerik-seo` — `blog-yayin-sikligi-nasil-belirlenir`
+- [ ] 263. Aynı Makale Birden Fazla Sitede Yayımlanabilir mi? — `icerik-seo` — `ayni-makale-birden-fazla-sitede-yayimlanabilir-mi`
+- [ ] 264. Karşılaştırma Tabloları SEO İçeriklerinde Nasıl Hazırlanır? — `icerik-seo` — `seo-iceriklerinde-karsilastirma-tablosu-nasil-hazirlanir`
+- [ ] 265. SEO Metni ile Reklam Metni Arasındaki Fark Nedir? — `icerik-seo` — `seo-metni-ile-reklam-metni-arasindaki-fark`
+- [ ] 266. İçindekiler Tablosu Nasıl Hazırlanır? Uzun Sayfa Rehberi — `icerik-seo` — `icindekiler-tablosu-nasil-hazirlanir`
+- [ ] 267. Tarih İçeren URL’ler Blog SEO’sunu Nasıl Etkiler? — `icerik-seo` — `tarih-iceren-urller-blog-seosunu-nasil-etkiler`
+- [ ] 268. Blog Yorumları SEO İçin Açık Tutulmalı mı? — `icerik-seo` — `blog-yorumlari-seo-icin-acik-tutulmali-mi`
+- [ ] 269. Eski İçeriğe Yeni Yayın Tarihi Vermek Doğru mu? — `icerik-seo` — `eski-icerige-yeni-yayin-tarihi-vermek-dogru-mu`
+- [ ] 270. Üyelik Arkasındaki İçerikler Google’da Nasıl Görünür? — `icerik-seo` — `uyelik-arkasindaki-icerikler-googlda-nasil-gorunur`
+
+### Tarama, durum kodları ve URL yönetimi (271–280)
+
+- [ ] 271. Robots.txt ile Engellemek ve Noindex Arasındaki Fark Nedir? — `teknik-seo` — `robots-txt-ile-engellemek-ve-noindex-farki`
+- [ ] 272. Silinen Sayfalarda 404 mü 410 mu Kullanılmalı? — `teknik-seo` — `silinen-sayfalarda-404-mu-410-mu`
+- [ ] 273. Soft 404 Hatası (mevcut yazı genişletilir) — `teknik-seo` — `soft-404-nedir-nasil-duzeltilir` (genişletme)
+- [ ] 274. 500 Sunucu Hatası SEO’yu Nasıl Etkiler? — `teknik-seo` — `500-sunucu-hatasi-seoyu-nasil-etkiler`
+- [ ] 275. Googlebot 429 Hatası Alıyorsa Ne Yapılmalı? — `teknik-seo` — `googlebot-429-hatasi-tarama-siniri`
+- [ ] 276. 307 ve 308 Yönlendirmeleri Ne Zaman Kullanılır? — `teknik-seo` — `307-ve-308-yonlendirmeleri-ne-zaman-kullanilir`
+- [ ] 277. Meta Refresh ile HTTP Yönlendirmesi Arasındaki Fark Nedir? — `teknik-seo` — `meta-refresh-ile-http-yonlendirmesi-farki`
+- [ ] 278. URL’deki Kare İşaretinden Sonraki Bölüm Ayrı Sayfa mı? — `teknik-seo` — `url-kare-isaretinden-sonraki-bolum-ayri-sayfa-sayilir-mi`
+- [ ] 279. HTML Lang ile Hreflang Arasındaki Fark Nedir? — `teknik-seo` — `html-lang-ile-hreflang-arasindaki-fark`
+- [ ] 280. Alan Adının Süresi Dolarsa Google Görünürlüğü Ne Olur? — `teknik-seo` — `alan-adinin-suresi-dolarsa-google-gorunurlugu`
+
+### Sayfa yapısı, performans ve görseller (281–290)
+
+- [ ] 281. Sonsuz Kaydırmalı Sayfalar SEO İçin Nasıl Hazırlanır? — `teknik-seo` — `sonsuz-kaydirma-kullanilan-sayfalar-seo`
+- [ ] 282. Yetim Sayfalar Nasıl Bulunur? Bağlantısız URL’ler — `teknik-seo` — `yetim-sayfalar-nasil-bulunur`
+- [ ] 283. Google’ın Takip Edebileceği Bağlantılar: Href ve Onclick — `teknik-seo` — `googlein-takip-edebilecegi-baglantilar-href-onclick`
+- [ ] 284. Oluşturmayı Engelleyen CSS ve JavaScript Nasıl Bulunur? — `teknik-seo` — `olusturmayi-engelleyen-css-ve-javascript-dosyalari`
+- [ ] 285. Kod Küçültme ile Sıkıştırma Farkı: Minify, Gzip, Brotli — `teknik-seo` — `kod-kucultme-ile-sikistirma-farki-minify-gzip-brotli`
+- [ ] 286. CSS Arka Plan Görselleri ile HTML Görselleri: SEO Farkı — `teknik-seo` — `css-arka-plan-gorselleri-ile-html-gorselleri-seo`
+- [ ] 287. SVG Görseller SEO İçin Nasıl Hazırlanır? — `teknik-seo` — `svg-gorseller-seo-icin-nasil-hazirlanir`
+- [ ] 288. Görsellerdeki EXIF Bilgileri SEO İçin Önemli mi? — `teknik-seo` — `gorsellerdeki-exif-bilgileri-seo-icin-onemli-mi`
+- [ ] 289. Responsive Tasarım SEO İçin Neden Değerlendirilmeli? — `web-tasarim` — `responsive-web-tasarim-seo-icin-neden-degerlendirilmeli`
+- [ ] 290. Önemli İçerikler Iframe İçinde Kullanılabilir mi? — `teknik-seo` — `seo-icin-onemli-icerikler-iframe-icinde-kullanilabilir-mi`
+
+### Backlink türleri ve bağlantı değerlendirmesi (291–300)
+
+- [ ] 291. Anchor Text Nedir? Backlinklerde Bağlantı Metni Seçimi — `backlink-hizmeti` — `anchor-text-nedir-backlinklerde-baglanti-metni-secimi`
+- [ ] 292. Backlinkler Ana Sayfaya mı Alt Sayfalara mı Yönlendirilmeli? — `backlink-hizmeti` — `backlinkler-ana-sayfaya-mi-alt-sayfalara-mi`
+- [ ] 293. Yeni Site İçin Backlink Çalışmasına Ne Zaman Başlanmalı? — `backlink-hizmeti` — `yeni-acilan-site-icin-backlink-ne-zaman-baslanmali`
+- [ ] 294. Backlink Sayısı ile Bağlantı Veren Domain Sayısı Farkı — `backlink-hizmeti` — `backlink-sayisi-ile-baglanti-veren-domain-sayisi-farki`
+- [ ] 295. EDU ve GOV Backlinkler Otomatik Olarak Daha Kaliteli mi? — `backlink-hizmeti` — `edu-ve-gov-backlinkler-otomatik-olarak-kaliteli-mi`
+- [ ] 296. Footer Backlink Nedir? Site Geneli Bağlantılar — `backlink-hizmeti` — `footer-backlink-nedir-site-geneli-baglantilar`
+- [ ] 297. Profil Backlink Nedir? Profil Linklerinden Ne Beklenmeli? — `backlink-hizmeti` — `profil-backlink-nedir`
+- [ ] 298. PBN Nedir? Özel Blog Ağlarının Riskleri — `backlink-hizmeti` — `pbn-nedir-ozel-blog-aglari-riskleri`
+- [ ] 299. Hacklink (mevcut yazı genişletilir) — `backlink-hizmeti` — `hacklink-nedir-neden-tehlikelidir` (genişletme)
+- [ ] 300. Link Takası SEO İçin Riskli mi? Karşılıklı Bağlantılar — `backlink-hizmeti` — `link-takasi-seo-icin-riskli-mi`
+
+### Google İşletme Profili yönetimi (301–310)
+
+- [ ] 301. GİP ürün ve hizmet (mevcut yazı genişletilir) — `yerel-seo` — `google-isletme-profili-hizmetler-bolumu-nasil-doldurulur` (genişletme)
+- [ ] 302. Google İşletme Profili Açıklaması Nasıl Yazılır? — `yerel-seo` — `google-isletme-profili-aciklamasi-nasil-yazilir`
+- [ ] 303. GİP fotoğraflar (mevcut yazı genişletilir) — `yerel-seo` — `google-isletme-profili-fotograflari-neler-eklenmeli` (genişletme)
+- [ ] 304. Google İşletme Adına Anahtar Kelime Eklemek Doğru mu? — `yerel-seo` — `google-isletme-adina-anahtar-kelime-eklemek-dogru-mu`
+- [ ] 305. Google İşletme Video Doğrulamasına Nasıl Hazırlanılır? — `yerel-seo` — `google-isletme-profili-video-dogrulamasina-hazirlik`
+- [ ] 306. Google Yorumları Neden Kaybolur veya Yayınlanmaz? — `yerel-seo` — `google-yorumlari-neden-kaybolur-veya-yayinlanmaz`
+- [ ] 307. GİP bayram saatleri (mevcut yazı genişletilir) — `yerel-seo` — `profilde-calisma-saatleri-ve-ozel-gunler-nasil-yonetilir` (genişletme)
+- [ ] 308. Google İşletme Profili Düzenlemesi İncelemede Kaldıysa — `yerel-seo` — `google-isletme-profili-duzenlemesi-incelemede-kaldiysa`
+- [ ] 309. Google Haritalar’da İşletme Pini Yanlış Yerdeyse — `yerel-seo` — `google-haritalarda-isletme-pini-yanlis-yerdeyse`
+- [ ] 310. Google İşletme Profili Web Sitesi Bağlantısına UTM Ekleme — `yerel-seo` — `google-isletme-profili-web-sitesi-baglantisina-utm-ekleme`
+
+### Yapılandırılmış veri ve medya içerikleri (311–320)
+
+- [ ] 311. Organization ve LocalBusiness Schema Arasındaki Fark — `teknik-seo` — `organization-ve-localbusiness-schema-farki`
+- [ ] 312. JSON-LD ile Microdata Arasındaki Fark Nedir? — `teknik-seo` — `json-ld-ile-microdata-arasindaki-fark`
+- [ ] 313. Review ve AggregateRating Schema Arasındaki Fark — `teknik-seo` — `review-ve-aggregaterating-schema-farki`
+- [ ] 314. Service Schema Hizmet Sayfalarında Nasıl Kullanılır? — `teknik-seo` — `service-schema-hizmet-sayfalarinda-nasil-kullanilir`
+- [ ] 315. Schema Markup ile Open Graph Etiketleri Arasındaki Fark — `teknik-seo` — `schema-markup-ile-open-graph-etiketleri-farki`
+- [ ] 316. Podcast Bölümleri İçin SEO Nasıl Yapılır? — `icerik-seo` — `podcast-bolumleri-icin-seo`
+- [ ] 317. Video: YouTube’dan Gömme mi, Kendi Sitede Barındırma mı? — `icerik-seo` — `video-youtubedan-gommek-mi-kendi-sitede-barindirmak-mi`
+- [ ] 318. Video Transkripti ve Altyazılar SEO İçin Nasıl Hazırlanır? — `icerik-seo` — `video-transkripti-ve-altyazilar-seo-icin-nasil-hazirlanir`
+- [ ] 319. Google Görseller’de Fotoğraf Sahibi ve Lisans Bilgisi — `teknik-seo` — `google-gorsellerde-fotograf-sahibi-ve-lisans-bilgisi`
+- [ ] 320. Merchant Center Ürün Feed’i ile Product Schema Farkı — `teknik-seo` — `merchant-center-urun-feedi-ile-product-schema-farki`
+
+### Search Console ve GA4 ölçümü (321–330)
+
+- [ ] 321. Search Console’da Bazı Arama Sorguları Neden Görünmüyor? — `teknik-seo` — `search-console-bazi-arama-sorgulari-neden-gorunmuyor`
+- [ ] 322. Search Console’da Web ve Discover Trafiği Nasıl Ayrılır? — `teknik-seo` — `search-console-web-ve-discover-trafigi-ayri-degerlendirme`
+- [ ] 323. Organik Ziyaretler GA4’te Neden Direct Görünebilir? — `teknik-seo` — `organik-ziyaretler-ga4te-neden-direct-gorunebilir`
+- [ ] 324. Search Console Ortalama Konum Nasıl Hesaplanır, Yorumlanır? — `teknik-seo` — `search-console-ortalama-konum-nasil-hesaplanir`
+- [ ] 325. Search Console’un Son Gün Verileri Neden Eksik Görünür? — `teknik-seo` — `search-console-son-gun-verileri-neden-eksik`
+- [ ] 326. GA4’te Site İçi Arama Takibi Nasıl Kurulur? — `teknik-seo` — `ga4te-site-ici-arama-takibi-nasil-kurulur`
+- [ ] 327. GA4’te Organik Açılış Sayfaları Nasıl İncelenir? — `teknik-seo` — `ga4te-organik-acilis-sayfalari-nasil-incelenir`
+- [ ] 328. Katalog ve PDF İndirmeleri GA4’te Nasıl Ölçülür? — `teknik-seo` — `katalog-ve-pdf-indirmeleri-ga4te-nasil-olculur`
+- [ ] 329. SEO Performansı Haftalık mı Aylık mı Değerlendirilmeli? — `teknik-seo` — `seo-performansi-haftalik-mi-aylik-mi-degerlendirilmeli`
+- [ ] 330. GA4 Veri Saklama Ayarı Uzun Dönem SEO Analizini Etkiler mi? — `teknik-seo` — `ga4-veri-saklama-ayari-uzun-donem-seo-analizleri`
+
+### SEO hizmeti seçimi ve proje yönetimi (331–340)
+
+- [ ] 331. SEO Puanım Yüksek Ama Sıralamam Düşük: Nelere Bakmalı? — `teknik-seo` — `seo-puanim-yuksek-ama-siralamam-dusuk`
+- [ ] 332. Tek Seferlik SEO Denetimi mi, Aylık SEO Hizmeti mi? — `teknik-seo` — `tek-seferlik-seo-denetimi-mi-aylik-seo-hizmeti-mi`
+- [ ] 333. SEO Hangi İşletmeler İçin Öncelikli Yatırım Olmayabilir? — `icerik-seo` — `seo-hangi-isletmeler-icin-oncelikli-yatirim-olmayabilir`
+- [ ] 334. SEO Çalışması Durdurulunca Hangi Veriler Takip Edilmeli? — `teknik-seo` — `seo-calismasi-durdurulunca-hangi-veriler-takip-edilmeli`
+- [ ] 335. İlk Sıra Garantili SEO Teklifleri Nasıl Değerlendirilir? — `teknik-seo` — `ilk-sira-garantisi-veren-seo-teklifleri`
+- [ ] 336. SEO Danışmanlığı ile Uygulamalı SEO Hizmeti Farkı — `teknik-seo` — `seo-danismanligi-ile-uygulamali-seo-hizmeti-farki`
+- [ ] 337. SEO Ajansına Hangi Hesap Yetkileri Verilmeli? — `teknik-seo` — `seo-ajansina-hangi-hesap-yetkileri-verilmeli`
+- [ ] 338. SEO İçin Gerekli Yazılım Değişiklikleri Yapılamıyorsa — `teknik-seo` — `seo-icin-gerekli-yazilim-degisiklikleri-yapilamiyorsa`
+- [ ] 339. Birden Fazla Ajans Aynı Sitede Çalışırken SEO Sorumlulukları — `teknik-seo` — `birden-fazla-ajans-ayni-sitede-calisirken-seo-sorumluluklari`
+- [ ] 340. SEO İçin Mevcut Site mi Kalmalı, Yeni Site mi Kurulmalı? — `web-tasarim` — `seo-icin-mevcut-site-mi-yeni-site-mi`
+
+### Web sitesi kararları ve yeni arama ihtiyaçları (341–350)
+
+- [ ] 341. Tek Sayfalık Web Sitelerinde SEO Nasıl Yapılır? — `web-tasarim` — `tek-sayfalik-web-sitelerinde-seo`
+- [ ] 342. Hazır Site mi Özel Yazılım mı? SEO İçin Altyapı Seçimi — `web-tasarim` — `hazir-site-mi-ozel-yazilim-mi-seo-icin-altyapi`
+- [ ] 343. SEO Uyumlu Web Sitesi Teklifinde Hangi Özellikler Olmalı? — `web-tasarim` — `seo-uyumlu-web-sitesi-teklifinde-olmasi-gerekenler`
+- [ ] 344. Az Ürünlü E-Ticaret Sitelerinde SEO Nasıl Planlanır? — `web-tasarim` — `az-urunlu-e-ticaret-sitelerinde-seo`
+- [ ] 345. Birden Fazla Marka Tek Sitede mi, Ayrı Sitelerde mi? — `web-tasarim` — `birden-fazla-marka-tek-e-ticaret-sitesinde-mi-ayri-sitelerde-mi`
+- [ ] 346. Blogu Ayrı Bir Alan Adında Yayınlamak SEO İçin Uygun mu? — `icerik-seo` — `blogu-ayri-alan-adinda-yayinlamak`
+- [ ] 347. Marka Aramalarında Olumsuz Sonuçlar Nasıl İncelenir? — `icerik-seo` — `marka-aramalarinda-olumsuz-sonuclar`
+- [ ] 348. Marka Adının Yanlış Yazımları İçin Ayrı Sayfa Gerekir mi? — `icerik-seo` — `marka-adinin-yanlis-yazimlari-icin-ayri-sayfa`
+- [ ] 349. YouTube Kanal Adı ve Açıklaması SEO İçin Nasıl Düzenlenir? — `icerik-seo` — `youtube-kanal-adi-ve-aciklamasi-seo`
+- [ ] 350. İş İlanı Sayfaları Google İşler İçin Nasıl Hazırlanır? — `teknik-seo` — `is-ilani-sayfalari-google-islerde-gorunmek-icin`
+
 ## Notlar
 
 - Doktor, diş hekimi ve avukat başlıkları yazılmadan önce ilgili reklam yasaklarını resmî kaynaktan (.gov.tr) doğrulayın.

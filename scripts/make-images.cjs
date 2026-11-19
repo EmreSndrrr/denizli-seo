@@ -505,6 +505,16 @@ const POST_MOTIF = {
   'mevsimsel-icerik-takvimi-denizli-isletmeleri': 'doc',
   'turkce-seo-icerigi-okunabilirlik': 'doc',
   'semantik-seo-nedir-konu-butunlugu': 'linkgraph',
+  'seo-kelime-zorlugu-ile-google-ads-rekabeti-farki': 'chart',
+  'arama-hacmi-sifir-gorunen-anahtar-kelimeler': 'doc',
+  'google-anahtar-kelime-planlayici-seo-icin-nasil-kullanilir': 'console',
+  'serp-analizi-nasil-yapilir': 'lens',
+  'google-otomatik-tamamlamadan-icerik-konusu-bulma': 'lens',
+  'diger-kullanicilar-bunlari-da-sordu-sorularindan-yararlanma': 'doc',
+  'google-ads-arama-terimleri-raporu-seo-icin-nasil-kullanilir': 'chart',
+  'site-ici-arama-verilerinden-icerik-konusu-cikarma': 'chart',
+  'iki-anahtar-kelime-icin-ayri-sayfa-serp-benzerligi': 'linkgraph',
+  'seo-araclari-neden-farkli-arama-hacmi-gosterir': 'console',
 };
 
 function posts() {
