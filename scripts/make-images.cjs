@@ -570,6 +570,16 @@ const POST_MOTIF = {
   'video-transkripti-ve-altyazilar-seo-icin-nasil-hazirlanir': 'lens',
   'google-gorsellerde-fotograf-sahibi-ve-lisans-bilgisi': 'console',
   'merchant-center-urun-feedi-ile-product-schema-farki': 'console',
+  'search-console-bazi-arama-sorgulari-neden-gorunmuyor': 'chart',
+  'search-console-web-ve-discover-trafigi-ayri-degerlendirme': 'chart',
+  'organik-ziyaretler-ga4te-neden-direct-gorunebilir': 'chart',
+  'search-console-ortalama-konum-nasil-hesaplanir': 'chart',
+  'search-console-son-gun-verileri-neden-eksik': 'chart',
+  'ga4te-site-ici-arama-takibi-nasil-kurulur': 'chart',
+  'ga4te-organik-acilis-sayfalari-nasil-incelenir': 'chart',
+  'katalog-ve-pdf-indirmeleri-ga4te-nasil-olculur': 'chart',
+  'seo-performansi-haftalik-mi-aylik-mi-degerlendirilmeli': 'chart',
+  'ga4-veri-saklama-ayari-uzun-donem-seo-analizleri': 'chart',
 };
 
 function posts() {

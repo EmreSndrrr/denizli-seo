@@ -527,16 +527,16 @@ Kullanıcı planı önceden onayladı (“planlayıp hepsini adım adım yaz”)
 
 ### Search Console ve GA4 ölçümü (321–330)
 
-- [ ] 321. Search Console’da Bazı Arama Sorguları Neden Görünmüyor? — `teknik-seo` — `search-console-bazi-arama-sorgulari-neden-gorunmuyor`
-- [ ] 322. Search Console’da Web ve Discover Trafiği Nasıl Ayrılır? — `teknik-seo` — `search-console-web-ve-discover-trafigi-ayri-degerlendirme`
-- [ ] 323. Organik Ziyaretler GA4’te Neden Direct Görünebilir? — `teknik-seo` — `organik-ziyaretler-ga4te-neden-direct-gorunebilir`
-- [ ] 324. Search Console Ortalama Konum Nasıl Hesaplanır, Yorumlanır? — `teknik-seo` — `search-console-ortalama-konum-nasil-hesaplanir`
-- [ ] 325. Search Console’un Son Gün Verileri Neden Eksik Görünür? — `teknik-seo` — `search-console-son-gun-verileri-neden-eksik`
-- [ ] 326. GA4’te Site İçi Arama Takibi Nasıl Kurulur? — `teknik-seo` — `ga4te-site-ici-arama-takibi-nasil-kurulur`
-- [ ] 327. GA4’te Organik Açılış Sayfaları Nasıl İncelenir? — `teknik-seo` — `ga4te-organik-acilis-sayfalari-nasil-incelenir`
-- [ ] 328. Katalog ve PDF İndirmeleri GA4’te Nasıl Ölçülür? — `teknik-seo` — `katalog-ve-pdf-indirmeleri-ga4te-nasil-olculur`
-- [ ] 329. SEO Performansı Haftalık mı Aylık mı Değerlendirilmeli? — `teknik-seo` — `seo-performansi-haftalik-mi-aylik-mi-degerlendirilmeli`
-- [ ] 330. GA4 Veri Saklama Ayarı Uzun Dönem SEO Analizini Etkiler mi? — `teknik-seo` — `ga4-veri-saklama-ayari-uzun-donem-seo-analizleri`
+- [x] 321. Search Console’da Bazı Arama Sorguları Neden Görünmüyor? — `teknik-seo` — `search-console-bazi-arama-sorgulari-neden-gorunmuyor`
+- [x] 322. Search Console’da Web ve Discover Trafiği Nasıl Ayrılır? — `teknik-seo` — `search-console-web-ve-discover-trafigi-ayri-degerlendirme`
+- [x] 323. Organik Ziyaretler GA4’te Neden Direct Görünebilir? — `teknik-seo` — `organik-ziyaretler-ga4te-neden-direct-gorunebilir`
+- [x] 324. Search Console Ortalama Konum Nasıl Hesaplanır, Yorumlanır? — `teknik-seo` — `search-console-ortalama-konum-nasil-hesaplanir`
+- [x] 325. Search Console’un Son Gün Verileri Neden Eksik Görünür? — `teknik-seo` — `search-console-son-gun-verileri-neden-eksik`
+- [x] 326. GA4’te Site İçi Arama Takibi Nasıl Kurulur? — `teknik-seo` — `ga4te-site-ici-arama-takibi-nasil-kurulur`
+- [x] 327. GA4’te Organik Açılış Sayfaları Nasıl İncelenir? — `teknik-seo` — `ga4te-organik-acilis-sayfalari-nasil-incelenir`
+- [x] 328. Katalog ve PDF İndirmeleri GA4’te Nasıl Ölçülür? — `teknik-seo` — `katalog-ve-pdf-indirmeleri-ga4te-nasil-olculur`
+- [x] 329. SEO Performansı Haftalık mı Aylık mı Değerlendirilmeli? — `teknik-seo` — `seo-performansi-haftalik-mi-aylik-mi-degerlendirilmeli`
+- [x] 330. GA4 Veri Saklama Ayarı Uzun Dönem SEO Analizini Etkiler mi? — `teknik-seo` — `ga4-veri-saklama-ayari-uzun-donem-seo-analizleri`
 
 ### SEO hizmeti seçimi ve proje yönetimi (331–340)
 
