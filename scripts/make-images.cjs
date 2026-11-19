@@ -580,6 +580,16 @@ const POST_MOTIF = {
   'katalog-ve-pdf-indirmeleri-ga4te-nasil-olculur': 'chart',
   'seo-performansi-haftalik-mi-aylik-mi-degerlendirilmeli': 'chart',
   'ga4-veri-saklama-ayari-uzun-donem-seo-analizleri': 'chart',
+  'seo-puanim-yuksek-ama-siralamam-dusuk': 'gauge',
+  'tek-seferlik-seo-denetimi-mi-aylik-seo-hizmeti-mi': 'console',
+  'seo-hangi-isletmeler-icin-oncelikli-yatirim-olmayabilir': 'profile',
+  'seo-calismasi-durdurulunca-hangi-veriler-takip-edilmeli': 'chart',
+  'ilk-sira-garantili-seo-teklifleri-nasil-degerlendirilir': 'broken',
+  'seo-danismanligi-ile-uygulamali-seo-hizmeti-farki': 'profile',
+  'seo-ajansina-hangi-hesap-yetkileri-verilmeli': 'console',
+  'seo-icin-gerekli-yazilim-degisiklikleri-yapilamiyorsa': 'console',
+  'birden-fazla-ajans-ayni-sitede-calisirken-seo-sorumluluklari': 'profile',
+  'seo-icin-mevcut-site-mi-yeni-site-mi': 'layout',
 };
 
 function posts() {

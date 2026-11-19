@@ -540,16 +540,16 @@ Kullanıcı planı önceden onayladı (“planlayıp hepsini adım adım yaz”)
 
 ### SEO hizmeti seçimi ve proje yönetimi (331–340)
 
-- [ ] 331. SEO Puanım Yüksek Ama Sıralamam Düşük: Nelere Bakmalı? — `teknik-seo` — `seo-puanim-yuksek-ama-siralamam-dusuk`
-- [ ] 332. Tek Seferlik SEO Denetimi mi, Aylık SEO Hizmeti mi? — `teknik-seo` — `tek-seferlik-seo-denetimi-mi-aylik-seo-hizmeti-mi`
-- [ ] 333. SEO Hangi İşletmeler İçin Öncelikli Yatırım Olmayabilir? — `icerik-seo` — `seo-hangi-isletmeler-icin-oncelikli-yatirim-olmayabilir`
-- [ ] 334. SEO Çalışması Durdurulunca Hangi Veriler Takip Edilmeli? — `teknik-seo` — `seo-calismasi-durdurulunca-hangi-veriler-takip-edilmeli`
-- [ ] 335. İlk Sıra Garantili SEO Teklifleri Nasıl Değerlendirilir? — `teknik-seo` — `ilk-sira-garantisi-veren-seo-teklifleri`
-- [ ] 336. SEO Danışmanlığı ile Uygulamalı SEO Hizmeti Farkı — `teknik-seo` — `seo-danismanligi-ile-uygulamali-seo-hizmeti-farki`
-- [ ] 337. SEO Ajansına Hangi Hesap Yetkileri Verilmeli? — `teknik-seo` — `seo-ajansina-hangi-hesap-yetkileri-verilmeli`
-- [ ] 338. SEO İçin Gerekli Yazılım Değişiklikleri Yapılamıyorsa — `teknik-seo` — `seo-icin-gerekli-yazilim-degisiklikleri-yapilamiyorsa`
-- [ ] 339. Birden Fazla Ajans Aynı Sitede Çalışırken SEO Sorumlulukları — `teknik-seo` — `birden-fazla-ajans-ayni-sitede-calisirken-seo-sorumluluklari`
-- [ ] 340. SEO İçin Mevcut Site mi Kalmalı, Yeni Site mi Kurulmalı? — `web-tasarim` — `seo-icin-mevcut-site-mi-yeni-site-mi`
+- [x] 331. SEO Puanım Yüksek Ama Sıralamam Düşük: Nelere Bakmalı? — `teknik-seo` — `seo-puanim-yuksek-ama-siralamam-dusuk`
+- [x] 332. Tek Seferlik SEO Denetimi mi, Aylık SEO Hizmeti mi? — `teknik-seo` — `tek-seferlik-seo-denetimi-mi-aylik-seo-hizmeti-mi`
+- [x] 333. SEO Hangi İşletmeler İçin Öncelikli Yatırım Olmayabilir? — `icerik-seo` — `seo-hangi-isletmeler-icin-oncelikli-yatirim-olmayabilir`
+- [x] 334. SEO Çalışması Durdurulunca Hangi Veriler Takip Edilmeli? — `teknik-seo` — `seo-calismasi-durdurulunca-hangi-veriler-takip-edilmeli`
+- [x] 335. İlk Sıra Garantili SEO Teklifleri Nasıl Değerlendirilir? — `teknik-seo` — `ilk-sira-garantili-seo-teklifleri-nasil-degerlendirilir`
+- [x] 336. SEO Danışmanlığı ile Uygulamalı SEO Hizmeti Farkı — `teknik-seo` — `seo-danismanligi-ile-uygulamali-seo-hizmeti-farki`
+- [x] 337. SEO Ajansına Hangi Hesap Yetkileri Verilmeli? — `teknik-seo` — `seo-ajansina-hangi-hesap-yetkileri-verilmeli`
+- [x] 338. SEO İçin Gerekli Yazılım Değişiklikleri Yapılamıyorsa — `teknik-seo` — `seo-icin-gerekli-yazilim-degisiklikleri-yapilamiyorsa`
+- [x] 339. Birden Fazla Ajans Aynı Sitede Çalışırken SEO Sorumlulukları — `teknik-seo` — `birden-fazla-ajans-ayni-sitede-calisirken-seo-sorumluluklari`
+- [x] 340. SEO İçin Mevcut Site mi Kalmalı, Yeni Site mi Kurulmalı? — `web-tasarim` — `seo-icin-mevcut-site-mi-yeni-site-mi`
 
 ### Web sitesi kararları ve yeni arama ihtiyaçları (341–350)
 
