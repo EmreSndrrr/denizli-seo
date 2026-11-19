@@ -119,7 +119,7 @@ Rapor teslim gününü sözleşmeye yazın ve geciken raporu bir uyarı sayın; 
 
 - her bağlantı için kaynak, yöntem, tarih ve niteleme bilgisini sunarız,
 - ücretli yerleşim varsa açıkça yazar, doğru nitelenmesini sağlarız,
-- satın alınmış bağlantı ve özel blog ağı kullanmayız,
+- satın alınmış bağlantı kullanmayız,
 - sıralama garantisi vermeyiz; ölçümü başlangıç verisiyle karşılaştırırız.
 
 Mevcut ajansınızın raporunu birlikte değerlendirmek isterseniz [bize yazın](/iletisim/).

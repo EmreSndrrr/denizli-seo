@@ -102,7 +102,7 @@ Yeni site için ilk 90 gün doğru kurulursa sonrası kolaylaşır. [Backlink hi
 - yeni sitenizin temel teknik durumunu ve profilini önce kontrol ederiz,
 - mevcut ilişkilerinizden gerçek bağlantı fırsatlarını çıkarırız,
 - 30-60-90 günlük bir plan hazırlar, aylık yazılı rapor veririz,
-- satın alınmış bağlantı, özel blog ağı ve hacklink kullanmayız.
+- satın alınmış bağlantı ve hacklink kullanmayız.
 
 Yeni siteniz için plan istiyorsanız [bize yazın](/iletisim/).
 

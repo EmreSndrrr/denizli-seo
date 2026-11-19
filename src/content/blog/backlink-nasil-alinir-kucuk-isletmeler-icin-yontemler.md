@@ -102,7 +102,7 @@ Backlink çalışması sabır ve ilişki ister. [Backlink hizmetimizde](/backlin
 
 - işletmenize uygun yerel kuruluş, iş ortağı, basın ve içerik fırsatlarını listeleriz,
 - iletişim metinlerini ve iş birliği tekliflerini şeffaf biçimde hazırlarız,
-- satın alınmış bağlantı, özel blog ağı ve hacklink kullanmayız,
+- satın alınmış bağlantı ve hacklink kullanmayız,
 - kazanılan bağlantıları ve sonuçları aylık, yazılı raporlarız.
 
 Plan çıkarmak isterseniz [bize yazın](/iletisim/).

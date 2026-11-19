@@ -1,6 +1,6 @@
 ---
 title: "Manuel Backlink Nedir? Otomatik Bağlantıdan Farkı"
-description: "Manuel backlink nedir, otomatik bağlantıdan farkı ne? Elle oluşturma, katman sistemi, indeksleme desteği, raporlama ve paket seçerken sorulacak sorular."
+description: "Manuel backlink nedir, otomatik bağlantıdan farkı ne? Elle oluşturma, katman sistemi, indeksleme, raporlama ve paket seçerken sorulacak sorular."
 date: 2026-11-19
 service: backlink-hizmeti
 imageAlt: "Elle oluşturulan bağlantılar ile otomatik bağlantı üretiminin karşılaştırması"
@@ -40,9 +40,9 @@ Katman sisteminde bağlantılar üç kademede kurulur: birinci katman sitenize d
 
 > **Hizmet almak için iletişime geçin.** Bağlantıları elle oluşturduğumuz ve teslimde listesiyle raporladığımız [manuel backlink paketlerimizi](/manuel-backlink-paketleri/) inceleyin ya da [bize yazın](/iletisim/).
 
-## İndeksleme desteği ne demek?
+## Bağlantıların indekslenmesi garanti edilebilir mi?
 
-Bir bağlantının etkisi olabilmesi için önce arama motorunun o sayfayı bulması gerekir. İndeksleme desteği, oluşturulan bağlantıların bulunduğu sayfaların keşfedilmesini kolaylaştıran ek işlemlerdir. Ancak bir sayfayı dizine ekleme kararı tamamen arama motorunundur; Google da tarama ve dizine eklemenin garanti olmadığını belirtir ([Google Arama nasıl çalışır?](https://developers.google.com/search/docs/fundamentals/how-search-works?hl=tr)). Bu yüzden “yüzde yüz indeksleme” vaadi gerçekçi değildir. Bağlantı veren sayfanın dizinde olup olmadığını kendiniz de kontrol edebilirsiniz ([backlink veren sayfa indeksli mi?](/blog/backlink-veren-sayfa-indeksli-mi-nasil-kontrol-edilir/)).
+Bir bağlantının etkisi olabilmesi için önce arama motorunun o sayfayı bulması gerekir. Ancak bir sayfayı dizine ekleme kararı tamamen arama motorunundur; Google da tarama ve dizine eklemenin garanti olmadığını belirtir ([Google Arama nasıl çalışır?](https://developers.google.com/search/docs/fundamentals/how-search-works?hl=tr)). Bu yüzden “yüzde yüz indeksleme” vaadi gerçekçi değildir. Bağlantı veren sayfanın dizinde olup olmadığını kendiniz de kontrol edebilirsiniz ([backlink veren sayfa indeksli mi?](/blog/backlink-veren-sayfa-indeksli-mi-nasil-kontrol-edilir/)).
 
 ## DA ve PA değerleri ne anlatır?
 
@@ -93,7 +93,7 @@ Bu örnek bir sonuç vaadi değildir.
 [Manuel backlink paketlerimizde](/manuel-backlink-paketleri/):
 
 - bağlantıları global platformlarda bot kullanmadan, tek tek elle oluştururuz,
-- katman sistemi ve indeksleme desteğiyle bağlantıların keşfini destekleriz,
+- bağlantıları katman sistemi ve premium indekslemeyle destekleriz,
 - teslimde tüm bağlantıların listesini veririz,
 - hacklink ve ele geçirilmiş site kullanmaz, sıralama garantisi vermeyiz.
 
