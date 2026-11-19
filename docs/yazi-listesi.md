@@ -488,16 +488,16 @@ Kullanıcı planı önceden onayladı (“planlayıp hepsini adım adım yaz”)
 
 ### Backlink türleri ve bağlantı değerlendirmesi (291–300)
 
-- [ ] 291. Anchor Text Nedir? Backlinklerde Bağlantı Metni Seçimi — `backlink-hizmeti` — `anchor-text-nedir-backlinklerde-baglanti-metni-secimi`
-- [ ] 292. Backlinkler Ana Sayfaya mı Alt Sayfalara mı Yönlendirilmeli? — `backlink-hizmeti` — `backlinkler-ana-sayfaya-mi-alt-sayfalara-mi`
-- [ ] 293. Yeni Site İçin Backlink Çalışmasına Ne Zaman Başlanmalı? — `backlink-hizmeti` — `yeni-acilan-site-icin-backlink-ne-zaman-baslanmali`
-- [ ] 294. Backlink Sayısı ile Bağlantı Veren Domain Sayısı Farkı — `backlink-hizmeti` — `backlink-sayisi-ile-baglanti-veren-domain-sayisi-farki`
-- [ ] 295. EDU ve GOV Backlinkler Otomatik Olarak Daha Kaliteli mi? — `backlink-hizmeti` — `edu-ve-gov-backlinkler-otomatik-olarak-kaliteli-mi`
-- [ ] 296. Footer Backlink Nedir? Site Geneli Bağlantılar — `backlink-hizmeti` — `footer-backlink-nedir-site-geneli-baglantilar`
-- [ ] 297. Profil Backlink Nedir? Profil Linklerinden Ne Beklenmeli? — `backlink-hizmeti` — `profil-backlink-nedir`
-- [ ] 298. PBN Nedir? Özel Blog Ağlarının Riskleri — `backlink-hizmeti` — `pbn-nedir-ozel-blog-aglari-riskleri`
-- [ ] 299. Hacklink (mevcut yazı genişletilir) — `backlink-hizmeti` — `hacklink-nedir-neden-tehlikelidir` (genişletme)
-- [ ] 300. Link Takası SEO İçin Riskli mi? Karşılıklı Bağlantılar — `backlink-hizmeti` — `link-takasi-seo-icin-riskli-mi`
+- [x] 291. Anchor Text Nedir? Backlinklerde Bağlantı Metni Seçimi — `backlink-hizmeti` — `anchor-text-nedir-backlinklerde-baglanti-metni-secimi`
+- [x] 292. Backlinkler Ana Sayfaya mı Alt Sayfalara mı Yönlendirilmeli? — `backlink-hizmeti` — `backlinkler-ana-sayfaya-mi-alt-sayfalara-mi`
+- [x] 293. Yeni Site İçin Backlink Çalışmasına Ne Zaman Başlanmalı? — `backlink-hizmeti` — `yeni-acilan-site-icin-backlink-ne-zaman-baslanmali`
+- [x] 294. Backlink Sayısı ile Bağlantı Veren Domain Sayısı Farkı — `backlink-hizmeti` — `backlink-sayisi-ile-baglanti-veren-domain-sayisi-farki`
+- [x] 295. EDU ve GOV Backlinkler Otomatik Olarak Daha Kaliteli mi? — `backlink-hizmeti` — `edu-ve-gov-backlinkler-otomatik-olarak-kaliteli-mi`
+- [x] 296. Footer Backlink Nedir? Site Geneli Bağlantılar — `backlink-hizmeti` — `footer-backlink-nedir-site-geneli-baglantilar`
+- [x] 297. Profil Backlink Nedir? Profil Linklerinden Ne Beklenmeli? — `backlink-hizmeti` — `profil-backlink-nedir`
+- [x] 298. PBN Nedir? Özel Blog Ağlarının Riskleri — `backlink-hizmeti` — `pbn-nedir-ozel-blog-aglari-riskleri`
+- [+] 299. Hacklink (mevcut yazı genişletilir) — `backlink-hizmeti` — `hacklink-nedir-neden-tehlikelidir` (genişletme)
+- [x] 300. Link Takası SEO İçin Riskli mi? Karşılıklı Bağlantılar — `backlink-hizmeti` — `link-takasi-seo-icin-riskli-mi`
 
 ### Google İşletme Profili yönetimi (301–310)
 

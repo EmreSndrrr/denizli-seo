@@ -544,6 +544,15 @@ const POST_MOTIF = {
   'gorsellerdeki-exif-bilgileri-seo-icin-onemli-mi': 'console',
   'responsive-web-tasarim-seo-icin-neden-degerlendirilmeli': 'layout',
   'seo-icin-onemli-icerikler-iframe-icinde-kullanilabilir-mi': 'layout',
+  'anchor-text-nedir-backlinklerde-baglanti-metni-secimi': 'linkgraph',
+  'backlinkler-ana-sayfaya-mi-alt-sayfalara-mi': 'linkgraph',
+  'yeni-acilan-site-icin-backlink-ne-zaman-baslanmali': 'linkgraph',
+  'backlink-sayisi-ile-baglanti-veren-domain-sayisi-farki': 'chart',
+  'edu-ve-gov-backlinkler-otomatik-olarak-kaliteli-mi': 'linkgraph',
+  'footer-backlink-nedir-site-geneli-baglantilar': 'linkgraph',
+  'profil-backlink-nedir': 'profile',
+  'pbn-nedir-ozel-blog-aglari-riskleri': 'broken',
+  'link-takasi-seo-icin-riskli-mi': 'linkgraph',
 };
 
 function posts() {

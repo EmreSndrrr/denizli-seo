@@ -2,6 +2,7 @@
 title: "Hacklink Nedir? Neden Tehlikelidir?"
 description: "Hacklink nedir, nasıl çalışır, neden tehlikelidir? Hacklink teklifini tanıma, sitenizde hacklink bulma ve güvenli bağlantı çalışmasının farkı."
 date: 2026-11-13
+updated: 2026-11-19
 service: backlink-hizmeti
 imageAlt: "Ele geçirilmiş bir siteye gizlice yerleştirilmiş bağlantı"
 ---
@@ -41,6 +42,33 @@ Bu işaretlerden birkaçını birlikte görüyorsanız teklifi reddedin. Google�
 ## Sitenizde hacklink olup olmadığını nasıl anlarsınız?
 
 Sitenizin kendisi ele geçirilmiş olabilir; bunu fark etmek için şu belirtilere bakın: sayfalarda tanımadığınız bağlantılar ve metinler, arama sonuçlarında sitenizin başlığında alakasız kelimeler (kumar, ilaç, kredi gibi), Search Console’da güvenlik ya da manuel işlem bildirimi, bilmediğiniz sayfaların oluşması, trafikte ani ve anlamsız değişimler. Search Console’un güvenlik ve manuel işlem bölümlerini ve e-posta bildirimlerini kontrol edin. Düşüşün nedenlerini araştırırken Google’ın trafik düşüşü rehberinde güvenlik sorunları da kontrol edilecek nedenler arasında sayılır ([trafik düşüşü hata ayıklama](https://developers.google.com/search/docs/monitor-debug/debugging-search-traffic-drops?hl=tr)). Teşhis için [trafik düşüşü nasıl teşhis edilir?](/blog/trafik-dususu-nasil-teshis-edilir/) yazısına bakın.
+
+## Sitedeki izinsiz bağlantıları adım adım nasıl bulursunuz?
+
+“Sitemde bilmediğim bir bağlantı var mı?” sorusunu cevaplamak için şu taramayı yapın:
+
+1. **Sayfa kaynağında arama yapın.** Tarayıcıda ana sayfanın ve birkaç önemli sayfanın kaynak kodunu açıp `display:none`, `visibility:hidden`, `font-size:0`, `left:-9999px` gibi bir bölümü gizleyen stilleri ve içlerindeki bağlantıları arayın. Hacklink’ler çoğu zaman görünmez bir kutunun içine yazılır.
+2. **Bilmediğiniz dış bağlantıları listeleyin.** Bir SEO tarama aracıyla siteyi tarayıp giden bağlantıları dışa aktarın; tanımadığınız alan adlarına giden bağlantıları ayırın.
+3. **Google’da kendi sitenizi kendi adınızla arayın.** `site:alanadi.com` aramasına kumar, ilaç ya da kredi gibi kelimeler ekleyip sitenizde alakasız sayfa ya da başlık çıkıp çıkmadığına bakın.
+4. **Search Console’un güvenlik sorunları ve manuel işlemler raporlarını açın.** Burada bildirim varsa, Google sorunu zaten fark etmiştir ([Güvenlik sorunları raporu](https://support.google.com/webmasters/answer/9044101?hl=tr)).
+5. **Yönetim panelini denetleyin.** Tanımadığınız kullanıcı hesapları, son değiştirilen dosyalar, kurduğunuzu hatırlamadığınız eklentiler ve temalar ele geçirilmenin işareti olabilir.
+6. **Görünmez gizleme olasılığına karşı canlı testi kullanın.** Search Console’un URL Denetleme aracında Google’ın gördüğü sayfa ile sizin gördüğünüzü karşılaştırın; bilgisayar korsanları genellikle içeriği yalnızca arama botuna gösteren gizleme yöntemleri kullanır.
+
+Google’ın spam politikası bu durumu “saldırıya uğramış içerik” başlığı altında ele alır: bir sitenin güvenlik açıkları nedeniyle siteye izinsiz yerleştirilen içerik. Saldırıya uğramış sitelerde bilgisayar korsanı çoğunlukla site sahibinin saldırıyı fark etmesini zorlaştırmak için gizleme kullanır ([spam politikaları](https://developers.google.com/search/docs/essentials/spam-policies?hl=tr)). Özel bir örnek olarak web.dev’in Japonca anahtar kelime saldırısı rehberi, bir sitede rastgele oluşturulmuş sayfaların nasıl tespit edileceğini ve temizleneceğini anlatır ([Japonca anahtar kelime saldırısını düzeltin](https://web.dev/articles/fixing-the-japanese-keyword-hack?hl=tr)). Bu tür bir saldırıyla karşılaştıysanız [Google’da sitem için Japonca spam sayfalar çıkıyor](/blog/googleda-sitem-icin-japonca-spam-sayfalar-cikiyor/) yazısına bakın.
+
+## Hacklink türleri nasıl görünür?
+
+Sitenizde ya da başka bir sitede şu biçimlerde karşınıza çıkabilir:
+
+| Biçim | Nasıl fark edilir? |
+| --- | --- |
+| Gizli kutu içinde bağlantı | Kaynak kodda `display:none` ya da ekran dışı konum |
+| Eski yazıya eklenmiş cümle | Yazının sonunda anlamsız, ilgisiz bir bağlantı cümlesi |
+| Altbilgiye eklenmiş bağlantı | Altbilgide tanımadığınız alan adları |
+| Yalnızca bota gösterilen bağlantı | Tarayıcıda görünmez, URL Denetleme’de görünür |
+| Yeni oluşturulmuş sayfalar | Sitemap’te ya da `site:` aramasında bilmediğiniz adresler |
+
+Bu tabloyu bir kontrol listesi olarak kullanın; her satırı sitenizde ayrı ayrı deneyin. Bulduğunuz izinsiz bağlantı ya da sayfayı kaldırmak tek başına yetmez: açığı kapatmazsanız saldırı tekrar eder; bu yüzden aşağıdaki adımları izleyin.
 
 ## Siteniz ele geçirildiyse ne yapmalısınız?
 
@@ -100,3 +128,5 @@ Search Console’daki bildirimleri izleyin, sayfa kaynağını ve yeni oluşan s
 - [Google Search Central: Google Arama trafiğindeki düşüşlerle ilgili hata ayıklama](https://developers.google.com/search/docs/monitor-debug/debugging-search-traffic-drops?hl=tr)
 - [Search Console Yardımı: sitenize bağlantıları reddetme](https://support.google.com/webmasters/answer/2648487?hl=tr)
 - [Google Search Central: SEO’ya mı ihtiyacınız var? SEO uzmanı işe alma ipuçları](https://developers.google.com/search/docs/fundamentals/do-i-need-seo?hl=tr)
+- [Search Console Yardımı: Güvenlik sorunları raporu](https://support.google.com/webmasters/answer/9044101?hl=tr)
+- [web.dev: Japonca anahtar kelime saldırısını düzeltin](https://web.dev/articles/fixing-the-japanese-keyword-hack?hl=tr)
