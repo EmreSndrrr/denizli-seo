@@ -6,7 +6,7 @@ service: backlink-hizmeti
 imageAlt: "Backlink hizmeti süreci: denetim, kaynak, çalışma, rapor"
 ---
 
-Backlink hizmeti nasıl çalışır diye soruyorsanız cevap şu: önce sitenize bugün kimlerin bağlandığına bakılır, sonra sektörünüzle ve bölgenizle gerçekten ilgili kaynaklar seçilir, bu kaynaklarla içerik, haber ya da iş birliği üzerinden iletişim kurulur ve her ay hangi bağlantıların kazanıldığı ve kaybolduğu kaynağın adıyla raporlanır. Satın alınmış bağlantı, özel blog ağı ve hacklink bu sürecin dışındadır. Sonuç garanti edilemez; çünkü her bağlantı başka bir sitenin kendi kararıdır.
+Backlink hizmeti nasıl çalışır diye soruyorsanız cevap şu: önce sitenize bugün kimlerin bağlandığına bakılır, sonra sektörünüzle ve bölgenizle gerçekten ilgili kaynaklar seçilir, bu kaynaklarla içerik, haber ya da iş birliği üzerinden iletişim kurulur ve her ay hangi bağlantıların kazanıldığı ve kaybolduğu kaynağın adıyla raporlanır. Satın alınmış bağlantı ve hacklink bu sürecin dışındadır. Sonuç garanti edilemez; çünkü her bağlantı başka bir sitenin kendi kararıdır.
 
 Bu yazıda bizim backlink hizmetinin adım adım nasıl işlediğini, ne yapıp ne yapmadığımızı ve raporda neler göreceğinizi anlatıyoruz. Hizmetin kapsamı için [backlink hizmeti sayfamıza](/backlink-hizmeti/) da bakabilirsiniz.
 

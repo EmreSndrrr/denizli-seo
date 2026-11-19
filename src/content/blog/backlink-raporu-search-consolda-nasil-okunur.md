@@ -119,7 +119,7 @@ Bağlantı verinizi anlamak, çalışmanın ilk adımıdır. [Backlink hizmetimi
 - Search Console Bağlantılar raporunu ve diğer kaynakları birlikte inceleriz,
 - hangi sayfaların bağlantı aldığını ve satış sayfalarına nasıl aktarılacağını planlarız,
 - gerçek ilişkilere dayanan bağlantı fırsatlarını (yerel kuruluşlar, iş ortakları, basın) çıkarırız,
-- satın alınmış bağlantı, özel blog ağı ve hacklink kullanmayız,
+- satın alınmış bağlantı ve hacklink kullanmayız,
 - bulguları ve çalışmaları yazılı raporlarız.
 
 Raporunuzu birlikte okumak isterseniz [bize yazın](/iletisim/).

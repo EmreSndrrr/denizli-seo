@@ -116,7 +116,7 @@ Bu örnek bir sonuç vaadi değildir; bağlantı gelmesi garanti değildir.
 
 - işletmenizin sorulara dayalı bağlantı çekme potansiyeli taşıyan içerik fırsatlarını belirleriz,
 - içeriği doğrulanmış kaynaklarla hazırlar ve ilgili kuruluşlara dürüstçe duyururuz,
-- satın alınmış bağlantı, özel blog ağı ve hacklink kullanmayız,
+- satın alınmış bağlantı ve hacklink kullanmayız,
 - kazanılan bağlantıları ve içeriğin performansını aylık raporlarız.
 
 İçerik ve bağlantı planı için [bize yazın](/iletisim/).

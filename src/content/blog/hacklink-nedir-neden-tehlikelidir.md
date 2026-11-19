@@ -70,7 +70,7 @@ Bir bağlantı teklifi aldığınızda üç soru sorun: Bağlantı nasıl ve ner
 
 ## Denizli SEO bu konuda nasıl yardımcı olur?
 
-Biz hacklink, satın alınmış toplu bağlantı ya da özel blog ağı kullanmıyoruz. Sitenizin bağlantı profilini inceler, şüpheli kaynakları tek tek değerlendirir, gerçekten gerekliyse Google’ın reddetme aracını kullanırız. Sonrasında yerel kurum, iş ortağı, haber ve içerik yoluyla hak edilmiş bağlantılar için çalışır, her ay yazılı rapor veririz. Sıralama garantisi vermeyiz. Örnek (hayalî bir işletme için): Pamukkale’de bir otelin sitesinde eski bir ajanstan kalan tuhaf bağlantılar fark ediliyor; bağlantılar tek tek incelenip nedenleri araştırılıyor ve gerekli olanlar için bir plan çıkarılıyor.
+Biz hacklink ve bot ile toplu bağlantı kullanmıyoruz. Sitenizin bağlantı profilini inceler, şüpheli kaynakları tek tek değerlendirir, gerçekten gerekliyse Google’ın reddetme aracını kullanırız. Sonrasında yerel kurum, iş ortağı, haber ve içerik yoluyla hak edilmiş bağlantılar için çalışır, her ay yazılı rapor veririz. Sıralama garantisi vermeyiz. Örnek (hayalî bir işletme için): Pamukkale’de bir otelin sitesinde eski bir ajanstan kalan tuhaf bağlantılar fark ediliyor; bağlantılar tek tek incelenip nedenleri araştırılıyor ve gerekli olanlar için bir plan çıkarılıyor.
 
 ## Sık sorulan sorular
 

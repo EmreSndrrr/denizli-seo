@@ -133,7 +133,7 @@ Bu örnek bir sonuç vaadi değildir.
 
 [Backlink hizmetimizde](/backlink-hizmeti/):
 
-- satın alınmış bağlantı, özel blog ağı ve hacklink kullanmayız; puan şişirmeyiz,
+- satın alınmış bağlantı ve hacklink kullanmayız; puan şişirmeyiz,
 - bağlantı kaynaklarını gerçeklik, konu uyumu ve okur ölçütleriyle değerlendiririz,
 - kazanılan her bağlantıyı adresiyle raporlarız,
 - başarıyı Search Console verisi ve gelen taleple ölçeriz.

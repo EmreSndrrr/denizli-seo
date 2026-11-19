@@ -100,7 +100,7 @@ Yazı sayısına, bağlantı sayısına ve ücret koşuluna baştan sınır koyu
 
 [Backlink hizmetimizde](/backlink-hizmeti/):
 
-- satın alınmış bağlantı, özel blog ağı ve hacklink önermeyiz,
+- satın alınmış bağlantı ve hacklink önermeyiz,
 - gerçekten konuyla ilgili yayınlarda uzmanlık yazısı fırsatlarını birlikte değerlendiririz,
 - ücretli yerleşim varsa bağlantının doğru nitelenmesini sağlarız,
 - yapılan işi yazılı raporlarız; sıralama garantisi vermeyiz.

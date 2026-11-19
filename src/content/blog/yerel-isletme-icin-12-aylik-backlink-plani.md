@@ -122,7 +122,7 @@ Plan yazmak kolay, sürdürmek zordur. [Backlink hizmetimizde](/backlink-hizmeti
 
 - işletmenize özel 12 aylık planı hazırlar ve ay ay uygularız,
 - yerel kuruluş, iş ortağı, basın ve içerik fırsatlarını gerçek ilişkilerle kurarız,
-- satın alınmış bağlantı, özel blog ağı ve hacklink kullanmayız,
+- satın alınmış bağlantı ve hacklink kullanmayız,
 - her ay yazılı rapor ve gelecek ay için öneri sunarız.
 
 Yıllık planınızı birlikte yapmak isterseniz [bize yazın](/iletisim/).
