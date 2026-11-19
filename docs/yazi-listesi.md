@@ -462,16 +462,16 @@ Kullanıcı planı önceden onayladı (“planlayıp hepsini adım adım yaz”)
 
 ### Tarama, durum kodları ve URL yönetimi (271–280)
 
-- [ ] 271. Robots.txt ile Engellemek ve Noindex Arasındaki Fark Nedir? — `teknik-seo` — `robots-txt-ile-engellemek-ve-noindex-farki`
-- [ ] 272. Silinen Sayfalarda 404 mü 410 mu Kullanılmalı? — `teknik-seo` — `silinen-sayfalarda-404-mu-410-mu`
-- [ ] 273. Soft 404 Hatası (mevcut yazı genişletilir) — `teknik-seo` — `soft-404-nedir-nasil-duzeltilir` (genişletme)
-- [ ] 274. 500 Sunucu Hatası SEO’yu Nasıl Etkiler? — `teknik-seo` — `500-sunucu-hatasi-seoyu-nasil-etkiler`
-- [ ] 275. Googlebot 429 Hatası Alıyorsa Ne Yapılmalı? — `teknik-seo` — `googlebot-429-hatasi-tarama-siniri`
-- [ ] 276. 307 ve 308 Yönlendirmeleri Ne Zaman Kullanılır? — `teknik-seo` — `307-ve-308-yonlendirmeleri-ne-zaman-kullanilir`
-- [ ] 277. Meta Refresh ile HTTP Yönlendirmesi Arasındaki Fark Nedir? — `teknik-seo` — `meta-refresh-ile-http-yonlendirmesi-farki`
-- [ ] 278. URL’deki Kare İşaretinden Sonraki Bölüm Ayrı Sayfa mı? — `teknik-seo` — `url-kare-isaretinden-sonraki-bolum-ayri-sayfa-sayilir-mi`
-- [ ] 279. HTML Lang ile Hreflang Arasındaki Fark Nedir? — `teknik-seo` — `html-lang-ile-hreflang-arasindaki-fark`
-- [ ] 280. Alan Adının Süresi Dolarsa Google Görünürlüğü Ne Olur? — `teknik-seo` — `alan-adinin-suresi-dolarsa-google-gorunurlugu`
+- [x] 271. Robots.txt ile Engellemek ve Noindex Arasındaki Fark Nedir? — `teknik-seo` — `robots-txt-ile-engellemek-ve-noindex-farki`
+- [x] 272. Silinen Sayfalarda 404 mü 410 mu Kullanılmalı? — `teknik-seo` — `silinen-sayfalarda-404-mu-410-mu`
+- [+] 273. Soft 404 Hatası (mevcut yazı genişletilir) — `teknik-seo` — `soft-404-nedir-nasil-duzeltilir` (genişletme)
+- [x] 274. 500 Sunucu Hatası SEO’yu Nasıl Etkiler? — `teknik-seo` — `500-sunucu-hatasi-seoyu-nasil-etkiler`
+- [x] 275. Googlebot 429 Hatası Alıyorsa Ne Yapılmalı? — `teknik-seo` — `googlebot-429-hatasi-tarama-siniri`
+- [x] 276. 307 ve 308 Yönlendirmeleri Ne Zaman Kullanılır? — `teknik-seo` — `307-ve-308-yonlendirmeleri-ne-zaman-kullanilir`
+- [x] 277. Meta Refresh ile HTTP Yönlendirmesi Arasındaki Fark Nedir? — `teknik-seo` — `meta-refresh-ile-http-yonlendirmesi-farki`
+- [x] 278. URL’deki Kare İşaretinden Sonraki Bölüm Ayrı Sayfa mı? — `teknik-seo` — `url-kare-isaretinden-sonraki-bolum-ayri-sayfa-sayilir-mi`
+- [x] 279. HTML Lang ile Hreflang Arasındaki Fark Nedir? — `teknik-seo` — `html-lang-ile-hreflang-arasindaki-fark`
+- [x] 280. Alan Adının Süresi Dolarsa Google Görünürlüğü Ne Olur? — `teknik-seo` — `alan-adinin-suresi-dolarsa-google-gorunurlugu`
 
 ### Sayfa yapısı, performans ve görseller (281–290)
 

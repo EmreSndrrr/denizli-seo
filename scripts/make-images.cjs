@@ -525,6 +525,15 @@ const POST_MOTIF = {
   'blog-yorumlari-seo-icin-acik-tutulmali-mi': 'doc',
   'eski-icerige-yeni-yayin-tarihi-vermek-dogru-mu': 'doc',
   'uyelik-arkasindaki-icerikler-googleda-nasil-gorunur': 'console',
+  'robots-txt-ile-engellemek-ve-noindex-farki': 'console',
+  'silinen-sayfalarda-404-mu-410-mu': 'broken',
+  '500-sunucu-hatasi-seoyu-nasil-etkiler': 'gauge',
+  'googlebot-429-hatasi-tarama-siniri': 'gauge',
+  '307-ve-308-yonlendirmeleri-ne-zaman-kullanilir': 'redirect',
+  'meta-refresh-ile-http-yonlendirmesi-farki': 'redirect',
+  'url-kare-isaretinden-sonraki-bolum-ayri-sayfa-sayilir-mi': 'redirect',
+  'html-lang-ile-hreflang-arasindaki-fark': 'layout',
+  'alan-adinin-suresi-dolarsa-google-gorunurlugu': 'broken',
 };
 
 function posts() {

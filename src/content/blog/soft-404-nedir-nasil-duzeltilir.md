@@ -2,6 +2,7 @@
 title: Soft 404 Nedir? Nasıl Düzeltilir?
 description: "Soft 404 nedir, neden olur, nasıl düzeltilir? Google’ın tanımı, 404 durum kodu, boş ve ince sayfalar, tek sayfalık uygulamalar ve kontrol adımları."
 date: 2026-11-10
+updated: 2026-11-19
 service: teknik-seo
 imageAlt: "“Sayfa bulunamadı” yazan ama yeşil onaylı bir sayfa"
 ---
@@ -92,6 +93,31 @@ Ayda bir Sayfa dizine ekleme raporuna bakın; yeni soft 404 var mı? Siteyi yeni
 ## Soft 404’leri önlemek için şablon kuralı
 
 Boş sonuç, stokta olmayan ürün ya da kaldırılmış sayfa şablonlarının doğru durum koduyla çalıştığından emin olun. Geliştiriciden bu şablonlar için hata sayfasını doğru kodla döndürmesini isteyin.
+
+## Sayfa açılıyor ama soft 404 görünüyorsa: adım adım teşhis
+
+“Sayfa açılıyor, içeriği var, ama Search Console soft 404 diyor” şikâyeti çok yaygındır. Google’ın “yumuşak 404” kararı, sayfanın sizin gözünüzle değil, Google’ın gördüğü içerikle verilir. Şu adımlarla bakın:
+
+1. **URL Denetleme’de canlı testi çalıştırın.** Google’ın gördüğü görüntüye ve oluşturulan HTML’e bakın; sayfa Google’a boş, hata mesajlı ya da çok kısa görünüyor olabilir.
+2. **JavaScript ile yüklenen içeriği kontrol edin.** İçerik yalnızca tarayıcıda yükleniyorsa Google’a boş görünebilir ([JavaScript siteleri ve SEO](/blog/javascript-siteleri-ve-seo-google-sayfayi-goruyor-mu/)).
+3. **Sayfanın asıl içeriğini sorgulayın.** Çok az metin, yalnızca menü ve altbilgi, ya da “içerik yakında” gibi bir ifade içeren sayfa yetersiz görünür.
+4. **Sunucu yanıtını kontrol edin.** Bazen sunucu aralıklı olarak hata sayfası gösterir ve Google tarama anında bunu yakalamıştır.
+5. **Yönlendirmelere bakın.** Eski bir adres ilgisiz bir sayfaya (özellikle ana sayfaya) yönlendiriliyorsa soft 404 gibi değerlendirilebilir.
+6. **Düzeltin ve yeniden denetletin.** İçeriği güçlendirin ya da gerçekten yoksa 404 verin; ardından doğrulamayı başlatın.
+
+Sayfa gerçekten değerliyse çoğu zaman çözüm içeriği derinleştirmek ya da Google’ın içeriği görmesini sağlamaktır; sayfa değerli değilse silmek ya da birleştirmek daha doğrudur.
+
+## Hangi senaryoda hangi çözüm?
+
+| Senaryo | Olası neden | Çözüm |
+| --- | --- | --- |
+| Boş kategori sayfası | Ürün yok, içerik yok | İçerik ekleyin ya da 404 verin |
+| Eski adres ana sayfaya gidiyor | İlgisiz yönlendirme | Yakın sayfaya 301 ya da 404 |
+| Arama sonucu sayfası “sonuç yok” diyor | İnce içerik | Noindex ya da 404 |
+| Sayfa JavaScript ile dolduruluyor | İçerik Google’a boş görünüyor | Sunucu tarafı oluşturma ya da içeriği HTML’e alma |
+| “Stokta yok” ürün sayfası | Sayfa boşalmış | Benzer ürün ve bilgi ekleyin |
+
+Bu tablo, yumuşak 404 sorununu nedenine göre ayırmanıza yardım eder; ayrım yapmadan toplu 404 vermek, değerli sayfaları da kaybettirebilir.
 
 ## Denizli SEO bu konuda nasıl yardımcı olur?
 
