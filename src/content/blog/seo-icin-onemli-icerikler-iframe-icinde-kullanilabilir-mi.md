@@ -46,7 +46,7 @@ Iframe, sayfanın asıl bilgisi olmayan destekleyici öğeler için uygundur:
 | Hizmet açıklaması, fiyat, SSS | Hayır | Doğrudan sayfaya yazın |
 | Makale metni, ürün açıklaması | Hayır | Sayfanın kendi HTML’inde olmalı |
 
-Google’ın video rehberi, Google’ın `<video>`, `<embed>`, `<iframe>` ya da `<object>` öğesiyle referans verilen videoları bulabildiğini söyler; üçüncü taraf oynatıcıları (YouTube, Vimeo gibi) kullanırken izlenecek uygulamaları da anlatır ([video SEO en iyi uygulamaları](https://developers.google.com/search/docs/appearance/video?hl=tr)). Yani video gömmek için iframe kullanmak Google tarafından bilinen ve desteklenen bir yoldur. Videonun nasıl barındırılacağı kararı için [videoyu YouTube’dan gömmek mi, kendi sitenizde barındırmak mı?](/blog/video-youtubedan-gomme-mi-kendi-sitede-barindirma-mi/) yazısına bakabilirsiniz.
+Google’ın video rehberi, Google’ın `<video>`, `<embed>`, `<iframe>` ya da `<object>` öğesiyle referans verilen videoları bulabildiğini söyler; üçüncü taraf oynatıcıları (YouTube, Vimeo gibi) kullanırken izlenecek uygulamaları da anlatır ([video SEO en iyi uygulamaları](https://developers.google.com/search/docs/appearance/video?hl=tr)). Yani video gömmek için iframe kullanmak Google tarafından bilinen ve desteklenen bir yoldur. Videonun nasıl barındırılacağı kararı için [videoyu YouTube’dan gömmek mi, kendi sitenizde barındırmak mı?](/blog/video-youtubedan-gommek-mi-kendi-sitede-barindirmak-mi/) yazısına bakabilirsiniz.
 
 ## Harita iframe’i için doğru kullanım
 

@@ -41,7 +41,7 @@ Bunların hiçbiri sıralama garantisi vermez; ama eksikliği görünürlük kay
 Tasarım duyarlı olsa bile şu sorunlar çıkabilir:
 
 - **Mobilde içerik eksik.** Masaüstünde görünen metin ya da bağlantılar mobil sürümde gizlenmiş ya da kaldırılmış olabilir.
-- **Mobilde yavaşlık.** Büyük görseller ve ağır betikler telefonda sayfayı geç açtırır ([sitem telefonda yavaş: nereden başlamalıyım?](/blog/sitem-telefonda-yavas-nereden-baslamaliyim/)).
+- **Mobilde yavaşlık.** Büyük görseller ve ağır betikler telefonda sayfayı geç açtırır ([sitem telefonda yavaş: nereden başlamalıyım?](/blog/telefonda-hizli-acilan-site/)).
 - **Taşan tablolar ve görseller.** Ekrana sığmayan öğeler yatay kaydırmaya yol açar.
 - **Küçük ve yakın tıklama alanları.** Parmakla basılamayan düğmeler kullanıcıyı kaybettirir.
 - **Mobil pop-up’lar.** Sayfayı kaplayan pencereler içeriğe erişimi zorlaştırır ([mobil pop-up’lar SEO’yu nasıl etkiler?](/blog/mobil-pop-uplar-seoyu-nasil-etkiler/)).
